@@ -42,7 +42,7 @@ MICHIGAN_COUNTIES = [
     "Delta", "Dickinson", "Eaton", "Emmet", "Genesee", "Gladwin", "Gogebic",
     "Grand Traverse", "Gratiot", "Hillsdale", "Houghton", "Huron", "Ingham",
     "Ionia", "Iosco", "Iron", "Isabella", "Jackson", "Kalamazoo", "Kalkaska",
-    "Kent", "Keweenaw", "Lake", "LARP", "Lapeer", "Leelanau", "Lenawee",
+    "Kent", "Keweenaw", "Lake", "Lapeer", "Leelanau", "Lenawee",
     "Livingston", "Luce", "Mackinac", "Macomb", "Manistee", "Marquette",
     "Mason", "Mecosta", "Menominee", "Midland", "Missaukee", "Monroe",
     "Montcalm", "Montmorency", "Muskegon", "Newaygo", "Oakland", "Oceana",
@@ -381,26 +381,173 @@ def parse_county_listings(pages: dict[int, str]) -> tuple[list[Lake], list[Strea
     return lakes, streams, county_order
 
 
+# Statewide species regulations from the General Fishing Regulations table
+# (physical pp. 14-15). This is the "fallback" for any water that isn't a
+# designated trout/salmon water. Each species has min size, daily limit, and
+# possession season. The table is hand-curated from the 2026 PDF.
+STATEWIDE_SPECIES_REGS = [
+    {
+        "id": "largemouth-bass",
+        "name": "Largemouth Bass",
+        "min_size": "14\"",
+        "daily_limit": "5 (in combination with Smallmouth Bass)",
+        "possession_seasons": [
+            "3rd Sat. in June – Dec. 31: L. St. Clair, St. Clair R., Detroit R.",
+            "Sat. before Memorial Day – Dec. 31: All other waters including Great Lakes",
+        ],
+        "notes": "Catch-and-immediate-release allowed all year. Special 4th-Sat-in-June opener for L. St. Clair, St. Clair R., Detroit R.",
+    },
+    {
+        "id": "smallmouth-bass",
+        "name": "Smallmouth Bass",
+        "min_size": "14\"",
+        "daily_limit": "5 (in combination with Largemouth Bass)",
+        "possession_seasons": [
+            "3rd Sat. in June – Dec. 31: L. St. Clair, St. Clair R., Detroit R.",
+            "Sat. before Memorial Day – Dec. 31: All other waters including Great Lakes",
+        ],
+        "notes": "Catch-and-immediate-release allowed all year.",
+    },
+    {
+        "id": "walleye",
+        "name": "Walleye",
+        "min_size": "15\"",
+        "daily_limit": "5",
+        "possession_seasons": [
+            "May 15 – March 15: Upper Peninsula Great Lakes and inland waters, and St. Marys R.",
+            "Last Sat. in April – March 15: Lower Peninsula inland waters",
+            "Open All Year: Lower Peninsula Great Lakes, L. St. Clair, St. Clair R., Detroit R.",
+        ],
+        "notes": "Protected Slot Limit (PSL) waters: release all 15\"-18\" walleye, possession limit 5 with no more than 1 over 23\". Special L. Huron MH-4: 8 daily, 13\" min. L. Erie/Detroit R./L. St. Clair/St. Clair R.: 6 daily through Apr 30, 2027.",
+    },
+    {
+        "id": "northern-pike",
+        "name": "Northern Pike",
+        "min_size": "24\"",
+        "daily_limit": "2",
+        "possession_seasons": [
+            "May 15 – March 15: Upper Peninsula Great Lakes and inland waters, and St. Marys R.",
+            "Last Sat. in April – March 15: Lower Peninsula inland waters",
+            "Open All Year: Lower Peninsula Great Lakes, L. St. Clair, St. Clair R., Detroit R.",
+        ],
+        "notes": None,
+    },
+    {
+        "id": "flathead-catfish",
+        "name": "Flathead Catfish",
+        "min_size": "15\"",
+        "daily_limit": "5",
+        "possession_seasons": ["Open All Year"],
+        "notes": None,
+    },
+    {
+        "id": "channel-catfish",
+        "name": "Channel Catfish",
+        "min_size": "12\"",
+        "daily_limit": "10",
+        "possession_seasons": ["Open All Year"],
+        "notes": None,
+    },
+    {
+        "id": "muskellunge",
+        "name": "Muskellunge (including Tiger Muskellunge)",
+        "min_size": "42\" (50\" in some waters — see NOTE 4)",
+        "daily_limit": "1 per angler per license year (mandatory registration)",
+        "possession_seasons": [
+            "1st Sat. in June – March 15: All Great Lakes and inland waters and St. Marys R.",
+            "1st Sat. in June – Dec. 31: L. St. Clair, St. Clair R., Detroit R.",
+        ],
+        "notes": "Catch-and-immediate-release allowed all year. Special 50\" minimum size applies to: L. Bellaire, Clam L., Torch L., Elk L. (above Elk Rapids Dam), L. Skegemog, Thornapple R. (M-50 bridge to McCann Rd), Chicagon L., and more. Harvest must be registered within 24 hours via Michigan.gov/RegisterFish, Hunt Fish app, or 888-636-7778.",
+    },
+    {
+        "id": "yellow-perch",
+        "name": "Yellow Perch",
+        "min_size": "No size limit",
+        "daily_limit": "25",
+        "possession_seasons": ["Open All Year"],
+        "notes": "Some waters have lower limits (e.g. L. Gogebic: 25 with no more than 5 over 12\").",
+    },
+    {
+        "id": "sunfishes",
+        "name": "Sunfishes (Bluegill, Pumpkinseed, Rock Bass, etc.)",
+        "min_size": "No size limit",
+        "daily_limit": "25 in any combination of the listed species",
+        "possession_seasons": ["Open All Year"],
+        "notes": None,
+    },
+    {
+        "id": "white-bass",
+        "name": "White Bass",
+        "min_size": "No size limit",
+        "daily_limit": "25 on Great Lakes, L. St. Clair, St. Marys R., St. Clair R., Detroit R.; 10 on inland waters",
+        "possession_seasons": ["Open All Year"],
+        "notes": None,
+    },
+    {
+        "id": "cisco-whitefish",
+        "name": "Cisco, Lake Whitefish, Round Whitefish",
+        "min_size": "No size limit",
+        "daily_limit": "10 in any combination on Great Lakes, Connecting Waters and Type F lakes; 5 in any combination on other inland waters",
+        "possession_seasons": ["Open All Year"],
+        "notes": None,
+    },
+    {
+        "id": "smelt",
+        "name": "Smelt",
+        "min_size": "No size limit",
+        "daily_limit": "2 gallons",
+        "possession_seasons": ["Open All Year"],
+        "notes": "See p. 23 for General Netting Regulations.",
+    },
+    {
+        "id": "burbot",
+        "name": "Burbot (Eelpout)",
+        "min_size": "No size limit",
+        "daily_limit": "5",
+        "possession_seasons": ["Open All Year"],
+        "notes": None,
+    },
+    {
+        "id": "all-others",
+        "name": "All other species (bullheads, carp, suckers, etc.)",
+        "min_size": "No size limit",
+        "daily_limit": "No possession limit",
+        "possession_seasons": ["Open All Year"],
+        "notes": "Includes all nongame fish not listed above.",
+    },
+]
+
+
 def parse_general_fishing_regs(pages: dict[int, str]) -> list[RegulationDoc]:
     """
     Parse the General Fishing Regulations section (physical pages 14-15).
 
     These are the species-specific regs (walleye, bass, pike, etc.) — the
-    fallback when a lake/stream isn't classified as trout water.
+    baseline for any water that isn't classified as trout water. We extract
+    each species into a structured record with min size, daily limit, and
+    possession season. The full text is also included as a RegulationDoc
+    for the "view the raw PDF page" feature.
     """
     docs = []
     text = "\n".join(pages.get(p, "") for p in [14, 15])
-    # The general regs are organized by species with size limits, seasons,
-    # creel limits. We capture the whole text block as one doc and let the
-    # frontend display it.
+    # Keep the full text as a doc too (for reference / fallback)
     docs.append(RegulationDoc(
-        id="general",
-        title="General Fishing Regulations",
+        id="general-raw",
+        title="General Fishing Regulations (raw text)",
         category="general",
         body=text.strip(),
         source_pages=[14, 15],
     ))
     return docs
+
+
+def get_species_regulations() -> list[dict]:
+    """
+    Return the structured statewide species regulations. This data is
+    hand-curated from the 2026 PDF General Fishing Regulations table
+    (physical pp. 14-15). For per-county overrides, see parse_county_exceptions.
+    """
+    return STATEWIDE_SPECIES_REGS
 
 
 def parse_special_regs(pages: dict[int, str]) -> list[RegulationDoc]:
@@ -437,7 +584,14 @@ def parse_county_exceptions(pages: dict[int, str]) -> list[RegulationDoc]:
     """
     Parse physical pages 30-33: Exceptions to General Regulations by County.
 
-    These are county-specific overrides of the general fishing regs.
+    These are county-specific overrides of the general fishing regs. The
+    page layout is: county name as a header, then free-text paragraphs
+    describing the exceptions (gear, season, size limit, etc.) for that
+    county. The text often references specific species (bass, walleye, etc.)
+    by name.
+
+    We extract a list of (county, exceptions_text) pairs. The frontend
+    shows these alongside the statewide species rules.
     """
     docs = []
     text = "\n---\n".join(pages.get(p, "") for p in [30, 31, 32, 33])
@@ -449,6 +603,88 @@ def parse_county_exceptions(pages: dict[int, str]) -> list[RegulationDoc]:
         source_pages=[30, 31, 32, 33],
     ))
     return docs
+
+
+def get_county_exceptions_by_county() -> dict[str, str]:
+    """
+    Parse the County Exceptions section and return a {county: exceptions_text}
+    dict. The PDF lists counties alphabetically on physical pp. 30-33 in a
+    2-COLUMN layout: county name header in the left OR right column, then
+    free-text paragraphs below. The county name header line often has the
+    FIRST line of the OTHER column's content glued onto the same line in
+    pdftotext output, e.g. "                      Allegan                            unweighted hook..."
+
+    We detect a county header by: take the first whitespace-bounded token
+    of the line, and if it's a county name, treat the line as a header.
+    Then capture the text up to the next header.
+
+    This is used to surface per-county overrides when a user picks a county
+    on the map or filters by species.
+    """
+    text_pages = []
+    for p in [30, 31, 32, 33]:
+        page_text = run_pdftotext("-f", str(p), "-l", str(p))
+        text_pages.append(page_text)
+    full_text = "\n".join(text_pages)
+
+    county_set = set(MICHIGAN_COUNTIES)
+    lines = full_text.splitlines()
+
+    # First pass: find lines where the FIRST whitespace-delimited token
+    # is a county name. This catches both left-column and right-column
+    # county headers.
+    line_to_county: dict[int, str] = {}
+    for i, line in enumerate(lines):
+        stripped = line.strip()
+        if not stripped:
+            continue
+        first_token = stripped.split()[0]
+        if first_token in county_set:
+            line_to_county[i] = first_token
+
+    # For each match, capture the text up to the next match (or end of doc)
+    out: dict[str, str] = {}
+    sorted_lines = sorted(line_to_county.keys())
+    for i, line_idx in enumerate(sorted_lines):
+        county = line_to_county[line_idx]
+        start = line_idx + 1
+        end = sorted_lines[i + 1] if i + 1 < len(sorted_lines) else len(lines)
+        chunk_lines = lines[start:end]
+        # The right-column content is glued onto the left column's data lines.
+        # Each line has whitespace from ~col 70 onwards, then real text. We
+        # find the LONGEST run of consecutive spaces in the line and split
+        # there. This works because the column gutter has more spaces than
+        # any intra-column spacing.
+        cleaned = []
+        for cl in chunk_lines:
+            # Find the longest whitespace run (the column gutter)
+            # Skip leading whitespace
+            content_start = len(cl) - len(cl.lstrip())
+            rest = cl[content_start:]
+            if not rest.strip():
+                # Line is all whitespace
+                continue
+            # Find the longest run of spaces in the line (the column gutter)
+            m = re.search(r" {6,}", rest)
+            if m:
+                # Split at the longest whitespace run
+                col_split = content_start + m.start()
+                left = cl[:col_split].rstrip()
+            else:
+                # No clear gutter — keep the whole line
+                left = cl.rstrip()
+            # If the left side is empty, skip
+            if not left.strip():
+                continue
+            cleaned.append(left)
+        chunk = "\n".join(cleaned).strip()
+        # Clean up page footer artifacts
+        chunk = re.sub(r"\s*\d+\s*\n\s*2026 Michigan Fishing Regulations\s*", " ", chunk)
+        chunk = re.sub(r"\n{3,}", "\n\n", chunk)
+        # Skip if we already have a longer entry (keep the longest)
+        if len(chunk) > len(out.get(county, "")):
+            out[county] = chunk
+    return out
 
 
 def parse_type_regulation_tables() -> dict:
@@ -739,6 +975,11 @@ def main() -> int:
     type_tables = parse_type_regulation_tables()
     print(f"[parse]   → {len(type_tables['lake_types'])} lake types, {len(type_tables['stream_types'])} stream types parsed")
 
+    print(f"[parse] Parsing species regulations (statewide + per-county overrides)...")
+    species_statewide = get_species_regulations()
+    county_exceptions_by_county = get_county_exceptions_by_county()
+    print(f"[parse]   → {len(species_statewide)} statewide species, {len(county_exceptions_by_county)} counties with exceptions")
+
     # Stats per county (for sanity check)
     lakes_by_county = defaultdict(int)
     streams_by_county = defaultdict(int)
@@ -759,16 +1000,27 @@ def main() -> int:
             "stream_count": len(streams),
             "county_count": len(county_order),
             "type_tables_have_ocr": True,
+            "species_count": len(species_statewide),
+            "counties_with_exceptions": len(county_exceptions_by_county),
         },
         "lakes": [asdict(l) for l in lakes],
         "streams": [asdict(s) for s in streams],
         "documents": [asdict(d) for d in general + special + exceptions],
         "type_tables": type_tables,
+        "species": {
+            "statewide": species_statewide,
+            "county_exceptions": county_exceptions_by_county,
+        },
         "counties": {
-            "order": county_order,
+            "order": MICHIGAN_COUNTIES,  # all 83 counties, alphabetical
             "stats": {
-                c: {"lakes": lakes_by_county.get(c, 0), "streams": streams_by_county.get(c, 0)}
-                for c in county_order
+                c: {
+                    "lakes": lakes_by_county.get(c, 0),
+                    "streams": streams_by_county.get(c, 0),
+                    "has_general_species": True,  # every county gets the general warmwater baseline
+                    "has_exceptions": c in county_exceptions_by_county,
+                }
+                for c in MICHIGAN_COUNTIES  # iterate all 83
             },
         },
     }

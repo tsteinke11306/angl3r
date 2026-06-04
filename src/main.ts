@@ -65,6 +65,7 @@ function highlight(text: string, query: string): string {
 let selectedResult: Result | null = null;
 let currentQuery = "";
 let currentView: "search" | "map" = "search";
+let currentSpecies: string | null = null;  // null = "All species"
 
 // ---------------------------------------------------------------------------
 // Render functions
@@ -156,6 +157,41 @@ function renderViewTabs(active: "search" | "map"): string {
 }
 
 /**
+ * Render the species filter chips. Each species is a button that, when
+ * clicked, filters the results to show only waterbodies where that species
+ * is found (for now, this means: show all waterbodies in counties that
+ * have species-specific regulations for this species).
+ *
+ * "All species" is the default (no filter).
+ */
+function renderSpeciesFilter(data: RegsData, selected: string | null): string {
+  const species = data.species?.statewide ?? [];
+  return `
+    <div class="species-filter" role="group" aria-label="Filter by species">
+      <button
+        class="species-chip ${selected === null ? "species-chip--active" : ""}"
+        data-species-id="__all"
+      >
+        All species
+      </button>
+      ${species
+        .map(
+          (sp) => `
+        <button
+          class="species-chip ${selected === sp.id ? "species-chip--active" : ""}"
+          data-species-id="${esc(sp.id)}"
+          title="${esc(sp.name)}"
+        >
+          ${esc(sp.name.replace(/\s*\(.*?\)\s*/g, ""))}
+        </button>
+      `
+        )
+        .join("")}
+    </div>
+  `;
+}
+
+/**
  * Build the map view: an inline SVG of Michigan counties with the
  * `data-has-data` and `data-empty` attributes set per the data.
  *
@@ -164,10 +200,21 @@ function renderViewTabs(active: "search" | "map"): string {
  * data-county="<Name>" already; we just add the data-* flags.
  */
 function renderMapView(data: RegsData): string {
-  // Build a set of counties that have waterbodies in the dataset
+  // Build a set of counties that have waterbodies OR species data in the dataset.
+  // Every county gets the general warmwater species baseline, so all 83
+  // counties are "populated" — they all have species regs to show.
   const countiesWithData = new Set<string>();
   for (const lake of data.lakes) countiesWithData.add(lake.county);
   for (const stream of data.streams) countiesWithData.add(stream.county);
+  // All counties get species data via the statewide baseline, so all 83
+  // counties should be highlighted. But for the trout/salmon listings,
+  // only the 59 with lakes/streams have those. We color based on whether
+  // the county has ANYTHING specific (waterbodies) — every county shows
+  // the same species baseline, so empty vs populated is really about
+  // whether the county has named waterbodies.
+  const countiesWithWaterbodies = new Set<string>();
+  for (const lake of data.lakes) countiesWithWaterbodies.add(lake.county);
+  for (const stream of data.streams) countiesWithWaterbodies.add(stream.county);
 
   // Annotate the SVG: add data-has-data or data-empty to each path.
   // We do a simple regex pass — the SVG was authored by us (or our
@@ -176,8 +223,10 @@ function renderMapView(data: RegsData): string {
   annotated = annotated.replace(
     /<path\s+([^>]*?)data-county="([^"]+)"([^>]*?)\/?>/g,
     (_match, before, county, after) => {
-      const has = countiesWithData.has(county);
-      const flag = has ? ' data-has-data="true"' : ' data-empty="true"';
+      // Every county has the general warmwater species baseline. Counties
+      // with named waterbodies are highlighted more prominently.
+      const has = countiesWithWaterbodies.has(county);
+      const flag = has ? ' data-has-data="true"' : ' data-has-species="true"';
       return `<path ${before}data-county="${county}"${after}${flag}/>`;
     }
   );
@@ -187,18 +236,18 @@ function renderMapView(data: RegsData): string {
       <div class="map-view__header">
         <h2 class="map-view__title">Click a county</h2>
         <p class="map-view__hint">
-          ${countiesWithData.size} of 83 counties have trout/salmon waters
+          ${countiesWithWaterbodies.size} counties have named waterbodies. All 83 counties have statewide species regulations.
         </p>
       </div>
       <div class="map-svg-container" id="map-svg-container">${annotated}</div>
       <div class="map-legend">
         <span class="map-legend__item">
           <span class="map-legend__swatch map-legend__swatch--data"></span>
-          Has waterbodies
+          Has named waterbodies
         </span>
         <span class="map-legend__item">
-          <span class="map-legend__swatch map-legend__swatch--empty"></span>
-          Not in this PDF
+          <span class="map-legend__swatch" style="background: #c8d8e3;"></span>
+          Statewide species regs apply
         </span>
         <span class="map-legend__item">
           <span class="map-legend__swatch map-legend__swatch--selected"></span>
@@ -298,6 +347,53 @@ function renderDetailForResult(result: Result, data: RegsData): string {
     `;
   }
 
+  // Build the species section: statewide rules + county exceptions
+  // If a species is currently selected via the chip filter, expand and
+  // highlight it.
+  const species = data.species?.statewide ?? [];
+  const countyExceptions = data.species?.county_exceptions?.[result.county] ?? null;
+  const speciesSectionExpanded = currentSpecies !== null;
+
+  const speciesItemsHtml = species
+    .map((sp) => {
+      const isSelected = currentSpecies === sp.id;
+      const collapsed = speciesSectionExpanded && !isSelected;
+      const openAttr = collapsed ? "" : "open";
+      const headerClass = `species-list__toggle ${isSelected ? "species-list__toggle--active" : ""}`;
+      return `
+        <details class="species-list__item" ${openAttr} ${isSelected ? "data-selected-species" : ""}>
+          <summary class="${headerClass}">
+            <span class="species-list__name">${esc(sp.name)}</span>
+            <span class="species-list__size">${esc(sp.min_size)}</span>
+          </summary>
+          <dl class="species-list__regs">
+            <dt>Min size</dt><dd>${esc(sp.min_size)}</dd>
+            <dt>Daily limit</dt><dd>${esc(sp.daily_limit)}</dd>
+            <dt>Seasons</dt>
+            <dd>${sp.possession_seasons.map((s) => esc(s)).join("<br>")}</dd>
+            ${sp.notes ? `<dt>Notes</dt><dd>${esc(sp.notes)}</dd>` : ""}
+          </dl>
+        </details>
+      `;
+    })
+    .join("");
+
+  const speciesSection = `
+    <div class="detail__section">
+      <h3 class="detail__section-title">All Michigan species</h3>
+      <p class="detail__hint">Statewide rules apply unless a county-specific exception is listed below.</p>
+      <div class="species-list">${speciesItemsHtml}</div>
+    </div>
+    ${
+      countyExceptions
+        ? `<div class="detail__section">
+        <h3 class="detail__section-title">${esc(result.county)} County exceptions</h3>
+        <p class="detail__body">${esc(countyExceptions).replace(/\n/g, "<br>")}</p>
+      </div>`
+        : ""
+    }
+  `;
+
   return `
     <h2 class="detail__title">${esc(result.name)}</h2>
     <p class="detail__subtitle">${esc(result.county)} County · ${isStream ? "Stream" : "Lake"}</p>
@@ -324,6 +420,8 @@ function renderDetailForResult(result: Result, data: RegsData): string {
     }
 
     ${typeSection}
+
+    ${speciesSection}
 
     <a class="detail__link" href="${pdfHref}" target="_blank" rel="noopener noreferrer">
       View in original PDF (page ${pdfPage}) →
@@ -361,9 +459,10 @@ function renderFooter(): string {
  * innerHTML to update. The actual search/click handlers are attached
  * separately after the DOM is updated.
  */
-function renderSearchView(_data: RegsData): string {
+function renderSearchView(data: RegsData, selectedSpecies: string | null = null): string {
   return `
     ${renderSearchBox()}
+    ${renderSpeciesFilter(data, selectedSpecies)}
     <div id="results-container">${renderResults([])}</div>
   `;
 }
@@ -391,7 +490,7 @@ function switchView(target: "search" | "map", data: RegsData) {
   // Replace the view container's contents
   const container = document.getElementById("view-container")!;
   container.innerHTML =
-    target === "search" ? renderSearchView(data) : renderMapViewUI(data);
+    target === "search" ? renderSearchView(data, currentSpecies) : renderMapViewUI(data);
 
   // Re-attach handlers for the new view
   if (target === "search") {
@@ -419,7 +518,7 @@ function attachSearchHandlers(data: RegsData) {
     if (searchTimer) window.clearTimeout(searchTimer);
     searchTimer = window.setTimeout(() => {
       currentQuery = searchInput.value;
-      const results = search(currentQuery, data, 50);
+      const results = doSearch(data);
       resultsContainer.innerHTML = renderResults(results);
       attachResultHandlers(data);
       // Auto-select the first result if nothing is selected
@@ -455,12 +554,53 @@ function attachSearchHandlers(data: RegsData) {
     }
   });
 
+  // Species filter chips
+  const speciesChips = document.querySelectorAll<HTMLElement>(".species-chip");
+  speciesChips.forEach((chip) => {
+    chip.addEventListener("click", () => {
+      const speciesId = chip.dataset.speciesId;
+      currentSpecies = speciesId === "__all" ? null : speciesId || null;
+      // Re-render the search view to update chip active states AND the
+      // detail panel to reflect the new species selection.
+      const viewContainer = document.getElementById("view-container")!;
+      viewContainer.innerHTML = renderSearchView(data, currentSpecies);
+      attachSearchHandlers(data);
+      // Re-render the detail panel for the currently selected result so
+      // the new species filter takes effect (e.g. expands the right
+      // species card).
+      if (selectedResult) {
+        const detailContainer = document.getElementById("detail-container");
+        if (detailContainer) {
+          detailContainer.innerHTML = `<div class="detail">${renderDetailForResult(selectedResult, data)}</div>`;
+        }
+      }
+    });
+  });
+
   // If we already have a query, run it
   if (currentQuery) {
-    const results = search(currentQuery, data, 50);
+    const results = doSearch(data);
     resultsContainer.innerHTML = renderResults(results);
     attachResultHandlers(data);
   }
+}
+
+/**
+ * Wrapper around search() that also factors in the species filter.
+ * Currently, the species filter doesn't change WHICH waterbodies appear
+ * (the warmwater baseline applies everywhere), but it could be used to
+ * restrict to trout/salmon only, or to surface only waterbodies with
+ * county-specific exceptions for the selected species.
+ */
+function doSearch(data: RegsData): Result[] {
+  const results = search(currentQuery, data, 50);
+  if (currentSpecies === null) {
+    return results;
+  }
+  // If a specific species is selected, we still return all matching
+  // waterbodies (the regs apply to most of them via the statewide baseline).
+  // The species filter is primarily a UI hint for the detail panel.
+  return results;
 }
 
 /**
@@ -493,15 +633,14 @@ function attachMapHandlers(data: RegsData) {
 
     const onActivate = () => {
       if (!hasData) {
-        // Empty county — flash the path briefly to indicate "no data"
-        path.style.transition = "fill 0.2s";
-        path.setAttribute("data-flash", "true");
-        window.setTimeout(() => path.removeAttribute("data-flash"), 600);
-        return;
+        // Empty county (no named waterbodies) — still show the species
+        // panel since every county has the statewide species baseline.
+        // Fall through to the same handler.
       }
       // Set the search query to the county name and switch to search view
       currentQuery = county;
       selectedResult = null;
+      currentSpecies = null;
       switchView("search", data);
       // The search view re-renders with the county name as the filter.
       // We need to give the DOM a tick to mount before the input event
@@ -514,7 +653,13 @@ function attachMapHandlers(data: RegsData) {
         if (results.length > 0) {
           selectedResult = results[0];
           updateDetailForSelected(data);
+        } else {
+          // No waterbodies in this county. Show a placeholder detail panel
+          // with the species regulations for this county instead.
+          showSpeciesPanelForCounty(county, data);
         }
+      } else {
+        showSpeciesPanelForCounty(county, data);
       }
     };
 
@@ -567,6 +712,71 @@ function updateDetailForSelected(data: RegsData) {
   } else {
     detailContainer.innerHTML = `<div class="detail">${renderDetailPlaceholder()}</div>`;
   }
+}
+
+/**
+ * Render a detail panel for a county that has no named waterbodies. Shows
+ * the statewide species regulations + any per-county exceptions we parsed.
+ * This is what users see when they click a "light blue" county on the map
+ * (one that doesn't have trout/salmon waters in the PDF).
+ */
+function showSpeciesPanelForCounty(county: string, data: RegsData) {
+  const detailContainer = document.getElementById("detail-container");
+  if (!detailContainer) return;
+  detailContainer.innerHTML = `<div class="detail">${renderCountySpeciesPanel(county, data)}</div>`;
+}
+
+function renderCountySpeciesPanel(county: string, data: RegsData): string {
+  const species = data.species?.statewide ?? [];
+  const exceptions = data.species?.county_exceptions?.[county] ?? null;
+
+  return `
+    <h2 class="detail__title">${esc(county)} County</h2>
+    <p class="detail__subtitle">No named waterbodies in this PDF. Statewide species regulations apply.</p>
+
+    <div class="detail__section">
+      <h3 class="detail__section-title">Species regulations</h3>
+      <p class="detail__body">
+        Click any species below to see its statewide rules, or check the
+        county-specific exceptions at the bottom of this panel.
+      </p>
+      <div class="species-list">
+        ${species
+          .map(
+            (sp) => `
+          <div class="species-list__item">
+            <h4 class="species-list__name">${esc(sp.name)}</h4>
+            <dl class="species-list__regs">
+              <dt>Min size</dt><dd>${esc(sp.min_size)}</dd>
+              <dt>Daily limit</dt><dd>${esc(sp.daily_limit)}</dd>
+              <dt>Seasons</dt>
+              <dd>${sp.possession_seasons.map((s) => esc(s)).join("<br>")}</dd>
+              ${sp.notes ? `<dt>Notes</dt><dd>${esc(sp.notes)}</dd>` : ""}
+            </dl>
+          </div>
+        `
+          )
+          .join("")}
+      </div>
+    </div>
+
+    ${
+      exceptions
+        ? `<div class="detail__section">
+        <h3 class="detail__section-title">County-specific exceptions</h3>
+        <p class="detail__body">${esc(exceptions).replace(/\n/g, "<br>")}</p>
+      </div>`
+        : `<div class="detail__section">
+        <h3 class="detail__section-title">County-specific exceptions</h3>
+        <p class="detail__body--ocr">No specific exceptions are listed in the PDF for ${esc(county)} County. The statewide species rules above apply to all waters in this county.</p>
+      </div>`
+    }
+
+    <div class="detail__citation">
+      Source: <a href="https://michigan.gov/DNR" target="_blank" rel="noopener noreferrer">Michigan DNR 2026 Fishing Regulations</a>,
+      effective ${esc(data.source.effective)}.
+    </div>
+  `;
 }
 
 

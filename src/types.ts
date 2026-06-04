@@ -34,6 +34,20 @@ export interface TypeTableEntry {
   plain: string;
 }
 
+export interface Species {
+  id: string;
+  name: string;
+  min_size: string;
+  daily_limit: string;
+  possession_seasons: string[];
+  notes: string | null;
+}
+
+export interface SpeciesTables {
+  statewide: Species[];
+  county_exceptions: { [county: string]: string };  // raw text from PDF
+}
+
 export interface TypeTables {
   lake_types: {
     [letter: string]: TypeTableEntry;
@@ -56,14 +70,22 @@ export interface RegsData {
     stream_count: number;
     county_count: number;
     type_tables_have_ocr: boolean;
+    species_count?: number;
+    counties_with_exceptions?: number;
   };
   lakes: Lake[];
   streams: Stream[];
   documents: RegulationDoc[];
   type_tables: TypeTables;
+  species: SpeciesTables;
   counties: {
     order: string[];
-    stats: Record<string, { lakes: number; streams: number }>;
+    stats: Record<string, {
+      lakes: number;
+      streams: number;
+      has_general_species: boolean;
+      has_exceptions: boolean;
+    }>;
   };
 }
 
