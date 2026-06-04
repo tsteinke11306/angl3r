@@ -68,6 +68,7 @@ export interface RegsData {
   meta: {
     lake_count: number;
     stream_count: number;
+    waterbody_count?: number;
     county_count: number;
     type_tables_have_ocr: boolean;
     species_count?: number;
@@ -75,6 +76,15 @@ export interface RegsData {
   };
   lakes: Lake[];
   streams: Stream[];
+  /** Unified list of all named Michigan waterbodies (PDF + Wikipedia). */
+  waterbodies: Waterbody[];
+  /** Wikipedia category source metadata. */
+  wikipedia_source?: {
+    url: string;
+    license: string;
+    attribution: string;
+    note: string;
+  };
   documents: RegulationDoc[];
   type_tables: TypeTables;
   species: SpeciesTables;
@@ -83,10 +93,28 @@ export interface RegsData {
     stats: Record<string, {
       lakes: number;
       streams: number;
+      waterbodies?: number;
       has_general_species: boolean;
       has_exceptions: boolean;
     }>;
   };
+}
+
+export interface Waterbody {
+  name: string;
+  county: string;
+  source: "pdf" | "wikipedia";
+  kind: "lake" | "river" | "stream" | "creek" | "pond" | "bay" | "harbor" | "channel";
+  /** Type code for PDF entries (A-F, 1-4, GR, BTRA, SC). */
+  type?: string;
+  /** Section description for PDF streams. */
+  section?: string;
+  /** Closure info for PDF streams. */
+  closure?: string;
+  /** Wikipedia article title for linking. */
+  wikipedia_title?: string;
+  /** PDF record (only present when source === "pdf"). */
+  pdf_record?: Lake | Stream;
 }
 
 // Human-friendly descriptions of regulation Types (these come from the

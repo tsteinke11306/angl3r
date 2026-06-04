@@ -9,7 +9,7 @@
  */
 
 import "./styles.css";
-import type { RegsData, Stream } from "./types";
+import type { RegsData } from "./types";
 import { LAKE_TYPE_TITLES, STREAM_TYPE_TITLES } from "./types";
 import { search, groupByCounty, findExact, type Result } from "./search";
 
@@ -27,14 +27,28 @@ import miCountiesSvg from "../public/mi-counties.svg?raw";
 // ---------------------------------------------------------------------------
 
 // Data is imported as a JSON module — Vite inlines it into the bundle at
-// build time. This avoids a runtime fetch and means the site works fully
-// offline. The JSON is ~125KB, well under any reasonable limit.
-import regsJson from "../public/data/regs.json";
-
-let DATA: RegsData = regsJson as RegsData;
+// Data is fetched at runtime so the JSON doesn't get inlined into the
+// bundle (it's ~460KB). The JSON lives at public/data/regs.json and is
+// served as a static asset on GitHub Pages.
+let DATA: RegsData | null = null;
+let DATA_PROMISE: Promise<RegsData> | null = null;
 
 async function loadData(): Promise<RegsData> {
-  return DATA;
+  if (DATA) return DATA;
+  if (DATA_PROMISE) return DATA_PROMISE;
+  // Compute the base URL the same way Vite did at build time. This means
+  // the site works under any subpath (e.g. /angler/) on GitHub Pages.
+  const base = import.meta.env.BASE_URL || "/";
+  DATA_PROMISE = fetch(`${base}data/regs.json`)
+    .then((r) => {
+      if (!r.ok) throw new Error(`Failed to fetch regs.json: ${r.status}`);
+      return r.json();
+    })
+    .then((json) => {
+      DATA = json as RegsData;
+      return DATA;
+    });
+  return DATA_PROMISE;
 }
 
 // ---------------------------------------------------------------------------
@@ -48,6 +62,10 @@ function esc(s: string): string {
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
+}
+
+function capitalize(s: string): string {
+  return s.length === 0 ? s : s[0].toUpperCase() + s.slice(1);
 }
 
 function highlight(text: string, query: string): string {
@@ -86,12 +104,14 @@ function renderHeader(): string {
 }
 
 function renderStats(data: RegsData): string {
+  const wbCount = data.meta.waterbody_count ?? data.waterbodies?.length ?? 0;
   return `
     <div class="stats">
-      <span><strong>${data.meta.lake_count}</strong> inland lakes</span>
-      <span><strong>${data.meta.stream_count}</strong> trout/salmon streams</span>
+      <span><strong>${data.meta.lake_count}</strong> PDF trout/salmon lakes</span>
+      <span><strong>${data.meta.stream_count}</strong> PDF trout/salmon streams</span>
+      <span><strong>${wbCount}</strong> total named waterbodies</span>
       <span><strong>${data.meta.county_count}</strong> counties</span>
-      <span>Source: <strong>${esc(data.source.title)}</strong></span>
+      <span>Source: <strong>${esc(data.source.title)}</strong> + Wikipedia</span>
     </div>
   `;
 }
@@ -200,21 +220,14 @@ function renderSpeciesFilter(data: RegsData, selected: string | null): string {
  * data-county="<Name>" already; we just add the data-* flags.
  */
 function renderMapView(data: RegsData): string {
-  // Build a set of counties that have waterbodies OR species data in the dataset.
-  // Every county gets the general warmwater species baseline, so all 83
-  // counties are "populated" — they all have species regs to show.
-  const countiesWithData = new Set<string>();
-  for (const lake of data.lakes) countiesWithData.add(lake.county);
-  for (const stream of data.streams) countiesWithData.add(stream.county);
-  // All counties get species data via the statewide baseline, so all 83
-  // counties should be highlighted. But for the trout/salmon listings,
-  // only the 59 with lakes/streams have those. We color based on whether
-  // the county has ANYTHING specific (waterbodies) — every county shows
-  // the same species baseline, so empty vs populated is really about
-  // whether the county has named waterbodies.
+  // Build a set of counties that have waterbodies (PDF trout/salmon OR
+  // Wikipedia named waters). Every county has the statewide species
+  // baseline, so all 83 are populated. The map's "named waterbodies" stat
+  // is the total count from the unified waterbodies array.
   const countiesWithWaterbodies = new Set<string>();
-  for (const lake of data.lakes) countiesWithWaterbodies.add(lake.county);
-  for (const stream of data.streams) countiesWithWaterbodies.add(stream.county);
+  for (const wb of data.waterbodies ?? []) {
+    countiesWithWaterbodies.add(wb.county);
+  }
 
   // Annotate the SVG: add data-has-data or data-empty to each path.
   // We do a simple regex pass — the SVG was authored by us (or our
@@ -286,7 +299,7 @@ function renderResults(results: Result[]): string {
               ? `<span class="result__county">in ${esc(r.county)} County</span>`
               : ""}
           </span>
-          <span class="result__kind result__kind--${r.kind}">${r.kind === "lake" ? "Lake" : "Stream"} · ${esc(r.type)}</span>
+          <span class="result__kind result__kind--${r.kind}">${capitalize(r.kind)} ${r.type ? `· ${esc(r.type)}` : ""}</span>
         </button>
       `);
     }
@@ -311,47 +324,62 @@ function renderDetailForResult(result: Result, data: RegsData): string {
   const record = findExact(data, result.kind, result.name, result.county);
   if (!record) return renderDetailPlaceholder();
 
-  const isStream = result.kind === "stream";
-  const stream = isStream ? (record as Stream) : null;
-  const typeCode = result.type;
+  const isPdf = record.source === "pdf";
+  const typeCode = record.type;
 
-  // Get the structured Type regulation data (parsed from pp. 44-45)
-  const typeTable = isStream
-    ? data.type_tables.stream_types[typeCode]
-    : data.type_tables.lake_types[typeCode];
-  const typeTitle = isStream
-    ? STREAM_TYPE_TITLES[typeCode] ?? `Type ${typeCode}`
-    : LAKE_TYPE_TITLES[typeCode] ?? `Type ${typeCode}`;
+  // For PDF entries with a Type code, get the structured Type regulation
+  // data (parsed from pp. 44-45).
+  let typeTable = null;
+  let typeTitle = "";
+  if (isPdf && typeCode) {
+    if (record.kind === "stream" || record.kind === "river" || record.kind === "creek") {
+      typeTable = data.type_tables.stream_types[typeCode];
+      typeTitle = STREAM_TYPE_TITLES[typeCode] ?? `Type ${typeCode}`;
+    } else {
+      typeTable = data.type_tables.lake_types[typeCode];
+      typeTitle = LAKE_TYPE_TITLES[typeCode] ?? `Type ${typeCode}`;
+    }
+  }
 
-  // Link to the PDF page (we use the public/ data PDF for the GitHub Pages
-  // deployment; the link is relative to the repo)
-  const pdfPage = record.source_page;
-  const pdfHref = `https://github.com/tsteinke11306/angler/blob/main/data/2026-Michigan-Fishing-Regulations.pdf#page=${pdfPage}`;
+  // For PDF entries, link to the PDF page. For Wikipedia entries, link to
+  // the Wikipedia article.
+  const pdfPage = record.pdf_record?.source_page;
+  const pdfHref = pdfPage
+    ? `https://github.com/tsteinke11306/angler/blob/main/data/2026-Michigan-Fishing-Regulations.pdf#page=${pdfPage}`
+    : null;
+  const wikiHref = record.wikipedia_title
+    ? `https://en.wikipedia.org/wiki/${encodeURIComponent(record.wikipedia_title.replace(/ /g, "_"))}`
+    : null;
 
-  // Build the Type regulation section
+  // Build the Type regulation section (only for PDF entries with a Type)
   let typeSection = "";
-  if (typeTable && typeTable.plain) {
+  if (isPdf && typeCode && typeTable && typeTable.plain) {
     typeSection = `
       <div class="detail__section">
         <h3 class="detail__section-title">Type ${esc(typeCode)} regulation</h3>
         <pre class="detail__body detail__body--type">${esc(typeTable.plain)}</pre>
       </div>
     `;
-  } else {
-    // Fallback for missing Type (shouldn't happen for valid A-F / 1-4)
+  } else if (isPdf && typeCode) {
     typeSection = `
       <div class="detail__section">
         <h3 class="detail__section-title">Type ${esc(typeCode)} regulation</h3>
         <p class="detail__body--ocr">No structured regulation data found for this Type. See the original PDF for details.</p>
       </div>
     `;
+  } else {
+    // Wikipedia-only entry — no specific trout regulation
+    typeSection = `
+      <div class="detail__section">
+        <h3 class="detail__section-title">Trout/salmon designation</h3>
+        <p class="detail__body">This waterbody is not listed in the 2026 Michigan trout/salmon regulations. The statewide species rules (below) apply to all waters in ${esc(record.county)} County unless a county-specific exception is listed.</p>
+      </div>
+    `;
   }
 
   // Build the species section: statewide rules + county exceptions
-  // If a species is currently selected via the chip filter, expand and
-  // highlight it.
   const species = data.species?.statewide ?? [];
-  const countyExceptions = data.species?.county_exceptions?.[result.county] ?? null;
+  const countyExceptions = data.species?.county_exceptions?.[record.county] ?? null;
   const speciesSectionExpanded = currentSpecies !== null;
 
   const speciesItemsHtml = species
@@ -387,34 +415,39 @@ function renderDetailForResult(result: Result, data: RegsData): string {
     ${
       countyExceptions
         ? `<div class="detail__section">
-        <h3 class="detail__section-title">${esc(result.county)} County exceptions</h3>
+        <h3 class="detail__section-title">${esc(record.county)} County exceptions</h3>
         <p class="detail__body">${esc(countyExceptions).replace(/\n/g, "<br>")}</p>
       </div>`
         : ""
     }
   `;
 
+  // Source badge
+  const sourceBadge = isPdf
+    ? `<span class="badge badge--pdf">Type ${esc(typeCode ?? "?")} — ${esc(typeTitle)}</span>`
+    : `<span class="badge badge--wiki">Wikipedia entry</span>`;
+
   return `
     <h2 class="detail__title">${esc(result.name)}</h2>
-    <p class="detail__subtitle">${esc(result.county)} County · ${isStream ? "Stream" : "Lake"}</p>
+    <p class="detail__subtitle">${esc(result.county)} County · ${esc(capitalize(record.kind))}</p>
 
     <div class="detail__badges">
-      <span class="badge ${isStream ? "badge--stream" : ""}">Type ${esc(typeCode)} — ${esc(typeTitle)}</span>
-      ${stream?.section ? `<span class="badge">${esc(stream.section.slice(0, 60))}${stream.section.length > 60 ? "…" : ""}</span>` : ""}
+      ${sourceBadge}
+      ${record.section ? `<span class="badge">${esc(record.section.slice(0, 60))}${record.section.length > 60 ? "…" : ""}</span>` : ""}
     </div>
 
-    ${stream?.section
+    ${record.section
       ? `<div class="detail__section">
            <h3 class="detail__section-title">Section of stream</h3>
-           <p class="detail__body">${esc(stream.section)}</p>
+           <p class="detail__body">${esc(record.section)}</p>
          </div>`
       : ""
     }
 
-    ${stream?.closure
+    ${record.closure
       ? `<div class="detail__section">
            <h3 class="detail__section-title">Seasonal closure</h3>
-           <p class="detail__body"><span class="badge badge--warning">${esc(stream.closure)}</span></p>
+           <p class="detail__body"><span class="badge badge--warning">${esc(record.closure)}</span></p>
          </div>`
       : ""
     }
@@ -423,13 +456,15 @@ function renderDetailForResult(result: Result, data: RegsData): string {
 
     ${speciesSection}
 
-    <a class="detail__link" href="${pdfHref}" target="_blank" rel="noopener noreferrer">
-      View in original PDF (page ${pdfPage}) →
-    </a>
+    <div class="detail__links">
+      ${pdfHref ? `<a class="detail__link" href="${pdfHref}" target="_blank" rel="noopener noreferrer">View in original PDF (page ${pdfPage}) →</a>` : ""}
+      ${wikiHref ? `<a class="detail__link" href="${wikiHref}" target="_blank" rel="noopener noreferrer">Read on Wikipedia →</a>` : ""}
+    </div>
 
     <div class="detail__citation">
       Source: <a href="https://michigan.gov/DNR" target="_blank" rel="noopener noreferrer">Michigan DNR 2026 Fishing Regulations</a>,
       effective ${esc(data.source.effective)}.
+      Waterbody names also from <a href="https://en.wikipedia.org/wiki/Category:Bodies_of_water_of_Michigan_by_county" target="_blank" rel="noopener noreferrer">Wikipedia</a> (CC BY-SA 4.0).
     </div>
   `;
 }
@@ -616,28 +651,20 @@ function attachMapHandlers(data: RegsData) {
   const paths = container.querySelectorAll<SVGPathElement>("path[data-county]");
   paths.forEach((path) => {
     const county = path.getAttribute("data-county")!;
-    const hasData = path.getAttribute("data-has-data") === "true";
 
-    // Add an accessible title for screen readers
-    const lakeCount = data.lakes.filter((l) => l.county === county).length;
-    const streamCount = data.streams.filter((s) => s.county === county).length;
-    let label = county + " County";
-    if (hasData) {
-      label += ` — ${lakeCount} lake${lakeCount === 1 ? "" : "s"}, ${streamCount} stream${streamCount === 1 ? "" : "s"}`;
-    } else {
-      label += " — no trout/salmon waters in this PDF";
-    }
+    // Add an accessible title for screen readers. The waterbodies count
+    // is the unified total (PDF trout/salmon + Wikipedia named).
+    const wbCount =
+      data.waterbodies?.filter((w) => w.county === county).length ?? 0;
+    const label = `${county} County — ${wbCount} waterbod${wbCount === 1 ? "y" : "ies"}`;
     path.setAttribute("aria-label", label);
     path.setAttribute("role", "button");
     path.setAttribute("tabindex", "0");
 
     const onActivate = () => {
-      if (!hasData) {
-        // Empty county (no named waterbodies) — still show the species
-        // panel since every county has the statewide species baseline.
-        // Fall through to the same handler.
-      }
-      // Set the search query to the county name and switch to search view
+      // All counties are populated now (every county has named waterbodies
+      // and the statewide species baseline applies everywhere). Just open
+      // the search view filtered to this county.
       currentQuery = county;
       selectedResult = null;
       currentSpecies = null;

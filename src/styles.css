@@ -381,6 +381,25 @@ html, body {
   margin: 0 0 0.5rem;
 }
 
+.detail__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.badge--pdf {
+  background: #dbeafe;
+  color: #1e40af;
+  border: 1px solid #93c5fd;
+}
+.badge--wiki {
+  background: #f3f4f6;
+  color: #6b7280;
+  border: 1px solid #d1d5db;
+  font-style: italic;
+}
+
 /* --- Results list --- */
 .results {
   background: var(--color-bg-card);

@@ -945,6 +945,132 @@ def _parse_stream_type_table(words: list[dict]) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Wikipedia waterbody merge
+# ---------------------------------------------------------------------------
+
+WIKI_PATH = REPO_ROOT / "data" / "wikipedia_waterbodies.json"
+
+
+def _normalize_name(name: str) -> str:
+    """Normalize a waterbody name for fuzzy matching:
+    - Lowercase
+    - Strip parenthetical qualifiers like "(Michigan)" or "(Alcona County)"
+    - Collapse whitespace
+    """
+    s = name.lower()
+    s = re.sub(r"\s*\([^)]*\)\s*", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
+def merge_wikipedia_waterbodies(
+    pdf_lakes: list, pdf_streams: list
+) -> list[dict]:
+    """
+    Build a unified waterbodies array combining the PDF trout/salmon
+    listings with the broader Wikipedia list of all named Michigan
+    bodies of water. Each entry has:
+      - name: display name
+      - county: the Michigan county
+      - source: "pdf" (trout/salmon water with specific regs), "wikipedia" (named body, no specific regs)
+      - kind: "lake" | "river" | "stream" | "pond" | "bay" | "harbor" | "channel" | "creek" (best guess from name)
+      - wikipedia_title: the original Wikipedia article title (if from wiki)
+      - pdf_record: optional reference to the PDF lake/stream record (if from PDF)
+
+    For waterbodies that appear in BOTH PDF and Wikipedia, we keep the
+    PDF entry (it has the trout regulation) but include the Wikipedia
+    title for linkability.
+    """
+    if not WIKI_PATH.exists():
+        print(f"[parse]   (Wikipedia data not found at {WIKI_PATH} — skipping merge)")
+        return []
+
+    with WIKI_PATH.open() as f:
+        wiki = json.load(f)
+
+    # Build a normalized-name -> (county, wiki_title) lookup
+    wiki_lookup: dict[tuple[str, str], str] = {}
+    for county, names in wiki.get("counties", {}).items():
+        for n in names:
+            norm = _normalize_name(n)
+            wiki_lookup[(norm, county)] = n
+
+    # Build a set of PDF entries' normalized (name, county) for de-dup
+    pdf_keys: set[tuple[str, str]] = set()
+    pdf_entries: list[dict] = []
+    for l in pdf_lakes:
+        key = (_normalize_name(l.name), l.county)
+        pdf_keys.add(key)
+        pdf_entries.append({
+            "name": l.name,
+            "county": l.county,
+            "source": "pdf",
+            "kind": "lake",
+            "type": l.type,
+            "pdf_record": asdict(l),
+            "wikipedia_title": wiki_lookup.get(key),
+        })
+    for s in pdf_streams:
+        key = (_normalize_name(s.name), s.county)
+        pdf_keys.add(key)
+        pdf_entries.append({
+            "name": s.name,
+            "county": s.county,
+            "source": "pdf",
+            "kind": _guess_kind(s.name),
+            "type": s.type,
+            "section": s.section,
+            "closure": s.closure,
+            "pdf_record": asdict(s),
+            "wikipedia_title": wiki_lookup.get(key),
+        })
+
+    # Add Wikipedia entries that aren't already in PDF
+    wiki_only_count = 0
+    for county, names in wiki.get("counties", {}).items():
+        for n in names:
+            key = (_normalize_name(n), county)
+            if key in pdf_keys:
+                continue
+            pdf_entries.append({
+                "name": n,
+                "county": county,
+                "source": "wikipedia",
+                "kind": _guess_kind(n),
+                "wikipedia_title": n,
+            })
+            wiki_only_count += 1
+
+    print(f"[parse]   → {len(pdf_entries)} total ({len(pdf_keys)} PDF, {wiki_only_count} Wikipedia-only)")
+    return pdf_entries
+
+
+def _guess_kind(name: str) -> str:
+    """Best-guess classification from the name. Used for the kind field
+    in the waterbodies array so the UI can show appropriate icons."""
+    n = name.lower()
+    if "river" in n or "riv." in n:
+        return "river"
+    if "creek" in n or "cr." in n:
+        return "creek"
+    if "pond" in n:
+        return "pond"
+    if "bay" in n:
+        return "bay"
+    if "harbor" in n or "harbour" in n:
+        return "harbor"
+    if "channel" in n:
+        return "channel"
+    if "stream" in n:
+        return "stream"
+    if "brook" in n:
+        return "creek"
+    if "lake" in n or "lk." in n or "lks." in n:
+        return "lake"
+    return "lake"  # default
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -980,6 +1106,15 @@ def main() -> int:
     county_exceptions_by_county = get_county_exceptions_by_county()
     print(f"[parse]   → {len(species_statewide)} statewide species, {len(county_exceptions_by_county)} counties with exceptions")
 
+    print(f"[parse] Merging Wikipedia waterbody list (all named MI bodies of water)...")
+    waterbodies_merged = merge_wikipedia_waterbodies(lakes, streams)
+    print(f"[parse]   → {len(waterbodies_merged)} total waterbodies (PDF trout + Wikipedia named)")
+
+    # Per-county waterbody count from the unified waterbodies array
+    waterbodies_by_county = defaultdict(int)
+    for wb in waterbodies_merged:
+        waterbodies_by_county[wb["county"]] += 1
+
     # Stats per county (for sanity check)
     lakes_by_county = defaultdict(int)
     streams_by_county = defaultdict(int)
@@ -998,6 +1133,7 @@ def main() -> int:
         "meta": {
             "lake_count": len(lakes),
             "stream_count": len(streams),
+            "waterbody_count": len(waterbodies_merged),
             "county_count": len(county_order),
             "type_tables_have_ocr": True,
             "species_count": len(species_statewide),
@@ -1005,6 +1141,13 @@ def main() -> int:
         },
         "lakes": [asdict(l) for l in lakes],
         "streams": [asdict(s) for s in streams],
+        "waterbodies": waterbodies_merged,
+        "wikipedia_source": {
+            "url": "https://en.wikipedia.org/wiki/Category:Bodies_of_water_of_Michigan_by_county",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikipedia contributors",
+            "note": "Waterbody names only. Wikipedia is not the authoritative source for fishing regulations — see the 2026 Michigan Fishing Regulations PDF for legal rules.",
+        },
         "documents": [asdict(d) for d in general + special + exceptions],
         "type_tables": type_tables,
         "species": {
@@ -1017,6 +1160,7 @@ def main() -> int:
                 c: {
                     "lakes": lakes_by_county.get(c, 0),
                     "streams": streams_by_county.get(c, 0),
+                    "waterbodies": waterbodies_by_county.get(c, 0),
                     "has_general_species": True,  # every county gets the general warmwater baseline
                     "has_exceptions": c in county_exceptions_by_county,
                 }
