@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Subtle gradient backdrop (sky over water) -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f9ff" />
+      <stop offset="100%" stop-color="#e0f2fe" />
+    </linearGradient>
+    <!-- Topographic contour lines — concentric ellipses, varied spacing -->
+    <pattern id="topo" x="0" y="0" width="400" height="300" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#0c4a6e" stroke-width="0.8" opacity="0.18">
+        <ellipse cx="50" cy="60" rx="50" ry="30" />
+        <ellipse cx="50" cy="60" rx="38" ry="22" />
+        <ellipse cx="50" cy="60" rx="28" ry="16" />
+        <ellipse cx="50" cy="60" rx="20" ry="11" />
+        <ellipse cx="50" cy="60" rx="13" ry="7" />
+        <ellipse cx="220" cy="180" rx="65" ry="38" />
+        <ellipse cx="220" cy="180" rx="50" ry="29" />
+        <ellipse cx="220" cy="180" rx="37" ry="21" />
+        <ellipse cx="220" cy="180" rx="26" ry="14" />
+        <ellipse cx="220" cy="180" rx="16" ry="8" />
+        <ellipse cx="350" cy="80" rx="40" ry="24" />
+        <ellipse cx="350" cy="80" rx="30" ry="17" />
+        <ellipse cx="350" cy="80" rx="21" ry="11" />
+        <ellipse cx="350" cy="80" rx="13" ry="6" />
+      </g>
+    </pattern>
+  </defs>
+  <rect width="1200" height="600" fill="url(#sky)" />
+  <rect width="1200" height="600" fill="url(#topo)" />
+</svg>

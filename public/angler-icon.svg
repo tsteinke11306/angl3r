@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Stylized fish silhouette for the Michigan angler site -->
+  <path d="M8 32 C 14 18, 32 14, 46 22 L 56 16 L 54 32 L 56 48 L 46 42 C 32 50, 14 46, 8 32 Z"
+        fill="#0c4a6e" stroke="#082f49" stroke-width="1.5" stroke-linejoin="round"/>
+  <circle cx="42" cy="29" r="2" fill="#fff"/>
+  <path d="M28 22 Q 32 18, 36 22" stroke="#082f49" stroke-width="1" fill="none" opacity="0.5"/>
+</svg>
