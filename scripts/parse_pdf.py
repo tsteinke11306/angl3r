@@ -6,8 +6,8 @@ Input:  data/<year>-Michigan-Fishing-Regulations.pdf
 Output: data/regs.json  (committed to repo, consumed by the static site)
 
 The PDF is the 2026 edition, 76 pages, made in Adobe InDesign. Text extraction
-is mostly clean via `pdftotext -layout` except for the two Type regulation
-tables (physical pages 42-43) which are scanned images and need OCR.
+is mostly clean via `pdftotext -layout` (or `-tsv` for table extraction on
+the Type regulation pages 44-45).
 
 This script is idempotent — running it twice produces identical output.
 """
@@ -453,41 +453,258 @@ def parse_county_exceptions(pages: dict[int, str]) -> list[RegulationDoc]:
 
 def parse_type_regulation_tables() -> dict:
     """
-    OCR the two scanned pages (42, 43) that contain:
-      - p. 42: Inland Lake Type A-F regulation table
-      - p. 43: Inland Stream Type 1-4 regulation table
+    Extract the Type A-F (lakes) and Type 1-4 (streams) regulation tables
+    from physical pages 44 and 45 of the PDF. These pages have text
+    extractable cleanly (no OCR needed).
 
-    These pages are images, so we extract them as JPEGs and run tesseract.
-    The output is the raw OCR text — the frontend renders it in a styled
-    block. A more sophisticated parse (extracting the table cells) is a
-    future improvement.
+    Page layout (physical):
+      - Page 44: Inland Lake Type A-F regulations table
+      - Page 45: Inland Stream Type 1-4 regulations table + BTRA list
+
+    The table is heavily column-formatted with rotated headers. We use
+    pdftotext -tsv to get word positions, then group words by y-coordinate
+    (row) and x-coordinate (column) to extract the table cells.
     """
-    import tempfile
+    out: dict = {"lake_types": {}, "stream_types": {}, "_ocr_quality": "high"}
 
-    out = {"lake_types": {}, "stream_types": {}, "_ocr_quality": "low"}
+    lake_words = _extract_words_tsv(44, 44)
+    out["lake_types"] = _parse_lake_type_table(lake_words)
 
-    for page in [42, 43]:
-        img_dir = OCR_DIR / f"page_{page}"
-        img_dir.mkdir(exist_ok=True)
-        # Extract images
-        subprocess.run(
-            ["pdfimages", "-j", "-f", str(page), "-l", str(page),
-             str(PDF_PATH), str(img_dir / "img")],
-            check=True, capture_output=True,
-        )
-        # Run tesseract on each JPEG
-        for img in sorted(img_dir.glob("*.jpg")):
-            ocr_out = img_dir / (img.stem + "_ocr")
-            subprocess.run(
-                ["tesseract", str(img), str(ocr_out), "-l", "eng", "--psm", "6"],
-                check=True, capture_output=True,
-            )
-            ocr_text = (ocr_out.with_suffix(".txt")).read_text()
-            if page == 42:
-                out["lake_types"]["_raw"] = ocr_text
-            else:
-                out["stream_types"]["_raw"] = ocr_text
+    stream_words = _extract_words_tsv(45, 45)
+    out["stream_types"] = _parse_stream_type_table(stream_words)
 
+    return out
+
+
+def _extract_words_tsv(start: int, end: int) -> list[dict]:
+    """Extract word positions from physical page range via pdftotext -tsv."""
+    result = subprocess.run(
+        ["pdftotext", "-tsv", "-f", str(start), "-l", str(end), str(PDF_PATH), "-"],
+        capture_output=True, text=True, check=True,
+    )
+    words = []
+    for line in result.stdout.splitlines()[1:]:
+        parts = line.split("\t")
+        if len(parts) < 12:
+            continue
+        try:
+            text = parts[11]
+            if text in ("###FLOW###", "###LINE###", "###PAGE###", ""):
+                continue
+            words.append({
+                "left": float(parts[6]),
+                "top": float(parts[7]),
+                "text": text,
+            })
+        except (ValueError, IndexError):
+            continue
+    return words
+
+
+def _is_sidebar(w: dict) -> bool:
+    """
+    Detect the vertical sidebar text on the left edge (x < 25). The sidebar
+    consists of single uppercase letters or punctuation like '&', 'N', 'D'
+    that are part of the running header. Multi-character tokens (like "(13")
+    are data, not sidebar.
+    """
+    if w["left"] >= 25:
+        return False
+    if len(w["text"]) > 1:
+        return False
+    if w["text"] in "ABCDEFGHIJKLMNOPQRSTUVWXYZ&ND":
+        return True
+    return False
+
+
+def _parse_lake_type_table(words: list[dict]) -> dict:
+    """
+    Parse Lake Types A-F from page 44. The table is fragmented across
+    multiple y-coords because of date wrapping. We anchor on each type
+    letter (A-F) and gather surrounding data within tolerance.
+    """
+    out: dict = {}
+    data = [w for w in words if not _is_sidebar(w)]
+
+    # Find type letter positions: a single capital letter at x ~ 48
+    type_letters = [w for w in data
+                    if w["text"] in "ABCDEF" and 45 <= w["left"] <= 55]
+    # De-dupe by y (5-point tolerance), keep only data-region letters
+    seen = set()
+    unique = []
+    for w in type_letters:
+        yk = round(w["top"] / 5) * 5
+        if yk not in seen and 200 <= w["top"] <= 450:
+            seen.add(yk)
+            unique.append(w)
+
+    for lw in unique:
+        letter = lw["text"]
+        ay = lw["top"]
+        # Data row: count is ~9 below the letter, season-wrap is up to 18
+        # below. We use 0-14 range to stay in this row.
+        nearby = [w for w in data if 0 < w["top"] - ay < 14]
+
+        # Count: text like "(60" — pdftotext gives us "(60" with the
+        # opening paren attached and the closing paren as a separate word.
+        count = None
+        for w in nearby:
+            if 30 < w["left"] < 50:
+                m = re.match(r"^\((\d+)$", w["text"])
+                if m:
+                    count = m.group(1)
+                    break
+
+        # Daily limit
+        daily = None
+        for w in nearby:
+            if 170 < w["left"] < 200:
+                if re.match(r"^\d+/\d+[\*\^]?$", w["text"]):
+                    daily = w["text"]
+                    break
+                if w["text"] in ("1", "3", "5"):
+                    daily = w["text"]
+                    break
+
+        # Size limits (5 columns at x ~ 209, 241, 276, 310, 347)
+        sizes = {}
+        for w in nearby:
+            if re.match(r'^\d+"$', w["text"]):
+                x = w["left"]
+                if 200 <= x <= 220:   sizes["brook_trout"] = w["text"]
+                elif 230 <= x <= 250: sizes["brown_trout"] = w["text"]
+                elif 265 <= x <= 285: sizes["rainbow_trout"] = w["text"]
+                elif 300 <= x <= 320: sizes["lake_trout"] = w["text"]
+                elif 335 <= x <= 355: sizes["atlantic_chinook_coho_pink_salmon"] = w["text"]
+
+        # Season: text at x 65-170 in the row
+        season_words = []
+        for w in nearby:
+            if 65 < w["left"] < 170:
+                if w["text"] in ("All", "except", "minnows", "5/3*", "5/3^", "1", "3", "5", "**"):
+                    continue
+                if re.match(r'^\d+"$', w["text"]):
+                    continue
+                season_words.append((w["top"], w["left"], w["text"]))
+        season_words.sort()
+        season = re.sub(r"\s+", " ", " ".join(w[2] for w in season_words)).strip()
+
+        # Tackle
+        tackle_words = []
+        for w in nearby:
+            if 100 < w["left"] < 170 and w["text"] in ("All", "except", "minnows"):
+                tackle_words.append(w["text"])
+        tackle = " ".join(tackle_words).strip() if tackle_words else "All"
+
+        out[letter] = {
+            "label": f"Type {letter}",
+            "count": f"{count or '?'} lakes",
+            "season": season or "See PDF",
+            "tackle": tackle,
+            "daily_limit": daily or "See PDF",
+            "size_limits": sizes,
+            "plain": (
+                f"Type {letter} ({count or '?'} lakes)\n"
+                f"Season: {season or 'See PDF'}\n"
+                f"Tackle: {tackle}\n"
+                f"Daily/possession limit: {daily or 'See PDF'}\n"
+                f"Brook Trout min: {sizes.get('brook_trout', '—')}\n"
+                f"Brown Trout min: {sizes.get('brown_trout', '—')}\n"
+                f"Rainbow Trout min: {sizes.get('rainbow_trout', '—')}\n"
+                f"Lake Trout min: {sizes.get('lake_trout', '—')}\n"
+                f"Atlantic/Chinook/Coho/Pink Salmon min: {sizes.get('atlantic_chinook_coho_pink_salmon', '—')}"
+            ),
+        }
+    return out
+
+
+def _parse_stream_type_table(words: list[dict]) -> dict:
+    """
+    Parse Stream Types 1-4 from page 45. Similar to lake table, but with
+    3 size columns (brook, brown, salmon/lake/rainbow/splake) instead of 5.
+    """
+    out: dict = {}
+    data = [w for w in words if not _is_sidebar(w)]
+
+    # Type numbers at x ~ 39
+    type_nums = [w for w in data if w["text"] in "1234" and 35 <= w["left"] <= 45]
+    seen = set()
+    unique = []
+    for w in type_nums:
+        yk = round(w["top"] / 5) * 5
+        if yk not in seen and 150 <= w["top"] <= 450:
+            seen.add(yk)
+            unique.append(w)
+
+    for nw in unique:
+        num = nw["text"]
+        ay = nw["top"]
+        # Stream data row spans both above and below the type number
+        # (season text is above, count and sizes are below). Exclude the
+        # type number word itself so we don't pick it up as the count.
+        nearby = [w for w in data
+                  if not (w["left"] == nw["left"] and w["top"] == nw["top"] and w["text"] == nw["text"])
+                  and abs(w["top"] - ay) < 25]
+
+        # Count
+        count = None
+        for w in nearby:
+            if 15 < w["left"] < 50:
+                m = re.match(r"^\(?(\d+,?\d*)$", w["text"])
+                if m:
+                    count = m.group(1)
+                    break
+
+        # Season: the table has TWO season columns (Fishing Season,
+        # Possession Season) side by side. We extract the LEFT column only
+        # (Fishing Season), which is at x < 100. The right column (at
+        # x > 100) is the Possession Season and is usually identical or
+        # a more specific version of the same rule.
+        season_words = []
+        for w in nearby:
+            if 60 < w["left"] < 100 and abs(w["top"] - ay) < 25:
+                if re.match(r'^\d+"$', w["text"]):
+                    continue
+                season_words.append((w["top"], w["left"], w["text"]))
+        season_words.sort()
+        season = re.sub(r"\s+", " ", " ".join(w[2] for w in season_words)).strip()
+
+        # Sizes (3 columns for streams: brook, brown, salmon/lake/rainbow/splake)
+        # The "15" or greater" column at x=331 is the daily-limit text, not a size.
+        sizes = {}
+        for w in nearby:
+            if re.match(r'^\d+"$', w["text"]) and abs(w["top"] - ay) < 25:
+                x = w["left"]
+                if 160 <= x <= 190:   sizes["brook_trout"] = w["text"]
+                elif 200 <= x <= 220: sizes["brown_trout"] = w["text"]
+                elif 240 <= x <= 270: sizes["salmon_lake_trout_rainbow_splake"] = w["text"]
+
+        out[num] = {
+            "label": f"Type {num}",
+            "count": f"{count or '?'} streams",
+            "season": season or "See PDF",
+            "size_limits": sizes,
+            "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48–65 for exceptions.",
+            "plain": (
+                f"Type {num} ({count or '?'} streams)\n"
+                f"Season: {season or 'See PDF'}\n"
+                f"Brook Trout min: {sizes.get('brook_trout', '—')}\n"
+                f"Brown Trout min: {sizes.get('brown_trout', '—')}\n"
+                f"Salmon/Lake Trout/Rainbow Trout/Splake min: {sizes.get('salmon_lake_trout_rainbow_splake', '—')}\n"
+                f"Daily limit: 5 fish, but no more than 3 trout 15\" or greater"
+            ),
+        }
+
+    out["BTRA"] = {
+        "label": "Brook Trout Restoration Areas (BTRA)",
+        "plain": (
+            "Brook Trout Restoration Areas have stricter regulations than the "
+            "Type 1-4 streams they overlap with:\n"
+            "  - Possession season: Last Saturday in April – Sep. 30\n"
+            "  - Min size for Brook Trout, Lake Trout, Splake: 20\"\n"
+            "  - Daily possession: 1 fish total combined (Brook/Lake/Splake)"
+        ),
+    }
     return out
 
 
@@ -518,9 +735,9 @@ def main() -> int:
     exceptions = parse_county_exceptions(pages)
     print(f"[parse]   → {len(exceptions)} doc(s)")
 
-    print(f"[parse] OCRing Type regulation tables (pp. 42-43)...")
+    print(f"[parse] Parsing Type regulation tables (pp. 44-45)...")
     type_tables = parse_type_regulation_tables()
-    print(f"[parse]   → OCR complete")
+    print(f"[parse]   → {len(type_tables['lake_types'])} lake types, {len(type_tables['stream_types'])} stream types parsed")
 
     # Stats per county (for sanity check)
     lakes_by_county = defaultdict(int)

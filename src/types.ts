@@ -24,9 +24,23 @@ export interface RegulationDoc {
   source_pages: number[];
 }
 
+export interface TypeTableEntry {
+  label: string;
+  count?: string;
+  season?: string;
+  tackle?: string;
+  daily_limit?: string;
+  size_limits?: Record<string, string>;
+  plain: string;
+}
+
 export interface TypeTables {
-  lake_types: { _raw: string } & Record<string, string>;
-  stream_types: { _raw: string } & Record<string, string>;
+  lake_types: {
+    [letter: string]: TypeTableEntry;
+  };
+  stream_types: {
+    [num: string]: TypeTableEntry;
+  };
   _ocr_quality: string;
 }
 

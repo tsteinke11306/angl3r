@@ -2197,12 +2197,152 @@
   ],
   "type_tables": {
     "lake_types": {
-      "_raw": ".\n~\nxX\nse\n| = ie = a EE J) oj | Ss = “ = ag = /\n———_——— Ss’ USS ‘\n\\ E NNN = Oe a. y\n1 ee Fe. ees a 8 So SS SOU\n-~ — - y\nwe provide peace of mind for every precious moment out there, so you\nC can enjoy a healthy dose of happiness—morning, noon, and night.\n6 =\n4 1-800-PROGRESSIVE | PROGRESSIVE.COM\n=\nwn\n=\n=\noe\n=!\nca\n2 e\n3 PROGRESSIVE Getan Ea\n8 online quote P\na in as little as \"\n2 4minutes FORE.\n"
+      "A": {
+        "label": "Type A",
+        "count": "60 lakes",
+        "season": "Last Sat. in April – Oct. 31",
+        "tackle": "All except minnows",
+        "daily_limit": "5/3*",
+        "size_limits": {
+          "brook_trout": "10\"",
+          "brown_trout": "12\"",
+          "rainbow_trout": "15\"",
+          "lake_trout": "10\"",
+          "atlantic_chinook_coho_pink_salmon": "15\""
+        },
+        "plain": "Type A (60 lakes)\nSeason: Last Sat. in April – Oct. 31\nTackle: All except minnows\nDaily/possession limit: 5/3*\nBrook Trout min: 10\"\nBrown Trout min: 12\"\nRainbow Trout min: 15\"\nLake Trout min: 10\"\nAtlantic/Chinook/Coho/Pink Salmon min: 15\""
+      },
+      "B": {
+        "label": "Type B",
+        "count": "53 lakes",
+        "season": "Open Year",
+        "tackle": "All All",
+        "daily_limit": "5/3*",
+        "size_limits": {
+          "brook_trout": "10\"",
+          "brown_trout": "12\"",
+          "rainbow_trout": "15\"",
+          "lake_trout": "10\"",
+          "atlantic_chinook_coho_pink_salmon": "15\""
+        },
+        "plain": "Type B (53 lakes)\nSeason: Open Year\nTackle: All All\nDaily/possession limit: 5/3*\nBrook Trout min: 10\"\nBrown Trout min: 12\"\nRainbow Trout min: 15\"\nLake Trout min: 10\"\nAtlantic/Chinook/Coho/Pink Salmon min: 15\""
+      },
+      "C": {
+        "label": "Type C",
+        "count": "26 lakes",
+        "season": "Open Year",
+        "tackle": "All All",
+        "daily_limit": "5/3*",
+        "size_limits": {
+          "brook_trout": "8\"",
+          "brown_trout": "8\"",
+          "rainbow_trout": "8\"",
+          "lake_trout": "10\"",
+          "atlantic_chinook_coho_pink_salmon": "15\""
+        },
+        "plain": "Type C (26 lakes)\nSeason: Open Year\nTackle: All All\nDaily/possession limit: 5/3*\nBrook Trout min: 8\"\nBrown Trout min: 8\"\nRainbow Trout min: 8\"\nLake Trout min: 10\"\nAtlantic/Chinook/Coho/Pink Salmon min: 15\""
+      },
+      "D": {
+        "label": "Type D",
+        "count": "19 lakes",
+        "season": "Last Sat. in April – Oct. 31",
+        "tackle": "All",
+        "daily_limit": "1",
+        "size_limits": {
+          "brook_trout": "15\"",
+          "brown_trout": "15\"",
+          "rainbow_trout": "15\"",
+          "lake_trout": "10\"",
+          "atlantic_chinook_coho_pink_salmon": "15\""
+        },
+        "plain": "Type D (19 lakes)\nSeason: Last Sat. in April – Oct. 31\nTackle: All\nDaily/possession limit: 1\nBrook Trout min: 15\"\nBrown Trout min: 15\"\nRainbow Trout min: 15\"\nLake Trout min: 10\"\nAtlantic/Chinook/Coho/Pink Salmon min: 15\""
+      },
+      "E": {
+        "label": "Type E",
+        "count": "11 lakes",
+        "season": "Open Year",
+        "tackle": "All All",
+        "daily_limit": "3",
+        "size_limits": {
+          "brook_trout": "15\"",
+          "brown_trout": "15\"",
+          "rainbow_trout": "15\"",
+          "lake_trout": "10\"",
+          "atlantic_chinook_coho_pink_salmon": "15\""
+        },
+        "plain": "Type E (11 lakes)\nSeason: Open Year\nTackle: All All\nDaily/possession limit: 3\nBrook Trout min: 15\"\nBrown Trout min: 15\"\nRainbow Trout min: 15\"\nLake Trout min: 10\"\nAtlantic/Chinook/Coho/Pink Salmon min: 15\""
+      },
+      "F": {
+        "label": "Type F",
+        "count": "16 lakes",
+        "season": "Open Year",
+        "tackle": "All All",
+        "daily_limit": "5/3^",
+        "size_limits": {
+          "brook_trout": "10\"",
+          "brown_trout": "10\"",
+          "rainbow_trout": "10\"",
+          "lake_trout": "10\"",
+          "atlantic_chinook_coho_pink_salmon": "10\""
+        },
+        "plain": "Type F (16 lakes)\nSeason: Open Year\nTackle: All All\nDaily/possession limit: 5/3^\nBrook Trout min: 10\"\nBrown Trout min: 10\"\nRainbow Trout min: 10\"\nLake Trout min: 10\"\nAtlantic/Chinook/Coho/Pink Salmon min: 10\""
+      }
     },
     "stream_types": {
-      "_raw": "cian Woe a See Pee i s\nRMR ee ea ee : & *\n: me Co Ne ee ON SS ae a\ncae eee S 6 Ne coe : Yes\nee a = oe\n“ ae 2 eae ee ee a ‘tis 5 ae sae : :\nmeh cae Oe Sl\nsimgenemeen re tie arcane mC OS ee 5 i\nes SS Gaerne sa Saase eco ina\np= ee — —246e } ee :\na aw ace eran ae er, a\ni ee Bi = :\n: rit te fe e a) % oro eee :\nLa a A 1 ela ey. _ om ~~ Biber more\nBeet): ee - a Se\nGa jo ~ ¥ Oo 2 - — :\nisl , oe S Beco \\ ps 2 nee lie, 2\nBy Me, a aa 3 Se iiogs ~ = a\nse (ene oo _s:, & Lae ce tee\na a es ey Thy - ;\n“al % ae Ze ‘eb } Qos: file o ee ae i eT oe\nB 2 Ss ee ae =\n3 » Ses Se wf\n7 gSisie3 : 2 3 erie, Sg ee eee\nes ie ets ee\nSa ee ee ee, ie\nOSS (Ne OS\nas eee ee, ee\ngee at By Se nets c. ea\nee oe A me\na fh ee Cp i ola\n‘ . ae ee ae Af 2 Ss\nhe ty \\ . Mies iy ee\n{ cA MM ee FON Sis OE eee OR eg\nery OY ee\n» ia \\ RR are ee ee ae\n* if F ; ‘ a re aes ” J HE We peek\na 5 Te ee oe gy aa a SI ee\na) me ek I eg\n» - OR Ot ae ee\nI ed SAe No he. =.=\ndeteeaes 4 \\ | ee 5 RMS ONES SETI 5 NR RR a SMR CNS Oa\npistes a >. & aie oo ee ooo ae een\nEee: se _— % ee ieee. “tee ee\nA (i\neeu: Vi /-. = ae BOO ost\nae \\ of ee\nis me eS oe, Oe ee as\n€ a 4 a, wes, “eo 7s Bee ony ib, cto eee eet\noR ees ee a Pe cet sat cage as ear\noo VR I\nMewar & : ci. | eee ae : ee :\nae |) Vee eee Seo\neared 14 Ee Vass co oe oe ‘\npo eS Ve oo\n\n\\ ‘ee. \\ >. :\n\nm J #8 a SG fe\nJAY’S y ) ¥’S 8800 S. CLARE AVE 1151 S. OTSEGO AVE\nSPORTING GOODS CLARE, MI 48617 GAYLORD, MI 49735\n\nWWW.JAYSSPORTINGGOODS.COM 989.386.3475 989.705.1339\n"
+      "1": {
+        "label": "Type 1",
+        "count": "1,400 streams",
+        "season": "Last Sat. in April – Sep. 30",
+        "size_limits": {
+          "brook_trout": "7\"",
+          "brown_trout": "8\"",
+          "salmon_lake_trout_rainbow_splake": "10\""
+        },
+        "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48–65 for exceptions.",
+        "plain": "Type 1 (1,400 streams)\nSeason: Last Sat. in April – Sep. 30\nBrook Trout min: 7\"\nBrown Trout min: 8\"\nSalmon/Lake Trout/Rainbow Trout/Splake min: 10\"\nDaily limit: 5 fish, but no more than 3 trout 15\" or greater"
+      },
+      "2": {
+        "label": "Type 2",
+        "count": "13 streams",
+        "season": "Last Sat. in April – Sep. 30",
+        "size_limits": {
+          "brook_trout": "10\"",
+          "brown_trout": "12\"",
+          "salmon_lake_trout_rainbow_splake": "10\""
+        },
+        "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48–65 for exceptions.",
+        "plain": "Type 2 (13 streams)\nSeason: Last Sat. in April – Sep. 30\nBrook Trout min: 10\"\nBrown Trout min: 12\"\nSalmon/Lake Trout/Rainbow Trout/Splake min: 10\"\nDaily limit: 5 fish, but no more than 3 trout 15\" or greater"
+      },
+      "3": {
+        "label": "Type 3",
+        "count": "58 streams",
+        "season": "Open All Year",
+        "size_limits": {
+          "brook_trout": "15\"",
+          "brown_trout": "15\"",
+          "salmon_lake_trout_rainbow_splake": "10\""
+        },
+        "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48–65 for exceptions.",
+        "plain": "Type 3 (58 streams)\nSeason: Open All Year\nBrook Trout min: 15\"\nBrown Trout min: 15\"\nSalmon/Lake Trout/Rainbow Trout/Splake min: 10\"\nDaily limit: 5 fish, but no more than 3 trout 15\" or greater"
+      },
+      "4": {
+        "label": "Type 4",
+        "count": "128 streams",
+        "season": "Open All Year",
+        "size_limits": {
+          "brook_trout": "7\"",
+          "brown_trout": "10\"",
+          "salmon_lake_trout_rainbow_splake": "10\""
+        },
+        "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48–65 for exceptions.",
+        "plain": "Type 4 (128 streams)\nSeason: Open All Year\nBrook Trout min: 7\"\nBrown Trout min: 10\"\nSalmon/Lake Trout/Rainbow Trout/Splake min: 10\"\nDaily limit: 5 fish, but no more than 3 trout 15\" or greater"
+      },
+      "BTRA": {
+        "label": "Brook Trout Restoration Areas (BTRA)",
+        "plain": "Brook Trout Restoration Areas have stricter regulations than the Type 1-4 streams they overlap with:\n  - Possession season: Last Saturday in April – Sep. 30\n  - Min size for Brook Trout, Lake Trout, Splake: 20\"\n  - Daily possession: 1 fish total combined (Brook/Lake/Splake)"
+      }
     },
-    "_ocr_quality": "low"
+    "_ocr_quality": "high"
   },
   "counties": {
     "order": [

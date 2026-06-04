@@ -48,7 +48,10 @@ html, body {
   position: relative;
   padding: 2rem 1.25rem 1.5rem;
   background-color: var(--color-bg);
-  background-image: url("/topo-bg.svg");
+  /* The topo background URL is set via inline style using the imported SVG
+     (see renderHeader in main.ts). The CSS variable --topo-bg is a fallback
+     if the inline style isn't applied. */
+  background-image: var(--topo-bg, none);
   background-size: cover;
   background-position: center;
   border-bottom: 1px solid var(--color-border);
@@ -275,6 +278,20 @@ mark {
   color: var(--color-text-muted);
 }
 .detail__body--ocr em { color: var(--color-warning); font-style: normal; font-weight: 600; }
+
+.detail__body--type {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  background: #f8fafc;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  margin: 0;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  line-height: 1.5;
+}
 
 .detail__link {
   display: inline-flex;

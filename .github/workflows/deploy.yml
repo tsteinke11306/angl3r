@@ -43,7 +43,7 @@ jobs:
       - name: Install PDF parsing tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y poppler-utils tesseract-ocr
+          sudo apt-get install -y poppler-utils
           pip3 install --break-system-packages pdfminer.six pypdf
 
       - name: Parse PDF to JSON

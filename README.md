@@ -53,10 +53,12 @@ line-by-line. This works for the majority of entries but has known issues:
   the 2-column layout puts two stream entries on one line. The (name,
   county, type) tuple is always correct; the section description may
   occasionally mix in a neighboring entry.
-- **Type A–F / Type 1–4 regulation tables** (pp. 42–43) are scanned images
-  in the PDF. They're extracted via tesseract OCR and shown in monospace
-  with a warning that they may contain recognition errors. Always verify
-  against the original PDF.
+- **Type A–F (lakes) and Type 1–4 (streams) regulation tables** are
+  parsed from physical pages 44–45 using `pdftotext -tsv` to read
+  word positions, then reconstructing the table cells. The output is
+  fully structured: each Type has `season`, `tackle`, `daily_limit`,
+  and `size_limits` (per species). The frontend renders this in a
+  monospace block; users can always cross-check with the original PDF.
 
 If you find a specific waterbody that's missing or wrong, please open an
 issue or PR.

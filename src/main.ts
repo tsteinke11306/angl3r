@@ -9,9 +9,14 @@
  */
 
 import "./styles.css";
-import type { RegsData, Lake, Stream } from "./types";
+import type { RegsData, Stream } from "./types";
 import { LAKE_TYPE_TITLES, STREAM_TYPE_TITLES } from "./types";
 import { search, groupByCounty, findExact, type Result } from "./search";
+
+// Vite rewrites these imports to fingerprinted URLs in the build, with the
+// correct base path. We use them as both <img src> and CSS url().
+import logoUrl from "../public/angler-icon.svg";
+import topoUrl from "../public/topo-bg.svg";
 
 // ---------------------------------------------------------------------------
 // Data loading
@@ -62,9 +67,9 @@ let currentQuery = "";
 
 function renderHeader(): string {
   return `
-    <header class="site-header">
+    <header class="site-header" style="--topo-bg: url('${topoUrl}')">
       <div class="site-header__inner">
-        <img src="/angler-icon.svg" alt="" class="site-logo" />
+        <img src="${logoUrl}" alt="" class="site-logo" />
         <div>
           <h1 class="site-title">Angler</h1>
           <p class="site-tagline">Michigan fishing regulations — search by lake or stream</p>
@@ -159,27 +164,46 @@ function renderDetailForResult(result: Result, data: RegsData): string {
 
   const isStream = result.kind === "stream";
   const stream = isStream ? (record as Stream) : null;
-  const lake = !isStream ? (record as Lake) : null;
+  const typeCode = result.type;
 
-  // Find the relevant general Type regulation doc
+  // Get the structured Type regulation data (parsed from pp. 44-45)
   const typeTable = isStream
-    ? data.type_tables.stream_types._raw
-    : data.type_tables.lake_types._raw;
+    ? data.type_tables.stream_types[typeCode]
+    : data.type_tables.lake_types[typeCode];
   const typeTitle = isStream
-    ? STREAM_TYPE_TITLES[stream!.type] ?? `Type ${stream!.type}`
-    : LAKE_TYPE_TITLES[lake!.type] ?? `Type ${lake!.type}`;
+    ? STREAM_TYPE_TITLES[typeCode] ?? `Type ${typeCode}`
+    : LAKE_TYPE_TITLES[typeCode] ?? `Type ${typeCode}`;
 
   // Link to the PDF page (we use the public/ data PDF for the GitHub Pages
   // deployment; the link is relative to the repo)
   const pdfPage = record.source_page;
   const pdfHref = `https://github.com/tsteinke11306/angler/blob/main/data/2026-Michigan-Fishing-Regulations.pdf#page=${pdfPage}`;
 
+  // Build the Type regulation section
+  let typeSection = "";
+  if (typeTable && typeTable.plain) {
+    typeSection = `
+      <div class="detail__section">
+        <h3 class="detail__section-title">Type ${esc(typeCode)} regulation</h3>
+        <pre class="detail__body detail__body--type">${esc(typeTable.plain)}</pre>
+      </div>
+    `;
+  } else {
+    // Fallback for missing Type (shouldn't happen for valid A-F / 1-4)
+    typeSection = `
+      <div class="detail__section">
+        <h3 class="detail__section-title">Type ${esc(typeCode)} regulation</h3>
+        <p class="detail__body--ocr">No structured regulation data found for this Type. See the original PDF for details.</p>
+      </div>
+    `;
+  }
+
   return `
     <h2 class="detail__title">${esc(result.name)}</h2>
     <p class="detail__subtitle">${esc(result.county)} County · ${isStream ? "Stream" : "Lake"}</p>
 
     <div class="detail__badges">
-      <span class="badge ${isStream ? "badge--stream" : ""}">Type ${esc(result.type)} — ${esc(typeTitle)}</span>
+      <span class="badge ${isStream ? "badge--stream" : ""}">Type ${esc(typeCode)} — ${esc(typeTitle)}</span>
       ${stream?.section ? `<span class="badge">${esc(stream.section.slice(0, 60))}${stream.section.length > 60 ? "…" : ""}</span>` : ""}
     </div>
 
@@ -199,10 +223,7 @@ function renderDetailForResult(result: Result, data: RegsData): string {
       : ""
     }
 
-    <div class="detail__section">
-      <h3 class="detail__section-title">Type ${esc(result.type)} regulation</h3>
-      <p class="detail__body--ocr">${esc(typeTable)}<br><br><em>This text was extracted from the PDF by OCR. It may contain recognition errors. Always verify against the official source linked below.</em></p>
-    </div>
+    ${typeSection}
 
     <a class="detail__link" href="${pdfHref}" target="_blank" rel="noopener noreferrer">
       View in original PDF (page ${pdfPage}) →
@@ -248,6 +269,11 @@ async function main() {
     `;
     return;
   }
+
+  // Fix the favicon href to use the proper base URL. The HTML has a
+  // placeholder href; we update it now that the JS bundle has loaded.
+  const favicon = document.getElementById("favicon") as HTMLLinkElement | null;
+  if (favicon) favicon.href = logoUrl;
 
   // Initial render
   root.innerHTML = `
