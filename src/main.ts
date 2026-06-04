@@ -17,6 +17,10 @@ import { search, groupByCounty, findExact, type Result } from "./search";
 // correct base path. We use them as both <img src> and CSS url().
 import logoUrl from "../public/angler-icon.svg";
 import topoUrl from "../public/topo-bg.svg";
+// The county map SVG is loaded as a raw string so we can inline it into
+// the DOM and attach click handlers to each <path>. Using ?raw tells Vite
+// to ship the file contents as a string instead of as a fingerprinted URL.
+import miCountiesSvg from "../public/mi-counties.svg?raw";
 
 // ---------------------------------------------------------------------------
 // Data loading
@@ -60,6 +64,7 @@ function highlight(text: string, query: string): string {
 
 let selectedResult: Result | null = null;
 let currentQuery = "";
+let currentView: "search" | "map" = "search";
 
 // ---------------------------------------------------------------------------
 // Render functions
@@ -105,6 +110,101 @@ function renderSearchBox(): string {
         autocomplete="off"
         autofocus
       />
+    </div>
+  `;
+}
+
+/**
+ * View tabs let the user switch between the search interface and the
+ * county map. Default is "search" (the original behavior). The map view
+ * shows an interactive SVG of Michigan counties; clicking a county sets
+ * the search filter to that county and switches back to the search view.
+ */
+function renderViewTabs(active: "search" | "map"): string {
+  return `
+    <div class="view-tabs" role="tablist">
+      <button
+        class="view-tabs__btn"
+        role="tab"
+        id="tab-search"
+        data-view="search"
+        aria-selected="${active === "search"}"
+        aria-controls="view-container"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.3-4.3"/>
+        </svg>
+        Search
+      </button>
+      <button
+        class="view-tabs__btn"
+        role="tab"
+        id="tab-map"
+        data-view="map"
+        aria-selected="${active === "map"}"
+        aria-controls="view-container"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+        Browse by county
+      </button>
+    </div>
+  `;
+}
+
+/**
+ * Build the map view: an inline SVG of Michigan counties with the
+ * `data-has-data` and `data-empty` attributes set per the data.
+ *
+ * The SVG is imported as a raw string at the top of the file, so we can
+ * just inject it here. The path elements have id="county-<name>" and
+ * data-county="<Name>" already; we just add the data-* flags.
+ */
+function renderMapView(data: RegsData): string {
+  // Build a set of counties that have waterbodies in the dataset
+  const countiesWithData = new Set<string>();
+  for (const lake of data.lakes) countiesWithData.add(lake.county);
+  for (const stream of data.streams) countiesWithData.add(stream.county);
+
+  // Annotate the SVG: add data-has-data or data-empty to each path.
+  // We do a simple regex pass — the SVG was authored by us (or our
+  // subagent) so the structure is stable.
+  let annotated = miCountiesSvg;
+  annotated = annotated.replace(
+    /<path\s+([^>]*?)data-county="([^"]+)"([^>]*?)\/?>/g,
+    (_match, before, county, after) => {
+      const has = countiesWithData.has(county);
+      const flag = has ? ' data-has-data="true"' : ' data-empty="true"';
+      return `<path ${before}data-county="${county}"${after}${flag}/>`;
+    }
+  );
+
+  return `
+    <div class="map-view">
+      <div class="map-view__header">
+        <h2 class="map-view__title">Click a county</h2>
+        <p class="map-view__hint">
+          ${countiesWithData.size} of 83 counties have trout/salmon waters
+        </p>
+      </div>
+      <div class="map-svg-container" id="map-svg-container">${annotated}</div>
+      <div class="map-legend">
+        <span class="map-legend__item">
+          <span class="map-legend__swatch map-legend__swatch--data"></span>
+          Has waterbodies
+        </span>
+        <span class="map-legend__item">
+          <span class="map-legend__swatch map-legend__swatch--empty"></span>
+          Not in this PDF
+        </span>
+        <span class="map-legend__item">
+          <span class="map-legend__swatch map-legend__swatch--selected"></span>
+          Selected
+        </span>
+      </div>
     </div>
   `;
 }
@@ -252,8 +352,223 @@ function renderFooter(): string {
 }
 
 // ---------------------------------------------------------------------------
-// Main app
+// View switching
 // ---------------------------------------------------------------------------
+
+/**
+ * Render the search view (search box + results container). Both are
+ * inside #view-container; we render them as a single string and use
+ * innerHTML to update. The actual search/click handlers are attached
+ * separately after the DOM is updated.
+ */
+function renderSearchView(_data: RegsData): string {
+  return `
+    ${renderSearchBox()}
+    <div id="results-container">${renderResults([])}</div>
+  `;
+}
+
+/**
+ * Render the map view (inline SVG of Michigan counties).
+ */
+function renderMapViewUI(data: RegsData): string {
+  return renderMapView(data);
+}
+
+/**
+ * Switch between the search and map views. Updates the tab button states,
+ * swaps the contents of #view-container, and re-attaches handlers.
+ */
+function switchView(target: "search" | "map", data: RegsData) {
+  currentView = target;
+
+  // Update tab aria-selected
+  const tabSearch = document.getElementById("tab-search")!;
+  const tabMap = document.getElementById("tab-map")!;
+  tabSearch.setAttribute("aria-selected", String(target === "search"));
+  tabMap.setAttribute("aria-selected", String(target === "map"));
+
+  // Replace the view container's contents
+  const container = document.getElementById("view-container")!;
+  container.innerHTML =
+    target === "search" ? renderSearchView(data) : renderMapViewUI(data);
+
+  // Re-attach handlers for the new view
+  if (target === "search") {
+    attachSearchHandlers(data);
+  } else {
+    attachMapHandlers(data);
+  }
+}
+
+/**
+ * Re-attach event handlers for the search view. Called after every render
+ * of the search UI (initial load, view switch from map, etc.).
+ */
+function attachSearchHandlers(data: RegsData) {
+  const searchInput = document.getElementById("search-input") as HTMLInputElement | null;
+  if (!searchInput) return;
+  // Re-apply the current query (in case we're switching from map where
+  // the user clicked a county)
+  searchInput.value = currentQuery;
+
+  const resultsContainer = document.getElementById("results-container")!;
+
+  let searchTimer: number | null = null;
+  searchInput.addEventListener("input", () => {
+    if (searchTimer) window.clearTimeout(searchTimer);
+    searchTimer = window.setTimeout(() => {
+      currentQuery = searchInput.value;
+      const results = search(currentQuery, data, 50);
+      resultsContainer.innerHTML = renderResults(results);
+      attachResultHandlers(data);
+      // Auto-select the first result if nothing is selected
+      if (!selectedResult && results.length > 0) {
+        selectedResult = results[0];
+        updateDetailForSelected(data);
+      } else if (selectedResult) {
+        updateDetailForSelected(data);
+      }
+    }, 80);
+  });
+
+  // Keyboard nav
+  searchInput.addEventListener("keydown", (e) => {
+    const buttons = Array.from(resultsContainer.querySelectorAll<HTMLElement>(".result"));
+    if (buttons.length === 0) return;
+    const currentIdx = selectedResult
+      ? buttons.findIndex(
+          (b) =>
+            b.dataset.name === selectedResult!.name &&
+            b.dataset.county === selectedResult!.county &&
+            b.dataset.kind === selectedResult!.kind
+        )
+      : -1;
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      const next = buttons[Math.min(currentIdx + 1, buttons.length - 1)];
+      if (next) next.click();
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      const prev = buttons[Math.max(currentIdx - 1, 0)];
+      if (prev) prev.click();
+    }
+  });
+
+  // If we already have a query, run it
+  if (currentQuery) {
+    const results = search(currentQuery, data, 50);
+    resultsContainer.innerHTML = renderResults(results);
+    attachResultHandlers(data);
+  }
+}
+
+/**
+ * Re-attach event handlers for the map view. Wires up the click handler
+ * on each <path> element so clicking a county sets the search filter
+ * to that county name and switches back to the search view.
+ */
+function attachMapHandlers(data: RegsData) {
+  const container = document.getElementById("map-svg-container");
+  if (!container) return;
+
+  // For each <path> with a data-county attribute, attach a click handler
+  const paths = container.querySelectorAll<SVGPathElement>("path[data-county]");
+  paths.forEach((path) => {
+    const county = path.getAttribute("data-county")!;
+    const hasData = path.getAttribute("data-has-data") === "true";
+
+    // Add an accessible title for screen readers
+    const lakeCount = data.lakes.filter((l) => l.county === county).length;
+    const streamCount = data.streams.filter((s) => s.county === county).length;
+    let label = county + " County";
+    if (hasData) {
+      label += ` — ${lakeCount} lake${lakeCount === 1 ? "" : "s"}, ${streamCount} stream${streamCount === 1 ? "" : "s"}`;
+    } else {
+      label += " — no trout/salmon waters in this PDF";
+    }
+    path.setAttribute("aria-label", label);
+    path.setAttribute("role", "button");
+    path.setAttribute("tabindex", "0");
+
+    const onActivate = () => {
+      if (!hasData) {
+        // Empty county — flash the path briefly to indicate "no data"
+        path.style.transition = "fill 0.2s";
+        path.setAttribute("data-flash", "true");
+        window.setTimeout(() => path.removeAttribute("data-flash"), 600);
+        return;
+      }
+      // Set the search query to the county name and switch to search view
+      currentQuery = county;
+      selectedResult = null;
+      switchView("search", data);
+      // The search view re-renders with the county name as the filter.
+      // We need to give the DOM a tick to mount before the input event
+      // can fire, so manually populate the results.
+      const results = search(currentQuery, data, 50);
+      const resultsContainer = document.getElementById("results-container");
+      if (resultsContainer) {
+        resultsContainer.innerHTML = renderResults(results);
+        attachResultHandlers(data);
+        if (results.length > 0) {
+          selectedResult = results[0];
+          updateDetailForSelected(data);
+        }
+      }
+    };
+
+    path.addEventListener("click", onActivate);
+    path.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        onActivate();
+      }
+    });
+  });
+}
+
+/**
+ * Re-attach the click handlers to result buttons in the results list.
+ */
+function attachResultHandlers(data: RegsData) {
+  const resultsContainer = document.getElementById("results-container");
+  if (!resultsContainer) return;
+  const buttons = resultsContainer.querySelectorAll<HTMLElement>(".result");
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const kind = btn.dataset.kind as "lake" | "stream";
+      const name = btn.dataset.name!;
+      const county = btn.dataset.county!;
+      const results = search(currentQuery, data, 50);
+      const result = results.find((r) => r.name === name && r.county === county && r.kind === kind);
+      if (!result) return;
+      selectedResult = result;
+      buttons.forEach((b) => b.setAttribute("aria-selected", "false"));
+      btn.setAttribute("aria-selected", "true");
+      updateDetailForSelected(data);
+      // Scroll the detail panel into view on mobile
+      const detailContainer = document.getElementById("detail-container");
+      if (window.innerWidth < 880) {
+        detailContainer?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  });
+}
+
+/**
+ * Re-render the detail panel for the currently selected result.
+ */
+function updateDetailForSelected(data: RegsData) {
+  const detailContainer = document.getElementById("detail-container");
+  if (!detailContainer) return;
+  if (selectedResult) {
+    detailContainer.innerHTML = `<div class="detail">${renderDetailForResult(selectedResult, data)}</div>`;
+  } else {
+    detailContainer.innerHTML = `<div class="detail">${renderDetailPlaceholder()}</div>`;
+  }
+}
+
 
 async function main() {
   const root = document.getElementById("app")!;
@@ -275,15 +590,16 @@ async function main() {
   const favicon = document.getElementById("favicon") as HTMLLinkElement | null;
   if (favicon) favicon.href = logoUrl;
 
-  // Initial render
+  // Initial render: search view is default
+  currentView = "search";
   root.innerHTML = `
     ${renderHeader()}
     <main class="main">
       <div class="layout">
         <div>
           ${renderStats(data)}
-          ${renderSearchBox()}
-          <div id="results-container">${renderResults([])}</div>
+          ${renderViewTabs(currentView)}
+          <div id="view-container">${renderSearchView(data)}</div>
         </div>
         <div id="detail-container">
           <div class="detail">${renderDetailPlaceholder()}</div>
@@ -293,78 +609,18 @@ async function main() {
     ${renderFooter()}
   `;
 
-  const searchInput = document.getElementById("search-input") as HTMLInputElement;
-  const resultsContainer = document.getElementById("results-container")!;
-  const detailContainer = document.getElementById("detail-container")!;
-
-  // Debounced search
-  let searchTimer: number | null = null;
-  searchInput.addEventListener("input", () => {
-    if (searchTimer) window.clearTimeout(searchTimer);
-    searchTimer = window.setTimeout(() => {
-      currentQuery = searchInput.value;
-      const results = search(currentQuery, data, 50);
-      resultsContainer.innerHTML = renderResults(results);
-      attachResultHandlers();
-      // Auto-select the first result if nothing is selected
-      if (!selectedResult && results.length > 0) {
-        selectedResult = results[0];
-        detailContainer.innerHTML = `<div class="detail">${renderDetailForResult(results[0], data)}</div>`;
-        // Mark the first result as selected
-        const firstBtn = resultsContainer.querySelector(".result") as HTMLElement;
-        if (firstBtn) firstBtn.setAttribute("aria-selected", "true");
-      } else if (selectedResult) {
-        // Update the detail panel for the currently selected result
-        detailContainer.innerHTML = `<div class="detail">${renderDetailForResult(selectedResult, data)}</div>`;
-      }
-    }, 80);
+  // Wire up the tab buttons
+  document.getElementById("tab-search")!.addEventListener("click", () => {
+    if (currentView === "search") return;
+    switchView("search", data);
+  });
+  document.getElementById("tab-map")!.addEventListener("click", () => {
+    if (currentView === "map") return;
+    switchView("map", data);
   });
 
-  // Keyboard nav: arrow keys to move through results, Enter to select
-  searchInput.addEventListener("keydown", (e) => {
-    const buttons = Array.from(resultsContainer.querySelectorAll<HTMLElement>(".result"));
-    if (buttons.length === 0) return;
-    const currentIdx = selectedResult
-      ? buttons.findIndex((b) =>
-          b.dataset.name === selectedResult!.name &&
-          b.dataset.county === selectedResult!.county &&
-          b.dataset.kind === selectedResult!.kind
-        )
-      : -1;
-    if (e.key === "ArrowDown") {
-      e.preventDefault();
-      const next = buttons[Math.min(currentIdx + 1, buttons.length - 1)];
-      if (next) next.click();
-    } else if (e.key === "ArrowUp") {
-      e.preventDefault();
-      const prev = buttons[Math.max(currentIdx - 1, 0)];
-      if (prev) prev.click();
-    }
-  });
-
-  // Click handler for results (delegated)
-  function attachResultHandlers() {
-    const buttons = resultsContainer.querySelectorAll<HTMLElement>(".result");
-    buttons.forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const kind = btn.dataset.kind as "lake" | "stream";
-        const name = btn.dataset.name!;
-        const county = btn.dataset.county!;
-        // Find the result object to get source_page
-        const results = search(currentQuery, data, 50);
-        const result = results.find((r) => r.name === name && r.county === county && r.kind === kind);
-        if (!result) return;
-        selectedResult = result;
-        buttons.forEach((b) => b.setAttribute("aria-selected", "false"));
-        btn.setAttribute("aria-selected", "true");
-        detailContainer.innerHTML = `<div class="detail">${renderDetailForResult(result, data)}</div>`;
-        // Scroll the detail panel into view on mobile
-        if (window.innerWidth < 880) {
-          detailContainer.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      });
-    });
-  }
+  // Attach the search-view handlers (input, keyboard nav, result clicks)
+  attachSearchHandlers(data);
 }
 
 main().catch((err) => {

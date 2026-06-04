@@ -127,6 +127,141 @@ html, body {
   pointer-events: none;
 }
 
+/* --- View tabs (Search | Map) --- */
+.view-tabs {
+  display: flex;
+  gap: 0.25rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.25rem;
+  margin-bottom: 0.75rem;
+  box-shadow: var(--shadow-sm);
+}
+.view-tabs__btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.75rem;
+  background: transparent;
+  border: none;
+  border-radius: calc(var(--radius) - 2px);
+  font: inherit;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.view-tabs__btn:hover { color: var(--color-text); }
+.view-tabs__btn[aria-selected="true"] {
+  background: var(--color-accent);
+  color: white;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.view-tabs__btn svg { width: 16px; height: 16px; }
+
+/* --- Map view --- */
+.map-view {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 1rem;
+}
+.map-view__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.map-view__title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0;
+}
+.map-view__hint {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+.map-svg-container {
+  position: relative;
+  width: 100%;
+  background:
+    linear-gradient(135deg, #f0f7fb 0%, #e6f0f7 100%);
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+.map-svg-container svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  color: var(--color-border-strong);  /* default fill via currentColor */
+}
+.map-svg-container .counties path {
+  fill: var(--color-border-strong);
+  stroke: white;
+  stroke-width: 0.015;  /* relative to viewBox */
+  stroke-linejoin: round;
+  cursor: pointer;
+  transition: fill 0.12s, opacity 0.12s;
+}
+/* Counties with waterbodies are slightly darker by default */
+.map-svg-container .counties path[data-has-data="true"] {
+  fill: #94b8d1;
+}
+.map-svg-container .counties path:hover {
+  fill: var(--color-accent) !important;
+  opacity: 0.85;
+}
+.map-svg-container .counties path[data-selected="true"] {
+  fill: var(--color-accent);
+  opacity: 1;
+  stroke: var(--color-accent-dark);
+  stroke-width: 0.03;
+}
+.map-svg-container .counties path[data-empty="true"] {
+  fill: #e5e7eb;
+  cursor: not-allowed;
+}
+.map-svg-container .counties path[data-empty="true"]:hover {
+  fill: #d1d5db !important;
+  opacity: 1;
+}
+
+/* Map legend */
+.map-legend {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  flex-wrap: wrap;
+}
+.map-legend__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.map-legend__swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  border: 1px solid white;
+  box-shadow: 0 0 0 1px var(--color-border);
+}
+.map-legend__swatch--data { background: #94b8d1; }
+.map-legend__swatch--empty { background: #e5e7eb; }
+.map-legend__swatch--selected { background: var(--color-accent); }
+
 /* --- Results list --- */
 .results {
   background: var(--color-bg-card);
