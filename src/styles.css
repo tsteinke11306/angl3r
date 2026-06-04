@@ -270,24 +270,7 @@ html, body {
   .map-svg-container svg { max-height: 420px; }
 }
 
-/* County-name labels injected as <text> inside the SVG. They scale and
-   pan with the map automatically. */
-.map-label {
-  font-family: var(--font-sans);
-  font-weight: 600;
-  fill: #1f2937;
-  text-anchor: middle;
-  dominant-baseline: central;
-  pointer-events: none;
-  paint-order: stroke;
-  stroke: rgba(255, 255, 255, 0.85);
-  stroke-width: 0.04;  /* SVG units — keeps label readable on dark bg */
-  stroke-linejoin: round;
-  user-select: none;
-}
-.map--labels-hidden .map-label { display: none; }
-
-/* Map control buttons (+/-/reset/labels) overlay the map */
+/* Map control buttons (+/-/reset) overlay the map */
 .map-controls {
   position: absolute;
   top: 0.75rem;
@@ -331,6 +314,31 @@ html, body {
 .map-control-btn--toggle[aria-pressed="true"] {
   background: var(--color-accent);
   color: white;
+}
+
+/* Tooltip for county name on hover */
+.map-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--color-text);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 20;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.map-tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid transparent;
+  border-top-color: var(--color-text);
 }
 
 /* County path styling */

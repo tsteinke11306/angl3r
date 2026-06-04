@@ -220,95 +220,7 @@ function renderSpeciesFilter(data: RegsData, selected: string | null): string {
  * just inject it here. The path elements have id="county-<name>" and
  * data-county="<Name>" already; we just add the data-* flags.
  */
-// Pre-computed centroids for each county path. Computed once at module
-// load by parsing the SVG paths; used to position the county name labels
-// on the map. viewBox is 0 0 8.6022 7.0949, so these are in SVG coords.
-const COUNTY_CENTROIDS: Record<string, { cx: number; cy: number; w: number; h: number }> =
-  {
-    "Alcona": { "cx": 7.243, "cy": 3.318, "w": 0.69, "h": 0.539 },
-    "Alger": { "cx": 4.371, "cy": 0.989, "w": 0.852, "h": 0.939 },
-    "Allegan": { "cx": 2.345, "cy": 5.834, "w": 0.706, "h": 0.514 },
-    "Alpena": { "cx": 7.273, "cy": 2.55, "w": 0.71, "h": 0.587 },
-    "Antrim": { "cx": 4.392, "cy": 2.0, "w": 0.756, "h": 0.495 },
-    "Arenac": { "cx": 6.852, "cy": 4.454, "w": 0.601, "h": 0.253 },
-    "Baraga": { "cx": 3.18, "cy": 0.831, "w": 0.65, "h": 0.638 },
-    "Barry": { "cx": 2.789, "cy": 5.852, "w": 0.643, "h": 0.452 },
-    "Bay": { "cx": 6.882, "cy": 4.365, "w": 0.6, "h": 0.27 },
-    "Benzie": { "cx": 4.681, "cy": 3.845, "w": 0.444, "h": 0.265 },
-    "Berrien": { "cx": 1.42, "cy": 7.103, "w": 0.557, "h": 0.391 },
-    "Branch": { "cx": 5.659, "cy": 6.575, "w": 0.468, "h": 0.312 },
-    "Calhoun": { "cx": 2.572, "cy": 6.27, "w": 0.586, "h": 0.391 },
-    "Cass": { "cx": 4.725, "cy": 6.576, "w": 0.466, "h": 0.312 },
-    "Charlevoix": { "cx": 4.701, "cy": 1.996, "w": 0.642, "h": 0.659 },
-    "Cheboygan": { "cx": 6.15, "cy": 1.949, "w": 0.733, "h": 0.681 },
-    "Chippewa": { "cx": 6.4, "cy": 0.475, "w": 1.298, "h": 0.95 },
-    "Clare": { "cx": 5.587, "cy": 4.591, "w": 0.626, "h": 0.472 },
-    "Clinton": { "cx": 6.118, "cy": 5.547, "w": 0.473, "h": 0.349 },
-    "Crawford": { "cx": 5.913, "cy": 3.575, "w": 0.601, "h": 0.366 },
-    "Delta": { "cx": 4.692, "cy": 1.402, "w": 0.989, "h": 0.714 },
-    "Dickinson": { "cx": 3.119, "cy": 1.347, "w": 0.557, "h": 0.485 },
-    "Eaton": { "cx": 2.682, "cy": 5.835, "w": 0.526, "h": 0.359 },
-    "Emmet": { "cx": 5.583, "cy": 1.734, "w": 0.594, "h": 0.667 },
-    "Genesee": { "cx": 6.547, "cy": 5.281, "w": 0.51, "h": 0.336 },
-    "Gladwin": { "cx": 6.331, "cy": 4.502, "w": 0.442, "h": 0.347 },
-    "Gogebic": { "cx": 2.031, "cy": 1.273, "w": 0.749, "h": 0.717 },
-    "Grand Traverse": { "cx": 4.529, "cy": 2.953, "w": 0.603, "h": 0.473 },
-    "Gratiot": { "cx": 5.671, "cy": 5.157, "w": 0.528, "h": 0.382 },
-    "Hillsdale": { "cx": 5.81, "cy": 6.745, "w": 0.563, "h": 0.293 },
-    "Houghton": { "cx": 2.207, "cy": 0.741, "w": 0.679, "h": 0.736 },
-    "Huron": { "cx": 8.0, "cy": 3.665, "w": 0.82, "h": 0.599 },
-    "Ingham": { "cx": 6.346, "cy": 5.892, "w": 0.462, "h": 0.355 },
-    "Ionia": { "cx": 2.842, "cy": 5.395, "w": 0.554, "h": 0.408 },
-    "Iosco": { "cx": 7.444, "cy": 3.795, "w": 0.687, "h": 0.498 },
-    "Iron": { "cx": 2.501, "cy": 1.187, "w": 0.638, "h": 0.602 },
-    "Isabella": { "cx": 5.643, "cy": 4.751, "w": 0.624, "h": 0.397 },
-    "Jackson": { "cx": 6.103, "cy": 6.292, "w": 0.55, "h": 0.389 },
-    "Kalamazoo": { "cx": 1.815, "cy": 6.097, "w": 0.526, "h": 0.353 },
-    "Kalkaska": { "cx": 5.27, "cy": 2.951, "w": 0.615, "h": 0.466 },
-    "Kent": { "cx": 2.4, "cy": 4.886, "w": 0.71, "h": 0.466 },
-    "Keweenaw": { "cx": 1.621, "cy": 0.281, "w": 0.601, "h": 0.563 },
-    "Lake": { "cx": 4.451, "cy": 3.713, "w": 0.652, "h": 0.451 },
-    "Lapeer": { "cx": 7.106, "cy": 5.172, "w": 0.518, "h": 0.378 },
-    "Leelanau": { "cx": 4.604, "cy": 2.629, "w": 0.625, "h": 0.732 },
-    "Lenawee": { "cx": 6.151, "cy": 6.97, "w": 0.625, "h": 0.25 },
-    "Livingston": { "cx": 6.6, "cy": 5.706, "w": 0.493, "h": 0.331 },
-    "Luce": { "cx": 5.075, "cy": 0.701, "w": 0.802, "h": 0.659 },
-    "Mackinac": { "cx": 5.864, "cy": 1.134, "w": 1.108, "h": 0.788 },
-    "Macomb": { "cx": 7.713, "cy": 5.86, "w": 0.498, "h": 0.281 },
-    "Manistee": { "cx": 4.025, "cy": 3.497, "w": 0.687, "h": 0.575 },
-    "Marquette": { "cx": 3.41, "cy": 0.949, "w": 1.118, "h": 0.945 },
-    "Mason": { "cx": 3.55, "cy": 3.806, "w": 0.554, "h": 0.413 },
-    "Mecosta": { "cx": 4.764, "cy": 4.425, "w": 0.641, "h": 0.487 },
-    "Menominee": { "cx": 3.717, "cy": 1.642, "w": 0.661, "h": 0.593 },
-    "Midland": { "cx": 6.331, "cy": 4.845, "w": 0.44, "h": 0.36 },
-    "Missaukee": { "cx": 5.246, "cy": 3.488, "w": 0.611, "h": 0.474 },
-    "Monroe": { "cx": 7.69, "cy": 6.901, "w": 0.5, "h": 0.196 },
-    "Montcalm": { "cx": 4.879, "cy": 4.79, "w": 0.625, "h": 0.486 },
-    "Montmorency": { "cx": 6.929, "cy": 2.659, "w": 0.633, "h": 0.452 },
-    "Muskegon": { "cx": 2.31, "cy": 4.226, "w": 0.598, "h": 0.527 },
-    "Newaygo": { "cx": 3.706, "cy": 4.244, "w": 0.677, "h": 0.575 },
-    "Oakland": { "cx": 6.79, "cy": 5.91, "w": 0.582, "h": 0.413 },
-    "Oceana": { "cx": 3.221, "cy": 4.215, "w": 0.681, "h": 0.451 },
-    "Ogemaw": { "cx": 6.806, "cy": 3.486, "w": 0.595, "h": 0.385 },
-    "Ontonagon": { "cx": 1.708, "cy": 0.949, "w": 0.793, "h": 0.949 },
-    "Osceola": { "cx": 5.219, "cy": 4.226, "w": 0.633, "h": 0.428 },
-    "Oscoda": { "cx": 6.92, "cy": 3.143, "w": 0.6, "h": 0.461 },
-    "Otsego": { "cx": 5.69, "cy": 2.626, "w": 0.642, "h": 0.475 },
-    "Ottawa": { "cx": 1.851, "cy": 4.871, "w": 0.677, "h": 0.494 },
-    "Presque Isle": { "cx": 7.435, "cy": 2.099, "w": 0.815, "h": 0.667 },
-    "Roscommon": { "cx": 6.181, "cy": 3.609, "w": 0.6, "h": 0.412 },
-    "Saginaw": { "cx": 6.713, "cy": 4.823, "w": 0.55, "h": 0.42 },
-    "Sanilac": { "cx": 8.19, "cy": 4.421, "w": 0.59, "h": 0.5 },
-    "Schoolcraft": { "cx": 4.713, "cy": 0.939, "w": 0.973, "h": 0.745 },
-    "Shiawassee": { "cx": 6.573, "cy": 5.537, "w": 0.445, "h": 0.357 },
-    "St. Clair": { "cx": 7.954, "cy": 5.508, "w": 0.617, "h": 0.408 },
-    "St. Joseph": { "cx": 5.176, "cy": 6.576, "w": 0.499, "h": 0.312 },
-    "Tuscola": { "cx": 7.484, "cy": 4.385, "w": 0.586, "h": 0.46 },
-    "Van Buren": { "cx": 1.61, "cy": 6.451, "w": 0.518, "h": 0.4 },
-    "Washtenaw": { "cx": 6.762, "cy": 6.354, "w": 0.572, "h": 0.392 },
-    "Wayne": { "cx": 7.408, "cy": 6.398, "w": 0.475, "h": 0.236 },
-    "Wexford": { "cx": 4.81, "cy": 3.355, "w": 0.605, "h": 0.483 },
-  };
+
 
 function renderMapView(data: RegsData): string {
   // Build a set of counties that have waterbodies (PDF trout/salmon OR
@@ -320,9 +232,9 @@ function renderMapView(data: RegsData): string {
     countiesWithWaterbodies.add(wb.county);
   }
 
-  // Annotate the SVG: mark each path as has-data or has-species, and add
-  // a <text> label at the county centroid. We wrap the whole thing in a
-  // <g id="map-zoomable"> so we can apply pan/zoom transforms later.
+  // Annotate the SVG: mark each path as has-data or has-species.
+  // We wrap the whole thing in a <g id="map-zoomable"> so we can apply
+  // pan/zoom transforms later.
   let annotated = miCountiesSvg;
   annotated = annotated.replace(
     /<path\s+([^>]*?)data-county="([^"]+)"([^>]*?)\/?>/g,
@@ -333,46 +245,21 @@ function renderMapView(data: RegsData): string {
     }
   );
 
-  // Inject county-name <text> elements at each centroid. The font-size
-  // is set in CSS pixels via the viewBox coordinate system, so labels
-  // scale with the map when zoomed. We use a larger size that's still
-  // visible at the default zoom.
-  const labelsHtml = Object.entries(COUNTY_CENTROIDS)
-    .map(([county, { cx, cy, w }]) => {
-      // Truncate "St. Clair" / "St. Joseph" to fit smaller counties
-      const shortName = county.startsWith("St.") ? county.replace("St.", "St") : county;
-      // Font size in viewBox units. The viewBox is 8.6 wide, so 0.16 = 1.9% of
-      // the width. For very small counties, drop to 0.12.
-      const fs = w < 0.5 ? 0.12 : 0.16;
-      return `<text x="${cx.toFixed(3)}" y="${cy.toFixed(3)}" class="map-label" data-county="${esc(county)}" font-size="${fs}">${esc(shortName)}</text>`;
-    })
-    .join("");
-
-  // Insert the labels just before </svg>, AND wrap all <path> elements
-  // in a <g id="map-zoomable"> for pan/zoom. The simplest way: close the
-  // existing <svg>, wrap the content with our group, then reopen. But
-  // since the SVG has exactly one top-level <g> wrapping the paths, we
-  // can just insert the labels before the closing </g> and add an id.
-  annotated = annotated.replace(
-    /<\/g>\s*<\/svg>/,
-    `  ${labelsHtml}\n  </g>\n</svg>`
-  );
-
   return `
     <div class="map-view">
       <div class="map-view__header">
         <h2 class="map-view__title">Browse by county</h2>
         <p class="map-view__hint">
-          Click any county to see all ${data.waterbodies?.length ?? 0} named waterbodies. Scroll to zoom, drag to pan.
+          Click any county to see all ${data.waterbodies?.length ?? 0} named waterbodies. Hover for name. Scroll to zoom, drag to pan.
         </p>
       </div>
       <div class="map-zoomable" id="map-zoomable">
         <div class="map-svg-container" id="map-svg-container">${annotated}</div>
+        <div class="map-tooltip" id="map-tooltip" aria-hidden="true" style="display: none;"></div>
         <div class="map-controls" id="map-controls" role="toolbar" aria-label="Map controls">
           <button type="button" class="map-control-btn" data-action="zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
           <button type="button" class="map-control-btn" data-action="zoom-out" title="Zoom out" aria-label="Zoom out">−</button>
           <button type="button" class="map-control-btn" data-action="reset" title="Reset zoom" aria-label="Reset zoom">⟲</button>
-          <button type="button" class="map-control-btn map-control-btn--toggle" data-action="toggle-labels" title="Toggle labels" aria-label="Toggle labels">A</button>
         </div>
       </div>
       <div class="map-legend">
@@ -954,7 +841,7 @@ function attachMapHandlers(data: RegsData) {
     zoomable.addEventListener("touchend", () => { touchActive = false; });
   }
 
-  // Control buttons (+/-/reset/labels)
+  // Control buttons (+/-/reset)
   const controls = document.getElementById("map-controls");
   if (controls) {
     controls.addEventListener("click", (e: MouseEvent) => {
@@ -969,9 +856,6 @@ function attachMapHandlers(data: RegsData) {
         setTransform(scale / 1.4, tx - rect.width * 0.1, ty - rect.height * 0.1);
       } else if (action === "reset") {
         resetTransform();
-      } else if (action === "toggle-labels") {
-        const labelsVisible = target.classList.toggle("map--labels-hidden");
-        btn.setAttribute("aria-pressed", String(labelsVisible));
       }
     });
   }
@@ -1041,6 +925,35 @@ function attachMapHandlers(data: RegsData) {
         e.preventDefault();
         onActivate();
       }
+    });
+
+    // Tooltip handlers — show county name on hover
+    path.addEventListener("mouseenter", (e) => {
+      const tooltip = document.getElementById("map-tooltip");
+      if (!tooltip) return;
+      const county = path.getAttribute("data-county");
+      if (!county) return;
+      tooltip.textContent = county + " County";
+      tooltip.style.display = "block";
+      tooltip.setAttribute("aria-hidden", "false");
+      // Position near cursor (will be updated on mousemove)
+      const rect = (e.target as SVGElement).getBoundingClientRect();
+      const containerRect = (document.getElementById("map-zoomable") as HTMLElement).getBoundingClientRect();
+      tooltip.style.left = (rect.left - containerRect.left + rect.width / 2) + "px";
+      tooltip.style.top = (rect.top - containerRect.top - 8) + "px";
+    });
+    path.addEventListener("mousemove", (e) => {
+      const tooltip = document.getElementById("map-tooltip");
+      if (!tooltip || tooltip.style.display === "none") return;
+      const containerRect = (document.getElementById("map-zoomable") as HTMLElement).getBoundingClientRect();
+      tooltip.style.left = (e.clientX - containerRect.left + 12) + "px";
+      tooltip.style.top = (e.clientY - containerRect.top - 8) + "px";
+    });
+    path.addEventListener("mouseleave", () => {
+      const tooltip = document.getElementById("map-tooltip");
+      if (!tooltip) return;
+      tooltip.style.display = "none";
+      tooltip.setAttribute("aria-hidden", "true");
     });
   });
 }
