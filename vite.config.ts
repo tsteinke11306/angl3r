@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 
-// GitHub Pages serves from the repo root or /<repo> subpath. We're using
-// the repo root (tsteinke11306.github.io/angl3r), so the base is /angl3r/.
-const REPO_NAME = "angl3r";
+// GitHub Pages serves from the repo root or /<repo> subpath. The repo
+// is still named 'angler' on GitHub, so the base path remains /angler/.
+const REPO_NAME = "angler";
 
 export default defineConfig({
   base: `/${REPO_NAME}/`,

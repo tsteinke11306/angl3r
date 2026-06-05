@@ -7,7 +7,7 @@ PDF; the broader waterbody list comes from
 [Wikipedia's category tree](https://en.wikipedia.org/wiki/Category:Bodies_of_water_of_Michigan_by_county)
 (CC BY-SA 4.0). The site is rebuilt automatically when the PDF is updated.
 
-🌐 **Live site:** https://tsteinke11306.github.io/angl3r/
+🌐 **Live site:** https://tsteinke11306.github.io/angler/
 
 **At a glance:** 1,174 named waterbodies across all 83 Michigan counties,
 14 fish species with statewide regulations, and per-county exceptions for
@@ -48,7 +48,7 @@ cp data/regs.json public/data/regs.json
 
 # Run the dev server (with hot reload)
 npm run dev
-# Open the URL printed in the terminal (usually http://localhost:5173/angl3r/)
+# Open the URL printed in the terminal (usually http://localhost:5173/angler/)
 ```
 
 ## Data sources and quality

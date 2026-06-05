@@ -354,7 +354,7 @@ function renderDetailForResult(result: Result, data: RegsData): string {
   // the Wikipedia article.
   const pdfPage = record.pdf_record?.source_page;
   const pdfHref = pdfPage
-    ? `https://github.com/tsteinke11306/angl3r/blob/main/data/2026-Michigan-Fishing-Regulations.pdf#page=${pdfPage}`
+    ? `https://github.com/tsteinke11306/angler/blob/main/data/2026-Michigan-Fishing-Regulations.pdf#page=${pdfPage}`
     : null;
   const wikiHref = record.wikipedia_title
     ? `https://en.wikipedia.org/wiki/${encodeURIComponent(record.wikipedia_title.replace(/ /g, "_"))}`
@@ -486,7 +486,7 @@ function renderFooter(): string {
         This site is a convenience lookup; always verify current rules with the DNR before fishing.
       </p>
       <p style="margin-top: 0.5rem;">
-        <a href="https://github.com/tsteinke11306/angl3r" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
+        <a href="https://github.com/tsteinke11306/angler" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
         · Data last updated from the ${new Date().toLocaleDateString()} PDF parse.
       </p>
     </footer>
