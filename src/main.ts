@@ -336,10 +336,6 @@ function renderDetailForResult(result: Result, data: RegsData): string {
   const isPdf = record.source === "pdf";
   const typeCode = record.type;
 
-  // Find relevant full-text documents by category
-  const findDoc = (cat: string) =>
-    data.documents?.find((d) => d.category === cat);
-
   // For PDF entries with a Type code, get the structured Type regulation
   // data (parsed from pp. 44-45).
   let typeTable = null;
@@ -381,24 +377,13 @@ function renderDetailForResult(result: Result, data: RegsData): string {
       </div>
     `;
   } else {
-    // Wikipedia-only entry — show the relevant general regulations
-    const generalDoc = findDoc("general");
-    if (generalDoc) {
-      typeSection = `
-        <div class="detail__section">
-          <h3 class="detail__section-title">General fishing regulations</h3>
-          <p class="detail__body">The general state regulations below apply to this waterbody.</p>
-          <pre class="detail__body detail__body--type">${esc(generalDoc.body)}</pre>
-        </div>
-      `;
-    } else {
-      typeSection = `
-        <div class="detail__section">
-          <h3 class="detail__section-title">Trout/salmon designation</h3>
-          <p class="detail__body">This waterbody is not listed in the 2026 Michigan trout/salmon regulations. The statewide species rules (below) apply to all waters in ${esc(record.county)} County unless a county-specific exception is listed.</p>
-        </div>
-      `;
-    }
+    // Wikipedia-only entry — no specific Type code; statewide species rules apply
+    typeSection = `
+      <div class="detail__section">
+        <h3 class="detail__section-title">Regulation designation</h3>
+        <p class="detail__body">This waterbody is not listed in the 2026 Michigan inland trout/salmon regulations, so it does not have a specific Type code. The statewide species rules (below) apply to all waters in ${esc(record.county)} County unless a county-specific exception is listed.</p>
+      </div>
+    `;
   }
 
   // Build the species section: statewide rules + county exceptions
