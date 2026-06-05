@@ -2,7 +2,7 @@
   "source": {
     "title": "2026 Michigan Fishing Regulations",
     "publisher": "Michigan Department of Natural Resources",
-    "effective": "April 1, 2026 – March 31, 2027",
+    "effective": "April 1, 2026 \u2013 March 31, 2027",
     "pdf": "data/2026-Michigan-Fishing-Regulations.pdf"
   },
   "meta": {
@@ -28,13 +28,13 @@
       "source_page": 50
     },
     {
-      "name": "Bette’s Pond",
+      "name": "Bette\u2019s Pond",
       "county": "Alger",
       "type": "A",
       "source_page": 50
     },
     {
-      "name": "Cheryl’s Pond (T44N, R19W, S25)",
+      "name": "Cheryl\u2019s Pond (T44N, R19W, S25)",
       "county": "Alger",
       "type": "B",
       "source_page": 50
@@ -52,7 +52,7 @@
       "source_page": 50
     },
     {
-      "name": "Kay’s Pond",
+      "name": "Kay\u2019s Pond",
       "county": "Allegan",
       "type": "B",
       "source_page": 50
@@ -118,7 +118,7 @@
       "source_page": 52
     },
     {
-      "name": "SC - Closed to Fishing — within 300 ft. of            Birch Lake",
+      "name": "SC - Closed to Fishing \u2014 within 300 ft. of            Birch Lake",
       "county": "Barry",
       "type": "B",
       "source_page": 53
@@ -262,7 +262,7 @@
       "source_page": 57
     },
     {
-      "name": "upstream limit is Cemetery Road (T56N,             Deadman’s Lake",
+      "name": "upstream limit is Cemetery Road (T56N,             Deadman\u2019s Lake",
       "county": "Iron",
       "type": "A",
       "source_page": 57
@@ -334,7 +334,7 @@
       "source_page": 59
     },
     {
-      "name": "(Johnson’s Bridge T20N, R14W, S24).                  North Lake Leelanau",
+      "name": "(Johnson\u2019s Bridge T20N, R14W, S24).                  North Lake Leelanau",
       "county": "Lake",
       "type": "E",
       "source_page": 59
@@ -424,7 +424,7 @@
       "source_page": 61
     },
     {
-      "name": "from Johnson Rd. (Johnson’s Bridge)                 Big Trout Lake",
+      "name": "from Johnson Rd. (Johnson\u2019s Bridge)                 Big Trout Lake",
       "county": "Marquette",
       "type": "E",
       "source_page": 61
@@ -442,7 +442,7 @@
       "source_page": 61
     },
     {
-      "name": "SC - Closed to Fishing — Sep. 1 – Nov.              Island Lake (T45N, R30W, S14)",
+      "name": "SC - Closed to Fishing \u2014 Sep. 1 \u2013 Nov.              Island Lake (T45N, R30W, S14)",
       "county": "Manistee",
       "type": "A",
       "source_page": 61
@@ -472,7 +472,7 @@
       "source_page": 61
     },
     {
-      "name": "SC - Closed to Fishing — Year-round                 Moccasin Lake",
+      "name": "SC - Closed to Fishing \u2014 Year-round                 Moccasin Lake",
       "county": "Manistee",
       "type": "A",
       "source_page": 61
@@ -484,7 +484,7 @@
       "source_page": 61
     },
     {
-      "name": "SC - Closed to Fishing — Jan. 1 – March             Rockingchair Lake, North",
+      "name": "SC - Closed to Fishing \u2014 Jan. 1 \u2013 March             Rockingchair Lake, North",
       "county": "Manistee",
       "type": "D",
       "source_page": 61
@@ -496,7 +496,7 @@
       "source_page": 61
     },
     {
-      "name": "Year-round — from Johnson Rd                        Silver Lake Basin",
+      "name": "Year-round \u2014 from Johnson Rd                        Silver Lake Basin",
       "county": "Manistee",
       "type": "B",
       "source_page": 61
@@ -674,10 +674,10 @@
       "source_page": 50
     },
     {
-      "name": "Miner’s River",
+      "name": "Miner\u2019s River",
       "county": "Alcona",
       "type": "4",
-      "section": "Pine River 3 from Miner’s Falls downstream to from F-41 downstream to Lake Huron. L. Superior.",
+      "section": "Pine River 3 from Miner\u2019s Falls downstream to from F-41 downstream to Lake Huron. L. Superior.",
       "closure": "",
       "source_page": 50
     },
@@ -770,7 +770,7 @@
       "source_page": 51
     },
     {
-      "name": "Hook Restriction: From May 1 – July",
+      "name": "Hook Restriction: From May 1 \u2013 July",
       "county": "Kalamazoo",
       "type": "1",
       "section": "Ave. it shall be unlawful to use other",
@@ -853,7 +853,7 @@
       "name": "Turner Creek",
       "county": "Baraga",
       "type": "4",
-      "section": "AT I O N S Big Huron River 4 from (T3N, R10W, S23) downstream to from Big Eric’s Bridge (T52N, R30W, S35) BTRA confluence with Baker Creek (T3N, R10W, downstream to L. Superior (T52N, R29W, S9).",
+      "section": "AT I O N S Big Huron River 4 from (T3N, R10W, S23) downstream to from Big Eric\u2019s Bridge (T52N, R30W, S35) BTRA confluence with Baker Creek (T3N, R10W, downstream to L. Superior (T52N, R29W, S9).",
       "closure": "",
       "source_page": 52
     },
@@ -994,7 +994,7 @@
       "source_page": 54
     },
     {
-      "name": "SC - Closed to Fishing — whenever                    Pendill’s Creek",
+      "name": "SC - Closed to Fishing \u2014 whenever                    Pendill\u2019s Creek",
       "county": "Lake",
       "type": "4",
       "section": "weir is in place. Tributary to L. Michigan from Second Dam (T47N, R4W, S28)",
@@ -1021,7 +1021,7 @@
       "name": "Au Sable River Mainstream",
       "county": "Cheboygan",
       "type": "GR",
-      "section": "from Woodland Rd. in Emmet Co. downstream to mouth. from Burton’s Landing downstream p. 44",
+      "section": "from Woodland Rd. in Emmet Co. downstream to mouth. from Burton\u2019s Landing downstream p. 44",
       "closure": "",
       "source_page": 54
     },
@@ -1069,7 +1069,7 @@
       "name": "South Branch Au Sable River",
       "county": "Chippewa",
       "type": "GR",
-      "section": "Year-round — the daily possession from Chase Bridge Rd. (Chase Bridge) to p. 44",
+      "section": "Year-round \u2014 the daily possession from Chase Bridge Rd. (Chase Bridge) to p. 44",
       "closure": "",
       "source_page": 55
     },
@@ -1402,7 +1402,7 @@
       "source_page": 57
     },
     {
-      "name": "Year-round — the daily possession                  Cooks Run",
+      "name": "Year-round \u2014 the daily possession                  Cooks Run",
       "county": "Ionia",
       "type": "GR",
       "section": "limit shall not include more than one (1) from US Forest Hwy 16 to confluence with p. 45",
@@ -1549,12 +1549,12 @@
       "name": "Black River",
       "county": "Livingston",
       "type": "4",
-      "section": "and-release fishing for trout - artificial upstream limit is Peters Truck Trail lures only - April 1 – the Fri. before the",
+      "section": "and-release fishing for trout - artificial upstream limit is Peters Truck Trail lures only - April 1 \u2013 the Fri. before the",
       "closure": "",
       "source_page": 60
     },
     {
-      "name": "– March 14, 5 fish limit, 8-inch minimum                  Brevoort River",
+      "name": "\u2013 March 14, 5 fish limit, 8-inch minimum                  Brevoort River",
       "county": "Livingston",
       "type": "4",
       "section": "size limit, no more than 3 fish 15\" or larger, AT I O N S upstream limit is Brevoort Lake.",
@@ -1645,7 +1645,7 @@
       "name": "Special Artificial Lure Regulations:                Big Garlic River Mainstream",
       "county": "Manistee",
       "type": "4",
-      "section": "apply Aug. 1 – Nov. 15, see p. 8. from Forks (T49N, R27W, S12) downstream",
+      "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8. from Forks (T49N, R27W, S12) downstream",
       "closure": "",
       "source_page": 61
     },
@@ -1666,7 +1666,7 @@
       "source_page": 62
     },
     {
-      "name": "from Big Eric’s Bridge (T52N, R30W, S35)     BTRA   Big South Branch Pere Marquette River",
+      "name": "from Big Eric\u2019s Bridge (T52N, R30W, S35)     BTRA   Big South Branch Pere Marquette River",
       "county": "Manistee",
       "type": "4",
       "section": "downstream to L. Superior (T52N, R29W, from confluence of Beaver/Winnepesaug",
@@ -1677,7 +1677,7 @@
       "name": "Carp River",
       "county": "Manistee",
       "type": "2",
-      "section": "Year-round — the daily possession from Deer Lake Dam (T48N, R27W, S27) limit shall not include more than one (1) downstream to Morgan Creek.",
+      "section": "Year-round \u2014 the daily possession from Deer Lake Dam (T48N, R27W, S27) limit shall not include more than one (1) downstream to Morgan Creek.",
       "closure": "",
       "source_page": 62
     },
@@ -1685,7 +1685,7 @@
       "name": "Lincoln River",
       "county": "Manistee",
       "type": "3",
-      "section": "Year-round — the daily possession AT I O N S from confluence of N. and S. Br. of Lincoln",
+      "section": "Year-round \u2014 the daily possession AT I O N S from confluence of N. and S. Br. of Lincoln",
       "closure": "",
       "source_page": 62
     },
@@ -1701,7 +1701,7 @@
       "name": "Little Manistee River",
       "county": "Manistee",
       "type": "4",
-      "section": "from confluence of Big Creek (T47N, from Johnson Rd. (Johnson’s Bridge)",
+      "section": "from confluence of Big Creek (T47N, from Johnson Rd. (Johnson\u2019s Bridge)",
       "closure": "",
       "source_page": 62
     },
@@ -1709,7 +1709,7 @@
       "name": "Harlow Creek",
       "county": "Manistee",
       "type": "4",
-      "section": "SC - Closed to Fishing — Jan. 1 – March",
+      "section": "SC - Closed to Fishing \u2014 Jan. 1 \u2013 March",
       "closure": "",
       "source_page": 62
     },
@@ -1725,7 +1725,7 @@
       "name": "from unnamed bridge crossing located at",
       "county": "Iron",
       "type": "BTRA",
-      "section": "apply Aug. 1 – Nov. 15, see p. 8.",
+      "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8.",
       "closure": "",
       "source_page": 62
     },
@@ -1749,7 +1749,7 @@
       "name": "from Old 31 Highway to L. Michigan.                 Pere Marquette River",
       "county": "Mason",
       "type": "3",
-      "section": "from Reek Rd. (Indian Bridge) Year-round — the daily possession",
+      "section": "from Reek Rd. (Indian Bridge) Year-round \u2014 the daily possession",
       "closure": "",
       "source_page": 62
     },
@@ -1781,7 +1781,7 @@
       "name": "from Veterans Memorial Park Dam (T38N,               Prairie Creek",
       "county": "Menominee",
       "type": "4",
-      "section": "R26W, S9) downstream to L. Michigan. Year-round — the daily possession",
+      "section": "R26W, S9) downstream to L. Michigan. Year-round \u2014 the daily possession",
       "closure": "",
       "source_page": 63
     },
@@ -1837,7 +1837,7 @@
       "name": "Special Artificial Lure Regulations:                 Huron River",
       "county": "Oakland",
       "type": "GR",
-      "section": "apply Aug. 1 – Nov. 15, see p. 8. from 50 yards below Proud Lake Dam p. 45",
+      "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8. from 50 yards below Proud Lake Dam p. 45",
       "closure": "",
       "source_page": 64
     },
@@ -1877,7 +1877,7 @@
       "name": "Little Iron River",
       "county": "Newaygo",
       "type": "3",
-      "section": "Special Artificial Lure Regulations: upstream limit is Nonesuch Falls (T50N, apply Aug. 1 – Nov. 15, see p. 8.",
+      "section": "Special Artificial Lure Regulations: upstream limit is Nonesuch Falls (T50N, apply Aug. 1 \u2013 Nov. 15, see p. 8.",
       "closure": "",
       "source_page": 65
     },
@@ -1898,7 +1898,7 @@
       "source_page": 65
     },
     {
-      "name": "Year-round — the daily possession                  Middle Branch Ontonagon River",
+      "name": "Year-round \u2014 the daily possession                  Middle Branch Ontonagon River",
       "county": "Newaygo",
       "type": "3",
       "section": "limit shall not include more than one (1) Agate Falls is upstream limit.",
@@ -1909,7 +1909,7 @@
       "name": "Misery River",
       "county": "Newaygo",
       "type": "3",
-      "section": "Special Artificial Lure Regulations: upstream limit is bridge in T53N, R37W, apply Aug. 1 – Nov. 15, see p. 8.",
+      "section": "Special Artificial Lure Regulations: upstream limit is bridge in T53N, R37W, apply Aug. 1 \u2013 Nov. 15, see p. 8.",
       "closure": "",
       "source_page": 65
     },
@@ -1941,7 +1941,7 @@
       "name": "West Branch Ontonagon River",
       "county": "Lake",
       "type": "3",
-      "section": "apply Aug. 1 – Nov. 15, see p. 8.",
+      "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8.",
       "closure": "",
       "source_page": 65
     },
@@ -2176,13 +2176,13 @@
       "wikipedia_title": null
     },
     {
-      "name": "Bette’s Pond",
+      "name": "Bette\u2019s Pond",
       "county": "Alger",
       "source": "pdf",
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "Bette’s Pond",
+        "name": "Bette\u2019s Pond",
         "county": "Alger",
         "type": "A",
         "source_page": 50
@@ -2190,13 +2190,13 @@
       "wikipedia_title": null
     },
     {
-      "name": "Cheryl’s Pond (T44N, R19W, S25)",
+      "name": "Cheryl\u2019s Pond (T44N, R19W, S25)",
       "county": "Alger",
       "source": "pdf",
       "kind": "lake",
       "type": "B",
       "pdf_record": {
-        "name": "Cheryl’s Pond (T44N, R19W, S25)",
+        "name": "Cheryl\u2019s Pond (T44N, R19W, S25)",
         "county": "Alger",
         "type": "B",
         "source_page": 50
@@ -2232,13 +2232,13 @@
       "wikipedia_title": null
     },
     {
-      "name": "Kay’s Pond",
+      "name": "Kay\u2019s Pond",
       "county": "Allegan",
       "source": "pdf",
       "kind": "lake",
       "type": "B",
       "pdf_record": {
-        "name": "Kay’s Pond",
+        "name": "Kay\u2019s Pond",
         "county": "Allegan",
         "type": "B",
         "source_page": 50
@@ -2386,13 +2386,13 @@
       "wikipedia_title": "Gull Lake (Michigan)"
     },
     {
-      "name": "SC - Closed to Fishing — within 300 ft. of            Birch Lake",
+      "name": "SC - Closed to Fishing \u2014 within 300 ft. of            Birch Lake",
       "county": "Barry",
       "source": "pdf",
       "kind": "lake",
       "type": "B",
       "pdf_record": {
-        "name": "SC - Closed to Fishing — within 300 ft. of            Birch Lake",
+        "name": "SC - Closed to Fishing \u2014 within 300 ft. of            Birch Lake",
         "county": "Barry",
         "type": "B",
         "source_page": 53
@@ -2722,13 +2722,13 @@
       "wikipedia_title": "Chicagon Lake"
     },
     {
-      "name": "upstream limit is Cemetery Road (T56N,             Deadman’s Lake",
+      "name": "upstream limit is Cemetery Road (T56N,             Deadman\u2019s Lake",
       "county": "Iron",
       "source": "pdf",
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "upstream limit is Cemetery Road (T56N,             Deadman’s Lake",
+        "name": "upstream limit is Cemetery Road (T56N,             Deadman\u2019s Lake",
         "county": "Iron",
         "type": "A",
         "source_page": 57
@@ -2890,13 +2890,13 @@
       "wikipedia_title": null
     },
     {
-      "name": "(Johnson’s Bridge T20N, R14W, S24).                  North Lake Leelanau",
+      "name": "(Johnson\u2019s Bridge T20N, R14W, S24).                  North Lake Leelanau",
       "county": "Lake",
       "source": "pdf",
       "kind": "lake",
       "type": "E",
       "pdf_record": {
-        "name": "(Johnson’s Bridge T20N, R14W, S24).                  North Lake Leelanau",
+        "name": "(Johnson\u2019s Bridge T20N, R14W, S24).                  North Lake Leelanau",
         "county": "Lake",
         "type": "E",
         "source_page": 59
@@ -3100,13 +3100,13 @@
       "wikipedia_title": null
     },
     {
-      "name": "from Johnson Rd. (Johnson’s Bridge)                 Big Trout Lake",
+      "name": "from Johnson Rd. (Johnson\u2019s Bridge)                 Big Trout Lake",
       "county": "Marquette",
       "source": "pdf",
       "kind": "lake",
       "type": "E",
       "pdf_record": {
-        "name": "from Johnson Rd. (Johnson’s Bridge)                 Big Trout Lake",
+        "name": "from Johnson Rd. (Johnson\u2019s Bridge)                 Big Trout Lake",
         "county": "Marquette",
         "type": "E",
         "source_page": 61
@@ -3142,13 +3142,13 @@
       "wikipedia_title": null
     },
     {
-      "name": "SC - Closed to Fishing — Sep. 1 – Nov.              Island Lake (T45N, R30W, S14)",
+      "name": "SC - Closed to Fishing \u2014 Sep. 1 \u2013 Nov.              Island Lake (T45N, R30W, S14)",
       "county": "Manistee",
       "source": "pdf",
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "SC - Closed to Fishing — Sep. 1 – Nov.              Island Lake (T45N, R30W, S14)",
+        "name": "SC - Closed to Fishing \u2014 Sep. 1 \u2013 Nov.              Island Lake (T45N, R30W, S14)",
         "county": "Manistee",
         "type": "A",
         "source_page": 61
@@ -3212,13 +3212,13 @@
       "wikipedia_title": null
     },
     {
-      "name": "SC - Closed to Fishing — Year-round                 Moccasin Lake",
+      "name": "SC - Closed to Fishing \u2014 Year-round                 Moccasin Lake",
       "county": "Manistee",
       "source": "pdf",
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "SC - Closed to Fishing — Year-round                 Moccasin Lake",
+        "name": "SC - Closed to Fishing \u2014 Year-round                 Moccasin Lake",
         "county": "Manistee",
         "type": "A",
         "source_page": 61
@@ -3240,13 +3240,13 @@
       "wikipedia_title": null
     },
     {
-      "name": "SC - Closed to Fishing — Jan. 1 – March             Rockingchair Lake, North",
+      "name": "SC - Closed to Fishing \u2014 Jan. 1 \u2013 March             Rockingchair Lake, North",
       "county": "Manistee",
       "source": "pdf",
       "kind": "lake",
       "type": "D",
       "pdf_record": {
-        "name": "SC - Closed to Fishing — Jan. 1 – March             Rockingchair Lake, North",
+        "name": "SC - Closed to Fishing \u2014 Jan. 1 \u2013 March             Rockingchair Lake, North",
         "county": "Manistee",
         "type": "D",
         "source_page": 61
@@ -3268,13 +3268,13 @@
       "wikipedia_title": null
     },
     {
-      "name": "Year-round — from Johnson Rd                        Silver Lake Basin",
+      "name": "Year-round \u2014 from Johnson Rd                        Silver Lake Basin",
       "county": "Manistee",
       "source": "pdf",
       "kind": "lake",
       "type": "B",
       "pdf_record": {
-        "name": "Year-round — from Johnson Rd                        Silver Lake Basin",
+        "name": "Year-round \u2014 from Johnson Rd                        Silver Lake Basin",
         "county": "Manistee",
         "type": "B",
         "source_page": 61
@@ -3676,18 +3676,18 @@
       "wikipedia_title": null
     },
     {
-      "name": "Miner’s River",
+      "name": "Miner\u2019s River",
       "county": "Alcona",
       "source": "pdf",
       "kind": "river",
       "type": "4",
-      "section": "Pine River 3 from Miner’s Falls downstream to from F-41 downstream to Lake Huron. L. Superior.",
+      "section": "Pine River 3 from Miner\u2019s Falls downstream to from F-41 downstream to Lake Huron. L. Superior.",
       "closure": "",
       "pdf_record": {
-        "name": "Miner’s River",
+        "name": "Miner\u2019s River",
         "county": "Alcona",
         "type": "4",
-        "section": "Pine River 3 from Miner’s Falls downstream to from F-41 downstream to Lake Huron. L. Superior.",
+        "section": "Pine River 3 from Miner\u2019s Falls downstream to from F-41 downstream to Lake Huron. L. Superior.",
         "closure": "",
         "source_page": 50
       },
@@ -3892,7 +3892,7 @@
       "wikipedia_title": null
     },
     {
-      "name": "Hook Restriction: From May 1 – July",
+      "name": "Hook Restriction: From May 1 \u2013 July",
       "county": "Kalamazoo",
       "source": "pdf",
       "kind": "lake",
@@ -3900,7 +3900,7 @@
       "section": "Ave. it shall be unlawful to use other",
       "closure": "",
       "pdf_record": {
-        "name": "Hook Restriction: From May 1 – July",
+        "name": "Hook Restriction: From May 1 \u2013 July",
         "county": "Kalamazoo",
         "type": "1",
         "section": "Ave. it shall be unlawful to use other",
@@ -4077,13 +4077,13 @@
       "source": "pdf",
       "kind": "creek",
       "type": "4",
-      "section": "AT I O N S Big Huron River 4 from (T3N, R10W, S23) downstream to from Big Eric’s Bridge (T52N, R30W, S35) BTRA confluence with Baker Creek (T3N, R10W, downstream to L. Superior (T52N, R29W, S9).",
+      "section": "AT I O N S Big Huron River 4 from (T3N, R10W, S23) downstream to from Big Eric\u2019s Bridge (T52N, R30W, S35) BTRA confluence with Baker Creek (T3N, R10W, downstream to L. Superior (T52N, R29W, S9).",
       "closure": "",
       "pdf_record": {
         "name": "Turner Creek",
         "county": "Baraga",
         "type": "4",
-        "section": "AT I O N S Big Huron River 4 from (T3N, R10W, S23) downstream to from Big Eric’s Bridge (T52N, R30W, S35) BTRA confluence with Baker Creek (T3N, R10W, downstream to L. Superior (T52N, R29W, S9).",
+        "section": "AT I O N S Big Huron River 4 from (T3N, R10W, S23) downstream to from Big Eric\u2019s Bridge (T52N, R30W, S35) BTRA confluence with Baker Creek (T3N, R10W, downstream to L. Superior (T52N, R29W, S9).",
         "closure": "",
         "source_page": 52
       },
@@ -4396,7 +4396,7 @@
       "wikipedia_title": null
     },
     {
-      "name": "SC - Closed to Fishing — whenever                    Pendill’s Creek",
+      "name": "SC - Closed to Fishing \u2014 whenever                    Pendill\u2019s Creek",
       "county": "Lake",
       "source": "pdf",
       "kind": "creek",
@@ -4404,7 +4404,7 @@
       "section": "weir is in place. Tributary to L. Michigan from Second Dam (T47N, R4W, S28)",
       "closure": "",
       "pdf_record": {
-        "name": "SC - Closed to Fishing — whenever                    Pendill’s Creek",
+        "name": "SC - Closed to Fishing \u2014 whenever                    Pendill\u2019s Creek",
         "county": "Lake",
         "type": "4",
         "section": "weir is in place. Tributary to L. Michigan from Second Dam (T47N, R4W, S28)",
@@ -4455,13 +4455,13 @@
       "source": "pdf",
       "kind": "river",
       "type": "GR",
-      "section": "from Woodland Rd. in Emmet Co. downstream to mouth. from Burton’s Landing downstream p. 44",
+      "section": "from Woodland Rd. in Emmet Co. downstream to mouth. from Burton\u2019s Landing downstream p. 44",
       "closure": "",
       "pdf_record": {
         "name": "Au Sable River Mainstream",
         "county": "Cheboygan",
         "type": "GR",
-        "section": "from Woodland Rd. in Emmet Co. downstream to mouth. from Burton’s Landing downstream p. 44",
+        "section": "from Woodland Rd. in Emmet Co. downstream to mouth. from Burton\u2019s Landing downstream p. 44",
         "closure": "",
         "source_page": 54
       },
@@ -4563,13 +4563,13 @@
       "source": "pdf",
       "kind": "river",
       "type": "GR",
-      "section": "Year-round — the daily possession from Chase Bridge Rd. (Chase Bridge) to p. 44",
+      "section": "Year-round \u2014 the daily possession from Chase Bridge Rd. (Chase Bridge) to p. 44",
       "closure": "",
       "pdf_record": {
         "name": "South Branch Au Sable River",
         "county": "Chippewa",
         "type": "GR",
-        "section": "Year-round — the daily possession from Chase Bridge Rd. (Chase Bridge) to p. 44",
+        "section": "Year-round \u2014 the daily possession from Chase Bridge Rd. (Chase Bridge) to p. 44",
         "closure": "",
         "source_page": 55
       },
@@ -5314,7 +5314,7 @@
       "wikipedia_title": null
     },
     {
-      "name": "Year-round — the daily possession                  Cooks Run",
+      "name": "Year-round \u2014 the daily possession                  Cooks Run",
       "county": "Ionia",
       "source": "pdf",
       "kind": "lake",
@@ -5322,7 +5322,7 @@
       "section": "limit shall not include more than one (1) from US Forest Hwy 16 to confluence with p. 45",
       "closure": "",
       "pdf_record": {
-        "name": "Year-round — the daily possession                  Cooks Run",
+        "name": "Year-round \u2014 the daily possession                  Cooks Run",
         "county": "Ionia",
         "type": "GR",
         "section": "limit shall not include more than one (1) from US Forest Hwy 16 to confluence with p. 45",
@@ -5643,20 +5643,20 @@
       "source": "pdf",
       "kind": "river",
       "type": "4",
-      "section": "and-release fishing for trout - artificial upstream limit is Peters Truck Trail lures only - April 1 – the Fri. before the",
+      "section": "and-release fishing for trout - artificial upstream limit is Peters Truck Trail lures only - April 1 \u2013 the Fri. before the",
       "closure": "",
       "pdf_record": {
         "name": "Black River",
         "county": "Livingston",
         "type": "4",
-        "section": "and-release fishing for trout - artificial upstream limit is Peters Truck Trail lures only - April 1 – the Fri. before the",
+        "section": "and-release fishing for trout - artificial upstream limit is Peters Truck Trail lures only - April 1 \u2013 the Fri. before the",
         "closure": "",
         "source_page": 60
       },
       "wikipedia_title": null
     },
     {
-      "name": "– March 14, 5 fish limit, 8-inch minimum                  Brevoort River",
+      "name": "\u2013 March 14, 5 fish limit, 8-inch minimum                  Brevoort River",
       "county": "Livingston",
       "source": "pdf",
       "kind": "river",
@@ -5664,7 +5664,7 @@
       "section": "size limit, no more than 3 fish 15\" or larger, AT I O N S upstream limit is Brevoort Lake.",
       "closure": "",
       "pdf_record": {
-        "name": "– March 14, 5 fish limit, 8-inch minimum                  Brevoort River",
+        "name": "\u2013 March 14, 5 fish limit, 8-inch minimum                  Brevoort River",
         "county": "Livingston",
         "type": "4",
         "section": "size limit, no more than 3 fish 15\" or larger, AT I O N S upstream limit is Brevoort Lake.",
@@ -5859,13 +5859,13 @@
       "source": "pdf",
       "kind": "river",
       "type": "4",
-      "section": "apply Aug. 1 – Nov. 15, see p. 8. from Forks (T49N, R27W, S12) downstream",
+      "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8. from Forks (T49N, R27W, S12) downstream",
       "closure": "",
       "pdf_record": {
         "name": "Special Artificial Lure Regulations:                Big Garlic River Mainstream",
         "county": "Manistee",
         "type": "4",
-        "section": "apply Aug. 1 – Nov. 15, see p. 8. from Forks (T49N, R27W, S12) downstream",
+        "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8. from Forks (T49N, R27W, S12) downstream",
         "closure": "",
         "source_page": 61
       },
@@ -5908,7 +5908,7 @@
       "wikipedia_title": null
     },
     {
-      "name": "from Big Eric’s Bridge (T52N, R30W, S35)     BTRA   Big South Branch Pere Marquette River",
+      "name": "from Big Eric\u2019s Bridge (T52N, R30W, S35)     BTRA   Big South Branch Pere Marquette River",
       "county": "Manistee",
       "source": "pdf",
       "kind": "river",
@@ -5916,7 +5916,7 @@
       "section": "downstream to L. Superior (T52N, R29W, from confluence of Beaver/Winnepesaug",
       "closure": "",
       "pdf_record": {
-        "name": "from Big Eric’s Bridge (T52N, R30W, S35)     BTRA   Big South Branch Pere Marquette River",
+        "name": "from Big Eric\u2019s Bridge (T52N, R30W, S35)     BTRA   Big South Branch Pere Marquette River",
         "county": "Manistee",
         "type": "4",
         "section": "downstream to L. Superior (T52N, R29W, from confluence of Beaver/Winnepesaug",
@@ -5931,13 +5931,13 @@
       "source": "pdf",
       "kind": "river",
       "type": "2",
-      "section": "Year-round — the daily possession from Deer Lake Dam (T48N, R27W, S27) limit shall not include more than one (1) downstream to Morgan Creek.",
+      "section": "Year-round \u2014 the daily possession from Deer Lake Dam (T48N, R27W, S27) limit shall not include more than one (1) downstream to Morgan Creek.",
       "closure": "",
       "pdf_record": {
         "name": "Carp River",
         "county": "Manistee",
         "type": "2",
-        "section": "Year-round — the daily possession from Deer Lake Dam (T48N, R27W, S27) limit shall not include more than one (1) downstream to Morgan Creek.",
+        "section": "Year-round \u2014 the daily possession from Deer Lake Dam (T48N, R27W, S27) limit shall not include more than one (1) downstream to Morgan Creek.",
         "closure": "",
         "source_page": 62
       },
@@ -5949,13 +5949,13 @@
       "source": "pdf",
       "kind": "river",
       "type": "3",
-      "section": "Year-round — the daily possession AT I O N S from confluence of N. and S. Br. of Lincoln",
+      "section": "Year-round \u2014 the daily possession AT I O N S from confluence of N. and S. Br. of Lincoln",
       "closure": "",
       "pdf_record": {
         "name": "Lincoln River",
         "county": "Manistee",
         "type": "3",
-        "section": "Year-round — the daily possession AT I O N S from confluence of N. and S. Br. of Lincoln",
+        "section": "Year-round \u2014 the daily possession AT I O N S from confluence of N. and S. Br. of Lincoln",
         "closure": "",
         "source_page": 62
       },
@@ -5985,13 +5985,13 @@
       "source": "pdf",
       "kind": "river",
       "type": "4",
-      "section": "from confluence of Big Creek (T47N, from Johnson Rd. (Johnson’s Bridge)",
+      "section": "from confluence of Big Creek (T47N, from Johnson Rd. (Johnson\u2019s Bridge)",
       "closure": "",
       "pdf_record": {
         "name": "Little Manistee River",
         "county": "Manistee",
         "type": "4",
-        "section": "from confluence of Big Creek (T47N, from Johnson Rd. (Johnson’s Bridge)",
+        "section": "from confluence of Big Creek (T47N, from Johnson Rd. (Johnson\u2019s Bridge)",
         "closure": "",
         "source_page": 62
       },
@@ -6003,13 +6003,13 @@
       "source": "pdf",
       "kind": "creek",
       "type": "4",
-      "section": "SC - Closed to Fishing — Jan. 1 – March",
+      "section": "SC - Closed to Fishing \u2014 Jan. 1 \u2013 March",
       "closure": "",
       "pdf_record": {
         "name": "Harlow Creek",
         "county": "Manistee",
         "type": "4",
-        "section": "SC - Closed to Fishing — Jan. 1 – March",
+        "section": "SC - Closed to Fishing \u2014 Jan. 1 \u2013 March",
         "closure": "",
         "source_page": 62
       },
@@ -6039,13 +6039,13 @@
       "source": "pdf",
       "kind": "lake",
       "type": "BTRA",
-      "section": "apply Aug. 1 – Nov. 15, see p. 8.",
+      "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8.",
       "closure": "",
       "pdf_record": {
         "name": "from unnamed bridge crossing located at",
         "county": "Iron",
         "type": "BTRA",
-        "section": "apply Aug. 1 – Nov. 15, see p. 8.",
+        "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8.",
         "closure": "",
         "source_page": 62
       },
@@ -6093,13 +6093,13 @@
       "source": "pdf",
       "kind": "river",
       "type": "3",
-      "section": "from Reek Rd. (Indian Bridge) Year-round — the daily possession",
+      "section": "from Reek Rd. (Indian Bridge) Year-round \u2014 the daily possession",
       "closure": "",
       "pdf_record": {
         "name": "from Old 31 Highway to L. Michigan.                 Pere Marquette River",
         "county": "Mason",
         "type": "3",
-        "section": "from Reek Rd. (Indian Bridge) Year-round — the daily possession",
+        "section": "from Reek Rd. (Indian Bridge) Year-round \u2014 the daily possession",
         "closure": "",
         "source_page": 62
       },
@@ -6165,13 +6165,13 @@
       "source": "pdf",
       "kind": "creek",
       "type": "4",
-      "section": "R26W, S9) downstream to L. Michigan. Year-round — the daily possession",
+      "section": "R26W, S9) downstream to L. Michigan. Year-round \u2014 the daily possession",
       "closure": "",
       "pdf_record": {
         "name": "from Veterans Memorial Park Dam (T38N,               Prairie Creek",
         "county": "Menominee",
         "type": "4",
-        "section": "R26W, S9) downstream to L. Michigan. Year-round — the daily possession",
+        "section": "R26W, S9) downstream to L. Michigan. Year-round \u2014 the daily possession",
         "closure": "",
         "source_page": 63
       },
@@ -6291,13 +6291,13 @@
       "source": "pdf",
       "kind": "river",
       "type": "GR",
-      "section": "apply Aug. 1 – Nov. 15, see p. 8. from 50 yards below Proud Lake Dam p. 45",
+      "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8. from 50 yards below Proud Lake Dam p. 45",
       "closure": "",
       "pdf_record": {
         "name": "Special Artificial Lure Regulations:                 Huron River",
         "county": "Oakland",
         "type": "GR",
-        "section": "apply Aug. 1 – Nov. 15, see p. 8. from 50 yards below Proud Lake Dam p. 45",
+        "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8. from 50 yards below Proud Lake Dam p. 45",
         "closure": "",
         "source_page": 64
       },
@@ -6381,13 +6381,13 @@
       "source": "pdf",
       "kind": "river",
       "type": "3",
-      "section": "Special Artificial Lure Regulations: upstream limit is Nonesuch Falls (T50N, apply Aug. 1 – Nov. 15, see p. 8.",
+      "section": "Special Artificial Lure Regulations: upstream limit is Nonesuch Falls (T50N, apply Aug. 1 \u2013 Nov. 15, see p. 8.",
       "closure": "",
       "pdf_record": {
         "name": "Little Iron River",
         "county": "Newaygo",
         "type": "3",
-        "section": "Special Artificial Lure Regulations: upstream limit is Nonesuch Falls (T50N, apply Aug. 1 – Nov. 15, see p. 8.",
+        "section": "Special Artificial Lure Regulations: upstream limit is Nonesuch Falls (T50N, apply Aug. 1 \u2013 Nov. 15, see p. 8.",
         "closure": "",
         "source_page": 65
       },
@@ -6430,7 +6430,7 @@
       "wikipedia_title": null
     },
     {
-      "name": "Year-round — the daily possession                  Middle Branch Ontonagon River",
+      "name": "Year-round \u2014 the daily possession                  Middle Branch Ontonagon River",
       "county": "Newaygo",
       "source": "pdf",
       "kind": "river",
@@ -6438,7 +6438,7 @@
       "section": "limit shall not include more than one (1) Agate Falls is upstream limit.",
       "closure": "",
       "pdf_record": {
-        "name": "Year-round — the daily possession                  Middle Branch Ontonagon River",
+        "name": "Year-round \u2014 the daily possession                  Middle Branch Ontonagon River",
         "county": "Newaygo",
         "type": "3",
         "section": "limit shall not include more than one (1) Agate Falls is upstream limit.",
@@ -6453,13 +6453,13 @@
       "source": "pdf",
       "kind": "river",
       "type": "3",
-      "section": "Special Artificial Lure Regulations: upstream limit is bridge in T53N, R37W, apply Aug. 1 – Nov. 15, see p. 8.",
+      "section": "Special Artificial Lure Regulations: upstream limit is bridge in T53N, R37W, apply Aug. 1 \u2013 Nov. 15, see p. 8.",
       "closure": "",
       "pdf_record": {
         "name": "Misery River",
         "county": "Newaygo",
         "type": "3",
-        "section": "Special Artificial Lure Regulations: upstream limit is bridge in T53N, R37W, apply Aug. 1 – Nov. 15, see p. 8.",
+        "section": "Special Artificial Lure Regulations: upstream limit is bridge in T53N, R37W, apply Aug. 1 \u2013 Nov. 15, see p. 8.",
         "closure": "",
         "source_page": 65
       },
@@ -6525,13 +6525,13 @@
       "source": "pdf",
       "kind": "river",
       "type": "3",
-      "section": "apply Aug. 1 – Nov. 15, see p. 8.",
+      "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8.",
       "closure": "",
       "pdf_record": {
         "name": "West Branch Ontonagon River",
         "county": "Lake",
         "type": "3",
-        "section": "apply Aug. 1 – Nov. 15, see p. 8.",
+        "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8.",
         "closure": "",
         "source_page": 65
       },
@@ -7583,11 +7583,11 @@
       "wikipedia_title": "Silver River (Baraga County)"
     },
     {
-      "name": "Silver River (Baraga–Houghton counties)",
+      "name": "Silver River (Baraga\u2013Houghton counties)",
       "county": "Baraga",
       "source": "wikipedia",
       "kind": "river",
-      "wikipedia_title": "Silver River (Baraga–Houghton counties)"
+      "wikipedia_title": "Silver River (Baraga\u2013Houghton counties)"
     },
     {
       "name": "Spurr River",
@@ -8059,11 +8059,11 @@
       "wikipedia_title": "Fawn River (Michigan)"
     },
     {
-      "name": "Lake George (Indiana–Michigan)",
+      "name": "Lake George (Indiana\u2013Michigan)",
       "county": "Branch",
       "source": "wikipedia",
       "kind": "lake",
-      "wikipedia_title": "Lake George (Indiana–Michigan)"
+      "wikipedia_title": "Lake George (Indiana\u2013Michigan)"
     },
     {
       "name": "Lake Lavine (Michigan)",
@@ -8479,11 +8479,11 @@
       "wikipedia_title": "Gogomain River"
     },
     {
-      "name": "Lake George (Michigan–Ontario)",
+      "name": "Lake George (Michigan\u2013Ontario)",
       "county": "Chippewa",
       "source": "wikipedia",
       "kind": "lake",
-      "wikipedia_title": "Lake George (Michigan–Ontario)"
+      "wikipedia_title": "Lake George (Michigan\u2013Ontario)"
     },
     {
       "name": "Pine River (Mackinac County, Michigan)",
@@ -8521,11 +8521,11 @@
       "wikipedia_title": "St. Joseph Channel"
     },
     {
-      "name": "St. Marys River (Michigan–Ontario)",
+      "name": "St. Marys River (Michigan\u2013Ontario)",
       "county": "Chippewa",
       "source": "wikipedia",
       "kind": "river",
-      "wikipedia_title": "St. Marys River (Michigan–Ontario)"
+      "wikipedia_title": "St. Marys River (Michigan\u2013Ontario)"
     },
     {
       "name": "Tahquamenon River",
@@ -9151,11 +9151,11 @@
       "wikipedia_title": "Black River (Gogebic County)"
     },
     {
-      "name": "Carp River (Gogebic–Ontonagon counties)",
+      "name": "Carp River (Gogebic\u2013Ontonagon counties)",
       "county": "Gogebic",
       "source": "wikipedia",
       "kind": "river",
-      "wikipedia_title": "Carp River (Gogebic–Ontonagon counties)"
+      "wikipedia_title": "Carp River (Gogebic\u2013Ontonagon counties)"
     },
     {
       "name": "Clark Lake (Gogebic County, Michigan)",
@@ -9228,11 +9228,11 @@
       "wikipedia_title": "Loon Lake (Gogebic County, Michigan)"
     },
     {
-      "name": "Montreal River (Wisconsin–Michigan)",
+      "name": "Montreal River (Wisconsin\u2013Michigan)",
       "county": "Gogebic",
       "source": "wikipedia",
       "kind": "river",
-      "wikipedia_title": "Montreal River (Wisconsin–Michigan)"
+      "wikipedia_title": "Montreal River (Wisconsin\u2013Michigan)"
     },
     {
       "name": "Ontonagon River",
@@ -9662,11 +9662,11 @@
       "wikipedia_title": "Salmon Trout River"
     },
     {
-      "name": "Silver River (Baraga–Houghton counties)",
+      "name": "Silver River (Baraga\u2013Houghton counties)",
       "county": "Houghton",
       "source": "wikipedia",
       "kind": "river",
-      "wikipedia_title": "Silver River (Baraga–Houghton counties)"
+      "wikipedia_title": "Silver River (Baraga\u2013Houghton counties)"
     },
     {
       "name": "Snake River (Michigan)",
@@ -10110,11 +10110,11 @@
       "wikipedia_title": "Nottawa Creek"
     },
     {
-      "name": "Portage River (Kalamazoo–St. Joseph counties)",
+      "name": "Portage River (Kalamazoo\u2013St. Joseph counties)",
       "county": "Kalamazoo",
       "source": "wikipedia",
       "kind": "river",
-      "wikipedia_title": "Portage River (Kalamazoo–St. Joseph counties)"
+      "wikipedia_title": "Portage River (Kalamazoo\u2013St. Joseph counties)"
     },
     {
       "name": "Rocky River (Michigan)",
@@ -12112,11 +12112,11 @@
       "wikipedia_title": "Big Iron River"
     },
     {
-      "name": "Carp River (Gogebic–Ontonagon counties)",
+      "name": "Carp River (Gogebic\u2013Ontonagon counties)",
       "county": "Ontonagon",
       "source": "wikipedia",
       "kind": "river",
-      "wikipedia_title": "Carp River (Gogebic–Ontonagon counties)"
+      "wikipedia_title": "Carp River (Gogebic\u2013Ontonagon counties)"
     },
     {
       "name": "Choate Creek",
@@ -12749,11 +12749,11 @@
       "wikipedia_title": "Portage Lake (St. Joseph County, Michigan)"
     },
     {
-      "name": "Portage River (Kalamazoo–St. Joseph counties)",
+      "name": "Portage River (Kalamazoo\u2013St. Joseph counties)",
       "county": "St. Joseph",
       "source": "wikipedia",
       "kind": "river",
-      "wikipedia_title": "Portage River (Kalamazoo–St. Joseph counties)"
+      "wikipedia_title": "Portage River (Kalamazoo\u2013St. Joseph counties)"
     },
     {
       "name": "Prairie River (Michigan)",
@@ -13166,14 +13166,14 @@
     "url": "https://en.wikipedia.org/wiki/Category:Bodies_of_water_of_Michigan_by_county",
     "license": "CC BY-SA 4.0",
     "attribution": "Wikipedia contributors",
-    "note": "Waterbody names only. Wikipedia is not the authoritative source for fishing regulations — see the 2026 Michigan Fishing Regulations PDF for legal rules."
+    "note": "Waterbody names only. Wikipedia is not the authoritative source for fishing regulations \u2014 see the 2026 Michigan Fishing Regulations PDF for legal rules."
   },
   "documents": [
     {
       "id": "general-raw",
-      "title": "General Fishing Regulations (raw text)",
+      "title": "General Fishing Regulations",
       "category": "general",
-      "body": "G E N E R A L          F I S H I N G             R E G U L AT I O N S\n\nThis table provides general statewide regulations for the species listed. However, there are many waters\nin the state that have fishing regulations which differ from those in this table. For instance, it is\nunlawful to possess fishing gear or fish for suckers on designated trout waters during the closed\nfishing season. Please refer to the Michigan-Wisconsin Boundary Waters (see pp. 24–25), Sylvania Wilderness\nArea (see p. 26), Exceptions to General Regulations by County (see pp. 28–31), and Inland Trout & Salmon\nRegulations (pp. 42–65) for exceptions. Table notes are found on pp. 13–14. ATTENTION ANGLERS: There are\nregulations requiring all bass and Walleye tournaments and Muskellunge contests be registered (see p. 70).\n                                 General Fishing Regulations\n                       Minimum\n                                         Daily Possession\n Species (NOTE 1)        Size                                                       Possession Seasons\n                                               Limit\n                       (inches)\n                                                                        3rd. Sat. in June – Dec. 31: L. St. Clair, St. Clair\n Largemouth Bass                                                                   R., Detroit R. (See NOTE 2)\n Smallmouth Bass           14\"           5 in any combination           Sat. before Memorial Day – Dec. 31: All other\n (NOTE 2)                                                               waters including Gr. Lakes (except those listed\n                                                                                           in NOTE 2)\n                                                                        May 15 – March 15: Upper Peninsula Gr. Lakes\n                                                                              and inland waters, and St. Marys R.\n                                                                        Last Sat. in April – March 15: Lower Peninsula\n Walleye (NOTE 3)          15\"                      5                                     inland waters\n                                                                        Open All Year: Lower Peninsula Gr. Lakes, L. St.\n                                                                                Clair, St. Clair R. and Detroit R.\n                                                                        May 15 – March 15: Upper Peninsula Gr. Lakes\n                                                                              and inland waters, and St. Marys R.\n Northern Pike                                                          Last Sat. in April – March 15: Lower Peninsula\n (NOTE 4)\n                           24\"                      2                                      inland waters\n                                                                        Open All Year: Lower Peninsula Gr. Lakes, L. St.\n                                                                                 Clair, St. Clair R. and Detroit R\n Flathead Catfish          15\"                      5                                    Open All Year\n Channel Catfish           12\"                      10                                   Open All Year\n Muskellunge               42\"                                  1st Sat. in June – March 15: All Gr. Lakes and\n                                         Only 1 per angler per\n (including Tiger      (See NOTE                                         inland waters and St. Marys R.\n                                       license year (Mandatory\n Muskellunge)             4 for                                1st Sat. in June – Dec. 31: L. St. Clair, St. Clair R.\n                                             Registration)\n (NOTE 4)              exceptions)                                               and Detroit R.\n Yellow Perch\n (NOTE 5)\n                       No size limit               25                                    Open All Year\n\n\n Sunfishes (NOTE 6)    No size limit\n                                        25 in any combination                            Open All Year\n                                          of the listed species\n                                         25 on Gr. Lakes, L. St.\n                                       Clair, St. Marys R., St. Clair\n White Bass            No size limit                                                     Open All Year\n                                            R., and Detroit R.\n                                          10 on inland waters\n                                        10 in any combination\n Cisco, Lake                           on Gr. Lakes, Connecting\n Whitefish, Round      No size limit   Waters and Type F lakes,                          Open All Year\n Whitefish (NOTE 7)                    5 in any combination on\n                                          other inland waters\n Lake Sturgeon                                                          See Lake Sturgeon Regulations table, p. 15\n                                                                                        Open All Year\n Smelt                 No size limit            2 gallons               (See p. 23, General Netting Regulations table)\n Burbot                No size limit                5                                    Open All Year\n All others (NOTE 8)   No size limit      No possession limit                            Open All Year\n\n\n 12\n                              2026 Michigan Fishing Regulations\n\f\nNOTES for General Fishing                                  Portage and Torch L. systems (Houghton Co.): No\n                                                           more than 1 Walleye 23\" or greater may be possessed\nRegulations Table                                          in daily possession limit.\n         NOTE 1 - All Warmwater Fish                       Walleye Protected Slot Limit (PSL) Waters: Release\n                                                           all Walleye less than 15\" and all between 18.0\" to\nWarmwater fish include all species listed in this table.\n                                                           23.0\", inclusive. Daily possession limit is 5 with no\nRegulations for trout and salmon on inland waters\n                                                           more than 1 Walleye greater than 23\". Marquette:\nare provided on pp. 42–65 and Great Lakes trout\n                                                           L. Independence and Teal L.\nand salmon on pp. 18–21.\nNOTE 2 - Largemouth & Smallmouth Bass                        NOTE 4 - Muskellunge & Northern Pike\n                                                           Mandatory Registration of Harvested\nCatch-and-Immediate-Release (CIR) seasons:\n                                                           Muskellunge: Anglers are required to register\nCIR fishing for bass is allowed all year on all waters,\n                                                           Muskellunge harvest within 24 hours. Anglers\nunless otherwise closed to fishing. All bass caught\n                                                           must report their harvest online (Michigan.gov/\nmust be immediately returned to the water (see\n                                                           RegisterFish), on the DNR Hunt Fish app, by calling\nDefinitions & Terms pp. 8–9).\n                                                           888-636-7778, or in person at any DNR Customer\nOn L. Michigan, within one-half mile of the                Service Center (p. 73) during normal state business\nfollowing islands of the Beaver Island Archipelago:        hours with advanced notice of arrival.\nBeaver, Garden, High and Hog, (Charlevoix Co.) the\n                                                           Muskellunge harvest is limited to 1 Muskellunge\npossession season is July 1 – Dec. 31 and open to\n                                                           per angler per year (April 1 – March 31).\nbass CIR all year.\n                                                           Catch-and-Immediate-Release (CIR) seasons:\n                NOTE 3 - Walleye                           CIR fishing for Muskellunge is allowed all year on\nL. Huron waters of MH-4 (p. 20) including                  all waters, unless otherwise closed to fishing. All\nSaginaw Bay and lower Saginaw R. including                 Muskellunge caught must be immediately returned\ntributaries (Bay and Saginaw Counties) from                to the water (see Definitions & Terms pp. 8–9) .\nthe mouth of the river, upstream to the West\nCenter Street (Douglas G. Schenk) Bridge. The\n                                                                 Special Muskellunge Regulations\ndaily possession limit for Walleye is 8 with a 13\"                  50\" Minimum Size Limit Waters\nminimum size limit and open all year. Any changes\nwill be announced online at Michigan.gov/Fishing           Antrim: L. Bellaire (including tribs upstream to\nand in a prerecorded message at 888-367-7060.              Bellaire Dam), Clam L. (including tribs), Torch L.\n                                                           (including tribs); Antrim & Grand Traverse: Elk L.\nL. Erie, Detroit R., L. St. Clair and St. Clair R.:        (above Elk Rapids Dam, including tribs); Antrim,\nThe daily possession limit is 6 Walleye through            Grand Traverse & Kalkaska: L. Skegemog\nApril 30, 2027. The daily possession limit for             (including tribs); Barry & Eaton: Thornapple R.\nWalleye will be updated by May 1 annually. The             (including Thornapple L.) from the M-50 bridge\ndaily possession limit will be announced online at         downstream to the McCann road crossing and\nMichigan.gov/Fishing and in a prerecorded message          including Mud Cr. from Barger Rd. downstream to\nat 888-367-7060.                                           Thornapple L.; Iron: Chicagon L. (including tribs);\nL. Michigan waters of Little Bay de Noc (Delta             Lenawee: L. Hudson.\nCo.): The daily possession limit shall not include                  46\" Minimum Size Limit Waters\nmore than 1 Walleye 23\" or greater north of a line\ndrawn from Peninsula Point Lighthouse to the mouth         Antrim: Beals L. (including tribs), Benway L.\nof the Bark R.                                             (including all tribs), Ellsworth L. (including tribs),\n                                                           Hanley L. (including tribs), Scotts L. (including tribs),\nL. Michigan waters of Green Bay (Menominee                 Wilson L. (including tribs), Intermediate L. (from\nCo.): from the mouth of the Menominee R.                   Bellaire Dam upstream, including tribs); Antrim &\nnorthward to latitude/longitude (45.5505, -87.2637).       Charlevoix: Saint Clair L. (including tribs), Sixmile\nlocated approximately 10 miles north of the Cedar          L. (including tribs); Barry: Gun L. ; Cheboygan &\nR., from March 2 – Fri. before 1st Sat. in May the daily   Presque Isle: Black L. (including tribs); Cheboygan:\npossession limit is 1 Walleye and from the 1st Sat. in     Black R. (including tribs upstream to Kleber\nMay – March 1 the daily possession limit is 5 Walleye.     Dam), Mullett L., Indian R., Burt L., Cheboygan R.;\nCheboygan R. from the south end of the                     Cheboygan & Emmet: Crooked R. (downstream\noutermost breakwall at Mullett L. downstream               from Crooked L. confluence); Chippewa: St. Marys R.\nto Cheboygan Dam, and Black R. from Alverno                (from compensating gates downstream to DeTour/\nDam downstream to its confluence with the                  Drummond Island Ferry Docks); Kent: Grand R.\nCheboygan R.: the possession season for Walleye            (downstream from Sixth Street Dam); Murray L.;\nshall be May 15 – March 15.                                Ottawa: L. Macatawa, Grand R. (downstream from\n                                                           Sixth Street Dam); Muskegon: Mona L.\nOntonagon R. (Ontonagon Co.): No more than\n1 Walleye 23\"or greater may be possessed in daily\npossession limit.\n                                                                                                            13\n                                  2026 Michigan Fishing Regulations",
+      "body": "G E N E R A L          F I S H I N G             R E G U L AT I O N S\n\nThis table provides general statewide regulations for the species listed. However, there are many waters\nin the state that have fishing regulations which differ from those in this table. For instance, it is\nunlawful to possess fishing gear or fish for suckers on designated trout waters during the closed\nfishing season. Please refer to the Michigan-Wisconsin Boundary Waters (see pp. 24\u201325), Sylvania Wilderness\nArea (see p. 26), Exceptions to General Regulations by County (see pp. 28\u201331), and Inland Trout & Salmon\nRegulations (pp. 42\u201365) for exceptions. Table notes are found on pp. 13\u201314. ATTENTION ANGLERS: There are\nregulations requiring all bass and Walleye tournaments and Muskellunge contests be registered (see p. 70).\n                                 General Fishing Regulations\n                       Minimum\n                                         Daily Possession\n Species (NOTE 1)        Size                                                       Possession Seasons\n                                               Limit\n                       (inches)\n                                                                        3rd. Sat. in June \u2013 Dec. 31: L. St. Clair, St. Clair\n Largemouth Bass                                                                   R., Detroit R. (See NOTE 2)\n Smallmouth Bass           14\"           5 in any combination           Sat. before Memorial Day \u2013 Dec. 31: All other\n (NOTE 2)                                                               waters including Gr. Lakes (except those listed\n                                                                                           in NOTE 2)\n                                                                        May 15 \u2013 March 15: Upper Peninsula Gr. Lakes\n                                                                              and inland waters, and St. Marys R.\n                                                                        Last Sat. in April \u2013 March 15: Lower Peninsula\n Walleye (NOTE 3)          15\"                      5                                     inland waters\n                                                                        Open All Year: Lower Peninsula Gr. Lakes, L. St.\n                                                                                Clair, St. Clair R. and Detroit R.\n                                                                        May 15 \u2013 March 15: Upper Peninsula Gr. Lakes\n                                                                              and inland waters, and St. Marys R.\n Northern Pike                                                          Last Sat. in April \u2013 March 15: Lower Peninsula\n (NOTE 4)\n                           24\"                      2                                      inland waters\n                                                                        Open All Year: Lower Peninsula Gr. Lakes, L. St.\n                                                                                 Clair, St. Clair R. and Detroit R\n Flathead Catfish          15\"                      5                                    Open All Year\n Channel Catfish           12\"                      10                                   Open All Year\n Muskellunge               42\"                                  1st Sat. in June \u2013 March 15: All Gr. Lakes and\n                                         Only 1 per angler per\n (including Tiger      (See NOTE                                         inland waters and St. Marys R.\n                                       license year (Mandatory\n Muskellunge)             4 for                                1st Sat. in June \u2013 Dec. 31: L. St. Clair, St. Clair R.\n                                             Registration)\n (NOTE 4)              exceptions)                                               and Detroit R.\n Yellow Perch\n (NOTE 5)\n                       No size limit               25                                    Open All Year\n\n Sunfishes (NOTE 6)    No size limit\n                                        25 in any combination                            Open All Year\n                                          of the listed species\n                                         25 on Gr. Lakes, L. St.\n                                       Clair, St. Marys R., St. Clair\n White Bass            No size limit                                                     Open All Year\n                                            R., and Detroit R.\n                                          10 on inland waters\n                                        10 in any combination\n Cisco, Lake                           on Gr. Lakes, Connecting\n Whitefish, Round      No size limit   Waters and Type F lakes,                          Open All Year\n Whitefish (NOTE 7)                    5 in any combination on\n                                          other inland waters\n Lake Sturgeon                                                          See Lake Sturgeon Regulations table, p. 15\n                                                                                        Open All Year\n Smelt                 No size limit            2 gallons               (See p. 23, General Netting Regulations table)\n Burbot                No size limit                5                                    Open All Year\n All others (NOTE 8)   No size limit      No possession limit                            Open All Year\n\nNOTES for General Fishing                                  Portage and Torch L. systems (Houghton Co.): No\n                                                           more than 1 Walleye 23\" or greater may be possessed\nRegulations Table                                          in daily possession limit.\n         NOTE 1 - All Warmwater Fish                       Walleye Protected Slot Limit (PSL) Waters: Release\n                                                           all Walleye less than 15\" and all between 18.0\" to\nWarmwater fish include all species listed in this table.\n                                                           23.0\", inclusive. Daily possession limit is 5 with no\nRegulations for trout and salmon on inland waters\n                                                           more than 1 Walleye greater than 23\". Marquette:\nare provided on pp. 42\u201365 and Great Lakes trout\n                                                           L. Independence and Teal L.\nand salmon on pp. 18\u201321.\nNOTE 2 - Largemouth & Smallmouth Bass                        NOTE 4 - Muskellunge & Northern Pike\n                                                           Mandatory Registration of Harvested\nCatch-and-Immediate-Release (CIR) seasons:\n                                                           Muskellunge: Anglers are required to register\nCIR fishing for bass is allowed all year on all waters,\n                                                           Muskellunge harvest within 24 hours. Anglers\nunless otherwise closed to fishing. All bass caught\n                                                           must report their harvest online (Michigan.gov/\nmust be immediately returned to the water (see\n                                                           RegisterFish), on the DNR Hunt Fish app, by calling\nDefinitions & Terms pp. 8\u20139).\n                                                           888-636-7778, or in person at any DNR Customer\nOn L. Michigan, within one-half mile of the                Service Center (p. 73) during normal state business\nfollowing islands of the Beaver Island Archipelago:        hours with advanced notice of arrival.\nBeaver, Garden, High and Hog, (Charlevoix Co.) the\n                                                           Muskellunge harvest is limited to 1 Muskellunge\npossession season is July 1 \u2013 Dec. 31 and open to\n                                                           per angler per year (April 1 \u2013 March 31).\nbass CIR all year.\n                                                           Catch-and-Immediate-Release (CIR) seasons:\n                NOTE 3 - Walleye                           CIR fishing for Muskellunge is allowed all year on\nL. Huron waters of MH-4 (p. 20) including                  all waters, unless otherwise closed to fishing. All\nSaginaw Bay and lower Saginaw R. including                 Muskellunge caught must be immediately returned\ntributaries (Bay and Saginaw Counties) from                to the water (see Definitions & Terms pp. 8\u20139) .\nthe mouth of the river, upstream to the West\nCenter Street (Douglas G. Schenk) Bridge. The\n                                                                 Special Muskellunge Regulations\ndaily possession limit for Walleye is 8 with a 13\"                  50\" Minimum Size Limit Waters\nminimum size limit and open all year. Any changes\nwill be announced online at Michigan.gov/Fishing           Antrim: L. Bellaire (including tribs upstream to\nand in a prerecorded message at 888-367-7060.              Bellaire Dam), Clam L. (including tribs), Torch L.\n                                                           (including tribs); Antrim & Grand Traverse: Elk L.\nL. Erie, Detroit R., L. St. Clair and St. Clair R.:        (above Elk Rapids Dam, including tribs); Antrim,\nThe daily possession limit is 6 Walleye through            Grand Traverse & Kalkaska: L. Skegemog\nApril 30, 2027. The daily possession limit for             (including tribs); Barry & Eaton: Thornapple R.\nWalleye will be updated by May 1 annually. The             (including Thornapple L.) from the M-50 bridge\ndaily possession limit will be announced online at         downstream to the McCann road crossing and\nMichigan.gov/Fishing and in a prerecorded message          including Mud Cr. from Barger Rd. downstream to\nat 888-367-7060.                                           Thornapple L.; Iron: Chicagon L. (including tribs);\nL. Michigan waters of Little Bay de Noc (Delta             Lenawee: L. Hudson.\nCo.): The daily possession limit shall not include                  46\" Minimum Size Limit Waters\nmore than 1 Walleye 23\" or greater north of a line\ndrawn from Peninsula Point Lighthouse to the mouth         Antrim: Beals L. (including tribs), Benway L.\nof the Bark R.                                             (including all tribs), Ellsworth L. (including tribs),\n                                                           Hanley L. (including tribs), Scotts L. (including tribs),\nL. Michigan waters of Green Bay (Menominee                 Wilson L. (including tribs), Intermediate L. (from\nCo.): from the mouth of the Menominee R.                   Bellaire Dam upstream, including tribs); Antrim &\nnorthward to latitude/longitude (45.5505, -87.2637).       Charlevoix: Saint Clair L. (including tribs), Sixmile\nlocated approximately 10 miles north of the Cedar          L. (including tribs); Barry: Gun L. ; Cheboygan &\nR., from March 2 \u2013 Fri. before 1st Sat. in May the daily   Presque Isle: Black L. (including tribs); Cheboygan:\npossession limit is 1 Walleye and from the 1st Sat. in     Black R. (including tribs upstream to Kleber\nMay \u2013 March 1 the daily possession limit is 5 Walleye.     Dam), Mullett L., Indian R., Burt L., Cheboygan R.;\nCheboygan R. from the south end of the                     Cheboygan & Emmet: Crooked R. (downstream\noutermost breakwall at Mullett L. downstream               from Crooked L. confluence); Chippewa: St. Marys R.\nto Cheboygan Dam, and Black R. from Alverno                (from compensating gates downstream to DeTour/\nDam downstream to its confluence with the                  Drummond Island Ferry Docks); Kent: Grand R.\nCheboygan R.: the possession season for Walleye            (downstream from Sixth Street Dam); Murray L.;\nshall be May 15 \u2013 March 15.                                Ottawa: L. Macatawa, Grand R. (downstream from\n                                                           Sixth Street Dam); Muskegon: Mona L.\nOntonagon R. (Ontonagon Co.): No more than\n1 Walleye 23\"or greater may be possessed in daily\npossession limit.",
       "source_pages": [
         14,
         15
@@ -13183,7 +13183,7 @@
       "id": "lake-sturgeon",
       "title": "Lake Sturgeon Regulations",
       "category": "special",
-      "body": "L A K E      S T U R G E O N               R E G U L AT I O N S\nLake Sturgeon harvest is limited to only 1 Lake Sturgeon per angler per year (April 1 – March 31).\nHarvest of Lake Sturgeon is limited to the waters of the state listed in the table below. Spearing for Lake\nSturgeon is prohibited, except in Black Lake (Cheboygan & Presque Isle Cos.), during a special winter\nseason; pre-registration is required. For more information, visit Michigan.gov/Sturgeon.\n                       Mandatory Registration of Harvested Lake Sturgeon\nAnglers are required to register Lake Sturgeon harvest within 24 hours. Anglers must report their harvest\nonline (Michigan.gov/RegisterFish), on the DNR Hunt Fish app, by calling 888-636-7778, or in person at\nany DNR Customer Service Center (see p. 73) during normal state business hours with advanced notice\nof arrival. EXCEPTION: Lake Sturgeon harvested from Black Lake (Cheboygan & Presque Isle Cos.) must\nbe immediately registered on-site with DNR personnel.\n\n                            Lake Sturgeon\n          Hook & Line Fishing Only (except as indicated above)\n                                                                                  Regulations and Size\n Waters                                                Seasons\n                                                                                     Restrictions\n Detroit River (Wayne, Macomb & St. Clair           Fishing Season:              All Lake Sturgeon must be\n Cos.)                                             July 16 – March 15              released immediately.\n\n                                                    Fishing Season:\n                                                                              Between 42\" – 50\". Lake Sturgeon\n Lake St. Clair and St. Clair R. (Wayne,           July 16 – March 15\n                                                                              less than 42\" and greater than 50\"\n Macomb & St. Clair Cos.)                         Possession Season:\n                                                                                must be released immediately.\n                                                    July 16 – Sep. 30\n\n                                               Fishing and Possession           50\" minimum size limit. Lake\n Otsego Lake (Otsego Co.)                              Season:                 Sturgeon less than 50\" must be\n                                                  July 16 – March 15               released immediately.\n\n Menominee River (Menominee, Dickinson         Fishing and Possession           60\" minimum size limit. Lake\n & Iron Cos.)                                           Season:                Sturgeon less than 60\" must be\n Upstream of Sturgeon Falls Dam (pp. 24–25)    1st Sat. in Sep. – Sep. 30          released immediately.\n\n\n Menominee River (Menominee, Dickinson         Fishing Season: 1st Sat. in\n                                                                                60\" minimum size limit. Lake\n & Iron Cos.)                                   June – 1st Sun. in March.\n                                                                               Sturgeon less than 60\" must be\n From Grand Rapids Dam upstream to                Possession Season:\n                                                                                   released immediately.\n Sturgeon Falls Dam                             1st Sat. in Sep. – Sep. 30\n\n\n                                                Fishing and Possession        No size limit. All harvested Lake\n                                                 Season: 1st Sat. in Feb.       Sturgeon must be reported\n Black Lake (Cheboygan & Presque Isle Cos.)   through the following Mon.       immediately to DNR on site.\n                                              or until the quota is reached    Contact DNR Gaylord office\n                                                 (whichever comes first)       (989) 732-3541 for details.\n\n St. Marys River (Chippewa Co.)\n From the Soo Locks/Compensating Works\n downstream to the DeTour Village and\n                                                    Fishing Season:              All Lake Sturgeon must be\n Drummond Island ferry terminals to the\n                                                   July 16 – March 15              released immediately.\n south, and from Hay Point to Cherry Island\n then north to the international boundary\n for the northeast.\n\n Portage and Torch Lakes (Houghton Co.)\n                                                    Fishing Season:              All Lake Sturgeon must be\n This includes Portage River, Portage Canal\n                                                   July 16 – March 15              released immediately.\n and north and south entry.\n\n Ontonagon River (Ontonagon Co.)\n                                                    Fishing Season:              All Lake Sturgeon must be\n From Lake Superior up to the Victoria Dam\n                                                   July 16 – March 15              released immediately.\n Road\n\n                                                                                  Unlawful to fish for Lake\n All Other Waters                                NO FISHING SEASON\n                                                                                        Sturgeon\n                                                                                                         15\n                                  2026 Michigan Fishing Regulations",
+      "body": "L A K E      S T U R G E O N               R E G U L AT I O N S\nLake Sturgeon harvest is limited to only 1 Lake Sturgeon per angler per year (April 1 \u2013 March 31).\nHarvest of Lake Sturgeon is limited to the waters of the state listed in the table below. Spearing for Lake\nSturgeon is prohibited, except in Black Lake (Cheboygan & Presque Isle Cos.), during a special winter\nseason; pre-registration is required. For more information, visit Michigan.gov/Sturgeon.\n                       Mandatory Registration of Harvested Lake Sturgeon\nAnglers are required to register Lake Sturgeon harvest within 24 hours. Anglers must report their harvest\nonline (Michigan.gov/RegisterFish), on the DNR Hunt Fish app, by calling 888-636-7778, or in person at\nany DNR Customer Service Center (see p. 73) during normal state business hours with advanced notice\nof arrival. EXCEPTION: Lake Sturgeon harvested from Black Lake (Cheboygan & Presque Isle Cos.) must\nbe immediately registered on-site with DNR personnel.\n\n                            Lake Sturgeon\n          Hook & Line Fishing Only (except as indicated above)\n                                                                                  Regulations and Size\n Waters                                                Seasons\n                                                                                     Restrictions\n Detroit River (Wayne, Macomb & St. Clair           Fishing Season:              All Lake Sturgeon must be\n Cos.)                                             July 16 \u2013 March 15              released immediately.\n\n                                                    Fishing Season:\n                                                                              Between 42\" \u2013 50\". Lake Sturgeon\n Lake St. Clair and St. Clair R. (Wayne,           July 16 \u2013 March 15\n                                                                              less than 42\" and greater than 50\"\n Macomb & St. Clair Cos.)                         Possession Season:\n                                                                                must be released immediately.\n                                                    July 16 \u2013 Sep. 30\n\n                                               Fishing and Possession           50\" minimum size limit. Lake\n Otsego Lake (Otsego Co.)                              Season:                 Sturgeon less than 50\" must be\n                                                  July 16 \u2013 March 15               released immediately.\n\n Menominee River (Menominee, Dickinson         Fishing and Possession           60\" minimum size limit. Lake\n & Iron Cos.)                                           Season:                Sturgeon less than 60\" must be\n Upstream of Sturgeon Falls Dam (pp. 24\u201325)    1st Sat. in Sep. \u2013 Sep. 30          released immediately.\n\n Menominee River (Menominee, Dickinson         Fishing Season: 1st Sat. in\n                                                                                60\" minimum size limit. Lake\n & Iron Cos.)                                   June \u2013 1st Sun. in March.\n                                                                               Sturgeon less than 60\" must be\n From Grand Rapids Dam upstream to                Possession Season:\n                                                                                   released immediately.\n Sturgeon Falls Dam                             1st Sat. in Sep. \u2013 Sep. 30\n\n                                                Fishing and Possession        No size limit. All harvested Lake\n                                                 Season: 1st Sat. in Feb.       Sturgeon must be reported\n Black Lake (Cheboygan & Presque Isle Cos.)   through the following Mon.       immediately to DNR on site.\n                                              or until the quota is reached    Contact DNR Gaylord office\n                                                 (whichever comes first)       (989) 732-3541 for details.\n\n St. Marys River (Chippewa Co.)\n From the Soo Locks/Compensating Works\n downstream to the DeTour Village and\n                                                    Fishing Season:              All Lake Sturgeon must be\n Drummond Island ferry terminals to the\n                                                   July 16 \u2013 March 15              released immediately.\n south, and from Hay Point to Cherry Island\n then north to the international boundary\n for the northeast.\n\n Portage and Torch Lakes (Houghton Co.)\n                                                    Fishing Season:              All Lake Sturgeon must be\n This includes Portage River, Portage Canal\n                                                   July 16 \u2013 March 15              released immediately.\n and north and south entry.\n\n Ontonagon River (Ontonagon Co.)\n                                                    Fishing Season:              All Lake Sturgeon must be\n From Lake Superior up to the Victoria Dam\n                                                   July 16 \u2013 March 15              released immediately.\n Road\n\n                                                                                  Unlawful to fish for Lake\n All Other Waters                                NO FISHING SEASON\n                                                                                        Sturgeon",
       "source_pages": [
         17
       ]
@@ -13192,7 +13192,7 @@
       "id": "bow-spear",
       "title": "Bow & Spearfishing Regulations",
       "category": "special",
-      "body": "B O W -        &      S P E A R F I S H I N G                   R E G U L AT I O N S\n\nThe seasons, gear, waters and species where a spear, bow and arrow, or crossbow may be used as indicated\nin the table below and lists that follow (except as otherwise prohibited). Spearing gear shall be limited\nto: hand-propelled spear, rubber-propelled spear, and spring-propelled spear. In addition, bow and arrow,\nand crossbow may be used. Artificial lights may be used. It shall be unlawful to use a rubber-propelled\nspear or a spring-propelled spear without being submerged and the spear must be attached to a line not\nexceeding twenty feet in length. It is unlawful to spear any fish in a waterbody closed to fishing, except\nas noted in the spearing exceptions list (p. 17). Unless noted otherwise, all general regulations apply for\nthe species listed (pp. 12–14, 20–21). Anglers should contact local enforcement offices for information\nconcerning local weapons ordinances banning the use of bow and arrow or crossbow in some locations.\nFishing in any manner other than hook-and-line is prohibited in National Park sites.\n\n Bow- & Spearfishing Regulations (for species as indicated below)\n        Season                     Gear                     Waters (NOTE 1)                   Species (NOTE 2)\n\n                                                     ALL WATERS except: Designated        Bowfin, Bullheads, Burbot,\n                          Spear or bow and arrow       Trout Lakes and Streams and        Carp, Catfish, Cisco, Drum,\n      Open All Year            or crossbow            Michigan-Wisconsin boundary           Gizzard Shad, Goldfish,\n                             (as listed above)           waters. Also see Spearing        Grass Carp, Longnose Gar,\n                                                          Exceptions List below.           Smelt, Suckers, Whitefish\n\nIn addition to year-round opportunities listed above, the following spearfishing provisions allow for the\npossession of additional species listed below:\n                                                                                                           Species\n  Season           Gear                                 Waters (NOTE 1)\n                                                                                                          (NOTE 2)\n                                                                                                           Northern\n   Dec. 1 –\n                  Hand-          ALL WATERS except: Designated Trout Lakes and Streams and                 Pike and\n  March 15\n                propelled     Michigan-Wisconsin boundary waters. Also see Spearing Exceptions           Muskellunge\n  (through\n               spear (only)                             List below.                                       (pp. 13–14\n   the ice)\n                                                                                                           NOTE 4)\n                                Lake Michigan: waters north of the MI/IN border northward to the\n                               45th Parallel excluding all waters of Grand Traverse Bay. Waters from\n                                  the MI/WI border northward to the southern edge of the Ford R.\n                              mouth(45.673512, -87.143475) extending out 2 miles from shore. From\n    Species                    Point Detour (Southern tip of the Garden Peninsula) eastward to the\n      and                     west edge of the mouth of the Brevort R., extending out 5 miles from\n   location                                                     shore.\n    specific                   Lake Huron: waters south of the southernmost pier of the Thunder\n                                                                                                          Lake Trout,\n (see NOTE Underwater          Bay R., extending south to the mouth of the St. Clair R. (Fort Gratiot\n                                                                                                           Northern\n     3 for   spear (see                                         Light)\n                                                                                                         Pike, Walleye\n  Northern    NOTE 4)           Lake Erie: waters north of the MI/OH border northward to the line\n      Pike                     extending due east and west of the most southerly point of Celeron\n    season                                           Island in the Detroit River\n exception)                     Lake Superior: waters from the MI/WI border eastward to the St.\n                               Marys R. (Birch Point Range front light to the most westerly point of\n                              Round Island, thence following the shore of Round Island to the most\n                                 northerly point thereof, thence from the most northerly point of\n                                 Round Island to Point Aux Pins Light, ON). See exceptions p. 17.\nNOTE 1 — All Type A and D lakes are Designated Trout Waters. All Type 1 and 2 streams, Gear Restricted Streams, Brook\nTrout Restoration Areas, and nearly all Type 3 and 4 streams are Designated Trout Waters (see pp. 42–65).\nNOTE 2 — The term suckers refers to: suckers (longnose, white, northern hog, spotted), redhorse (all except River\nRedhorse, which are a protected species), buffalo (bigmouth, black), Lake Chubsucker and Quillback Carpsucker.\nNOTE 3 — When using an underwater spear the possession season for Northern Pike shall be July 1 – March 15.\nNOTE 4 — For underwater spearfishing Lake Trout, Northern Pike, and Walleye the following regulations apply:\n• All recreational anglers who intend to engage in underwater spearfishing shall request and be issued a free annual\n  underwater spearfishing license (See p. 2 for more information).\n• To use an underwater spear in compliance with the table within this order, the angler/diver shall be fully submerged\n  beneath the waters surface when attempting to harvest fish.\n\n 16\n                                2026 Michigan Fishing Regulations\n\f\n---\n• The species and location specific size limits for Lake      • All spearguns shall have the bands unloaded from\n  Trout, Northern Pike, and Walleye shall apply.                the spear and the safety on when divers are moving\n• Underwater spearfishing shall be prohibited daily from        between fishing areas and when entering and exiting\n  30 minutes after sunset to 30 minutes before sunrise.         the water.\n• This activity shall be prohibited within 150 feet of        • Use of artificial breathing devices such as scuba, re-\n  designated swimming areas, boat docks, boat access or         breather or similar devices shall be prohibited while\n  egress sites and power intake tubes.                          underwater spearfishing.\n• This activity shall be prohibited where placement of        • Use of bait, attractants or decoys is prohibited while\n  a diver-down flag would restrict boater navigation or         underwater spearfishing.\n  access to a boating access site.\n\n\n\nSpearing Exceptions List                                      of longitude at -86.55 degrees, and south of a line\n                                                              of latitude at 46.93 degrees, and west of a line of\nWaters Closed to Possession and Use of                        longitude at -86.37 degrees, and north of a line of\nSpearing Gear                                                 latitude at 46.7 degrees); Isle Royale: within a 4.5-\nIt shall be unlawful to fish by any means other than          mile radius of Isle Royale.\nhook-and-line or to possess bow and spearing\ngear (p. 16) in the following waters from Nov. 1\n                                                              Waters with Spearing and Gaff Hook\n– Nov. 30: Muskegon: at the port of Muskegon\n                                                              Restrictions\n                                                              It shall be unlawful to take or attempt to take any\nfrom the westernmost pier head extending into\n                                                              species of fish with spearing gear or gaff hook\nLake Michigan (excluding break walls) to the\n                                                              from April 1 – June 15 from the following waters of\neasternmost pier head extending into Muskegon\n                                                              Cheboygan: Black R., Cheboygan R., and Indian R.\nLake and at the port of Whitehall/Montague from\nthe westernmost pier head extending into Lake                 Lake St. Clair Yellow Perch Spearing\nMichigan to the easternmost pier head extending               Macomb, St. Clair & Wayne: A hand-propelled\ninto White Lake. Ottawa: the port of Grand Haven              spear or bow and arrow or crossbow may be used\nfrom the westernmost pier head extending into                 to harvest Yellow Perch from Dec. 1 – March 15.\nLake Michigan to the US-31 bridge (northbound\nBeacon Blvd).\n                                                              Designated Trout Streams Open To Spring\n                                                              Spearing\nWaters Closed to Northern Pike and                            The following designated trout streams listed by\nMuskellunge Spearing                                          county are open to the use of spearing gear from\nIt shall be unlawful to fish by any means other than          April 1 – May 31, for taking Bowfin, Bullheads, Burbot,\nhook-and-line for Northern Pike or Muskellunge in             Common Carp, Catfish, Cisco, Drum, Longnose Gar,\nthe following waters: Alger: Kingston L.; Alpena              Gizzard Shad, Goldfish, Grass Carp, Smelt, **suckers\n& Montmorency: Fletcher Floodwaters; Barry:                   (as listed on p. 16) and whitefish: Alcona: Bryant\nLower Crooked L., Thornapple L. (from McKeown                 Cr. from Vaughn L. downstream to Little L.; Buff Cr.;\nRd. to Barger Rd.); Clare: Budd L.; Clinton: L. Ovid;         Sucker Cr. from confluence of Vincent Cr. (T27N,\nDelta: Dana L.; Dickinson: East, Island, South, and           R8E, S9) downstream to Hubbard L. (T28N, R7E,\nWest Lks (all within Groveland Mines); Iron: Brule            S36); Calhoun: Nottawa Cr. from Calhoun Co. line\nand Chicagon Lks., L. Emily, Paint L., Paint (Brule Isle      (T4S, R8W, S31) upstream to T3S, R5W, S35; Rice\nImp.) Pond, Stanley and Swan Lks.; Kent: Campau               Cr. South Branch Rice Cr. from confluence of Rice\nand Murray Lks.; Keweenaw: L. Gratiot; Lenawee:               Cr. and Kalamazoo R. (T2S, R6W, S25) upstream to\nL. Hudson; Schoolcraft: Grassy and McKeever Lks.;             Concord Rd. (Jackson Co.); Chippewa: Trout Cr.\nSt. Joseph: Long L. (Fabius Twp. T6S, R12W, S7);              downstream of Big Trout L. (T42N, R3E, S31); Prentiss\nVan Buren: Bankson and Round Lks. (Keeler Twp.                Cr. (T42N, R2E,); Delta: Squaw Cr. downstream of\nT4S, R16W, S31).                                              Co. Rd 513; Mackinac: Doe Cr. (T43N, R10W); Foley\n                                                              Cr. downstream of I-75; Hoban Cr. downstream of\nWaters Closed To Muskellunge Spearing                         State St.; Hudson Cr. (T41N, R11W, S8); Martineau Cr.\nIt shall be unlawful to fish for Muskellunge by any\n                                                              downstream of I-75; McClouds Cr.; Milakokia R. from\nmeans other than hook and line in the following\n                                                              Milakokia L. downstream to Heinz L.; Norton Cr. from\nwaters: L. Erie, L. St. Clair, Detroit R., and St. Clair R.\n                                                              M-135 downstream to South Manistique L.; Nunns\nLake Superior Waters Closed to                                Cr. downstream of Highway M -134; Pearson’s Cr.\nUnderwater Spearfishing of Lake Trout,                        (T42N, R1W and R1E); Rabbits Back Cr. downstream\nNorthern Pike and Walleye                                     of Mackinac Trail; Scrams Cr. (T42N, R11W, S11); Taylor\nIt shall be unlawful to fish with an underwater spear         Cr. (T43N, R12W, S2, 11, 12 and 13); Mason: Sable R.\nin the following waters (p. 20): Stannard Rock (east          from Freesoil Rd. downstream to Custer Rd. (T20N,\nof a line of longitude at -87.28 degrees, south of a          R16W, S22); Van Buren: Dowagiac R. and tributaries\nline of latitude at 47.27 degrees, west of a line of          upstream of 50th Street (T4S, R15W, S35); Lake of\nlongitude at -87.11 degrees, and north of a line of           the Woods Outlet to confluence with Dowagiac R.\nlatitude at 47.13 degrees); Big Reef (east of a line          (T45N, R15W, S34).\n\n                                                                                                                17\n                                    2026 Michigan Fishing Regulations",
+      "body": "B O W -        &      S P E A R F I S H I N G                   R E G U L AT I O N S\n\nThe seasons, gear, waters and species where a spear, bow and arrow, or crossbow may be used as indicated\nin the table below and lists that follow (except as otherwise prohibited). Spearing gear shall be limited\nto: hand-propelled spear, rubber-propelled spear, and spring-propelled spear. In addition, bow and arrow,\nand crossbow may be used. Artificial lights may be used. It shall be unlawful to use a rubber-propelled\nspear or a spring-propelled spear without being submerged and the spear must be attached to a line not\nexceeding twenty feet in length. It is unlawful to spear any fish in a waterbody closed to fishing, except\nas noted in the spearing exceptions list (p. 17). Unless noted otherwise, all general regulations apply for\nthe species listed (pp. 12\u201314, 20\u201321). Anglers should contact local enforcement offices for information\nconcerning local weapons ordinances banning the use of bow and arrow or crossbow in some locations.\nFishing in any manner other than hook-and-line is prohibited in National Park sites.\n\n Bow- & Spearfishing Regulations (for species as indicated below)\n        Season                     Gear                     Waters (NOTE 1)                   Species (NOTE 2)\n\n                                                     ALL WATERS except: Designated        Bowfin, Bullheads, Burbot,\n                          Spear or bow and arrow       Trout Lakes and Streams and        Carp, Catfish, Cisco, Drum,\n      Open All Year            or crossbow            Michigan-Wisconsin boundary           Gizzard Shad, Goldfish,\n                             (as listed above)           waters. Also see Spearing        Grass Carp, Longnose Gar,\n                                                          Exceptions List below.           Smelt, Suckers, Whitefish\n\nIn addition to year-round opportunities listed above, the following spearfishing provisions allow for the\npossession of additional species listed below:\n                                                                                                           Species\n  Season           Gear                                 Waters (NOTE 1)\n                                                                                                          (NOTE 2)\n                                                                                                           Northern\n   Dec. 1 \u2013\n                  Hand-          ALL WATERS except: Designated Trout Lakes and Streams and                 Pike and\n  March 15\n                propelled     Michigan-Wisconsin boundary waters. Also see Spearing Exceptions           Muskellunge\n  (through\n               spear (only)                             List below.                                       (pp. 13\u201314\n   the ice)\n                                                                                                           NOTE 4)\n                                Lake Michigan: waters north of the MI/IN border northward to the\n                               45th Parallel excluding all waters of Grand Traverse Bay. Waters from\n                                  the MI/WI border northward to the southern edge of the Ford R.\n                              mouth(45.673512, -87.143475) extending out 2 miles from shore. From\n    Species                    Point Detour (Southern tip of the Garden Peninsula) eastward to the\n      and                     west edge of the mouth of the Brevort R., extending out 5 miles from\n   location                                                     shore.\n    specific                   Lake Huron: waters south of the southernmost pier of the Thunder\n                                                                                                          Lake Trout,\n (see NOTE Underwater          Bay R., extending south to the mouth of the St. Clair R. (Fort Gratiot\n                                                                                                           Northern\n     3 for   spear (see                                         Light)\n                                                                                                         Pike, Walleye\n  Northern    NOTE 4)           Lake Erie: waters north of the MI/OH border northward to the line\n      Pike                     extending due east and west of the most southerly point of Celeron\n    season                                           Island in the Detroit River\n exception)                     Lake Superior: waters from the MI/WI border eastward to the St.\n                               Marys R. (Birch Point Range front light to the most westerly point of\n                              Round Island, thence following the shore of Round Island to the most\n                                 northerly point thereof, thence from the most northerly point of\n                                 Round Island to Point Aux Pins Light, ON). See exceptions p. 17.\nNOTE 1 \u2014 All Type A and D lakes are Designated Trout Waters. All Type 1 and 2 streams, Gear Restricted Streams, Brook\nTrout Restoration Areas, and nearly all Type 3 and 4 streams are Designated Trout Waters (see pp. 42\u201365).\nNOTE 2 \u2014 The term suckers refers to: suckers (longnose, white, northern hog, spotted), redhorse (all except River\nRedhorse, which are a protected species), buffalo (bigmouth, black), Lake Chubsucker and Quillback Carpsucker.\nNOTE 3 \u2014 When using an underwater spear the possession season for Northern Pike shall be July 1 \u2013 March 15.\nNOTE 4 \u2014 For underwater spearfishing Lake Trout, Northern Pike, and Walleye the following regulations apply:\n\u2022 All recreational anglers who intend to engage in underwater spearfishing shall request and be issued a free annual\n  underwater spearfishing license (See p. 2 for more information).\n\u2022 To use an underwater spear in compliance with the table within this order, the angler/diver shall be fully submerged\n  beneath the waters surface when attempting to harvest fish.\n\n 16\n                                2026 Michigan Fishing Regulations\n\f\n---\n\u2022 The species and location specific size limits for Lake      \u2022 All spearguns shall have the bands unloaded from\n  Trout, Northern Pike, and Walleye shall apply.                the spear and the safety on when divers are moving\n\u2022 Underwater spearfishing shall be prohibited daily from        between fishing areas and when entering and exiting\n  30 minutes after sunset to 30 minutes before sunrise.         the water.\n\u2022 This activity shall be prohibited within 150 feet of        \u2022 Use of artificial breathing devices such as scuba, re-\n  designated swimming areas, boat docks, boat access or         breather or similar devices shall be prohibited while\n  egress sites and power intake tubes.                          underwater spearfishing.\n\u2022 This activity shall be prohibited where placement of        \u2022 Use of bait, attractants or decoys is prohibited while\n  a diver-down flag would restrict boater navigation or         underwater spearfishing.\n  access to a boating access site.\n\n\n\nSpearing Exceptions List                                      of longitude at -86.55 degrees, and south of a line\n                                                              of latitude at 46.93 degrees, and west of a line of\nWaters Closed to Possession and Use of                        longitude at -86.37 degrees, and north of a line of\nSpearing Gear                                                 latitude at 46.7 degrees); Isle Royale: within a 4.5-\nIt shall be unlawful to fish by any means other than          mile radius of Isle Royale.\nhook-and-line or to possess bow and spearing\ngear (p. 16) in the following waters from Nov. 1\n                                                              Waters with Spearing and Gaff Hook\n\u2013 Nov. 30: Muskegon: at the port of Muskegon\n                                                              Restrictions\n                                                              It shall be unlawful to take or attempt to take any\nfrom the westernmost pier head extending into\n                                                              species of fish with spearing gear or gaff hook\nLake Michigan (excluding break walls) to the\n                                                              from April 1 \u2013 June 15 from the following waters of\neasternmost pier head extending into Muskegon\n                                                              Cheboygan: Black R., Cheboygan R., and Indian R.\nLake and at the port of Whitehall/Montague from\nthe westernmost pier head extending into Lake                 Lake St. Clair Yellow Perch Spearing\nMichigan to the easternmost pier head extending               Macomb, St. Clair & Wayne: A hand-propelled\ninto White Lake. Ottawa: the port of Grand Haven              spear or bow and arrow or crossbow may be used\nfrom the westernmost pier head extending into                 to harvest Yellow Perch from Dec. 1 \u2013 March 15.\nLake Michigan to the US-31 bridge (northbound\nBeacon Blvd).\n                                                              Designated Trout Streams Open To Spring\n                                                              Spearing\nWaters Closed to Northern Pike and                            The following designated trout streams listed by\nMuskellunge Spearing                                          county are open to the use of spearing gear from\nIt shall be unlawful to fish by any means other than          April 1 \u2013 May 31, for taking Bowfin, Bullheads, Burbot,\nhook-and-line for Northern Pike or Muskellunge in             Common Carp, Catfish, Cisco, Drum, Longnose Gar,\nthe following waters: Alger: Kingston L.; Alpena              Gizzard Shad, Goldfish, Grass Carp, Smelt, **suckers\n& Montmorency: Fletcher Floodwaters; Barry:                   (as listed on p. 16) and whitefish: Alcona: Bryant\nLower Crooked L., Thornapple L. (from McKeown                 Cr. from Vaughn L. downstream to Little L.; Buff Cr.;\nRd. to Barger Rd.); Clare: Budd L.; Clinton: L. Ovid;         Sucker Cr. from confluence of Vincent Cr. (T27N,\nDelta: Dana L.; Dickinson: East, Island, South, and           R8E, S9) downstream to Hubbard L. (T28N, R7E,\nWest Lks (all within Groveland Mines); Iron: Brule            S36); Calhoun: Nottawa Cr. from Calhoun Co. line\nand Chicagon Lks., L. Emily, Paint L., Paint (Brule Isle      (T4S, R8W, S31) upstream to T3S, R5W, S35; Rice\nImp.) Pond, Stanley and Swan Lks.; Kent: Campau               Cr. South Branch Rice Cr. from confluence of Rice\nand Murray Lks.; Keweenaw: L. Gratiot; Lenawee:               Cr. and Kalamazoo R. (T2S, R6W, S25) upstream to\nL. Hudson; Schoolcraft: Grassy and McKeever Lks.;             Concord Rd. (Jackson Co.); Chippewa: Trout Cr.\nSt. Joseph: Long L. (Fabius Twp. T6S, R12W, S7);              downstream of Big Trout L. (T42N, R3E, S31); Prentiss\nVan Buren: Bankson and Round Lks. (Keeler Twp.                Cr. (T42N, R2E,); Delta: Squaw Cr. downstream of\nT4S, R16W, S31).                                              Co. Rd 513; Mackinac: Doe Cr. (T43N, R10W); Foley\n                                                              Cr. downstream of I-75; Hoban Cr. downstream of\nWaters Closed To Muskellunge Spearing                         State St.; Hudson Cr. (T41N, R11W, S8); Martineau Cr.\nIt shall be unlawful to fish for Muskellunge by any\n                                                              downstream of I-75; McClouds Cr.; Milakokia R. from\nmeans other than hook and line in the following\n                                                              Milakokia L. downstream to Heinz L.; Norton Cr. from\nwaters: L. Erie, L. St. Clair, Detroit R., and St. Clair R.\n                                                              M-135 downstream to South Manistique L.; Nunns\nLake Superior Waters Closed to                                Cr. downstream of Highway M -134; Pearson\u2019s Cr.\nUnderwater Spearfishing of Lake Trout,                        (T42N, R1W and R1E); Rabbits Back Cr. downstream\nNorthern Pike and Walleye                                     of Mackinac Trail; Scrams Cr. (T42N, R11W, S11); Taylor\nIt shall be unlawful to fish with an underwater spear         Cr. (T43N, R12W, S2, 11, 12 and 13); Mason: Sable R.\nin the following waters (p. 20): Stannard Rock (east          from Freesoil Rd. downstream to Custer Rd. (T20N,\nof a line of longitude at -87.28 degrees, south of a          R16W, S22); Van Buren: Dowagiac R. and tributaries\nline of latitude at 47.27 degrees, west of a line of          upstream of 50th Street (T4S, R15W, S35); Lake of\nlongitude at -87.11 degrees, and north of a line of           the Woods Outlet to confluence with Dowagiac R.\nlatitude at 47.13 degrees); Big Reef (east of a line          (T45N, R15W, S34).\n\n                                                                                                                17\n                                    2026 Michigan Fishing Regulations",
       "source_pages": [
         18,
         19
@@ -13202,16 +13202,17 @@
       "id": "gl-trout-salmon",
       "title": "Great Lakes Trout & Salmon Regulations",
       "category": "great_lakes",
-      "body": "G R E AT           L A K E S            T R O U T         &     S A L M O N               R E G U L AT I O N S\n\n                         Great Lakes Trout & Salmon Regulations\n   The regulations in this table apply to fishing on the Great Lakes for the following species: Atlantic\n Salmon, Brook Trout (NOTE 1), Brown Trout, Chinook Salmon, Coho Salmon, Lake Trout (NOTE 3), Pink\n  Salmon, Rainbow Trout (Steelhead) and Splake (NOTE 3). See regulations that pertain to fishing for\n                              trout and salmon on inland waters, pp. 42–65.\n                                                                                  Daily Possession Limit\n        Seasons by Water Type                 Minimum Size\n                                                                                      (NOTES 1, 2, 3)\n                                                                      Great Lakes, L. St. Clair, St. Marys R., St. Clair R.,\n                                                                                         and Detroit R.:\n                                                10\" (NOTES 1,\n         Open All Year: (NOTE 3)                                       5 total in any combination; no more than 3 of any\n                                               3) (also see Lake\n     L. Superior, L. Michigan, L. Erie, L.                            one species, except up to 5 Coho, Chinook or Pink\n                                               Trout and Splake\n     Huron, L. St. Clair, St. Marys R., St.                                             Salmon allowed.\n                                              Regulations table,\n           Clair R. and Detroit R.                                                     On the St. Marys R.:\n                                                      p. 21)\n                                                                      5 additional Pink Salmon allowed from last Sat. in\n                                                                                         April – Sept. 30.\n\n NOTE 1 — Brook Trout: For L. Superior, the minimum size limit for Brook Trout is 20\" and daily possession limit is 1 fish.\n Within 4.5 miles of Isle Royale (Isle Royale National Park waters), catch-and-immediate-release; no possession.\n NOTE 2 — Drowned River Mouth Lakes: On the following\n inland waters trout and salmon regulations are as follows: 5\n total trout and salmon in any combination; no more than 3\n of any one species, except up to 5 Coho or Chinook Salmon;\n minimum size limit is 10\"; fishing season and possession season\n are open all year. For all other species of trout and salmon, the\n possession season is open all year. Allegan: Kalamazoo and\n Silver Lks. Benzie: Betsie L. Charlevoix: L. Charlevoix (including\n Round L.) Manistee: Arcadia, Manistee, and Portage Lks.\n Mason: Pere Marquette L. Muskegon: Duck, Mona, Muskegon,\n and White Lks. Oceana: Pentwater, Silver, and Stony Lks.\n Ottawa: Macatawa and Pigeon Lks.\n NOTE 3 — Lake Trout and Splake Regulations: Lake Trout\n and Splake regulations for the Great Lakes are listed by Lake\n Trout Management Unit (see Lake Trout and Splake Regulations\n tables, p. 21). Lake Trout and Splake have a combined daily\n possession limit, in any combination. To help identify\n Management Unit boundaries, a few major ports are listed for\n each. The map on p. 20 provides a graphic to further define\n the boundaries. For a complete description of Lake Trout\n Management Unit boundaries, contact any DNR Customer\n Service Center (p. 73) or check online at Michigan.gov/DNR.\n\n\n\n\n   18\n                                    2026 Michigan Fishing Regulations",
+      "body": "G R E AT           L A K E S            T R O U T         &     S A L M O N               R E G U L AT I O N S\n\n                         Great Lakes Trout & Salmon Regulations\n   The regulations in this table apply to fishing on the Great Lakes for the following species: Atlantic\n Salmon, Brook Trout (NOTE 1), Brown Trout, Chinook Salmon, Coho Salmon, Lake Trout (NOTE 3), Pink\n  Salmon, Rainbow Trout (Steelhead) and Splake (NOTE 3). See regulations that pertain to fishing for\n                              trout and salmon on inland waters, pp. 42\u201365.\n                                                                                  Daily Possession Limit\n        Seasons by Water Type                 Minimum Size\n                                                                                      (NOTES 1, 2, 3)\n                                                                      Great Lakes, L. St. Clair, St. Marys R., St. Clair R.,\n                                                                                         and Detroit R.:\n                                                10\" (NOTES 1,\n         Open All Year: (NOTE 3)                                       5 total in any combination; no more than 3 of any\n                                               3) (also see Lake\n     L. Superior, L. Michigan, L. Erie, L.                            one species, except up to 5 Coho, Chinook or Pink\n                                               Trout and Splake\n     Huron, L. St. Clair, St. Marys R., St.                                             Salmon allowed.\n                                              Regulations table,\n           Clair R. and Detroit R.                                                     On the St. Marys R.:\n                                                      p. 21)\n                                                                      5 additional Pink Salmon allowed from last Sat. in\n                                                                                         April \u2013 Sept. 30.\n\n NOTE 1 \u2014 Brook Trout: For L. Superior, the minimum size limit for Brook Trout is 20\" and daily possession limit is 1 fish.\n Within 4.5 miles of Isle Royale (Isle Royale National Park waters), catch-and-immediate-release; no possession.\n NOTE 2 \u2014 Drowned River Mouth Lakes: On the following\n inland waters trout and salmon regulations are as follows: 5\n total trout and salmon in any combination; no more than 3\n of any one species, except up to 5 Coho or Chinook Salmon;\n minimum size limit is 10\"; fishing season and possession season\n are open all year. For all other species of trout and salmon, the\n possession season is open all year. Allegan: Kalamazoo and\n Silver Lks. Benzie: Betsie L. Charlevoix: L. Charlevoix (including\n Round L.) Manistee: Arcadia, Manistee, and Portage Lks.\n Mason: Pere Marquette L. Muskegon: Duck, Mona, Muskegon,\n and White Lks. Oceana: Pentwater, Silver, and Stony Lks.\n Ottawa: Macatawa and Pigeon Lks.\n NOTE 3 \u2014 Lake Trout and Splake Regulations: Lake Trout\n and Splake regulations for the Great Lakes are listed by Lake\n Trout Management Unit (see Lake Trout and Splake Regulations\n tables, p. 21). Lake Trout and Splake have a combined daily\n possession limit, in any combination. To help identify\n Management Unit boundaries, a few major ports are listed for\n each. The map on p. 20 provides a graphic to further define\n the boundaries. For a complete description of Lake Trout\n Management Unit boundaries, contact any DNR Customer\n Service Center (p. 73) or check online at Michigan.gov/DNR.\n\nC O M M E R C I A L   &   R E S E A R C H    F I S H I N G   N E T S\n\nG R E AT L A K E S L A K E T R O U T\n& S P L A K E R E G U L AT I O N S\nLake Trout & Splake Regulations\nSee below and p. 21 for Lake Trout and Splake size limit, possession season, and daily possession limit\ninformation. Lake Trout and Splake are treated as the same fish for the purpose of Great Lakes fisheries\nmanagement because they are so similar in appearance.\nMap (below) and tables (p. 21) are color-coded by unit regulations. Any changes will be posted on the DNR\nwebsite (Michigan.gov/Fishing) and in a pre-recorded message at 888-367-7060.",
       "source_pages": [
-        20
+        20,
+        22
       ]
     },
     {
       "id": "county-exceptions",
       "title": "Exceptions to General Regulations by County",
       "category": "exception",
-      "body": "E XC E P T I O N S               T O     G E N E R A L            R E G U L AT I O N S                BY\nCO U N T Y\nExceptions to General Regulations by County\nMany water bodies have special regulations that differ from the general Hook & Line Fishing (p. 12), General\nNetting (p. 23), and Bow- and Spearfishing regulations (pp. 16–17). The following is a list of waters, organized\nby county, with special regulations that are NOT included in the following sections of the Michigan\nFishing Regulations: General Regulations tables cited above; Special Northern Pike and Muskellunge\nRegulations (pp. 13–14); Michigan-Wisconsin Boundary Regulations (pp. 24–25); and Sylvania Wilderness\nArea Regulations (p. 26).\n\n                                                         (Douglas G. Schenk) Bridge and all tributaries, the\n                       Alger                             following regulations apply from March 16 – Fri.\nRock R. closed to fishing from dam to lower foot         before the last Sat. in April: Anglers are limited to\nbridge downstream from M-28 April 1 – June 30.           using unweighted single-pointed hooks, natural\nDuck and Echo Lks. (Grand Island), catch-and             bait, and sinkers or weights or artificial lures with\nrelease on Smallmouth Bass. Pictured Rocks               unweighted single-pointed hooks.\nNational Lakeshore (contact park for regulation\nspecifics 906-387–3700).\n                                                                                Benzie\n                                                         Platte R. restricted to only one single-pointed,\n                      Allegan                            unweighted hook no larger than 1/2\" from point\nSwan Cr. from mouth upstream to the dam on               to shank; closed to fishing within 300 ft. of upper\n118th Ave. restricted to only one single-pointed,        (hatchery) weir and lower weir whenever either\nunweighted hook no larger than 1/2\" from point           weir is in place; closed to fishing from US-31 bridge\nto shank.                                                at Veteran’s Park downstream to Platte L. Jan. 1\n                                                         – March 31. Betsie R. Homestead Dam closed to\n                      Antrim                             fishing Nov. 16 – July 31 within 100 feet of lamprey\nIntermediate R. closed to all fishing from Bellaire      barrier and fish passage facility (T25N, R15W, S2).\nDam to M-88 Bridge April 1 – May 14. Torch R.            Betsie R. Homestead Dam closed to fishing from\nfrom the Crystal Beach Rd Bridge downstream to           August 1 – November 15 within 300 feet of the\nL. Skegemog including Rapid R. up to Aarwood             lamprey barrier and fish passage facility (T25N, R15W,\nRd Bridge - from May 1 – July 1, it shall be unlawful    S2). On all waters of the Betsie R. special artificial\nto use other than one single-pointed unweighted          lure regulations apply (see p. 8).\nhook measuring 1/2-inch or less from point to shank.\n                                                                                Berrien\n                      Arenac                             Townsend Cr. (T6S, R17W, S19), and the mouth\nSaganing Cr. (upstream from State Rd.) and Pine          area of L. Chapin, to a point 100 yards below the\nR. (upstream from State Rd.) closed to fishing March     Townsend Cr. mouth into L. Chapin, it is unlawful\n16 – Fri. before last Sat. in April.                     to use other than one single-pointed, unweighted\n                                                         hook measuring 1/2\" or less from point to shank.\n                      Baraga\nLakes of Craig Lake State Park (Clair, Craig,\n                                                                               Calhoun\nCrooked, Keewaydin, Nelligan, Teddy, and                 Harts L. catch-and-release only for all species.\nThomas Lks.) artificial lures only; Northern Pike,\nMuskellunge, Largemouth Bass, and Smallmouth\n                                                                                  Cass\nBass must be released, minimum size on Walleye is        Corey, Little Crooked and Stone Lks. bass\n15\", no size limit on other species; daily possession    minimum size limit is 10\". Indiana L. no possession\nlimit on Walleye is 2; otherwise, all general rules      of Cisco (Lake Herring).\napply. Motorboats of all types prohibited on all\nexcept Thomas and Keewaydin Lks.; Sturgeon R.\n                                                                              Charlevoix\nfrom Prickett Dam downstream to mouth of Clear           Medusa Cr. and area of L. Michigan for a radius of\nCr. (T50N, R35W, S12) closed to all fishing April 1      100’ of mouth closed to fishing when weir is in place.\n– June 30.                                               Boyne R. from mouth upstream to dam (T32N, R5W,\n                                                         S5) restricted to one single-pointed, unweighted\n                       Barry                             hook no larger than 1/2\" from point to shank. On\nWilliams L. open season is last Sat. in April – Dec.     L. Michigan, within one-half mile of the following\n15, catch-and-immediate-release only.                    islands of the Beaver Island Archipelago: Beaver,\n                                                         Garden, High and Hog the possession season for\n                        Bay                              Largemouth and Smallmouth Bass is July 1 – Dec.\nKawkawlin R. and all tributaries upstream of             31 and open to bass catch-and-immediate-release\nEuclid Ave., and Saganing Cr. (upstream from State       all year.\nRd.) and Pine R. (upstream from State Rd.) closed to\nfishing March 16 – Fri. before the last Sat. in April.\nOn Kawkawlin R. downstream from Euclid Ave. and\nSaginaw R. from upstream of the West Center Street\n\n 28\n                               2026 Michigan Fishing Regulations\n\f\n---\n                     Cheboygan                                                 Grand Traverse\nCheboygan R. from the south end of the outermost             Boardman R. closed to fishing whenever weir is in\nbreakwall at Mullett L. downstream to Cheboygan              place from the downstream side of the Front Street\nDam, and Black R. from Alverno Dam downstream                Bridge to the upstream side of the pedestrian bridge\nto its confluence with the Cheboygan R. the                  in the vicinity of the Boardman R. weir in Traverse\npossession season for Walleye shall be May 15 –              City. Arbutus and Spider Lks. bass minimum size\nMarch 15. Cheboygan R., Indian R., or Black R.               limit is 10\".\nunlawful to fish during April 1 – June 15 with spear,\nbow and arrow, crossbow, dip net or gaff. Black R.\n                                                                                      Ionia\nbetween Kleber Dam and Red Bridge (T35N, R1E,                Woodard L. bass minimum size limit is 10\".\nS5) unlawful to fish in any manner during April 1 –\nJune 15. Lower Black R. from Alverno Dam down\n                                                                                     Iosco\nto Mograin Bridge, no fishing April 1 – May 14. Black        Au Gres R. from 50’ upstream of Allen Rd. bridge to\nL. and tributaries no commercial minnow take;                500’ downstream closed to all fishing March 16 – Fri.\nSturgeon fishing prohibited except under special             before last Sat. in April. E. Br. Au Gres R. between\nseason (p. 15).                                              DNR lamprey barrier and Legget Rd. closed to fishing\n                                                             Dec. 1 – Fri. before last Sat. in April. Au Sable R. from\n                      Chippewa                               Foote Dam downstream to the downstream edge\nPotagannissing R. from Potagannissing Dam                    of the apron of the dam closed to fishing all year.\ndownstream to Maxton Rd. (T42N, R6E, S15) closed\nto fishing March 16 – May 14.\n                                                                                      Iron\n                                                             See Michigan-Wisconsin Boundary Waters\n                      Crawford                               Regulations (pp. 24–25). L. Ottawa no possession\nJones and Wakeley Lks. open season last Sat.                 of bass. Fire and Indian Lks. bass possession limit\nin April – Sept. 30, catch-and-release fishing with          is 1 fish and minimum size limit is 18\".\nartificial lures only. It shall be unlawful to use or\npossess live bait, dead bait or organic or processed\n                                                                                   Kalkaska\nfood at any time on the shore or water.                      Cub L. (T27N, R5W, S19) bass minimum size limit\n                                                             is 10\". Torch R. from the Crystal Beach Rd Bridge\n                         Delta                               downstream to L. Skegemog including Rapid R. up\nRapid R. Borrow Pit (Stockyard Pond, T40N, R21W,             to Aarwood Rd Bridge - From May 1 – July 1 it shall\nS5) closed to fishing all year.                              be unlawful to use other than one single-pointed\n                                                             unweighted hook measuring 1/2-inch or less from\n                      Dickinson                              point to shank.\nSee Michigan-Wisconsin Boundary Waters\nRegulations (pp. 24–25). Fumee L. county ordinance\n                                                                                      Kent\ncurrently prohibits access for the purpose of fishing.       Pratt L. bass minimum size limit is 10\".\n                        Emmet                                                     Keweenaw\nBear R. from northern edge of foot bridge north of           Isle Royale National Park: Michigan fishing laws\nLake Street upstream to Lake Street Dam (T34N, R5W,          apply and state license required on L. Superior\nS6) restricted to one single-pointed, unweighted             waters of park. On L. Superior, within 4.5 miles of\nhook no larger than 1/2\" from point to shank.                Isle Royale, no possession of Brook Trout. (Contact\n                                                             park for specific regulations 906-482-0984 or www.\n                       Genesee                               nps.gov/isro/planyourvisit/fishing.htm.)\nFlint R. downstream from Holloway Dam and all\ntributaries, the following regulations apply from\nMarch 16 – Fri. before the last Sat. in April: Anglers are\nlimited to using unweighted single-pointed hooks,\nnatural bait, and sinkers or weights or artificial lures\nwith unweighted single-pointed hooks.\n                       Gogebic\nL. Gogebic the daily possession limit for Yellow\nPerch is 25 with no more than 5 Yellow Perch 12\"\nor greater. See Michigan-Wisconsin Boundary\nWaters Regulations (pp. 24–25) and Sylvania\nWilderness Area Regulations (p. 26).\n\n\n\n\n                                                                                                              29\n                                   2026 Michigan Fishing Regulations\n\f\n---\nE XC E P T I O N S                 T O       G E N E R A L            R E G U L AT I O N S                    BY\nCO U N T Y\n                                                              to Deer L. Basin fishing restricted to artificial lures,\n                          Lake                                catch-and-release only; live bait, dead or prepared\nLittle Manistee R. 300’ above and below the DNR               bait or organic or processed food may not be\nweir is closed to fishing all year; from 300’ above           possessed on the water or the shore. Fish L. bass\nDNR weir to Spencers Bridge closed to fishing Jan.            minimum size 18\" and possession limit is 1 bass\n1 – March 31; also from 300’ below DNR weir to                only. Salmon-Trout R., from Lower Falls to mouth\nmouth closed to fishing Sep. 1 – Nov. 14 and Jan.             closed to fishing Aug. 15 – Fri. before last Sat. in April.\n1 – March 31. On all waters of the Pere Marquette\nR. and Little Manistee R. an artificial lure is defined\n                                                                                      Mason\nas a body bait, plug, spinner or spoon (as described          On the Sable R. from mouth upstream to Hamlin\non p. 8). Big Bass L. (T20N, R14W, S34) bass minimum          Lake Dam, all waters of the Little Manistee R.,\nsize limit is 10\".                                            all waters of the N. Br. Pentwater R., and on all\n                                                              waters of the Pere Marquette R. special artificial\n                       Leelanau                               lure regulations apply (p. 8). Gun L. bass minimum\nNorth Manitou L. bass minimum size limit is 18\",              size limit is 10\".\nthe possession limit is 1; fishing restricted to artificial\nlures only; live bait, dead or prepared bait or organic\n                                                                                   Menominee\nor processed food may not be possessed on the                 See Michigan-Wisconsin Boundary Waters\nwater or the shore. Florence L. (S. Manitou Is.) fishing      Regulations (pp. 24–25).\nrestricted to artificial lures only; live bait, dead or\nprepared bait or organic or processed food may not\n                                                                                     Midland\nbe possessed on the water or the shore. Hatlem's              Tittabawassee R. between Sanford Dam site and\nCr., it is unlawful to take or attempt to take minnows        mouth of the Salt R. and between Dow Dam and\nfor personal use.                                             Gordonville Bridge, closed to fishing from March\n                                                              16 – Fri. before last Sat. in April. Tittabawassee R.\n                      Livingston                              downstream from Sanford Dam site, Chippewa,\nSpring Mill Pond (Island Lake Recreation Area)                Pine, Salt and all their tributaries the following\nMarch 15 – March 31 no fishing; April 1 – Fri. before         regulations apply from March 16 – Fri. before the last\nthe last Sat. in April, catch-and-immediate-release           Sat. in April: Anglers are limited to using unweighted\nof trout with artificial lures only; last Sat. in April –     single-pointed hooks, natural bait, and sinkers or\nMarch 14 statewide regulations apply.                         weights or artificial lures with unweighted single-\n                                                              pointed hooks.\n                          Luce\nUnlawful to launch or retrieve motorized vessel\n                                                                                     Monroe\n(greater than 5 horsepower) from state land on the            Crystal Waters State Game Area for all waters - the\nE. Br. Fox R. from M-28 to the mouth of Cold Cr.              fishing season is open all year and no possession\n                                                              allowed, catch-and-immediate-release fishing only.\n                       Macomb\nClinton R. cut-off channel (T2N, R13E): from\n                                                                                 Montmorency\nspillway weir to the Harper Rd. Bridge: the following         East Fish, West Fish, and Middle Fish Lks., Hunt\nregulations apply from March 16 – Fri. before the last        Cr. (above Section Z bulkhead T29N, R2E, S25), and\nSat. in April: Anglers are limited to using unweighted        Fuller Cr. (in the Hunt Cr. Trout Research Station\nsingle-pointed hooks, natural bait, and sinkers or            Area), no fishing. North and South Blue and Walled\nweights or artificial lures with unweighted single-           Lks., open season is the last Sat. in April – Sep. 30,\npointed hooks.                                                catch-and-immediate-release only, artificial lures\n                                                              only.\n                       Manistee\nLittle Manistee R. 300’ above and below the DNR\n                                                                                    Muskegon\nweir is closed to fishing all year; from 300’ above           On all waters of the White R. (from mouth\nDNR weir to Spencers Bridge closed to fishing Jan.            upstream to Hesperia Dam) and all waters of the\n1 – March 31; also from 300’ below DNR weir to                N. Br. White R. and Muskegon R. (upstream to\nmouth closed to fishing Sep. 1 – Nov. 14 and Jan.             Croton Dam) special artificial lure regulations apply\n1 – March 31. On all waters of the Betsie R., all             (p. 8). From Nov. 1 – Nov. 30: It shall be unlawful\nwaters of Bear Cr. (Manistee Co.), all waters of the          to use other than one single-pointed unweighted\nLittle Manistee R., and the Manistee R. from Tippy            hook measuring ½-inch or less from point to shank\nDam downstream to Railroad Bridge below M-55                  at the port of Muskegon from the westernmost\n(T21N, R16W, S6), special artificial lure regulations         pier head extending into L. Michigan (excluding\napply (p. 8).                                                 break walls) to the easternmost pier head extending\n                                                              into Muskegon L. and at the port of Whitehall/\n                      Marquette                               Montague from the westernmost pier head\nDeer L. Basin, Carp R./Carp Cr. downstream from               extending into L. Michigan to the easternmost\nM-28 (T47N, R27W, S4), and all other tributaries              pier head extending into White L.\n\n\n  30\n                                 2026 Michigan Fishing Regulations\n\f\n---\n                      Newaygo                                                   Roscommon\nBaptist L., no possession of Walleye, Channel Catfish,      Denton Cr. from the Lake James Dam downstream\nFlathead Catfish or Bullheads; Brush and Sand Lks.          to Houghton L. closed to fishing March 23 – April 23.\nno possession of Channel Catfish, Flathead Catfish or       Cut R. from confluence with Backus Cr. upstream to\nBullheads. Crystal L., no possession of Walleye. On         outlet at Marl L. closed to fishing March 23 – April 23.\nall waters of the Pere Marquette R. and Muskegon\nR. (upstream to Croton Dam) special artificial lure\n                                                                                  St. Joseph\nregulations apply (p. 8).                                   Pleasant (Big Pleasant) and Corey Lks. minimum\n                                                            size limit for bass is 10\".\n                      Oakland\nUpper Bushman L. catch-and-immediate-release\n                                                                                   Saginaw\nonly for all species.                                       Bad R., Cass R., Flint R., Saginaw R. from upstream\n                                                            of the West Center St. (Douglas G. Schenk) Bridge,\n                       Oceana                               Shiawassee and Tittabawassee Rivers and all\nOn all waters of the Pere Marquette R., White               their tribs the following regulations apply from\nR. (from mouth upstream to Hesperia Dam) and                March 16 – Fri. before the last Sat. in April: Anglers are\nall waters of the N. Br. White R. and all waters            limited to using unweighted single-pointed hooks,\nof the N. Br. Pentwater R. and S. Br. Pentwater             natural bait, and sinkers or weights or artificial lures\nR. (upstream to Hart Dam) special artificial lure           with unweighted single-pointed hooks.\nregulations apply (p. 8).\n                                                                                 Schoolcraft\n                    Ontonagon                               Thompson Cr. closed to use of hand nets. Seney\nL. Gogebic the daily possession limit for Yellow            National Wildlife Refuge waters have limited\nPerch is 25 with no more than 5 Yellow Perch 12\" or         fishing, contact Refuge office (906-586-9851) or\ngreater. W. Br. Ontonagon R. from its confluence            visit www.fws.gov/refuge/Seney. On the Big Island\nwith the Victoria Hydro station tailrace (T50N, R39W,       Lakes Complex (Big Island, Bluegill, Byers, Center,\nSE 1/4 of the SW 1/4 of S29) upstream to Victoria           Coattail, Cucumber, Farm [Blush], Jarr, Klondike,\nDam, including the trailrace canal closed to fishing        McInnes, Mid, Neville, Onega, Pear, Townline,\nApril 1 – Jun. 10. L. of the Clouds (Carp L.) fishing       Upper and Vance Lks.) no wheeled or motorized\nrestricted to artificial lures only. It shall be unlawful   vehicles (including electric or outboard motors)\nto use or possess live bait, dead bait or organic or        are allowed; artificial lures only; no spearing, no\nprocessed food at any time on the shore or water.           netting, and use of live bait prohibited; Muskellunge\nNo spearing; no possession of Smallmouth Bass.              (including Tiger Muskellunge) fishing season is May\n                                                            15 – Nov. 30, possession season is 1st Sat. in June –\n                       Ottawa                               Nov. 30, minimum size limit 42\", possession limit is 1\nFrom Nov. 1 – Nov. 30: It shall be unlawful to use          fish per angler per season, anglers must register all\nother than one single-pointed unweighted hook               harvested Muskellunge (p. 9); Northern Pike open\nmeasuring ½-inch or less from point to shank at             season May 15 – Nov. 30, minimum size limit 24\",\nthe port of Grand Haven from the westernmost                and possession limit is 2 Northern Pike; bass fishing\npier head extending into L. Michigan to the US-31           is open from Sat. before Memorial Day – Nov. 30,\nbridge (North bound Beacon Blvd.).                          minimum size limit 18\", and possession limit is 1;\n                                                            perch, Bluegill and Pumpkinseed open season is\n                       Otsego                               from last Sat. in April – Nov. 30, possession limit is 5\nOtsego L. Pike Marsh closed to fishing March 16 –           fish in combination; all other fish no open season.\nJune 15. Otsego L. see Lake Sturgeon regulations            Unlawful to launch or retrieve motorized vessel\n(p. 15).                                                    (greater than 5 horsepower) from state land on the\n                                                            E. Branch Fox R. from M-28 to the mouth of Cold Cr.\n                    Presque Isle\nClinton Cr. closed to fishing April 1 – May 14. Grand\n                                                                                 Van Buren\nL. Pike Marsh it is unlawful for any person other           Crooked and Little Crooked Lks. bass minimum\nthan state employee to use or operate a motorized           size limit is 10\". S. Br. Black R. and all tributaries\nvehicle on the access road leading from US-23 to the        upstream of Breedsville (Mill Str.) restricted to only\nGrand L. Pike Marsh during March – May, closed              one single-pointed, unweighted hook no larger than\nto fishing whenever marsh is operating. Rainy R.            1/2\" from point to shank.\nfrom confluence with Black L. upstream to N. Allis\nRd. Bridge (T35N, R2E, S15) closed to fishing April\n                                                                                Washtenaw\n1 – May 14. Shuberts Cr. (Monaghan Cr.) from Long           Huron R. from Mast Rd. Bridge in Dexter (T1S, R5E,\nL. upstream to Clinton Cr. Rd. (T33N, R7E, S14), closed     S32) downstream to Delhi Rd. Bridge (T2S, R5E,\nto fishing April 1 – May 14. Swan R. from 300’ above        S2) catch-and-immediate-release only on bass.\nweir to mouth closed to fishing whenever weir is            Horseshoe L. bass possession limit is 1, minimum\nin place.                                                   size is 14\"; Northern Pike possession limit is 1, sunfish\n                                                            (NOTE 6, p. 14) possession limit is 10.\n                                                                                                             31\n                                   2026 Michigan Fishing Regulations",
+      "body": "E XC E P T I O N S               T O     G E N E R A L            R E G U L AT I O N S                BY\nCO U N T Y\nExceptions to General Regulations by County\nMany water bodies have special regulations that differ from the general Hook & Line Fishing (p. 12), General\nNetting (p. 23), and Bow- and Spearfishing regulations (pp. 16\u201317). The following is a list of waters, organized\nby county, with special regulations that are NOT included in the following sections of the Michigan\nFishing Regulations: General Regulations tables cited above; Special Northern Pike and Muskellunge\nRegulations (pp. 13\u201314); Michigan-Wisconsin Boundary Regulations (pp. 24\u201325); and Sylvania Wilderness\nArea Regulations (p. 26).\n\n                                                         (Douglas G. Schenk) Bridge and all tributaries, the\n                       Alger                             following regulations apply from March 16 \u2013 Fri.\nRock R. closed to fishing from dam to lower foot         before the last Sat. in April: Anglers are limited to\nbridge downstream from M-28 April 1 \u2013 June 30.           using unweighted single-pointed hooks, natural\nDuck and Echo Lks. (Grand Island), catch-and             bait, and sinkers or weights or artificial lures with\nrelease on Smallmouth Bass. Pictured Rocks               unweighted single-pointed hooks.\nNational Lakeshore (contact park for regulation\nspecifics 906-387\u20133700).\n                                                                                Benzie\n                                                         Platte R. restricted to only one single-pointed,\n                      Allegan                            unweighted hook no larger than 1/2\" from point\nSwan Cr. from mouth upstream to the dam on               to shank; closed to fishing within 300 ft. of upper\n118th Ave. restricted to only one single-pointed,        (hatchery) weir and lower weir whenever either\nunweighted hook no larger than 1/2\" from point           weir is in place; closed to fishing from US-31 bridge\nto shank.                                                at Veteran\u2019s Park downstream to Platte L. Jan. 1\n                                                         \u2013 March 31. Betsie R. Homestead Dam closed to\n                      Antrim                             fishing Nov. 16 \u2013 July 31 within 100 feet of lamprey\nIntermediate R. closed to all fishing from Bellaire      barrier and fish passage facility (T25N, R15W, S2).\nDam to M-88 Bridge April 1 \u2013 May 14. Torch R.            Betsie R. Homestead Dam closed to fishing from\nfrom the Crystal Beach Rd Bridge downstream to           August 1 \u2013 November 15 within 300 feet of the\nL. Skegemog including Rapid R. up to Aarwood             lamprey barrier and fish passage facility (T25N, R15W,\nRd Bridge - from May 1 \u2013 July 1, it shall be unlawful    S2). On all waters of the Betsie R. special artificial\nto use other than one single-pointed unweighted          lure regulations apply (see p. 8).\nhook measuring 1/2-inch or less from point to shank.\n                                                                                Berrien\n                      Arenac                             Townsend Cr. (T6S, R17W, S19), and the mouth\nSaganing Cr. (upstream from State Rd.) and Pine          area of L. Chapin, to a point 100 yards below the\nR. (upstream from State Rd.) closed to fishing March     Townsend Cr. mouth into L. Chapin, it is unlawful\n16 \u2013 Fri. before last Sat. in April.                     to use other than one single-pointed, unweighted\n                                                         hook measuring 1/2\" or less from point to shank.\n                      Baraga\nLakes of Craig Lake State Park (Clair, Craig,\n                                                                               Calhoun\nCrooked, Keewaydin, Nelligan, Teddy, and                 Harts L. catch-and-release only for all species.\nThomas Lks.) artificial lures only; Northern Pike,\nMuskellunge, Largemouth Bass, and Smallmouth\n                                                                                  Cass\nBass must be released, minimum size on Walleye is        Corey, Little Crooked and Stone Lks. bass\n15\", no size limit on other species; daily possession    minimum size limit is 10\". Indiana L. no possession\nlimit on Walleye is 2; otherwise, all general rules      of Cisco (Lake Herring).\napply. Motorboats of all types prohibited on all\nexcept Thomas and Keewaydin Lks.; Sturgeon R.\n                                                                              Charlevoix\nfrom Prickett Dam downstream to mouth of Clear           Medusa Cr. and area of L. Michigan for a radius of\nCr. (T50N, R35W, S12) closed to all fishing April 1      100\u2019 of mouth closed to fishing when weir is in place.\n\u2013 June 30.                                               Boyne R. from mouth upstream to dam (T32N, R5W,\n                                                         S5) restricted to one single-pointed, unweighted\n                       Barry                             hook no larger than 1/2\" from point to shank. On\nWilliams L. open season is last Sat. in April \u2013 Dec.     L. Michigan, within one-half mile of the following\n15, catch-and-immediate-release only.                    islands of the Beaver Island Archipelago: Beaver,\n                                                         Garden, High and Hog the possession season for\n                        Bay                              Largemouth and Smallmouth Bass is July 1 \u2013 Dec.\nKawkawlin R. and all tributaries upstream of             31 and open to bass catch-and-immediate-release\nEuclid Ave., and Saganing Cr. (upstream from State       all year.\nRd.) and Pine R. (upstream from State Rd.) closed to\nfishing March 16 \u2013 Fri. before the last Sat. in April.\nOn Kawkawlin R. downstream from Euclid Ave. and\nSaginaw R. from upstream of the West Center Street\n\n 28\n                               2026 Michigan Fishing Regulations\n\f\n---\n                     Cheboygan                                                 Grand Traverse\nCheboygan R. from the south end of the outermost             Boardman R. closed to fishing whenever weir is in\nbreakwall at Mullett L. downstream to Cheboygan              place from the downstream side of the Front Street\nDam, and Black R. from Alverno Dam downstream                Bridge to the upstream side of the pedestrian bridge\nto its confluence with the Cheboygan R. the                  in the vicinity of the Boardman R. weir in Traverse\npossession season for Walleye shall be May 15 \u2013              City. Arbutus and Spider Lks. bass minimum size\nMarch 15. Cheboygan R., Indian R., or Black R.               limit is 10\".\nunlawful to fish during April 1 \u2013 June 15 with spear,\nbow and arrow, crossbow, dip net or gaff. Black R.\n                                                                                      Ionia\nbetween Kleber Dam and Red Bridge (T35N, R1E,                Woodard L. bass minimum size limit is 10\".\nS5) unlawful to fish in any manner during April 1 \u2013\nJune 15. Lower Black R. from Alverno Dam down\n                                                                                     Iosco\nto Mograin Bridge, no fishing April 1 \u2013 May 14. Black        Au Gres R. from 50\u2019 upstream of Allen Rd. bridge to\nL. and tributaries no commercial minnow take;                500\u2019 downstream closed to all fishing March 16 \u2013 Fri.\nSturgeon fishing prohibited except under special             before last Sat. in April. E. Br. Au Gres R. between\nseason (p. 15).                                              DNR lamprey barrier and Legget Rd. closed to fishing\n                                                             Dec. 1 \u2013 Fri. before last Sat. in April. Au Sable R. from\n                      Chippewa                               Foote Dam downstream to the downstream edge\nPotagannissing R. from Potagannissing Dam                    of the apron of the dam closed to fishing all year.\ndownstream to Maxton Rd. (T42N, R6E, S15) closed\nto fishing March 16 \u2013 May 14.\n                                                                                      Iron\n                                                             See Michigan-Wisconsin Boundary Waters\n                      Crawford                               Regulations (pp. 24\u201325). L. Ottawa no possession\nJones and Wakeley Lks. open season last Sat.                 of bass. Fire and Indian Lks. bass possession limit\nin April \u2013 Sept. 30, catch-and-release fishing with          is 1 fish and minimum size limit is 18\".\nartificial lures only. It shall be unlawful to use or\npossess live bait, dead bait or organic or processed\n                                                                                   Kalkaska\nfood at any time on the shore or water.                      Cub L. (T27N, R5W, S19) bass minimum size limit\n                                                             is 10\". Torch R. from the Crystal Beach Rd Bridge\n                         Delta                               downstream to L. Skegemog including Rapid R. up\nRapid R. Borrow Pit (Stockyard Pond, T40N, R21W,             to Aarwood Rd Bridge - From May 1 \u2013 July 1 it shall\nS5) closed to fishing all year.                              be unlawful to use other than one single-pointed\n                                                             unweighted hook measuring 1/2-inch or less from\n                      Dickinson                              point to shank.\nSee Michigan-Wisconsin Boundary Waters\nRegulations (pp. 24\u201325). Fumee L. county ordinance\n                                                                                      Kent\ncurrently prohibits access for the purpose of fishing.       Pratt L. bass minimum size limit is 10\".\n                        Emmet                                                     Keweenaw\nBear R. from northern edge of foot bridge north of           Isle Royale National Park: Michigan fishing laws\nLake Street upstream to Lake Street Dam (T34N, R5W,          apply and state license required on L. Superior\nS6) restricted to one single-pointed, unweighted             waters of park. On L. Superior, within 4.5 miles of\nhook no larger than 1/2\" from point to shank.                Isle Royale, no possession of Brook Trout. (Contact\n                                                             park for specific regulations 906-482-0984 or www.\n                       Genesee                               nps.gov/isro/planyourvisit/fishing.htm.)\nFlint R. downstream from Holloway Dam and all\ntributaries, the following regulations apply from\nMarch 16 \u2013 Fri. before the last Sat. in April: Anglers are\nlimited to using unweighted single-pointed hooks,\nnatural bait, and sinkers or weights or artificial lures\nwith unweighted single-pointed hooks.\n                       Gogebic\nL. Gogebic the daily possession limit for Yellow\nPerch is 25 with no more than 5 Yellow Perch 12\"\nor greater. See Michigan-Wisconsin Boundary\nWaters Regulations (pp. 24\u201325) and Sylvania\nWilderness Area Regulations (p. 26).\n\n\n\n\n                                                                                                              29\n                                   2026 Michigan Fishing Regulations\n\f\n---\nE XC E P T I O N S                 T O       G E N E R A L            R E G U L AT I O N S                    BY\nCO U N T Y\n                                                              to Deer L. Basin fishing restricted to artificial lures,\n                          Lake                                catch-and-release only; live bait, dead or prepared\nLittle Manistee R. 300\u2019 above and below the DNR               bait or organic or processed food may not be\nweir is closed to fishing all year; from 300\u2019 above           possessed on the water or the shore. Fish L. bass\nDNR weir to Spencers Bridge closed to fishing Jan.            minimum size 18\" and possession limit is 1 bass\n1 \u2013 March 31; also from 300\u2019 below DNR weir to                only. Salmon-Trout R., from Lower Falls to mouth\nmouth closed to fishing Sep. 1 \u2013 Nov. 14 and Jan.             closed to fishing Aug. 15 \u2013 Fri. before last Sat. in April.\n1 \u2013 March 31. On all waters of the Pere Marquette\nR. and Little Manistee R. an artificial lure is defined\n                                                                                      Mason\nas a body bait, plug, spinner or spoon (as described          On the Sable R. from mouth upstream to Hamlin\non p. 8). Big Bass L. (T20N, R14W, S34) bass minimum          Lake Dam, all waters of the Little Manistee R.,\nsize limit is 10\".                                            all waters of the N. Br. Pentwater R., and on all\n                                                              waters of the Pere Marquette R. special artificial\n                       Leelanau                               lure regulations apply (p. 8). Gun L. bass minimum\nNorth Manitou L. bass minimum size limit is 18\",              size limit is 10\".\nthe possession limit is 1; fishing restricted to artificial\nlures only; live bait, dead or prepared bait or organic\n                                                                                   Menominee\nor processed food may not be possessed on the                 See Michigan-Wisconsin Boundary Waters\nwater or the shore. Florence L. (S. Manitou Is.) fishing      Regulations (pp. 24\u201325).\nrestricted to artificial lures only; live bait, dead or\nprepared bait or organic or processed food may not\n                                                                                     Midland\nbe possessed on the water or the shore. Hatlem's              Tittabawassee R. between Sanford Dam site and\nCr., it is unlawful to take or attempt to take minnows        mouth of the Salt R. and between Dow Dam and\nfor personal use.                                             Gordonville Bridge, closed to fishing from March\n                                                              16 \u2013 Fri. before last Sat. in April. Tittabawassee R.\n                      Livingston                              downstream from Sanford Dam site, Chippewa,\nSpring Mill Pond (Island Lake Recreation Area)                Pine, Salt and all their tributaries the following\nMarch 15 \u2013 March 31 no fishing; April 1 \u2013 Fri. before         regulations apply from March 16 \u2013 Fri. before the last\nthe last Sat. in April, catch-and-immediate-release           Sat. in April: Anglers are limited to using unweighted\nof trout with artificial lures only; last Sat. in April \u2013     single-pointed hooks, natural bait, and sinkers or\nMarch 14 statewide regulations apply.                         weights or artificial lures with unweighted single-\n                                                              pointed hooks.\n                          Luce\nUnlawful to launch or retrieve motorized vessel\n                                                                                     Monroe\n(greater than 5 horsepower) from state land on the            Crystal Waters State Game Area for all waters - the\nE. Br. Fox R. from M-28 to the mouth of Cold Cr.              fishing season is open all year and no possession\n                                                              allowed, catch-and-immediate-release fishing only.\n                       Macomb\nClinton R. cut-off channel (T2N, R13E): from\n                                                                                 Montmorency\nspillway weir to the Harper Rd. Bridge: the following         East Fish, West Fish, and Middle Fish Lks., Hunt\nregulations apply from March 16 \u2013 Fri. before the last        Cr. (above Section Z bulkhead T29N, R2E, S25), and\nSat. in April: Anglers are limited to using unweighted        Fuller Cr. (in the Hunt Cr. Trout Research Station\nsingle-pointed hooks, natural bait, and sinkers or            Area), no fishing. North and South Blue and Walled\nweights or artificial lures with unweighted single-           Lks., open season is the last Sat. in April \u2013 Sep. 30,\npointed hooks.                                                catch-and-immediate-release only, artificial lures\n                                                              only.\n                       Manistee\nLittle Manistee R. 300\u2019 above and below the DNR\n                                                                                    Muskegon\nweir is closed to fishing all year; from 300\u2019 above           On all waters of the White R. (from mouth\nDNR weir to Spencers Bridge closed to fishing Jan.            upstream to Hesperia Dam) and all waters of the\n1 \u2013 March 31; also from 300\u2019 below DNR weir to                N. Br. White R. and Muskegon R. (upstream to\nmouth closed to fishing Sep. 1 \u2013 Nov. 14 and Jan.             Croton Dam) special artificial lure regulations apply\n1 \u2013 March 31. On all waters of the Betsie R., all             (p. 8). From Nov. 1 \u2013 Nov. 30: It shall be unlawful\nwaters of Bear Cr. (Manistee Co.), all waters of the          to use other than one single-pointed unweighted\nLittle Manistee R., and the Manistee R. from Tippy            hook measuring \u00bd-inch or less from point to shank\nDam downstream to Railroad Bridge below M-55                  at the port of Muskegon from the westernmost\n(T21N, R16W, S6), special artificial lure regulations         pier head extending into L. Michigan (excluding\napply (p. 8).                                                 break walls) to the easternmost pier head extending\n                                                              into Muskegon L. and at the port of Whitehall/\n                      Marquette                               Montague from the westernmost pier head\nDeer L. Basin, Carp R./Carp Cr. downstream from               extending into L. Michigan to the easternmost\nM-28 (T47N, R27W, S4), and all other tributaries              pier head extending into White L.\n\n\n  30\n                                 2026 Michigan Fishing Regulations\n\f\n---\n                      Newaygo                                                   Roscommon\nBaptist L., no possession of Walleye, Channel Catfish,      Denton Cr. from the Lake James Dam downstream\nFlathead Catfish or Bullheads; Brush and Sand Lks.          to Houghton L. closed to fishing March 23 \u2013 April 23.\nno possession of Channel Catfish, Flathead Catfish or       Cut R. from confluence with Backus Cr. upstream to\nBullheads. Crystal L., no possession of Walleye. On         outlet at Marl L. closed to fishing March 23 \u2013 April 23.\nall waters of the Pere Marquette R. and Muskegon\nR. (upstream to Croton Dam) special artificial lure\n                                                                                  St. Joseph\nregulations apply (p. 8).                                   Pleasant (Big Pleasant) and Corey Lks. minimum\n                                                            size limit for bass is 10\".\n                      Oakland\nUpper Bushman L. catch-and-immediate-release\n                                                                                   Saginaw\nonly for all species.                                       Bad R., Cass R., Flint R., Saginaw R. from upstream\n                                                            of the West Center St. (Douglas G. Schenk) Bridge,\n                       Oceana                               Shiawassee and Tittabawassee Rivers and all\nOn all waters of the Pere Marquette R., White               their tribs the following regulations apply from\nR. (from mouth upstream to Hesperia Dam) and                March 16 \u2013 Fri. before the last Sat. in April: Anglers are\nall waters of the N. Br. White R. and all waters            limited to using unweighted single-pointed hooks,\nof the N. Br. Pentwater R. and S. Br. Pentwater             natural bait, and sinkers or weights or artificial lures\nR. (upstream to Hart Dam) special artificial lure           with unweighted single-pointed hooks.\nregulations apply (p. 8).\n                                                                                 Schoolcraft\n                    Ontonagon                               Thompson Cr. closed to use of hand nets. Seney\nL. Gogebic the daily possession limit for Yellow            National Wildlife Refuge waters have limited\nPerch is 25 with no more than 5 Yellow Perch 12\" or         fishing, contact Refuge office (906-586-9851) or\ngreater. W. Br. Ontonagon R. from its confluence            visit www.fws.gov/refuge/Seney. On the Big Island\nwith the Victoria Hydro station tailrace (T50N, R39W,       Lakes Complex (Big Island, Bluegill, Byers, Center,\nSE 1/4 of the SW 1/4 of S29) upstream to Victoria           Coattail, Cucumber, Farm [Blush], Jarr, Klondike,\nDam, including the trailrace canal closed to fishing        McInnes, Mid, Neville, Onega, Pear, Townline,\nApril 1 \u2013 Jun. 10. L. of the Clouds (Carp L.) fishing       Upper and Vance Lks.) no wheeled or motorized\nrestricted to artificial lures only. It shall be unlawful   vehicles (including electric or outboard motors)\nto use or possess live bait, dead bait or organic or        are allowed; artificial lures only; no spearing, no\nprocessed food at any time on the shore or water.           netting, and use of live bait prohibited; Muskellunge\nNo spearing; no possession of Smallmouth Bass.              (including Tiger Muskellunge) fishing season is May\n                                                            15 \u2013 Nov. 30, possession season is 1st Sat. in June \u2013\n                       Ottawa                               Nov. 30, minimum size limit 42\", possession limit is 1\nFrom Nov. 1 \u2013 Nov. 30: It shall be unlawful to use          fish per angler per season, anglers must register all\nother than one single-pointed unweighted hook               harvested Muskellunge (p. 9); Northern Pike open\nmeasuring \u00bd-inch or less from point to shank at             season May 15 \u2013 Nov. 30, minimum size limit 24\",\nthe port of Grand Haven from the westernmost                and possession limit is 2 Northern Pike; bass fishing\npier head extending into L. Michigan to the US-31           is open from Sat. before Memorial Day \u2013 Nov. 30,\nbridge (North bound Beacon Blvd.).                          minimum size limit 18\", and possession limit is 1;\n                                                            perch, Bluegill and Pumpkinseed open season is\n                       Otsego                               from last Sat. in April \u2013 Nov. 30, possession limit is 5\nOtsego L. Pike Marsh closed to fishing March 16 \u2013           fish in combination; all other fish no open season.\nJune 15. Otsego L. see Lake Sturgeon regulations            Unlawful to launch or retrieve motorized vessel\n(p. 15).                                                    (greater than 5 horsepower) from state land on the\n                                                            E. Branch Fox R. from M-28 to the mouth of Cold Cr.\n                    Presque Isle\nClinton Cr. closed to fishing April 1 \u2013 May 14. Grand\n                                                                                 Van Buren\nL. Pike Marsh it is unlawful for any person other           Crooked and Little Crooked Lks. bass minimum\nthan state employee to use or operate a motorized           size limit is 10\". S. Br. Black R. and all tributaries\nvehicle on the access road leading from US-23 to the        upstream of Breedsville (Mill Str.) restricted to only\nGrand L. Pike Marsh during March \u2013 May, closed              one single-pointed, unweighted hook no larger than\nto fishing whenever marsh is operating. Rainy R.            1/2\" from point to shank.\nfrom confluence with Black L. upstream to N. Allis\nRd. Bridge (T35N, R2E, S15) closed to fishing April\n                                                                                Washtenaw\n1 \u2013 May 14. Shuberts Cr. (Monaghan Cr.) from Long           Huron R. from Mast Rd. Bridge in Dexter (T1S, R5E,\nL. upstream to Clinton Cr. Rd. (T33N, R7E, S14), closed     S32) downstream to Delhi Rd. Bridge (T2S, R5E,\nto fishing April 1 \u2013 May 14. Swan R. from 300\u2019 above        S2) catch-and-immediate-release only on bass.\nweir to mouth closed to fishing whenever weir is            Horseshoe L. bass possession limit is 1, minimum\nin place.                                                   size is 14\"; Northern Pike possession limit is 1, sunfish\n                                                            (NOTE 6, p. 14) possession limit is 10.\n                                                                                                             31\n                                   2026 Michigan Fishing Regulations",
       "source_pages": [
         30,
         31,
@@ -13225,7 +13226,7 @@
       "A": {
         "label": "Type A",
         "count": "60 lakes",
-        "season": "Last Sat. in April – Oct. 31",
+        "season": "Last Sat. in April \u2013 Oct. 31",
         "tackle": "All except minnows",
         "daily_limit": "5/3*",
         "size_limits": {
@@ -13235,7 +13236,7 @@
           "lake_trout": "10\"",
           "atlantic_chinook_coho_pink_salmon": "15\""
         },
-        "plain": "Type A (60 lakes)\nSeason: Last Sat. in April – Oct. 31\nTackle: All except minnows\nDaily/possession limit: 5/3*\nBrook Trout min: 10\"\nBrown Trout min: 12\"\nRainbow Trout min: 15\"\nLake Trout min: 10\"\nAtlantic/Chinook/Coho/Pink Salmon min: 15\""
+        "plain": "Type A (60 lakes)\nSeason: Last Sat. in April \u2013 Oct. 31\nTackle: All except minnows\nDaily/possession limit: 5/3*\nBrook Trout min: 10\"\nBrown Trout min: 12\"\nRainbow Trout min: 15\"\nLake Trout min: 10\"\nAtlantic/Chinook/Coho/Pink Salmon min: 15\""
       },
       "B": {
         "label": "Type B",
@@ -13270,7 +13271,7 @@
       "D": {
         "label": "Type D",
         "count": "19 lakes",
-        "season": "Last Sat. in April – Oct. 31",
+        "season": "Last Sat. in April \u2013 Oct. 31",
         "tackle": "All",
         "daily_limit": "1",
         "size_limits": {
@@ -13280,7 +13281,7 @@
           "lake_trout": "10\"",
           "atlantic_chinook_coho_pink_salmon": "15\""
         },
-        "plain": "Type D (19 lakes)\nSeason: Last Sat. in April – Oct. 31\nTackle: All\nDaily/possession limit: 1\nBrook Trout min: 15\"\nBrown Trout min: 15\"\nRainbow Trout min: 15\"\nLake Trout min: 10\"\nAtlantic/Chinook/Coho/Pink Salmon min: 15\""
+        "plain": "Type D (19 lakes)\nSeason: Last Sat. in April \u2013 Oct. 31\nTackle: All\nDaily/possession limit: 1\nBrook Trout min: 15\"\nBrown Trout min: 15\"\nRainbow Trout min: 15\"\nLake Trout min: 10\"\nAtlantic/Chinook/Coho/Pink Salmon min: 15\""
       },
       "E": {
         "label": "Type E",
@@ -13317,26 +13318,26 @@
       "1": {
         "label": "Type 1",
         "count": "1,400 streams",
-        "season": "Last Sat. in April – Sep. 30",
+        "season": "Last Sat. in April \u2013 Sep. 30",
         "size_limits": {
           "brook_trout": "7\"",
           "brown_trout": "8\"",
           "salmon_lake_trout_rainbow_splake": "10\""
         },
-        "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48–65 for exceptions.",
-        "plain": "Type 1 (1,400 streams)\nSeason: Last Sat. in April – Sep. 30\nBrook Trout min: 7\"\nBrown Trout min: 8\"\nSalmon/Lake Trout/Rainbow Trout/Splake min: 10\"\nDaily limit: 5 fish, but no more than 3 trout 15\" or greater"
+        "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48\u201365 for exceptions.",
+        "plain": "Type 1 (1,400 streams)\nSeason: Last Sat. in April \u2013 Sep. 30\nBrook Trout min: 7\"\nBrown Trout min: 8\"\nSalmon/Lake Trout/Rainbow Trout/Splake min: 10\"\nDaily limit: 5 fish, but no more than 3 trout 15\" or greater"
       },
       "2": {
         "label": "Type 2",
         "count": "13 streams",
-        "season": "Last Sat. in April – Sep. 30",
+        "season": "Last Sat. in April \u2013 Sep. 30",
         "size_limits": {
           "brook_trout": "10\"",
           "brown_trout": "12\"",
           "salmon_lake_trout_rainbow_splake": "10\""
         },
-        "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48–65 for exceptions.",
-        "plain": "Type 2 (13 streams)\nSeason: Last Sat. in April – Sep. 30\nBrook Trout min: 10\"\nBrown Trout min: 12\"\nSalmon/Lake Trout/Rainbow Trout/Splake min: 10\"\nDaily limit: 5 fish, but no more than 3 trout 15\" or greater"
+        "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48\u201365 for exceptions.",
+        "plain": "Type 2 (13 streams)\nSeason: Last Sat. in April \u2013 Sep. 30\nBrook Trout min: 10\"\nBrown Trout min: 12\"\nSalmon/Lake Trout/Rainbow Trout/Splake min: 10\"\nDaily limit: 5 fish, but no more than 3 trout 15\" or greater"
       },
       "3": {
         "label": "Type 3",
@@ -13347,7 +13348,7 @@
           "brown_trout": "15\"",
           "salmon_lake_trout_rainbow_splake": "10\""
         },
-        "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48–65 for exceptions.",
+        "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48\u201365 for exceptions.",
         "plain": "Type 3 (58 streams)\nSeason: Open All Year\nBrook Trout min: 15\"\nBrown Trout min: 15\"\nSalmon/Lake Trout/Rainbow Trout/Splake min: 10\"\nDaily limit: 5 fish, but no more than 3 trout 15\" or greater"
       },
       "4": {
@@ -13359,12 +13360,12 @@
           "brown_trout": "10\"",
           "salmon_lake_trout_rainbow_splake": "10\""
         },
-        "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48–65 for exceptions.",
+        "daily_limit": "5 fish daily, but no more than 3 trout 15\" or greater. See pp. 48\u201365 for exceptions.",
         "plain": "Type 4 (128 streams)\nSeason: Open All Year\nBrook Trout min: 7\"\nBrown Trout min: 10\"\nSalmon/Lake Trout/Rainbow Trout/Splake min: 10\"\nDaily limit: 5 fish, but no more than 3 trout 15\" or greater"
       },
       "BTRA": {
         "label": "Brook Trout Restoration Areas (BTRA)",
-        "plain": "Brook Trout Restoration Areas have stricter regulations than the Type 1-4 streams they overlap with:\n  - Possession season: Last Saturday in April – Sep. 30\n  - Min size for Brook Trout, Lake Trout, Splake: 20\"\n  - Daily possession: 1 fish total combined (Brook/Lake/Splake)"
+        "plain": "Brook Trout Restoration Areas have stricter regulations than the Type 1-4 streams they overlap with:\n  - Possession season: Last Saturday in April \u2013 Sep. 30\n  - Min size for Brook Trout, Lake Trout, Splake: 20\"\n  - Daily possession: 1 fish total combined (Brook/Lake/Splake)"
       }
     },
     "_ocr_quality": "high"
@@ -13377,8 +13378,8 @@
         "min_size": "14\"",
         "daily_limit": "5 (in combination with Smallmouth Bass)",
         "possession_seasons": [
-          "3rd Sat. in June – Dec. 31: L. St. Clair, St. Clair R., Detroit R.",
-          "Sat. before Memorial Day – Dec. 31: All other waters including Great Lakes"
+          "3rd Sat. in June \u2013 Dec. 31: L. St. Clair, St. Clair R., Detroit R.",
+          "Sat. before Memorial Day \u2013 Dec. 31: All other waters including Great Lakes"
         ],
         "notes": "Catch-and-immediate-release allowed all year. Special 4th-Sat-in-June opener for L. St. Clair, St. Clair R., Detroit R."
       },
@@ -13388,8 +13389,8 @@
         "min_size": "14\"",
         "daily_limit": "5 (in combination with Largemouth Bass)",
         "possession_seasons": [
-          "3rd Sat. in June – Dec. 31: L. St. Clair, St. Clair R., Detroit R.",
-          "Sat. before Memorial Day – Dec. 31: All other waters including Great Lakes"
+          "3rd Sat. in June \u2013 Dec. 31: L. St. Clair, St. Clair R., Detroit R.",
+          "Sat. before Memorial Day \u2013 Dec. 31: All other waters including Great Lakes"
         ],
         "notes": "Catch-and-immediate-release allowed all year."
       },
@@ -13399,8 +13400,8 @@
         "min_size": "15\"",
         "daily_limit": "5",
         "possession_seasons": [
-          "May 15 – March 15: Upper Peninsula Great Lakes and inland waters, and St. Marys R.",
-          "Last Sat. in April – March 15: Lower Peninsula inland waters",
+          "May 15 \u2013 March 15: Upper Peninsula Great Lakes and inland waters, and St. Marys R.",
+          "Last Sat. in April \u2013 March 15: Lower Peninsula inland waters",
           "Open All Year: Lower Peninsula Great Lakes, L. St. Clair, St. Clair R., Detroit R."
         ],
         "notes": "Protected Slot Limit (PSL) waters: release all 15\"-18\" walleye, possession limit 5 with no more than 1 over 23\". Special L. Huron MH-4: 8 daily, 13\" min. L. Erie/Detroit R./L. St. Clair/St. Clair R.: 6 daily through Apr 30, 2027."
@@ -13411,8 +13412,8 @@
         "min_size": "24\"",
         "daily_limit": "2",
         "possession_seasons": [
-          "May 15 – March 15: Upper Peninsula Great Lakes and inland waters, and St. Marys R.",
-          "Last Sat. in April – March 15: Lower Peninsula inland waters",
+          "May 15 \u2013 March 15: Upper Peninsula Great Lakes and inland waters, and St. Marys R.",
+          "Last Sat. in April \u2013 March 15: Lower Peninsula inland waters",
           "Open All Year: Lower Peninsula Great Lakes, L. St. Clair, St. Clair R., Detroit R."
         ],
         "notes": null
@@ -13440,11 +13441,11 @@
       {
         "id": "muskellunge",
         "name": "Muskellunge (including Tiger Muskellunge)",
-        "min_size": "42\" (50\" in some waters — see NOTE 4)",
+        "min_size": "42\" (50\" in some waters \u2014 see NOTE 4)",
         "daily_limit": "1 per angler per license year (mandatory registration)",
         "possession_seasons": [
-          "1st Sat. in June – March 15: All Great Lakes and inland waters and St. Marys R.",
-          "1st Sat. in June – Dec. 31: L. St. Clair, St. Clair R., Detroit R."
+          "1st Sat. in June \u2013 March 15: All Great Lakes and inland waters and St. Marys R.",
+          "1st Sat. in June \u2013 Dec. 31: L. St. Clair, St. Clair R., Detroit R."
         ],
         "notes": "Catch-and-immediate-release allowed all year. Special 50\" minimum size applies to: L. Bellaire, Clam L., Torch L., Elk L. (above Elk Rapids Dam), L. Skegemog, Thornapple R. (M-50 bridge to McCann Rd), Chicagon L., and more. Harvest must be registered within 24 hours via Michigan.gov/RegisterFish, Hunt Fish app, or 888-636-7778."
       },
@@ -13520,51 +13521,51 @@
       }
     ],
     "county_exceptions": {
-      "Alger": "Rock R. closed to fishing from dam to lower foot\nbridge downstream from M-28 April 1 – June 30.\nDuck and Echo Lks. (Grand Island), catch-and\nrelease on Smallmouth Bass. Pictured Rocks\nNational Lakeshore (contact park for regulation\nspecifics 906-387–3700).",
+      "Alger": "Rock R. closed to fishing from dam to lower foot\nbridge downstream from M-28 April 1 \u2013 June 30.\nDuck and Echo Lks. (Grand Island), catch-and\nrelease on Smallmouth Bass. Pictured Rocks\nNational Lakeshore (contact park for regulation\nspecifics 906-387\u20133700).",
       "Benzie": "Platte R. restricted to only one single-pointed,",
-      "Allegan": "Swan Cr. from mouth upstream to the dam on\n118th Ave. restricted to only one single-pointed,\nunweighted hook no larger than 1/2\" from point\nto shank.\n                                                         – March 31. Betsie R. Homestead Dam closed to",
-      "Antrim": "Intermediate R. closed to all fishing from Bellaire\nDam to M-88 Bridge April 1 – May 14. Torch R.\nfrom the Crystal Beach Rd Bridge downstream to\nL. Skegemog including Rapid R. up to Aarwood\nRd Bridge - from May 1 – July 1, it shall be unlawful    S2). On all waters of the Betsie R. special artificial\nto use other than one single-pointed unweighted\nhook measuring 1/2-inch or less from point to shank.",
-      "Arenac": "Saganing Cr. (upstream from State Rd.) and Pine\nR. (upstream from State Rd.) closed to fishing March     Townsend Cr. mouth into L. Chapin, it is unlawful\n16 – Fri. before last Sat. in April.\n                                                         hook measuring 1/2\" or less from point to shank.",
+      "Allegan": "Swan Cr. from mouth upstream to the dam on\n118th Ave. restricted to only one single-pointed,\nunweighted hook no larger than 1/2\" from point\nto shank.\n                                                         \u2013 March 31. Betsie R. Homestead Dam closed to",
+      "Antrim": "Intermediate R. closed to all fishing from Bellaire\nDam to M-88 Bridge April 1 \u2013 May 14. Torch R.\nfrom the Crystal Beach Rd Bridge downstream to\nL. Skegemog including Rapid R. up to Aarwood\nRd Bridge - from May 1 \u2013 July 1, it shall be unlawful    S2). On all waters of the Betsie R. special artificial\nto use other than one single-pointed unweighted\nhook measuring 1/2-inch or less from point to shank.",
+      "Arenac": "Saganing Cr. (upstream from State Rd.) and Pine\nR. (upstream from State Rd.) closed to fishing March     Townsend Cr. mouth into L. Chapin, it is unlawful\n16 \u2013 Fri. before last Sat. in April.\n                                                         hook measuring 1/2\" or less from point to shank.",
       "Baraga": "Lakes of Craig Lake State Park (Clair, Craig,",
       "Calhoun": "Crooked, Keewaydin, Nelligan, Teddy, and\nThomas Lks.) artificial lures only; Northern Pike,\nMuskellunge, Largemouth Bass, and Smallmouth",
       "Cass": "Bass must be released, minimum size on Walleye is\n15\", no size limit on other species; daily possession    minimum size limit is 10\". Indiana L. no possession\nlimit on Walleye is 2; otherwise, all general rules\napply. Motorboats of all types prohibited on all\nexcept Thomas and Keewaydin Lks.; Sturgeon R.",
-      "Charlevoix": "from Prickett Dam downstream to mouth of Clear\nCr. (T50N, R35W, S12) closed to all fishing April 1\n– June 30.\n                                                         S5) restricted to one single-pointed, unweighted",
-      "Barry": "Williams L. open season is last Sat. in April – Dec.     L. Michigan, within one-half mile of the following\n15, catch-and-immediate-release only.\n                                                         Garden, High and Hog the possession season for",
-      "Bay": "Kawkawlin R. and all tributaries upstream of\nEuclid Ave., and Saganing Cr. (upstream from State\nRd.) and Pine R. (upstream from State Rd.) closed to\nfishing March 16 – Fri. before the last Sat. in April.\nOn Kawkawlin R. downstream from Euclid Ave. and",
+      "Charlevoix": "from Prickett Dam downstream to mouth of Clear\nCr. (T50N, R35W, S12) closed to all fishing April 1\n\u2013 June 30.\n                                                         S5) restricted to one single-pointed, unweighted",
+      "Barry": "Williams L. open season is last Sat. in April \u2013 Dec.     L. Michigan, within one-half mile of the following\n15, catch-and-immediate-release only.\n                                                         Garden, High and Hog the possession season for",
+      "Bay": "Kawkawlin R. and all tributaries upstream of\nEuclid Ave., and Saganing Cr. (upstream from State\nRd.) and Pine R. (upstream from State Rd.) closed to\nfishing March 16 \u2013 Fri. before the last Sat. in April.\nOn Kawkawlin R. downstream from Euclid Ave. and",
       "Saginaw": "only for all species.\n                                                            of the West Center St. (Douglas G. Schenk) Bridge,",
-      "Cheboygan": "breakwall at Mullett L. downstream to Cheboygan\nDam, and Black R. from Alverno Dam downstream\nto its confluence with the Cheboygan R. the\npossession season for Walleye shall be May 15 –\nMarch 15. Cheboygan R., Indian R., or Black R.\nunlawful to fish during April 1 – June 15 with spear,\nbow and arrow, crossbow, dip net or gaff. Black R.",
-      "Ionia": "between Kleber Dam and Red Bridge (T35N, R1E,\nS5) unlawful to fish in any manner during April 1 –\nJune 15. Lower Black R. from Alverno Dam down",
-      "Iosco": "to Mograin Bridge, no fishing April 1 – May 14. Black\nL. and tributaries no commercial minnow take;\nSturgeon fishing prohibited except under special\nseason (p. 15).\n                                                             Dec. 1 – Fri. before last Sat. in April. Au Sable R. from",
-      "Chippewa": "Potagannissing R. from Potagannissing Dam\ndownstream to Maxton Rd. (T42N, R6E, S15) closed\nto fishing March 16 – May 14.",
+      "Cheboygan": "breakwall at Mullett L. downstream to Cheboygan\nDam, and Black R. from Alverno Dam downstream\nto its confluence with the Cheboygan R. the\npossession season for Walleye shall be May 15 \u2013\nMarch 15. Cheboygan R., Indian R., or Black R.\nunlawful to fish during April 1 \u2013 June 15 with spear,\nbow and arrow, crossbow, dip net or gaff. Black R.",
+      "Ionia": "between Kleber Dam and Red Bridge (T35N, R1E,\nS5) unlawful to fish in any manner during April 1 \u2013\nJune 15. Lower Black R. from Alverno Dam down",
+      "Iosco": "to Mograin Bridge, no fishing April 1 \u2013 May 14. Black\nL. and tributaries no commercial minnow take;\nSturgeon fishing prohibited except under special\nseason (p. 15).\n                                                             Dec. 1 \u2013 Fri. before last Sat. in April. Au Sable R. from",
+      "Chippewa": "Potagannissing R. from Potagannissing Dam\ndownstream to Maxton Rd. (T42N, R6E, S15) closed\nto fishing March 16 \u2013 May 14.",
       "Iron": "See Michigan-Wisconsin Boundary Waters",
-      "Crawford": "Jones and Wakeley Lks. open season last Sat.\nin April – Sept. 30, catch-and-release fishing with\nartificial lures only. It shall be unlawful to use or\npossess live bait, dead bait or organic or processed",
+      "Crawford": "Jones and Wakeley Lks. open season last Sat.\nin April \u2013 Sept. 30, catch-and-release fishing with\nartificial lures only. It shall be unlawful to use or\npossess live bait, dead bait or organic or processed",
       "Kalkaska": "food at any time on the shore or water.\n                                                             is 10\". Torch R. from the Crystal Beach Rd Bridge",
       "Delta": "Rapid R. Borrow Pit (Stockyard Pond, T40N, R21W,\nS5) closed to fishing all year.\n                                                             unweighted hook measuring 1/2-inch or less from",
-      "Dickinson": "See Michigan-Wisconsin Boundary Waters\nRegulations (pp. 24–25). Fumee L. county ordinance",
+      "Dickinson": "See Michigan-Wisconsin Boundary Waters\nRegulations (pp. 24\u201325). Fumee L. county ordinance",
       "Kent": "currently prohibits access for the purpose of fishing.",
       "Emmet": "Bear R. from northern edge of foot bridge north of",
-      "Lake": "Little Manistee R. 300’ above and below the DNR\nweir is closed to fishing all year; from 300’ above\nDNR weir to Spencers Bridge closed to fishing Jan.\n1 – March 31; also from 300’ below DNR weir to\nmouth closed to fishing Sep. 1 – Nov. 14 and Jan.\n1 – March 31. On all waters of the Pere Marquette\nR. and Little Manistee R. an artificial lure is defined",
-      "Genesee": "Flint R. downstream from Holloway Dam and all\ntributaries, the following regulations apply from\nMarch 16 – Fri. before the last Sat. in April: Anglers are\nlimited to using unweighted single-pointed hooks,\nnatural bait, and sinkers or weights or artificial lures\nwith unweighted single-pointed hooks.",
-      "Gogebic": "L. Gogebic the daily possession limit for Yellow\nPerch is 25 with no more than 5 Yellow Perch 12\"\nor greater. See Michigan-Wisconsin Boundary\nWaters Regulations (pp. 24–25) and Sylvania\nWilderness Area Regulations (p. 26). E XC E P T I O N S\nCO U N T Y\n                                                              to Deer L. Basin fishing restricted to artificial lures,",
+      "Lake": "Little Manistee R. 300\u2019 above and below the DNR\nweir is closed to fishing all year; from 300\u2019 above\nDNR weir to Spencers Bridge closed to fishing Jan.\n1 \u2013 March 31; also from 300\u2019 below DNR weir to\nmouth closed to fishing Sep. 1 \u2013 Nov. 14 and Jan.\n1 \u2013 March 31. On all waters of the Pere Marquette\nR. and Little Manistee R. an artificial lure is defined",
+      "Genesee": "Flint R. downstream from Holloway Dam and all\ntributaries, the following regulations apply from\nMarch 16 \u2013 Fri. before the last Sat. in April: Anglers are\nlimited to using unweighted single-pointed hooks,\nnatural bait, and sinkers or weights or artificial lures\nwith unweighted single-pointed hooks.",
+      "Gogebic": "L. Gogebic the daily possession limit for Yellow\nPerch is 25 with no more than 5 Yellow Perch 12\"\nor greater. See Michigan-Wisconsin Boundary\nWaters Regulations (pp. 24\u201325) and Sylvania\nWilderness Area Regulations (p. 26). E XC E P T I O N S\nCO U N T Y\n                                                              to Deer L. Basin fishing restricted to artificial lures,",
       "Mason": "as a body bait, plug, spinner or spoon (as described\non p. 8). Big Bass L. (T20N, R14W, S34) bass minimum\nsize limit is 10\".\n                                                              waters of the Pere Marquette R. special artificial",
       "Leelanau": "North Manitou L. bass minimum size limit is 18\",\nthe possession limit is 1; fishing restricted to artificial\nlures only; live bait, dead or prepared bait or organic",
       "Menominee": "or processed food may not be possessed on the\nwater or the shore. Florence L. (S. Manitou Is.) fishing\nrestricted to artificial lures only; live bait, dead or\nprepared bait or organic or processed food may not",
-      "Midland": "be possessed on the water or the shore. Hatlem's\nCr., it is unlawful to take or attempt to take minnows\nfor personal use.\n                                                              16 – Fri. before last Sat. in April. Tittabawassee R.",
-      "Livingston": "Spring Mill Pond (Island Lake Recreation Area)\nMarch 15 – March 31 no fishing; April 1 – Fri. before\nthe last Sat. in April, catch-and-immediate-release\nof trout with artificial lures only; last Sat. in April –     single-pointed hooks, natural bait, and sinkers or\nMarch 14 statewide regulations apply.\n                                                              pointed hooks.",
+      "Midland": "be possessed on the water or the shore. Hatlem's\nCr., it is unlawful to take or attempt to take minnows\nfor personal use.\n                                                              16 \u2013 Fri. before last Sat. in April. Tittabawassee R.",
+      "Livingston": "Spring Mill Pond (Island Lake Recreation Area)\nMarch 15 \u2013 March 31 no fishing; April 1 \u2013 Fri. before\nthe last Sat. in April, catch-and-immediate-release\nof trout with artificial lures only; last Sat. in April \u2013     single-pointed hooks, natural bait, and sinkers or\nMarch 14 statewide regulations apply.\n                                                              pointed hooks.",
       "Luce": "Unlawful to launch or retrieve motorized vessel",
       "Monroe": "(greater than 5 horsepower) from state land on the\nE. Br. Fox R. from M-28 to the mouth of Cold Cr.\n                                                              allowed, catch-and-immediate-release fishing only.",
-      "Montmorency": "spillway weir to the Harper Rd. Bridge: the following\nregulations apply from March 16 – Fri. before the last\nSat. in April: Anglers are limited to using unweighted\nsingle-pointed hooks, natural bait, and sinkers or\nweights or artificial lures with unweighted single-\npointed hooks.\n                                                              only.",
-      "Manistee": "Little Manistee R. 300’ above and below the DNR",
-      "Muskegon": "weir is closed to fishing all year; from 300’ above\nDNR weir to Spencers Bridge closed to fishing Jan.\n1 – March 31; also from 300’ below DNR weir to\nmouth closed to fishing Sep. 1 – Nov. 14 and Jan.\n1 – March 31. On all waters of the Betsie R., all\nwaters of Bear Cr. (Manistee Co.), all waters of the\nLittle Manistee R., and the Manistee R. from Tippy\nDam downstream to Railroad Bridge below M-55\n(T21N, R16W, S6), special artificial lure regulations\napply (p. 8).\n                                                              into Muskegon L. and at the port of Whitehall/",
+      "Montmorency": "spillway weir to the Harper Rd. Bridge: the following\nregulations apply from March 16 \u2013 Fri. before the last\nSat. in April: Anglers are limited to using unweighted\nsingle-pointed hooks, natural bait, and sinkers or\nweights or artificial lures with unweighted single-\npointed hooks.\n                                                              only.",
+      "Manistee": "Little Manistee R. 300\u2019 above and below the DNR",
+      "Muskegon": "weir is closed to fishing all year; from 300\u2019 above\nDNR weir to Spencers Bridge closed to fishing Jan.\n1 \u2013 March 31; also from 300\u2019 below DNR weir to\nmouth closed to fishing Sep. 1 \u2013 Nov. 14 and Jan.\n1 \u2013 March 31. On all waters of the Betsie R., all\nwaters of Bear Cr. (Manistee Co.), all waters of the\nLittle Manistee R., and the Manistee R. from Tippy\nDam downstream to Railroad Bridge below M-55\n(T21N, R16W, S6), special artificial lure regulations\napply (p. 8).\n                                                              into Muskegon L. and at the port of Whitehall/",
       "Marquette": "Deer L. Basin, Carp R./Carp Cr. downstream from\nM-28 (T47N, R27W, S4), and all other tributaries ",
       "Newaygo": "Baptist L., no possession of Walleye, Channel Catfish,\nFlathead Catfish or Bullheads; Brush and Sand Lks.\nno possession of Channel Catfish, Flathead Catfish or\nBullheads. Crystal L., no possession of Walleye. On\nall waters of the Pere Marquette R. and Muskegon\nR. (upstream to Croton Dam) special artificial lure\n                                                                                  St. Joseph\nregulations apply (p. 8).\n                                                            size limit for bass is 10\".",
       "Oakland": "Upper Bushman L. catch-and-immediate-release",
       "Oceana": "On all waters of the Pere Marquette R., White\nR. (from mouth upstream to Hesperia Dam) and\nall waters of the N. Br. White R. and all waters\nof the N. Br. Pentwater R. and S. Br. Pentwater\nR. (upstream to Hart Dam) special artificial lure\nregulations apply (p. 8).",
-      "Ontonagon": "L. Gogebic the daily possession limit for Yellow\nPerch is 25 with no more than 5 Yellow Perch 12\" or\ngreater. W. Br. Ontonagon R. from its confluence\nwith the Victoria Hydro station tailrace (T50N, R39W,\nSE 1/4 of the SW 1/4 of S29) upstream to Victoria\nDam, including the trailrace canal closed to fishing\nApril 1 – Jun. 10. L. of the Clouds (Carp L.) fishing\nrestricted to artificial lures only. It shall be unlawful   vehicles (including electric or outboard motors)\nto use or possess live bait, dead bait or organic or\nprocessed food at any time on the shore or water.\nNo spearing; no possession of Smallmouth Bass.\n                                                            15 – Nov. 30, possession season is 1st Sat. in June –",
-      "Ottawa": "From Nov. 1 – Nov. 30: It shall be unlawful to use\nother than one single-pointed unweighted hook\nmeasuring ½-inch or less from point to shank at\nthe port of Grand Haven from the westernmost\npier head extending into L. Michigan to the US-31\nbridge (North bound Beacon Blvd.).\n                                                            perch, Bluegill and Pumpkinseed open season is",
+      "Ontonagon": "L. Gogebic the daily possession limit for Yellow\nPerch is 25 with no more than 5 Yellow Perch 12\" or\ngreater. W. Br. Ontonagon R. from its confluence\nwith the Victoria Hydro station tailrace (T50N, R39W,\nSE 1/4 of the SW 1/4 of S29) upstream to Victoria\nDam, including the trailrace canal closed to fishing\nApril 1 \u2013 Jun. 10. L. of the Clouds (Carp L.) fishing\nrestricted to artificial lures only. It shall be unlawful   vehicles (including electric or outboard motors)\nto use or possess live bait, dead bait or organic or\nprocessed food at any time on the shore or water.\nNo spearing; no possession of Smallmouth Bass.\n                                                            15 \u2013 Nov. 30, possession season is 1st Sat. in June \u2013",
+      "Ottawa": "From Nov. 1 \u2013 Nov. 30: It shall be unlawful to use\nother than one single-pointed unweighted hook\nmeasuring \u00bd-inch or less from point to shank at\nthe port of Grand Haven from the westernmost\npier head extending into L. Michigan to the US-31\nbridge (North bound Beacon Blvd.).\n                                                            perch, Bluegill and Pumpkinseed open season is",
       "Otsego": "June 15. Otsego L. see Lake Sturgeon regulations\n(p. 15).\n                                                            E. Branch Fox R. from M-28 to the mouth of Cold Cr.\n                    Presque Isle",
-      "Clinton": "Van Buren\nL. Pike Marsh it is unlawful for any person other\nthan state employee to use or operate a motorized\nvehicle on the access road leading from US-23 to the\nGrand L. Pike Marsh during March – May, closed\nto fishing whenever marsh is operating. Rainy R.\nfrom confluence with Black L. upstream to N. Allis\nRd. Bridge (T35N, R2E, S15) closed to fishing April",
-      "Washtenaw": "1 – May 14. Shuberts Cr. (Monaghan Cr.) from Long\nL. upstream to Clinton Cr. Rd. (T33N, R7E, S14), closed     S32) downstream to Delhi Rd. Bridge (T2S, R5E,\nto fishing April 1 – May 14. Swan R. from 300’ above\nweir to mouth closed to fishing whenever weir is\nin place.\n                                                            (NOTE 6, p. 14) possession limit is 10. "
+      "Clinton": "Van Buren\nL. Pike Marsh it is unlawful for any person other\nthan state employee to use or operate a motorized\nvehicle on the access road leading from US-23 to the\nGrand L. Pike Marsh during March \u2013 May, closed\nto fishing whenever marsh is operating. Rainy R.\nfrom confluence with Black L. upstream to N. Allis\nRd. Bridge (T35N, R2E, S15) closed to fishing April",
+      "Washtenaw": "1 \u2013 May 14. Shuberts Cr. (Monaghan Cr.) from Long\nL. upstream to Clinton Cr. Rd. (T33N, R7E, S14), closed     S32) downstream to Delhi Rd. Bridge (T2S, R5E,\nto fishing April 1 \u2013 May 14. Swan R. from 300\u2019 above\nweir to mouth closed to fishing whenever weir is\nin place.\n                                                            (NOTE 6, p. 14) possession limit is 10. "
     }
   },
   "counties": {

@@ -336,6 +336,10 @@ function renderDetailForResult(result: Result, data: RegsData): string {
   const isPdf = record.source === "pdf";
   const typeCode = record.type;
 
+  // Find relevant full-text documents by category
+  const findDoc = (cat: string) =>
+    data.documents?.find((d) => d.category === cat);
+
   // For PDF entries with a Type code, get the structured Type regulation
   // data (parsed from pp. 44-45).
   let typeTable = null;
@@ -354,13 +358,13 @@ function renderDetailForResult(result: Result, data: RegsData): string {
   // the Wikipedia article.
   const pdfPage = record.pdf_record?.source_page;
   const pdfHref = pdfPage
-    ? `https://github.com/tsteinke11306/angler/blob/main/data/2026-Michigan-Fishing-Regulations.pdf#page=${pdfPage}`
+    ? `https://github.com/tsteinke11306/angl3r/blob/main/data/2026-Michigan-Fishing-Regulations.pdf#page=${pdfPage}`
     : null;
   const wikiHref = record.wikipedia_title
     ? `https://en.wikipedia.org/wiki/${encodeURIComponent(record.wikipedia_title.replace(/ /g, "_"))}`
     : null;
 
-  // Build the Type regulation section (only for PDF entries with a Type)
+  // Build the Type / regulation section
   let typeSection = "";
   if (isPdf && typeCode && typeTable && typeTable.plain) {
     typeSection = `
@@ -377,13 +381,24 @@ function renderDetailForResult(result: Result, data: RegsData): string {
       </div>
     `;
   } else {
-    // Wikipedia-only entry — no specific trout regulation
-    typeSection = `
-      <div class="detail__section">
-        <h3 class="detail__section-title">Trout/salmon designation</h3>
-        <p class="detail__body">This waterbody is not listed in the 2026 Michigan trout/salmon regulations. The statewide species rules (below) apply to all waters in ${esc(record.county)} County unless a county-specific exception is listed.</p>
-      </div>
-    `;
+    // Wikipedia-only entry — show the relevant general regulations
+    const generalDoc = findDoc("general");
+    if (generalDoc) {
+      typeSection = `
+        <div class="detail__section">
+          <h3 class="detail__section-title">General fishing regulations</h3>
+          <p class="detail__body">The general state regulations below apply to this waterbody.</p>
+          <pre class="detail__body detail__body--type">${esc(generalDoc.body)}</pre>
+        </div>
+      `;
+    } else {
+      typeSection = `
+        <div class="detail__section">
+          <h3 class="detail__section-title">Trout/salmon designation</h3>
+          <p class="detail__body">This waterbody is not listed in the 2026 Michigan trout/salmon regulations. The statewide species rules (below) apply to all waters in ${esc(record.county)} County unless a county-specific exception is listed.</p>
+        </div>
+      `;
+    }
   }
 
   // Build the species section: statewide rules + county exceptions
