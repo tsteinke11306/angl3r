@@ -425,7 +425,7 @@ function renderDetailForResult(result: Result, data: RegsData): string {
       countyExceptions
         ? `<div class="detail__section">
         <h3 class="detail__section-title">${esc(record.county)} County exceptions</h3>
-        <p class="detail__body">${esc(countyExceptions).replace(/\n/g, "<br>")}</p>
+        <div class="detail__body detail__body--reg-text">${esc(countyExceptions).replace(/\n/g, "<br>")}</div>
       </div>`
         : ""
     }

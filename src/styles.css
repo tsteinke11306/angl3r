@@ -715,6 +715,14 @@ mark {
   line-height: 1.5;
 }
 
+.detail__body--reg-text {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  white-space: normal;
+}
+.detail__body--reg-text br { display: block; content: ""; margin-bottom: 0.5rem; }
+
 .detail__link {
   display: inline-flex;
   align-items: center;
