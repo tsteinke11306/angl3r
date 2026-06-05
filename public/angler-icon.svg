@@ -1,7 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <!-- Stylized fish silhouette for the Michigan angler site -->
-  <path d="M8 32 C 14 18, 32 14, 46 22 L 56 16 L 54 32 L 56 48 L 46 42 C 32 50, 14 46, 8 32 Z"
-        fill="#0c4a6e" stroke="#082f49" stroke-width="1.5" stroke-linejoin="round"/>
-  <circle cx="42" cy="29" r="2" fill="#fff"/>
-  <path d="M28 22 Q 32 18, 36 22" stroke="#082f49" stroke-width="1" fill="none" opacity="0.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Subtle background ring -->
+  <circle cx="50" cy="50" r="46" stroke="#0c4a6e" stroke-width="2" opacity="0.15"/>
+  <!-- Water ripple arcs -->
+  <path stroke="#0c4a6e" stroke-width="2.5" stroke-linecap="round" opacity="0.25"
+    d="M18 68c10-6 20-6 30 0s20 6 30 0"/>
+  <path stroke="#0c4a6e" stroke-width="2" stroke-linecap="round" opacity="0.15"
+    d="M25 76c8-4 16-4 24 0s16 4 24 0"/>
+  <!-- Stylized fish body -->
+  <path fill="#0c4a6e" d="M50 22c-12 0-22 7-26 17 4 2 8 1 12-1l8 14-8 14c-4-2-8-3-12-1 4 10 14 17 26 17 16 0 28-12 28-28S66 22 50 22z"/>
+  <!-- Eye -->
+  <circle cx="66" cy="42" r="4" fill="#fff"/>
+  <circle cx="67" cy="41" r="1.5" fill="#0c4a6e"/>
+  <!-- Tail -->
+  <path fill="#0c4a6e" d="M22 40l-10-8v24l10-8c-2-3-2-5 0-8z"/>
+  <!-- Fin highlight -->
+  <path fill="#fff" opacity="0.2" d="M46 32l4 8-4 8-4-8z"/>
 </svg>
