@@ -940,14 +940,15 @@ function attachMapHandlers(data: RegsData) {
       const rect = (e.target as SVGElement).getBoundingClientRect();
       const containerRect = (document.getElementById("map-zoomable") as HTMLElement).getBoundingClientRect();
       tooltip.style.left = (rect.left - containerRect.left + rect.width / 2) + "px";
-      tooltip.style.top = (rect.top - containerRect.top - 8) + "px";
+      tooltip.style.top = (rect.top - containerRect.top - 28) + "px";
     });
     path.addEventListener("mousemove", (e) => {
       const tooltip = document.getElementById("map-tooltip");
       if (!tooltip || tooltip.style.display === "none") return;
       const containerRect = (document.getElementById("map-zoomable") as HTMLElement).getBoundingClientRect();
-      tooltip.style.left = (e.clientX - containerRect.left + 12) + "px";
-      tooltip.style.top = (e.clientY - containerRect.top - 8) + "px";
+      // Offset further right and up so it doesn't sit directly under cursor
+      tooltip.style.left = (e.clientX - containerRect.left + 18) + "px";
+      tooltip.style.top = (e.clientY - containerRect.top - 28) + "px";
     });
     path.addEventListener("mouseleave", () => {
       const tooltip = document.getElementById("map-tooltip");
