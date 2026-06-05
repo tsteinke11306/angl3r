@@ -46,14 +46,8 @@ html, body {
 /* --- Header --- */
 .site-header {
   position: relative;
-  padding: 2rem 1.25rem 1.5rem;
-  background-color: var(--color-bg);
-  /* The topo background URL is set via inline style using the imported SVG
-     (see renderHeader in main.ts). The CSS variable --topo-bg is a fallback
-     if the inline style isn't applied. */
-  background-image: var(--topo-bg, none);
-  background-size: cover;
-  background-position: center;
+  padding: 1.5rem 1.25rem 1rem;
+  background-color: var(--color-bg-card);
   border-bottom: 1px solid var(--color-border);
 }
 .site-header__inner {
@@ -61,23 +55,23 @@ html, body {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 0.875rem;
+  gap: 0.75rem;
 }
 .site-logo {
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   flex-shrink: 0;
 }
 .site-title {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.375rem;
   font-weight: 700;
   letter-spacing: -0.01em;
   color: var(--color-accent);
 }
 .site-tagline {
   margin: 0.125rem 0 0;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   color: var(--color-text-muted);
 }
 
@@ -96,11 +90,11 @@ html, body {
 /* --- Search box --- */
 .search {
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 .search__input {
   width: 100%;
-  padding: 0.875rem 1rem 0.875rem 2.5rem;
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
   font-size: 1rem;
   font-family: inherit;
   color: var(--color-text);
@@ -426,29 +420,24 @@ html, body {
 .species-filter {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  gap: 0.3rem;
   margin-bottom: 0.75rem;
-  padding: 0.6rem 0.75rem;
-  background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-sm);
 }
 .species-chip {
   display: inline-block;
-  padding: 0.35rem 0.7rem;
-  background: var(--color-bg);
+  padding: 0.3rem 0.6rem;
+  background: transparent;
   border: 1px solid var(--color-border);
   border-radius: 999px;
   font: inherit;
-  font-size: 0.8125rem;
-  color: var(--color-text);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
   cursor: pointer;
   transition: background 0.12s, color 0.12s, border-color 0.12s;
 }
 .species-chip:hover {
-  background: #e6f0f7;
   border-color: var(--color-accent);
+  color: var(--color-text);
 }
 .species-chip--active {
   background: var(--color-accent);
@@ -646,38 +635,38 @@ mark {
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
-  padding: 1.5rem;
-  min-height: 300px;
+  padding: 1.25rem;
+  min-height: 200px;
 }
 .detail__placeholder {
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 2.5rem 1rem;
   color: var(--color-text-subtle);
 }
-.detail__placeholder svg { width: 48px; height: 48px; opacity: 0.3; }
+.detail__placeholder svg { width: 40px; height: 40px; opacity: 0.3; }
 .detail__title {
   margin: 0 0 0.25rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--color-text);
 }
 .detail__subtitle {
-  margin: 0 0 1.25rem;
-  font-size: 0.9375rem;
+  margin: 0 0 1rem;
+  font-size: 0.875rem;
   color: var(--color-text-muted);
 }
 .detail__section {
-  margin: 1.5rem 0;
-  padding-top: 1.25rem;
+  margin: 1.25rem 0;
+  padding-top: 1rem;
   border-top: 1px solid var(--color-border);
 }
 .detail__section:first-of-type { border-top: none; padding-top: 0; }
 .detail__section-title {
-  margin: 0 0 0.625rem;
-  font-size: 0.75rem;
+  margin: 0 0 0.5rem;
+  font-size: 0.6875rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   color: var(--color-text-subtle);
 }
 .detail__badges { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem; }
@@ -761,14 +750,10 @@ mark {
 /* --- Misc --- */
 .stats {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.25rem;
   flex-wrap: wrap;
-  margin: 0 0 1.5rem;
-  padding: 0.875rem 1rem;
-  background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  font-size: 0.8125rem;
-  color: var(--color-text-muted);
+  margin: 0 0 1rem;
+  font-size: 0.75rem;
+  color: var(--color-text-subtle);
 }
 .stats strong { color: var(--color-text); font-weight: 600; }

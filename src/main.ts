@@ -1,5 +1,5 @@
 /**
- * Angler — Michigan Fishing Regulations
+ * angl3r — Michigan Fishing Regulations
  * Main app entry point.
  *
  * Loads the static data, sets up the search box, and renders results
@@ -96,7 +96,7 @@ function renderHeader(): string {
       <div class="site-header__inner">
         <img src="${logoUrl}" alt="" class="site-logo" />
         <div>
-          <h1 class="site-title">Angler</h1>
+          <h1 class="site-title">angl3r</h1>
           <p class="site-tagline">Michigan fishing regulations — search by lake or stream</p>
         </div>
       </div>
@@ -354,7 +354,7 @@ function renderDetailForResult(result: Result, data: RegsData): string {
   // the Wikipedia article.
   const pdfPage = record.pdf_record?.source_page;
   const pdfHref = pdfPage
-    ? `https://github.com/tsteinke11306/angler/blob/main/data/2026-Michigan-Fishing-Regulations.pdf#page=${pdfPage}`
+    ? `https://github.com/tsteinke11306/angl3r/blob/main/data/2026-Michigan-Fishing-Regulations.pdf#page=${pdfPage}`
     : null;
   const wikiHref = record.wikipedia_title
     ? `https://en.wikipedia.org/wiki/${encodeURIComponent(record.wikipedia_title.replace(/ /g, "_"))}`
@@ -486,7 +486,7 @@ function renderFooter(): string {
         This site is a convenience lookup; always verify current rules with the DNR before fishing.
       </p>
       <p style="margin-top: 0.5rem;">
-        <a href="https://github.com/tsteinke11306/angler" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
+        <a href="https://github.com/tsteinke11306/angl3r" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
         · Data last updated from the ${new Date().toLocaleDateString()} PDF parse.
       </p>
     </footer>
@@ -970,10 +970,12 @@ function attachResultHandlers(data: RegsData) {
       const kind = btn.dataset.kind as "lake" | "stream";
       const name = btn.dataset.name!;
       const county = btn.dataset.county!;
-      const results = search(currentQuery, data, 50);
-      const result = results.find((r) => r.name === name && r.county === county && r.kind === kind);
+      // Use findExact to look up the waterbody directly from data,
+      // not from search() — currentQuery may be empty (e.g. county filter mode),
+      // which would cause search() to return an empty array.
+      const result = findExact(data, kind, name, county);
       if (!result) return;
-      selectedResult = result;
+      selectedResult = { kind, name, county, source: result.source as "pdf" | "wikipedia", type: result.type, source_page: result.pdf_record?.source_page, section: result.section, closure: result.closure, wikipedia_title: result.wikipedia_title, matchDistance: 0, matchedField: "name" as const };
       buttons.forEach((b) => b.setAttribute("aria-selected", "false"));
       btn.setAttribute("aria-selected", "true");
       updateDetailForSelected(data);
