@@ -16,7 +16,6 @@ import { search, groupByCounty, findExact, type Result } from "./search";
 // Vite rewrites these imports to fingerprinted URLs in the build, with the
 // correct base path. We use them as both <img src> and CSS url().
 import logoUrl from "../public/angler-icon.svg";
-import topoUrl from "../public/topo-bg.svg";
 // The county map SVG is loaded as a raw string so we can inline it into
 // the DOM and attach click handlers to each <path>. Using ?raw tells Vite
 // to ship the file contents as a string instead of as a fingerprinted URL.
@@ -92,7 +91,7 @@ let currentCountyFilter: string | null = null;  // when set, results are scoped 
 
 function renderHeader(): string {
   return `
-    <header class="site-header" style="--topo-bg: url('${topoUrl}')">
+    <header class="site-header">
       <div class="site-header__inner">
         <img src="${logoUrl}" alt="" class="site-logo" />
         <div>
