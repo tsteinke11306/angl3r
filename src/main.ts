@@ -15,7 +15,7 @@ import { search, groupByCounty, findExact, type Result } from "./search";
 
 // Vite rewrites these imports to fingerprinted URLs in the build, with the
 // correct base path. We use them as both <img src> and CSS url().
-import faviconUrl from "../public/angler-icon.svg";
+import faviconUrl from "../public/logo.png";
 import brandLogoUrl from "../public/logo.png";
 // The county map SVG is loaded as a raw string so we can inline it into
 // the DOM and attach click handlers to each <path>. Using ?raw tells Vite
@@ -94,11 +94,8 @@ function renderHeader(): string {
   return `
     <header class="site-header">
       <div class="site-header__inner">
-        <img src="${brandLogoUrl}" alt="angl3r" class="site-logo" />
-        <div>
-          <h1 class="site-title">angl3r</h1>
-          <p class="site-tagline">Michigan fishing regulations — search by lake or stream</p>
-        </div>
+        <img src="${brandLogoUrl}" alt="angl3r — Michigan fishing regulations" class="site-logo" />
+        <p class="site-tagline">Michigan fishing regulations — search by lake or stream</p>
       </div>
     </header>
   `;
