@@ -15,7 +15,8 @@ import { search, groupByCounty, findExact, type Result } from "./search";
 
 // Vite rewrites these imports to fingerprinted URLs in the build, with the
 // correct base path. We use them as both <img src> and CSS url().
-import logoUrl from "../public/angler-icon.svg";
+import faviconUrl from "../public/angler-icon.svg";
+import brandLogoUrl from "../public/logo.png";
 // The county map SVG is loaded as a raw string so we can inline it into
 // the DOM and attach click handlers to each <path>. Using ?raw tells Vite
 // to ship the file contents as a string instead of as a fingerprinted URL.
@@ -93,7 +94,7 @@ function renderHeader(): string {
   return `
     <header class="site-header">
       <div class="site-header__inner">
-        <img src="${logoUrl}" alt="" class="site-logo" />
+        <img src="${brandLogoUrl}" alt="angl3r" class="site-logo" />
         <div>
           <h1 class="site-title">angl3r</h1>
           <p class="site-tagline">Michigan fishing regulations — search by lake or stream</p>
@@ -1085,7 +1086,7 @@ async function main() {
   // Fix the favicon href to use the proper base URL. The HTML has a
   // placeholder href; we update it now that the JS bundle has loaded.
   const favicon = document.getElementById("favicon") as HTMLLinkElement | null;
-  if (favicon) favicon.href = logoUrl;
+  if (favicon) favicon.href = faviconUrl;
 
   // Initial render: search view is default
   currentView = "search";

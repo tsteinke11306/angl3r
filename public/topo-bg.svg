@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#020617" />
-      <stop offset="100%" stop-color="#0a0f1e" />
+      <stop offset="0%" stop-color="#f7f5f0" />
+      <stop offset="100%" stop-color="#e8e4dc" />
     </linearGradient>
     <pattern id="topo" x="0" y="0" width="400" height="300" patternUnits="userSpaceOnUse">
-      <g fill="none" stroke="#06b6d4" stroke-width="0.8" opacity="0.08">
+      <g fill="none" stroke="#0a1f3d" stroke-width="0.8" opacity="0.06">
         <ellipse cx="50" cy="60" rx="50" ry="30" />
         <ellipse cx="50" cy="60" rx="38" ry="22" />
         <ellipse cx="50" cy="60" rx="28" ry="16" />
@@ -21,7 +21,7 @@
         <ellipse cx="350" cy="80" rx="21" ry="11" />
         <ellipse cx="350" cy="80" rx="13" ry="6" />
       </g>
-      <g fill="none" stroke="#2dd4bf" stroke-width="0.5" opacity="0.05">
+      <g fill="none" stroke="#5a7d5a" stroke-width="0.5" opacity="0.04">
         <ellipse cx="120" cy="240" rx="45" ry="27" />
         <ellipse cx="120" cy="240" rx="34" ry="20" />
         <ellipse cx="120" cy="240" rx="25" ry="14" />
