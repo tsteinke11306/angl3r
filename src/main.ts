@@ -428,6 +428,36 @@ function renderDetailForResult(result: Result, data: RegsData): string {
     }
   `;
 
+  // Species found in this specific waterbody from historical survey data
+  const wbSpecies = data.species_by_waterbody?.[record.county]?.[record.name];
+  let speciesByWaterbodySection = "";
+  if (wbSpecies && wbSpecies.species && wbSpecies.species.length > 0) {
+    const speciesChips = wbSpecies.species
+      .map((sp: string) => `<span class="badge badge--species">${esc(sp)}</span>`)
+      .join(" ");
+    const extrasHtml = wbSpecies.extras?.length
+      ? `<p class="detail__hint">Also noted: ${esc(wbSpecies.extras.join("; "))}</p>`
+      : "";
+    speciesByWaterbodySection = `
+      <div class="detail__section">
+        <h3 class="detail__section-title">Species found here</h3>
+        <p class="detail__hint">
+          From ${wbSpecies.survey_records} historical DNR survey(s)
+          (${wbSpecies.survey_years?.slice(0, 3).join(", ")}${(wbSpecies.survey_years?.length || 0) > 3 ? "…" : ""}).
+        </p>
+        <div class="detail__species-chips">${speciesChips}</div>
+        ${extrasHtml}
+      </div>
+    `;
+  } else if (wbSpecies && wbSpecies.source === null) {
+    speciesByWaterbodySection = `
+      <div class="detail__section">
+        <h3 class="detail__section-title">Species found here</h3>
+        <p class="detail__hint">No historical survey data available for this waterbody.</p>
+      </div>
+    `;
+  }
+
   // Source badge
   const sourceBadge = isPdf
     ? `<span class="badge badge--pdf">Type ${esc(typeCode ?? "?")} — ${esc(typeTitle)}</span>`
@@ -460,6 +490,8 @@ function renderDetailForResult(result: Result, data: RegsData): string {
 
     ${typeSection}
 
+    ${speciesByWaterbodySection}
+
     ${speciesSection}
 
     <div class="detail__links">
@@ -470,7 +502,10 @@ function renderDetailForResult(result: Result, data: RegsData): string {
     <div class="detail__citation">
       Source: <a href="https://michigan.gov/DNR" target="_blank" rel="noopener noreferrer">Michigan DNR 2026 Fishing Regulations</a>,
       effective ${esc(data.source.effective)}.
-      Waterbody names also from <a href="https://en.wikipedia.org/wiki/Category:Bodies_of_water_of_Michigan_by_county" target="_blank" rel="noopener noreferrer">Wikipedia</a> (CC BY-SA 4.0).
+      Waterbody names from <a href="https://en.wikipedia.org/wiki/Category:Bodies_of_water_of_Michigan_by_county" target="_blank" rel="noopener noreferrer">Wikipedia</a> (CC BY-SA 4.0).
+      ${data.meta?.survey_source?.title
+        ? `Species data from <a href="https://doi.org/${esc(data.meta.survey_source.doi)}" target="_blank" rel="noopener noreferrer">${esc(data.meta.survey_source.title)}</a> (${esc(data.meta.survey_source.license)}).`
+        : ''}
     </div>
   `;
 }
@@ -483,8 +518,8 @@ function renderFooter(): string {
         This site is a convenience lookup; always verify current rules with the DNR before fishing.
       </p>
       <p style="margin-top: 0.5rem;">
-        <a href="https://github.com/tsteinke11306/angler" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
-        · Data last updated from the ${new Date().toLocaleDateString()} PDF parse.
+        <a href="https://github.com/tsteinke11306/angl3r" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
+        · Data last updated ${new Date().toLocaleDateString()}.
       </p>
     </footer>
   `;

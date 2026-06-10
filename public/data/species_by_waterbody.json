@@ -1,0 +1,5253 @@
+{
+  "Alcona": {
+    "South Hoist Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Alcona Dam Pond": {
+      "dataset_match": "Alconadam",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1927"
+      ],
+      "species": [],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Hubbard Lake": {
+      "dataset_match": "Hubbard",
+      "match_score": 1.0,
+      "survey_records": 2,
+      "survey_years": [
+        "1926"
+      ],
+      "species": [],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Alger": {
+    "Ackerman Lake": {
+      "dataset_match": "Ackerman",
+      "match_score": 1.0,
+      "survey_records": 2,
+      "survey_years": [
+        "1941",
+        "1966"
+      ],
+      "species": [
+        "Bluegill",
+        "Golden Shiner",
+        "Largemouth Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "minnow"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Bette\u2019s Pond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Cheryl\u2019s Pond (T44N, R19W, S25)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Hike Lake": {
+      "dataset_match": "Hike",
+      "match_score": 1.0,
+      "survey_records": 2,
+      "survey_years": [
+        "1951",
+        "1952"
+      ],
+      "species": [
+        "Bluegill",
+        "Yellow Perch"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Blue Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Corner-Straits Chain of lakes": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Grand Sable Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Stella": {
+      "dataset_match": "Stella",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1937"
+      ],
+      "species": [
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sunfish; mud_minnow_notropis_sp"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Ostrander Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Round Lake (Alger and Delta Counties, Michigan)": {
+      "dataset_match": "Round",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1937"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sunfish; mud_minnow_brook_stickleback"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Stoner Lake": {
+      "dataset_match": "Stoner",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1937"
+      ],
+      "species": [
+        "Bluegill",
+        "Northern Pike",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "bullhead; mud_minnows_a"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Toms Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Allegan": {
+    "Irwin Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Kay\u2019s Pond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Goshorn Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Gun Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Kalamazoo Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Allegan": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Kalamazoo": {
+    "North (Upper) Shoe Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Rock River Pond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Little Paw Paw Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Hook Restriction: From May 1 \u2013 July": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Austin Lake": {
+      "dataset_match": "Austin",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1953"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brook Silverside",
+        "Common Carp",
+        "Golden Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Pumpkinseed",
+        "Spotted Gar",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "warmouth; sand_shiner_sand_shiner_spottail_shiner_logperch"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Duck Lake (Kalamazoo County)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Gull Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Antrim": {
+    "Bellaire Pond": {
+      "dataset_match": "Bellaire",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1957"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Cisco",
+        "Common Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "lake_trout_smelt_longear_sunfish; sand_shiner_logperch_perch"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Elk Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Green Lake": {
+      "dataset_match": "Green",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1942"
+      ],
+      "species": [
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Rock Bass",
+        "Smallmouth Bass"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Torch Lake": {
+      "dataset_match": "Torch",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1958"
+      ],
+      "species": [
+        "Bluntnose Minnow",
+        "Brook Silverside",
+        "Brown Trout",
+        "Cisco",
+        "Common Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Rainbow Trout",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "lake_trout_whitefish; sand_shiner_rosyface_shiner_logperch_perch_mottled_sculpin_longnose_dace_redbelly_dace_brook_stickleback"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Beals Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Benway Lake": {
+      "dataset_match": "Benway",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1957"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Black Crappie",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Common Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "crappie_longear_sunfish"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Clam Lake (Antrim County, Michigan)": {
+      "dataset_match": "Clam",
+      "match_score": 0.9,
+      "survey_records": 2,
+      "survey_years": [
+        "1932",
+        "1958"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Common Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sand_shiner_midminnow_minnow_log_logperch",
+        "sunfish_sunfish_eared_sunfish; strawcolored_minnows_log_perch_muddlers_spottailed_minnows"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Ellsworth Lake (Michigan)": {
+      "dataset_match": "Ellsworth",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1957"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "longear_sunfish; creek_chub"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Hanley Lake": {
+      "dataset_match": "Hanley",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1957"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Common Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "longear_sunfish"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Intermediate Lake": {
+      "dataset_match": "Intermediate",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1957"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Cisco",
+        "Common Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Longnose Gar",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "longear_sunfish; sand_shiner_logperch_perch"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Bellaire": {
+      "dataset_match": "Bellaire",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1957"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Cisco",
+        "Common Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "lake_trout_smelt_longear_sunfish; sand_shiner_logperch_perch"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Skegemog": {
+      "dataset_match": "Skegemog",
+      "match_score": 0.9,
+      "survey_records": 2,
+      "survey_years": [
+        "1932",
+        "1956"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "grass_pike_sunfish; rosyfronted_minnows_strawcolored_shiners_logperch_perch",
+        "muskellunge; rosyface_shiner_logperch"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Scotts Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Six Mile Lake (Michigan)": {
+      "dataset_match": "Sixmile",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1951"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Common Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "crappie_muskellunge_longear_sunfish"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "St. Clair Lake (Michigan)": {
+      "dataset_match": "Stclair",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1957"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "longear_sunfish_green_sunfish; logperch_creek_chub"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Thayer Lake (Antrim County)": {
+      "dataset_match": "Thayer",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1932"
+      ],
+      "species": [
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Common Shiner",
+        "Iowa Darter",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "rosyfronted_fronted_minnow"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Wilson Lake (Michigan)": {
+      "dataset_match": "Wilson",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1957"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "muskelunge_green_sunfish_longear_sunfish; creek_chub"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Bay": {
+    "downstream to Huron Bay (T51N, R31W,                 Betsie Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Silver River                                   4     Crystal Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "from Sicotte Road (T51N, R31W, S2)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Barry": {
+    "Deep Lake": {
+      "dataset_match": "Deep",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1936"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brook Silverside",
+        "Brown Bullhead",
+        "Brown Trout",
+        "Cisco",
+        "Common Shiner",
+        "Iowa Darter",
+        "Largemouth Bass",
+        "Mimic Shiner",
+        "Pumpkinseed",
+        "Rock Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "silversides"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Gull Lake": {
+      "dataset_match": "Gull",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1941"
+      ],
+      "species": [
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Cisco",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "labidesthes_bluntnose_n_cornutus; suckers_mullet; gars"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "SC - Closed to Fishing \u2014 within 300 ft. of            Birch Lake": {
+      "dataset_match": "Fish",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1946"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brook Silverside",
+        "Cisco",
+        "Common Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "Spotted Gar",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "longear_sunfish_green_sunfish; blackstripe_topminnow_minnow_log_perch_least_darter_hornyhead_chub_creek_chub"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "whenever weir is in place.                            Harwood Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Hemlock Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Gun Lake (Michigan)": {
+      "dataset_match": "Gun",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1950"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brook Silverside",
+        "Bullhead (unspecified)",
+        "Common Carp",
+        "Golden Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "muskellunge; sand_shiner_spottail_shiner_spotfin_shiner_logperch_creek_chub_spottail_shiner; gars_not_specified"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Jordan Lake (Michigan)": {
+      "dataset_match": "Jordan",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1957"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Bluegill",
+        "Bowfin",
+        "Brook Silverside",
+        "Brown Bullhead",
+        "Common Shiner",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sand_shiner_spotfin_shiner_bluntnose_chub_mudminnow_hornyhead_chub_tadpole_madtom"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Charlevoix": {
+    "South Branch Galien River                       4     Lake Charlevoix (including Round": {
+      "dataset_match": "Round",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1959"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Common Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "spottail_tail_shiner_n_muddler_ninespine_stickleback_longnose_longnose_dace; alewife"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Galien River.                                         Thumb (Louise) Lake": {
+      "dataset_match": "Thumb",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1941"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brook Trout",
+        "Iowa Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rainbow Trout",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "strawcolored_colored_minnow"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Charlevoix": {
+      "dataset_match": "Charlevoix",
+      "match_score": 0.9,
+      "survey_records": 2,
+      "survey_years": [
+        "1955",
+        "1959"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Brown Trout",
+        "Bullhead (unspecified)",
+        "Cisco",
+        "Common Carp",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rainbow Trout",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "smelt_longear_sunfish_white_bass; redbelly_dace_sand_shiner_spottail_shiner_logperch_creek_chub_longnose_dace_n_muddler_troutperch; alewife",
+        "whitefish_smelt_muskellunge; brook_stickleback_and_others; suckers; alewife"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Six Mile Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "St. Clair Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Thumb Lake": {
+      "dataset_match": "Thumb",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1941"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brook Trout",
+        "Iowa Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rainbow Trout",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "strawcolored_colored_minnow"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Walloon Lake": {
+      "dataset_match": "Walloon",
+      "match_score": 1.0,
+      "survey_records": 2,
+      "survey_years": [
+        "1945",
+        "1957"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Cisco",
+        "Common Shiner",
+        "Iowa Darter",
+        "Largemouth Bass",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "lake_trout; herring; walleye_and_northern_pike_present",
+        "lake_trout_common_smelt; sand_shiner_mudminnow"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Lake": {
+    "Boyne River                                   4      Naomikong Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Naomikong Pond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Madelyn Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Big Glen Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "(Johnson\u2019s Bridge T20N, R14W, S24).                  North Lake Leelanau": {
+      "dataset_match": "North",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1952"
+      ],
+      "species": [
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Common Shiner",
+        "Iowa Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Pentwater Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Center Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Cheboygan": {
+    "Silver Lake                                   B      Bright Lake": {
+      "dataset_match": "Silver",
+      "match_score": 0.9,
+      "survey_records": 4,
+      "survey_years": [
+        "1931",
+        "1942"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Common Carp",
+        "Iowa Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "bluntnosed_minnow; carp_wrote_under_coarse; carp_",
+        "carp_"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Tower Pond (from dam to M-68)                 E      Kneff Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Weber Lake                                    B      Shupac Lake": {
+      "dataset_match": "Weber",
+      "match_score": 0.9,
+      "survey_records": 2,
+      "survey_years": [
+        "1943"
+      ],
+      "species": [
+        "Bluntnose Minnow",
+        "Largemouth Bass",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "lake_emerald_shiners",
+        "sunfish_largemouth"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Black Lake (Michigan)": {
+      "dataset_match": "Black",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1939"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Blackchin Shiner",
+        "Bluntnose Minnow",
+        "Brown Trout",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Longnose Gar",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rainbow Trout",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "log_perch_spot_strawcolored_shiner_log_perch_spot_spottailed_shiner_northern_dace; moxostoma_sp"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Burt Lake": {
+      "dataset_match": "Burt",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1955"
+      ],
+      "species": [
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brown Bullhead",
+        "Common Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rainbow Trout",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sand_shiner_emerald_shiner_mudminnow_logperch_sculpin_creek_chub; suckers"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Douglas Lake (Cheboygan County, Michigan)": {
+      "dataset_match": "Douglas",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1959"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Bluegill",
+        "Brown Bullhead",
+        "Cisco",
+        "Common Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sand_shiner_spottail_shiner_logperch_troutperch"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Inland Waterway (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Mullett Lake": {
+      "dataset_match": "Mullett",
+      "match_score": 1.0,
+      "survey_records": 2,
+      "survey_years": [
+        "1956"
+      ],
+      "species": [
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brown Bullhead",
+        "Common Carp",
+        "Common Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "muskellunge_sturgeon; sand_shiner; alewife_redhorse",
+        "muskellunge_sturgeon; sand_shiner; alewife_redhorse; carp"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Munro Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Straits of Mackinac": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Chippewa": {
+    "Highbanks Lake": {
+      "dataset_match": "Highbanks",
+      "match_score": 1.0,
+      "survey_records": 2,
+      "survey_years": [
+        "1949",
+        "1950"
+      ],
+      "species": [
+        "Bluegill",
+        "Bullhead (unspecified)",
+        "Largemouth Bass",
+        "Pumpkinseed",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "suckers_and_bullheads"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake George (Michigan\u2013Ontario)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Delta": {
+    "Bear Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Corner-Straits Chain of lakes": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Hugaboom Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Moss Lake (Delta County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Mowe Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Ostrander Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Round Lake (Alger and Delta Counties, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Stoner Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Toms Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Eaton": {
+    "Carr Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Wintergreen Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Zigmaul Pond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Walloon Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Devils Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Delta": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Interstate": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Gogebic": {
+    "Beatons Lake": {
+      "dataset_match": "Beatons",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1937"
+      ],
+      "species": [
+        "Blacknose Shiner",
+        "Bluntnose Minnow",
+        "Brook Trout",
+        "Common Shiner",
+        "Iowa Darter",
+        "Rainbow Trout",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sunfish_fry_lake_trout_brookland_locked_salmon; muddler; sucker"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Redboat Lake": {
+      "dataset_match": "Redboat",
+      "match_score": 1.0,
+      "survey_records": 2,
+      "survey_years": [
+        "1960",
+        "1978"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Largemouth Bass",
+        "Pumpkinseed",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "splake_last_introduced_4_years_prior_to_survey"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Clark Lake (Gogebic County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Deer Island Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Fisher Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Kinwamakwad (Long) Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lac Vieux Desert": {
+      "dataset_match": "Lacvieuxdesert",
+      "match_score": 1.0,
+      "survey_records": 2,
+      "survey_years": [
+        "1959",
+        "1971"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Golden Shiner",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "burbot",
+        "n_muskellunge; redhorse"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Gogebic": {
+      "dataset_match": "Gogebic",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1938"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bowfin",
+        "Cisco",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "cisco_crappies; suckers"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Loon Lake (Gogebic County, Michigan)": {
+      "dataset_match": "Loon",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1966"
+      ],
+      "species": [
+        "Cisco",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "ciscoe; suckers"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Peter and Paul Lakes": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Hillsdale": {
+    "Bear Lake": {
+      "dataset_match": "Bear",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1931"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brook Silverside",
+        "Brown Bullhead",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Lake Chubsucker",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sunfish; log_perch_straw_colored_shiner"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "of Bathtub Falls (T50N, R45W, S1) to L.               Bird Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Ontonagon": {
+    "Little Carp River                              3      Clear Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "from Traders Falls (T50N, R45W, S2)                   Penegor Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Perrault Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Corpse Pond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Gogebic": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake of the Clouds": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Iron": {
+    "Chicagon Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "upstream limit is Cemetery Road (T56N,             Deadman\u2019s Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "R32W, S29).                                        Ellen Lake": {
+      "dataset_match": "Ellen",
+      "match_score": 0.9,
+      "survey_records": 2,
+      "survey_years": [
+        "1948",
+        "1950"
+      ],
+      "species": [
+        "Bluegill",
+        "Common Shiner",
+        "Largemouth Bass",
+        "Smallmouth Bass",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sunfish; shiners"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "from unnamed bridge crossing located at": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Brule Lake (Michigan-Wisconsin)": {
+      "dataset_match": "Brule",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1954"
+      ],
+      "species": [
+        "Bluegill",
+        "Brook Trout",
+        "Brown Bullhead",
+        "Brown Trout",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "creek_chub_mottled_sculpin; sturgeon_sucker"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Peavy Pond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Huron": {
+    "Fortune Pond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Golden Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Killdeer Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Ionia": {
+    "Fish Creek                                   4     Spree Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "downstream to confluence with Maple                Timber Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Year-round \u2014 the daily possession                  Cooks Run": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Jackson": {
+    "Farwell (Farewell) Lake": {
+      "dataset_match": "Farwell",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1953"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brook Silverside",
+        "Brown Trout",
+        "Common Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Mimic Shiner",
+        "Rock Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "Logperch; madtom; mudminnow"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Clark Lake (Jackson County, Michigan)": {
+      "dataset_match": "Clark",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1953"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brook Silverside",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Spotted Gar",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "Warmouth; Spottail shiner; spotfin shiner"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Gilletts Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Columbia": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Keweenaw": {
+    "Lost Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lac La Belle, Michigan": {
+      "dataset_match": "Laclabelle",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1941"
+      ],
+      "species": [
+        "Cisco",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Northern Pike",
+        "Rock Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sauger_bass_cisco; spottailed_shiner_shiner; suckers"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Medora (Michigan)": {
+      "dataset_match": "Medora",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1938"
+      ],
+      "species": [
+        "Bluegill",
+        "Cisco",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "whitefish; sucker_minnows"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Siskiwit Lake (Isle Royale)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Lenawee": {
+    "Allens Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Deep Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Devils Lake (Michigan)": {
+      "dataset_match": "Devils",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1950"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brook Silverside",
+        "Brown Bullhead",
+        "Common Carp",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Lake Chubsucker",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "warmouth_grass_pickerel_white_bass_longear_sunfish; spottail_shiner_spotfin_shiner_creek_chub_brook_stickleback_madtom_johnny_darters_least_darters; redhorse_and_hog_sucker"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Hudson (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Luce": {
+    "Bullhead Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Jack Lake": {
+      "dataset_match": "Jack",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1958"
+      ],
+      "species": [
+        "Brook Trout"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Little Whorl Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Betsy Lake (Luce County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Manistique Lake": {
+      "dataset_match": "Manistiquenorth",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1936"
+      ],
+      "species": [
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "minnow; mullet_"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Manistique Lakes": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Muskallonge Lake": {
+      "dataset_match": "Muskallonge",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1936"
+      ],
+      "species": [
+        "Bullhead (unspecified)",
+        "Common Shiner",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "bullhead; minnows_nonspecific; suckers"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Macomb": {
+    "Moon Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Pratt Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake St. Clair": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Clinton": {
+    "Pretty Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Syphon Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Tank Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Trout Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Ovid": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Manistee": {
+    "Wolverine Lake                                     A      Arcadia Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Dam.                                                      Portage Lake": {
+      "dataset_match": "Portage",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1948"
+      ],
+      "species": [
+        "Bluegill",
+        "Bowfin",
+        "Common Carp",
+        "Longnose Gar",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "carp_redhorse"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "power line crossing downstream of                   Cranberry Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Water Street on some maps).                         Forestville Basin": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "SC - Closed to Fishing \u2014 Sep. 1 \u2013 Nov.              Island Lake (T45N, R30W, S14)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "feet downstream from the DNR weir in                Just Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "T21N, R16W, S25 down to the boundary                Lake Arfelin": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "the power line crossing downstream of               Little Brocky Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Little Shag Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "SC - Closed to Fishing \u2014 Year-round                 Moccasin Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Perch Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "SC - Closed to Fishing \u2014 Jan. 1 \u2013 March             Rockingchair Lake, North": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Rockingchair Lake, South": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Year-round \u2014 from Johnson Rd                        Silver Lake Basin": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Slough Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "limit shall not include more than one (1)           South Kidney Lake (T45N, R26W, S28)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Sporley Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "include more than one (1) Rainbow Trout             Strawberry Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Swanzy Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "RW, S26) downstream to M-115.                        Duck Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Arcadia Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Michigan": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Manistee Lake (Manistee County, Michigan)": {
+      "dataset_match": "Manistee",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1957"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brook Silverside",
+        "Brown Bullhead",
+        "Common Carp",
+        "Common Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rainbow Trout",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "muskellunge; emerald_shiner; n_redhorse_m_aureolum_g_redhorse_m_erythurum_alewife"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Portage Lake (Michigan)": {
+      "dataset_match": "Portage",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1948"
+      ],
+      "species": [
+        "Bluegill",
+        "Bowfin",
+        "Common Carp",
+        "Longnose Gar",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "carp_redhorse"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Marquette": {
+    "Little Manistee River                         4     Bass Lake": {
+      "dataset_match": "Bass",
+      "match_score": 0.9,
+      "survey_records": 4,
+      "survey_years": [
+        "1954",
+        "1976",
+        "1977"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Black Crappie",
+        "Bluntnose Minnow",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Pumpkinseed",
+        "Rainbow Trout",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sand_shiner",
+        "sculpin_creek_chub"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "from Johnson Rd. (Johnson\u2019s Bridge)                 Big Trout Lake": {
+      "dataset_match": "Bigtrout",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1938"
+      ],
+      "species": [
+        "Blacknose Shiner",
+        "Brook Trout",
+        "Golden Shiner",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "semotilus_northern_redbellied_dace_northern_fine_finescaled_dace_margariscus_sp"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Deer Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Goose Lake (Marquette County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Greenwood Reservoir": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Bancroft": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Gribben": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Independence (Michigan)": {
+      "dataset_match": "Independence",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1936"
+      ],
+      "species": [
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "walleye_pike; minnows_abundant"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Michigamme": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Teal Lake (Michigan)": {
+      "dataset_match": "Teal",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1946"
+      ],
+      "species": [
+        "Walleye",
+        "Yellow Perch"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Mecosta": {
+    "Little Muskegon River                          4     Marl Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Townline Lake": {
+      "dataset_match": "Townline",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1966"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Black Crappie",
+        "Bluegill",
+        "Bowfin",
+        "Brown Bullhead",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "black_bullbends_brown_bullbends_white_suckers"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Oakland": {
+    "Maceday Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Baldwin Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Cass Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Clam Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Cooley Lake (White Lake Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Crescent Lake (Waterford Township, Michigan)": {
+      "dataset_match": "Crescent",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1952"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "crappies"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Crooked Lake (Independence Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Crystal Lake (Pontiac, Michigan)": {
+      "dataset_match": "Crystal",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1952"
+      ],
+      "species": [],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Dark Lake (Independence Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Deer Lake (Independence Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Dollar Lake (Independence Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Eagle Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Elizabeth Lake (Waterford, Michigan)": {
+      "dataset_match": "Elizabeth",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1952"
+      ],
+      "species": [
+        "Bluegill",
+        "Largemouth Bass",
+        "Smallmouth Bass",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "shiners_darters_of_shiners_and_darters_not_specified"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Fiddle Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Geneva Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Greens Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Huntoon Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Kent Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Angelus (Michigan)": {
+      "dataset_match": "Angelus",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1952"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brook Silverside",
+        "Cisco",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "longear_sunfish; fantail_darter_brook_silverside"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Goodrich (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Oakland (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Orion (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lakeville Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Leggets Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lester Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "List of lakes of Oakland County, Michigan": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Loon Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lotus Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Mandon Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Middle Lake (Independence Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Mohawk Lake (Waterford Township, Michigan)": {
+      "dataset_match": "Mohawk",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1950"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Golden Shiner",
+        "Lake Chubsucker",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "chub_sucker; rock_bass_green_sunfish; garpike"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Morgan Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Orchard Lake (Michigan)": {
+      "dataset_match": "Orchard",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1940"
+      ],
+      "species": [
+        "Bluegill",
+        "Brown Bullhead",
+        "Cisco",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Otter Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Parke Lake (Independence Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Pine Lake (West Bloomfield Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Pleasant Lake (Waterford Township, Michigan)": {
+      "dataset_match": "Pleasant",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1936"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brook Silverside",
+        "Lake Chubsucker",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "mud_pickerel; strawcolored_shiner"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Pontiac Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Rainbow Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Schoolhouse Lake (Michigan)": {
+      "dataset_match": "Schoolhouse",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1950"
+      ],
+      "species": [
+        "Bluegill",
+        "Bowfin",
+        "Cisco",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "chub_sucker; garpike_bowfin; garpike"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Scott Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Silver Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Spring Lake (Independence Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Sylvan Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Tommys Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Townsend Lake (Independence Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Union Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Upper Bushman Lake (Independence Township, Michigan)": {
+      "dataset_match": "Bush",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1955"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Yellow Perch"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Upper Silver Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Van Norman Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Walled Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Walnut Lake (West Bloomfield Township, Michigan)": {
+      "dataset_match": "Walnut",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1943"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Cisco",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Walleye",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "green_sunfish_longear_sunfish"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Walters Lake (Independence Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Waterford Hill (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Watkins Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Whipple Lake (Independence Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "White Horse Lake": {
+      "dataset_match": "White",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1954"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Iowa Darter",
+        "Lake Chubsucker",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sand_shiner"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "White Lake (White Lake Township, Michigan)": {
+      "dataset_match": "White",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1954"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Iowa Darter",
+        "Lake Chubsucker",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sand_shiner"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Williams Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Woodhull Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Wormer Lake (Waterford Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Newaygo": {
+    "Stony Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Devils Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Hess Lake": {
+      "dataset_match": "Hess",
+      "match_score": 1.0,
+      "survey_records": 3,
+      "survey_years": [
+        "1926",
+        "1947",
+        "1953"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brook Silverside",
+        "Brown Bullhead",
+        "Common Carp",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Lake Chubsucker",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Spotted Gar",
+        "Walleye",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sunfish; bluntnose_pugnose_shiner_creek_chub; large_carp"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Rollway Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Muskegon": {
+    "Trout Creek Pond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Duck Lake State Park": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Michigan": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Mona Lake": {
+      "dataset_match": "Mona",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1956"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Bullhead",
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brook Silverside",
+        "Brown Bullhead",
+        "Cisco",
+        "Golden Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Spotted Gar",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "spottail_shiner_log_perch_emerald_shiner"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Muskegon Lake": {
+      "dataset_match": "Muskegon",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1950"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brook Silverside",
+        "Brown Bullhead",
+        "Common Carp",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "white_bass; blacknose_shiner_log_perch_tadpole_madtom; redhorse_sheepshead; gar_pike_chestnut_lamprey"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "White Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Oscoda": {
+    "Crater Lake                                 A      Lake Macatawa": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Loon Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Pigeon Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Tea Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Otsego": {
+    "Ford Lake": {
+      "dataset_match": "Ford",
+      "match_score": 1.0,
+      "survey_records": 4,
+      "survey_years": [
+        "1932"
+      ],
+      "species": [
+        "Yellow Perch"
+      ],
+      "extras": [
+        "perch"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Pickerel Lake": {
+      "dataset_match": "Pickerel",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1932"
+      ],
+      "species": [
+        "Brook Trout",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Smallmouth Bass",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "trout; mudminnow_minnow"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Section Four Lake": {
+      "dataset_match": "Section",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1932"
+      ],
+      "species": [
+        "Yellow Perch"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "West Lost Lake": {
+      "dataset_match": "Westlost",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1932"
+      ],
+      "species": [],
+      "extras": [
+        "fathead_minnows"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Heart Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Otsego Lake (Michigan)": {
+      "dataset_match": "Otsego",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1949"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Bullhead",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Common Shiner",
+        "Iowa Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "mud_mudminnow_horny_hornyhead_chub_river_chub"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Roscommon": {
+    "Black River                                 GR     Higgins Lake": {
+      "dataset_match": "Higgins",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1939"
+      ],
+      "species": [
+        "Bluntnose Minnow",
+        "Cisco",
+        "Johnny Darter",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "miskie_dad_muskie; notropis_deliciosus_n_rubellus_n_whipplii_n_hudsonius; suckers; gar__reported_not_seen"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Backus Lake": {
+      "dataset_match": "Backus",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1956"
+      ],
+      "species": [
+        "Blacknose Shiner",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Northern Pike",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "various_minnows"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Higgins Lake": {
+      "dataset_match": "Higgins",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1939"
+      ],
+      "species": [
+        "Bluntnose Minnow",
+        "Cisco",
+        "Johnny Darter",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "miskie_dad_muskie; notropis_deliciosus_n_rubellus_n_whipplii_n_hudsonius; suckers; gar__reported_not_seen"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Houghton Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Houghton Lake Flats": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake St. Helen": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Little Mud Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Marl Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "The Cut (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Schoolcraft": {
+    "Banana Lake                               B      Shafer Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Bear (Nineteen) Lake": {
+      "dataset_match": "Nineteenbear",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1952"
+      ],
+      "species": [
+        "Bluntnose Minnow",
+        "Iowa Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "minnows"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Kings Pond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Corner-Straits Chain of lakes": {
+      "dataset_match": "Corner",
+      "match_score": 0.9,
+      "survey_records": 3,
+      "survey_years": [
+        "1937",
+        "1957"
+      ],
+      "species": [
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker"
+      ],
+      "extras": [
+        "brown_bullheads; common_darters_log_perch",
+        "common_log_log_perch",
+        "sunfish; log_perch_mud_minnow_cottus_common_shiner_cottus"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Indian Lake (Schoolcraft County, Michigan)": {
+      "dataset_match": "Indian",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1937"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brook Trout",
+        "Brown Bullhead",
+        "Cisco",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sunfish; strawcolored_shiner_muddler_stickleback_spottail_mudminnow_log_perch_mud_minnow_catonotus_lineolatus_strawcolored_shiner; moxostoma_cisco"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Ironjaw Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Kitch-iti-kipi": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Nineteen": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Ostrander Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Toms Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Verdant Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Alpena": {
+    "Devils Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Fletcher Pond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Baraga": {
+    "Lake Michigamme": {
+      "dataset_match": "Michigamme",
+      "match_score": 0.9,
+      "survey_records": 2,
+      "survey_years": [
+        "1938",
+        "1950"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Cisco",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sturgeon_sucker",
+        "walleyed_pike; muddler; finescaled_scaled_sucker_mullet_"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Benzie": {
+    "Crystal Lake (Benzie County, Michigan)": {
+      "dataset_match": "Crystal",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1940"
+      ],
+      "species": [
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Cisco",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "smelt_whitefish_and_lake_trout; straw_colored_shiner_log_perch_lake_emerald_shiner_and_spottail_tail_shiner; lawyer"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Platte Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Berrien": {
+    "Black Lake (Berrien County, Michigan)": {
+      "dataset_match": "Black",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1956"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Common Carp",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Boyle Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Brush Lake (Berrien County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Clear Lake (Berrien County, Michigan)": {
+      "dataset_match": "Clear",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1955"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Golden Shiner"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Colvin Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Coveney Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Garwood Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Half Moon Lake (Berrien County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Harris Lake (Berrien County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Jarvis Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Judy Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Klutes Lakes": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Michigan": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Little Indian Lake (Berrien County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Madron Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Moon Lake (Berrien County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Murphy Lake (Berrien County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Paw Paw Lake": {
+      "dataset_match": "Pawpawbig",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1954"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Bowfin",
+        "Common Carp",
+        "Lake Chubsucker",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Spotted Gar",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "crappies; chub_suckers"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Riggins Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Round Lake (Berrien County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Rowe Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "School Lake (Berrien County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Sherwood Lake (Berrien County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Singer Lake": {
+      "dataset_match": "Singer",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1953"
+      ],
+      "species": [
+        "Bluegill",
+        "Bowfin",
+        "Common Carp",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Pumpkinseed",
+        "Spotted Gar",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "gar_carp_specified"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Smith Lake (Berrien County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "South Clear Lake": {
+      "dataset_match": "Clear",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1955"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Golden Shiner"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Weaver Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Webster Lake (Berrien County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Yellow Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Branch": {
+    "Coldwater Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake George (Indiana\u2013Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Lavine (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Calhoun": {
+    "Goguac Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lyon Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Cass": {
+    "Corey Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Indian Lake (Cass County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Clare": {
+    "Budd Lake (Michigan)": {
+      "dataset_match": "Budd",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1938"
+      ],
+      "species": [
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bullhead (unspecified)",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "green_sunfish_bullhead; minnows_various_shiner"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Thirteen": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Little Long Lake (Clare County, Michigan)": {
+      "dataset_match": "Long",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1950"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brook Silverside",
+        "Brown Bullhead",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "longear_sunfish"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lost Lake (Clare County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Crawford": {
+    "Lake Margrethe": {
+      "dataset_match": "Margrethe",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1954"
+      ],
+      "species": [
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Common Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "forage_minnow_sand_shiner_redbelly_dace_spotted_shiner_logperch_perch"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Dickinson": {
+    "Fumee Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Antoine": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Emmet": {
+    "Burt Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Crooked Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "French Farm Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Inland Waterway (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Paradise (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Round Lake (Emmet County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Straits of Mackinac": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Walloon Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Wycamp Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Genesee": {
+    "Lake Fenton (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Otter Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Gladwin": {
+    "Edenville Dam": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Pratt Lake": {
+      "dataset_match": "Pratt'S",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1953"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Walleye",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "spotfin_pug_pugnose_shiner_brook_stickleback"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Wixom Lake": {
+      "dataset_match": "Wixom",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1951"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Common Carp",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "fathead_sand_shiner_spotfin_shiner_brassy_minnow_hornyhead_chub_stoneroller_logperch_blackside_darter_blackside_darter; carp"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Grand Traverse": {
+    "Arbutus Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Bass Lake (Long Lake Township, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Boardman Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Cedar Hedge Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Duck Lake (Grand Traverse County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Elk Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Fife Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Green Lake (Grand Traverse County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Dubonnet": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Michigan": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Skegemog": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Long Lake (Grand Traverse County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Rennie Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Silver Lake (Grand Traverse County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Spider Lake (Grand Traverse County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Houghton": {
+    "Houghton-Douglass Falls": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Keweenaw Waterway": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Portage Lake (Keweenaw)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Torch Lake (Houghton County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Ingham": {
+    "Lake Lansing": {
+      "dataset_match": "Lansing",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1938"
+      ],
+      "species": [
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Bullhead (unspecified)",
+        "Common Carp",
+        "Lake Chubsucker",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "blackchin_minnow_labidesthes; chub_sucker_carp"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Lansing Park North": {
+      "dataset_match": "Lansing",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1938"
+      ],
+      "species": [
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Bullhead (unspecified)",
+        "Common Carp",
+        "Lake Chubsucker",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "blackchin_minnow_labidesthes; chub_sucker_carp"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Iosco": {
+    "Iargo Springs": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Tawas Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Isabella": {
+    "Weidman Millpond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Kalkaska": {
+    "Bear Lake (Michigan)": {
+      "dataset_match": "Bear",
+      "match_score": 0.9,
+      "survey_records": 3,
+      "survey_years": [
+        "1926",
+        "1930"
+      ],
+      "species": [
+        "Bluntnose Minnow",
+        "Bullhead (unspecified)",
+        "Iowa Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "suckers_perch_bluntnosed_darters"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Fife Lake (Michigan)": {
+      "dataset_match": "Fivelake",
+      "match_score": 0.88,
+      "survey_records": 1,
+      "survey_years": [
+        "1930"
+      ],
+      "species": [
+        "Bluegill",
+        "Bullhead (unspecified)",
+        "Largemouth Bass",
+        "Pumpkinseed"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Five (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Skegemog": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Long Lake (Kalkaska County, Michigan)": {
+      "dataset_match": "Long",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1930"
+      ],
+      "species": [],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    },
+    "Starvation Lake": {
+      "dataset_match": "Starvation",
+      "match_score": 1.0,
+      "survey_records": 2,
+      "survey_years": [
+        "1930",
+        "1943"
+      ],
+      "species": [
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "suckers"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Torch Lake (Antrim County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Kent": {
+    "Fisk Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Bella Vista (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lamberton Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Murray Lake (Michigan)": {
+      "dataset_match": "Murray",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1955"
+      ],
+      "species": [
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brown Bullhead",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "longear_ear_sunfish; skip_jack"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Reeds Lake": {
+      "dataset_match": "Reeds",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1974"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Black Crappie",
+        "Bluegill",
+        "Brown Bullhead",
+        "Common Carp",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "present; carp"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Lapeer": {
+    "Otter Lake (Michigan)": {
+      "dataset_match": "Otter",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1962"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Golden Shiner",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Yellow Perch"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Leelanau": {
+    "Glen Lake": {
+      "dataset_match": "Glenbig)",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1949"
+      ],
+      "species": [
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Cisco",
+        "Common Carp",
+        "Common Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "lake_trout; logperch_perch_spottail_tail_shiner; gars"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Leelanau": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Michigan": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lime Lake (Michigan)": {
+      "dataset_match": "Lime",
+      "match_score": 0.9,
+      "survey_records": 2,
+      "survey_years": [
+        "1947",
+        "1965"
+      ],
+      "species": [
+        "Bluegill",
+        "Common Shiner",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "sb_trout; alwines"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Manitou Passage": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "South Bar Lake": {
+      "dataset_match": "Bar",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1958"
+      ],
+      "species": [],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Livingston": {
+    "Strawberry Lake (Michigan)": {
+      "dataset_match": "Strawberry",
+      "match_score": 0.9,
+      "survey_records": 2,
+      "survey_years": [
+        "1939",
+        "1973"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brook Silverside",
+        "Bullhead (unspecified)",
+        "Common Carp",
+        "Common Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "green_sunfish; log_perch_blacksided_darters_silversides",
+        "minnow_sp; suckers; carp"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Zukey Lake": {
+      "dataset_match": "Zukey",
+      "match_score": 1.0,
+      "survey_records": 2,
+      "survey_years": [
+        "1939",
+        "1973"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Bullhead",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brook Silverside",
+        "Bullhead (unspecified)",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "minnow_sp",
+        "sunfish; brassy_minnow_spottailed_tail_shiner_fundulus_log_perch_lake_emerald_shiner_sand_shiner"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Mackinac": {
+    "Chain Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Manistique Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Manistique Lakes": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "South Manistique Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Straits of Mackinac": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Mason": {
+    "Dockery Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Gun Lake (Mason County, Michigan)": {
+      "dataset_match": "Gun",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1932"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Blackchin Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Smallmouth Bass",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "horned_dace_killifish"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Hamlin Lake": {
+      "dataset_match": "Hamlin",
+      "match_score": 1.0,
+      "survey_records": 3,
+      "survey_years": [
+        "1932",
+        "1942",
+        "1967"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Bullhead",
+        "Black Crappie",
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brook Silverside",
+        "Brook Trout",
+        "Brown Bullhead",
+        "Brown Trout",
+        "Bullhead (unspecified)",
+        "Common Carp",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rainbow Trout",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "muskellunge_walleyed_pike; mimic_shiner_spottail_shiner_strawcolored_minnows_tadpole_cats_lake_shiner_log_perch_trout_perch; mullet_suckers_sheephead_catfish_carp_mullet; catfish",
+        "muskie_trout_white_bass; log_perch_sand_shiner_log_perch_spottail_shiner_brook_stickleback_mud_minnow_muddler_tadpole_madtom_least_darter_lake_emerald_shiner; northern_and_golden_redhorse_sheepshead_longeared_sunfish",
+        "redhorse_bullhead; sheepshead"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Ludington Pumped Storage Power Plant": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Pleiness Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Midland": {
+    "Sanford Dam (Michigan)": {
+      "dataset_match": "Sanford",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1951"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Common Carp",
+        "Common Shiner",
+        "Golden Shiner",
+        "Johnny Darter",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "logperch_spotfin_shiner_northern_creek_chub_hornyhead_chub_stoneroller_blackside_darter"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Sanford Lake": {
+      "dataset_match": "Sanford",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1951"
+      ],
+      "species": [
+        "Black Bullhead",
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Common Carp",
+        "Common Shiner",
+        "Golden Shiner",
+        "Johnny Darter",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "logperch_spotfin_shiner_northern_creek_chub_hornyhead_chub_stoneroller_blackside_darter"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Wixom Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Missaukee": {
+    "Lake Missaukee": {
+      "dataset_match": "Missaukee",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1941"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Common Shiner",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "pumpkinseed__bluegill_hybrid; topminnow_killifish; common_sucker"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Montcalm": {
+    "Cowden Lake": {
+      "dataset_match": "Cowden",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1949"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bullhead (unspecified)",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Smallmouth Bass",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Montmorency": {
+    "Fletcher Pond": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Long Lake (Montmorency County, Michigan)": {
+      "dataset_match": "Long",
+      "match_score": 0.9,
+      "survey_records": 2,
+      "survey_years": [
+        "1952"
+      ],
+      "species": [
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Bullhead (unspecified)",
+        "Cisco",
+        "Common Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rainbow Trout",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "bullheads",
+        "longear_sunfish_cisco"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Ottawa": {
+    "Lake Macatawa": {
+      "dataset_match": "Macatawa",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1942"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Crappie",
+        "Blacknose Shiner",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brook Silverside",
+        "Bullhead (unspecified)",
+        "Cisco",
+        "Common Carp",
+        "Common Shiner",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Longnose Gar",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "w_crappie_rb_rock_bass_p_white_bass_fluctuating; lake_e_shiner_spottail_shiner_sand_shiner_bigmouthed_shiner_spotfin_s_creek_chub; sheepshead_channel_cat_shovelhead_b_shovelhead; sn_gar"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Presque Isle": {
+    "Black Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Grand Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "St. Clair": {
+    "Lake St. Clair": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "St. Joseph": {
+    "Corey Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Fishers Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Klinger Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Templene": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Little Pleasant Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Pleasant Lake (St. Joseph County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Portage Lake (St. Joseph County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Tuscola": {
+    "Murphy Lake (Tuscola County, Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Van Buren": {
+    "Bankson Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Gravel Lake (Michigan)": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Washtenaw": {
+    "Belleville Lake": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Ford Lake (Michigan)": {
+      "dataset_match": "Ford",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1938"
+      ],
+      "species": [
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Brown Bullhead",
+        "Golden Shiner",
+        "Mimic Shiner",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "perch; e_blennoides; carp"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Green Lake (Washtenaw County, Michigan)": {
+      "dataset_match": "Green",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1936"
+      ],
+      "species": [
+        "Blackchin Shiner",
+        "Blacknose Shiner",
+        "Brown Bullhead",
+        "Golden Shiner",
+        "White Sucker",
+        "Yellow Bullhead",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "mud_pickerel; sucker"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  },
+  "Wayne": {
+    "Belleville Lake": {
+      "dataset_match": "Belleville",
+      "match_score": 1.0,
+      "survey_records": 1,
+      "survey_years": [
+        "1973"
+      ],
+      "species": [
+        "Bluegill",
+        "Common Carp",
+        "Largemouth Bass",
+        "Pumpkinseed",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Bullhead"
+      ],
+      "extras": [
+        "fathead_minnows; spotted_sucker"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake St. Clair": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    }
+  },
+  "Wexford": {
+    "Clam Lake Canal": {
+      "species": [],
+      "extras": [],
+      "source": null,
+      "note": "No historical survey data available"
+    },
+    "Lake Cadillac": {
+      "dataset_match": "Cadillac",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1941"
+      ],
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brown Bullhead",
+        "Common Shiner",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "crappie; log_perch_blacksided_darter"
+      ],
+      "source": "changes-um-zenodo"
+    },
+    "Lake Mitchell (Michigan)": {
+      "dataset_match": "Mitchell",
+      "match_score": 0.9,
+      "survey_records": 1,
+      "survey_years": [
+        "1937"
+      ],
+      "species": [
+        "Banded Killifish",
+        "Black Bullhead",
+        "Black Crappie",
+        "Bluegill",
+        "Bluntnose Minnow",
+        "Bowfin",
+        "Brown Bullhead",
+        "Golden Shiner",
+        "Iowa Darter",
+        "Johnny Darter",
+        "Largemouth Bass",
+        "Mimic Shiner",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Sucker",
+        "Yellow Perch"
+      ],
+      "extras": [
+        "crappie; strawcolored_shiner_spottail_shiner_log_perch_and_mud_minnow"
+      ],
+      "source": "changes-um-zenodo"
+    }
+  }
+}

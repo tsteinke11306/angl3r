@@ -73,6 +73,14 @@ export interface RegsData {
     type_tables_have_ocr: boolean;
     species_count?: number;
     counties_with_exceptions?: number;
+    /** Historical survey dataset metadata (optional). */
+    survey_source?: {
+      title: string;
+      publisher: string;
+      doi: string;
+      license: string;
+      description: string;
+    };
   };
   lakes: Lake[];
   streams: Stream[];
@@ -88,6 +96,21 @@ export interface RegsData {
   documents: RegulationDoc[];
   type_tables: TypeTables;
   species: SpeciesTables;
+  /** Historical fish survey data mapped per waterbody (county -> name -> entry). */
+  species_by_waterbody?: {
+    [county: string]: {
+      [name: string]: {
+        dataset_match?: string;
+        match_score?: number;
+        survey_records?: number;
+        survey_years?: string[];
+        species: string[];
+        extras: string[];
+        source: string | null;
+        note?: string;
+      };
+    };
+  };
   counties: {
     order: string[];
     stats: Record<string, {
