@@ -14364,10 +14364,47 @@
         "dataset": "summ"
       },
       "Bette\u2019s Pond": {
-        "species": [],
+        "dataset_match": "Bette'S Pond",
+        "match_score": 0.91,
+        "survey_records": 31,
+        "survey_years": [
+          "1992",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1999",
+          "2000",
+          "2001",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        "species": [
+          "Brook Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Cheryl\u2019s Pond (T44N, R19W, S25)": {
         "dataset_match": "Cherry",
@@ -14578,10 +14615,20 @@
         "note": "No historical survey data available"
       },
       "Gun Lake (Michigan)": {
-        "species": [],
+        "dataset_match": "Gun Lake",
+        "match_score": 1.0,
+        "survey_records": 5,
+        "survey_years": [
+          "1998",
+          "1999",
+          "2014"
+        ],
+        "species": [
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Kalamazoo Lake": {
         "dataset_match": "Kalamazoo",
@@ -14624,10 +14671,64 @@
         "note": "No historical survey data available"
       },
       "Little Paw Paw Lake": {
-        "species": [],
+        "dataset_match": "Little Paw Paw Lake",
+        "match_score": 1.0,
+        "survey_records": 48,
+        "survey_years": [
+          "1979",
+          "1980",
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1985",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        "species": [
+          "Rainbow Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Hook Restriction: From May 1 \u2013 July": {
         "species": [],
@@ -14678,10 +14779,27 @@
         "note": "No historical survey data available"
       },
       "Gull Lake (Michigan)": {
-        "species": [],
+        "dataset_match": "Gull Lake",
+        "match_score": 1.0,
+        "survey_records": 15,
+        "survey_years": [
+          "1986",
+          "1988",
+          "1993",
+          "1994",
+          "1996",
+          "2006",
+          "2007",
+          "2016",
+          "2019"
+        ],
+        "species": [
+          "Lake Trout",
+          "Rainbow Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       }
     },
     "Antrim": {
@@ -15785,16 +15903,52 @@
     },
     "Cheboygan": {
       "Silver Lake                                   B      Bright Lake": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Bluegill",
+          "Green Sunfish",
+          "Killifish",
+          "Lake Trout",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sturgeon",
+          "Sucker",
+          "Walleye",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0200_2012_SilverLake.pdf",
+        "text_length": 14405,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Tower Pond (from dam to M-68)                 E      Kneff Lake": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "Not a real waterbody (PDF parsing artifact)"
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Bullhead",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Sucker",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0217_2012_TowerPond.pdf",
+        "text_length": 25949,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Weber Lake                                    B      Shupac Lake": {
         "dataset_match": "Weberlake",
@@ -16094,18 +16248,65 @@
         "dataset": "summ"
       },
       "Lake George (Michigan\u2013Ontario)": {
-        "species": [],
+        "dataset_match": "Lake George",
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": [
+          "2007"
+        ],
+        "species": [
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       }
     },
     "Delta": {
       "Bear Lake": {
-        "species": [],
+        "dataset_match": "Bear Lake",
+        "match_score": 1.0,
+        "survey_records": 56,
+        "survey_years": [
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2014",
+          "2016",
+          "2018",
+          "2019",
+          "2020",
+          "2022",
+          "2024"
+        ],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Corner-Straits Chain of lakes": {
         "species": [],
@@ -16138,10 +16339,42 @@
         "note": "No historical survey data available"
       },
       "Round Lake (Alger and Delta Counties, Michigan)": {
-        "species": [],
+        "dataset_match": "Round Lake",
+        "match_score": 1.0,
+        "survey_records": 37,
+        "survey_years": [
+          "1983",
+          "1984",
+          "1985",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1992",
+          "1994",
+          "1996",
+          "1998",
+          "2000",
+          "2002",
+          "2004",
+          "2006",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2014",
+          "2016",
+          "2019"
+        ],
+        "species": [
+          "Bluegill",
+          "Tiger Muskellunge",
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Stoner Lake": {
         "species": [],
@@ -16188,16 +16421,85 @@
         "note": "No historical survey data available"
       },
       "Lake Delta": {
-        "species": [],
+        "dataset_match": "Lake Delta (Erickson Pond)",
+        "match_score": 1.0,
+        "survey_records": 35,
+        "survey_years": [
+          "1987",
+          "1988",
+          "1991",
+          "1992",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2002",
+          "2003",
+          "2005",
+          "2009",
+          "2010",
+          "2011",
+          "2013",
+          "2015",
+          "2017",
+          "2019",
+          "2021",
+          "2024"
+        ],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Brown Bullhead",
+          "Channel Catfish",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Lake Interstate": {
-        "species": [],
+        "dataset_match": "Lake Interstate",
+        "match_score": 1.0,
+        "survey_records": 34,
+        "survey_years": [
+          "1991",
+          "1992",
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2009",
+          "2010",
+          "2011",
+          "2013",
+          "2015",
+          "2017",
+          "2019",
+          "2021",
+          "2022",
+          "2024"
+        ],
+        "species": [
+          "Channel Catfish",
+          "Largemouth Bass",
+          "Rainbow Trout",
+          "Redear Sunfish"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       }
     },
     "Gogebic": {
@@ -16799,18 +17101,79 @@
         "dataset": "grow"
       },
       "Lake Columbia": {
-        "species": [],
+        "dataset_match": "Lake Columbia",
+        "match_score": 1.0,
+        "survey_records": 27,
+        "survey_years": [
+          "1979",
+          "1981",
+          "1982",
+          "2003",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2016",
+          "2018"
+        ],
+        "species": [
+          "Black Crappie",
+          "Fathead Minnow",
+          "Hybrid Sunfish",
+          "Northern Pike",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       }
     },
     "Keweenaw": {
       "Lost Lake": {
-        "species": [],
+        "dataset_match": "Lost Lake",
+        "match_score": 1.0,
+        "survey_records": 28,
+        "survey_years": [
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        "species": [
+          "Brook Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Lac La Belle, Michigan": {
         "dataset_match": "Laclabelle",
@@ -16952,58 +17315,34 @@
         "dataset": "grow"
       },
       "Devils Lake (Michigan)": {
-        "dataset_match": "Devils",
-        "match_score": 1.0,
-        "survey_records": 192,
-        "survey_years": [
-          "1950",
-          "1964",
-          "1978",
-          "1982",
-          "1984",
-          "1988",
-          "1992"
-        ],
         "species": [
-          "Banded Killifish",
           "Black Crappie",
-          "Blackchin Shiner",
-          "Blacknose Shiner",
           "Bluegill",
-          "Bluntnose Minnow",
           "Bowfin",
-          "Brook Silverside",
-          "Brown Bullhead",
-          "Common Carp",
-          "Golden Shiner",
-          "Grass Pickerel",
-          "Iowa Darter",
-          "Johnny Darter",
-          "Lake Chubsucker",
+          "Bullhead",
+          "Gar",
           "Largemouth Bass",
           "Longnose Gar",
+          "Muskellunge",
           "Northern Pike",
           "Pumpkinseed",
           "Redear Sunfish",
           "Rock Bass",
           "Smallmouth Bass",
+          "Sucker",
           "Tiger Muskellunge",
           "Walleye",
+          "Warmouth",
           "White Bass",
-          "White Sucker",
-          "Yellow Bullhead",
           "Yellow Perch"
         ],
-        "extras": [
-          "Creek Chub - 9, Spotfin Shiner - 15",
-          "Creek chub-1, Spotfin shiner-43",
-          "Spotfin Shiner - 14",
-          "Spotfin Shiner - 26",
-          "Spotfin Shiner - 64",
-          "warmouth_grass_pickerel_white_bass_longear_sunfish; spottail_shiner_spotfin_shiner_creek_chub_brook_stickleback_madtom_johnny_darters_least_darters; redhorse_and_hog_sucker"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "summ"
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0042_1993_DevilsLake.pdf",
+        "text_length": 19835,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Lake Hudson (Michigan)": {
         "dataset_match": "Hudson()",
@@ -17024,10 +17363,60 @@
     },
     "Luce": {
       "Bullhead Lake": {
-        "species": [],
+        "dataset_match": "Bullhead Lake",
+        "match_score": 1.0,
+        "survey_records": 42,
+        "survey_years": [
+          "1979",
+          "1980",
+          "1981",
+          "1984",
+          "1985",
+          "1986",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2024",
+          "2025"
+        ],
+        "species": [
+          "Brook Trout",
+          "Rainbow Trout",
+          "Splake"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Jack Lake": {
         "dataset_match": "Jack",
@@ -17221,10 +17610,30 @@
     },
     "Clinton": {
       "Pretty Lake": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Bluegill",
+          "Brook Trout",
+          "Brown Trout",
+          "Darter",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Splake",
+          "Sucker",
+          "Walleye",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0372_2021_PrettyLake.pdf",
+        "text_length": 33364,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Syphon Lake": {
         "species": [],
@@ -17356,10 +17765,29 @@
         "note": "Not a real waterbody (PDF parsing artifact)"
       },
       "Little Shag Lake": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Bluegill",
+          "Brown Trout",
+          "Darter",
+          "Green Sunfish",
+          "Largemouth Bass",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Splake",
+          "Sucker",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0129_2008_LittleShagLake.pdf",
+        "text_length": 24575,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "SC - Closed to Fishing \u2014 Year-round                 Moccasin Lake": {
         "species": [],
@@ -17404,10 +17832,26 @@
         "note": "Not a real waterbody (PDF parsing artifact)"
       },
       "Sporley Lake": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Minnow",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Smallmouth Bass",
+          "Splake",
+          "Sucker",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0170_2010_SporleyLake.pdf",
+        "text_length": 17258,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "include more than one (1) Rainbow Trout             Strawberry Lake": {
         "species": [],
@@ -17428,16 +17872,63 @@
         "note": "No historical survey data available"
       },
       "Arcadia Lake (Michigan)": {
-        "species": [],
+        "dataset_match": "Arcadia Lake",
+        "match_score": 1.0,
+        "survey_records": 8,
+        "survey_years": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017"
+        ],
+        "species": [
+          "Brown Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Lake Michigan": {
-        "species": [],
+        "dataset_match": "Lake Michigan",
+        "match_score": 1.0,
+        "survey_records": 35,
+        "survey_years": [
+          "1984",
+          "1985",
+          "1986",
+          "1989",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2015",
+          "2017",
+          "2018",
+          "2023"
+        ],
+        "species": [
+          "Brown Trout",
+          "Lake Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Manistee Lake (Manistee County, Michigan)": {
         "dataset_match": "Manistee",
@@ -18216,10 +18707,38 @@
         "dataset": "grow"
       },
       "Middle Lake (Independence Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brown Bullhead",
+          "Bullhead",
+          "Gar",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Killifish",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0417_2023_MiddleLake.pdf",
+        "text_length": 27218,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Mohawk Lake (Waterford Township, Michigan)": {
         "dataset_match": "Mohawk",
@@ -18395,10 +18914,39 @@
         "dataset": "fishc"
       },
       "Rainbow Lake (Waterford Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brown Bullhead",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Carp",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Redear Sunfish",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "Whitefish",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0439_2025_Rainbow_Lake.pdf",
+        "text_length": 38001,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Schoolhouse Lake (Michigan)": {
         "dataset_match": "Schoolhouse",
@@ -18547,10 +19095,22 @@
         "note": "No historical survey data available"
       },
       "Upper Silver Lake (Waterford Township, Michigan)": {
-        "species": [],
+        "dataset_match": "Upper Silver Lake",
+        "match_score": 1.0,
+        "survey_records": 4,
+        "survey_years": [
+          "1979",
+          "1980",
+          "1981",
+          "1982"
+        ],
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Van Norman Lake (Michigan)": {
         "species": [],
@@ -18559,10 +19119,21 @@
         "note": "No historical survey data available"
       },
       "Walled Lake (Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Bluegill",
+          "Green Sunfish",
+          "Largemouth Bass",
+          "Pumpkinseed",
+          "Shiner",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0291_2016_WalledLake.pdf",
+        "text_length": 26959,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Walnut Lake (West Bloomfield Township, Michigan)": {
         "dataset_match": "Walnut",
@@ -18810,10 +19381,32 @@
         "note": "No historical survey data available"
       },
       "Lake Michigan": {
-        "species": [],
+        "dataset_match": "Lake Michigan",
+        "match_score": 1.0,
+        "survey_records": 28,
+        "survey_years": [
+          "1982",
+          "1984",
+          "1988",
+          "1989",
+          "1990",
+          "1992",
+          "1993",
+          "1996",
+          "1997",
+          "1999",
+          "2017",
+          "2018",
+          "2019",
+          "2022",
+          "2023"
+        ],
+        "species": [
+          "Lake Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Mona Lake": {
         "dataset_match": "Mona",
@@ -19394,10 +19987,45 @@
         "dataset": "fishc"
       },
       "Lake St. Helen": {
-        "species": [],
+        "dataset_match": "Lake St. Helen",
+        "match_score": 1.0,
+        "survey_records": 50,
+        "survey_years": [
+          "1983",
+          "1985",
+          "1988",
+          "1990",
+          "1992",
+          "1994",
+          "1995",
+          "1999",
+          "2001",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2011",
+          "2013",
+          "2014",
+          "2016",
+          "2017",
+          "2018",
+          "2021",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Hybrid Sunfish",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Little Mud Lake (Michigan)": {
         "species": [],
@@ -19412,10 +20040,18 @@
         "note": "No historical survey data available"
       },
       "The Cut (Michigan)": {
-        "species": [],
+        "dataset_match": "The Cut",
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": [
+          "2022"
+        ],
+        "species": [
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       }
     },
     "Schoolcraft": {
@@ -19567,10 +20203,21 @@
         "note": "No historical survey data available"
       },
       "Toms Lake": {
-        "species": [],
+        "dataset_match": "Toms Lake",
+        "match_score": 1.0,
+        "survey_records": 4,
+        "survey_years": [
+          "1989",
+          "1990",
+          "1991"
+        ],
+        "species": [
+          "Black Crappie",
+          "Largemouth Bass"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Verdant Lake": {
         "species": [],
@@ -19812,10 +20459,31 @@
         "note": "No historical survey data available"
       },
       "Half Moon Lake (Berrien County, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Chinook Salmon",
+          "Gar",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Redear Sunfish",
+          "Rock Bass",
+          "Walleye",
+          "Warmouth",
+          "White Bass",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0026_1992_HalfmoonLake.pdf",
+        "text_length": 13701,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Harris Lake (Berrien County, Michigan)": {
         "species": [],
@@ -19842,10 +20510,37 @@
         "note": "No historical survey data available"
       },
       "Lake Michigan": {
-        "species": [],
+        "dataset_match": "Lake Michigan",
+        "match_score": 1.0,
+        "survey_records": 63,
+        "survey_years": [
+          "1984",
+          "1985",
+          "1989",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2011",
+          "2013",
+          "2015"
+        ],
+        "species": [
+          "Lake Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Little Indian Lake (Berrien County, Michigan)": {
         "species": [],
@@ -19866,10 +20561,33 @@
         "note": "No historical survey data available"
       },
       "Murphy Lake (Berrien County, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Brown Bullhead",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Carp",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Largemouth Bass",
+          "Minnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0127_2008_MurphyLake.pdf",
+        "text_length": 26829,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Paw Paw Lake": {
         "dataset_match": "Pawpawbig",
@@ -19994,10 +20712,20 @@
         "note": "No historical survey data available"
       },
       "Yellow Lake (Michigan)": {
-        "species": [],
+        "dataset_match": "Yellow Lake",
+        "match_score": 1.0,
+        "survey_records": 4,
+        "survey_years": [
+          "2024",
+          "2025"
+        ],
+        "species": [
+          "Hybrid Sunfish",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       }
     },
     "Branch": {
@@ -20309,10 +21037,47 @@
         "note": "No historical survey data available"
       },
       "Lake Antoine": {
-        "species": [],
+        "dataset_match": "Lake Antoine",
+        "match_score": 1.0,
+        "survey_records": 45,
+        "survey_years": [
+          "1979",
+          "1983",
+          "1985",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1993",
+          "1995",
+          "1996",
+          "1997",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2017",
+          "2019",
+          "2021",
+          "2023",
+          "2025"
+        ],
+        "species": [
+          "Northern Pike",
+          "Tiger Muskellunge",
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       }
     },
     "Emmet": {
@@ -20323,10 +21088,36 @@
         "note": "No historical survey data available"
       },
       "Crooked Lake (Michigan)": {
-        "species": [],
+        "dataset_match": "Crooked Lake",
+        "match_score": 1.0,
+        "survey_records": 22,
+        "survey_years": [
+          "1979",
+          "1980",
+          "1981",
+          "1984",
+          "1985",
+          "1986",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1994",
+          "1996",
+          "1998",
+          "1999",
+          "2000",
+          "2003",
+          "2004",
+          "2006"
+        ],
+        "species": [
+          "Brown Trout",
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "French Farm Lake": {
         "species": [],
@@ -20347,10 +21138,22 @@
         "note": "No historical survey data available"
       },
       "Round Lake (Emmet County, Michigan)": {
-        "species": [],
+        "dataset_match": "Round Lake",
+        "match_score": 1.0,
+        "survey_records": 6,
+        "survey_years": [
+          "1991",
+          "1995",
+          "1996",
+          "1998",
+          "2018"
+        ],
+        "species": [
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Straits of Mackinac": {
         "species": [],
@@ -20359,10 +21162,18 @@
         "note": "No historical survey data available"
       },
       "Walloon Lake": {
-        "species": [],
+        "dataset_match": "Walloon Lake",
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": [
+          "1990"
+        ],
+        "species": [
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Wycamp Lake": {
         "species": [],
@@ -20373,10 +21184,40 @@
     },
     "Genesee": {
       "Lake Fenton (Michigan)": {
-        "species": [],
+        "dataset_match": "Lake Fenton",
+        "match_score": 1.0,
+        "survey_records": 30,
+        "survey_years": [
+          "1981",
+          "1983",
+          "1985",
+          "1986",
+          "1990",
+          "1991",
+          "1992",
+          "1994",
+          "1997",
+          "1999",
+          "2001",
+          "2003",
+          "2005",
+          "2006",
+          "2009",
+          "2011",
+          "2013",
+          "2015",
+          "2017",
+          "2019",
+          "2021",
+          "2023",
+          "2025"
+        ],
+        "species": [
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Otter Lake (Michigan)": {
         "species": [],
@@ -20468,10 +21309,18 @@
     },
     "Grand Traverse": {
       "Arbutus Lake (Michigan)": {
-        "species": [],
+        "dataset_match": "Arbutus Lake",
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": [
+          "2005"
+        ],
+        "species": [
+          "Northern Pike"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Bass Lake (Long Lake Township, Michigan)": {
         "species": [],
@@ -20480,40 +21329,263 @@
         "note": "No historical survey data available"
       },
       "Boardman Lake (Michigan)": {
-        "species": [],
+        "dataset_match": "Boardman Lake",
+        "match_score": 1.0,
+        "survey_records": 5,
+        "survey_years": [
+          "1979",
+          "1980",
+          "1981",
+          "1982",
+          "1983"
+        ],
+        "species": [
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Cedar Hedge Lake": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Bullhead",
+          "Cisco",
+          "Darter",
+          "Gar",
+          "Green Sunfish",
+          "Killifish",
+          "Lake Herring",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0330_2019_CedarHedgeLake.pdf",
+        "text_length": 14643,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Duck Lake (Grand Traverse County, Michigan)": {
-        "species": [],
+        "dataset_match": "Duck Lake",
+        "match_score": 1.0,
+        "survey_records": 72,
+        "survey_years": [
+          "1981",
+          "1982",
+          "1983",
+          "1985",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "species": [
+          "Brown Trout",
+          "Lake Trout",
+          "Splake"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Elk Lake (Michigan)": {
-        "species": [],
+        "dataset_match": "Elk Lake",
+        "match_score": 1.0,
+        "survey_records": 87,
+        "survey_years": [
+          "1985",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2012",
+          "2013",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Fife Lake (Michigan)": {
-        "species": [],
+        "dataset_match": "Fife Lake",
+        "match_score": 1.0,
+        "survey_records": 25,
+        "survey_years": [
+          "1980",
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1985",
+          "1986",
+          "1988",
+          "1992",
+          "1995",
+          "1998",
+          "2001",
+          "2004",
+          "2011",
+          "2012",
+          "2014",
+          "2015",
+          "2016",
+          "2018",
+          "2021",
+          "2023",
+          "2025"
+        ],
+        "species": [
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Green Lake (Grand Traverse County, Michigan)": {
-        "species": [],
+        "dataset_match": "Green Lake",
+        "match_score": 1.0,
+        "survey_records": 66,
+        "survey_years": [
+          "1979",
+          "1980",
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1985",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "species": [
+          "Brown Trout",
+          "Lake Trout",
+          "Splake"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Lake Dubonnet": {
         "species": [],
@@ -20522,40 +21594,163 @@
         "note": "No historical survey data available"
       },
       "Lake Michigan": {
-        "species": [],
+        "dataset_match": "Lake Michigan",
+        "match_score": 1.0,
+        "survey_records": 243,
+        "survey_years": [
+          "1980",
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1985",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016"
+        ],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Lake Trout",
+          "Rainbow Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Lake Skegemog": {
-        "species": [],
+        "dataset_match": "Lake Skegemog",
+        "match_score": 1.0,
+        "survey_records": 4,
+        "survey_years": [
+          "1990",
+          "1994",
+          "2023"
+        ],
+        "species": [
+          "Muskellunge"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Long Lake (Grand Traverse County, Michigan)": {
-        "species": [],
+        "dataset_match": "Long Lake",
+        "match_score": 1.0,
+        "survey_records": 8,
+        "survey_years": [
+          "1986",
+          "1988",
+          "1989",
+          "1990",
+          "1995"
+        ],
+        "species": [
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Rennie Lake": {
-        "species": [],
+        "dataset_match": "Rennie Lake",
+        "match_score": 1.0,
+        "survey_records": 13,
+        "survey_years": [
+          "1979",
+          "1980",
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1985",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991"
+        ],
+        "species": [
+          "Tiger Muskellunge"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Silver Lake (Grand Traverse County, Michigan)": {
-        "species": [],
+        "dataset_match": "Silver Lake",
+        "match_score": 1.0,
+        "survey_records": 20,
+        "survey_years": [
+          "1990",
+          "1991",
+          "1992",
+          "1995",
+          "1997",
+          "2000",
+          "2003",
+          "2008",
+          "2013",
+          "2015",
+          "2016",
+          "2018",
+          "2019",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        "species": [
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Spider Lake (Grand Traverse County, Michigan)": {
-        "species": [],
+        "dataset_match": "Spider Lake",
+        "match_score": 1.0,
+        "survey_records": 2,
+        "survey_years": [
+          "2002",
+          "2005"
+        ],
+        "species": [
+          "Northern Pike"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       }
     },
     "Houghton": {
@@ -20959,16 +22154,135 @@
         "dataset": "fishc"
       },
       "Lake Leelanau": {
-        "species": [],
+        "dataset_match": "North Lake Leelanau",
+        "match_score": 0.83,
+        "survey_records": 91,
+        "survey_years": [
+          "1979",
+          "1980",
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1985",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "species": [
+          "Brown Trout",
+          "Lake Trout",
+          "Lake Whitefish",
+          "Rainbow Trout",
+          "Splake"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Lake Michigan": {
-        "species": [],
+        "dataset_match": "Lake Michigan",
+        "match_score": 1.0,
+        "survey_records": 299,
+        "survey_years": [
+          "1979",
+          "1980",
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1985",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "species": [
+          "Brown Trout",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Lake Trout",
+          "Rainbow Trout",
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Lime Lake (Michigan)": {
         "dataset_match": "Lime",
@@ -21019,10 +22333,20 @@
         "dataset": "grow"
       },
       "South Bar Lake": {
-        "species": [],
+        "dataset_match": "South Bar Lake",
+        "match_score": 1.0,
+        "survey_records": 2,
+        "survey_years": [
+          "1995",
+          "1996"
+        ],
+        "species": [
+          "Bluegill",
+          "Northern Pike"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       }
     },
     "Livingston": {
@@ -21215,10 +22539,51 @@
         "dataset": "fishc"
       },
       "South Manistique Lake": {
-        "species": [],
+        "dataset_match": "South Manistique (Whitefish) Lake",
+        "match_score": 1.0,
+        "survey_records": 39,
+        "survey_years": [
+          "1979",
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1985",
+          "1986",
+          "1987",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1998",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2017",
+          "2019",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        "species": [
+          "Muskellunge",
+          "Rainbow Trout",
+          "Tiger Muskellunge",
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Straits of Mackinac": {
         "species": [],
@@ -21527,10 +22892,32 @@
     },
     "Montmorency": {
       "Fletcher Pond": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brook Trout",
+          "Brown Trout",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Carp",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0135_2008_FletcherPond.pdf",
+        "text_length": 55138,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Long Lake (Montmorency County, Michigan)": {
         "dataset_match": "Long",
@@ -21728,16 +23115,56 @@
     },
     "Presque Isle": {
       "Black Lake (Michigan)": {
-        "species": [],
+        "dataset_match": "Black Lake",
+        "match_score": 1.0,
+        "survey_records": 12,
+        "survey_years": [
+          "2008",
+          "2010",
+          "2011",
+          "2012",
+          "2014",
+          "2016",
+          "2017",
+          "2018",
+          "2022",
+          "2023"
+        ],
+        "species": [
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Grand Lake (Michigan)": {
-        "species": [],
+        "dataset_match": "Grand Lake",
+        "match_score": 1.0,
+        "survey_records": 23,
+        "survey_years": [
+          "1979",
+          "1980",
+          "1982",
+          "1983",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1998",
+          "2000"
+        ],
+        "species": [
+          "Northern Pike",
+          "Tiger Muskellunge"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       }
     },
     "St. Clair": {
@@ -21762,16 +23189,71 @@
         "note": "No historical survey data available"
       },
       "Klinger Lake (Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Common Carp",
+          "Gar",
+          "Killifish",
+          "Lake Herring",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Redear Sunfish",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Splake",
+          "Walleye",
+          "Warmouth",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0121_2007_KlingerLake.pdf",
+        "text_length": 28072,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Lake Templene": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brown Bullhead",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Carp",
+          "Darter",
+          "Gar",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Largemouth Bass",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Redear Sunfish",
+          "Rock Bass",
+          "Shiner",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0248_2014_LakeTemplene.pdf",
+        "text_length": 39376,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Little Pleasant Lake": {
         "species": [],
@@ -21780,16 +23262,83 @@
         "note": "No historical survey data available"
       },
       "Pleasant Lake (St. Joseph County, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bullhead",
+          "Channel Catfish",
+          "Darter",
+          "Gar",
+          "Green Sunfish",
+          "Killifish",
+          "Lake Herring",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Shiner",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "Whitefish",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0073_2001_PleasantLake.pdf",
+        "text_length": 17190,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Portage Lake (St. Joseph County, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Channel Catfish",
+          "Chinook Salmon",
+          "Cisco",
+          "Coho Salmon",
+          "Common Carp",
+          "Darter",
+          "Freshwater Drum",
+          "Gar",
+          "Killifish",
+          "Lake Trout",
+          "Lake Whitefish",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Smelt",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Round Whitefish",
+          "Sauger",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "Whitefish",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0159_2009_PortageLake.pdf",
+        "text_length": 49327,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       }
     },
     "Tuscola": {
@@ -21821,16 +23370,80 @@
     },
     "Van Buren": {
       "Bankson Lake": {
-        "species": [],
+        "dataset_match": "Bankson Lake",
+        "match_score": 1.0,
+        "survey_records": 68,
+        "survey_years": [
+          "1979",
+          "1980",
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1996",
+          "1997",
+          "1999",
+          "2001",
+          "2003",
+          "2004",
+          "2006",
+          "2008",
+          "2012",
+          "2013",
+          "2015",
+          "2017",
+          "2018",
+          "2019",
+          "2021",
+          "2022",
+          "2024"
+        ],
+        "species": [
+          "Black Crappie",
+          "Largemouth Bass",
+          "Muskellunge",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       },
       "Gravel Lake (Michigan)": {
-        "species": [],
+        "dataset_match": "Gravel Lake",
+        "match_score": 1.0,
+        "survey_records": 15,
+        "survey_years": [
+          "2007",
+          "2008",
+          "2009",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2016",
+          "2017",
+          "2019",
+          "2021",
+          "2022",
+          "2024"
+        ],
+        "species": [
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-stocking-csv",
+        "dataset": "stocking"
       }
     },
     "Washtenaw": {
@@ -21917,44 +23530,40 @@
     },
     "Wayne": {
       "Belleville Lake": {
-        "dataset_match": "Belleville",
-        "match_score": 1.0,
-        "survey_records": 155,
-        "survey_years": [
-          "1939",
-          "1973",
-          "1976",
-          "1977",
-          "1978",
-          "1982",
-          "1988",
-          "1990",
-          "1992"
-        ],
         "species": [
+          "Black Bullhead",
           "Black Crappie",
           "Bluegill",
+          "Bowfin",
+          "Brown Bullhead",
+          "Bullhead",
+          "Channel Catfish",
           "Common Carp",
+          "Gar",
+          "Green Sunfish",
+          "Hybrid Sunfish",
           "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Muskellunge",
           "Pumpkinseed",
           "Rock Bass",
+          "Shiner",
           "Smallmouth Bass",
+          "Sucker",
           "Tiger Muskellunge",
           "Walleye",
           "White Bass",
           "White Crappie",
-          "White Sucker",
-          "Yellow Bullhead",
           "Yellow Perch"
         ],
-        "extras": [
-          "Bluegill x Pumpkinseed - 8, Bluegill x Green sunfish - 1",
-          "Green x Green Bluegill - 1",
-          "Steel Colored Shiner - 2",
-          "fathead_minnows; spotted_sucker"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "summ"
+        "source": "dnr-status-fishery-pdf",
+        "dataset": "status_fishery",
+        "pdf_file": "0224_2013_BellevilleLake.pdf",
+        "text_length": 32335,
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": []
       },
       "Lake St. Clair": {
         "species": [],
