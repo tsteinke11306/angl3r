@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Map CHANGES-UM historical fish survey data (FISHc + SUMM) to angl3r waterbodies.
+Map CHANGES-UM historical fish survey data (FISHc + SUMM + GROW) to angl3r waterbodies.
 Produces species-by-waterbody data that can be merged into regs.json.
 
 Dataset: Zenodo DOI 10.5281/zenodo.15389937
@@ -65,6 +65,46 @@ SPECIES_NAME_MAP = {
     'yellow_perch': 'Yellow Perch'
 }
 
+# GROW species mapping (snake_case -> display name)
+GROW_SPECIES_MAP = {
+    'bluegill': 'Bluegill',
+    'yellow_perch': 'Yellow Perch',
+    'largemouth_bass': 'Largemouth Bass',
+    'northern_pike': 'Northern Pike',
+    'pumpkinseed': 'Pumpkinseed',
+    'black_crappie': 'Black Crappie',
+    'walleye': 'Walleye',
+    'rock_bass': 'Rock Bass',
+    'smallmouth_bass': 'Smallmouth Bass',
+    'cisco': 'Cisco',
+    'white_sucker': 'White Sucker',
+    'rainbow_trout': 'Rainbow Trout',
+    'brown_trout': 'Brown Trout',
+    'brook_trout': 'Brook Trout',
+    'lake_trout': 'Lake Trout',
+    'tiger_muskie': 'Tiger Muskellunge',
+    'muskellunge': 'Muskellunge',
+    'green_sunfish': 'Green Sunfish',
+    'splake': 'Splake',
+    'lake_whitefish': 'Lake Whitefish',
+    'hybrid_sunfish': 'Hybrid Sunfish',
+    'redear_sunfish': 'Redear Sunfish',
+    'rainbow_smelt': 'Rainbow Smelt',
+    'white_crappie': 'White Crappie',
+    'warmouth': 'Warmouth',
+    'common_carp': 'Common Carp',
+    'white_bass': 'White Bass',
+    'northern_longear_sunfish': 'Northern Longear Sunfish',
+    'coho_salmon': 'Coho Salmon',
+    'round_whitefish': 'Round Whitefish',
+    'chinook_salmon': 'Chinook Salmon',
+    'sauger': 'Sauger',
+    'lake_sturgeon': 'Lake Sturgeon',
+    'freshwater_drum': 'Freshwater Drum',
+    'brown_bullhead': 'Brown Bullhead',
+    'burbot': 'Burbot',
+}
+
 DIRECTIONAL_WORDS = {'upper', 'lower', 'north', 'south', 'east', 'west',
                      'big', 'little', 'upperlower', 'northsouth', 'new', 'old'}
 
@@ -105,27 +145,24 @@ def expand_variations(name):
     return variations
 
 
-def load_survey_data(zip_path, dataset):
-    """
-    Load survey data from a specific file in the CHANGES-UM ZIP.
-    dataset: 'summ' or 'fishc'
-    """
+def load_summ_fishc_data(zip_path, dataset):
+    """Load SUMM or FISHc survey data."""
     lake_species = defaultdict(lambda: {
         'species': set(),
         'extras': set(),
         'records': 0,
         'years': set(),
-        'raw_name': '',
-        'survey_ids': [],
         'dataset': dataset,
     })
 
     if dataset == 'summ':
         path = 'CHANGES-UM-summ_fishc_grow-8415f9f/Lake_SUMM/summ_data_Apr2025.csv'
         encoding = 'utf-8'
+        fish_cols = SPECIES_COLS
     else:
         path = 'CHANGES-UM-summ_fishc_grow-8415f9f/FISHc/FISHc_data/final_data/fishc_qaqc_Apr2025.csv'
         encoding = 'latin-1'
+        fish_cols = SPECIES_COLS
 
     with zipfile.ZipFile(zip_path, 'r') as z:
         with z.open(path) as f:
@@ -136,14 +173,13 @@ def load_survey_data(zip_path, dataset):
                 key = (county, lake)
 
                 lake_species[key]['records'] += 1
-                lake_species[key]['raw_name'] = lake
                 lake_species[key]['dataset'] = dataset
 
                 year = row.get('begin_date_year', '').strip()
                 if year and year != 'NA':
                     lake_species[key]['years'].add(year)
 
-                for col in SPECIES_COLS:
+                for col in fish_cols:
                     if row.get(col) == '1':
                         lake_species[key]['species'].add(SPECIES_NAME_MAP[col])
 
@@ -154,24 +190,76 @@ def load_survey_data(zip_path, dataset):
     return lake_species
 
 
-def merge_datasets(summ_data, fishc_data):
-    """Merge SUMM and FISHc datasets, preferring SUMM when both exist for same lake."""
+def load_grow_data(zip_path):
+    """Load GROW growth-measurement data. Each record has one species."""
+    lake_species = defaultdict(lambda: {
+        'species': set(),
+        'extras': set(),
+        'records': 0,
+        'years': set(),
+        'dataset': 'grow',
+    })
+
+    path = 'CHANGES-UM-summ_fishc_grow-8415f9f/GROW_general/grow_qaqc_Apr2025.csv'
+
+    with zipfile.ZipFile(zip_path, 'r') as z:
+        with z.open(path) as f:
+            reader = csv.DictReader(io.TextIOWrapper(f))
+            for row in reader:
+                county = row['county'].strip().title()
+                lake = row['lakename'].strip().title()
+                key = (county, lake)
+
+                lake_species[key]['records'] += 1
+                lake_species[key]['dataset'] = 'grow'
+
+                year = row.get('begin_date_year', '').strip()
+                if year and year != 'NA':
+                    lake_species[key]['years'].add(year)
+
+                sp = row.get('species', '').strip()
+                if sp and sp != 'NA' and sp in GROW_SPECIES_MAP:
+                    lake_species[key]['species'].add(GROW_SPECIES_MAP[sp])
+
+    return lake_species
+
+
+def merge_datasets(summ_data, fishc_data, grow_data):
+    """Merge all three datasets, preferring SUMM > FISHc > GROW."""
     merged = {}
 
-    # Start with all SUMM data
-    for key, data in summ_data.items():
-        merged[key] = dict(data)  # shallow copy
+    # Start with all GROW data (lowest priority)
+    for key, data in grow_data.items():
+        merged[key] = dict(data)
+        merged[key]['species'] = set(data['species'])
+        merged[key]['extras'] = set(data['extras'])
 
-    # Add FISHc data for lakes not in SUMM
+    # Overlay FISHc data
     for key, data in fishc_data.items():
         if key not in merged:
             merged[key] = dict(data)
+            merged[key]['species'] = set(data['species'])
+            merged[key]['extras'] = set(data['extras'])
         else:
-            # Already in SUMM, but merge extras if any
+            # Merge extras, keep FISHc dataset marker but add GROW species
+            merged[key]['species'].update(data['species'])
             merged[key]['extras'].update(data['extras'])
-            merged[key]['survey_ids'].extend(data['survey_ids'])
             merged[key]['records'] += data['records']
             merged[key]['years'].update(data['years'])
+            merged[key]['dataset'] = 'fishc'
+
+    # Overlay SUMM data (highest priority)
+    for key, data in summ_data.items():
+        if key not in merged:
+            merged[key] = dict(data)
+            merged[key]['species'] = set(data['species'])
+            merged[key]['extras'] = set(data['extras'])
+        else:
+            merged[key]['species'].update(data['species'])
+            merged[key]['extras'].update(data['extras'])
+            merged[key]['records'] += data['records']
+            merged[key]['years'].update(data['years'])
+            merged[key]['dataset'] = 'summ'
 
     return merged
 
@@ -240,18 +328,21 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
                 manual_mapping[(county, our_name)] = ds_name
         print(f"Loaded {len(manual_mapping)} manual name corrections")
 
-    # Load both datasets
+    # Load all datasets
     print("Loading SUMM dataset...")
-    summ_data = load_survey_data(survey_zip_path, 'summ')
+    summ_data = load_summ_fishc_data(survey_zip_path, 'summ')
     print(f"  SUMM: {len(summ_data)} unique lakes")
 
     print("Loading FISHc dataset...")
-    fishc_data = load_survey_data(survey_zip_path, 'fishc')
+    fishc_data = load_summ_fishc_data(survey_zip_path, 'fishc')
     print(f"  FISHc: {len(fishc_data)} unique lakes")
 
-    merged_data = merge_datasets(summ_data, fishc_data)
+    print("Loading GROW dataset...")
+    grow_data = load_grow_data(survey_zip_path)
+    print(f"  GROW: {len(grow_data)} unique lakes")
+
+    merged_data = merge_datasets(summ_data, fishc_data, grow_data)
     print(f"  Combined: {len(merged_data)} unique lakes")
-    print(f"  FISHc-only: {len([k for k in fishc_data if k not in summ_data])}")
 
     # Pre-group by county
     ds_by_county = defaultdict(dict)
@@ -259,12 +350,33 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
         ds_by_county[county][(county, lake)] = data
 
     result = defaultdict(dict)
-    stats = {'matched': 0, 'unmatched': 0, 'no_species_data': 0, 'manual': 0, 'fishc_only': 0}
+    stats = {'matched': 0, 'unmatched': 0, 'no_species_data': 0, 'manual': 0, 'summ': 0, 'fishc': 0, 'grow': 0}
 
     for wb in regs['waterbodies']:
         if target_county and wb['county'] != target_county:
             continue
         if wb['kind'] not in ('lake', 'pond'):
+            continue
+
+        # Skip PDF parsing artifacts
+        bad_patterns = ['list of lakes', 'upstream limit', 'downstream limit',
+                       'feet downstream', 'power line crossing',
+                       'include more than one', 'from dam to',
+                       'r32w', 't56n', 'whenever weir is in place']
+        wb_lower = wb['name'].lower()
+        skip = False
+        for pattern in bad_patterns:
+            if pattern in wb_lower:
+                skip = True
+                break
+        if skip:
+            result[wb['county']][wb['name']] = {
+                'species': [],
+                'extras': [],
+                'source': None,
+                'note': 'Not a real waterbody (PDF parsing artifact)'
+            }
+            stats['unmatched'] += 1
             continue
 
         ds_lakes_for_county = ds_by_county.get(wb['county'], {})
@@ -283,21 +395,10 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
 
         if match:
             ds_lake, ds_data, score = match
-            
-            # Skip low-confidence matches and known bad patterns
+
+            # Skip low-confidence matches
             if score < 0.5:
                 match = None
-            else:
-                # Skip PDF parsing artifacts (not real waterbodies)
-                bad_patterns = ['list of lakes', 'upstream limit', 'downstream limit',
-                               'feet downstream', 'power line crossing',
-                               'include more than one', 'from dam to',
-                               'r32w', 't56n', 'whenever weir is in place']
-                wb_lower = wb['name'].lower()
-                for pattern in bad_patterns:
-                    if pattern in wb_lower:
-                        match = None
-                        break
 
         if match:
             ds_lake, ds_data, score = match
@@ -318,8 +419,9 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
             if not species and not extras:
                 stats['no_species_data'] += 1
 
-            if ds_data.get('dataset') == 'fishc' and (wb['county'], ds_lake) not in summ_data:
-                stats['fishc_only'] += 1
+            dataset = ds_data.get('dataset', 'unknown')
+            if dataset in stats:
+                stats[dataset] += 1
 
             result[wb['county']][wb['name']] = entry
             stats['matched'] += 1
@@ -337,7 +439,7 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Map CHANGES-UM fish survey data (FISHc + SUMM) to angl3r waterbodies'
+        description='Map CHANGES-UM fish survey data (FISHc + SUMM + GROW) to angl3r waterbodies'
     )
     parser.add_argument('--regs', default='data/regs.json',
                         help='Path to regs.json')
@@ -357,8 +459,10 @@ def main():
 
     print(f"\nResults:")
     print(f"  Waterbodies matched: {stats['matched']}")
+    print(f"    From SUMM: {stats['summ']}")
+    print(f"    From FISHc: {stats['fishc']}")
+    print(f"    From GROW: {stats['grow']}")
     print(f"    From manual mapping: {stats['manual']}")
-    print(f"    From FISHc-only: {stats['fishc_only']}")
     print(f"  Waterbodies unmatched: {stats['unmatched']}")
     print(f"  Matched but no species data: {stats['no_species_data']}")
 
@@ -378,7 +482,7 @@ def main():
             'publisher': 'University of Michigan / Michigan DNR',
             'doi': '10.5281/zenodo.15389937',
             'license': 'CC BY 4.0',
-            'description': '78 years of digitized fish presence/absence data for Michigan lakes (FISHc + SUMM datasets)'
+            'description': '78 years of digitized fish presence/absence data for Michigan lakes (FISHc + SUMM + GROW datasets)'
         }
 
         with open(args.regs, 'w') as f:
