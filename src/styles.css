@@ -107,7 +107,8 @@ body::before {
   padding: 1.5rem 1.25rem 3rem;
 }
 @media (min-width: 880px) {
-  .main { display: flex; flex-direction: column; }
+  body, #app { height: 100vh; overflow: hidden; }
+  .main { display: flex; flex-direction: column; flex: 1; min-height: 0; overflow: hidden; padding-bottom: 0; }
   .layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 1.35fr;
