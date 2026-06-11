@@ -1036,11 +1036,9 @@ function attachResultHandlers(data: RegsData) {
       buttons.forEach((b) => b.setAttribute("aria-selected", "false"));
       btn.setAttribute("aria-selected", "true");
       updateDetailForSelected(data);
-      // Scroll the detail panel into view on mobile
+      // Scroll the detail panel into view so the user sees the header immediately
       const detailContainer = document.getElementById("detail-container");
-      if (window.innerWidth < 880) {
-        detailContainer?.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
+      detailContainer?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
 }
