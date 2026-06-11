@@ -61,11 +61,11 @@ jobs:
       - name: Download CHANGES-UM dataset
         if: steps.cache-changes-um.outputs.cache-hit != 'true'
         run: |
-          wget -q -O /tmp/summ_fishc_grow.zip "https://zenodo.org/records/15389937/files/CHANGES-UM-summ_fishc_grow-8415f9f.zip?download=1"
+          wget -q -O /tmp/summ_fishc_grow.zip "https://zenodo.org/api/records/15389937/files/CHANGES-UM/summ_fishc_grow-v1.0.0.zip/content"
 
       - name: Map species by waterbody
         run: |
-          pip3 install --break-system-packages fuzzywuzzy python-Levenshtein
+          pip3 install --break-system-packages fuzzywuzzy python-Levenshtein || pip3 install --break-system-packages fuzzywuzzy
           python3 scripts/map_species_by_waterbody.py --regs data/regs.json --survey-zip /tmp/summ_fishc_grow.zip --output public/data/species_by_waterbody.json --inject
           cp data/regs.json public/data/regs.json
 
