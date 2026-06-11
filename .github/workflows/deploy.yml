@@ -50,6 +50,23 @@ jobs:
         if: hashFiles('data/2026-Michigan-Fishing-Regulations.pdf') != ''
         run: |
           python3 scripts/parse_pdf.py
+
+      - name: Cache CHANGES-UM dataset
+        id: cache-changes-um
+        uses: actions/cache@v4
+        with:
+          path: /tmp/summ_fishc_grow.zip
+          key: changes-um-v1.0.0
+
+      - name: Download CHANGES-UM dataset
+        if: steps.cache-changes-um.outputs.cache-hit != 'true'
+        run: |
+          wget -q -O /tmp/summ_fishc_grow.zip "https://zenodo.org/records/15389937/files/CHANGES-UM-summ_fishc_grow-8415f9f.zip?download=1"
+
+      - name: Map species by waterbody
+        run: |
+          pip3 install --break-system-packages fuzzywuzzy python-Levenshtein
+          python3 scripts/map_species_by_waterbody.py --regs data/regs.json --survey-zip /tmp/summ_fishc_grow.zip --output public/data/species_by_waterbody.json --inject
           cp data/regs.json public/data/regs.json
 
       - name: Install npm dependencies
