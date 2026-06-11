@@ -412,8 +412,7 @@ body::before {
   background: var(--accent-navy-soft);
 }
 .species-list__item--confirmed {
-  outline: 2px solid var(--accent-sage);
-  outline-offset: -2px;
+  box-shadow: 0 0 0 2px var(--accent-sage);
   border-radius: var(--radius-sm);
 }
 .species-list__name {
