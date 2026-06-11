@@ -412,8 +412,10 @@ body::before {
   background: var(--accent-navy-soft);
 }
 .species-list__item--confirmed {
-  box-shadow: 0 0 0 2px var(--accent-sage);
-  border-radius: var(--radius-sm);
+  box-shadow: none;
+  border-left: 4px solid var(--accent-sage);
+  background: rgba(90, 125, 90, 0.08);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
 .species-list__name {
   font-size: 0.875rem; font-weight: 600; color: var(--accent-sage);
