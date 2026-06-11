@@ -388,14 +388,39 @@ function renderDetailForResult(result: Result, data: RegsData): string {
   const countyExceptions = data.species?.county_exceptions?.[record.county] ?? null;
   const speciesSectionExpanded = currentSpecies !== null;
 
-  const speciesItemsHtml = species
+  // Check which species are confirmed for this specific waterbody
+  const wbSpecies = data.species_by_waterbody?.[record.county]?.[record.name];
+  const confirmedSet = new Set(
+    (wbSpecies?.species ?? []).map((s: string) => s.toLowerCase())
+  );
+
+  // Sort confirmed species to the top so they surface first
+  const sortedSpecies = [...species].sort((a, b) => {
+    const aConfirmed = confirmedSet.size > 0 && (
+      confirmedSet.has(a.name.toLowerCase()) ||
+      Array.from(confirmedSet).some(c => a.name.toLowerCase().includes(c))
+    );
+    const bConfirmed = confirmedSet.size > 0 && (
+      confirmedSet.has(b.name.toLowerCase()) ||
+      Array.from(confirmedSet).some(c => b.name.toLowerCase().includes(c))
+    );
+    if (aConfirmed === bConfirmed) return a.name.localeCompare(b.name);
+    return aConfirmed ? -1 : 1;
+  });
+
+  const speciesItemsHtml = sortedSpecies
     .map((sp) => {
       const isSelected = currentSpecies === sp.id;
       const collapsed = speciesSectionExpanded && !isSelected;
       const openAttr = collapsed ? "" : "open";
+      const isConfirmed = confirmedSet.size > 0 && (
+        confirmedSet.has(sp.name.toLowerCase()) ||
+        Array.from(confirmedSet).some(c => sp.name.toLowerCase().includes(c))
+      );
+      const itemClass = `species-list__item ${isConfirmed ? "species-list__item--confirmed" : ""}`;
       const headerClass = `species-list__toggle ${isSelected ? "species-list__toggle--active" : ""}`;
       return `
-        <details class="species-list__item" ${openAttr} ${isSelected ? "data-selected-species" : ""}>
+        <details class="${itemClass}" ${openAttr} ${isSelected ? "data-selected-species" : ""}>
           <summary class="${headerClass}">
             <span class="species-list__name">${esc(sp.name)}</span>
             <span class="species-list__size">${esc(sp.min_size)}</span>
@@ -414,8 +439,8 @@ function renderDetailForResult(result: Result, data: RegsData): string {
 
   const speciesSection = `
     <div class="detail__section">
-      <h3 class="detail__section-title">All Michigan species</h3>
-      <p class="detail__hint">Statewide rules apply unless a county-specific exception is listed below.</p>
+      <h3 class="detail__section-title">Statewide species rules</h3>
+      <p class="detail__hint">Statewide rules apply unless a county-specific exception is listed below. Confirmed species for this waterbody are outlined and sorted to the top.</p>
       <div class="species-list">${speciesItemsHtml}</div>
     </div>
     ${
@@ -429,7 +454,6 @@ function renderDetailForResult(result: Result, data: RegsData): string {
   `;
 
   // Species found in this specific waterbody from historical survey data
-  const wbSpecies = data.species_by_waterbody?.[record.county]?.[record.name];
   let speciesByWaterbodySection = "";
   if (wbSpecies && wbSpecies.species && wbSpecies.species.length > 0) {
     const speciesChips = wbSpecies.species
