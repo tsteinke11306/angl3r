@@ -73,6 +73,7 @@ class Lake:
     type: str
     # source page in the PDF (for citation)
     source_page: int
+    clean_name: str = ""
 
 
 @dataclass
@@ -85,6 +86,45 @@ class Stream:
     # Closure detail (for SC type) or empty
     closure: str = ""
     source_page: int = 0
+    clean_name: str = ""
+
+
+def clean_waterbody_name(name: str) -> str:
+    """Clean up OCR artifacts from waterbody names parsed from the PDF.
+
+    Common issues:
+      - 'Dam.                                                      Portage Lake'
+      - 'SC - Closed to Fishing — Year-round                 Moccasin Lake'
+      - 'feet downstream from the DNR weir in                Just Lake'
+      - 'from Evans Rd. downstream to 4001 Bridge.' (section bleed)
+
+    Strategy: split on 2+ spaces; the rightmost non-empty chunk that looks
+    like a real lake name (contains 'Lake', 'Pond', or ends in a name word)
+    is the actual waterbody. Everything else is a left-column artifact or
+    stream-section description that leaked across columns.
+    """
+    # Collapse tabs, multiple spaces
+    s = re.sub(r"\s+", " ", name).strip()
+
+    # If there's no large whitespace gap, it's probably clean
+    if "  " not in name:
+        return s
+
+    # Split on 2+ spaces — this usually separates left artifact from right name
+    chunks = re.split(r"\s{2,}", name)
+    chunks = [c.strip() for c in chunks if c.strip()]
+
+    if not chunks:
+        return s
+
+    # Prefer the rightmost chunk that contains "Lake" or "Pond"
+    for chunk in reversed(chunks):
+        lower = chunk.lower()
+        if "lake" in lower or "pond" in lower or "basin" in lower:
+            return chunk
+
+    # Fallback: return the rightmost chunk (most likely the real name)
+    return chunks[-1]
 
 
 @dataclass
@@ -373,10 +413,15 @@ def parse_county_listings(pages: dict[int, str]) -> tuple[list[Lake], list[Strea
                 if pending_stream.section.count(".") >= 1 and len(pending_stream.section) > 30:
                     pending_stream = None
 
-    # Cleanup: collapse whitespace in section descriptions
+    # Cleanup: collapse whitespace in section descriptions and clean up
+    # cross-column artifacts in waterbody names.
     for s in streams:
         s.section = re.sub(r"\s+", " ", s.section).strip()
         s.closure = re.sub(r"\s+", " ", s.closure).strip()
+        s.clean_name = clean_waterbody_name(s.name)
+
+    for l in lakes:
+        l.clean_name = clean_waterbody_name(l.name)
 
     return lakes, streams, county_order
 
@@ -999,10 +1044,11 @@ def merge_wikipedia_waterbodies(
     pdf_keys: set[tuple[str, str]] = set()
     pdf_entries: list[dict] = []
     for l in pdf_lakes:
-        key = (_normalize_name(l.name), l.county)
+        display_name = l.clean_name or l.name
+        key = (_normalize_name(display_name), l.county)
         pdf_keys.add(key)
         pdf_entries.append({
-            "name": l.name,
+            "name": display_name,
             "county": l.county,
             "source": "pdf",
             "kind": "lake",
@@ -1011,13 +1057,14 @@ def merge_wikipedia_waterbodies(
             "wikipedia_title": wiki_lookup.get(key),
         })
     for s in pdf_streams:
-        key = (_normalize_name(s.name), s.county)
+        display_name = s.clean_name or s.name
+        key = (_normalize_name(display_name), s.county)
         pdf_keys.add(key)
         pdf_entries.append({
-            "name": s.name,
+            "name": display_name,
             "county": s.county,
             "source": "pdf",
-            "kind": _guess_kind(s.name),
+            "kind": _guess_kind(display_name),
             "type": s.type,
             "section": s.section,
             "closure": s.closure,
@@ -1029,14 +1076,15 @@ def merge_wikipedia_waterbodies(
     wiki_only_count = 0
     for county, names in wiki.get("counties", {}).items():
         for n in names:
-            key = (_normalize_name(n), county)
+            clean_n = clean_waterbody_name(n)
+            key = (_normalize_name(clean_n), county)
             if key in pdf_keys:
                 continue
             pdf_entries.append({
-                "name": n,
+                "name": clean_n,
                 "county": county,
                 "source": "wikipedia",
-                "kind": _guess_kind(n),
+                "kind": _guess_kind(clean_n),
                 "wikipedia_title": n,
             })
             wiki_only_count += 1
