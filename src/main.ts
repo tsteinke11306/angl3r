@@ -1036,9 +1036,6 @@ function attachResultHandlers(data: RegsData) {
       buttons.forEach((b) => b.setAttribute("aria-selected", "false"));
       btn.setAttribute("aria-selected", "true");
       updateDetailForSelected(data);
-      // Scroll the detail panel into view so the user sees the header immediately
-      const detailContainer = document.getElementById("detail-container");
-      detailContainer?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
 }
@@ -1054,6 +1051,10 @@ function updateDetailForSelected(data: RegsData) {
   } else {
     detailContainer.innerHTML = `<div class="detail">${renderDetailPlaceholder()}</div>`;
   }
+  // With dual-pane scrolling, the detail panel stays in place when
+  // the user selects a new waterbody. Scroll it to the top so the
+  // header is immediately visible.
+  detailContainer.scrollTop = 0;
 }
 
 /**
@@ -1066,6 +1067,7 @@ function showSpeciesPanelForCounty(county: string, data: RegsData) {
   const detailContainer = document.getElementById("detail-container");
   if (!detailContainer) return;
   detailContainer.innerHTML = `<div class="detail">${renderCountySpeciesPanel(county, data)}</div>`;
+  detailContainer.scrollTop = 0;
 }
 
 function renderCountySpeciesPanel(county: string, data: RegsData): string {

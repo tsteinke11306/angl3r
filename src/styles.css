@@ -107,7 +107,28 @@ body::before {
   padding: 1.5rem 1.25rem 3rem;
 }
 @media (min-width: 880px) {
-  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 1.35fr; gap: 1.5rem; }
+  .main { display: flex; flex-direction: column; }
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 1.35fr;
+    gap: 1.5rem;
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+  }
+  .layout > div {
+    min-height: 0;
+    overflow-y: auto;
+  }
+  .layout > div:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+  #view-container {
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0;
+  }
 }
 
 /* =============================================================
