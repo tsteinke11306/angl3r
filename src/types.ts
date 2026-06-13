@@ -88,6 +88,21 @@ export interface RegsData {
   documents: RegulationDoc[];
   type_tables: TypeTables;
   species: SpeciesTables;
+  /** Historical fish survey data mapped per waterbody (county -> name -> entry). */
+  species_by_waterbody?: {
+    [county: string]: {
+      [name: string]: {
+        dataset_match?: string;
+        match_score?: number;
+        survey_records?: number;
+        survey_years?: string[];
+        species: string[];
+        extras: string[];
+        source: string | null;
+        note?: string;
+      };
+    };
+  };
   counties: {
     order: string[];
     stats: Record<string, {

@@ -15,6 +15,7 @@ This script is idempotent — running it twice produces identical output.
 from __future__ import annotations
 
 import json
+import os
 import re
 import subprocess
 import sys
@@ -28,7 +29,7 @@ from typing import Optional
 # ---------------------------------------------------------------------------
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-PDF_PATH = REPO_ROOT / "data" / "2026-Michigan-Fishing-Regulations.pdf"
+PDF_PATH = REPO_ROOT / "data" / f"{os.environ.get('REGS_YEAR', '2026')}-Michigan-Fishing-Regulations.pdf"
 OUTPUT_PATH = REPO_ROOT / "data" / "regs.json"
 OCR_DIR = REPO_ROOT / "data" / "ocr_cache"
 OCR_DIR.mkdir(exist_ok=True)
@@ -73,6 +74,7 @@ class Lake:
     type: str
     # source page in the PDF (for citation)
     source_page: int
+    clean_name: str = ""
 
 
 @dataclass
@@ -85,6 +87,52 @@ class Stream:
     # Closure detail (for SC type) or empty
     closure: str = ""
     source_page: int = 0
+    clean_name: str = ""
+
+
+def clean_waterbody_name(name: str) -> str:
+    """Clean up OCR artifacts from waterbody names parsed from the PDF.
+
+    Common issues:
+      - 'Dam.                                                      Portage Lake'
+      - 'SC - Closed to Fishing — Year-round                 Moccasin Lake'
+      - 'feet downstream from the DNR weir in                Just Lake'
+      - 'from Evans Rd. downstream to 4001 Bridge.' (section bleed)
+
+    Strategy: split on 2+ spaces; the rightmost non-empty chunk that looks
+    like a real lake name (contains 'Lake', 'Pond', or ends in a name word)
+    is the actual waterbody. Everything else is a left-column artifact or
+    stream-section description that leaked across columns.
+    """
+    # Collapse tabs, multiple spaces
+    s = re.sub(r"\s+", " ", name).strip()
+
+    # If there's no large whitespace gap, it's probably clean
+    if "  " not in name:
+        # A single-column artifact can still leak in as a section description
+        # without a large gap (e.g. "downstream to Platte Lake."). Reject obvious
+        # section-fragment names that do not end in a real waterbody word.
+        lower = s.lower()
+        if lower.startswith("downstream") or lower.startswith("upstream") or lower.startswith("from "):
+            return ""
+        return s
+
+    # Split on 2+ spaces — this usually separates left artifact from right name
+    chunks = re.split(r"\s{2,}", name)
+    chunks = [c.strip() for c in chunks if c.strip()]
+
+    if not chunks:
+        return s
+
+    # Prefer the rightmost chunk that contains a real waterbody word.
+    # Expand the keyword list so rivers/streams/creeks/bays aren't discarded.
+    for chunk in reversed(chunks):
+        lower = chunk.lower()
+        if any(k in lower for k in ("lake", "pond", "basin", "river", "stream", "creek", "bay", "harbor", "channel", "reservoir")):
+            return chunk
+
+    # Fallback: return the rightmost chunk (most likely the real name)
+    return chunks[-1]
 
 
 @dataclass
@@ -373,10 +421,18 @@ def parse_county_listings(pages: dict[int, str]) -> tuple[list[Lake], list[Strea
                 if pending_stream.section.count(".") >= 1 and len(pending_stream.section) > 30:
                     pending_stream = None
 
-    # Cleanup: collapse whitespace in section descriptions
+    # Cleanup: collapse whitespace in section descriptions and clean up
+    # cross-column artifacts in waterbody names. Drop any stream whose name
+    # cleaned down to empty (it was a section fragment, not a real waterbody).
     for s in streams:
         s.section = re.sub(r"\s+", " ", s.section).strip()
         s.closure = re.sub(r"\s+", " ", s.closure).strip()
+        s.clean_name = clean_waterbody_name(s.name)
+
+    streams = [s for s in streams if s.clean_name or not clean_waterbody_name(s.name) == ""]
+
+    for l in lakes:
+        l.clean_name = clean_waterbody_name(l.name)
 
     return lakes, streams, county_order
 
@@ -999,10 +1055,11 @@ def merge_wikipedia_waterbodies(
     pdf_keys: set[tuple[str, str]] = set()
     pdf_entries: list[dict] = []
     for l in pdf_lakes:
-        key = (_normalize_name(l.name), l.county)
+        display_name = l.clean_name or l.name
+        key = (_normalize_name(display_name), l.county)
         pdf_keys.add(key)
         pdf_entries.append({
-            "name": l.name,
+            "name": display_name,
             "county": l.county,
             "source": "pdf",
             "kind": "lake",
@@ -1011,13 +1068,14 @@ def merge_wikipedia_waterbodies(
             "wikipedia_title": wiki_lookup.get(key),
         })
     for s in pdf_streams:
-        key = (_normalize_name(s.name), s.county)
+        display_name = s.clean_name or s.name
+        key = (_normalize_name(display_name), s.county)
         pdf_keys.add(key)
         pdf_entries.append({
-            "name": s.name,
+            "name": display_name,
             "county": s.county,
             "source": "pdf",
-            "kind": _guess_kind(s.name),
+            "kind": _guess_kind(display_name),
             "type": s.type,
             "section": s.section,
             "closure": s.closure,
@@ -1029,14 +1087,15 @@ def merge_wikipedia_waterbodies(
     wiki_only_count = 0
     for county, names in wiki.get("counties", {}).items():
         for n in names:
-            key = (_normalize_name(n), county)
+            clean_n = clean_waterbody_name(n)
+            key = (_normalize_name(clean_n), county)
             if key in pdf_keys:
                 continue
             pdf_entries.append({
-                "name": n,
+                "name": clean_n,
                 "county": county,
                 "source": "wikipedia",
-                "kind": _guess_kind(n),
+                "kind": _guess_kind(clean_n),
                 "wikipedia_title": n,
             })
             wiki_only_count += 1
@@ -1123,18 +1182,20 @@ def main() -> int:
     for s in streams:
         streams_by_county[s.county] += 1
 
+    year = os.environ.get("REGS_YEAR", "2026")
     output = {
         "source": {
-            "title": "2026 Michigan Fishing Regulations",
+            "title": f"{year} Michigan Fishing Regulations",
             "publisher": "Michigan Department of Natural Resources",
-            "effective": "April 1, 2026 – March 31, 2027",
-            "pdf": "data/2026-Michigan-Fishing-Regulations.pdf",
+            "effective": f"April 1, {year} – March 31, {int(year) + 1}",
+            "pdf": f"data/{year}-Michigan-Fishing-Regulations.pdf",
         },
         "meta": {
             "lake_count": len(lakes),
             "stream_count": len(streams),
             "waterbody_count": len(waterbodies_merged),
-            "county_count": len(county_order),
+            "county_count": len(MICHIGAN_COUNTIES),
+            "pdf_county_count": len(county_order),
             "type_tables_have_ocr": True,
             "species_count": len(species_statewide),
             "counties_with_exceptions": len(county_exceptions_by_county),
@@ -1146,7 +1207,7 @@ def main() -> int:
             "url": "https://en.wikipedia.org/wiki/Category:Bodies_of_water_of_Michigan_by_county",
             "license": "CC BY-SA 4.0",
             "attribution": "Wikipedia contributors",
-            "note": "Waterbody names only. Wikipedia is not the authoritative source for fishing regulations — see the 2026 Michigan Fishing Regulations PDF for legal rules.",
+            "note": f"Waterbody names only. Wikipedia is not the authoritative source for fishing regulations — see the {year} Michigan Fishing Regulations PDF for legal rules.",
         },
         "documents": [asdict(d) for d in general + special + exceptions],
         "type_tables": type_tables,

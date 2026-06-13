@@ -6,6 +6,8 @@ npm-debug.log*
 # Dependency directories
 node_modules/
 .venv/
+__pycache__/
+*.egg-info/
 
 # Build output
 dist/

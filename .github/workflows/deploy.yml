@@ -1,26 +1,25 @@
 name: Build and deploy
 
 on:
-  # Re-run on every push to main
   push:
     branches: [main]
-    # But skip when only docs/README change
     paths-ignore:
       - "**/*.md"
       - ".github/ISSUE_TEMPLATE/**"
-  # Allow manual trigger from the Actions tab
   workflow_dispatch:
 
-# Required for deploying to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Don't run multiple deploys in parallel
 concurrency:
   group: pages
   cancel-in-progress: false
+
+env:
+  # Bump this when the DNR releases a new annual PDF.
+  REGS_YEAR: "2026"
 
 jobs:
   build:
@@ -40,20 +39,40 @@ jobs:
           node-version: "20"
           cache: npm
 
-      - name: Install PDF parsing tools
+      - name: Install Python tools
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
-          pip3 install --break-system-packages pdfminer.six pypdf
+          pip3 install --break-system-packages pdfminer.six pypdf rapidfuzz
 
       - name: Parse PDF to JSON
-        if: hashFiles('data/2026-Michigan-Fishing-Regulations.pdf') != ''
+        if: hashFiles(format('data/{0}-Michigan-Fishing-Regulations.pdf', env.REGS_YEAR)) != ''
         run: |
           python3 scripts/parse_pdf.py
           cp data/regs.json public/data/regs.json
 
+      - name: Cache CHANGES-UM dataset
+        id: cache-changes-um
+        uses: actions/cache@v4
+        with:
+          path: /tmp/summ_fishc_grow.zip
+          key: changes-um-v1.0.0
+
+      - name: Download CHANGES-UM dataset
+        if: steps.cache-changes-um.outputs.cache-hit != 'true'
+        run: |
+          wget -q -O /tmp/summ_fishc_grow.zip "https://zenodo.org/api/records/15389937/files/CHANGES-UM/summ_fishc_grow-v1.0.0.zip/content"
+
+      - name: Map species by waterbody
+        run: |
+          python3 scripts/map_species_by_waterbody.py \
+            --regs data/regs.json \
+            --survey-zip /tmp/summ_fishc_grow.zip \
+            --inject
+          cp data/regs.json public/data/regs.json
+
       - name: Install npm dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build site
         run: npm run build

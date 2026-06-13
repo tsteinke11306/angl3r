@@ -26,8 +26,7 @@ import miCountiesSvg from "../public/mi-counties.svg?raw";
 // Data loading
 // ---------------------------------------------------------------------------
 
-// Data is imported as a JSON module — Vite inlines it into the bundle at
-// Data is fetched at runtime so the JSON doesn't get inlined into the
+// Data is fetched at runtime so regs.json doesn't get inlined into the
 // bundle (it's ~460KB). The JSON lives at public/data/regs.json and is
 // served as a static asset on GitHub Pages.
 let DATA: RegsData | null = null;
@@ -316,12 +315,14 @@ function renderResults(results: Result[]): string {
 function renderDetailPlaceholder(): string {
   return `
     <div class="detail__placeholder">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M12 2v6m0 8v6m-10-10h6m8 0h6"/>
-        <circle cx="12" cy="12" r="3"/>
-      </svg>
+      <div class="detail__placeholder-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/>
+          <path d="M8 12h8M12 8v8"/>
+        </svg>
+      </div>
       <p>Search for a lake or stream to see its regulations.</p>
-      <p style="font-size: 0.8125rem; margin-top: 0.5rem;">Try "Higgins", "Au Sable", or "Allegan".</p>
+      <p class="detail__placeholder-hint">Try “Higgins”, “Au Sable”, or click a county on the map.</p>
     </div>
   `;
 }
@@ -388,16 +389,43 @@ function renderDetailForResult(result: Result, data: RegsData): string {
   const countyExceptions = data.species?.county_exceptions?.[record.county] ?? null;
   const speciesSectionExpanded = currentSpecies !== null;
 
-  const speciesItemsHtml = species
+  // Check which species are confirmed for this specific waterbody
+  const wbSpecies = data.species_by_waterbody?.[record.county]?.[record.name];
+  const confirmedSet = new Set(
+    (wbSpecies?.species ?? []).map((s: string) => s.toLowerCase())
+  );
+  const hasSurveyData = wbSpecies !== undefined;
+
+  // Sort confirmed species to the top so they surface first
+  const sortedSpecies = [...species].sort((a, b) => {
+    const aConfirmed = confirmedSet.size > 0 && (
+      confirmedSet.has(a.name.toLowerCase()) ||
+      Array.from(confirmedSet).some(c => a.name.toLowerCase().includes(c))
+    );
+    const bConfirmed = confirmedSet.size > 0 && (
+      confirmedSet.has(b.name.toLowerCase()) ||
+      Array.from(confirmedSet).some(c => b.name.toLowerCase().includes(c))
+    );
+    if (aConfirmed === bConfirmed) return a.name.localeCompare(b.name);
+    return aConfirmed ? -1 : 1;
+  });
+
+  const speciesItemsHtml = sortedSpecies
     .map((sp) => {
       const isSelected = currentSpecies === sp.id;
       const collapsed = speciesSectionExpanded && !isSelected;
       const openAttr = collapsed ? "" : "open";
+      const isConfirmed = confirmedSet.size > 0 && (
+        confirmedSet.has(sp.name.toLowerCase()) ||
+        Array.from(confirmedSet).some(c => sp.name.toLowerCase().includes(c))
+      );
+      const itemClass = `species-list__item ${isConfirmed ? "species-list__item--confirmed" : ""}`;
       const headerClass = `species-list__toggle ${isSelected ? "species-list__toggle--active" : ""}`;
       return `
-        <details class="species-list__item" ${openAttr} ${isSelected ? "data-selected-species" : ""}>
+        <details class="${itemClass}" ${openAttr} ${isSelected ? "data-selected-species" : ""}>
           <summary class="${headerClass}">
             <span class="species-list__name">${esc(sp.name)}</span>
+            ${isConfirmed ? `<span class="species-list__confirmed-label" aria-label="Confirmed by historical survey">found here</span>` : ""}
             <span class="species-list__size">${esc(sp.min_size)}</span>
           </summary>
           <dl class="species-list__regs">
@@ -414,8 +442,15 @@ function renderDetailForResult(result: Result, data: RegsData): string {
 
   const speciesSection = `
     <div class="detail__section">
-      <h3 class="detail__section-title">All Michigan species</h3>
-      <p class="detail__hint">Statewide rules apply unless a county-specific exception is listed below.</p>
+      <h3 class="detail__section-title">Statewide species rules</h3>
+      <p class="detail__hint">
+        ${hasSurveyData
+          ? (confirmedSet.size > 0
+              ? `Confirmed species for this waterbody are highlighted and sorted to the top (from ${wbSpecies.survey_records} historical DNR survey${wbSpecies.survey_records === 1 ? "" : "s"}).`
+              : "No matching species found in historical DNR surveys for this waterbody.")
+          : "No historical survey data available for this waterbody."}
+        Statewide rules apply unless a county-specific exception is listed below.
+      </p>
       <div class="species-list">${speciesItemsHtml}</div>
     </div>
     ${
@@ -479,12 +514,12 @@ function renderFooter(): string {
   return `
     <footer class="site-footer">
       <p>
-        Built from the official <a href="https://michigan.gov/DNR" target="_blank" rel="noopener noreferrer">Michigan DNR 2026 Fishing Regulations</a>.
+        Built from the official <a href="https://michigan.gov/DNR" target="_blank" rel="noopener noreferrer">Michigan DNR Fishing Regulations</a>.
         This site is a convenience lookup; always verify current rules with the DNR before fishing.
       </p>
       <p style="margin-top: 0.5rem;">
-        <a href="https://github.com/tsteinke11306/angler" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
-        · Data last updated from the ${new Date().toLocaleDateString()} PDF parse.
+        <a href="https://github.com/tsteinke11306/angl3r" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
+        · Data last updated ${new Date().toLocaleDateString()}.
       </p>
     </footer>
   `;

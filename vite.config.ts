@@ -9,9 +9,9 @@ export default defineConfig({
   build: {
     outDir: "dist",
     emptyOutDir: true,
-    // Inline the data file into the bundle so there's no fetch needed.
-    // The data is ~125KB minified, fully under the 1MB warning threshold.
-    assetsInlineLimit: 256 * 1024,
+    // Keep the JSON data file as a separate static asset. It is fetched
+    // at runtime by src/main.ts, so inlining it into the JS bundle would
+    // bloat first-load size and duplicate the download.
   },
   // During dev, vite serves the static data file from /public/data/
   publicDir: "public",
