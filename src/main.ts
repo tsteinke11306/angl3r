@@ -315,14 +315,12 @@ function renderResults(results: Result[]): string {
 function renderDetailPlaceholder(): string {
   return `
     <div class="detail__placeholder">
-      <div class="detail__placeholder-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/>
-          <path d="M8 12h8M12 8v8"/>
-        </svg>
-      </div>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2v6m0 8v6m-10-10h6m8 0h6"/>
+        <circle cx="12" cy="12" r="3"/>
+      </svg>
       <p>Search for a lake or stream to see its regulations.</p>
-      <p class="detail__placeholder-hint">Try “Higgins”, “Au Sable”, or click a county on the map.</p>
+      <p style="font-size: 0.8125rem; margin-top: 0.5rem;">Try "Higgins", "Au Sable", or "Allegan".</p>
     </div>
   `;
 }
@@ -394,7 +392,6 @@ function renderDetailForResult(result: Result, data: RegsData): string {
   const confirmedSet = new Set(
     (wbSpecies?.species ?? []).map((s: string) => s.toLowerCase())
   );
-  const hasSurveyData = wbSpecies !== undefined;
 
   // Sort confirmed species to the top so they surface first
   const sortedSpecies = [...species].sort((a, b) => {
@@ -425,7 +422,6 @@ function renderDetailForResult(result: Result, data: RegsData): string {
         <details class="${itemClass}" ${openAttr} ${isSelected ? "data-selected-species" : ""}>
           <summary class="${headerClass}">
             <span class="species-list__name">${esc(sp.name)}</span>
-            ${isConfirmed ? `<span class="species-list__confirmed-label" aria-label="Confirmed by historical survey">found here</span>` : ""}
             <span class="species-list__size">${esc(sp.min_size)}</span>
           </summary>
           <dl class="species-list__regs">
@@ -443,14 +439,7 @@ function renderDetailForResult(result: Result, data: RegsData): string {
   const speciesSection = `
     <div class="detail__section">
       <h3 class="detail__section-title">Statewide species rules</h3>
-      <p class="detail__hint">
-        ${hasSurveyData
-          ? (confirmedSet.size > 0
-              ? `Confirmed species for this waterbody are highlighted and sorted to the top (from ${wbSpecies.survey_records} historical DNR survey${wbSpecies.survey_records === 1 ? "" : "s"}).`
-              : "No matching species found in historical DNR surveys for this waterbody.")
-          : "No historical survey data available for this waterbody."}
-        Statewide rules apply unless a county-specific exception is listed below.
-      </p>
+      <p class="detail__hint">Statewide rules apply unless a county-specific exception is listed below. Confirmed species for this waterbody are outlined and sorted to the top.</p>
       <div class="species-list">${speciesItemsHtml}</div>
     </div>
     ${
@@ -462,6 +451,35 @@ function renderDetailForResult(result: Result, data: RegsData): string {
         : ""
     }
   `;
+
+  // Species found in this specific waterbody from historical survey data
+  let speciesByWaterbodySection = "";
+  if (wbSpecies && wbSpecies.species && wbSpecies.species.length > 0) {
+    const speciesChips = wbSpecies.species
+      .map((sp: string) => `<span class="badge badge--species">${esc(sp)}</span>`)
+      .join(" ");
+    const extrasHtml = wbSpecies.extras?.length
+      ? `<p class="detail__hint">Also noted: ${esc(wbSpecies.extras.join("; "))}</p>`
+      : "";
+    speciesByWaterbodySection = `
+      <div class="detail__section">
+        <h3 class="detail__section-title">Species found here</h3>
+        <p class="detail__hint">
+          From ${wbSpecies.survey_records} historical DNR survey(s)
+          (${wbSpecies.survey_years?.slice(0, 3).join(", ")}${(wbSpecies.survey_years?.length || 0) > 3 ? "…" : ""}).
+        </p>
+        <div class="detail__species-chips">${speciesChips}</div>
+        ${extrasHtml}
+      </div>
+    `;
+  } else if (wbSpecies && wbSpecies.source === null) {
+    speciesByWaterbodySection = `
+      <div class="detail__section">
+        <h3 class="detail__section-title">Species found here</h3>
+        <p class="detail__hint">No historical survey data available for this waterbody.</p>
+      </div>
+    `;
+  }
 
   // Source badge
   const sourceBadge = isPdf
@@ -495,6 +513,8 @@ function renderDetailForResult(result: Result, data: RegsData): string {
 
     ${typeSection}
 
+    ${speciesByWaterbodySection}
+
     ${speciesSection}
 
     <div class="detail__links">
@@ -505,7 +525,10 @@ function renderDetailForResult(result: Result, data: RegsData): string {
     <div class="detail__citation">
       Source: <a href="https://michigan.gov/DNR" target="_blank" rel="noopener noreferrer">Michigan DNR 2026 Fishing Regulations</a>,
       effective ${esc(data.source.effective)}.
-      Waterbody names also from <a href="https://en.wikipedia.org/wiki/Category:Bodies_of_water_of_Michigan_by_county" target="_blank" rel="noopener noreferrer">Wikipedia</a> (CC BY-SA 4.0).
+      Waterbody names from <a href="https://en.wikipedia.org/wiki/Category:Bodies_of_water_of_Michigan_by_county" target="_blank" rel="noopener noreferrer">Wikipedia</a> (CC BY-SA 4.0).
+      ${data.meta?.survey_source?.title
+        ? `Species data from <a href="https://doi.org/${esc(data.meta.survey_source.doi)}" target="_blank" rel="noopener noreferrer">${esc(data.meta.survey_source.title)}</a> (${esc(data.meta.survey_source.license)}).`
+        : ''}
     </div>
   `;
 }
@@ -514,7 +537,7 @@ function renderFooter(): string {
   return `
     <footer class="site-footer">
       <p>
-        Built from the official <a href="https://michigan.gov/DNR" target="_blank" rel="noopener noreferrer">Michigan DNR Fishing Regulations</a>.
+        Built from the official <a href="https://michigan.gov/DNR" target="_blank" rel="noopener noreferrer">Michigan DNR 2026 Fishing Regulations</a>.
         This site is a convenience lookup; always verify current rules with the DNR before fishing.
       </p>
       <p style="margin-top: 0.5rem;">
@@ -1012,11 +1035,6 @@ function attachResultHandlers(data: RegsData) {
       buttons.forEach((b) => b.setAttribute("aria-selected", "false"));
       btn.setAttribute("aria-selected", "true");
       updateDetailForSelected(data);
-      // Scroll the detail panel into view on mobile
-      const detailContainer = document.getElementById("detail-container");
-      if (window.innerWidth < 880) {
-        detailContainer?.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
     });
   });
 }
@@ -1032,6 +1050,10 @@ function updateDetailForSelected(data: RegsData) {
   } else {
     detailContainer.innerHTML = `<div class="detail">${renderDetailPlaceholder()}</div>`;
   }
+  // With dual-pane scrolling, the detail panel stays in place when
+  // the user selects a new waterbody. Scroll it to the top so the
+  // header is immediately visible.
+  detailContainer.scrollTop = 0;
 }
 
 /**
@@ -1044,6 +1066,7 @@ function showSpeciesPanelForCounty(county: string, data: RegsData) {
   const detailContainer = document.getElementById("detail-container");
   if (!detailContainer) return;
   detailContainer.innerHTML = `<div class="detail">${renderCountySpeciesPanel(county, data)}</div>`;
+  detailContainer.scrollTop = 0;
 }
 
 function renderCountySpeciesPanel(county: string, data: RegsData): string {

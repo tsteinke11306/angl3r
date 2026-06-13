@@ -1,0 +1,32 @@
+{
+  "_description": "Manual name corrections for CHANGES-UM dataset matching.\nEach entry maps our waterbody name to the dataset lake name for a given county.\nFormat: county -> our_name -> dataset_name",
+  "_source": "Human-curated from verified dataset names",
+  "Berrien": {
+    "Paw Paw Lake": "Pawpawbig"
+  },
+  "Cheboygan": {
+    "Burt Lake": "Burt",
+    "Douglas Lake": "Douglas",
+    "Mullett Lake": "Mullett"
+  },
+  "Kalkaska": {
+    "Bear Lake (Michigan)": "Bear"
+  },
+  "Kalamazoo": {
+    "Austin Lake": "Austin"
+  },
+  "Marquette": {
+    "Bass Lake": "Bass",
+    "Lake Independence": "Independence"
+  },
+  "Montcalm": {
+    "Crystal Lake (Montcalm County, Michigan)": "Crystal"
+  },
+  "Oakland": {
+    "Maceday Lake": "Maceday",
+    "Eagle Lake (Waterford Township, Michigan)": "Baldeagle"
+  },
+  "Roscommon": {
+    "Higgins Lake": "Higgins"
+  }
+}

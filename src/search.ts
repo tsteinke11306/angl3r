@@ -23,7 +23,7 @@ export interface Result {
   /** Match quality: 0 = perfect, higher = worse. Used for ranking. */
   matchDistance: number;
   /** The matched substring (for highlighting). */
-  matchedField: "name" | "county";
+  matchedField: "name" | "county" | "combined";
 }
 
 /**
@@ -43,12 +43,15 @@ export function search(query: string, data: RegsData, limit = 50): Result[] {
   const q = query.trim().toLowerCase();
   if (!q) return [];
 
+  const tokens = q.split(/\s+/).filter(Boolean);
+
   const results: Result[] = [];
 
   for (const wb of data.waterbodies ?? []) {
     const r = score(wb.name, q, "name");
     const rc = score(wb.county, q, "county");
-    const best = pickBest(r, rc);
+    const combined = scoreCombined(wb.name, wb.county, tokens);
+    const best = pickBest(pickBest(r, rc), combined);
     if (best) {
       results.push({
         kind: wb.kind as Result["kind"],
@@ -66,11 +69,12 @@ export function search(query: string, data: RegsData, limit = 50): Result[] {
     }
   }
 
-  // Sort: name matches first, then PDF over Wikipedia (more specific regs),
-  // then by distance, then alphabetically.
+  // Sort: name matches first, then combined (name + county tokens),
+  // then PDF over Wikipedia, then by distance, then alphabetically.
   results.sort((a, b) => {
     if (a.matchedField !== b.matchedField) {
-      return a.matchedField === "name" ? -1 : 1;
+      const rank = (f: string) => (f === "name" ? 0 : f === "combined" ? 1 : 2);
+      return rank(a.matchedField) - rank(b.matchedField);
     }
     if (a.source !== b.source) {
       return a.source === "pdf" ? -1 : 1;
@@ -85,11 +89,11 @@ export function search(query: string, data: RegsData, limit = 50): Result[] {
 }
 
 interface Score {
-  field: "name" | "county";
+  field: "name" | "county" | "combined";
   distance: number;
 }
 
-function score(text: string, q: string, field: "name" | "county"): Score | null {
+function score(text: string, q: string, field: "name" | "county" | "combined"): Score | null {
   const t = text.toLowerCase();
   if (t === q) return { field, distance: 0 };
   if (t.startsWith(q)) return { field, distance: 1 };
@@ -100,6 +104,32 @@ function score(text: string, q: string, field: "name" | "county"): Score | null 
     if (d <= 2) return { field, distance: 3 + d };
   }
   return null;
+}
+
+/** Cross-field token matching: every query token must appear in either
+ * the name or the county (or both). Returns a score when all tokens match. */
+function scoreCombined(
+  name: string,
+  county: string,
+  tokens: string[]
+): Score | null {
+  const nameLower = name.toLowerCase();
+  const countyLower = county.toLowerCase();
+
+  let tokenHitsInName = 0;
+  for (const token of tokens) {
+    if (nameLower.includes(token)) {
+      tokenHitsInName++;
+    } else if (countyLower.includes(token)) {
+      // token found in county — counts as match
+    } else {
+      return null; // token not found anywhere
+    }
+  }
+
+  // Prefer results where more tokens hit the name (stronger match)
+  const distance = 10 - tokenHitsInName; // lower is better
+  return { field: "combined", distance };
 }
 
 function pickBest(a: Score | null, b: Score | null): Score | null {

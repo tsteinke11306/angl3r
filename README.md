@@ -21,7 +21,8 @@ reports. The site is rebuilt automatically when the PDF is updated.
 1. The Michigan DNR publishes a fresh fishing regulations PDF every spring.
 2. Drop the new PDF in `data/` and commit.
 3. The GitHub Action re-parses the PDF, regenerates `data/regs.json`, rebuilds
-   the site, and deploys to GitHub Pages.
+   the site, and deploys to GitHub Pages. Set `REGS_YEAR` in
+   `.github/workflows/deploy.yml` to match the PDF year.
 4. The site loads the JSON as a static asset (no backend, no API).
 5. The waterbody list comes from a one-time crawl of Wikipedia's category
    tree (saved to `data/wikipedia_waterbodies.json`).
@@ -46,7 +47,10 @@ source .venv/bin/activate
 pip install pdfminer.six pypdf fuzzywuzzy python-Levenshtein
 
 # Install JS deps
-npm install
+npm ci
+
+# Optional: set the PDF year for local parsing
+export REGS_YEAR=2026
 
 # Parse the PDF (outputs to data/regs.json)
 python3 scripts/parse_pdf.py
@@ -141,9 +145,6 @@ angl3r/
 When the DNR releases the new PDF (usually in February/March):
 
 1. Save the new PDF as `data/<year>-Michigan-Fishing-Regulations.pdf`.
-2. Update the year in `scripts/parse_pdf.py` (the `PDF_PATH` constant) and
-   in `.github/workflows/deploy.yml`.
-3. Update the effective date and source title in `scripts/parse_pdf.py` if
-   they changed.
-4. Commit and push — the action will regenerate everything and deploy.
+2. Update `REGS_YEAR` in `.github/workflows/deploy.yml`.
+3. Commit and push — the action will regenerate everything and deploy.
 

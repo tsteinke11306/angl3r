@@ -7,8 +7,8 @@
   },
   "meta": {
     "lake_count": 104,
-    "stream_count": 184,
-    "waterbody_count": 1157,
+    "stream_count": 181,
+    "waterbody_count": 1155,
     "county_count": 83,
     "pdf_county_count": 59,
     "type_tables_have_ocr": true,
@@ -115,14 +115,14 @@
       "clean_name": "Torch Lake"
     },
     {
-      "name": "downstream to Huron Bay (T51N, R31W,                 Betsie Lake",
+      "name": "Betsie Lake",
       "county": "Bay",
       "type": "F",
       "source_page": 52,
       "clean_name": "Betsie Lake"
     },
     {
-      "name": "Silver River                                   4     Crystal Lake",
+      "name": "Crystal Lake",
       "county": "Bay",
       "type": "E",
       "source_page": 52,
@@ -143,14 +143,14 @@
       "clean_name": "Gull Lake"
     },
     {
-      "name": "SC - Closed to Fishing \u2014 within 300 ft. of            Birch Lake",
+      "name": "Birch Lake",
       "county": "Barry",
       "type": "B",
       "source_page": 53,
       "clean_name": "Birch Lake"
     },
     {
-      "name": "whenever weir is in place.                            Harwood Lake",
+      "name": "Harwood Lake",
       "county": "Barry",
       "type": "C",
       "source_page": 53,
@@ -164,21 +164,21 @@
       "clean_name": "Hemlock Lake"
     },
     {
-      "name": "South Branch Galien River                       4     Lake Charlevoix (including Round",
+      "name": "Lake Charlevoix (including Round",
       "county": "Charlevoix",
       "type": "F",
       "source_page": 53,
       "clean_name": "Lake Charlevoix (including Round"
     },
     {
-      "name": "Galien River.                                         Thumb (Louise) Lake",
+      "name": "Thumb (Louise) Lake",
       "county": "Charlevoix",
       "type": "B",
       "source_page": 53,
       "clean_name": "Thumb (Louise) Lake"
     },
     {
-      "name": "Boyne River                                   4      Naomikong Lake",
+      "name": "Naomikong Lake",
       "county": "Lake",
       "type": "A",
       "source_page": 54,
@@ -192,21 +192,21 @@
       "clean_name": "Naomikong Pond"
     },
     {
-      "name": "Silver Lake                                   B      Bright Lake",
+      "name": "Bright Lake",
       "county": "Cheboygan",
       "type": "B",
       "source_page": 54,
       "clean_name": "Bright Lake"
     },
     {
-      "name": "Tower Pond (from dam to M-68)                 E      Kneff Lake",
+      "name": "Kneff Lake",
       "county": "Cheboygan",
       "type": "A",
       "source_page": 54,
       "clean_name": "Kneff Lake"
     },
     {
-      "name": "Weber Lake                                    B      Shupac Lake",
+      "name": "Shupac Lake",
       "county": "Cheboygan",
       "type": "A",
       "source_page": 54,
@@ -276,21 +276,21 @@
       "clean_name": "Bear Lake"
     },
     {
-      "name": "of Bathtub Falls (T50N, R45W, S1) to L.               Bird Lake",
+      "name": "Bird Lake",
       "county": "Hillsdale",
       "type": "C",
       "source_page": 56,
       "clean_name": "Bird Lake"
     },
     {
-      "name": "Little Carp River                              3      Clear Lake",
+      "name": "Clear Lake",
       "county": "Ontonagon",
       "type": "D",
       "source_page": 56,
       "clean_name": "Clear Lake"
     },
     {
-      "name": "from Traders Falls (T50N, R45W, S2)                   Penegor Lake",
+      "name": "Penegor Lake",
       "county": "Ontonagon",
       "type": "A",
       "source_page": 56,
@@ -311,14 +311,14 @@
       "clean_name": "Chicagon Lake"
     },
     {
-      "name": "upstream limit is Cemetery Road (T56N,             Deadman\u2019s Lake",
+      "name": "Deadman\u2019s Lake",
       "county": "Iron",
       "type": "A",
       "source_page": 57,
       "clean_name": "Deadman\u2019s Lake"
     },
     {
-      "name": "R32W, S29).                                        Ellen Lake",
+      "name": "Ellen Lake",
       "county": "Iron",
       "type": "B",
       "source_page": 57,
@@ -353,14 +353,14 @@
       "clean_name": "Madelyn Lake"
     },
     {
-      "name": "Fish Creek                                   4     Spree Lake",
+      "name": "Spree Lake",
       "county": "Ionia",
       "type": "A",
       "source_page": 57,
       "clean_name": "Spree Lake"
     },
     {
-      "name": "downstream to confluence with Maple                Timber Lake",
+      "name": "Timber Lake",
       "county": "Ionia",
       "type": "D",
       "source_page": 57,
@@ -395,7 +395,7 @@
       "clean_name": "Big Glen Lake"
     },
     {
-      "name": "(Johnson\u2019s Bridge T20N, R14W, S24).                  North Lake Leelanau",
+      "name": "North Lake Leelanau",
       "county": "Lake",
       "type": "E",
       "source_page": 59,
@@ -479,70 +479,70 @@
       "clean_name": "Trout Lake"
     },
     {
-      "name": "Wolverine Lake                                     A      Arcadia Lake",
+      "name": "Arcadia Lake",
       "county": "Manistee",
       "type": "F",
       "source_page": 60,
       "clean_name": "Arcadia Lake"
     },
     {
-      "name": "Dam.                                                      Portage Lake",
+      "name": "Portage Lake",
       "county": "Manistee",
       "type": "F",
       "source_page": 60,
       "clean_name": "Portage Lake"
     },
     {
-      "name": "Little Manistee River                         4     Bass Lake",
+      "name": "Bass Lake",
       "county": "Marquette",
       "type": "B",
       "source_page": 61,
       "clean_name": "Bass Lake"
     },
     {
-      "name": "from Johnson Rd. (Johnson\u2019s Bridge)                 Big Trout Lake",
+      "name": "Big Trout Lake",
       "county": "Marquette",
       "type": "E",
       "source_page": 61,
       "clean_name": "Big Trout Lake"
     },
     {
-      "name": "power line crossing downstream of                   Cranberry Lake",
+      "name": "Cranberry Lake",
       "county": "Manistee",
       "type": "A",
       "source_page": 61,
       "clean_name": "Cranberry Lake"
     },
     {
-      "name": "Water Street on some maps).                         Forestville Basin",
+      "name": "Forestville Basin",
       "county": "Manistee",
       "type": "B",
       "source_page": 61,
       "clean_name": "Forestville Basin"
     },
     {
-      "name": "SC - Closed to Fishing \u2014 Sep. 1 \u2013 Nov.              Island Lake (T45N, R30W, S14)",
+      "name": "Island Lake (T45N, R30W, S14)",
       "county": "Manistee",
       "type": "A",
       "source_page": 61,
       "clean_name": "Island Lake (T45N, R30W, S14)"
     },
     {
-      "name": "feet downstream from the DNR weir in                Just Lake",
+      "name": "Just Lake",
       "county": "Manistee",
       "type": "A",
       "source_page": 61,
       "clean_name": "Just Lake"
     },
     {
-      "name": "T21N, R16W, S25 down to the boundary                Lake Arfelin",
+      "name": "Lake Arfelin",
       "county": "Manistee",
       "type": "E",
       "source_page": 61,
       "clean_name": "Lake Arfelin"
     },
     {
-      "name": "the power line crossing downstream of               Little Brocky Lake",
+      "name": "Little Brocky Lake",
       "county": "Manistee",
       "type": "B",
       "source_page": 61,
@@ -556,7 +556,7 @@
       "clean_name": "Little Shag Lake"
     },
     {
-      "name": "SC - Closed to Fishing \u2014 Year-round                 Moccasin Lake",
+      "name": "Moccasin Lake",
       "county": "Manistee",
       "type": "A",
       "source_page": 61,
@@ -570,7 +570,7 @@
       "clean_name": "Perch Lake"
     },
     {
-      "name": "SC - Closed to Fishing \u2014 Jan. 1 \u2013 March             Rockingchair Lake, North",
+      "name": "Rockingchair Lake, North",
       "county": "Manistee",
       "type": "D",
       "source_page": 61,
@@ -584,7 +584,7 @@
       "clean_name": "Rockingchair Lake, South"
     },
     {
-      "name": "Year-round \u2014 from Johnson Rd                        Silver Lake Basin",
+      "name": "Silver Lake Basin",
       "county": "Manistee",
       "type": "B",
       "source_page": 61,
@@ -598,7 +598,7 @@
       "clean_name": "Slough Lake"
     },
     {
-      "name": "limit shall not include more than one (1)           South Kidney Lake (T45N, R26W, S28)",
+      "name": "South Kidney Lake (T45N, R26W, S28)",
       "county": "Manistee",
       "type": "A",
       "source_page": 61,
@@ -612,7 +612,7 @@
       "clean_name": "Sporley Lake"
     },
     {
-      "name": "include more than one (1) Rainbow Trout             Strawberry Lake",
+      "name": "Strawberry Lake",
       "county": "Manistee",
       "type": "A",
       "source_page": 61,
@@ -626,14 +626,14 @@
       "clean_name": "Swanzy Lake"
     },
     {
-      "name": "Little Muskegon River                          4     Marl Lake",
+      "name": "Marl Lake",
       "county": "Mecosta",
       "type": "C",
       "source_page": 63,
       "clean_name": "Marl Lake"
     },
     {
-      "name": "RW, S26) downstream to M-115.                        Duck Lake",
+      "name": "Duck Lake",
       "county": "Manistee",
       "type": "F",
       "source_page": 63,
@@ -675,7 +675,7 @@
       "clean_name": "Trout Creek Pond"
     },
     {
-      "name": "Crater Lake                                 A      Lake Macatawa",
+      "name": "Lake Macatawa",
       "county": "Oscoda",
       "type": "F",
       "source_page": 66,
@@ -724,14 +724,14 @@
       "clean_name": "West Lost Lake"
     },
     {
-      "name": "Black River                                 GR     Higgins Lake",
+      "name": "Higgins Lake",
       "county": "Roscommon",
       "type": "E",
       "source_page": 66,
       "clean_name": "Higgins Lake"
     },
     {
-      "name": "Banana Lake                               B      Shafer Lake",
+      "name": "Shafer Lake",
       "county": "Schoolcraft",
       "type": "C",
       "source_page": 67,
@@ -772,7 +772,7 @@
       "clean_name": "Au Train River"
     },
     {
-      "name": "downstream to 4001 Bridge.                               Hurricane River",
+      "name": "Hurricane River",
       "county": "Alcona",
       "type": "3",
       "section": "from Truck Trail (CO Rd 724, T49N, R15W, Au Sable River Mainstream 4 S25) downstream to L. Superior.",
@@ -826,7 +826,7 @@
       "clean_name": "Black River Mainstream"
     },
     {
-      "name": "Sullivan Lake                                 A          Gun River Mainstream",
+      "name": "Gun River Mainstream",
       "county": "Kalamazoo",
       "type": "4",
       "section": "from 122nd Ave. (T2N, R11W, S12)",
@@ -844,7 +844,7 @@
       "clean_name": "Middle Branch Black River"
     },
     {
-      "name": "from confluence of Spring Brook                    Elk River",
+      "name": "Elk River",
       "county": "Kalamazoo",
       "type": "3",
       "section": "Creek (T1N, R15W, S22) downstream to from Power Dam below Elk Lake confluence of Main Branch Black River. downstream to L. Michigan.",
@@ -853,7 +853,7 @@
       "clean_name": "Elk River"
     },
     {
-      "name": "North Branch Black River                    3      Elk River Bypass",
+      "name": "Elk River Bypass",
       "county": "Kalamazoo",
       "type": "4",
       "section": "from 111th Ave. (T1N, R16W, S3) from Bypass Dam downstream to L.",
@@ -880,7 +880,7 @@
       "clean_name": "Intermediate River"
     },
     {
-      "name": "Silver Creek                                2      Jordan River",
+      "name": "Jordan River",
       "county": "Kalamazoo",
       "type": "4",
       "section": "from M-89 Bridge (T1N, R11W, S26) from Graves Crossing (T31N, R6W, S32) downstream to confluence with downstream to Lake Charlevoix.",
@@ -896,15 +896,6 @@
       "closure": "",
       "source_page": 51,
       "clean_name": "Torch River"
-    },
-    {
-      "name": "Hook Restriction: From May 1 \u2013 July",
-      "county": "Kalamazoo",
-      "type": "1",
-      "section": "Ave. it shall be unlawful to use other",
-      "closure": "",
-      "source_page": 51,
-      "clean_name": "Hook Restriction: From May 1 \u2013 July"
     },
     {
       "name": "Devils River",
@@ -1006,7 +997,7 @@
       "clean_name": "Falls River"
     },
     {
-      "name": "Otter River                                   3      Saginaw River",
+      "name": "Saginaw River",
       "county": "Bay",
       "type": "3",
       "section": "from confluence of N. and W. Br. Otter",
@@ -1042,7 +1033,7 @@
       "clean_name": "South Branch Rice Creek"
     },
     {
-      "name": "Hook Restriction: On the Platte                       Nottawa Creek",
+      "name": "Nottawa Creek",
       "county": "Barry",
       "type": "4",
       "section": "River, Benzie Co., it shall be unlawful",
@@ -1051,7 +1042,7 @@
       "clean_name": "Nottawa Creek"
     },
     {
-      "name": "downstream to Platte Lake.                            Curtis Creek and Tributaries",
+      "name": "Curtis Creek and Tributaries",
       "county": "Barry",
       "type": "2",
       "section": "",
@@ -1060,7 +1051,7 @@
       "clean_name": "Curtis Creek and Tributaries"
     },
     {
-      "name": "Singer Lake                                     C     Mill Creek and Tributaries",
+      "name": "Mill Creek and Tributaries",
       "county": "Berrien",
       "type": "4",
       "section": "from Preston Road (T7S, R12W, S7) R12W, S32.",
@@ -1096,7 +1087,7 @@
       "clean_name": "Galien River Mainstream"
     },
     {
-      "name": "R5W, S5) it shall be unlawful to use other           Albany Creek",
+      "name": "Albany Creek",
       "county": "Lake",
       "type": "4",
       "section": "than one single-pointed unweighted from bridge below lamprey weir to L.",
@@ -1123,7 +1114,7 @@
       "clean_name": "Jordan River"
     },
     {
-      "name": "from Graves Crossing (T31N, R6W, S32)                Halfaday Creek",
+      "name": "Halfaday Creek",
       "county": "Lake",
       "type": "4",
       "section": "downstream to Lake Charlevoix. from Lakeshore Drive downstream to L.",
@@ -1132,7 +1123,7 @@
       "clean_name": "Halfaday Creek"
     },
     {
-      "name": "SC - Closed to Fishing \u2014 whenever                    Pendill\u2019s Creek",
+      "name": "Pendill\u2019s Creek",
       "county": "Lake",
       "type": "4",
       "section": "weir is in place. Tributary to L. Michigan from Second Dam (T47N, R4W, S28)",
@@ -1141,7 +1132,7 @@
       "clean_name": "Pendill\u2019s Creek"
     },
     {
-      "name": "L. Michigan in a radius of 100 ft from the           Pine River",
+      "name": "Pine River",
       "county": "Lake",
       "type": "4",
       "section": "mouth of Medusa Creek. from H-40 Bridge downstream to L.",
@@ -1168,7 +1159,7 @@
       "clean_name": "Au Sable River Mainstream"
     },
     {
-      "name": "Pigeon River                                  GR     Au Sable River Mainstream",
+      "name": "Au Sable River Mainstream",
       "county": "Cheboygan",
       "type": "GR",
       "section": "from Elk Hill Campground Horse Trail to p. 46 from South Wakeley Bridge Rd. (Wakeley p. 44",
@@ -1177,7 +1168,7 @@
       "clean_name": "Au Sable River Mainstream"
     },
     {
-      "name": "from Pine Grove Campground Stairs                    Au Sable River Mainstream",
+      "name": "Au Sable River Mainstream",
       "county": "Cheboygan",
       "type": "4",
       "section": "(T33N, R1W, S17) to East Mullet Rd. from McMasters Bridge Rd. (McMasters",
@@ -1186,7 +1177,7 @@
       "clean_name": "Au Sable River Mainstream"
     },
     {
-      "name": "Wolverine Rd.) downstream to mouth at                Manistee River",
+      "name": "Manistee River",
       "county": "Cheboygan",
       "type": "2",
       "section": "Burt Lake. from headwaters downstream to CO.",
@@ -1195,7 +1186,7 @@
       "clean_name": "Manistee River"
     },
     {
-      "name": "Dukes Lake                                    B      Manistee River",
+      "name": "Manistee River",
       "county": "Chippewa",
       "type": "GR",
       "section": "from M-72 downstream to Sunset Trail Rd. p. 45",
@@ -1204,7 +1195,7 @@
       "clean_name": "Manistee River"
     },
     {
-      "name": "North Branch Au Sable River                 GR     Whitefish River",
+      "name": "Whitefish River",
       "county": "Chippewa",
       "type": "4",
       "section": "from Sheep Ranch downstream to p. 44 from 38th Road (U.S.F.S. 2236)",
@@ -1231,7 +1222,7 @@
       "clean_name": "South Branch Au Sable River"
     },
     {
-      "name": "Kilpecker Pond                              A      Sebewa Creek and Tributaries",
+      "name": "Sebewa Creek and Tributaries",
       "county": "Eaton",
       "type": "4",
       "section": "Norway Lake A Emmet",
@@ -1321,7 +1312,7 @@
       "clean_name": "Sturgeon River"
     },
     {
-      "name": "from County Road 442 Bridge (T42N,                 North Branch Cedar River",
+      "name": "North Branch Cedar River",
       "county": "Lake",
       "type": "4",
       "section": "R20W, S13) downstream to L. Michigan. from (T20N, R2W, S2) downstream to",
@@ -1364,15 +1355,6 @@
       "closure": "",
       "source_page": 56,
       "clean_name": "Black River"
-    },
-    {
-      "name": "from US-2 downstream to Rainbow Falls.                Portage/Torch Lake system",
-      "county": "Houghton",
-      "type": "BTRA",
-      "section": "Duck Creek GR (including the Portage River, Portage from Railroad Bridge (T44N, R39W, p. 45 Canal, North Entry and South Entry.",
-      "closure": "",
-      "source_page": 56,
-      "clean_name": "Portage/Torch Lake system"
     },
     {
       "name": "Maple Creek",
@@ -1420,7 +1402,7 @@
       "clean_name": "Omans Creek"
     },
     {
-      "name": "Superior.                                             Elm River",
+      "name": "Elm River",
       "county": "Ontonagon",
       "type": "4",
       "section": "from Road Bridge between (T53N, R36W,",
@@ -1447,7 +1429,7 @@
       "clean_name": "Little Elm River"
     },
     {
-      "name": "Green Lake                                     B      Otter River",
+      "name": "Otter River",
       "county": "Grand Traverse",
       "type": "3",
       "section": "from confluence of N. and W. Br. Otter",
@@ -1465,7 +1447,7 @@
       "clean_name": "Pilgrim River"
     },
     {
-      "name": "Pilgrim River and tributaries                 1    East Branch Au Gres River (Whitney",
+      "name": "East Branch Au Gres River (Whitney",
       "county": "Grand Traverse",
       "type": "3",
       "section": "from the headwaters downstream to Hwy BTRA Drain) US-41. from M-55 downstream to Saginaw Bay",
@@ -1519,7 +1501,7 @@
       "clean_name": "Sturgeon River"
     },
     {
-      "name": "from US-41 downstream to Prickett Dam.             Van Etten Creek",
+      "name": "Van Etten Creek",
       "county": "Grand Traverse",
       "type": "3",
       "section": "from Van Etten Lake downstream to",
@@ -1582,7 +1564,7 @@
       "clean_name": "Prairie Creek"
     },
     {
-      "name": "Year-round \u2014 the daily possession                  Cooks Run",
+      "name": "Cooks Run",
       "county": "Ionia",
       "type": "GR",
       "section": "limit shall not include more than one (1) from US Forest Hwy 16 to confluence with p. 45",
@@ -1591,7 +1573,7 @@
       "clean_name": "Cooks Run"
     },
     {
-      "name": "Sebewa Creek and Tributaries                 4     Paint River, South Branch",
+      "name": "Paint River, South Branch",
       "county": "Ionia",
       "type": "GR",
       "section": "from the Mouth of Cooks Run (T44N, p. 46",
@@ -1609,7 +1591,7 @@
       "clean_name": "Au Sable River Mainstream"
     },
     {
-      "name": "Foote Dam to the downstream edge of                Chippewa River",
+      "name": "Chippewa River",
       "county": "Isabella",
       "type": "3",
       "section": "the apron of the dam. from Outlet of Lake Isabella, (T15N,",
@@ -1636,7 +1618,7 @@
       "clean_name": "Portage Creek"
     },
     {
-      "name": "downstream limit is Kilgore Rd. (T3S,                 Ball Creek",
+      "name": "Ball Creek",
       "county": "Kent",
       "type": "4",
       "section": "R11W, S3). downstream limit is confluence with",
@@ -1654,7 +1636,7 @@
       "clean_name": "Silver Creek"
     },
     {
-      "name": "from M-89 Bridge (T1N, R11W, S26)                     Buck Creek",
+      "name": "Buck Creek",
       "county": "Kent",
       "type": "4",
       "section": "downstream to confluence with downstream limit is confluence with",
@@ -1663,7 +1645,7 @@
       "clean_name": "Buck Creek"
     },
     {
-      "name": "Bear Lake                                      B      Nash Creek",
+      "name": "Nash Creek",
       "county": "Kalkaska",
       "type": "4",
       "section": "T downstream limit is confluence with Big Blue Lake B Rogue River.",
@@ -1672,7 +1654,7 @@
       "clean_name": "Nash Creek"
     },
     {
-      "name": "Big Guernsey Lake                              C      Rogue River",
+      "name": "Rogue River",
       "county": "Kalkaska",
       "type": "4",
       "section": "Big Twin Lake C downstream limit is confluence with Grand River.",
@@ -1681,7 +1663,7 @@
       "clean_name": "Rogue River"
     },
     {
-      "name": "No Name Pond (T57N, R31W, S8)                 A      Pere Marquette River",
+      "name": "Pere Marquette River",
       "county": "Keweenaw",
       "type": "GR",
       "section": "from the downstream edge of the boat p. 46",
@@ -1690,7 +1672,7 @@
       "clean_name": "Pere Marquette River"
     },
     {
-      "name": "upstream limit is dam at Eagle River                 Pere Marquette River",
+      "name": "Pere Marquette River",
       "county": "Keweenaw",
       "type": "4",
       "section": "Village. from the upstream edge of the boat ramp",
@@ -1699,7 +1681,7 @@
       "clean_name": "Pere Marquette River"
     },
     {
-      "name": "upstream limit is Falls (T58N, R32W, S26).           Pine River",
+      "name": "Pine River",
       "county": "Gratiot",
       "type": "2",
       "section": "Silver River 4 from Elm Flats Public Access Site to upstream limit is Hwy M-26. confluence with Tippy Dam backwaters.",
@@ -1717,7 +1699,7 @@
       "clean_name": "Crystal River"
     },
     {
-      "name": "power line crossing downstream of                    Shalda Creek",
+      "name": "Shalda Creek",
       "county": "Manistee",
       "type": "4",
       "section": "Stronach Road Bridge (also referred to as from Little Traverse Lake outlet (T29N, Water Street on some maps). R13W, S10) downstream to L. Michigan.",
@@ -1753,7 +1735,7 @@
       "clean_name": "Black River"
     },
     {
-      "name": "\u2013 March 14, 5 fish limit, 8-inch minimum                  Brevoort River",
+      "name": "Brevoort River",
       "county": "Livingston",
       "type": "4",
       "section": "size limit, no more than 3 fish 15\" or larger, AT I O N S upstream limit is Brevoort Lake.",
@@ -1789,7 +1771,7 @@
       "clean_name": "Millecoquins River"
     },
     {
-      "name": "Deer Lake                                          D      Pine River",
+      "name": "Pine River",
       "county": "Luce",
       "type": "4",
       "section": "from H-40 Bridge downstream to L.",
@@ -1807,7 +1789,7 @@
       "clean_name": "Belle River"
     },
     {
-      "name": "Silver Creek Pond                                  A      North Branch Clinton River",
+      "name": "North Branch Clinton River",
       "county": "Clinton",
       "type": "4",
       "section": "from 32 Mile Rd. downstream to confluence with Clinton River.",
@@ -1825,7 +1807,7 @@
       "clean_name": "Blind Sucker River"
     },
     {
-      "name": "Bear Creek                                    3     Manistee River",
+      "name": "Manistee River",
       "county": "Manistee",
       "type": "4",
       "section": "from County Road 600 (T23N, 14W, S6) from Hodenpyl Reservoir downstream to downstream to confluence with Manistee Red Bridge.",
@@ -1852,7 +1834,7 @@
       "clean_name": "Bowens Creek"
     },
     {
-      "name": "Special Artificial Lure Regulations:                Big Garlic River Mainstream",
+      "name": "Big Garlic River Mainstream",
       "county": "Manistee",
       "type": "4",
       "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8. from Forks (T49N, R27W, S12) downstream",
@@ -1861,7 +1843,7 @@
       "clean_name": "Big Garlic River Mainstream"
     },
     {
-      "name": "Big Garlic River tributaries                   1    Big Sable River",
+      "name": "Big Sable River",
       "county": "Manistee",
       "type": "3",
       "section": "from County Road 550 (T50N, R26W, S33) BTRA from Hamlin Lake Dam downstream to L.",
@@ -1879,7 +1861,7 @@
       "clean_name": "Big Huron River"
     },
     {
-      "name": "from Big Eric\u2019s Bridge (T52N, R30W, S35)     BTRA   Big South Branch Pere Marquette River",
+      "name": "Big South Branch Pere Marquette River",
       "county": "Manistee",
       "type": "4",
       "section": "downstream to L. Superior (T52N, R29W, from confluence of Beaver/Winnepesaug",
@@ -1951,7 +1933,7 @@
       "clean_name": "Salmon-Trout River"
     },
     {
-      "name": "from Lower Falls (T51N, R28W, S13) down      BTRA   Pere Marquette River",
+      "name": "Pere Marquette River",
       "county": "Iron",
       "type": "4",
       "section": "to L. Superior. from the upstream edge of the boat ramp",
@@ -1960,7 +1942,7 @@
       "clean_name": "Pere Marquette River"
     },
     {
-      "name": "from Old 31 Highway to L. Michigan.                 Pere Marquette River",
+      "name": "Pere Marquette River",
       "county": "Mason",
       "type": "3",
       "section": "from Reek Rd. (Indian Bridge) Year-round \u2014 the daily possession",
@@ -1978,7 +1960,7 @@
       "clean_name": "Big Sable River"
     },
     {
-      "name": "Tamarack Creek                                 4     Fish Creek",
+      "name": "Fish Creek",
       "county": "Muskegon",
       "type": "4",
       "section": "from Sidney Rd. (T10N, R6W, S20)",
@@ -1987,7 +1969,7 @@
       "clean_name": "Fish Creek"
     },
     {
-      "name": "Big Cedar River                                4     Little Muskegon River",
+      "name": "Little Muskegon River",
       "county": "Menominee",
       "type": "4",
       "section": "",
@@ -1996,7 +1978,7 @@
       "clean_name": "Little Muskegon River"
     },
     {
-      "name": "from Veterans Memorial Park Dam (T38N,               Prairie Creek",
+      "name": "Prairie Creek",
       "county": "Menominee",
       "type": "4",
       "section": "R26W, S9) downstream to L. Michigan. Year-round \u2014 the daily possession",
@@ -2005,7 +1987,7 @@
       "clean_name": "Prairie Creek"
     },
     {
-      "name": "S35) downstream to L. Michigan.                      Tamarack Creek",
+      "name": "Tamarack Creek",
       "county": "Menominee",
       "type": "4",
       "section": "",
@@ -2014,16 +1996,7 @@
       "clean_name": "Tamarack Creek"
     },
     {
-      "name": "Walton Creek (River)",
-      "county": "Menominee",
-      "type": "4",
-      "section": "from Westmann Dam (T35N, R25W, S18) Montmorency",
-      "closure": "",
-      "source_page": 63,
-      "clean_name": "Walton Creek (River)"
-    },
-    {
-      "name": "confluence with the Tittabawassee River,             Black River",
+      "name": "Black River",
       "county": "Chippewa",
       "type": "GR",
       "section": "(T14N, R2E, S21), Midland Co. from Tin Shanty Bridge Rd. downstream p. 44",
@@ -2032,7 +2005,7 @@
       "clean_name": "Black River"
     },
     {
-      "name": "S1).                                                 Thunder Bay R.",
+      "name": "Thunder Bay R.",
       "county": "Chippewa",
       "type": "4",
       "section": "from Atlanta dam to Sucker Cr. confluence",
@@ -2041,7 +2014,7 @@
       "clean_name": "Thunder Bay R."
     },
     {
-      "name": "White Lake                                    F      Muskegon River",
+      "name": "Muskegon River",
       "county": "Huron",
       "type": "3",
       "section": "from Business Route US-31 (in Whitehall) from Croton Dam downstream to M-120.",
@@ -2050,7 +2023,7 @@
       "clean_name": "Muskegon River"
     },
     {
-      "name": "from Moore Rd. (T10N, R13W, S4) in                   Rogue River",
+      "name": "Rogue River",
       "county": "Muskegon",
       "type": "4",
       "section": "with Grand River (Ottawa Co.). Grand River.",
@@ -2059,7 +2032,7 @@
       "clean_name": "Rogue River"
     },
     {
-      "name": "Special Artificial Lure Regulations:                 Huron River",
+      "name": "Huron River",
       "county": "Oakland",
       "type": "GR",
       "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8. from 50 yards below Proud Lake Dam p. 45",
@@ -2068,7 +2041,7 @@
       "clean_name": "Huron River"
     },
     {
-      "name": "with Crockery Creek mainstream at                    Paint Creek",
+      "name": "Paint Creek",
       "county": "Oakland",
       "type": "GR",
       "section": "Ravenna. from Gunn Rd. to Tienken Rd. p. 46",
@@ -2077,7 +2050,7 @@
       "clean_name": "Paint Creek"
     },
     {
-      "name": "Big South Branch Pere Marquette River         4      Big South Branch Pere Marquette River",
+      "name": "Big South Branch Pere Marquette River",
       "county": "Newaygo",
       "type": "4",
       "section": "from confluence of Beaver/Winnepesaug from confluence of Beaver/Winnepesaug creeks downstream to confluence with creeks downstream to confluence with Pere Marquette River. Pere Marquette River.",
@@ -2095,7 +2068,7 @@
       "clean_name": "Little Muskegon River"
     },
     {
-      "name": "North Branch Pentwater River                 4     Firesteel River",
+      "name": "Firesteel River",
       "county": "Newaygo",
       "type": "3",
       "section": "from Oceana Dr. downstream to (including East & West Branch) upstream",
@@ -2131,7 +2104,7 @@
       "clean_name": "Middle Branch Ontonagon River"
     },
     {
-      "name": "Year-round \u2014 the daily possession                  Middle Branch Ontonagon River",
+      "name": "Middle Branch Ontonagon River",
       "county": "Newaygo",
       "type": "3",
       "section": "limit shall not include more than one (1) Agate Falls is upstream limit.",
@@ -2158,7 +2131,7 @@
       "clean_name": "Pentwater River"
     },
     {
-      "name": "confluence with Pentwater Lake (Long               Union River",
+      "name": "Union River",
       "county": "Ontonagon",
       "type": "4",
       "section": "Bridge Rd. or B15). from South Boundary Rd. (T51N, R42W,",
@@ -2221,7 +2194,7 @@
       "clean_name": "Au Sable River Mainstream"
     },
     {
-      "name": "Bridge) downstream to Rainbow Bend                 Crockery Creek Mainstream",
+      "name": "Crockery Creek Mainstream",
       "county": "Oscoda",
       "type": "4",
       "section": "power line (T26N, R2E, S3). from Moore Rd. (T10N, R13W, S4) in",
@@ -2239,7 +2212,7 @@
       "clean_name": "Au Sable River Mainstream"
     },
     {
-      "name": "line at (T26N, R3E, S7).                           North Branch Crockery Creek",
+      "name": "North Branch Crockery Creek",
       "county": "Muskegon",
       "type": "4",
       "section": "Mainstream",
@@ -2275,7 +2248,7 @@
       "clean_name": "Au Sable River Mainstream"
     },
     {
-      "name": "Bridge Lake                                 B      Ocqueoc River",
+      "name": "Ocqueoc River",
       "county": "Otsego",
       "type": "4",
       "section": "N from Barnhart L. down to L. Huron.",
@@ -2302,7 +2275,7 @@
       "clean_name": "Trout River"
     },
     {
-      "name": "from headwaters downstream to Co. Rd.              Saginaw River",
+      "name": "Saginaw River",
       "county": "Manistee",
       "type": "3",
       "section": "612.",
@@ -2338,7 +2311,7 @@
       "clean_name": "Black River Mainstream"
     },
     {
-      "name": "Spring Pond                               A      Brush Creek (except Reynolds Lake",
+      "name": "Brush Creek (except Reynolds Lake",
       "county": "Schoolcraft",
       "type": "4",
       "section": "Drain) Twilight Lake D from 63rd Ave. downstream to confluence",
@@ -2356,7 +2329,7 @@
       "clean_name": "Dowagiac River (including Dowagiac"
     },
     {
-      "name": "Manistique River                          4      Pine Creek",
+      "name": "Pine Creek",
       "county": "Schoolcraft",
       "type": "4",
       "section": "from Papermill Dam downstream to L. downstream limit is 101st Ave. (T1N,",
@@ -2365,7 +2338,7 @@
       "clean_name": "Pine Creek"
     },
     {
-      "name": "Milakokia River                           4      South Branch of the Black River",
+      "name": "South Branch of the Black River",
       "county": "Schoolcraft",
       "type": "3",
       "section": "Inland-Limstone Co. Railroad Bridge from Hamilton Street Bridge (T2S, R16W,",
@@ -2374,7 +2347,7 @@
       "clean_name": "South Branch of the Black River"
     },
     {
-      "name": "with St. Clair R.                                South Branch Paw Paw River (a.k.a.",
+      "name": "South Branch Paw Paw River (a.k.a.",
       "county": "St. Clair",
       "type": "4",
       "section": "Gates Drain or West Branch) and Mill Creek 4 tributaries downstream limit is confluence with downstream to the railroad bridge Black R. downstream of I-94 (T3S, R14W, S14).",
@@ -2383,7 +2356,7 @@
       "clean_name": "South Branch Paw Paw River (a.k.a."
     },
     {
-      "name": "Curtis Creek and tributaries              2      Huron River",
+      "name": "Huron River",
       "county": "St. Joseph",
       "type": "4",
       "section": "Mill Creek and tributaries 4 from Belleville Lake Dam in Wayne Co.",
@@ -2392,7 +2365,7 @@
       "clean_name": "Huron River"
     },
     {
-      "name": "from Bowers Road (T8S, R7W, S4)                  Manistee River",
+      "name": "Manistee River",
       "county": "St. Joseph",
       "type": "4",
       "section": "downstream to McKale Road (T7S, R9W, from Sunset Trail Rd. (CCC Bridge T26N,",
@@ -2401,7 +2374,7 @@
       "clean_name": "Manistee River"
     },
     {
-      "name": "Unnamed Tributary (T6S, R10W, S26).       4      Pine River",
+      "name": "Pine River",
       "county": "St. Joseph",
       "type": "2",
       "section": "from Elm Flats Public Access Site to confluence with Tippy Dam backwaters.",
@@ -2613,7 +2586,7 @@
       "kind": "lake",
       "type": "F",
       "pdf_record": {
-        "name": "downstream to Huron Bay (T51N, R31W,                 Betsie Lake",
+        "name": "Betsie Lake",
         "county": "Bay",
         "type": "F",
         "source_page": 52,
@@ -2628,7 +2601,7 @@
       "kind": "lake",
       "type": "E",
       "pdf_record": {
-        "name": "Silver River                                   4     Crystal Lake",
+        "name": "Crystal Lake",
         "county": "Bay",
         "type": "E",
         "source_page": 52,
@@ -2673,7 +2646,7 @@
       "kind": "lake",
       "type": "B",
       "pdf_record": {
-        "name": "SC - Closed to Fishing \u2014 within 300 ft. of            Birch Lake",
+        "name": "Birch Lake",
         "county": "Barry",
         "type": "B",
         "source_page": 53,
@@ -2688,7 +2661,7 @@
       "kind": "lake",
       "type": "C",
       "pdf_record": {
-        "name": "whenever weir is in place.                            Harwood Lake",
+        "name": "Harwood Lake",
         "county": "Barry",
         "type": "C",
         "source_page": 53,
@@ -2718,7 +2691,7 @@
       "kind": "lake",
       "type": "F",
       "pdf_record": {
-        "name": "South Branch Galien River                       4     Lake Charlevoix (including Round",
+        "name": "Lake Charlevoix (including Round",
         "county": "Charlevoix",
         "type": "F",
         "source_page": 53,
@@ -2733,7 +2706,7 @@
       "kind": "lake",
       "type": "B",
       "pdf_record": {
-        "name": "Galien River.                                         Thumb (Louise) Lake",
+        "name": "Thumb (Louise) Lake",
         "county": "Charlevoix",
         "type": "B",
         "source_page": 53,
@@ -2748,7 +2721,7 @@
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "Boyne River                                   4      Naomikong Lake",
+        "name": "Naomikong Lake",
         "county": "Lake",
         "type": "A",
         "source_page": 54,
@@ -2778,7 +2751,7 @@
       "kind": "lake",
       "type": "B",
       "pdf_record": {
-        "name": "Silver Lake                                   B      Bright Lake",
+        "name": "Bright Lake",
         "county": "Cheboygan",
         "type": "B",
         "source_page": 54,
@@ -2793,7 +2766,7 @@
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "Tower Pond (from dam to M-68)                 E      Kneff Lake",
+        "name": "Kneff Lake",
         "county": "Cheboygan",
         "type": "A",
         "source_page": 54,
@@ -2808,7 +2781,7 @@
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "Weber Lake                                    B      Shupac Lake",
+        "name": "Shupac Lake",
         "county": "Cheboygan",
         "type": "A",
         "source_page": 54,
@@ -2958,7 +2931,7 @@
       "kind": "lake",
       "type": "C",
       "pdf_record": {
-        "name": "of Bathtub Falls (T50N, R45W, S1) to L.               Bird Lake",
+        "name": "Bird Lake",
         "county": "Hillsdale",
         "type": "C",
         "source_page": 56,
@@ -2973,7 +2946,7 @@
       "kind": "lake",
       "type": "D",
       "pdf_record": {
-        "name": "Little Carp River                              3      Clear Lake",
+        "name": "Clear Lake",
         "county": "Ontonagon",
         "type": "D",
         "source_page": 56,
@@ -2988,7 +2961,7 @@
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "from Traders Falls (T50N, R45W, S2)                   Penegor Lake",
+        "name": "Penegor Lake",
         "county": "Ontonagon",
         "type": "A",
         "source_page": 56,
@@ -3033,7 +3006,7 @@
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "upstream limit is Cemetery Road (T56N,             Deadman\u2019s Lake",
+        "name": "Deadman\u2019s Lake",
         "county": "Iron",
         "type": "A",
         "source_page": 57,
@@ -3048,7 +3021,7 @@
       "kind": "lake",
       "type": "B",
       "pdf_record": {
-        "name": "R32W, S29).                                        Ellen Lake",
+        "name": "Ellen Lake",
         "county": "Iron",
         "type": "B",
         "source_page": 57,
@@ -3123,7 +3096,7 @@
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "Fish Creek                                   4     Spree Lake",
+        "name": "Spree Lake",
         "county": "Ionia",
         "type": "A",
         "source_page": 57,
@@ -3138,7 +3111,7 @@
       "kind": "lake",
       "type": "D",
       "pdf_record": {
-        "name": "downstream to confluence with Maple                Timber Lake",
+        "name": "Timber Lake",
         "county": "Ionia",
         "type": "D",
         "source_page": 57,
@@ -3213,7 +3186,7 @@
       "kind": "lake",
       "type": "E",
       "pdf_record": {
-        "name": "(Johnson\u2019s Bridge T20N, R14W, S24).                  North Lake Leelanau",
+        "name": "North Lake Leelanau",
         "county": "Lake",
         "type": "E",
         "source_page": 59,
@@ -3393,7 +3366,7 @@
       "kind": "lake",
       "type": "F",
       "pdf_record": {
-        "name": "Wolverine Lake                                     A      Arcadia Lake",
+        "name": "Arcadia Lake",
         "county": "Manistee",
         "type": "F",
         "source_page": 60,
@@ -3408,7 +3381,7 @@
       "kind": "lake",
       "type": "F",
       "pdf_record": {
-        "name": "Dam.                                                      Portage Lake",
+        "name": "Portage Lake",
         "county": "Manistee",
         "type": "F",
         "source_page": 60,
@@ -3423,7 +3396,7 @@
       "kind": "lake",
       "type": "B",
       "pdf_record": {
-        "name": "Little Manistee River                         4     Bass Lake",
+        "name": "Bass Lake",
         "county": "Marquette",
         "type": "B",
         "source_page": 61,
@@ -3438,7 +3411,7 @@
       "kind": "lake",
       "type": "E",
       "pdf_record": {
-        "name": "from Johnson Rd. (Johnson\u2019s Bridge)                 Big Trout Lake",
+        "name": "Big Trout Lake",
         "county": "Marquette",
         "type": "E",
         "source_page": 61,
@@ -3453,7 +3426,7 @@
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "power line crossing downstream of                   Cranberry Lake",
+        "name": "Cranberry Lake",
         "county": "Manistee",
         "type": "A",
         "source_page": 61,
@@ -3468,7 +3441,7 @@
       "kind": "lake",
       "type": "B",
       "pdf_record": {
-        "name": "Water Street on some maps).                         Forestville Basin",
+        "name": "Forestville Basin",
         "county": "Manistee",
         "type": "B",
         "source_page": 61,
@@ -3483,7 +3456,7 @@
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "SC - Closed to Fishing \u2014 Sep. 1 \u2013 Nov.              Island Lake (T45N, R30W, S14)",
+        "name": "Island Lake (T45N, R30W, S14)",
         "county": "Manistee",
         "type": "A",
         "source_page": 61,
@@ -3498,7 +3471,7 @@
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "feet downstream from the DNR weir in                Just Lake",
+        "name": "Just Lake",
         "county": "Manistee",
         "type": "A",
         "source_page": 61,
@@ -3513,7 +3486,7 @@
       "kind": "lake",
       "type": "E",
       "pdf_record": {
-        "name": "T21N, R16W, S25 down to the boundary                Lake Arfelin",
+        "name": "Lake Arfelin",
         "county": "Manistee",
         "type": "E",
         "source_page": 61,
@@ -3528,7 +3501,7 @@
       "kind": "lake",
       "type": "B",
       "pdf_record": {
-        "name": "the power line crossing downstream of               Little Brocky Lake",
+        "name": "Little Brocky Lake",
         "county": "Manistee",
         "type": "B",
         "source_page": 61,
@@ -3558,7 +3531,7 @@
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "SC - Closed to Fishing \u2014 Year-round                 Moccasin Lake",
+        "name": "Moccasin Lake",
         "county": "Manistee",
         "type": "A",
         "source_page": 61,
@@ -3588,7 +3561,7 @@
       "kind": "lake",
       "type": "D",
       "pdf_record": {
-        "name": "SC - Closed to Fishing \u2014 Jan. 1 \u2013 March             Rockingchair Lake, North",
+        "name": "Rockingchair Lake, North",
         "county": "Manistee",
         "type": "D",
         "source_page": 61,
@@ -3618,7 +3591,7 @@
       "kind": "lake",
       "type": "B",
       "pdf_record": {
-        "name": "Year-round \u2014 from Johnson Rd                        Silver Lake Basin",
+        "name": "Silver Lake Basin",
         "county": "Manistee",
         "type": "B",
         "source_page": 61,
@@ -3648,7 +3621,7 @@
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "limit shall not include more than one (1)           South Kidney Lake (T45N, R26W, S28)",
+        "name": "South Kidney Lake (T45N, R26W, S28)",
         "county": "Manistee",
         "type": "A",
         "source_page": 61,
@@ -3678,7 +3651,7 @@
       "kind": "lake",
       "type": "A",
       "pdf_record": {
-        "name": "include more than one (1) Rainbow Trout             Strawberry Lake",
+        "name": "Strawberry Lake",
         "county": "Manistee",
         "type": "A",
         "source_page": 61,
@@ -3708,7 +3681,7 @@
       "kind": "lake",
       "type": "C",
       "pdf_record": {
-        "name": "Little Muskegon River                          4     Marl Lake",
+        "name": "Marl Lake",
         "county": "Mecosta",
         "type": "C",
         "source_page": 63,
@@ -3723,7 +3696,7 @@
       "kind": "lake",
       "type": "F",
       "pdf_record": {
-        "name": "RW, S26) downstream to M-115.                        Duck Lake",
+        "name": "Duck Lake",
         "county": "Manistee",
         "type": "F",
         "source_page": 63,
@@ -3813,7 +3786,7 @@
       "kind": "lake",
       "type": "F",
       "pdf_record": {
-        "name": "Crater Lake                                 A      Lake Macatawa",
+        "name": "Lake Macatawa",
         "county": "Oscoda",
         "type": "F",
         "source_page": 66,
@@ -3918,7 +3891,7 @@
       "kind": "lake",
       "type": "E",
       "pdf_record": {
-        "name": "Black River                                 GR     Higgins Lake",
+        "name": "Higgins Lake",
         "county": "Roscommon",
         "type": "E",
         "source_page": 66,
@@ -3933,7 +3906,7 @@
       "kind": "lake",
       "type": "C",
       "pdf_record": {
-        "name": "Banana Lake                               B      Shafer Lake",
+        "name": "Shafer Lake",
         "county": "Schoolcraft",
         "type": "C",
         "source_page": 67,
@@ -4018,7 +3991,7 @@
       "section": "from Truck Trail (CO Rd 724, T49N, R15W, Au Sable River Mainstream 4 S25) downstream to L. Superior.",
       "closure": "",
       "pdf_record": {
-        "name": "downstream to 4001 Bridge.                               Hurricane River",
+        "name": "Hurricane River",
         "county": "Alcona",
         "type": "3",
         "section": "from Truck Trail (CO Rd 724, T49N, R15W, Au Sable River Mainstream 4 S25) downstream to L. Superior.",
@@ -4132,7 +4105,7 @@
       "section": "from 122nd Ave. (T2N, R11W, S12)",
       "closure": "",
       "pdf_record": {
-        "name": "Sullivan Lake                                 A          Gun River Mainstream",
+        "name": "Gun River Mainstream",
         "county": "Kalamazoo",
         "type": "4",
         "section": "from 122nd Ave. (T2N, R11W, S12)",
@@ -4170,7 +4143,7 @@
       "section": "Creek (T1N, R15W, S22) downstream to from Power Dam below Elk Lake confluence of Main Branch Black River. downstream to L. Michigan.",
       "closure": "",
       "pdf_record": {
-        "name": "from confluence of Spring Brook                    Elk River",
+        "name": "Elk River",
         "county": "Kalamazoo",
         "type": "3",
         "section": "Creek (T1N, R15W, S22) downstream to from Power Dam below Elk Lake confluence of Main Branch Black River. downstream to L. Michigan.",
@@ -4189,7 +4162,7 @@
       "section": "from 111th Ave. (T1N, R16W, S3) from Bypass Dam downstream to L.",
       "closure": "",
       "pdf_record": {
-        "name": "North Branch Black River                    3      Elk River Bypass",
+        "name": "Elk River Bypass",
         "county": "Kalamazoo",
         "type": "4",
         "section": "from 111th Ave. (T1N, R16W, S3) from Bypass Dam downstream to L.",
@@ -4246,7 +4219,7 @@
       "section": "from M-89 Bridge (T1N, R11W, S26) from Graves Crossing (T31N, R6W, S32) downstream to confluence with downstream to Lake Charlevoix.",
       "closure": "",
       "pdf_record": {
-        "name": "Silver Creek                                2      Jordan River",
+        "name": "Jordan River",
         "county": "Kalamazoo",
         "type": "4",
         "section": "from M-89 Bridge (T1N, R11W, S26) from Graves Crossing (T31N, R6W, S32) downstream to confluence with downstream to Lake Charlevoix.",
@@ -4272,25 +4245,6 @@
         "closure": "",
         "source_page": 51,
         "clean_name": "Torch River"
-      },
-      "wikipedia_title": null
-    },
-    {
-      "name": "Hook Restriction: From May 1 \u2013 July",
-      "county": "Kalamazoo",
-      "source": "pdf",
-      "kind": "lake",
-      "type": "1",
-      "section": "Ave. it shall be unlawful to use other",
-      "closure": "",
-      "pdf_record": {
-        "name": "Hook Restriction: From May 1 \u2013 July",
-        "county": "Kalamazoo",
-        "type": "1",
-        "section": "Ave. it shall be unlawful to use other",
-        "closure": "",
-        "source_page": 51,
-        "clean_name": "Hook Restriction: From May 1 \u2013 July"
       },
       "wikipedia_title": null
     },
@@ -4512,7 +4466,7 @@
       "section": "from confluence of N. and W. Br. Otter",
       "closure": "",
       "pdf_record": {
-        "name": "Otter River                                   3      Saginaw River",
+        "name": "Saginaw River",
         "county": "Bay",
         "type": "3",
         "section": "from confluence of N. and W. Br. Otter",
@@ -4588,7 +4542,7 @@
       "section": "River, Benzie Co., it shall be unlawful",
       "closure": "",
       "pdf_record": {
-        "name": "Hook Restriction: On the Platte                       Nottawa Creek",
+        "name": "Nottawa Creek",
         "county": "Barry",
         "type": "4",
         "section": "River, Benzie Co., it shall be unlawful",
@@ -4607,7 +4561,7 @@
       "section": "",
       "closure": "",
       "pdf_record": {
-        "name": "downstream to Platte Lake.                            Curtis Creek and Tributaries",
+        "name": "Curtis Creek and Tributaries",
         "county": "Barry",
         "type": "2",
         "section": "",
@@ -4626,7 +4580,7 @@
       "section": "from Preston Road (T7S, R12W, S7) R12W, S32.",
       "closure": "",
       "pdf_record": {
-        "name": "Singer Lake                                     C     Mill Creek and Tributaries",
+        "name": "Mill Creek and Tributaries",
         "county": "Berrien",
         "type": "4",
         "section": "from Preston Road (T7S, R12W, S7) R12W, S32.",
@@ -4702,7 +4656,7 @@
       "section": "than one single-pointed unweighted from bridge below lamprey weir to L.",
       "closure": "",
       "pdf_record": {
-        "name": "R5W, S5) it shall be unlawful to use other           Albany Creek",
+        "name": "Albany Creek",
         "county": "Lake",
         "type": "4",
         "section": "than one single-pointed unweighted from bridge below lamprey weir to L.",
@@ -4759,7 +4713,7 @@
       "section": "downstream to Lake Charlevoix. from Lakeshore Drive downstream to L.",
       "closure": "",
       "pdf_record": {
-        "name": "from Graves Crossing (T31N, R6W, S32)                Halfaday Creek",
+        "name": "Halfaday Creek",
         "county": "Lake",
         "type": "4",
         "section": "downstream to Lake Charlevoix. from Lakeshore Drive downstream to L.",
@@ -4778,7 +4732,7 @@
       "section": "weir is in place. Tributary to L. Michigan from Second Dam (T47N, R4W, S28)",
       "closure": "",
       "pdf_record": {
-        "name": "SC - Closed to Fishing \u2014 whenever                    Pendill\u2019s Creek",
+        "name": "Pendill\u2019s Creek",
         "county": "Lake",
         "type": "4",
         "section": "weir is in place. Tributary to L. Michigan from Second Dam (T47N, R4W, S28)",
@@ -4797,7 +4751,7 @@
       "section": "mouth of Medusa Creek. from H-40 Bridge downstream to L.",
       "closure": "",
       "pdf_record": {
-        "name": "L. Michigan in a radius of 100 ft from the           Pine River",
+        "name": "Pine River",
         "county": "Lake",
         "type": "4",
         "section": "mouth of Medusa Creek. from H-40 Bridge downstream to L.",
@@ -4854,7 +4808,7 @@
       "section": "from Elk Hill Campground Horse Trail to p. 46 from South Wakeley Bridge Rd. (Wakeley p. 44",
       "closure": "",
       "pdf_record": {
-        "name": "Pigeon River                                  GR     Au Sable River Mainstream",
+        "name": "Au Sable River Mainstream",
         "county": "Cheboygan",
         "type": "GR",
         "section": "from Elk Hill Campground Horse Trail to p. 46 from South Wakeley Bridge Rd. (Wakeley p. 44",
@@ -4873,7 +4827,7 @@
       "section": "(T33N, R1W, S17) to East Mullet Rd. from McMasters Bridge Rd. (McMasters",
       "closure": "",
       "pdf_record": {
-        "name": "from Pine Grove Campground Stairs                    Au Sable River Mainstream",
+        "name": "Au Sable River Mainstream",
         "county": "Cheboygan",
         "type": "4",
         "section": "(T33N, R1W, S17) to East Mullet Rd. from McMasters Bridge Rd. (McMasters",
@@ -4892,7 +4846,7 @@
       "section": "Burt Lake. from headwaters downstream to CO.",
       "closure": "",
       "pdf_record": {
-        "name": "Wolverine Rd.) downstream to mouth at                Manistee River",
+        "name": "Manistee River",
         "county": "Cheboygan",
         "type": "2",
         "section": "Burt Lake. from headwaters downstream to CO.",
@@ -4911,7 +4865,7 @@
       "section": "from M-72 downstream to Sunset Trail Rd. p. 45",
       "closure": "",
       "pdf_record": {
-        "name": "Dukes Lake                                    B      Manistee River",
+        "name": "Manistee River",
         "county": "Chippewa",
         "type": "GR",
         "section": "from M-72 downstream to Sunset Trail Rd. p. 45",
@@ -4930,7 +4884,7 @@
       "section": "from Sheep Ranch downstream to p. 44 from 38th Road (U.S.F.S. 2236)",
       "closure": "",
       "pdf_record": {
-        "name": "North Branch Au Sable River                 GR     Whitefish River",
+        "name": "Whitefish River",
         "county": "Chippewa",
         "type": "4",
         "section": "from Sheep Ranch downstream to p. 44 from 38th Road (U.S.F.S. 2236)",
@@ -4987,7 +4941,7 @@
       "section": "Norway Lake A Emmet",
       "closure": "",
       "pdf_record": {
-        "name": "Kilpecker Pond                              A      Sebewa Creek and Tributaries",
+        "name": "Sebewa Creek and Tributaries",
         "county": "Eaton",
         "type": "4",
         "section": "Norway Lake A Emmet",
@@ -5177,7 +5131,7 @@
       "section": "R20W, S13) downstream to L. Michigan. from (T20N, R2W, S2) downstream to",
       "closure": "",
       "pdf_record": {
-        "name": "from County Road 442 Bridge (T42N,                 North Branch Cedar River",
+        "name": "North Branch Cedar River",
         "county": "Lake",
         "type": "4",
         "section": "R20W, S13) downstream to L. Michigan. from (T20N, R2W, S2) downstream to",
@@ -5260,25 +5214,6 @@
         "closure": "",
         "source_page": 56,
         "clean_name": "Black River"
-      },
-      "wikipedia_title": null
-    },
-    {
-      "name": "Portage/Torch Lake system",
-      "county": "Houghton",
-      "source": "pdf",
-      "kind": "lake",
-      "type": "BTRA",
-      "section": "Duck Creek GR (including the Portage River, Portage from Railroad Bridge (T44N, R39W, p. 45 Canal, North Entry and South Entry.",
-      "closure": "",
-      "pdf_record": {
-        "name": "from US-2 downstream to Rainbow Falls.                Portage/Torch Lake system",
-        "county": "Houghton",
-        "type": "BTRA",
-        "section": "Duck Creek GR (including the Portage River, Portage from Railroad Bridge (T44N, R39W, p. 45 Canal, North Entry and South Entry.",
-        "closure": "",
-        "source_page": 56,
-        "clean_name": "Portage/Torch Lake system"
       },
       "wikipedia_title": null
     },
@@ -5386,7 +5321,7 @@
       "section": "from Road Bridge between (T53N, R36W,",
       "closure": "",
       "pdf_record": {
-        "name": "Superior.                                             Elm River",
+        "name": "Elm River",
         "county": "Ontonagon",
         "type": "4",
         "section": "from Road Bridge between (T53N, R36W,",
@@ -5443,7 +5378,7 @@
       "section": "from confluence of N. and W. Br. Otter",
       "closure": "",
       "pdf_record": {
-        "name": "Green Lake                                     B      Otter River",
+        "name": "Otter River",
         "county": "Grand Traverse",
         "type": "3",
         "section": "from confluence of N. and W. Br. Otter",
@@ -5481,7 +5416,7 @@
       "section": "from the headwaters downstream to Hwy BTRA Drain) US-41. from M-55 downstream to Saginaw Bay",
       "closure": "",
       "pdf_record": {
-        "name": "Pilgrim River and tributaries                 1    East Branch Au Gres River (Whitney",
+        "name": "East Branch Au Gres River (Whitney",
         "county": "Grand Traverse",
         "type": "3",
         "section": "from the headwaters downstream to Hwy BTRA Drain) US-41. from M-55 downstream to Saginaw Bay",
@@ -5595,7 +5530,7 @@
       "section": "from Van Etten Lake downstream to",
       "closure": "",
       "pdf_record": {
-        "name": "from US-41 downstream to Prickett Dam.             Van Etten Creek",
+        "name": "Van Etten Creek",
         "county": "Grand Traverse",
         "type": "3",
         "section": "from Van Etten Lake downstream to",
@@ -5728,7 +5663,7 @@
       "section": "limit shall not include more than one (1) from US Forest Hwy 16 to confluence with p. 45",
       "closure": "",
       "pdf_record": {
-        "name": "Year-round \u2014 the daily possession                  Cooks Run",
+        "name": "Cooks Run",
         "county": "Ionia",
         "type": "GR",
         "section": "limit shall not include more than one (1) from US Forest Hwy 16 to confluence with p. 45",
@@ -5747,7 +5682,7 @@
       "section": "from the Mouth of Cooks Run (T44N, p. 46",
       "closure": "",
       "pdf_record": {
-        "name": "Sebewa Creek and Tributaries                 4     Paint River, South Branch",
+        "name": "Paint River, South Branch",
         "county": "Ionia",
         "type": "GR",
         "section": "from the Mouth of Cooks Run (T44N, p. 46",
@@ -5785,7 +5720,7 @@
       "section": "the apron of the dam. from Outlet of Lake Isabella, (T15N,",
       "closure": "",
       "pdf_record": {
-        "name": "Foote Dam to the downstream edge of                Chippewa River",
+        "name": "Chippewa River",
         "county": "Isabella",
         "type": "3",
         "section": "the apron of the dam. from Outlet of Lake Isabella, (T15N,",
@@ -5842,7 +5777,7 @@
       "section": "R11W, S3). downstream limit is confluence with",
       "closure": "",
       "pdf_record": {
-        "name": "downstream limit is Kilgore Rd. (T3S,                 Ball Creek",
+        "name": "Ball Creek",
         "county": "Kent",
         "type": "4",
         "section": "R11W, S3). downstream limit is confluence with",
@@ -5880,7 +5815,7 @@
       "section": "downstream to confluence with downstream limit is confluence with",
       "closure": "",
       "pdf_record": {
-        "name": "from M-89 Bridge (T1N, R11W, S26)                     Buck Creek",
+        "name": "Buck Creek",
         "county": "Kent",
         "type": "4",
         "section": "downstream to confluence with downstream limit is confluence with",
@@ -5899,7 +5834,7 @@
       "section": "T downstream limit is confluence with Big Blue Lake B Rogue River.",
       "closure": "",
       "pdf_record": {
-        "name": "Bear Lake                                      B      Nash Creek",
+        "name": "Nash Creek",
         "county": "Kalkaska",
         "type": "4",
         "section": "T downstream limit is confluence with Big Blue Lake B Rogue River.",
@@ -5918,7 +5853,7 @@
       "section": "Big Twin Lake C downstream limit is confluence with Grand River.",
       "closure": "",
       "pdf_record": {
-        "name": "Big Guernsey Lake                              C      Rogue River",
+        "name": "Rogue River",
         "county": "Kalkaska",
         "type": "4",
         "section": "Big Twin Lake C downstream limit is confluence with Grand River.",
@@ -5937,7 +5872,7 @@
       "section": "from the downstream edge of the boat p. 46",
       "closure": "",
       "pdf_record": {
-        "name": "No Name Pond (T57N, R31W, S8)                 A      Pere Marquette River",
+        "name": "Pere Marquette River",
         "county": "Keweenaw",
         "type": "GR",
         "section": "from the downstream edge of the boat p. 46",
@@ -5956,7 +5891,7 @@
       "section": "Village. from the upstream edge of the boat ramp",
       "closure": "",
       "pdf_record": {
-        "name": "upstream limit is dam at Eagle River                 Pere Marquette River",
+        "name": "Pere Marquette River",
         "county": "Keweenaw",
         "type": "4",
         "section": "Village. from the upstream edge of the boat ramp",
@@ -5975,7 +5910,7 @@
       "section": "Silver River 4 from Elm Flats Public Access Site to upstream limit is Hwy M-26. confluence with Tippy Dam backwaters.",
       "closure": "",
       "pdf_record": {
-        "name": "upstream limit is Falls (T58N, R32W, S26).           Pine River",
+        "name": "Pine River",
         "county": "Gratiot",
         "type": "2",
         "section": "Silver River 4 from Elm Flats Public Access Site to upstream limit is Hwy M-26. confluence with Tippy Dam backwaters.",
@@ -6013,7 +5948,7 @@
       "section": "Stronach Road Bridge (also referred to as from Little Traverse Lake outlet (T29N, Water Street on some maps). R13W, S10) downstream to L. Michigan.",
       "closure": "",
       "pdf_record": {
-        "name": "power line crossing downstream of                    Shalda Creek",
+        "name": "Shalda Creek",
         "county": "Manistee",
         "type": "4",
         "section": "Stronach Road Bridge (also referred to as from Little Traverse Lake outlet (T29N, Water Street on some maps). R13W, S10) downstream to L. Michigan.",
@@ -6089,7 +6024,7 @@
       "section": "size limit, no more than 3 fish 15\" or larger, AT I O N S upstream limit is Brevoort Lake.",
       "closure": "",
       "pdf_record": {
-        "name": "\u2013 March 14, 5 fish limit, 8-inch minimum                  Brevoort River",
+        "name": "Brevoort River",
         "county": "Livingston",
         "type": "4",
         "section": "size limit, no more than 3 fish 15\" or larger, AT I O N S upstream limit is Brevoort Lake.",
@@ -6165,7 +6100,7 @@
       "section": "from H-40 Bridge downstream to L.",
       "closure": "",
       "pdf_record": {
-        "name": "Deer Lake                                          D      Pine River",
+        "name": "Pine River",
         "county": "Luce",
         "type": "4",
         "section": "from H-40 Bridge downstream to L.",
@@ -6203,7 +6138,7 @@
       "section": "from 32 Mile Rd. downstream to confluence with Clinton River.",
       "closure": "",
       "pdf_record": {
-        "name": "Silver Creek Pond                                  A      North Branch Clinton River",
+        "name": "North Branch Clinton River",
         "county": "Clinton",
         "type": "4",
         "section": "from 32 Mile Rd. downstream to confluence with Clinton River.",
@@ -6241,7 +6176,7 @@
       "section": "from County Road 600 (T23N, 14W, S6) from Hodenpyl Reservoir downstream to downstream to confluence with Manistee Red Bridge.",
       "closure": "",
       "pdf_record": {
-        "name": "Bear Creek                                    3     Manistee River",
+        "name": "Manistee River",
         "county": "Manistee",
         "type": "4",
         "section": "from County Road 600 (T23N, 14W, S6) from Hodenpyl Reservoir downstream to downstream to confluence with Manistee Red Bridge.",
@@ -6298,7 +6233,7 @@
       "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8. from Forks (T49N, R27W, S12) downstream",
       "closure": "",
       "pdf_record": {
-        "name": "Special Artificial Lure Regulations:                Big Garlic River Mainstream",
+        "name": "Big Garlic River Mainstream",
         "county": "Manistee",
         "type": "4",
         "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8. from Forks (T49N, R27W, S12) downstream",
@@ -6317,7 +6252,7 @@
       "section": "from County Road 550 (T50N, R26W, S33) BTRA from Hamlin Lake Dam downstream to L.",
       "closure": "",
       "pdf_record": {
-        "name": "Big Garlic River tributaries                   1    Big Sable River",
+        "name": "Big Sable River",
         "county": "Manistee",
         "type": "3",
         "section": "from County Road 550 (T50N, R26W, S33) BTRA from Hamlin Lake Dam downstream to L.",
@@ -6355,7 +6290,7 @@
       "section": "downstream to L. Superior (T52N, R29W, from confluence of Beaver/Winnepesaug",
       "closure": "",
       "pdf_record": {
-        "name": "from Big Eric\u2019s Bridge (T52N, R30W, S35)     BTRA   Big South Branch Pere Marquette River",
+        "name": "Big South Branch Pere Marquette River",
         "county": "Manistee",
         "type": "4",
         "section": "downstream to L. Superior (T52N, R29W, from confluence of Beaver/Winnepesaug",
@@ -6507,7 +6442,7 @@
       "section": "to L. Superior. from the upstream edge of the boat ramp",
       "closure": "",
       "pdf_record": {
-        "name": "from Lower Falls (T51N, R28W, S13) down      BTRA   Pere Marquette River",
+        "name": "Pere Marquette River",
         "county": "Iron",
         "type": "4",
         "section": "to L. Superior. from the upstream edge of the boat ramp",
@@ -6526,7 +6461,7 @@
       "section": "from Reek Rd. (Indian Bridge) Year-round \u2014 the daily possession",
       "closure": "",
       "pdf_record": {
-        "name": "from Old 31 Highway to L. Michigan.                 Pere Marquette River",
+        "name": "Pere Marquette River",
         "county": "Mason",
         "type": "3",
         "section": "from Reek Rd. (Indian Bridge) Year-round \u2014 the daily possession",
@@ -6564,7 +6499,7 @@
       "section": "from Sidney Rd. (T10N, R6W, S20)",
       "closure": "",
       "pdf_record": {
-        "name": "Tamarack Creek                                 4     Fish Creek",
+        "name": "Fish Creek",
         "county": "Muskegon",
         "type": "4",
         "section": "from Sidney Rd. (T10N, R6W, S20)",
@@ -6583,7 +6518,7 @@
       "section": "",
       "closure": "",
       "pdf_record": {
-        "name": "Big Cedar River                                4     Little Muskegon River",
+        "name": "Little Muskegon River",
         "county": "Menominee",
         "type": "4",
         "section": "",
@@ -6602,7 +6537,7 @@
       "section": "R26W, S9) downstream to L. Michigan. Year-round \u2014 the daily possession",
       "closure": "",
       "pdf_record": {
-        "name": "from Veterans Memorial Park Dam (T38N,               Prairie Creek",
+        "name": "Prairie Creek",
         "county": "Menominee",
         "type": "4",
         "section": "R26W, S9) downstream to L. Michigan. Year-round \u2014 the daily possession",
@@ -6621,32 +6556,13 @@
       "section": "",
       "closure": "",
       "pdf_record": {
-        "name": "S35) downstream to L. Michigan.                      Tamarack Creek",
+        "name": "Tamarack Creek",
         "county": "Menominee",
         "type": "4",
         "section": "",
         "closure": "",
         "source_page": 63,
         "clean_name": "Tamarack Creek"
-      },
-      "wikipedia_title": null
-    },
-    {
-      "name": "Walton Creek (River)",
-      "county": "Menominee",
-      "source": "pdf",
-      "kind": "river",
-      "type": "4",
-      "section": "from Westmann Dam (T35N, R25W, S18) Montmorency",
-      "closure": "",
-      "pdf_record": {
-        "name": "Walton Creek (River)",
-        "county": "Menominee",
-        "type": "4",
-        "section": "from Westmann Dam (T35N, R25W, S18) Montmorency",
-        "closure": "",
-        "source_page": 63,
-        "clean_name": "Walton Creek (River)"
       },
       "wikipedia_title": null
     },
@@ -6659,7 +6575,7 @@
       "section": "(T14N, R2E, S21), Midland Co. from Tin Shanty Bridge Rd. downstream p. 44",
       "closure": "",
       "pdf_record": {
-        "name": "confluence with the Tittabawassee River,             Black River",
+        "name": "Black River",
         "county": "Chippewa",
         "type": "GR",
         "section": "(T14N, R2E, S21), Midland Co. from Tin Shanty Bridge Rd. downstream p. 44",
@@ -6678,7 +6594,7 @@
       "section": "from Atlanta dam to Sucker Cr. confluence",
       "closure": "",
       "pdf_record": {
-        "name": "S1).                                                 Thunder Bay R.",
+        "name": "Thunder Bay R.",
         "county": "Chippewa",
         "type": "4",
         "section": "from Atlanta dam to Sucker Cr. confluence",
@@ -6697,7 +6613,7 @@
       "section": "from Business Route US-31 (in Whitehall) from Croton Dam downstream to M-120.",
       "closure": "",
       "pdf_record": {
-        "name": "White Lake                                    F      Muskegon River",
+        "name": "Muskegon River",
         "county": "Huron",
         "type": "3",
         "section": "from Business Route US-31 (in Whitehall) from Croton Dam downstream to M-120.",
@@ -6716,7 +6632,7 @@
       "section": "with Grand River (Ottawa Co.). Grand River.",
       "closure": "",
       "pdf_record": {
-        "name": "from Moore Rd. (T10N, R13W, S4) in                   Rogue River",
+        "name": "Rogue River",
         "county": "Muskegon",
         "type": "4",
         "section": "with Grand River (Ottawa Co.). Grand River.",
@@ -6735,7 +6651,7 @@
       "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8. from 50 yards below Proud Lake Dam p. 45",
       "closure": "",
       "pdf_record": {
-        "name": "Special Artificial Lure Regulations:                 Huron River",
+        "name": "Huron River",
         "county": "Oakland",
         "type": "GR",
         "section": "apply Aug. 1 \u2013 Nov. 15, see p. 8. from 50 yards below Proud Lake Dam p. 45",
@@ -6754,7 +6670,7 @@
       "section": "Ravenna. from Gunn Rd. to Tienken Rd. p. 46",
       "closure": "",
       "pdf_record": {
-        "name": "with Crockery Creek mainstream at                    Paint Creek",
+        "name": "Paint Creek",
         "county": "Oakland",
         "type": "GR",
         "section": "Ravenna. from Gunn Rd. to Tienken Rd. p. 46",
@@ -6773,7 +6689,7 @@
       "section": "from confluence of Beaver/Winnepesaug from confluence of Beaver/Winnepesaug creeks downstream to confluence with creeks downstream to confluence with Pere Marquette River. Pere Marquette River.",
       "closure": "",
       "pdf_record": {
-        "name": "Big South Branch Pere Marquette River         4      Big South Branch Pere Marquette River",
+        "name": "Big South Branch Pere Marquette River",
         "county": "Newaygo",
         "type": "4",
         "section": "from confluence of Beaver/Winnepesaug from confluence of Beaver/Winnepesaug creeks downstream to confluence with creeks downstream to confluence with Pere Marquette River. Pere Marquette River.",
@@ -6811,7 +6727,7 @@
       "section": "from Oceana Dr. downstream to (including East & West Branch) upstream",
       "closure": "",
       "pdf_record": {
-        "name": "North Branch Pentwater River                 4     Firesteel River",
+        "name": "Firesteel River",
         "county": "Newaygo",
         "type": "3",
         "section": "from Oceana Dr. downstream to (including East & West Branch) upstream",
@@ -6887,7 +6803,7 @@
       "section": "limit shall not include more than one (1) Agate Falls is upstream limit.",
       "closure": "",
       "pdf_record": {
-        "name": "Year-round \u2014 the daily possession                  Middle Branch Ontonagon River",
+        "name": "Middle Branch Ontonagon River",
         "county": "Newaygo",
         "type": "3",
         "section": "limit shall not include more than one (1) Agate Falls is upstream limit.",
@@ -6944,7 +6860,7 @@
       "section": "Bridge Rd. or B15). from South Boundary Rd. (T51N, R42W,",
       "closure": "",
       "pdf_record": {
-        "name": "confluence with Pentwater Lake (Long               Union River",
+        "name": "Union River",
         "county": "Ontonagon",
         "type": "4",
         "section": "Bridge Rd. or B15). from South Boundary Rd. (T51N, R42W,",
@@ -7077,7 +6993,7 @@
       "section": "power line (T26N, R2E, S3). from Moore Rd. (T10N, R13W, S4) in",
       "closure": "",
       "pdf_record": {
-        "name": "Bridge) downstream to Rainbow Bend                 Crockery Creek Mainstream",
+        "name": "Crockery Creek Mainstream",
         "county": "Oscoda",
         "type": "4",
         "section": "power line (T26N, R2E, S3). from Moore Rd. (T10N, R13W, S4) in",
@@ -7115,7 +7031,7 @@
       "section": "Mainstream",
       "closure": "",
       "pdf_record": {
-        "name": "line at (T26N, R3E, S7).                           North Branch Crockery Creek",
+        "name": "North Branch Crockery Creek",
         "county": "Muskegon",
         "type": "4",
         "section": "Mainstream",
@@ -7191,7 +7107,7 @@
       "section": "N from Barnhart L. down to L. Huron.",
       "closure": "",
       "pdf_record": {
-        "name": "Bridge Lake                                 B      Ocqueoc River",
+        "name": "Ocqueoc River",
         "county": "Otsego",
         "type": "4",
         "section": "N from Barnhart L. down to L. Huron.",
@@ -7248,7 +7164,7 @@
       "section": "612.",
       "closure": "",
       "pdf_record": {
-        "name": "from headwaters downstream to Co. Rd.              Saginaw River",
+        "name": "Saginaw River",
         "county": "Manistee",
         "type": "3",
         "section": "612.",
@@ -7324,7 +7240,7 @@
       "section": "Drain) Twilight Lake D from 63rd Ave. downstream to confluence",
       "closure": "",
       "pdf_record": {
-        "name": "Spring Pond                               A      Brush Creek (except Reynolds Lake",
+        "name": "Brush Creek (except Reynolds Lake",
         "county": "Schoolcraft",
         "type": "4",
         "section": "Drain) Twilight Lake D from 63rd Ave. downstream to confluence",
@@ -7362,7 +7278,7 @@
       "section": "from Papermill Dam downstream to L. downstream limit is 101st Ave. (T1N,",
       "closure": "",
       "pdf_record": {
-        "name": "Manistique River                          4      Pine Creek",
+        "name": "Pine Creek",
         "county": "Schoolcraft",
         "type": "4",
         "section": "from Papermill Dam downstream to L. downstream limit is 101st Ave. (T1N,",
@@ -7381,7 +7297,7 @@
       "section": "Inland-Limstone Co. Railroad Bridge from Hamilton Street Bridge (T2S, R16W,",
       "closure": "",
       "pdf_record": {
-        "name": "Milakokia River                           4      South Branch of the Black River",
+        "name": "South Branch of the Black River",
         "county": "Schoolcraft",
         "type": "3",
         "section": "Inland-Limstone Co. Railroad Bridge from Hamilton Street Bridge (T2S, R16W,",
@@ -7400,7 +7316,7 @@
       "section": "Gates Drain or West Branch) and Mill Creek 4 tributaries downstream limit is confluence with downstream to the railroad bridge Black R. downstream of I-94 (T3S, R14W, S14).",
       "closure": "",
       "pdf_record": {
-        "name": "with St. Clair R.                                South Branch Paw Paw River (a.k.a.",
+        "name": "South Branch Paw Paw River (a.k.a.",
         "county": "St. Clair",
         "type": "4",
         "section": "Gates Drain or West Branch) and Mill Creek 4 tributaries downstream limit is confluence with downstream to the railroad bridge Black R. downstream of I-94 (T3S, R14W, S14).",
@@ -7419,7 +7335,7 @@
       "section": "Mill Creek and tributaries 4 from Belleville Lake Dam in Wayne Co.",
       "closure": "",
       "pdf_record": {
-        "name": "Curtis Creek and tributaries              2      Huron River",
+        "name": "Huron River",
         "county": "St. Joseph",
         "type": "4",
         "section": "Mill Creek and tributaries 4 from Belleville Lake Dam in Wayne Co.",
@@ -7438,7 +7354,7 @@
       "section": "downstream to McKale Road (T7S, R9W, from Sunset Trail Rd. (CCC Bridge T26N,",
       "closure": "",
       "pdf_record": {
-        "name": "from Bowers Road (T8S, R7W, S4)                  Manistee River",
+        "name": "Manistee River",
         "county": "St. Joseph",
         "type": "4",
         "section": "downstream to McKale Road (T7S, R9W, from Sunset Trail Rd. (CCC Bridge T26N,",
@@ -7457,7 +7373,7 @@
       "section": "from Elm Flats Public Access Site to confluence with Tippy Dam backwaters.",
       "closure": "",
       "pdf_record": {
-        "name": "Unnamed Tributary (T6S, R10W, S26).       4      Pine River",
+        "name": "Pine River",
         "county": "St. Joseph",
         "type": "2",
         "section": "from Elm Flats Public Access Site to confluence with Tippy Dam backwaters.",
@@ -7594,10 +7510,10 @@
       "wikipedia_title": "Miners River"
     },
     {
-      "name": "Mosquito River (Michigan)",
+      "name": "",
       "county": "Alger",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Mosquito River (Michigan)"
     },
     {
@@ -7937,10 +7853,17 @@
       "wikipedia_title": "Thayer Lake (Antrim County)"
     },
     {
-      "name": "Torch River (Michigan)",
+      "name": "",
       "county": "Antrim",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
+      "wikipedia_title": "Torch Lake (Antrim County, Michigan)"
+    },
+    {
+      "name": "",
+      "county": "Antrim",
+      "source": "wikipedia",
+      "kind": "lake",
       "wikipedia_title": "Torch River (Michigan)"
     },
     {
@@ -8063,10 +7986,10 @@
       "wikipedia_title": "Silver River (Baraga County)"
     },
     {
-      "name": "Silver River (Baraga\u2013Houghton counties)",
+      "name": "",
       "county": "Baraga",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Silver River (Baraga\u2013Houghton counties)"
     },
     {
@@ -8077,10 +8000,10 @@
       "wikipedia_title": "Spurr River"
     },
     {
-      "name": "Sturgeon River (Houghton County, Michigan)",
+      "name": "",
       "county": "Baraga",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Sturgeon River (Houghton County, Michigan)"
     },
     {
@@ -9309,7 +9232,7 @@
       "wikipedia_title": "Fumee Lake"
     },
     {
-      "name": "Lake Antoine",
+      "name": "",
       "county": "Dickinson",
       "source": "wikipedia",
       "kind": "lake",
@@ -9365,10 +9288,10 @@
       "wikipedia_title": "Lake Interstate"
     },
     {
-      "name": "Little Thornapple River (Eaton County)",
+      "name": "",
       "county": "Eaton",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Little Thornapple River (Eaton County)"
     },
     {
@@ -9484,7 +9407,7 @@
       "wikipedia_title": "Flint River (Michigan)"
     },
     {
-      "name": "Lake Fenton (Michigan)",
+      "name": "",
       "county": "Genesee",
       "source": "wikipedia",
       "kind": "lake",
@@ -9526,7 +9449,7 @@
       "wikipedia_title": "Cedar River (Gladwin County, Michigan)"
     },
     {
-      "name": "Edenville Dam",
+      "name": "",
       "county": "Gladwin",
       "source": "wikipedia",
       "kind": "lake",
@@ -9540,10 +9463,10 @@
       "wikipedia_title": "Kawkawlin River"
     },
     {
-      "name": "Little Cedar River (Tobacco River tributary)",
+      "name": "",
       "county": "Gladwin",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Little Cedar River (Tobacco River tributary)"
     },
     {
@@ -9596,10 +9519,10 @@
       "wikipedia_title": "Tittabawassee River"
     },
     {
-      "name": "Tobacco River (Tittabawassee River tributary)",
+      "name": "",
       "county": "Gladwin",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Tobacco River (Tittabawassee River tributary)"
     },
     {
@@ -9617,10 +9540,10 @@
       "wikipedia_title": "Black River (Gogebic County)"
     },
     {
-      "name": "Carp River (Gogebic\u2013Ontonagon counties)",
+      "name": "",
       "county": "Gogebic",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Carp River (Gogebic\u2013Ontonagon counties)"
     },
     {
@@ -9673,10 +9596,10 @@
       "wikipedia_title": "Little Black River (Gogebic County)"
     },
     {
-      "name": "Little Carp River (Gogebic-Ontonagon counties)",
+      "name": "",
       "county": "Gogebic",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Little Carp River (Gogebic-Ontonagon counties)"
     },
     {
@@ -9757,7 +9680,7 @@
       "wikipedia_title": "Arbutus Lake (Michigan)"
     },
     {
-      "name": "Bass Lake (Long Lake Township, Michigan)",
+      "name": "",
       "county": "Grand Traverse",
       "source": "wikipedia",
       "kind": "lake",
@@ -10030,7 +9953,7 @@
       "wikipedia_title": "Graveraet River"
     },
     {
-      "name": "Houghton-Douglass Falls",
+      "name": "",
       "county": "Houghton",
       "source": "wikipedia",
       "kind": "lake",
@@ -10121,10 +10044,10 @@
       "wikipedia_title": "Salmon Trout River"
     },
     {
-      "name": "Silver River (Baraga\u2013Houghton counties)",
+      "name": "",
       "county": "Houghton",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Silver River (Baraga\u2013Houghton counties)"
     },
     {
@@ -10135,10 +10058,10 @@
       "wikipedia_title": "Snake River (Michigan)"
     },
     {
-      "name": "Sturgeon River (Houghton County, Michigan)",
+      "name": "",
       "county": "Houghton",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Sturgeon River (Houghton County, Michigan)"
     },
     {
@@ -10149,7 +10072,7 @@
       "wikipedia_title": "Torch Bay"
     },
     {
-      "name": "Torch Lake (Houghton County, Michigan)",
+      "name": "",
       "county": "Houghton",
       "source": "wikipedia",
       "kind": "lake",
@@ -10660,17 +10583,17 @@
       "wikipedia_title": "Starvation Lake"
     },
     {
-      "name": "Torch Lake (Antrim County, Michigan)",
+      "name": "",
       "county": "Kalkaska",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Torch Lake (Antrim County, Michigan)"
     },
     {
-      "name": "Torch River (Michigan)",
+      "name": "",
       "county": "Kalkaska",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Torch River (Michigan)"
     },
     {
@@ -10842,10 +10765,10 @@
       "wikipedia_title": "Siskiwit Lake (Isle Royale)"
     },
     {
-      "name": "Tobacco River (Keweenaw County, Michigan)",
+      "name": "",
       "county": "Keweenaw",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Tobacco River (Keweenaw County, Michigan)"
     },
     {
@@ -10898,10 +10821,10 @@
       "wikipedia_title": "Black River (St. Clair River tributary)"
     },
     {
-      "name": "Clinton River (Michigan)",
+      "name": "",
       "county": "Lapeer",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Clinton River (Michigan)"
     },
     {
@@ -10975,7 +10898,7 @@
       "wikipedia_title": "Lime Lake (Michigan)"
     },
     {
-      "name": "Manitou Passage",
+      "name": "",
       "county": "Leelanau",
       "source": "wikipedia",
       "kind": "lake",
@@ -11283,10 +11206,10 @@
       "wikipedia_title": "Anchor Bay (Michigan)"
     },
     {
-      "name": "Clinton River (Michigan)",
+      "name": "",
       "county": "Macomb",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Clinton River (Michigan)"
     },
     {
@@ -11563,7 +11486,7 @@
       "wikipedia_title": "Lincoln River"
     },
     {
-      "name": "Ludington Pumped Storage Power Plant",
+      "name": "",
       "county": "Mason",
       "source": "wikipedia",
       "kind": "lake",
@@ -11675,7 +11598,7 @@
       "wikipedia_title": "Salt River (Michigan)"
     },
     {
-      "name": "Sanford Dam (Michigan)",
+      "name": "",
       "county": "Midland",
       "source": "wikipedia",
       "kind": "lake",
@@ -11710,10 +11633,10 @@
       "wikipedia_title": "Tittabawassee River"
     },
     {
-      "name": "Tobacco River (Tittabawassee River tributary)",
+      "name": "",
       "county": "Midland",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Tobacco River (Tittabawassee River tributary)"
     },
     {
@@ -11976,7 +11899,7 @@
       "wikipedia_title": "White River (White Lake)"
     },
     {
-      "name": "Baldwin Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -11997,35 +11920,35 @@
       "wikipedia_title": "Cass Lake (Michigan)"
     },
     {
-      "name": "Clam Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Clam Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Clinton River (Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Clinton River (Michigan)"
     },
     {
-      "name": "Cooley Lake (White Lake Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Cooley Lake (White Lake Township, Michigan)"
     },
     {
-      "name": "Crescent Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Crescent Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Crooked Lake (Independence Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12039,28 +11962,28 @@
       "wikipedia_title": "Crystal Lake (Pontiac, Michigan)"
     },
     {
-      "name": "Dark Lake (Independence Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Dark Lake (Independence Township, Michigan)"
     },
     {
-      "name": "Deer Lake (Independence Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Deer Lake (Independence Township, Michigan)"
     },
     {
-      "name": "Dollar Lake (Independence Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Dollar Lake (Independence Township, Michigan)"
     },
     {
-      "name": "Eagle Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12074,14 +11997,14 @@
       "wikipedia_title": "Elizabeth Lake (Waterford, Michigan)"
     },
     {
-      "name": "Fiddle Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Fiddle Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Geneva Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12095,7 +12018,7 @@
       "wikipedia_title": "Greens Lake (Michigan)"
     },
     {
-      "name": "Huntoon Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12116,7 +12039,7 @@
       "wikipedia_title": "Lake Angelus (Michigan)"
     },
     {
-      "name": "Lake Goodrich (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12144,14 +12067,14 @@
       "wikipedia_title": "Lakeville Lake (Michigan)"
     },
     {
-      "name": "Leggets Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Leggets Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Lester Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12165,7 +12088,7 @@
       "wikipedia_title": "List of lakes of Oakland County, Michigan"
     },
     {
-      "name": "Loon Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12186,21 +12109,21 @@
       "wikipedia_title": "Mandon Lake"
     },
     {
-      "name": "Middle Lake (Independence Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Middle Lake (Independence Township, Michigan)"
     },
     {
-      "name": "Mohawk Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Mohawk Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Morgan Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12214,28 +12137,28 @@
       "wikipedia_title": "Orchard Lake (Michigan)"
     },
     {
-      "name": "Otter Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Otter Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Parke Lake (Independence Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Parke Lake (Independence Township, Michigan)"
     },
     {
-      "name": "Pine Lake (West Bloomfield Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Pine Lake (West Bloomfield Township, Michigan)"
     },
     {
-      "name": "Pleasant Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12249,7 +12172,7 @@
       "wikipedia_title": "Pontiac Lake (Michigan)"
     },
     {
-      "name": "Rainbow Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12270,7 +12193,7 @@
       "wikipedia_title": "Schoolhouse Lake (Michigan)"
     },
     {
-      "name": "Scott Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12284,14 +12207,14 @@
       "wikipedia_title": "Shiawassee River"
     },
     {
-      "name": "Silver Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Silver Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Spring Lake (Independence Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12312,14 +12235,14 @@
       "wikipedia_title": "Sylvan Lake (Michigan)"
     },
     {
-      "name": "Tommys Lake (Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Tommys Lake (Michigan)"
     },
     {
-      "name": "Townsend Lake (Independence Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12340,14 +12263,14 @@
       "wikipedia_title": "Union Lake (Michigan)"
     },
     {
-      "name": "Upper Bushman Lake (Independence Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Upper Bushman Lake (Independence Township, Michigan)"
     },
     {
-      "name": "Upper Silver Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12368,14 +12291,14 @@
       "wikipedia_title": "Walled Lake (Michigan)"
     },
     {
-      "name": "Walnut Lake (West Bloomfield Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Walnut Lake (West Bloomfield Township, Michigan)"
     },
     {
-      "name": "Walters Lake (Independence Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12389,14 +12312,14 @@
       "wikipedia_title": "Waterford Hill (Michigan)"
     },
     {
-      "name": "Watkins Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Watkins Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Whipple Lake (Independence Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12410,7 +12333,7 @@
       "wikipedia_title": "White Horse Lake"
     },
     {
-      "name": "White Lake (White Lake Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12431,7 +12354,7 @@
       "wikipedia_title": "Woodhull Lake"
     },
     {
-      "name": "Wormer Lake (Waterford Township, Michigan)",
+      "name": "",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12508,10 +12431,10 @@
       "wikipedia_title": "Big Iron River"
     },
     {
-      "name": "Carp River (Gogebic\u2013Ontonagon counties)",
+      "name": "",
       "county": "Ontonagon",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Carp River (Gogebic\u2013Ontonagon counties)"
     },
     {
@@ -12578,10 +12501,10 @@
       "wikipedia_title": "Lake of the Clouds"
     },
     {
-      "name": "Little Carp River (Gogebic-Ontonagon counties)",
+      "name": "",
       "county": "Ontonagon",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Little Carp River (Gogebic-Ontonagon counties)"
     },
     {
@@ -12634,17 +12557,17 @@
       "wikipedia_title": "Ontonagon River"
     },
     {
-      "name": "Potato River (Michigan)",
+      "name": "",
       "county": "Ontonagon",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Potato River (Michigan)"
     },
     {
-      "name": "Rapid River (Ontonagon County, Michigan)",
+      "name": "",
       "county": "Ontonagon",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Rapid River (Ontonagon County, Michigan)"
     },
     {
@@ -12928,14 +12851,14 @@
       "wikipedia_title": "Dead Stream Flooding"
     },
     {
-      "name": "Houghton Lake (Michigan)",
+      "name": "",
       "county": "Roscommon",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Houghton Lake (Michigan)"
     },
     {
-      "name": "Houghton Lake Flats",
+      "name": "",
       "county": "Roscommon",
       "source": "wikipedia",
       "kind": "lake",
@@ -13054,10 +12977,10 @@
       "wikipedia_title": "Black River (St. Clair River tributary)"
     },
     {
-      "name": "Clinton River (Michigan)",
+      "name": "",
       "county": "St. Clair",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "lake",
       "wikipedia_title": "Clinton River (Michigan)"
     },
     {
@@ -14074,7 +13997,7 @@
       "Antrim": {
         "lakes": 4,
         "streams": 0,
-        "waterbodies": 31,
+        "waterbodies": 32,
         "has_general_species": true,
         "has_exceptions": true
       },
@@ -14255,8 +14178,8 @@
       },
       "Houghton": {
         "lakes": 0,
-        "streams": 2,
-        "waterbodies": 25,
+        "streams": 1,
+        "waterbodies": 24,
         "has_general_species": true,
         "has_exceptions": false
       },
@@ -14311,8 +14234,8 @@
       },
       "Kalamazoo": {
         "lakes": 3,
-        "streams": 9,
-        "waterbodies": 20,
+        "streams": 8,
+        "waterbodies": 19,
         "has_general_species": true,
         "has_exceptions": false
       },
@@ -14423,8 +14346,8 @@
       },
       "Menominee": {
         "lakes": 0,
-        "streams": 4,
-        "waterbodies": 10,
+        "streams": 3,
+        "waterbodies": 9,
         "has_general_species": true,
         "has_exceptions": true
       },
@@ -14868,6 +14791,12 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
+      "": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
       "Ostrander Lake (Michigan)": {
         "species": [],
         "extras": [],
@@ -15005,12 +14934,6 @@
         "note": "No historical survey data available"
       },
       "Little Paw Paw Lake": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Hook Restriction: From May 1 \u2013 July": {
         "species": [],
         "extras": [],
         "source": null,
@@ -15636,6 +15559,12 @@
         ],
         "source": "changes-um-zenodo",
         "dataset": "summ"
+      },
+      "": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
       },
       "Wilson Lake (Michigan)": {
         "dataset_match": "Wilson",
@@ -16557,6 +16486,12 @@
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
+      },
+      "": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
       }
     },
     "Gogebic": {
@@ -16621,6 +16556,12 @@
         ],
         "source": "changes-um-zenodo",
         "dataset": "summ"
+      },
+      "": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
       },
       "Clark Lake (Gogebic County, Michigan)": {
         "dataset_match": "Clark",
@@ -16835,6 +16776,12 @@
         "note": "No historical survey data available"
       },
       "Perrault Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "": {
         "species": [],
         "extras": [],
         "source": null,
@@ -17325,6 +17272,12 @@
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
+      },
+      "": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
       }
     },
     "Lenawee": {
@@ -17620,6 +17573,12 @@
         "note": "No historical survey data available"
       },
       "Pratt Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "": {
         "species": [],
         "extras": [],
         "source": null,
@@ -18185,7 +18144,7 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Baldwin Lake (Waterford Township, Michigan)": {
+      "": {
         "species": [],
         "extras": [],
         "source": null,
@@ -18219,90 +18178,6 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "Clam Lake (Waterford Township, Michigan)": {
-        "dataset_match": "Clam",
-        "match_score": 1.0,
-        "survey_records": 1,
-        "survey_years": [
-          "1957"
-        ],
-        "species": [
-          "Yellow Perch"
-        ],
-        "extras": [
-          "Hornyhead Chub - 16, Creek Chub - 1"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "fishc"
-      },
-      "Cooley Lake (White Lake Township, Michigan)": {
-        "dataset_match": "Cooley",
-        "match_score": 1.0,
-        "survey_records": 24,
-        "survey_years": [
-          "1962",
-          "1963"
-        ],
-        "species": [
-          "Black Crappie",
-          "Bluegill",
-          "Largemouth Bass",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Rock Bass",
-          "Yellow Perch"
-        ],
-        "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "grow"
-      },
-      "Crescent Lake (Waterford Township, Michigan)": {
-        "dataset_match": "Crescent",
-        "match_score": 1.0,
-        "survey_records": 75,
-        "survey_years": [
-          "1952",
-          "1984",
-          "1988",
-          "1989",
-          "1990",
-          "1991",
-          "1992",
-          "1993"
-        ],
-        "species": [
-          "Black Crappie",
-          "Bluegill",
-          "Largemouth Bass",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Yellow Perch"
-        ],
-        "extras": [
-          "crappies"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "summ"
-      },
-      "Crooked Lake (Independence Township, Michigan)": {
-        "dataset_match": "Crooked",
-        "match_score": 1.0,
-        "survey_records": 27,
-        "survey_years": [
-          "1987"
-        ],
-        "species": [
-          "Bluegill",
-          "Largemouth Bass",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Rock Bass",
-          "Yellow Perch"
-        ],
-        "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "grow"
-      },
       "Crystal Lake (Pontiac, Michigan)": {
         "dataset_match": "Crystal",
         "match_score": 1.0,
@@ -18325,51 +18200,6 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Dark Lake (Independence Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Deer Lake (Independence Township, Michigan)": {
-        "dataset_match": "Deer",
-        "match_score": 1.0,
-        "survey_records": 2,
-        "survey_years": [
-          "1991"
-        ],
-        "species": [
-          "Walleye"
-        ],
-        "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "grow"
-      },
-      "Dollar Lake (Independence Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Eagle Lake (Waterford Township, Michigan)": {
-        "dataset_match": "Baldeagle",
-        "match_score": 0.85,
-        "survey_records": 18,
-        "survey_years": [
-          "1962"
-        ],
-        "species": [
-          "Black Crappie",
-          "Bluegill",
-          "Largemouth Bass",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Smallmouth Bass"
-        ],
-        "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "grow"
-      },
       "Elizabeth Lake (Waterford, Michigan)": {
         "dataset_match": "Elizabeth",
         "match_score": 1.0,
@@ -18389,18 +18219,6 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Fiddle Lake (Waterford Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Geneva Lake (Waterford Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
       "Greens Lake (Michigan)": {
         "dataset_match": "Greent",
         "match_score": 0.83,
@@ -18412,30 +18230,6 @@
           "Johnny Darter"
         ],
         "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "fishc"
-      },
-      "Huntoon Lake (Waterford Township, Michigan)": {
-        "dataset_match": "Huntoon",
-        "match_score": 1.0,
-        "survey_records": 20,
-        "survey_years": [
-          "1947"
-        ],
-        "species": [
-          "Bluegill",
-          "Golden Shiner",
-          "Grass Pickerel",
-          "Iowa Darter",
-          "Lake Chubsucker",
-          "Largemouth Bass",
-          "Pumpkinseed",
-          "Yellow Bullhead",
-          "Yellow Perch"
-        ],
-        "extras": [
-          "Creek chub - 1, Hornyhead chub - 3"
-        ],
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
@@ -18502,12 +18296,6 @@
         ],
         "source": "changes-um-zenodo",
         "dataset": "summ"
-      },
-      "Lake Goodrich (Waterford Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
       },
       "Lake Oakland (Michigan)": {
         "dataset_match": "Oakland",
@@ -18583,43 +18371,11 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "Leggets Lake (Waterford Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Lester Lake (Waterford Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
       "List of lakes of Oakland County, Michigan": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "Not a real waterbody (PDF parsing artifact)"
-      },
-      "Loon Lake (Waterford Township, Michigan)": {
-        "dataset_match": "Loon",
-        "match_score": 1.0,
-        "survey_records": 28,
-        "survey_years": [
-          "1987",
-          "1988"
-        ],
-        "species": [
-          "Black Crappie",
-          "Bluegill",
-          "Largemouth Bass",
-          "Pumpkinseed",
-          "Smallmouth Bass",
-          "Walleye"
-        ],
-        "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "grow"
       },
       "Lotus Lake (Michigan)": {
         "species": [],
@@ -18640,59 +18396,6 @@
         "extras": [],
         "source": "changes-um-zenodo",
         "dataset": "grow"
-      },
-      "Middle Lake (Independence Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Mohawk Lake (Waterford Township, Michigan)": {
-        "dataset_match": "Mohawk",
-        "match_score": 1.0,
-        "survey_records": 1,
-        "survey_years": [
-          "1950"
-        ],
-        "species": [
-          "Black Crappie",
-          "Bluegill",
-          "Golden Shiner",
-          "Lake Chubsucker",
-          "Largemouth Bass",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Rock Bass",
-          "White Sucker",
-          "Yellow Bullhead",
-          "Yellow Perch"
-        ],
-        "extras": [
-          "chub_sucker; rock_bass_green_sunfish; garpike"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "summ"
-      },
-      "Morgan Lake (Waterford Township, Michigan)": {
-        "dataset_match": "Morganlittle",
-        "match_score": 0.85,
-        "survey_records": 1,
-        "survey_years": [
-          "1953"
-        ],
-        "species": [
-          "Bluegill",
-          "Golden Shiner",
-          "Lake Chubsucker",
-          "Largemouth Bass",
-          "Yellow Bullhead",
-          "Yellow Perch"
-        ],
-        "extras": [
-          "common_sunfish; chub_sucker; green_sunfish; mud_pickerel"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "summ"
       },
       "Orchard Lake (Michigan)": {
         "dataset_match": "Orchard",
@@ -18722,63 +18425,6 @@
         ],
         "extras": [
           "Fantail Darter - 1"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "summ"
-      },
-      "Otter Lake (Waterford Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Parke Lake (Independence Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Pine Lake (West Bloomfield Township, Michigan)": {
-        "dataset_match": "Pine",
-        "match_score": 1.0,
-        "survey_records": 17,
-        "survey_years": [
-          "1963"
-        ],
-        "species": [
-          "Bluegill",
-          "Largemouth Bass",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Rock Bass",
-          "Yellow Perch"
-        ],
-        "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "grow"
-      },
-      "Pleasant Lake (Waterford Township, Michigan)": {
-        "dataset_match": "Pleasant",
-        "match_score": 1.0,
-        "survey_records": 8,
-        "survey_years": [
-          "1936"
-        ],
-        "species": [
-          "Banded Killifish",
-          "Blackchin Shiner",
-          "Blacknose Shiner",
-          "Bluegill",
-          "Bluntnose Minnow",
-          "Brook Silverside",
-          "Lake Chubsucker",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Yellow Perch"
-        ],
-        "extras": [
-          "N. spilopterus (Satin fin - steel colored shiner) - 1",
-          "mud_pickerel; strawcolored_shiner"
         ],
         "source": "changes-um-zenodo",
         "dataset": "summ"
@@ -18820,12 +18466,6 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "Rainbow Lake (Waterford Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
       "Schoolhouse Lake (Michigan)": {
         "dataset_match": "Schoolhouse",
         "match_score": 1.0,
@@ -18844,61 +18484,6 @@
         ],
         "extras": [
           "chub_sucker; garpike_bowfin; garpike"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "summ"
-      },
-      "Scott Lake (Waterford Township, Michigan)": {
-        "dataset_match": "Scott",
-        "match_score": 1.0,
-        "survey_records": 2,
-        "survey_years": [
-          "1982"
-        ],
-        "species": [
-          "Bluegill"
-        ],
-        "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "grow"
-      },
-      "Silver Lake (Waterford Township, Michigan)": {
-        "dataset_match": "Silverlittle",
-        "match_score": 0.85,
-        "survey_records": 38,
-        "survey_years": [
-          "1987",
-          "1989"
-        ],
-        "species": [
-          "Black Crappie",
-          "Bluegill",
-          "Largemouth Bass",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Walleye",
-          "Yellow Perch"
-        ],
-        "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "grow"
-      },
-      "Spring Lake (Independence Township, Michigan)": {
-        "dataset_match": "Springt",
-        "match_score": 0.85,
-        "survey_records": 1,
-        "survey_years": [
-          "1953"
-        ],
-        "species": [
-          "Bluegill",
-          "Golden Shiner",
-          "Largemouth Bass",
-          "Pumpkinseed",
-          "Yellow Perch"
-        ],
-        "extras": [
-          "mud_pickerel"
         ],
         "source": "changes-um-zenodo",
         "dataset": "summ"
@@ -18927,29 +18512,6 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "Tommys Lake (Michigan)": {
-        "dataset_match": "Tommys",
-        "match_score": 1.0,
-        "survey_records": 17,
-        "survey_years": [
-          "1982"
-        ],
-        "species": [
-          "Bluegill",
-          "Largemouth Bass",
-          "Pumpkinseed",
-          "Yellow Perch"
-        ],
-        "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "grow"
-      },
-      "Townsend Lake (Independence Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
       "Union Lake (Michigan)": {
         "dataset_match": "Union",
         "match_score": 1.0,
@@ -18966,18 +18528,6 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Upper Bushman Lake (Independence Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Upper Silver Lake (Waterford Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
       "Van Norman Lake (Michigan)": {
         "species": [],
         "extras": [],
@@ -18990,59 +18540,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Walnut Lake (West Bloomfield Township, Michigan)": {
-        "dataset_match": "Walnut",
-        "match_score": 1.0,
-        "survey_records": 1,
-        "survey_years": [
-          "1943"
-        ],
-        "species": [
-          "Black Crappie",
-          "Bluegill",
-          "Cisco",
-          "Largemouth Bass",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Rock Bass",
-          "Walleye",
-          "Yellow Perch"
-        ],
-        "extras": [
-          "green_sunfish_longear_sunfish"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "summ"
-      },
-      "Walters Lake (Independence Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
       "Waterford Hill (Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Watkins Lake (Waterford Township, Michigan)": {
-        "dataset_match": "Watkins",
-        "match_score": 1.0,
-        "survey_records": 10,
-        "survey_years": [
-          "1960"
-        ],
-        "species": [
-          "Black Crappie",
-          "Bluegill",
-          "Largemouth Bass"
-        ],
-        "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "grow"
-      },
-      "Whipple Lake (Independence Township, Michigan)": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19051,45 +18549,6 @@
       "White Horse Lake": {
         "dataset_match": "White",
         "match_score": 0.6,
-        "survey_records": 123,
-        "survey_years": [
-          "1954",
-          "1973",
-          "1981",
-          "1983",
-          "1986",
-          "1993"
-        ],
-        "species": [
-          "Black Bullhead",
-          "Black Crappie",
-          "Blackchin Shiner",
-          "Bluegill",
-          "Bluntnose Minnow",
-          "Bowfin",
-          "Grass Pickerel",
-          "Iowa Darter",
-          "Lake Chubsucker",
-          "Largemouth Bass",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Rock Bass",
-          "Smallmouth Bass",
-          "Walleye",
-          "White Sucker",
-          "Yellow Bullhead",
-          "Yellow Perch"
-        ],
-        "extras": [
-          "Redear - 1",
-          "sand_shiner"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "summ"
-      },
-      "White Lake (White Lake Township, Michigan)": {
-        "dataset_match": "White",
-        "match_score": 1.0,
         "survey_records": 123,
         "survey_years": [
           "1954",
@@ -19152,12 +18611,6 @@
         "extras": [],
         "source": "changes-um-zenodo",
         "dataset": "fishc"
-      },
-      "Wormer Lake (Waterford Township, Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
       }
     },
     "Newaygo": {
@@ -19717,101 +19170,11 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Houghton Lake (Michigan)": {
-        "dataset_match": "Houghton",
-        "match_score": 1.0,
-        "survey_records": 266,
-        "survey_years": [
-          "1938",
-          "1939",
-          "1941",
-          "1948",
-          "1956",
-          "1960",
-          "1962",
-          "1971",
-          "1983",
-          "1990",
-          "1991",
-          "1992",
-          "1993",
-          "1995"
-        ],
-        "species": [
-          "Black Bullhead",
-          "Black Crappie",
-          "Blacknose Shiner",
-          "Bluegill",
-          "Bluntnose Minnow",
-          "Bowfin",
-          "Brown Bullhead",
-          "Iowa Darter",
-          "Largemouth Bass",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Rock Bass",
-          "Smallmouth Bass",
-          "Walleye",
-          "White Sucker",
-          "Yellow Perch"
-        ],
-        "extras": [
-          "2 steel colored shiner-2, rosy faced shiner-7",
-          "Longear x Pumpkinseed - 1, Rosy-cheeked Shiner - 2, Western Banded Top-minnow - 1",
-          "Notropis spilopterus - 74, , Notropis rubellus - 81, Blackside Black sided Darter - 2",
-          "Notropis spilopterus - 74, Notropis rubellus - 81, Black sided Darter - 2",
-          "Tadpole Cat - 1, colored minnow - 21"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "fishc"
-      },
-      "Houghton Lake Flats": {
-        "dataset_match": "Houghton",
-        "match_score": 0.56,
-        "survey_records": 266,
-        "survey_years": [
-          "1938",
-          "1939",
-          "1941",
-          "1948",
-          "1956",
-          "1960",
-          "1962",
-          "1971",
-          "1983",
-          "1990",
-          "1991",
-          "1992",
-          "1993",
-          "1995"
-        ],
-        "species": [
-          "Black Bullhead",
-          "Black Crappie",
-          "Blacknose Shiner",
-          "Bluegill",
-          "Bluntnose Minnow",
-          "Bowfin",
-          "Brown Bullhead",
-          "Iowa Darter",
-          "Largemouth Bass",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Rock Bass",
-          "Smallmouth Bass",
-          "Walleye",
-          "White Sucker",
-          "Yellow Perch"
-        ],
-        "extras": [
-          "2 steel colored shiner-2, rosy faced shiner-7",
-          "Longear x Pumpkinseed - 1, Rosy-cheeked Shiner - 2, Western Banded Top-minnow - 1",
-          "Notropis spilopterus - 74, , Notropis rubellus - 81, Blackside Black sided Darter - 2",
-          "Notropis spilopterus - 74, Notropis rubellus - 81, Black sided Darter - 2",
-          "Tadpole Cat - 1, colored minnow - 21"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "fishc"
+      "": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
       },
       "Lake St. Helen": {
         "species": [],
@@ -19999,76 +19362,6 @@
         "note": "No historical survey data available"
       }
     },
-    "Houghton": {
-      "Portage/Torch Lake system": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Houghton-Douglass Falls": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Keweenaw Waterway": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Portage Lake (Keweenaw)": {
-        "dataset_match": "Portage",
-        "match_score": 1.0,
-        "survey_records": 31,
-        "survey_years": [
-          "1955",
-          "1963",
-          "1988",
-          "1992",
-          "1994"
-        ],
-        "species": [
-          "Common Carp",
-          "Northern Pike",
-          "Rock Bass",
-          "Smallmouth Bass",
-          "Walleye"
-        ],
-        "extras": [
-          "? Bullhead - 1, Silver lamprey - 2, Northern redhorse - 5, Crappies - 63",
-          "Bullheads - 9, Northern Redhorse - 2, Sauger - 1, Crappies - 50",
-          "Bullheads sp. - 4, Crappies sp. - 26",
-          "Burbot - 3, Smelt - 9, Sauger - 23, Round whitefish - 1, Sturgeon sucker - 20, Alewife - 1",
-          "Crappies sp. - 17",
-          "Crappies sp. - 37",
-          "Silver Lamprey - 3, Crappie\u00c2\u00a0sp.\u00c2\u00a0-\u00c2\u00a01",
-          "Smelt - 2",
-          "Sturgeon Sucker - 2, Sturgeon - 3 Smelt - 9 Saugers - 13"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "fishc"
-      },
-      "Torch Lake (Houghton County, Michigan)": {
-        "dataset_match": "Torch",
-        "match_score": 1.0,
-        "survey_records": 25,
-        "survey_years": [
-          "1979",
-          "1988",
-          "1994"
-        ],
-        "species": [
-          "Northern Pike",
-          "Sauger",
-          "Walleye"
-        ],
-        "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "grow"
-      }
-    },
     "Alpena": {
       "Devils Lake (Michigan)": {
         "species": [],
@@ -20127,6 +19420,12 @@
         ],
         "source": "changes-um-zenodo",
         "dataset": "summ"
+      },
+      "": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
       }
     },
     "Benzie": {
@@ -20363,7 +19662,7 @@
       },
       "Paw Paw Lake": {
         "dataset_match": "Pawpawbig",
-        "match_score": 0.85,
+        "match_score": 1.0,
         "survey_records": 35,
         "survey_years": [
           "1954",
@@ -20798,7 +20097,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Lake Antoine": {
+      "": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20862,7 +20161,7 @@
       }
     },
     "Genesee": {
-      "Lake Fenton (Michigan)": {
+      "": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20876,7 +20175,7 @@
       }
     },
     "Gladwin": {
-      "Edenville Dam": {
+      "": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20963,7 +20262,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Bass Lake (Long Lake Township, Michigan)": {
+      "": {
         "species": [],
         "extras": [],
         "source": null,
@@ -21046,6 +20345,52 @@
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
+      }
+    },
+    "Houghton": {
+      "": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Keweenaw Waterway": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Portage Lake (Keweenaw)": {
+        "dataset_match": "Portage",
+        "match_score": 1.0,
+        "survey_records": 31,
+        "survey_years": [
+          "1955",
+          "1963",
+          "1988",
+          "1992",
+          "1994"
+        ],
+        "species": [
+          "Common Carp",
+          "Northern Pike",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Walleye"
+        ],
+        "extras": [
+          "? Bullhead - 1, Silver lamprey - 2, Northern redhorse - 5, Crappies - 63",
+          "Bullheads - 9, Northern Redhorse - 2, Sauger - 1, Crappies - 50",
+          "Bullheads sp. - 4, Crappies sp. - 26",
+          "Burbot - 3, Smelt - 9, Sauger - 23, Round whitefish - 1, Sturgeon sucker - 20, Alewife - 1",
+          "Crappies sp. - 17",
+          "Crappies sp. - 37",
+          "Silver Lamprey - 3, Crappie\u00c2\u00a0sp.\u00c2\u00a0-\u00c2\u00a01",
+          "Smelt - 2",
+          "Sturgeon Sucker - 2, Sturgeon - 3 Smelt - 9 Saugers - 13"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "fishc"
       }
     },
     "Ingham": {
@@ -21228,7 +20573,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Torch Lake (Antrim County, Michigan)": {
+      "": {
         "species": [],
         "extras": [],
         "source": null,
@@ -21348,6 +20693,12 @@
       }
     },
     "Lapeer": {
+      "": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
       "Otter Lake (Michigan)": {
         "dataset_match": "Otter",
         "match_score": 1.0,
@@ -21429,20 +20780,11 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Manitou Passage": {
-        "dataset_match": "Manitou",
-        "match_score": 0.6,
-        "survey_records": 18,
-        "survey_years": [
-          "1987"
-        ],
-        "species": [
-          "Smallmouth Bass",
-          "Yellow Perch"
-        ],
+      "": {
+        "species": [],
         "extras": [],
-        "source": "changes-um-zenodo",
-        "dataset": "grow"
+        "source": null,
+        "note": "No historical survey data available"
       },
       "South Bar Lake": {
         "species": [],
@@ -21744,7 +21086,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Ludington Pumped Storage Power Plant": {
+      "": {
         "species": [],
         "extras": [],
         "source": null,
@@ -21758,55 +21100,11 @@
       }
     },
     "Midland": {
-      "Sanford Dam (Michigan)": {
-        "dataset_match": "Sanford",
-        "match_score": 1.0,
-        "survey_records": 141,
-        "survey_years": [
-          "1951",
-          "1967",
-          "1971",
-          "1978",
-          "1986",
-          "1987",
-          "1988"
-        ],
-        "species": [
-          "Black Bullhead",
-          "Black Crappie",
-          "Bluegill",
-          "Bluntnose Minnow",
-          "Brown Bullhead",
-          "Common Carp",
-          "Common Shiner",
-          "Golden Shiner",
-          "Johnny Darter",
-          "Largemouth Bass",
-          "Muskellunge",
-          "Northern Pike",
-          "Pumpkinseed",
-          "Rock Bass",
-          "Smallmouth Bass",
-          "Walleye",
-          "White Bass",
-          "White Crappie",
-          "Yellow Bullhead",
-          "Yellow Perch"
-        ],
-        "extras": [
-          "4 N. creek chub - 4, Hornyhead chub - 2, Stoneroller - 1 stonerolles",
-          "Blackside Darter - 1, Spotfin Shiner - 2, Unidentified Shiner - 1",
-          "Channel Catfish - 2",
-          "Channel Catfish-6",
-          "Channel Cats - 2, White Bass - 2",
-          "Channel\u00c2\u00a0Catfish\u00c2\u00a0-\u00c2\u00a01",
-          "Channel\u00c2\u00a0Catfish\u00c2\u00a0-\u00c2\u00a01, White Bass - 1",
-          "Snall bass - 1, White bass - 1, Channel Catfish - 1",
-          "Spotfin shiner - 16 N. Creek chub - 4 Blackside darter - 1",
-          "logperch_spotfin_shiner_northern_creek_chub_hornyhead_chub_stoneroller_blackside_darter"
-        ],
-        "source": "changes-um-zenodo",
-        "dataset": "summ"
+      "": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
       },
       "Sanford Lake": {
         "dataset_match": "Sanford",
@@ -22167,6 +21465,12 @@
       }
     },
     "St. Clair": {
+      "": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
       "Lake St. Clair": {
         "species": [],
         "extras": [],

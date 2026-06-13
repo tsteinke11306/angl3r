@@ -73,6 +73,15 @@ export interface RegsData {
     type_tables_have_ocr: boolean;
     species_count?: number;
     counties_with_exceptions?: number;
+    pdf_county_count?: number;
+    /** Historical survey dataset metadata (optional). */
+    survey_source?: {
+      title: string;
+      publisher: string;
+      doi: string;
+      license: string;
+      description: string;
+    };
   };
   lakes: Lake[];
   streams: Stream[];

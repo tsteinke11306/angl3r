@@ -110,11 +110,33 @@ def clean_waterbody_name(name: str) -> str:
     # If there's no large whitespace gap, it's probably clean
     if "  " not in name:
         # A single-column artifact can still leak in as a section description
-        # without a large gap (e.g. "downstream to Platte Lake."). Reject obvious
-        # section-fragment names that do not end in a real waterbody word.
+        # without a large gap (e.g. "downstream to Platte Lake."). Drop it if it
+        # looks like a sentence fragment rather than a waterbody name.
         lower = s.lower()
-        if lower.startswith("downstream") or lower.startswith("upstream") or lower.startswith("from "):
+        # Drop obvious section-description fragments that leaked into the name
+        # column. These usually read like "from X downstream to Y Lake." or
+        # "downstream to Platte Lake." and are not the actual waterbody entry.
+        direction_words = ["upstream", "downstream", "from", "to", "mouth", "bridge", "road", "dam", "weir"]
+        is_directional = any(w in lower for w in direction_words)
+        waterbody_tokens = [" lake", " pond", " river", " creek", " stream", " bay", " harbor", " channel", " basin"]
+        ends_with_waterbody = any(lower.endswith(t) or lower.endswith(t + ".") for t in waterbody_tokens)
+        if is_directional and (
+            s.endswith(".")
+            or lower.startswith("from ")
+            or lower.startswith("to ")
+            or lower.startswith("upstream ")
+            or lower.startswith("downstream ")
+            or " from " in lower
+            or " to " in lower
+        ):
+            # If it also ends with a waterbody token (e.g. "to Platte Lake."),
+            # it's still a fragment — drop it. The real entry is the other
+            # column ("Curtis Creek and Tributaries 2" in this case).
             return ""
+        # If the entire name is just a waterbody token with no other words,
+        # keep it; otherwise if it's a fragment without a waterbody token, drop.
+        if not ends_with_waterbody:
+            return s if not is_directional else ""
         return s
 
     # Split on 2+ spaces — this usually separates left artifact from right name
@@ -124,11 +146,10 @@ def clean_waterbody_name(name: str) -> str:
     if not chunks:
         return s
 
-    # Prefer the rightmost chunk that contains a real waterbody word.
-    # Expand the keyword list so rivers/streams/creeks/bays aren't discarded.
+    # Prefer the rightmost chunk that contains "Lake" or "Pond"
     for chunk in reversed(chunks):
         lower = chunk.lower()
-        if any(k in lower for k in ("lake", "pond", "basin", "river", "stream", "creek", "bay", "harbor", "channel", "reservoir")):
+        if "lake" in lower or "pond" in lower or "basin" in lower:
             return chunk
 
     # Fallback: return the rightmost chunk (most likely the real name)
@@ -255,23 +276,33 @@ def _strip_leading_header(line: str) -> str:
 
 def _extract_entries_from_line(s: str) -> list[tuple[str, str]]:
     """
-    Extract (name, type) pairs from a single line. A line may contain 0 or 1
-    entry (the 2-column layout mostly puts one entry per line; the rare
-    2-entries-on-one-line case gets handled as one entry + one continuation,
-    which we accept as a tradeoff for cleaner overall data).
-
-    Returns entries in left-to-right order.
+    Extract (name, type) pairs from a single line. The 2-column PDF layout
+    sometimes leaks the left column's section description into the name
+    region (e.g. "downstream to Platte Lake.                            Curtis
+    Creek and Tributaries            2"). When a large whitespace gap is
+    present, we prefer the rightmost chunk that ends with the type code.
     """
     out = []
     # Lake: <Name>  <A-F> at end of a "name region"
     m = re.search(r"^(.+?)\s+([A-F])\s*$", s)
     if m and m.group(1).strip() and m.group(1).strip() != "Type":
-        out.append((m.group(1).strip(), m.group(2)))
+        candidate = m.group(1).strip()
+        # If there's a big gap, the real name is usually the rightmost chunk
+        if "  " in candidate:
+            rightmost = candidate.rsplit("  ", 1)[-1].strip()
+            if rightmost:
+                candidate = rightmost
+        out.append((candidate, m.group(2)))
         return out
     # Stream: <Name>  <1-4|GR|BTRA|SC> at end of a "name region"
     m = re.search(r"^(.+?)\s+([1-4]|GR|BTRA|SC)\s*$", s)
     if m and m.group(1).strip() and m.group(1).strip() != "Type":
-        out.append((m.group(1).strip(), m.group(2)))
+        candidate = m.group(1).strip()
+        if "  " in candidate:
+            rightmost = candidate.rsplit("  ", 1)[-1].strip()
+            if rightmost:
+                candidate = rightmost
+        out.append((candidate, m.group(2)))
     return out
 
 
@@ -429,7 +460,7 @@ def parse_county_listings(pages: dict[int, str]) -> tuple[list[Lake], list[Strea
         s.closure = re.sub(r"\s+", " ", s.closure).strip()
         s.clean_name = clean_waterbody_name(s.name)
 
-    streams = [s for s in streams if s.clean_name or not clean_waterbody_name(s.name) == ""]
+    streams = [s for s in streams if s.clean_name]
 
     for l in lakes:
         l.clean_name = clean_waterbody_name(l.name)

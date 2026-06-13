@@ -466,6 +466,11 @@ def main():
     print(f"  Waterbodies unmatched: {stats['unmatched']}")
     print(f"  Matched but no species data: {stats['no_species_data']}")
 
+    if not args.inject:
+        with open(args.output, 'w') as f:
+            json.dump(result, f, indent=2)
+        print(f"\nWrote {args.output}")
+
     if args.inject:
         with open(args.regs) as f:
             regs = json.load(f)
@@ -484,10 +489,6 @@ def main():
         with open(args.regs, 'w') as f:
             json.dump(regs, f, indent=2)
         print(f"Injected into {args.regs}")
-    else:
-        with open(args.output, 'w') as f:
-            json.dump(result, f, indent=2)
-        print(f"\nWrote {args.output}")
 
 
 if __name__ == '__main__':

@@ -43,13 +43,12 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
-          pip3 install --break-system-packages pdfminer.six pypdf rapidfuzz
+          pip3 install --break-system-packages pdfminer.six pypdf rapidfuzz python-Levenshtein
 
       - name: Parse PDF to JSON
         if: hashFiles(format('data/{0}-Michigan-Fishing-Regulations.pdf', env.REGS_YEAR)) != ''
         run: |
           python3 scripts/parse_pdf.py
-          cp data/regs.json public/data/regs.json
 
       - name: Cache CHANGES-UM dataset
         id: cache-changes-um
