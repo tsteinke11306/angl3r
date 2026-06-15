@@ -1118,15 +1118,20 @@ def merge_wikipedia_waterbodies(
     wiki_only_count = 0
     for county, names in wiki.get("counties", {}).items():
         for n in names:
-            clean_n = clean_waterbody_name(n)
-            key = (_normalize_name(clean_n), county)
+            # Wikipedia names may include parenthetical disambiguators
+            # (e.g. "Baldwin Lake (Waterford Township, Michigan)"). Keep the
+            # real waterbody name; don't run the PDF-specific artifact filter.
+            display_n = re.sub(r"\s*\(.*?\)\s*$", "", n).strip()
+            if not display_n:
+                display_n = n
+            key = (_normalize_name(display_n), county)
             if key in pdf_keys:
                 continue
             pdf_entries.append({
-                "name": clean_n,
+                "name": display_n,
                 "county": county,
                 "source": "wikipedia",
-                "kind": _guess_kind(clean_n),
+                "kind": _guess_kind(display_n),
                 "wikipedia_title": n,
             })
             wiki_only_count += 1

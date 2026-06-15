@@ -8,7 +8,7 @@
   "meta": {
     "lake_count": 104,
     "stream_count": 181,
-    "waterbody_count": 1155,
+    "waterbody_count": 1154,
     "county_count": 83,
     "pdf_county_count": 59,
     "type_tables_have_ocr": true,
@@ -7391,21 +7391,21 @@
       "wikipedia_title": "Alcona Dam Pond"
     },
     {
-      "name": "Au Sable River (Michigan)",
+      "name": "Au Sable River",
       "county": "Alcona",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Au Sable River (Michigan)"
     },
     {
-      "name": "Black River (Alcona County)",
+      "name": "Black River",
       "county": "Alcona",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Black River (Alcona County)"
     },
     {
-      "name": "Devils River (Michigan)",
+      "name": "Devils River",
       "county": "Alcona",
       "source": "wikipedia",
       "kind": "river",
@@ -7419,7 +7419,7 @@
       "wikipedia_title": "Hubbard Lake"
     },
     {
-      "name": "Anna River (Michigan)",
+      "name": "Anna River",
       "county": "Alger",
       "source": "wikipedia",
       "kind": "river",
@@ -7440,7 +7440,7 @@
       "wikipedia_title": "Au Train River"
     },
     {
-      "name": "Blue Lake (Michigan)",
+      "name": "Blue Lake",
       "county": "Alger",
       "source": "wikipedia",
       "kind": "lake",
@@ -7468,7 +7468,7 @@
       "wikipedia_title": "Hurricane River"
     },
     {
-      "name": "Indian River (Manistique River tributary)",
+      "name": "Indian River",
       "county": "Alger",
       "source": "wikipedia",
       "kind": "river",
@@ -7489,7 +7489,7 @@
       "wikipedia_title": "Laughing Whitefish River"
     },
     {
-      "name": "Little Indian River (Michigan)",
+      "name": "Little Indian River",
       "county": "Alger",
       "source": "wikipedia",
       "kind": "river",
@@ -7510,35 +7510,35 @@
       "wikipedia_title": "Miners River"
     },
     {
-      "name": "",
+      "name": "Mosquito River",
       "county": "Alger",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Mosquito River (Michigan)"
     },
     {
-      "name": "Ostrander Lake (Michigan)",
+      "name": "Ostrander Lake",
       "county": "Alger",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Ostrander Lake (Michigan)"
     },
     {
-      "name": "Rock River (Lake Superior)",
+      "name": "Rock River",
       "county": "Alger",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Rock River (Lake Superior)"
     },
     {
-      "name": "Round Lake (Alger and Delta Counties, Michigan)",
+      "name": "Round Lake",
       "county": "Alger",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Round Lake (Alger and Delta Counties, Michigan)"
     },
     {
-      "name": "Sand River (Michigan)",
+      "name": "Sand River",
       "county": "Alger",
       "source": "wikipedia",
       "kind": "river",
@@ -7552,7 +7552,7 @@
       "wikipedia_title": "Stoner Lake"
     },
     {
-      "name": "Sturgeon River (Delta County, Michigan)",
+      "name": "Sturgeon River",
       "county": "Alger",
       "source": "wikipedia",
       "kind": "river",
@@ -7573,21 +7573,21 @@
       "wikipedia_title": "West Branch Manistique River"
     },
     {
-      "name": "Whitefish River (Michigan)",
+      "name": "Whitefish River",
       "county": "Alger",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Whitefish River (Michigan)"
     },
     {
-      "name": "Black River (Southwest Michigan)",
+      "name": "Black River",
       "county": "Allegan",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Black River (Southwest Michigan)"
     },
     {
-      "name": "Buck Creek (Kent County, Michigan)",
+      "name": "Buck Creek",
       "county": "Allegan",
       "source": "wikipedia",
       "kind": "creek",
@@ -7601,7 +7601,7 @@
       "wikipedia_title": "Goshorn Lake"
     },
     {
-      "name": "Gun Lake (Michigan)",
+      "name": "Gun Lake",
       "county": "Allegan",
       "source": "wikipedia",
       "kind": "lake",
@@ -7650,14 +7650,14 @@
       "wikipedia_title": "Macatawa River"
     },
     {
-      "name": "Rabbit River (Michigan)",
+      "name": "Rabbit River",
       "county": "Allegan",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Rabbit River (Michigan)"
     },
     {
-      "name": "Devils Lake (Michigan)",
+      "name": "Devils Lake",
       "county": "Alpena",
       "source": "wikipedia",
       "kind": "lake",
@@ -7671,7 +7671,7 @@
       "wikipedia_title": "Fletcher Pond"
     },
     {
-      "name": "Thunder Bay (Michigan)",
+      "name": "Thunder Bay",
       "county": "Alpena",
       "source": "wikipedia",
       "kind": "bay",
@@ -7692,21 +7692,21 @@
       "wikipedia_title": "Benway Lake"
     },
     {
-      "name": "Boyne River (Michigan)",
+      "name": "Boyne River",
       "county": "Antrim",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Boyne River (Michigan)"
     },
     {
-      "name": "Cedar River (Antrim County, Michigan)",
+      "name": "Cedar River",
       "county": "Antrim",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Cedar River (Antrim County, Michigan)"
     },
     {
-      "name": "Clam Lake (Antrim County, Michigan)",
+      "name": "Clam Lake",
       "county": "Antrim",
       "source": "wikipedia",
       "kind": "lake",
@@ -7720,7 +7720,7 @@
       "wikipedia_title": "Dingman River"
     },
     {
-      "name": "Elk River (Michigan)",
+      "name": "Elk River",
       "county": "Antrim",
       "source": "wikipedia",
       "kind": "river",
@@ -7734,7 +7734,7 @@
       "wikipedia_title": "Elk River Chain of Lakes Watershed"
     },
     {
-      "name": "Ellsworth Lake (Michigan)",
+      "name": "Ellsworth Lake",
       "county": "Antrim",
       "source": "wikipedia",
       "kind": "lake",
@@ -7755,14 +7755,14 @@
       "wikipedia_title": "Grand Traverse Bay"
     },
     {
-      "name": "Grass River (Michigan)",
+      "name": "Grass River",
       "county": "Antrim",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Grass River (Michigan)"
     },
     {
-      "name": "Green River (Intermediate River tributary)",
+      "name": "Green River",
       "county": "Antrim",
       "source": "wikipedia",
       "kind": "river",
@@ -7790,7 +7790,7 @@
       "wikipedia_title": "Intermediate River"
     },
     {
-      "name": "Jordan River (Michigan)",
+      "name": "Jordan River",
       "county": "Antrim",
       "source": "wikipedia",
       "kind": "river",
@@ -7825,7 +7825,7 @@
       "wikipedia_title": "Scotts Lake"
     },
     {
-      "name": "Six Mile Lake (Michigan)",
+      "name": "Six Mile Lake",
       "county": "Antrim",
       "source": "wikipedia",
       "kind": "lake",
@@ -7839,35 +7839,28 @@
       "wikipedia_title": "South Branch Boyne River"
     },
     {
-      "name": "St. Clair Lake (Michigan)",
+      "name": "St. Clair Lake",
       "county": "Antrim",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "St. Clair Lake (Michigan)"
     },
     {
-      "name": "Thayer Lake (Antrim County)",
+      "name": "Thayer Lake",
       "county": "Antrim",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Thayer Lake (Antrim County)"
     },
     {
-      "name": "",
+      "name": "Torch River",
       "county": "Antrim",
       "source": "wikipedia",
-      "kind": "lake",
-      "wikipedia_title": "Torch Lake (Antrim County, Michigan)"
-    },
-    {
-      "name": "",
-      "county": "Antrim",
-      "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Torch River (Michigan)"
     },
     {
-      "name": "Wilson Lake (Michigan)",
+      "name": "Wilson Lake",
       "county": "Antrim",
       "source": "wikipedia",
       "kind": "lake",
@@ -7902,7 +7895,7 @@
       "wikipedia_title": "Huron Bay"
     },
     {
-      "name": "Huron River (northern Michigan)",
+      "name": "Huron River",
       "county": "Baraga",
       "source": "wikipedia",
       "kind": "river",
@@ -7930,7 +7923,7 @@
       "wikipedia_title": "Lake Michigamme"
     },
     {
-      "name": "Little Carp River (Baraga County)",
+      "name": "Little Carp River",
       "county": "Baraga",
       "source": "wikipedia",
       "kind": "river",
@@ -7965,31 +7958,31 @@
       "wikipedia_title": "Perch River"
     },
     {
-      "name": "Ravine River (Michigan)",
+      "name": "Ravine River",
       "county": "Baraga",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Ravine River (Michigan)"
     },
     {
-      "name": "Rock River (Sturgeon River tributary)",
+      "name": "Rock River",
       "county": "Baraga",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Rock River (Sturgeon River tributary)"
     },
     {
-      "name": "Silver River (Baraga County)",
+      "name": "Silver River",
       "county": "Baraga",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Silver River (Baraga County)"
     },
     {
-      "name": "",
+      "name": "Silver River",
       "county": "Baraga",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Silver River (Baraga\u2013Houghton counties)"
     },
     {
@@ -8000,14 +7993,14 @@
       "wikipedia_title": "Spurr River"
     },
     {
-      "name": "",
+      "name": "Sturgeon River",
       "county": "Baraga",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Sturgeon River (Houghton County, Michigan)"
     },
     {
-      "name": "Tioga River (Michigan)",
+      "name": "Tioga River",
       "county": "Baraga",
       "source": "wikipedia",
       "kind": "river",
@@ -8021,14 +8014,14 @@
       "wikipedia_title": "Vermilac River"
     },
     {
-      "name": "Coldwater River (Western Michigan)",
+      "name": "Coldwater River",
       "county": "Barry",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Coldwater River (Western Michigan)"
     },
     {
-      "name": "Gun Lake (Michigan)",
+      "name": "Gun Lake",
       "county": "Barry",
       "source": "wikipedia",
       "kind": "lake",
@@ -8042,14 +8035,14 @@
       "wikipedia_title": "Gun River"
     },
     {
-      "name": "Jordan Lake (Michigan)",
+      "name": "Jordan Lake",
       "county": "Barry",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Jordan Lake (Michigan)"
     },
     {
-      "name": "Little Thornapple River (Coldwater River tributary)",
+      "name": "Little Thornapple River",
       "county": "Barry",
       "source": "wikipedia",
       "kind": "river",
@@ -8098,7 +8091,7 @@
       "wikipedia_title": "Betsie River"
     },
     {
-      "name": "Crystal Lake (Benzie County, Michigan)",
+      "name": "Crystal Lake",
       "county": "Benzie",
       "source": "wikipedia",
       "kind": "lake",
@@ -8119,28 +8112,28 @@
       "wikipedia_title": "Platte Bay"
     },
     {
-      "name": "Platte Lake (Michigan)",
+      "name": "Platte Lake",
       "county": "Benzie",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Platte Lake (Michigan)"
     },
     {
-      "name": "Platte River (Michigan)",
+      "name": "Platte River",
       "county": "Benzie",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Platte River (Michigan)"
     },
     {
-      "name": "Black Lake (Berrien County, Michigan)",
+      "name": "Black Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Black Lake (Berrien County, Michigan)"
     },
     {
-      "name": "Blue Jay Creek (Michigan)",
+      "name": "Blue Jay Creek",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "creek",
@@ -8154,28 +8147,28 @@
       "wikipedia_title": "Boyle Lake"
     },
     {
-      "name": "Brandywine Creek (St. Joseph River tributary)",
+      "name": "Brandywine Creek",
       "county": "Berrien",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "creek",
       "wikipedia_title": "Brandywine Creek (St. Joseph River tributary)"
     },
     {
-      "name": "Brush Lake (Berrien County, Michigan)",
+      "name": "Brush Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Brush Lake (Berrien County, Michigan)"
     },
     {
-      "name": "Clear Lake (Berrien County, Michigan)",
+      "name": "Clear Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Clear Lake (Berrien County, Michigan)"
     },
     {
-      "name": "Colvin Lake (Michigan)",
+      "name": "Colvin Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
@@ -8189,21 +8182,21 @@
       "wikipedia_title": "Coveney Lake"
     },
     {
-      "name": "Deer Creek (South Branch Galien River tributary)",
+      "name": "Deer Creek",
       "county": "Berrien",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "creek",
       "wikipedia_title": "Deer Creek (South Branch Galien River tributary)"
     },
     {
-      "name": "Farmers Creek (Michigan)",
+      "name": "Farmers Creek",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "creek",
       "wikipedia_title": "Farmers Creek (Michigan)"
     },
     {
-      "name": "Galena River (Indiana)",
+      "name": "Galena River",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "river",
@@ -8224,24 +8217,24 @@
       "wikipedia_title": "Garwood Lake"
     },
     {
-      "name": "Half Moon Lake (Berrien County, Michigan)",
+      "name": "Half Moon Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Half Moon Lake (Berrien County, Michigan)"
     },
     {
-      "name": "Harris Lake (Berrien County, Michigan)",
+      "name": "Harris Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Harris Lake (Berrien County, Michigan)"
     },
     {
-      "name": "Hickory Creek (St. Joseph River tributary)",
+      "name": "Hickory Creek",
       "county": "Berrien",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "creek",
       "wikipedia_title": "Hickory Creek (St. Joseph River tributary)"
     },
     {
@@ -8273,14 +8266,14 @@
       "wikipedia_title": "Lake Michigan"
     },
     {
-      "name": "Lemon Creek (St. Joseph River tributary)",
+      "name": "Lemon Creek",
       "county": "Berrien",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "creek",
       "wikipedia_title": "Lemon Creek (St. Joseph River tributary)"
     },
     {
-      "name": "Little Indian Lake (Berrien County, Michigan)",
+      "name": "Little Indian Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
@@ -8294,28 +8287,28 @@
       "wikipedia_title": "Madron Lake"
     },
     {
-      "name": "McCoy Creek (Michigan)",
+      "name": "McCoy Creek",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "creek",
       "wikipedia_title": "McCoy Creek (Michigan)"
     },
     {
-      "name": "Mill Creek (Paw Paw River tributary)",
+      "name": "Mill Creek",
       "county": "Berrien",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "creek",
       "wikipedia_title": "Mill Creek (Paw Paw River tributary)"
     },
     {
-      "name": "Moon Lake (Berrien County, Michigan)",
+      "name": "Moon Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Moon Lake (Berrien County, Michigan)"
     },
     {
-      "name": "Murphy Lake (Berrien County, Michigan)",
+      "name": "Murphy Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
@@ -8350,7 +8343,7 @@
       "wikipedia_title": "Riggins Lake"
     },
     {
-      "name": "Round Lake (Berrien County, Michigan)",
+      "name": "Round Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
@@ -8364,14 +8357,14 @@
       "wikipedia_title": "Rowe Lake"
     },
     {
-      "name": "School Lake (Berrien County, Michigan)",
+      "name": "School Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "School Lake (Berrien County, Michigan)"
     },
     {
-      "name": "Sherwood Lake (Berrien County, Michigan)",
+      "name": "Sherwood Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
@@ -8385,7 +8378,7 @@
       "wikipedia_title": "Singer Lake"
     },
     {
-      "name": "Smith Lake (Berrien County, Michigan)",
+      "name": "Smith Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
@@ -8399,70 +8392,70 @@
       "wikipedia_title": "South Clear Lake"
     },
     {
-      "name": "St. Joseph River (Lake Michigan)",
+      "name": "St. Joseph River",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "St. Joseph River (Lake Michigan)"
     },
     {
-      "name": "Weaver Lake (Michigan)",
+      "name": "Weaver Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Weaver Lake (Michigan)"
     },
     {
-      "name": "Webster Lake (Berrien County, Michigan)",
+      "name": "Webster Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Webster Lake (Berrien County, Michigan)"
     },
     {
-      "name": "Yellow Creek (Michigan)",
+      "name": "Yellow Creek",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "creek",
       "wikipedia_title": "Yellow Creek (Michigan)"
     },
     {
-      "name": "Yellow Lake (Michigan)",
+      "name": "Yellow Lake",
       "county": "Berrien",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Yellow Lake (Michigan)"
     },
     {
-      "name": "Coldwater Lake (Michigan)",
+      "name": "Coldwater Lake",
       "county": "Branch",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Coldwater Lake (Michigan)"
     },
     {
-      "name": "Coldwater River (Branch County)",
+      "name": "Coldwater River",
       "county": "Branch",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Coldwater River (Branch County)"
     },
     {
-      "name": "Fawn River (Michigan)",
+      "name": "Fawn River",
       "county": "Branch",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Fawn River (Michigan)"
     },
     {
-      "name": "Lake George (Indiana\u2013Michigan)",
+      "name": "Lake George",
       "county": "Branch",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Lake George (Indiana\u2013Michigan)"
     },
     {
-      "name": "Lake Lavine (Michigan)",
+      "name": "Lake Lavine",
       "county": "Branch",
       "source": "wikipedia",
       "kind": "lake",
@@ -8476,21 +8469,21 @@
       "wikipedia_title": "Nottawa Creek"
     },
     {
-      "name": "Prairie River (Michigan)",
+      "name": "Prairie River",
       "county": "Branch",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Prairie River (Michigan)"
     },
     {
-      "name": "Sauk River (Michigan)",
+      "name": "Sauk River",
       "county": "Branch",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Sauk River (Michigan)"
     },
     {
-      "name": "St. Joseph River (Lake Michigan)",
+      "name": "St. Joseph River",
       "county": "Branch",
       "source": "wikipedia",
       "kind": "river",
@@ -8546,7 +8539,7 @@
       "wikipedia_title": "South Branch Kalamazoo River"
     },
     {
-      "name": "St. Joseph River (Lake Michigan)",
+      "name": "St. Joseph River",
       "county": "Calhoun",
       "source": "wikipedia",
       "kind": "river",
@@ -8560,10 +8553,10 @@
       "wikipedia_title": "Talmadge Creek"
     },
     {
-      "name": "Brandywine Creek (St. Joseph River tributary)",
+      "name": "Brandywine Creek",
       "county": "Cass",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "creek",
       "wikipedia_title": "Brandywine Creek (St. Joseph River tributary)"
     },
     {
@@ -8581,35 +8574,35 @@
       "wikipedia_title": "Dowagiac River"
     },
     {
-      "name": "Indian Lake (Cass County, Michigan)",
+      "name": "Indian Lake",
       "county": "Cass",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Indian Lake (Cass County, Michigan)"
     },
     {
-      "name": "Rocky River (Michigan)",
+      "name": "Rocky River",
       "county": "Cass",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Rocky River (Michigan)"
     },
     {
-      "name": "St. Joseph River (Lake Michigan)",
+      "name": "St. Joseph River",
       "county": "Cass",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "St. Joseph River (Lake Michigan)"
     },
     {
-      "name": "Bear River (Michigan)",
+      "name": "Bear River",
       "county": "Charlevoix",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Bear River (Michigan)"
     },
     {
-      "name": "Boyne River (Michigan)",
+      "name": "Boyne River",
       "county": "Charlevoix",
       "source": "wikipedia",
       "kind": "river",
@@ -8630,14 +8623,14 @@
       "wikipedia_title": "Grand Traverse Bay"
     },
     {
-      "name": "Jordan River (Beaver Island)",
+      "name": "Jordan River",
       "county": "Charlevoix",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Jordan River (Beaver Island)"
     },
     {
-      "name": "Jordan River (Michigan)",
+      "name": "Jordan River",
       "county": "Charlevoix",
       "source": "wikipedia",
       "kind": "river",
@@ -8665,7 +8658,7 @@
       "wikipedia_title": "North Branch Boyne River"
     },
     {
-      "name": "Six Mile Lake (Michigan)",
+      "name": "Six Mile Lake",
       "county": "Charlevoix",
       "source": "wikipedia",
       "kind": "lake",
@@ -8679,14 +8672,14 @@
       "wikipedia_title": "South Branch Boyne River"
     },
     {
-      "name": "St. Clair Lake (Michigan)",
+      "name": "St. Clair Lake",
       "county": "Charlevoix",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "St. Clair Lake (Michigan)"
     },
     {
-      "name": "Sturgeon River (Cheboygan County, Michigan)",
+      "name": "Sturgeon River",
       "county": "Charlevoix",
       "source": "wikipedia",
       "kind": "river",
@@ -8700,14 +8693,14 @@
       "wikipedia_title": "Walloon Lake"
     },
     {
-      "name": "Black Lake (Michigan)",
+      "name": "Black Lake",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Black Lake (Michigan)"
     },
     {
-      "name": "Black River (Cheboygan County)",
+      "name": "Black River",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "river",
@@ -8721,7 +8714,7 @@
       "wikipedia_title": "Burt Lake"
     },
     {
-      "name": "Canada Creek (Michigan)",
+      "name": "Canada Creek",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "creek",
@@ -8735,56 +8728,56 @@
       "wikipedia_title": "Cheboygan River"
     },
     {
-      "name": "Crooked River (Michigan)",
+      "name": "Crooked River",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Crooked River (Michigan)"
     },
     {
-      "name": "Douglas Lake (Cheboygan County, Michigan)",
+      "name": "Douglas Lake",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Douglas Lake (Cheboygan County, Michigan)"
     },
     {
-      "name": "Indian River (Mullett Lake)",
+      "name": "Indian River",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Indian River (Mullett Lake)"
     },
     {
-      "name": "Inland Waterway (Michigan)",
+      "name": "Inland Waterway",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Inland Waterway (Michigan)"
     },
     {
-      "name": "Little Black River (Cheboygan County)",
+      "name": "Little Black River",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Little Black River (Cheboygan County)"
     },
     {
-      "name": "Little Carp River (Cheboygan County)",
+      "name": "Little Carp River",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Little Carp River (Cheboygan County)"
     },
     {
-      "name": "Little Pigeon River (Cheboygan County)",
+      "name": "Little Pigeon River",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Little Pigeon River (Cheboygan County)"
     },
     {
-      "name": "Little Pigeon River (Mullett Lake)",
+      "name": "Little Pigeon River",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "river",
@@ -8812,7 +8805,7 @@
       "wikipedia_title": "Munro Lake"
     },
     {
-      "name": "Pigeon River (Mullett Lake)",
+      "name": "Pigeon River",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "river",
@@ -8826,7 +8819,7 @@
       "wikipedia_title": "Straits of Mackinac"
     },
     {
-      "name": "Sturgeon River (Cheboygan County, Michigan)",
+      "name": "Sturgeon River",
       "county": "Cheboygan",
       "source": "wikipedia",
       "kind": "river",
@@ -8840,14 +8833,14 @@
       "wikipedia_title": "Ashmun Bay"
     },
     {
-      "name": "Carp River (Mackinac County)",
+      "name": "Carp River",
       "county": "Chippewa",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Carp River (Mackinac County)"
     },
     {
-      "name": "Charlotte River (Michigan)",
+      "name": "Charlotte River",
       "county": "Chippewa",
       "source": "wikipedia",
       "kind": "river",
@@ -8868,14 +8861,14 @@
       "wikipedia_title": "Gogomain River"
     },
     {
-      "name": "Lake George (Michigan\u2013Ontario)",
+      "name": "Lake George",
       "county": "Chippewa",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Lake George (Michigan\u2013Ontario)"
     },
     {
-      "name": "Pine River (Mackinac County, Michigan)",
+      "name": "Pine River",
       "county": "Chippewa",
       "source": "wikipedia",
       "kind": "river",
@@ -8910,7 +8903,7 @@
       "wikipedia_title": "St. Joseph Channel"
     },
     {
-      "name": "St. Marys River (Michigan\u2013Ontario)",
+      "name": "St. Marys River",
       "county": "Chippewa",
       "source": "wikipedia",
       "kind": "river",
@@ -8938,28 +8931,28 @@
       "wikipedia_title": "Whitefish Bay"
     },
     {
-      "name": "Budd Lake (Michigan)",
+      "name": "Budd Lake",
       "county": "Clare",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Budd Lake (Michigan)"
     },
     {
-      "name": "Cedar River (Gladwin County, Michigan)",
+      "name": "Cedar River",
       "county": "Clare",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Cedar River (Gladwin County, Michigan)"
     },
     {
-      "name": "Chippewa River (Michigan)",
+      "name": "Chippewa River",
       "county": "Clare",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Chippewa River (Michigan)"
     },
     {
-      "name": "Clam River (Michigan)",
+      "name": "Clam River",
       "county": "Clare",
       "source": "wikipedia",
       "kind": "river",
@@ -8973,14 +8966,14 @@
       "wikipedia_title": "Lake Thirteen"
     },
     {
-      "name": "Little Long Lake (Clare County, Michigan)",
+      "name": "Little Long Lake",
       "county": "Clare",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Little Long Lake (Clare County, Michigan)"
     },
     {
-      "name": "Lost Lake (Clare County, Michigan)",
+      "name": "Lost Lake",
       "county": "Clare",
       "source": "wikipedia",
       "kind": "lake",
@@ -8994,7 +8987,7 @@
       "wikipedia_title": "Muskegon River"
     },
     {
-      "name": "Grand River (Michigan)",
+      "name": "Grand River",
       "county": "Clinton",
       "source": "wikipedia",
       "kind": "river",
@@ -9022,21 +9015,21 @@
       "wikipedia_title": "Looking Glass River"
     },
     {
-      "name": "Maple River (Grand River tributary)",
+      "name": "Maple River",
       "county": "Clinton",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Maple River (Grand River tributary)"
     },
     {
-      "name": "Pine Creek (Maple River tributary)",
+      "name": "Pine Creek",
       "county": "Clinton",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "creek",
       "wikipedia_title": "Pine Creek (Maple River tributary)"
     },
     {
-      "name": "Au Sable River (Michigan)",
+      "name": "Au Sable River",
       "county": "Crawford",
       "source": "wikipedia",
       "kind": "river",
@@ -9057,7 +9050,7 @@
       "wikipedia_title": "Manistee River"
     },
     {
-      "name": "Bark River (Michigan)",
+      "name": "Bark River",
       "county": "Delta",
       "source": "wikipedia",
       "kind": "river",
@@ -9071,7 +9064,7 @@
       "wikipedia_title": "Big Bay de Noc"
     },
     {
-      "name": "Big River (Michigan)",
+      "name": "Big River",
       "county": "Delta",
       "source": "wikipedia",
       "kind": "river",
@@ -9106,14 +9099,14 @@
       "wikipedia_title": "Fishdam River"
     },
     {
-      "name": "Ford River (Michigan)",
+      "name": "Ford River",
       "county": "Delta",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Ford River (Michigan)"
     },
     {
-      "name": "Green Bay (Lake Michigan)",
+      "name": "Green Bay",
       "county": "Delta",
       "source": "wikipedia",
       "kind": "bay",
@@ -9141,7 +9134,7 @@
       "wikipedia_title": "Little Fishdam River"
     },
     {
-      "name": "Little River (Big Bay de Noc)",
+      "name": "Little River",
       "county": "Delta",
       "source": "wikipedia",
       "kind": "river",
@@ -9155,7 +9148,7 @@
       "wikipedia_title": "Manistique River"
     },
     {
-      "name": "Moss Lake (Delta County, Michigan)",
+      "name": "Moss Lake",
       "county": "Delta",
       "source": "wikipedia",
       "kind": "lake",
@@ -9169,21 +9162,21 @@
       "wikipedia_title": "Mowe Lake"
     },
     {
-      "name": "Ostrander Lake (Michigan)",
+      "name": "Ostrander Lake",
       "county": "Delta",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Ostrander Lake (Michigan)"
     },
     {
-      "name": "Rapid River (Delta County, Michigan)",
+      "name": "Rapid River",
       "county": "Delta",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Rapid River (Delta County, Michigan)"
     },
     {
-      "name": "Round Lake (Alger and Delta Counties, Michigan)",
+      "name": "Round Lake",
       "county": "Delta",
       "source": "wikipedia",
       "kind": "lake",
@@ -9197,7 +9190,7 @@
       "wikipedia_title": "Stoner Lake"
     },
     {
-      "name": "Sturgeon River (Delta County, Michigan)",
+      "name": "Sturgeon River",
       "county": "Delta",
       "source": "wikipedia",
       "kind": "river",
@@ -9218,7 +9211,7 @@
       "wikipedia_title": "Toms Lake"
     },
     {
-      "name": "Whitefish River (Michigan)",
+      "name": "Whitefish River",
       "county": "Delta",
       "source": "wikipedia",
       "kind": "river",
@@ -9232,7 +9225,7 @@
       "wikipedia_title": "Fumee Lake"
     },
     {
-      "name": "",
+      "name": "Lake Antoine",
       "county": "Dickinson",
       "source": "wikipedia",
       "kind": "lake",
@@ -9260,14 +9253,14 @@
       "wikipedia_title": "Battle Creek River"
     },
     {
-      "name": "Devils Lake (Michigan)",
+      "name": "Devils Lake",
       "county": "Eaton",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Devils Lake (Michigan)"
     },
     {
-      "name": "Grand River (Michigan)",
+      "name": "Grand River",
       "county": "Eaton",
       "source": "wikipedia",
       "kind": "river",
@@ -9288,10 +9281,10 @@
       "wikipedia_title": "Lake Interstate"
     },
     {
-      "name": "",
+      "name": "Little Thornapple River",
       "county": "Eaton",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Little Thornapple River (Eaton County)"
     },
     {
@@ -9302,7 +9295,7 @@
       "wikipedia_title": "Thornapple River"
     },
     {
-      "name": "Bear River (Michigan)",
+      "name": "Bear River",
       "county": "Emmet",
       "source": "wikipedia",
       "kind": "river",
@@ -9323,14 +9316,14 @@
       "wikipedia_title": "Carp Lake River"
     },
     {
-      "name": "Crooked Lake (Michigan)",
+      "name": "Crooked Lake",
       "county": "Emmet",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Crooked Lake (Michigan)"
     },
     {
-      "name": "Crooked River (Michigan)",
+      "name": "Crooked River",
       "county": "Emmet",
       "source": "wikipedia",
       "kind": "river",
@@ -9344,14 +9337,14 @@
       "wikipedia_title": "French Farm Lake"
     },
     {
-      "name": "Inland Waterway (Michigan)",
+      "name": "Inland Waterway",
       "county": "Emmet",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Inland Waterway (Michigan)"
     },
     {
-      "name": "Lake Paradise (Michigan)",
+      "name": "Lake Paradise",
       "county": "Emmet",
       "source": "wikipedia",
       "kind": "lake",
@@ -9365,14 +9358,14 @@
       "wikipedia_title": "Little Traverse Bay"
     },
     {
-      "name": "Maple River (Burt Lake)",
+      "name": "Maple River",
       "county": "Emmet",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Maple River (Burt Lake)"
     },
     {
-      "name": "Round Lake (Emmet County, Michigan)",
+      "name": "Round Lake",
       "county": "Emmet",
       "source": "wikipedia",
       "kind": "lake",
@@ -9400,14 +9393,14 @@
       "wikipedia_title": "Wycamp Lake"
     },
     {
-      "name": "Flint River (Michigan)",
+      "name": "Flint River",
       "county": "Genesee",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Flint River (Michigan)"
     },
     {
-      "name": "",
+      "name": "Lake Fenton",
       "county": "Genesee",
       "source": "wikipedia",
       "kind": "lake",
@@ -9421,7 +9414,7 @@
       "wikipedia_title": "Misteguay Creek"
     },
     {
-      "name": "Otter Lake (Michigan)",
+      "name": "Otter Lake",
       "county": "Genesee",
       "source": "wikipedia",
       "kind": "lake",
@@ -9442,14 +9435,14 @@
       "wikipedia_title": "Swartz Creek"
     },
     {
-      "name": "Cedar River (Gladwin County, Michigan)",
+      "name": "Cedar River",
       "county": "Gladwin",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Cedar River (Gladwin County, Michigan)"
     },
     {
-      "name": "",
+      "name": "Edenville Dam",
       "county": "Gladwin",
       "source": "wikipedia",
       "kind": "lake",
@@ -9463,10 +9456,10 @@
       "wikipedia_title": "Kawkawlin River"
     },
     {
-      "name": "",
+      "name": "Little Cedar River",
       "county": "Gladwin",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Little Cedar River (Tobacco River tributary)"
     },
     {
@@ -9505,7 +9498,7 @@
       "wikipedia_title": "South Branch Little Sugar River"
     },
     {
-      "name": "Sugar River (Michigan)",
+      "name": "Sugar River",
       "county": "Gladwin",
       "source": "wikipedia",
       "kind": "river",
@@ -9519,10 +9512,10 @@
       "wikipedia_title": "Tittabawassee River"
     },
     {
-      "name": "",
+      "name": "Tobacco River",
       "county": "Gladwin",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Tobacco River (Tittabawassee River tributary)"
     },
     {
@@ -9533,21 +9526,21 @@
       "wikipedia_title": "Wixom Lake"
     },
     {
-      "name": "Black River (Gogebic County)",
+      "name": "Black River",
       "county": "Gogebic",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Black River (Gogebic County)"
     },
     {
-      "name": "",
+      "name": "Carp River",
       "county": "Gogebic",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Carp River (Gogebic\u2013Ontonagon counties)"
     },
     {
-      "name": "Clark Lake (Gogebic County, Michigan)",
+      "name": "Clark Lake",
       "county": "Gogebic",
       "source": "wikipedia",
       "kind": "lake",
@@ -9561,7 +9554,7 @@
       "wikipedia_title": "Deer Island Lake"
     },
     {
-      "name": "Fisher Lake (Michigan)",
+      "name": "Fisher Lake",
       "county": "Gogebic",
       "source": "wikipedia",
       "kind": "lake",
@@ -9589,17 +9582,17 @@
       "wikipedia_title": "Lake Gogebic"
     },
     {
-      "name": "Little Black River (Gogebic County)",
+      "name": "Little Black River",
       "county": "Gogebic",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Little Black River (Gogebic County)"
     },
     {
-      "name": "",
+      "name": "Little Carp River",
       "county": "Gogebic",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Little Carp River (Gogebic-Ontonagon counties)"
     },
     {
@@ -9610,14 +9603,14 @@
       "wikipedia_title": "Little Presque Isle River"
     },
     {
-      "name": "Loon Lake (Gogebic County, Michigan)",
+      "name": "Loon Lake",
       "county": "Gogebic",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Loon Lake (Gogebic County, Michigan)"
     },
     {
-      "name": "Montreal River (Wisconsin\u2013Michigan)",
+      "name": "Montreal River",
       "county": "Gogebic",
       "source": "wikipedia",
       "kind": "river",
@@ -9666,21 +9659,21 @@
       "wikipedia_title": "Presque Isle River"
     },
     {
-      "name": "Tamarack River (Michigan)",
+      "name": "Tamarack River",
       "county": "Gogebic",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Tamarack River (Michigan)"
     },
     {
-      "name": "Arbutus Lake (Michigan)",
+      "name": "Arbutus Lake",
       "county": "Grand Traverse",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Arbutus Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Bass Lake",
       "county": "Grand Traverse",
       "source": "wikipedia",
       "kind": "lake",
@@ -9694,7 +9687,7 @@
       "wikipedia_title": "Betsie River"
     },
     {
-      "name": "Boardman Lake (Michigan)",
+      "name": "Boardman Lake",
       "county": "Grand Traverse",
       "source": "wikipedia",
       "kind": "lake",
@@ -9722,14 +9715,14 @@
       "wikipedia_title": "Cedar Hedge Lake"
     },
     {
-      "name": "Duck Lake (Grand Traverse County, Michigan)",
+      "name": "Duck Lake",
       "county": "Grand Traverse",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Duck Lake (Grand Traverse County, Michigan)"
     },
     {
-      "name": "Elk Lake (Michigan)",
+      "name": "Elk Lake",
       "county": "Grand Traverse",
       "source": "wikipedia",
       "kind": "lake",
@@ -9743,7 +9736,7 @@
       "wikipedia_title": "Elk River Chain of Lakes Watershed"
     },
     {
-      "name": "Fife Lake (Michigan)",
+      "name": "Fife Lake",
       "county": "Grand Traverse",
       "source": "wikipedia",
       "kind": "lake",
@@ -9757,7 +9750,7 @@
       "wikipedia_title": "Grand Traverse Bay"
     },
     {
-      "name": "Green Lake (Grand Traverse County, Michigan)",
+      "name": "Green Lake",
       "county": "Grand Traverse",
       "source": "wikipedia",
       "kind": "lake",
@@ -9792,14 +9785,14 @@
       "wikipedia_title": "Lake Skegemog"
     },
     {
-      "name": "Long Lake (Grand Traverse County, Michigan)",
+      "name": "Long Lake",
       "county": "Grand Traverse",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Long Lake (Grand Traverse County, Michigan)"
     },
     {
-      "name": "Platte River (Michigan)",
+      "name": "Platte River",
       "county": "Grand Traverse",
       "source": "wikipedia",
       "kind": "river",
@@ -9813,42 +9806,42 @@
       "wikipedia_title": "Rennie Lake"
     },
     {
-      "name": "Silver Lake (Grand Traverse County, Michigan)",
+      "name": "Silver Lake",
       "county": "Grand Traverse",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Silver Lake (Grand Traverse County, Michigan)"
     },
     {
-      "name": "Spider Lake (Grand Traverse County, Michigan)",
+      "name": "Spider Lake",
       "county": "Grand Traverse",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Spider Lake (Grand Traverse County, Michigan)"
     },
     {
-      "name": "Bad River (Michigan)",
+      "name": "Bad River",
       "county": "Gratiot",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Bad River (Michigan)"
     },
     {
-      "name": "Maple River (Grand River tributary)",
+      "name": "Maple River",
       "county": "Gratiot",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Maple River (Grand River tributary)"
     },
     {
-      "name": "Pine Creek (Maple River tributary)",
+      "name": "Pine Creek",
       "county": "Gratiot",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "creek",
       "wikipedia_title": "Pine Creek (Maple River tributary)"
     },
     {
-      "name": "River Styx (Gratiot County, Michigan)",
+      "name": "River Styx",
       "county": "Gratiot",
       "source": "wikipedia",
       "kind": "river",
@@ -9869,14 +9862,14 @@
       "wikipedia_title": "East Fork West Branch St. Joseph River"
     },
     {
-      "name": "Goose Creek (River Raisin)",
+      "name": "Goose Creek",
       "county": "Hillsdale",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "creek",
       "wikipedia_title": "Goose Creek (River Raisin)"
     },
     {
-      "name": "Grand River (Michigan)",
+      "name": "Grand River",
       "county": "Hillsdale",
       "source": "wikipedia",
       "kind": "river",
@@ -9904,14 +9897,14 @@
       "wikipedia_title": "South Branch Kalamazoo River"
     },
     {
-      "name": "St. Joseph River (Lake Michigan)",
+      "name": "St. Joseph River",
       "county": "Hillsdale",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "St. Joseph River (Lake Michigan)"
     },
     {
-      "name": "St. Joseph River (Maumee River tributary)",
+      "name": "St. Joseph River",
       "county": "Hillsdale",
       "source": "wikipedia",
       "kind": "river",
@@ -9932,14 +9925,14 @@
       "wikipedia_title": "West Fork West Branch St. Joseph River"
     },
     {
-      "name": "Elm River (Michigan)",
+      "name": "Elm River",
       "county": "Houghton",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Elm River (Michigan)"
     },
     {
-      "name": "Grand Traverse Bay (Lake Superior)",
+      "name": "Grand Traverse Bay",
       "county": "Houghton",
       "source": "wikipedia",
       "kind": "bay",
@@ -9953,7 +9946,7 @@
       "wikipedia_title": "Graveraet River"
     },
     {
-      "name": "",
+      "name": "Houghton-Douglass Falls",
       "county": "Houghton",
       "source": "wikipedia",
       "kind": "lake",
@@ -9988,7 +9981,7 @@
       "wikipedia_title": "Little Silver River"
     },
     {
-      "name": "Little Traverse Bay (Lake Superior)",
+      "name": "Little Traverse Bay",
       "county": "Houghton",
       "source": "wikipedia",
       "kind": "bay",
@@ -10009,14 +10002,14 @@
       "wikipedia_title": "Ontonagon River"
     },
     {
-      "name": "Otter River (Michigan)",
+      "name": "Otter River",
       "county": "Houghton",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Otter River (Michigan)"
     },
     {
-      "name": "Pike River (Michigan)",
+      "name": "Pike River",
       "county": "Houghton",
       "source": "wikipedia",
       "kind": "river",
@@ -10030,7 +10023,7 @@
       "wikipedia_title": "Pilgrim River"
     },
     {
-      "name": "Portage Lake (Keweenaw)",
+      "name": "Portage Lake",
       "county": "Houghton",
       "source": "wikipedia",
       "kind": "lake",
@@ -10044,24 +10037,24 @@
       "wikipedia_title": "Salmon Trout River"
     },
     {
-      "name": "",
+      "name": "Silver River",
       "county": "Houghton",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Silver River (Baraga\u2013Houghton counties)"
     },
     {
-      "name": "Snake River (Michigan)",
+      "name": "Snake River",
       "county": "Houghton",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Snake River (Michigan)"
     },
     {
-      "name": "",
+      "name": "Sturgeon River",
       "county": "Houghton",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Sturgeon River (Houghton County, Michigan)"
     },
     {
@@ -10072,7 +10065,7 @@
       "wikipedia_title": "Torch Bay"
     },
     {
-      "name": "",
+      "name": "Torch Lake",
       "county": "Houghton",
       "source": "wikipedia",
       "kind": "lake",
@@ -10093,21 +10086,21 @@
       "wikipedia_title": "Traverse River"
     },
     {
-      "name": "Cass River (Michigan)",
+      "name": "Cass River",
       "county": "Huron",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Cass River (Michigan)"
     },
     {
-      "name": "Little Pigeon River (Huron County)",
+      "name": "Little Pigeon River",
       "county": "Huron",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Little Pigeon River (Huron County)"
     },
     {
-      "name": "New River (Michigan)",
+      "name": "New River",
       "county": "Huron",
       "source": "wikipedia",
       "kind": "river",
@@ -10128,14 +10121,14 @@
       "wikipedia_title": "Saginaw Bay"
     },
     {
-      "name": "White River (Huron County, Michigan)",
+      "name": "White River",
       "county": "Huron",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "White River (Huron County, Michigan)"
     },
     {
-      "name": "Grand River (Michigan)",
+      "name": "Grand River",
       "county": "Ingham",
       "source": "wikipedia",
       "kind": "river",
@@ -10156,28 +10149,28 @@
       "wikipedia_title": "Lake Lansing Park North"
     },
     {
-      "name": "Red Cedar River (Michigan)",
+      "name": "Red Cedar River",
       "county": "Ingham",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Red Cedar River (Michigan)"
     },
     {
-      "name": "Sycamore Creek (Michigan)",
+      "name": "Sycamore Creek",
       "county": "Ingham",
       "source": "wikipedia",
       "kind": "creek",
       "wikipedia_title": "Sycamore Creek (Michigan)"
     },
     {
-      "name": "Flat River (Michigan)",
+      "name": "Flat River",
       "county": "Ionia",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Flat River (Michigan)"
     },
     {
-      "name": "Grand River (Michigan)",
+      "name": "Grand River",
       "county": "Ionia",
       "source": "wikipedia",
       "kind": "river",
@@ -10191,7 +10184,7 @@
       "wikipedia_title": "Looking Glass River"
     },
     {
-      "name": "Maple River (Grand River tributary)",
+      "name": "Maple River",
       "county": "Ionia",
       "source": "wikipedia",
       "kind": "river",
@@ -10212,7 +10205,7 @@
       "wikipedia_title": "Au Gres River"
     },
     {
-      "name": "Au Sable River (Michigan)",
+      "name": "Au Sable River",
       "county": "Iosco",
       "source": "wikipedia",
       "kind": "river",
@@ -10247,7 +10240,7 @@
       "wikipedia_title": "Tawas River"
     },
     {
-      "name": "Brule Lake (Michigan-Wisconsin)",
+      "name": "Brule Lake",
       "county": "Iron",
       "source": "wikipedia",
       "kind": "lake",
@@ -10261,7 +10254,7 @@
       "wikipedia_title": "Brule River"
     },
     {
-      "name": "Deer River (Michigan)",
+      "name": "Deer River",
       "county": "Iron",
       "source": "wikipedia",
       "kind": "river",
@@ -10275,7 +10268,7 @@
       "wikipedia_title": "Fence River"
     },
     {
-      "name": "Iron River (Menominee River tributary)",
+      "name": "Iron River",
       "county": "Iron",
       "source": "wikipedia",
       "kind": "river",
@@ -10338,35 +10331,35 @@
       "wikipedia_title": "Perch River"
     },
     {
-      "name": "Tamarack River (Michigan)",
+      "name": "Tamarack River",
       "county": "Iron",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Tamarack River (Michigan)"
     },
     {
-      "name": "Coldwater River (Isabella County)",
+      "name": "Coldwater River",
       "county": "Isabella",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Coldwater River (Isabella County)"
     },
     {
-      "name": "Pine River (Chippewa River tributary)",
+      "name": "Pine River",
       "county": "Isabella",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Pine River (Chippewa River tributary)"
     },
     {
-      "name": "Salt River (Michigan)",
+      "name": "Salt River",
       "county": "Isabella",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Salt River (Michigan)"
     },
     {
-      "name": "Walker Creek (Michigan)",
+      "name": "Walker Creek",
       "county": "Isabella",
       "source": "wikipedia",
       "kind": "creek",
@@ -10380,7 +10373,7 @@
       "wikipedia_title": "Weidman Millpond"
     },
     {
-      "name": "Clark Lake (Jackson County, Michigan)",
+      "name": "Clark Lake",
       "county": "Jackson",
       "source": "wikipedia",
       "kind": "lake",
@@ -10394,14 +10387,14 @@
       "wikipedia_title": "Gilletts Lake"
     },
     {
-      "name": "Goose Creek (River Raisin)",
+      "name": "Goose Creek",
       "county": "Jackson",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "creek",
       "wikipedia_title": "Goose Creek (River Raisin)"
     },
     {
-      "name": "Grand River (Michigan)",
+      "name": "Grand River",
       "county": "Jackson",
       "source": "wikipedia",
       "kind": "river",
@@ -10429,7 +10422,7 @@
       "wikipedia_title": "North Branch Kalamazoo River"
     },
     {
-      "name": "Portage River (Jackson County, Michigan)",
+      "name": "Portage River",
       "county": "Jackson",
       "source": "wikipedia",
       "kind": "river",
@@ -10457,14 +10450,14 @@
       "wikipedia_title": "Austin Lake"
     },
     {
-      "name": "Duck Lake (Kalamazoo County)",
+      "name": "Duck Lake",
       "county": "Kalamazoo",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Duck Lake (Kalamazoo County)"
     },
     {
-      "name": "Gull Lake (Michigan)",
+      "name": "Gull Lake",
       "county": "Kalamazoo",
       "source": "wikipedia",
       "kind": "lake",
@@ -10485,28 +10478,28 @@
       "wikipedia_title": "Nottawa Creek"
     },
     {
-      "name": "Portage River (Kalamazoo\u2013St. Joseph counties)",
+      "name": "Portage River",
       "county": "Kalamazoo",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Portage River (Kalamazoo\u2013St. Joseph counties)"
     },
     {
-      "name": "Rocky River (Michigan)",
+      "name": "Rocky River",
       "county": "Kalamazoo",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Rocky River (Michigan)"
     },
     {
-      "name": "St. Joseph River (Lake Michigan)",
+      "name": "St. Joseph River",
       "county": "Kalamazoo",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "St. Joseph River (Lake Michigan)"
     },
     {
-      "name": "Bear Lake (Michigan)",
+      "name": "Bear Lake",
       "county": "Kalkaska",
       "source": "wikipedia",
       "kind": "lake",
@@ -10527,14 +10520,14 @@
       "wikipedia_title": "Elk River Chain of Lakes Watershed"
     },
     {
-      "name": "Fife Lake (Michigan)",
+      "name": "Fife Lake",
       "county": "Kalkaska",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Fife Lake (Michigan)"
     },
     {
-      "name": "Lake Five (Michigan)",
+      "name": "Lake Five",
       "county": "Kalkaska",
       "source": "wikipedia",
       "kind": "lake",
@@ -10548,14 +10541,14 @@
       "wikipedia_title": "Lake Skegemog"
     },
     {
-      "name": "Little Rapid River (Michigan)",
+      "name": "Little Rapid River",
       "county": "Kalkaska",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Little Rapid River (Michigan)"
     },
     {
-      "name": "Long Lake (Kalkaska County, Michigan)",
+      "name": "Long Lake",
       "county": "Kalkaska",
       "source": "wikipedia",
       "kind": "lake",
@@ -10569,7 +10562,7 @@
       "wikipedia_title": "Manistee River"
     },
     {
-      "name": "Rapid River (Kalkaska County, Michigan)",
+      "name": "Rapid River",
       "county": "Kalkaska",
       "source": "wikipedia",
       "kind": "river",
@@ -10583,28 +10576,28 @@
       "wikipedia_title": "Starvation Lake"
     },
     {
-      "name": "",
+      "name": "Torch Lake",
       "county": "Kalkaska",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Torch Lake (Antrim County, Michigan)"
     },
     {
-      "name": "",
+      "name": "Torch River",
       "county": "Kalkaska",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Torch River (Michigan)"
     },
     {
-      "name": "Coldbrook Creek (Michigan)",
+      "name": "Coldbrook Creek",
       "county": "Kent",
       "source": "wikipedia",
       "kind": "creek",
       "wikipedia_title": "Coldbrook Creek (Michigan)"
     },
     {
-      "name": "Coldwater River (Western Michigan)",
+      "name": "Coldwater River",
       "county": "Kent",
       "source": "wikipedia",
       "kind": "river",
@@ -10618,21 +10611,21 @@
       "wikipedia_title": "Fisk Lake"
     },
     {
-      "name": "Flat River (Michigan)",
+      "name": "Flat River",
       "county": "Kent",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Flat River (Michigan)"
     },
     {
-      "name": "Grand River (Michigan)",
+      "name": "Grand River",
       "county": "Kent",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Grand River (Michigan)"
     },
     {
-      "name": "Lake Bella Vista (Michigan)",
+      "name": "Lake Bella Vista",
       "county": "Kent",
       "source": "wikipedia",
       "kind": "lake",
@@ -10646,7 +10639,7 @@
       "wikipedia_title": "Lamberton Lake"
     },
     {
-      "name": "Murray Lake (Michigan)",
+      "name": "Murray Lake",
       "county": "Kent",
       "source": "wikipedia",
       "kind": "lake",
@@ -10667,7 +10660,7 @@
       "wikipedia_title": "Reeds Lake"
     },
     {
-      "name": "Rogue River (Michigan)",
+      "name": "Rogue River",
       "county": "Kent",
       "source": "wikipedia",
       "kind": "river",
@@ -10695,14 +10688,14 @@
       "wikipedia_title": "Big Siskiwit River"
     },
     {
-      "name": "Eagle River (Michigan)",
+      "name": "Eagle River",
       "county": "Keweenaw",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Eagle River (Michigan)"
     },
     {
-      "name": "Grand Traverse Bay (Lake Superior)",
+      "name": "Grand Traverse Bay",
       "county": "Keweenaw",
       "source": "wikipedia",
       "kind": "bay",
@@ -10723,7 +10716,7 @@
       "wikipedia_title": "Lac La Belle, Michigan"
     },
     {
-      "name": "Lake Medora (Michigan)",
+      "name": "Lake Medora",
       "county": "Keweenaw",
       "source": "wikipedia",
       "kind": "lake",
@@ -10744,31 +10737,31 @@
       "wikipedia_title": "Little Siskiwit River"
     },
     {
-      "name": "Montreal River (Michigan)",
+      "name": "Montreal River",
       "county": "Keweenaw",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Montreal River (Michigan)"
     },
     {
-      "name": "Silver River (Keweenaw County)",
+      "name": "Silver River",
       "county": "Keweenaw",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Silver River (Keweenaw County)"
     },
     {
-      "name": "Siskiwit Lake (Isle Royale)",
+      "name": "Siskiwit Lake",
       "county": "Keweenaw",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Siskiwit Lake (Isle Royale)"
     },
     {
-      "name": "",
+      "name": "Tobacco River",
       "county": "Keweenaw",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Tobacco River (Keweenaw County, Michigan)"
     },
     {
@@ -10786,7 +10779,7 @@
       "wikipedia_title": "Traverse River"
     },
     {
-      "name": "Baldwin River (Michigan)",
+      "name": "Baldwin River",
       "county": "Lake",
       "source": "wikipedia",
       "kind": "river",
@@ -10807,42 +10800,42 @@
       "wikipedia_title": "Pere Marquette River"
     },
     {
-      "name": "Belle River (Michigan)",
+      "name": "Belle River",
       "county": "Lapeer",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Belle River (Michigan)"
     },
     {
-      "name": "Black River (St. Clair River tributary)",
+      "name": "Black River",
       "county": "Lapeer",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Black River (St. Clair River tributary)"
     },
     {
-      "name": "",
+      "name": "Clinton River",
       "county": "Lapeer",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Clinton River (Michigan)"
     },
     {
-      "name": "Flint River (Michigan)",
+      "name": "Flint River",
       "county": "Lapeer",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Flint River (Michigan)"
     },
     {
-      "name": "Otter Lake (Michigan)",
+      "name": "Otter Lake",
       "county": "Lapeer",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Otter Lake (Michigan)"
     },
     {
-      "name": "Crystal River (Michigan)",
+      "name": "Crystal River",
       "county": "Leelanau",
       "source": "wikipedia",
       "kind": "river",
@@ -10891,14 +10884,14 @@
       "wikipedia_title": "Leland River"
     },
     {
-      "name": "Lime Lake (Michigan)",
+      "name": "Lime Lake",
       "county": "Leelanau",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Lime Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Manitou Passage",
       "county": "Leelanau",
       "source": "wikipedia",
       "kind": "lake",
@@ -10926,21 +10919,21 @@
       "wikipedia_title": "South Bar Lake"
     },
     {
-      "name": "Devils Lake (Michigan)",
+      "name": "Devils Lake",
       "county": "Lenawee",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Devils Lake (Michigan)"
     },
     {
-      "name": "Goose Creek (River Raisin)",
+      "name": "Goose Creek",
       "county": "Lenawee",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "creek",
       "wikipedia_title": "Goose Creek (River Raisin)"
     },
     {
-      "name": "Lake Hudson (Michigan)",
+      "name": "Lake Hudson",
       "county": "Lenawee",
       "source": "wikipedia",
       "kind": "lake",
@@ -10982,7 +10975,7 @@
       "wikipedia_title": "Looking Glass River"
     },
     {
-      "name": "Red Cedar River (Michigan)",
+      "name": "Red Cedar River",
       "county": "Livingston",
       "source": "wikipedia",
       "kind": "river",
@@ -10996,7 +10989,7 @@
       "wikipedia_title": "Shiawassee River"
     },
     {
-      "name": "Strawberry Lake (Michigan)",
+      "name": "Strawberry Lake",
       "county": "Livingston",
       "source": "wikipedia",
       "kind": "lake",
@@ -11010,7 +11003,7 @@
       "wikipedia_title": "Zukey Lake"
     },
     {
-      "name": "Betsy Lake (Luce County, Michigan)",
+      "name": "Betsy Lake",
       "county": "Luce",
       "source": "wikipedia",
       "kind": "lake",
@@ -11024,7 +11017,7 @@
       "wikipedia_title": "Blind Sucker River"
     },
     {
-      "name": "Carp River (Luce County, Michigan)",
+      "name": "Carp River",
       "county": "Luce",
       "source": "wikipedia",
       "kind": "river",
@@ -11087,35 +11080,35 @@
       "wikipedia_title": "Two Hearted River"
     },
     {
-      "name": "Black River (Mackinac County)",
+      "name": "Black River",
       "county": "Mackinac",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Black River (Mackinac County)"
     },
     {
-      "name": "Carp River (Mackinac County)",
+      "name": "Carp River",
       "county": "Mackinac",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Carp River (Mackinac County)"
     },
     {
-      "name": "Cataract River (Michigan)",
+      "name": "Cataract River",
       "county": "Mackinac",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Cataract River (Michigan)"
     },
     {
-      "name": "Chain Lake (Michigan)",
+      "name": "Chain Lake",
       "county": "Mackinac",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Chain Lake (Michigan)"
     },
     {
-      "name": "Cut River (Mackinac County, Michigan)",
+      "name": "Cut River",
       "county": "Mackinac",
       "source": "wikipedia",
       "kind": "river",
@@ -11164,7 +11157,7 @@
       "wikipedia_title": "Moran River"
     },
     {
-      "name": "Pine River (Mackinac County, Michigan)",
+      "name": "Pine River",
       "county": "Mackinac",
       "source": "wikipedia",
       "kind": "river",
@@ -11199,17 +11192,17 @@
       "wikipedia_title": "Upper Millecoquins River"
     },
     {
-      "name": "Anchor Bay (Michigan)",
+      "name": "Anchor Bay",
       "county": "Macomb",
       "source": "wikipedia",
       "kind": "bay",
       "wikipedia_title": "Anchor Bay (Michigan)"
     },
     {
-      "name": "",
+      "name": "Clinton River",
       "county": "Macomb",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Clinton River (Michigan)"
     },
     {
@@ -11220,14 +11213,14 @@
       "wikipedia_title": "Lake St. Clair"
     },
     {
-      "name": "Milk River (Michigan)",
+      "name": "Milk River",
       "county": "Macomb",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Milk River (Michigan)"
     },
     {
-      "name": "Salt River (Michigan)",
+      "name": "Salt River",
       "county": "Macomb",
       "source": "wikipedia",
       "kind": "river",
@@ -11241,7 +11234,7 @@
       "wikipedia_title": "St. Clair River"
     },
     {
-      "name": "Bear Creek (Michigan)",
+      "name": "Bear Creek",
       "county": "Manistee",
       "source": "wikipedia",
       "kind": "creek",
@@ -11262,7 +11255,7 @@
       "wikipedia_title": "Lake Michigan"
     },
     {
-      "name": "Manistee Lake (Manistee County, Michigan)",
+      "name": "Manistee Lake",
       "county": "Manistee",
       "source": "wikipedia",
       "kind": "lake",
@@ -11276,14 +11269,14 @@
       "wikipedia_title": "Big Garlic River"
     },
     {
-      "name": "Black River (Marquette County)",
+      "name": "Black River",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Black River (Marquette County)"
     },
     {
-      "name": "Carp River (Marquette County)",
+      "name": "Carp River",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "river",
@@ -11297,21 +11290,21 @@
       "wikipedia_title": "Chocolay River"
     },
     {
-      "name": "Dead River (Michigan)",
+      "name": "Dead River",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Dead River (Michigan)"
     },
     {
-      "name": "Deer Lake (Michigan)",
+      "name": "Deer Lake",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Deer Lake (Michigan)"
     },
     {
-      "name": "Goose Lake (Marquette County, Michigan)",
+      "name": "Goose Lake",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "lake",
@@ -11325,14 +11318,14 @@
       "wikipedia_title": "Greenwood Reservoir"
     },
     {
-      "name": "Huron River (northern Michigan)",
+      "name": "Huron River",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Huron River (northern Michigan)"
     },
     {
-      "name": "Iron River (Marquette County, Michigan)",
+      "name": "Iron River",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "river",
@@ -11353,7 +11346,7 @@
       "wikipedia_title": "Lake Gribben"
     },
     {
-      "name": "Lake Independence (Michigan)",
+      "name": "Lake Independence",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "lake",
@@ -11402,21 +11395,21 @@
       "wikipedia_title": "Mitchigan River"
     },
     {
-      "name": "Partridge Creek (Michigan)",
+      "name": "Partridge Creek",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "creek",
       "wikipedia_title": "Partridge Creek (Michigan)"
     },
     {
-      "name": "Rapid River (Delta County, Michigan)",
+      "name": "Rapid River",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Rapid River (Delta County, Michigan)"
     },
     {
-      "name": "River Styx (Marquette County, Michigan)",
+      "name": "River Styx",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "river",
@@ -11430,21 +11423,21 @@
       "wikipedia_title": "Salmon Trout River"
     },
     {
-      "name": "Sand River (Michigan)",
+      "name": "Sand River",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Sand River (Michigan)"
     },
     {
-      "name": "Teal Lake (Michigan)",
+      "name": "Teal Lake",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Teal Lake (Michigan)"
     },
     {
-      "name": "Whitefish River (Michigan)",
+      "name": "Whitefish River",
       "county": "Marquette",
       "source": "wikipedia",
       "kind": "river",
@@ -11458,14 +11451,14 @@
       "wikipedia_title": "Yellow Dog River"
     },
     {
-      "name": "Dockery Lake (Michigan)",
+      "name": "Dockery Lake",
       "county": "Mason",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Dockery Lake (Michigan)"
     },
     {
-      "name": "Gun Lake (Mason County, Michigan)",
+      "name": "Gun Lake",
       "county": "Mason",
       "source": "wikipedia",
       "kind": "lake",
@@ -11486,7 +11479,7 @@
       "wikipedia_title": "Lincoln River"
     },
     {
-      "name": "",
+      "name": "Ludington Pumped Storage Power Plant",
       "county": "Mason",
       "source": "wikipedia",
       "kind": "lake",
@@ -11500,7 +11493,7 @@
       "wikipedia_title": "Pleiness Lake"
     },
     {
-      "name": "Chippewa River (Michigan)",
+      "name": "Chippewa River",
       "county": "Mecosta",
       "source": "wikipedia",
       "kind": "river",
@@ -11514,7 +11507,7 @@
       "wikipedia_title": "Muskegon River"
     },
     {
-      "name": "Pine River (Chippewa River tributary)",
+      "name": "Pine River",
       "county": "Mecosta",
       "source": "wikipedia",
       "kind": "river",
@@ -11528,28 +11521,28 @@
       "wikipedia_title": "Townline Lake"
     },
     {
-      "name": "Birch Creek (Menominee County, Michigan)",
+      "name": "Birch Creek",
       "county": "Menominee",
       "source": "wikipedia",
       "kind": "creek",
       "wikipedia_title": "Birch Creek (Menominee County, Michigan)"
     },
     {
-      "name": "Cedar River (Menominee County, Michigan)",
+      "name": "Cedar River",
       "county": "Menominee",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Cedar River (Menominee County, Michigan)"
     },
     {
-      "name": "Green Bay (Lake Michigan)",
+      "name": "Green Bay",
       "county": "Menominee",
       "source": "wikipedia",
       "kind": "bay",
       "wikipedia_title": "Green Bay (Lake Michigan)"
     },
     {
-      "name": "Little Cedar River (Menominee River tributary)",
+      "name": "Little Cedar River",
       "county": "Menominee",
       "source": "wikipedia",
       "kind": "river",
@@ -11570,7 +11563,7 @@
       "wikipedia_title": "Walton River"
     },
     {
-      "name": "Chippewa River (Michigan)",
+      "name": "Chippewa River",
       "county": "Midland",
       "source": "wikipedia",
       "kind": "river",
@@ -11584,21 +11577,21 @@
       "wikipedia_title": "Kawkawlin River"
     },
     {
-      "name": "Pine River (Chippewa River tributary)",
+      "name": "Pine River",
       "county": "Midland",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Pine River (Chippewa River tributary)"
     },
     {
-      "name": "Salt River (Michigan)",
+      "name": "Salt River",
       "county": "Midland",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Salt River (Michigan)"
     },
     {
-      "name": "",
+      "name": "Sanford Dam",
       "county": "Midland",
       "source": "wikipedia",
       "kind": "lake",
@@ -11619,7 +11612,7 @@
       "wikipedia_title": "Shiawassee River"
     },
     {
-      "name": "Sturgeon Creek (Michigan)",
+      "name": "Sturgeon Creek",
       "county": "Midland",
       "source": "wikipedia",
       "kind": "creek",
@@ -11633,10 +11626,10 @@
       "wikipedia_title": "Tittabawassee River"
     },
     {
-      "name": "",
+      "name": "Tobacco River",
       "county": "Midland",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Tobacco River (Tittabawassee River tributary)"
     },
     {
@@ -11647,7 +11640,7 @@
       "wikipedia_title": "Wixom Lake"
     },
     {
-      "name": "Clam River (Michigan)",
+      "name": "Clam River",
       "county": "Missaukee",
       "source": "wikipedia",
       "kind": "river",
@@ -11703,21 +11696,21 @@
       "wikipedia_title": "Maumee Bay"
     },
     {
-      "name": "North River (Michigan)",
+      "name": "North River",
       "county": "Monroe",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "North River (Michigan)"
     },
     {
-      "name": "Ottawa River (Lake Erie)",
+      "name": "Ottawa River",
       "county": "Monroe",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Ottawa River (Lake Erie)"
     },
     {
-      "name": "Paint Creek (Washtenaw County, Michigan)",
+      "name": "Paint Creek",
       "county": "Monroe",
       "source": "wikipedia",
       "kind": "creek",
@@ -11731,14 +11724,14 @@
       "wikipedia_title": "River Raisin"
     },
     {
-      "name": "Saline River (Michigan)",
+      "name": "Saline River",
       "county": "Monroe",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Saline River (Michigan)"
     },
     {
-      "name": "Sandy Creek (Michigan)",
+      "name": "Sandy Creek",
       "county": "Monroe",
       "source": "wikipedia",
       "kind": "creek",
@@ -11752,28 +11745,28 @@
       "wikipedia_title": "Cowden Lake"
     },
     {
-      "name": "Flat River (Michigan)",
+      "name": "Flat River",
       "county": "Montcalm",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Flat River (Michigan)"
     },
     {
-      "name": "Pine River (Chippewa River tributary)",
+      "name": "Pine River",
       "county": "Montcalm",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Pine River (Chippewa River tributary)"
     },
     {
-      "name": "Black River (Cheboygan County)",
+      "name": "Black River",
       "county": "Montmorency",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Black River (Cheboygan County)"
     },
     {
-      "name": "Canada Creek (Michigan)",
+      "name": "Canada Creek",
       "county": "Montmorency",
       "source": "wikipedia",
       "kind": "creek",
@@ -11787,7 +11780,7 @@
       "wikipedia_title": "Fletcher Pond"
     },
     {
-      "name": "Long Lake (Montmorency County, Michigan)",
+      "name": "Long Lake",
       "county": "Montmorency",
       "source": "wikipedia",
       "kind": "lake",
@@ -11836,21 +11829,21 @@
       "wikipedia_title": "Muskegon River"
     },
     {
-      "name": "White Lake (Michigan)",
+      "name": "White Lake",
       "county": "Muskegon",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "White Lake (Michigan)"
     },
     {
-      "name": "White River (White Lake)",
+      "name": "White River",
       "county": "Muskegon",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "White River (White Lake)"
     },
     {
-      "name": "Devils Lake (Michigan)",
+      "name": "Devils Lake",
       "county": "Newaygo",
       "source": "wikipedia",
       "kind": "lake",
@@ -11878,7 +11871,7 @@
       "wikipedia_title": "Pere Marquette River"
     },
     {
-      "name": "Rogue River (Michigan)",
+      "name": "Rogue River",
       "county": "Newaygo",
       "source": "wikipedia",
       "kind": "river",
@@ -11892,189 +11885,189 @@
       "wikipedia_title": "Rollway Lake"
     },
     {
-      "name": "White River (White Lake)",
+      "name": "White River",
       "county": "Newaygo",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "White River (White Lake)"
     },
     {
-      "name": "",
+      "name": "Baldwin Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Baldwin Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Belle River (Michigan)",
+      "name": "Belle River",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Belle River (Michigan)"
     },
     {
-      "name": "Cass Lake (Michigan)",
+      "name": "Cass Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Cass Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Clam Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Clam Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Clinton River",
       "county": "Oakland",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Clinton River (Michigan)"
     },
     {
-      "name": "",
+      "name": "Cooley Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Cooley Lake (White Lake Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Crescent Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Crescent Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Crooked Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Crooked Lake (Independence Township, Michigan)"
     },
     {
-      "name": "Crystal Lake (Pontiac, Michigan)",
+      "name": "Crystal Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Crystal Lake (Pontiac, Michigan)"
     },
     {
-      "name": "",
+      "name": "Dark Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Dark Lake (Independence Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Deer Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Deer Lake (Independence Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Dollar Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Dollar Lake (Independence Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Eagle Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Eagle Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Elizabeth Lake (Waterford, Michigan)",
+      "name": "Elizabeth Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Elizabeth Lake (Waterford, Michigan)"
     },
     {
-      "name": "",
+      "name": "Fiddle Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Fiddle Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Geneva Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Geneva Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Greens Lake (Michigan)",
+      "name": "Greens Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Greens Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Huntoon Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Huntoon Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Kent Lake (Michigan)",
+      "name": "Kent Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Kent Lake (Michigan)"
     },
     {
-      "name": "Lake Angelus (Michigan)",
+      "name": "Lake Angelus",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Lake Angelus (Michigan)"
     },
     {
-      "name": "",
+      "name": "Lake Goodrich",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Lake Goodrich (Waterford Township, Michigan)"
     },
     {
-      "name": "Lake Oakland (Michigan)",
+      "name": "Lake Oakland",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Lake Oakland (Michigan)"
     },
     {
-      "name": "Lake Orion (Michigan)",
+      "name": "Lake Orion",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Lake Orion (Michigan)"
     },
     {
-      "name": "Lakeville Lake (Michigan)",
+      "name": "Lakeville Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Lakeville Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Leggets Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Leggets Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Lester Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12088,14 +12081,14 @@
       "wikipedia_title": "List of lakes of Oakland County, Michigan"
     },
     {
-      "name": "",
+      "name": "Loon Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Loon Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Lotus Lake (Michigan)",
+      "name": "Lotus Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12109,91 +12102,91 @@
       "wikipedia_title": "Mandon Lake"
     },
     {
-      "name": "",
+      "name": "Middle Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Middle Lake (Independence Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Mohawk Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Mohawk Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Morgan Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Morgan Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Orchard Lake (Michigan)",
+      "name": "Orchard Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Orchard Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Otter Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Otter Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Parke Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Parke Lake (Independence Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Pine Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Pine Lake (West Bloomfield Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Pleasant Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Pleasant Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Pontiac Lake (Michigan)",
+      "name": "Pontiac Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Pontiac Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Rainbow Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Rainbow Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "River Rouge (Michigan)",
+      "name": "River Rouge",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "River Rouge (Michigan)"
     },
     {
-      "name": "Schoolhouse Lake (Michigan)",
+      "name": "Schoolhouse Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Schoolhouse Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Scott Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12207,14 +12200,14 @@
       "wikipedia_title": "Shiawassee River"
     },
     {
-      "name": "",
+      "name": "Silver Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Silver Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Spring Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12228,98 +12221,98 @@
       "wikipedia_title": "Swartz Creek"
     },
     {
-      "name": "Sylvan Lake (Michigan)",
+      "name": "Sylvan Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Sylvan Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Tommys Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Tommys Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Townsend Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Townsend Lake (Independence Township, Michigan)"
     },
     {
-      "name": "Trout Creek (Michigan)",
+      "name": "Trout Creek",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "creek",
       "wikipedia_title": "Trout Creek (Michigan)"
     },
     {
-      "name": "Union Lake (Michigan)",
+      "name": "Union Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Union Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Upper Bushman Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Upper Bushman Lake (Independence Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Upper Silver Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Upper Silver Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "Van Norman Lake (Michigan)",
+      "name": "Van Norman Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Van Norman Lake (Michigan)"
     },
     {
-      "name": "Walled Lake (Michigan)",
+      "name": "Walled Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Walled Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Walnut Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Walnut Lake (West Bloomfield Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Walters Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Walters Lake (Independence Township, Michigan)"
     },
     {
-      "name": "Waterford Hill (Michigan)",
+      "name": "Waterford Hill",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Waterford Hill (Michigan)"
     },
     {
-      "name": "",
+      "name": "Watkins Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Watkins Lake (Waterford Township, Michigan)"
     },
     {
-      "name": "",
+      "name": "Whipple Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12333,14 +12326,14 @@
       "wikipedia_title": "White Horse Lake"
     },
     {
-      "name": "",
+      "name": "White Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "White Lake (White Lake Township, Michigan)"
     },
     {
-      "name": "Williams Lake (Michigan)",
+      "name": "Williams Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12354,7 +12347,7 @@
       "wikipedia_title": "Woodhull Lake"
     },
     {
-      "name": "",
+      "name": "Wormer Lake",
       "county": "Oakland",
       "source": "wikipedia",
       "kind": "lake",
@@ -12375,14 +12368,14 @@
       "wikipedia_title": "Pere Marquette River"
     },
     {
-      "name": "Ruby Creek (Michigan)",
+      "name": "Ruby Creek",
       "county": "Oceana",
       "source": "wikipedia",
       "kind": "creek",
       "wikipedia_title": "Ruby Creek (Michigan)"
     },
     {
-      "name": "White River (White Lake)",
+      "name": "White River",
       "county": "Oceana",
       "source": "wikipedia",
       "kind": "river",
@@ -12396,7 +12389,7 @@
       "wikipedia_title": "Au Gres River"
     },
     {
-      "name": "Bixby Creek (Michigan)",
+      "name": "Bixby Creek",
       "county": "Ogemaw",
       "source": "wikipedia",
       "kind": "creek",
@@ -12431,10 +12424,10 @@
       "wikipedia_title": "Big Iron River"
     },
     {
-      "name": "",
+      "name": "Carp River",
       "county": "Ontonagon",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Carp River (Gogebic\u2013Ontonagon counties)"
     },
     {
@@ -12452,7 +12445,7 @@
       "wikipedia_title": "Corpse Pond"
     },
     {
-      "name": "Cranberry River (Michigan)",
+      "name": "Cranberry River",
       "county": "Ontonagon",
       "source": "wikipedia",
       "kind": "river",
@@ -12466,7 +12459,7 @@
       "wikipedia_title": "East Sleeping River"
     },
     {
-      "name": "Firesteel River (Michigan)",
+      "name": "Firesteel River",
       "county": "Ontonagon",
       "source": "wikipedia",
       "kind": "river",
@@ -12480,7 +12473,7 @@
       "wikipedia_title": "Flintsteel River"
     },
     {
-      "name": "Floodwood River (Michigan)",
+      "name": "Floodwood River",
       "county": "Ontonagon",
       "source": "wikipedia",
       "kind": "river",
@@ -12501,10 +12494,10 @@
       "wikipedia_title": "Lake of the Clouds"
     },
     {
-      "name": "",
+      "name": "Little Carp River",
       "county": "Ontonagon",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Little Carp River (Gogebic-Ontonagon counties)"
     },
     {
@@ -12536,7 +12529,7 @@
       "wikipedia_title": "Mineral River"
     },
     {
-      "name": "Misery Bay (Michigan)",
+      "name": "Misery Bay",
       "county": "Ontonagon",
       "source": "wikipedia",
       "kind": "bay",
@@ -12557,17 +12550,17 @@
       "wikipedia_title": "Ontonagon River"
     },
     {
-      "name": "",
+      "name": "Potato River",
       "county": "Ontonagon",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Potato River (Michigan)"
     },
     {
-      "name": "",
+      "name": "Rapid River",
       "county": "Ontonagon",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Rapid River (Ontonagon County, Michigan)"
     },
     {
@@ -12599,14 +12592,14 @@
       "wikipedia_title": "Muskegon River"
     },
     {
-      "name": "Pine River (Manistee River tributary)",
+      "name": "Pine River",
       "county": "Osceola",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Pine River (Manistee River tributary)"
     },
     {
-      "name": "Au Sable River (Michigan)",
+      "name": "Au Sable River",
       "county": "Oscoda",
       "source": "wikipedia",
       "kind": "river",
@@ -12627,28 +12620,28 @@
       "wikipedia_title": "Thunder Bay River"
     },
     {
-      "name": "Au Sable River (Michigan)",
+      "name": "Au Sable River",
       "county": "Otsego",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Au Sable River (Michigan)"
     },
     {
-      "name": "Black River (Cheboygan County)",
+      "name": "Black River",
       "county": "Otsego",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Black River (Cheboygan County)"
     },
     {
-      "name": "Boyne River (Michigan)",
+      "name": "Boyne River",
       "county": "Otsego",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Boyne River (Michigan)"
     },
     {
-      "name": "Heart Lake (Michigan)",
+      "name": "Heart Lake",
       "county": "Otsego",
       "source": "wikipedia",
       "kind": "lake",
@@ -12662,35 +12655,35 @@
       "wikipedia_title": "Manistee River"
     },
     {
-      "name": "Otsego Lake (Michigan)",
+      "name": "Otsego Lake",
       "county": "Otsego",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Otsego Lake (Michigan)"
     },
     {
-      "name": "Pigeon River (Mullett Lake)",
+      "name": "Pigeon River",
       "county": "Otsego",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Pigeon River (Mullett Lake)"
     },
     {
-      "name": "Sturgeon River (Cheboygan County, Michigan)",
+      "name": "Sturgeon River",
       "county": "Otsego",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Sturgeon River (Cheboygan County, Michigan)"
     },
     {
-      "name": "Bass River (Michigan)",
+      "name": "Bass River",
       "county": "Ottawa",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Bass River (Michigan)"
     },
     {
-      "name": "Grand River (Michigan)",
+      "name": "Grand River",
       "county": "Ottawa",
       "source": "wikipedia",
       "kind": "river",
@@ -12711,21 +12704,21 @@
       "wikipedia_title": "Macatawa River"
     },
     {
-      "name": "Pigeon River (Ottawa County, Michigan)",
+      "name": "Pigeon River",
       "county": "Ottawa",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Pigeon River (Ottawa County, Michigan)"
     },
     {
-      "name": "Bell River (Michigan)",
+      "name": "Bell River",
       "county": "Presque Isle",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Bell River (Michigan)"
     },
     {
-      "name": "Black Lake (Michigan)",
+      "name": "Black Lake",
       "county": "Presque Isle",
       "source": "wikipedia",
       "kind": "lake",
@@ -12739,21 +12732,21 @@
       "wikipedia_title": "Black Mallard River"
     },
     {
-      "name": "Black River (Cheboygan County)",
+      "name": "Black River",
       "county": "Presque Isle",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Black River (Cheboygan County)"
     },
     {
-      "name": "Canada Creek (Michigan)",
+      "name": "Canada Creek",
       "county": "Presque Isle",
       "source": "wikipedia",
       "kind": "creek",
       "wikipedia_title": "Canada Creek (Michigan)"
     },
     {
-      "name": "Grand Lake (Michigan)",
+      "name": "Grand Lake",
       "county": "Presque Isle",
       "source": "wikipedia",
       "kind": "lake",
@@ -12781,7 +12774,7 @@
       "wikipedia_title": "Little Rainy River"
     },
     {
-      "name": "Little Trout River (Michigan)",
+      "name": "Little Trout River",
       "county": "Presque Isle",
       "source": "wikipedia",
       "kind": "river",
@@ -12795,28 +12788,28 @@
       "wikipedia_title": "Ocqueoc River"
     },
     {
-      "name": "Rainy River (Michigan)",
+      "name": "Rainy River",
       "county": "Presque Isle",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Rainy River (Michigan)"
     },
     {
-      "name": "Swan River (Michigan)",
+      "name": "Swan River",
       "county": "Presque Isle",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Swan River (Michigan)"
     },
     {
-      "name": "Trout River (Michigan)",
+      "name": "Trout River",
       "county": "Presque Isle",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Trout River (Michigan)"
     },
     {
-      "name": "Au Sable River (Michigan)",
+      "name": "Au Sable River",
       "county": "Roscommon",
       "source": "wikipedia",
       "kind": "river",
@@ -12851,14 +12844,14 @@
       "wikipedia_title": "Dead Stream Flooding"
     },
     {
-      "name": "",
+      "name": "Houghton Lake",
       "county": "Roscommon",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Houghton Lake (Michigan)"
     },
     {
-      "name": "",
+      "name": "Houghton Lake Flats",
       "county": "Roscommon",
       "source": "wikipedia",
       "kind": "lake",
@@ -12872,7 +12865,7 @@
       "wikipedia_title": "Lake St. Helen"
     },
     {
-      "name": "Little Mud Lake (Michigan)",
+      "name": "Little Mud Lake",
       "county": "Roscommon",
       "source": "wikipedia",
       "kind": "lake",
@@ -12893,35 +12886,35 @@
       "wikipedia_title": "Muskegon River"
     },
     {
-      "name": "Sugar River (Michigan)",
+      "name": "Sugar River",
       "county": "Roscommon",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Sugar River (Michigan)"
     },
     {
-      "name": "The Cut (Michigan)",
+      "name": "The Cut",
       "county": "Roscommon",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "The Cut (Michigan)"
     },
     {
-      "name": "Bad River (Michigan)",
+      "name": "Bad River",
       "county": "Saginaw",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Bad River (Michigan)"
     },
     {
-      "name": "Cass River (Michigan)",
+      "name": "Cass River",
       "county": "Saginaw",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Cass River (Michigan)"
     },
     {
-      "name": "Flint River (Michigan)",
+      "name": "Flint River",
       "county": "Saginaw",
       "source": "wikipedia",
       "kind": "river",
@@ -12956,31 +12949,31 @@
       "wikipedia_title": "Tittabawassee River"
     },
     {
-      "name": "Anchor Bay (Michigan)",
+      "name": "Anchor Bay",
       "county": "St. Clair",
       "source": "wikipedia",
       "kind": "bay",
       "wikipedia_title": "Anchor Bay (Michigan)"
     },
     {
-      "name": "Belle River (Michigan)",
+      "name": "Belle River",
       "county": "St. Clair",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Belle River (Michigan)"
     },
     {
-      "name": "Black River (St. Clair River tributary)",
+      "name": "Black River",
       "county": "St. Clair",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Black River (St. Clair River tributary)"
     },
     {
-      "name": "",
+      "name": "Clinton River",
       "county": "St. Clair",
       "source": "wikipedia",
-      "kind": "lake",
+      "kind": "river",
       "wikipedia_title": "Clinton River (Michigan)"
     },
     {
@@ -13005,21 +12998,21 @@
       "wikipedia_title": "Corey Lake"
     },
     {
-      "name": "Fawn River (Michigan)",
+      "name": "Fawn River",
       "county": "St. Joseph",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Fawn River (Michigan)"
     },
     {
-      "name": "Fishers Lake (Michigan)",
+      "name": "Fishers Lake",
       "county": "St. Joseph",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Fishers Lake (Michigan)"
     },
     {
-      "name": "Klinger Lake (Michigan)",
+      "name": "Klinger Lake",
       "county": "St. Joseph",
       "source": "wikipedia",
       "kind": "lake",
@@ -13047,56 +13040,56 @@
       "wikipedia_title": "Nottawa Creek"
     },
     {
-      "name": "Pleasant Lake (St. Joseph County, Michigan)",
+      "name": "Pleasant Lake",
       "county": "St. Joseph",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Pleasant Lake (St. Joseph County, Michigan)"
     },
     {
-      "name": "Portage Lake (St. Joseph County, Michigan)",
+      "name": "Portage Lake",
       "county": "St. Joseph",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Portage Lake (St. Joseph County, Michigan)"
     },
     {
-      "name": "Portage River (Kalamazoo\u2013St. Joseph counties)",
+      "name": "Portage River",
       "county": "St. Joseph",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Portage River (Kalamazoo\u2013St. Joseph counties)"
     },
     {
-      "name": "Prairie River (Michigan)",
+      "name": "Prairie River",
       "county": "St. Joseph",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Prairie River (Michigan)"
     },
     {
-      "name": "Rocky River (Michigan)",
+      "name": "Rocky River",
       "county": "St. Joseph",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Rocky River (Michigan)"
     },
     {
-      "name": "St. Joseph River (Lake Michigan)",
+      "name": "St. Joseph River",
       "county": "St. Joseph",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "St. Joseph River (Lake Michigan)"
     },
     {
-      "name": "Black River (St. Clair River tributary)",
+      "name": "Black River",
       "county": "Sanilac",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Black River (St. Clair River tributary)"
     },
     {
-      "name": "Cass River (Michigan)",
+      "name": "Cass River",
       "county": "Sanilac",
       "source": "wikipedia",
       "kind": "river",
@@ -13124,21 +13117,21 @@
       "wikipedia_title": "Driggs River"
     },
     {
-      "name": "Fox River (Michigan)",
+      "name": "Fox River",
       "county": "Schoolcraft",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Fox River (Michigan)"
     },
     {
-      "name": "Indian Lake (Schoolcraft County, Michigan)",
+      "name": "Indian Lake",
       "county": "Schoolcraft",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Indian Lake (Schoolcraft County, Michigan)"
     },
     {
-      "name": "Indian River (Manistique River tributary)",
+      "name": "Indian River",
       "county": "Schoolcraft",
       "source": "wikipedia",
       "kind": "river",
@@ -13166,7 +13159,7 @@
       "wikipedia_title": "Lake Nineteen"
     },
     {
-      "name": "Little Indian River (Michigan)",
+      "name": "Little Indian River",
       "county": "Schoolcraft",
       "source": "wikipedia",
       "kind": "river",
@@ -13180,7 +13173,7 @@
       "wikipedia_title": "Manistique River"
     },
     {
-      "name": "Ostrander Lake (Michigan)",
+      "name": "Ostrander Lake",
       "county": "Schoolcraft",
       "source": "wikipedia",
       "kind": "lake",
@@ -13215,7 +13208,7 @@
       "wikipedia_title": "Looking Glass River"
     },
     {
-      "name": "Maple River (Grand River tributary)",
+      "name": "Maple River",
       "county": "Shiawassee",
       "source": "wikipedia",
       "kind": "river",
@@ -13236,14 +13229,14 @@
       "wikipedia_title": "Shiawassee River"
     },
     {
-      "name": "Cass River (Michigan)",
+      "name": "Cass River",
       "county": "Tuscola",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Cass River (Michigan)"
     },
     {
-      "name": "Murphy Lake (Tuscola County, Michigan)",
+      "name": "Murphy Lake",
       "county": "Tuscola",
       "source": "wikipedia",
       "kind": "lake",
@@ -13264,7 +13257,7 @@
       "wikipedia_title": "Bankson Lake"
     },
     {
-      "name": "Black River (Southwest Michigan)",
+      "name": "Black River",
       "county": "Van Buren",
       "source": "wikipedia",
       "kind": "river",
@@ -13278,17 +13271,17 @@
       "wikipedia_title": "Dowagiac River"
     },
     {
-      "name": "Gravel Lake (Michigan)",
+      "name": "Gravel Lake",
       "county": "Van Buren",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Gravel Lake (Michigan)"
     },
     {
-      "name": "Mill Creek (Paw Paw River tributary)",
+      "name": "Mill Creek",
       "county": "Van Buren",
       "source": "wikipedia",
-      "kind": "river",
+      "kind": "creek",
       "wikipedia_title": "Mill Creek (Paw Paw River tributary)"
     },
     {
@@ -13299,14 +13292,14 @@
       "wikipedia_title": "Paw Paw River"
     },
     {
-      "name": "Rocky River (Michigan)",
+      "name": "Rocky River",
       "county": "Van Buren",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Rocky River (Michigan)"
     },
     {
-      "name": "St. Joseph River (Lake Michigan)",
+      "name": "St. Joseph River",
       "county": "Van Buren",
       "source": "wikipedia",
       "kind": "river",
@@ -13320,14 +13313,14 @@
       "wikipedia_title": "Belleville Lake"
     },
     {
-      "name": "Ford Lake (Michigan)",
+      "name": "Ford Lake",
       "county": "Washtenaw",
       "source": "wikipedia",
       "kind": "lake",
       "wikipedia_title": "Ford Lake (Michigan)"
     },
     {
-      "name": "Green Lake (Washtenaw County, Michigan)",
+      "name": "Green Lake",
       "county": "Washtenaw",
       "source": "wikipedia",
       "kind": "lake",
@@ -13355,7 +13348,7 @@
       "wikipedia_title": "Malletts Creek"
     },
     {
-      "name": "Paint Creek (Washtenaw County, Michigan)",
+      "name": "Paint Creek",
       "county": "Washtenaw",
       "source": "wikipedia",
       "kind": "creek",
@@ -13369,14 +13362,14 @@
       "wikipedia_title": "River Raisin"
     },
     {
-      "name": "River Rouge (Michigan)",
+      "name": "River Rouge",
       "county": "Washtenaw",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "River Rouge (Michigan)"
     },
     {
-      "name": "Saline River (Michigan)",
+      "name": "Saline River",
       "county": "Washtenaw",
       "source": "wikipedia",
       "kind": "river",
@@ -13418,14 +13411,14 @@
       "wikipedia_title": "Lake St. Clair"
     },
     {
-      "name": "Milk River (Michigan)",
+      "name": "Milk River",
       "county": "Wayne",
       "source": "wikipedia",
       "kind": "river",
       "wikipedia_title": "Milk River (Michigan)"
     },
     {
-      "name": "River Rouge (Michigan)",
+      "name": "River Rouge",
       "county": "Wayne",
       "source": "wikipedia",
       "kind": "river",
@@ -13439,7 +13432,7 @@
       "wikipedia_title": "Clam Lake Canal"
     },
     {
-      "name": "Clam River (Michigan)",
+      "name": "Clam River",
       "county": "Wexford",
       "source": "wikipedia",
       "kind": "river",
@@ -13453,7 +13446,7 @@
       "wikipedia_title": "Lake Cadillac"
     },
     {
-      "name": "Lake Mitchell (Michigan)",
+      "name": "Lake Mitchell",
       "county": "Wexford",
       "source": "wikipedia",
       "kind": "lake",
@@ -13467,7 +13460,7 @@
       "wikipedia_title": "Manistee River"
     },
     {
-      "name": "Pine River (Manistee River tributary)",
+      "name": "Pine River",
       "county": "Wexford",
       "source": "wikipedia",
       "kind": "river",
@@ -13997,7 +13990,7 @@
       "Antrim": {
         "lakes": 4,
         "streams": 0,
-        "waterbodies": 32,
+        "waterbodies": 31,
         "has_general_species": true,
         "has_exceptions": true
       },
@@ -14717,7 +14710,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Blue Lake (Michigan)": {
+      "Blue Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -14791,19 +14784,13 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "": {
+      "Ostrander Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Ostrander Lake (Michigan)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Round Lake (Alger and Delta Counties, Michigan)": {
+      "Round Lake": {
         "dataset_match": "Round",
         "match_score": 1.0,
         "survey_records": 119,
@@ -14887,7 +14874,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Gun Lake (Michigan)": {
+      "Gun Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -14975,13 +14962,13 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Duck Lake (Kalamazoo County)": {
+      "Duck Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Gull Lake (Michigan)": {
+      "Gull Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -15216,7 +15203,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Clam Lake (Antrim County, Michigan)": {
+      "Clam Lake": {
         "dataset_match": "Clam",
         "match_score": 1.0,
         "survey_records": 29,
@@ -15253,7 +15240,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Ellsworth Lake (Michigan)": {
+      "Ellsworth Lake": {
         "dataset_match": "Ellsworth",
         "match_score": 1.0,
         "survey_records": 55,
@@ -15464,7 +15451,7 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Six Mile Lake (Michigan)": {
+      "Six Mile Lake": {
         "dataset_match": "Sixmile",
         "match_score": 1.0,
         "survey_records": 43,
@@ -15495,7 +15482,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "St. Clair Lake (Michigan)": {
+      "St. Clair Lake": {
         "dataset_match": "Stclair",
         "match_score": 1.0,
         "survey_records": 58,
@@ -15532,7 +15519,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Thayer Lake (Antrim County)": {
+      "Thayer Lake": {
         "dataset_match": "Thayer",
         "match_score": 1.0,
         "survey_records": 43,
@@ -15560,13 +15547,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Wilson Lake (Michigan)": {
+      "Wilson Lake": {
         "dataset_match": "Wilson",
         "match_score": 1.0,
         "survey_records": 27,
@@ -15731,7 +15712,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Gun Lake (Michigan)": {
+      "Gun Lake": {
         "dataset_match": "Gun",
         "match_score": 1.0,
         "survey_records": 282,
@@ -15785,7 +15766,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Jordan Lake (Michigan)": {
+      "Jordan Lake": {
         "dataset_match": "Jordan",
         "match_score": 1.0,
         "survey_records": 44,
@@ -15966,7 +15947,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Six Mile Lake (Michigan)": {
+      "Six Mile Lake": {
         "dataset_match": "Sixmile",
         "match_score": 1.0,
         "survey_records": 1,
@@ -15980,7 +15961,7 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "St. Clair Lake (Michigan)": {
+      "St. Clair Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -16100,7 +16081,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Black Lake (Michigan)": {
+      "Black Lake": {
         "dataset_match": "Black",
         "match_score": 1.0,
         "survey_records": 260,
@@ -16216,7 +16197,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Douglas Lake (Cheboygan County, Michigan)": {
+      "Douglas Lake": {
         "dataset_match": "Douglas",
         "match_score": 1.0,
         "survey_records": 133,
@@ -16257,7 +16238,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Inland Waterway (Michigan)": {
+      "Inland Waterway": {
         "species": [],
         "extras": [],
         "source": null,
@@ -16381,7 +16362,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Lake George (Michigan\u2013Ontario)": {
+      "Lake George": {
         "species": [],
         "extras": [],
         "source": null,
@@ -16407,7 +16388,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Moss Lake (Delta County, Michigan)": {
+      "Moss Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -16419,13 +16400,13 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Ostrander Lake (Michigan)": {
+      "Ostrander Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Round Lake (Alger and Delta Counties, Michigan)": {
+      "Round Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -16469,7 +16450,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Devils Lake (Michigan)": {
+      "Devils Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -16482,12 +16463,6 @@
         "note": "No historical survey data available"
       },
       "Lake Interstate": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "": {
         "species": [],
         "extras": [],
         "source": null,
@@ -16557,13 +16532,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Clark Lake (Gogebic County, Michigan)": {
+      "Clark Lake": {
         "dataset_match": "Clark",
         "match_score": 1.0,
         "survey_records": 40,
@@ -16601,7 +16570,7 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Fisher Lake (Michigan)": {
+      "Fisher Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -16672,7 +16641,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Loon Lake (Gogebic County, Michigan)": {
+      "Loon Lake": {
         "dataset_match": "Loon",
         "match_score": 1.0,
         "survey_records": 52,
@@ -16776,12 +16745,6 @@
         "note": "No historical survey data available"
       },
       "Perrault Lake": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "": {
         "species": [],
         "extras": [],
         "source": null,
@@ -16955,7 +16918,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Brule Lake (Michigan-Wisconsin)": {
+      "Brule Lake": {
         "dataset_match": "Brule",
         "match_score": 1.0,
         "survey_records": 110,
@@ -17097,7 +17060,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Clark Lake (Jackson County, Michigan)": {
+      "Clark Lake": {
         "dataset_match": "Clark",
         "match_score": 1.0,
         "survey_records": 55,
@@ -17211,7 +17174,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Lake Medora (Michigan)": {
+      "Lake Medora": {
         "dataset_match": "Medora",
         "match_score": 0.72,
         "survey_records": 105,
@@ -17267,13 +17230,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Siskiwit Lake (Isle Royale)": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "": {
+      "Siskiwit Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -17317,7 +17274,7 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Devils Lake (Michigan)": {
+      "Devils Lake": {
         "dataset_match": "Devils",
         "match_score": 1.0,
         "survey_records": 192,
@@ -17371,7 +17328,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Lake Hudson (Michigan)": {
+      "Lake Hudson": {
         "dataset_match": "Hudson()",
         "match_score": 0.72,
         "survey_records": 9,
@@ -17415,7 +17372,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Betsy Lake (Luce County, Michigan)": {
+      "Betsy Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -17573,12 +17530,6 @@
         "note": "No historical survey data available"
       },
       "Pratt Lake": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "": {
         "species": [],
         "extras": [],
         "source": null,
@@ -17805,7 +17756,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Manistee Lake (Manistee County, Michigan)": {
+      "Manistee Lake": {
         "dataset_match": "Manistee",
         "match_score": 1.0,
         "survey_records": 51,
@@ -17923,7 +17874,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Deer Lake (Michigan)": {
+      "Deer Lake": {
         "dataset_match": "Deer",
         "match_score": 1.0,
         "survey_records": 34,
@@ -17941,7 +17892,7 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Goose Lake (Marquette County, Michigan)": {
+      "Goose Lake": {
         "dataset_match": "Goose",
         "match_score": 1.0,
         "survey_records": 50,
@@ -18003,9 +17954,9 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Lake Independence (Michigan)": {
+      "Lake Independence": {
         "dataset_match": "Independence",
-        "match_score": 0.9,
+        "match_score": 1.0,
         "survey_records": 113,
         "survey_years": [
           "1926",
@@ -18061,7 +18012,7 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Teal Lake (Michigan)": {
+      "Teal Lake": {
         "dataset_match": "Teal",
         "match_score": 1.0,
         "survey_records": 45,
@@ -18144,13 +18095,13 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "": {
+      "Baldwin Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Cass Lake (Michigan)": {
+      "Cass Lake": {
         "dataset_match": "Casslake",
         "match_score": 0.85,
         "survey_records": 90,
@@ -18178,7 +18129,91 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "Crystal Lake (Pontiac, Michigan)": {
+      "Clam Lake": {
+        "dataset_match": "Clam",
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": [
+          "1957"
+        ],
+        "species": [
+          "Yellow Perch"
+        ],
+        "extras": [
+          "Hornyhead Chub - 16, Creek Chub - 1"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "fishc"
+      },
+      "Cooley Lake": {
+        "dataset_match": "Cooley",
+        "match_score": 1.0,
+        "survey_records": 24,
+        "survey_years": [
+          "1962",
+          "1963"
+        ],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "changes-um-zenodo",
+        "dataset": "grow"
+      },
+      "Crescent Lake": {
+        "dataset_match": "Crescent",
+        "match_score": 1.0,
+        "survey_records": 75,
+        "survey_years": [
+          "1952",
+          "1984",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993"
+        ],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "crappies"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "summ"
+      },
+      "Crooked Lake": {
+        "dataset_match": "Crooked",
+        "match_score": 1.0,
+        "survey_records": 27,
+        "survey_years": [
+          "1987"
+        ],
+        "species": [
+          "Bluegill",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "changes-um-zenodo",
+        "dataset": "grow"
+      },
+      "Crystal Lake": {
         "dataset_match": "Crystal",
         "match_score": 1.0,
         "survey_records": 46,
@@ -18200,7 +18235,52 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Elizabeth Lake (Waterford, Michigan)": {
+      "Dark Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Deer Lake": {
+        "dataset_match": "Deer",
+        "match_score": 1.0,
+        "survey_records": 2,
+        "survey_years": [
+          "1991"
+        ],
+        "species": [
+          "Walleye"
+        ],
+        "extras": [],
+        "source": "changes-um-zenodo",
+        "dataset": "grow"
+      },
+      "Dollar Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Eagle Lake": {
+        "dataset_match": "Baldeagle",
+        "match_score": 0.85,
+        "survey_records": 18,
+        "survey_years": [
+          "1962"
+        ],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Smallmouth Bass"
+        ],
+        "extras": [],
+        "source": "changes-um-zenodo",
+        "dataset": "grow"
+      },
+      "Elizabeth Lake": {
         "dataset_match": "Elizabeth",
         "match_score": 1.0,
         "survey_records": 1,
@@ -18219,7 +18299,19 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Greens Lake (Michigan)": {
+      "Fiddle Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Geneva Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Greens Lake": {
         "dataset_match": "Greent",
         "match_score": 0.83,
         "survey_records": 1,
@@ -18233,7 +18325,31 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "Kent Lake (Michigan)": {
+      "Huntoon Lake": {
+        "dataset_match": "Huntoon",
+        "match_score": 1.0,
+        "survey_records": 20,
+        "survey_years": [
+          "1947"
+        ],
+        "species": [
+          "Bluegill",
+          "Golden Shiner",
+          "Grass Pickerel",
+          "Iowa Darter",
+          "Lake Chubsucker",
+          "Largemouth Bass",
+          "Pumpkinseed",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "Creek chub - 1, Hornyhead chub - 3"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "fishc"
+      },
+      "Kent Lake": {
         "dataset_match": "Kent",
         "match_score": 1.0,
         "survey_records": 98,
@@ -18262,7 +18378,7 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "Lake Angelus (Michigan)": {
+      "Lake Angelus": {
         "dataset_match": "Angelus",
         "match_score": 0.76,
         "survey_records": 20,
@@ -18297,7 +18413,13 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Lake Oakland (Michigan)": {
+      "Lake Goodrich": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Lake Oakland": {
         "dataset_match": "Oakland",
         "match_score": 0.76,
         "survey_records": 31,
@@ -18316,7 +18438,7 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "Lake Orion (Michigan)": {
+      "Lake Orion": {
         "dataset_match": "Orion",
         "match_score": 0.67,
         "survey_records": 127,
@@ -18339,7 +18461,7 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Lakeville Lake (Michigan)": {
+      "Lakeville Lake": {
         "dataset_match": "Lakeville",
         "match_score": 1.0,
         "survey_records": 144,
@@ -18371,13 +18493,45 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
+      "Leggets Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Lester Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
       "List of lakes of Oakland County, Michigan": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "Not a real waterbody (PDF parsing artifact)"
       },
-      "Lotus Lake (Michigan)": {
+      "Loon Lake": {
+        "dataset_match": "Loon",
+        "match_score": 1.0,
+        "survey_records": 28,
+        "survey_years": [
+          "1987",
+          "1988"
+        ],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Largemouth Bass",
+          "Pumpkinseed",
+          "Smallmouth Bass",
+          "Walleye"
+        ],
+        "extras": [],
+        "source": "changes-um-zenodo",
+        "dataset": "grow"
+      },
+      "Lotus Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -18397,7 +18551,60 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Orchard Lake (Michigan)": {
+      "Middle Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Mohawk Lake": {
+        "dataset_match": "Mohawk",
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": [
+          "1950"
+        ],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Golden Shiner",
+          "Lake Chubsucker",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "White Sucker",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "chub_sucker; rock_bass_green_sunfish; garpike"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "summ"
+      },
+      "Morgan Lake": {
+        "dataset_match": "Morganlittle",
+        "match_score": 0.85,
+        "survey_records": 1,
+        "survey_years": [
+          "1953"
+        ],
+        "species": [
+          "Bluegill",
+          "Golden Shiner",
+          "Lake Chubsucker",
+          "Largemouth Bass",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "common_sunfish; chub_sucker; green_sunfish; mud_pickerel"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "summ"
+      },
+      "Orchard Lake": {
         "dataset_match": "Orchard",
         "match_score": 1.0,
         "survey_records": 87,
@@ -18429,7 +18636,64 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Pontiac Lake (Michigan)": {
+      "Otter Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Parke Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Pine Lake": {
+        "dataset_match": "Pine",
+        "match_score": 1.0,
+        "survey_records": 17,
+        "survey_years": [
+          "1963"
+        ],
+        "species": [
+          "Bluegill",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "changes-um-zenodo",
+        "dataset": "grow"
+      },
+      "Pleasant Lake": {
+        "dataset_match": "Pleasant",
+        "match_score": 1.0,
+        "survey_records": 8,
+        "survey_years": [
+          "1936"
+        ],
+        "species": [
+          "Banded Killifish",
+          "Blackchin Shiner",
+          "Blacknose Shiner",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brook Silverside",
+          "Lake Chubsucker",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "N. spilopterus (Satin fin - steel colored shiner) - 1",
+          "mud_pickerel; strawcolored_shiner"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "summ"
+      },
+      "Pontiac Lake": {
         "dataset_match": "Pontiac",
         "match_score": 1.0,
         "survey_records": 180,
@@ -18466,7 +18730,13 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "Schoolhouse Lake (Michigan)": {
+      "Rainbow Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Schoolhouse Lake": {
         "dataset_match": "Schoolhouse",
         "match_score": 1.0,
         "survey_records": 1,
@@ -18488,7 +18758,62 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Sylvan Lake (Michigan)": {
+      "Scott Lake": {
+        "dataset_match": "Scott",
+        "match_score": 1.0,
+        "survey_records": 2,
+        "survey_years": [
+          "1982"
+        ],
+        "species": [
+          "Bluegill"
+        ],
+        "extras": [],
+        "source": "changes-um-zenodo",
+        "dataset": "grow"
+      },
+      "Silver Lake": {
+        "dataset_match": "Silverlittle",
+        "match_score": 0.85,
+        "survey_records": 38,
+        "survey_years": [
+          "1987",
+          "1989"
+        ],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Walleye",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "changes-um-zenodo",
+        "dataset": "grow"
+      },
+      "Spring Lake": {
+        "dataset_match": "Springt",
+        "match_score": 0.85,
+        "survey_records": 1,
+        "survey_years": [
+          "1953"
+        ],
+        "species": [
+          "Bluegill",
+          "Golden Shiner",
+          "Largemouth Bass",
+          "Pumpkinseed",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "mud_pickerel"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "summ"
+      },
+      "Sylvan Lake": {
         "dataset_match": "Sylvan",
         "match_score": 1.0,
         "survey_records": 44,
@@ -18512,7 +18837,30 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "Union Lake (Michigan)": {
+      "Tommys Lake": {
+        "dataset_match": "Tommys",
+        "match_score": 1.0,
+        "survey_records": 17,
+        "survey_years": [
+          "1982"
+        ],
+        "species": [
+          "Bluegill",
+          "Largemouth Bass",
+          "Pumpkinseed",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "changes-um-zenodo",
+        "dataset": "grow"
+      },
+      "Townsend Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Union Lake": {
         "dataset_match": "Union",
         "match_score": 1.0,
         "survey_records": 7,
@@ -18528,19 +18876,83 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Van Norman Lake (Michigan)": {
+      "Upper Bushman Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Walled Lake (Michigan)": {
+      "Upper Silver Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Waterford Hill (Michigan)": {
+      "Van Norman Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Walled Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Walnut Lake": {
+        "dataset_match": "Walnut",
+        "match_score": 1.0,
+        "survey_records": 1,
+        "survey_years": [
+          "1943"
+        ],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Cisco",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Walleye",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "green_sunfish_longear_sunfish"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "summ"
+      },
+      "Walters Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Waterford Hill": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
+      },
+      "Watkins Lake": {
+        "dataset_match": "Watkins",
+        "match_score": 1.0,
+        "survey_records": 10,
+        "survey_years": [
+          "1960"
+        ],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Largemouth Bass"
+        ],
+        "extras": [],
+        "source": "changes-um-zenodo",
+        "dataset": "grow"
+      },
+      "Whipple Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -18585,7 +18997,46 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Williams Lake (Michigan)": {
+      "White Lake": {
+        "dataset_match": "White",
+        "match_score": 1.0,
+        "survey_records": 123,
+        "survey_years": [
+          "1954",
+          "1973",
+          "1981",
+          "1983",
+          "1986",
+          "1993"
+        ],
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Blackchin Shiner",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Grass Pickerel",
+          "Iowa Darter",
+          "Lake Chubsucker",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Walleye",
+          "White Sucker",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "Redear - 1",
+          "sand_shiner"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "summ"
+      },
+      "Williams Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -18611,6 +19062,12 @@
         "extras": [],
         "source": "changes-um-zenodo",
         "dataset": "fishc"
+      },
+      "Wormer Lake": {
+        "species": [],
+        "extras": [],
+        "source": null,
+        "note": "No historical survey data available"
       }
     },
     "Newaygo": {
@@ -18620,7 +19077,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Devils Lake (Michigan)": {
+      "Devils Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -18810,7 +19267,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "White Lake (Michigan)": {
+      "White Lake": {
         "dataset_match": "White",
         "match_score": 1.0,
         "survey_records": 146,
@@ -19001,7 +19458,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Heart Lake (Michigan)": {
+      "Heart Lake": {
         "dataset_match": "Heart",
         "match_score": 1.0,
         "survey_records": 89,
@@ -19032,7 +19489,7 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "Otsego Lake (Michigan)": {
+      "Otsego Lake": {
         "dataset_match": "Otsego",
         "match_score": 1.0,
         "survey_records": 397,
@@ -19170,11 +19627,101 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+      "Houghton Lake": {
+        "dataset_match": "Houghton",
+        "match_score": 1.0,
+        "survey_records": 266,
+        "survey_years": [
+          "1938",
+          "1939",
+          "1941",
+          "1948",
+          "1956",
+          "1960",
+          "1962",
+          "1971",
+          "1983",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1995"
+        ],
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Blacknose Shiner",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brown Bullhead",
+          "Iowa Darter",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "2 steel colored shiner-2, rosy faced shiner-7",
+          "Longear x Pumpkinseed - 1, Rosy-cheeked Shiner - 2, Western Banded Top-minnow - 1",
+          "Notropis spilopterus - 74, , Notropis rubellus - 81, Blackside Black sided Darter - 2",
+          "Notropis spilopterus - 74, Notropis rubellus - 81, Black sided Darter - 2",
+          "Tadpole Cat - 1, colored minnow - 21"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "fishc"
+      },
+      "Houghton Lake Flats": {
+        "dataset_match": "Houghton",
+        "match_score": 0.56,
+        "survey_records": 266,
+        "survey_years": [
+          "1938",
+          "1939",
+          "1941",
+          "1948",
+          "1956",
+          "1960",
+          "1962",
+          "1971",
+          "1983",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1995"
+        ],
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Blacknose Shiner",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brown Bullhead",
+          "Iowa Darter",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "2 steel colored shiner-2, rosy faced shiner-7",
+          "Longear x Pumpkinseed - 1, Rosy-cheeked Shiner - 2, Western Banded Top-minnow - 1",
+          "Notropis spilopterus - 74, , Notropis rubellus - 81, Blackside Black sided Darter - 2",
+          "Notropis spilopterus - 74, Notropis rubellus - 81, Black sided Darter - 2",
+          "Tadpole Cat - 1, colored minnow - 21"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "fishc"
       },
       "Lake St. Helen": {
         "species": [],
@@ -19182,7 +19729,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Little Mud Lake (Michigan)": {
+      "Little Mud Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19194,7 +19741,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "The Cut (Michigan)": {
+      "The Cut": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19254,7 +19801,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Indian Lake (Schoolcraft County, Michigan)": {
+      "Indian Lake": {
         "dataset_match": "Indian",
         "match_score": 1.0,
         "survey_records": 212,
@@ -19343,7 +19890,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Ostrander Lake (Michigan)": {
+      "Ostrander Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19363,7 +19910,7 @@
       }
     },
     "Alpena": {
-      "Devils Lake (Michigan)": {
+      "Devils Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19420,16 +19967,10 @@
         ],
         "source": "changes-um-zenodo",
         "dataset": "summ"
-      },
-      "": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
       }
     },
     "Benzie": {
-      "Crystal Lake (Benzie County, Michigan)": {
+      "Crystal Lake": {
         "dataset_match": "Crystal",
         "match_score": 1.0,
         "survey_records": 130,
@@ -19482,7 +20023,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Platte Lake (Michigan)": {
+      "Platte Lake": {
         "dataset_match": "Plattebig",
         "match_score": 0.85,
         "survey_records": 147,
@@ -19532,7 +20073,7 @@
       }
     },
     "Berrien": {
-      "Black Lake (Berrien County, Michigan)": {
+      "Black Lake": {
         "dataset_match": "Black",
         "match_score": 1.0,
         "survey_records": 1,
@@ -19557,13 +20098,13 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Brush Lake (Berrien County, Michigan)": {
+      "Brush Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Clear Lake (Berrien County, Michigan)": {
+      "Clear Lake": {
         "dataset_match": "Clear",
         "match_score": 1.0,
         "survey_records": 12,
@@ -19582,7 +20123,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Colvin Lake (Michigan)": {
+      "Colvin Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19600,13 +20141,13 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Half Moon Lake (Berrien County, Michigan)": {
+      "Half Moon Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Harris Lake (Berrien County, Michigan)": {
+      "Harris Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19636,7 +20177,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Little Indian Lake (Berrien County, Michigan)": {
+      "Little Indian Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19648,13 +20189,13 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Moon Lake (Berrien County, Michigan)": {
+      "Moon Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Murphy Lake (Berrien County, Michigan)": {
+      "Murphy Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19695,7 +20236,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Round Lake (Berrien County, Michigan)": {
+      "Round Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19707,13 +20248,13 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "School Lake (Berrien County, Michigan)": {
+      "School Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Sherwood Lake (Berrien County, Michigan)": {
+      "Sherwood Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19745,7 +20286,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Smith Lake (Berrien County, Michigan)": {
+      "Smith Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19770,19 +20311,19 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Weaver Lake (Michigan)": {
+      "Weaver Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Webster Lake (Berrien County, Michigan)": {
+      "Webster Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Yellow Lake (Michigan)": {
+      "Yellow Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -19790,7 +20331,7 @@
       }
     },
     "Branch": {
-      "Coldwater Lake (Michigan)": {
+      "Coldwater Lake": {
         "dataset_match": "Coldwater",
         "match_score": 1.0,
         "survey_records": 121,
@@ -19819,7 +20360,7 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Lake George (Indiana\u2013Michigan)": {
+      "Lake George": {
         "dataset_match": "George",
         "match_score": 0.72,
         "survey_records": 66,
@@ -19844,7 +20385,7 @@
         "source": "changes-um-zenodo",
         "dataset": "fishc"
       },
-      "Lake Lavine (Michigan)": {
+      "Lake Lavine": {
         "dataset_match": "Lavine",
         "match_score": 0.72,
         "survey_records": 55,
@@ -19917,7 +20458,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Indian Lake (Cass County, Michigan)": {
+      "Indian Lake": {
         "dataset_match": "Indian",
         "match_score": 1.0,
         "survey_records": 19,
@@ -19937,7 +20478,7 @@
       }
     },
     "Clare": {
-      "Budd Lake (Michigan)": {
+      "Budd Lake": {
         "dataset_match": "Budd",
         "match_score": 1.0,
         "survey_records": 130,
@@ -20002,7 +20543,7 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Little Long Lake (Clare County, Michigan)": {
+      "Little Long Lake": {
         "dataset_match": "Littlelong",
         "match_score": 1.0,
         "survey_records": 151,
@@ -20044,7 +20585,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Lost Lake (Clare County, Michigan)": {
+      "Lost Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20097,7 +20638,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "": {
+      "Lake Antoine": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20111,7 +20652,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Crooked Lake (Michigan)": {
+      "Crooked Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20123,19 +20664,19 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Inland Waterway (Michigan)": {
+      "Inland Waterway": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Lake Paradise (Michigan)": {
+      "Lake Paradise": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Round Lake (Emmet County, Michigan)": {
+      "Round Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20161,13 +20702,13 @@
       }
     },
     "Genesee": {
-      "": {
+      "Lake Fenton": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Otter Lake (Michigan)": {
+      "Otter Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20175,7 +20716,7 @@
       }
     },
     "Gladwin": {
-      "": {
+      "Edenville Dam": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20256,19 +20797,19 @@
       }
     },
     "Grand Traverse": {
-      "Arbutus Lake (Michigan)": {
+      "Arbutus Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "": {
+      "Bass Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Boardman Lake (Michigan)": {
+      "Boardman Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20280,25 +20821,25 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Duck Lake (Grand Traverse County, Michigan)": {
+      "Duck Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Elk Lake (Michigan)": {
+      "Elk Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Fife Lake (Michigan)": {
+      "Fife Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Green Lake (Grand Traverse County, Michigan)": {
+      "Green Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20322,7 +20863,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Long Lake (Grand Traverse County, Michigan)": {
+      "Long Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20334,13 +20875,13 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Silver Lake (Grand Traverse County, Michigan)": {
+      "Silver Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Spider Lake (Grand Traverse County, Michigan)": {
+      "Spider Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20348,7 +20889,7 @@
       }
     },
     "Houghton": {
-      "": {
+      "Houghton-Douglass Falls": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20360,7 +20901,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Portage Lake (Keweenaw)": {
+      "Portage Lake": {
         "dataset_match": "Portage",
         "match_score": 1.0,
         "survey_records": 31,
@@ -20391,6 +20932,24 @@
         ],
         "source": "changes-um-zenodo",
         "dataset": "fishc"
+      },
+      "Torch Lake": {
+        "dataset_match": "Torch",
+        "match_score": 1.0,
+        "survey_records": 25,
+        "survey_years": [
+          "1979",
+          "1988",
+          "1994"
+        ],
+        "species": [
+          "Northern Pike",
+          "Sauger",
+          "Walleye"
+        ],
+        "extras": [],
+        "source": "changes-um-zenodo",
+        "dataset": "grow"
       }
     },
     "Ingham": {
@@ -20480,7 +21039,7 @@
       }
     },
     "Kalkaska": {
-      "Bear Lake (Michigan)": {
+      "Bear Lake": {
         "dataset_match": "Bear",
         "match_score": 1.0,
         "survey_records": 25,
@@ -20509,13 +21068,13 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Fife Lake (Michigan)": {
+      "Fife Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Lake Five (Michigan)": {
+      "Lake Five": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20527,7 +21086,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Long Lake (Kalkaska County, Michigan)": {
+      "Long Lake": {
         "dataset_match": "Long",
         "match_score": 1.0,
         "survey_records": 23,
@@ -20573,7 +21132,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "": {
+      "Torch Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20587,7 +21146,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Lake Bella Vista (Michigan)": {
+      "Lake Bella Vista": {
         "species": [],
         "extras": [],
         "source": null,
@@ -20607,7 +21166,7 @@
         "source": "changes-um-zenodo",
         "dataset": "grow"
       },
-      "Murray Lake (Michigan)": {
+      "Murray Lake": {
         "dataset_match": "Murray",
         "match_score": 1.0,
         "survey_records": 46,
@@ -20693,13 +21252,7 @@
       }
     },
     "Lapeer": {
-      "": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
-      "Otter Lake (Michigan)": {
+      "Otter Lake": {
         "dataset_match": "Otter",
         "match_score": 1.0,
         "survey_records": 19,
@@ -20747,7 +21300,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Lime Lake (Michigan)": {
+      "Lime Lake": {
         "dataset_match": "Lime",
         "match_score": 1.0,
         "survey_records": 103,
@@ -20780,11 +21333,20 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "": {
-        "species": [],
+      "Manitou Passage": {
+        "dataset_match": "Manitou",
+        "match_score": 0.6,
+        "survey_records": 18,
+        "survey_years": [
+          "1987"
+        ],
+        "species": [
+          "Smallmouth Bass",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "changes-um-zenodo",
+        "dataset": "grow"
       },
       "South Bar Lake": {
         "species": [],
@@ -20794,7 +21356,7 @@
       }
     },
     "Livingston": {
-      "Strawberry Lake (Michigan)": {
+      "Strawberry Lake": {
         "dataset_match": "Strawberry",
         "match_score": 1.0,
         "survey_records": 44,
@@ -20881,7 +21443,7 @@
       }
     },
     "Mackinac": {
-      "Chain Lake (Michigan)": {
+      "Chain Lake": {
         "dataset_match": "Chain",
         "match_score": 1.0,
         "survey_records": 7,
@@ -20996,13 +21558,13 @@
       }
     },
     "Mason": {
-      "Dockery Lake (Michigan)": {
+      "Dockery Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Gun Lake (Mason County, Michigan)": {
+      "Gun Lake": {
         "dataset_match": "Gun",
         "match_score": 1.0,
         "survey_records": 1,
@@ -21086,7 +21648,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "": {
+      "Ludington Pumped Storage Power Plant": {
         "species": [],
         "extras": [],
         "source": null,
@@ -21100,11 +21662,55 @@
       }
     },
     "Midland": {
-      "": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+      "Sanford Dam": {
+        "dataset_match": "Sanford",
+        "match_score": 1.0,
+        "survey_records": 141,
+        "survey_years": [
+          "1951",
+          "1967",
+          "1971",
+          "1978",
+          "1986",
+          "1987",
+          "1988"
+        ],
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brown Bullhead",
+          "Common Carp",
+          "Common Shiner",
+          "Golden Shiner",
+          "Johnny Darter",
+          "Largemouth Bass",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Walleye",
+          "White Bass",
+          "White Crappie",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "4 N. creek chub - 4, Hornyhead chub - 2, Stoneroller - 1 stonerolles",
+          "Blackside Darter - 1, Spotfin Shiner - 2, Unidentified Shiner - 1",
+          "Channel Catfish - 2",
+          "Channel Catfish-6",
+          "Channel Cats - 2, White Bass - 2",
+          "Channel\u00c2\u00a0Catfish\u00c2\u00a0-\u00c2\u00a01",
+          "Channel\u00c2\u00a0Catfish\u00c2\u00a0-\u00c2\u00a01, White Bass - 1",
+          "Snall bass - 1, White bass - 1, Channel Catfish - 1",
+          "Spotfin shiner - 16 N. Creek chub - 4 Blackside darter - 1",
+          "logperch_spotfin_shiner_northern_creek_chub_hornyhead_chub_stoneroller_blackside_darter"
+        ],
+        "source": "changes-um-zenodo",
+        "dataset": "summ"
       },
       "Sanford Lake": {
         "dataset_match": "Sanford",
@@ -21256,7 +21862,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Long Lake (Montmorency County, Michigan)": {
+      "Long Lake": {
         "dataset_match": "Long",
         "match_score": 1.0,
         "survey_records": 19,
@@ -21451,13 +22057,13 @@
       }
     },
     "Presque Isle": {
-      "Black Lake (Michigan)": {
+      "Black Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Grand Lake (Michigan)": {
+      "Grand Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -21465,12 +22071,6 @@
       }
     },
     "St. Clair": {
-      "": {
-        "species": [],
-        "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
-      },
       "Lake St. Clair": {
         "species": [],
         "extras": [],
@@ -21485,13 +22085,13 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Fishers Lake (Michigan)": {
+      "Fishers Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Klinger Lake (Michigan)": {
+      "Klinger Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -21509,13 +22109,13 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Pleasant Lake (St. Joseph County, Michigan)": {
+      "Pleasant Lake": {
         "species": [],
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
       },
-      "Portage Lake (St. Joseph County, Michigan)": {
+      "Portage Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -21523,7 +22123,7 @@
       }
     },
     "Tuscola": {
-      "Murphy Lake (Tuscola County, Michigan)": {
+      "Murphy Lake": {
         "dataset_match": "Murphy",
         "match_score": 1.0,
         "survey_records": 55,
@@ -21556,7 +22156,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Gravel Lake (Michigan)": {
+      "Gravel Lake": {
         "species": [],
         "extras": [],
         "source": null,
@@ -21570,7 +22170,7 @@
         "source": null,
         "note": "No historical survey data available"
       },
-      "Ford Lake (Michigan)": {
+      "Ford Lake": {
         "dataset_match": "Ford",
         "match_score": 1.0,
         "survey_records": 83,
@@ -21606,7 +22206,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Green Lake (Washtenaw County, Michigan)": {
+      "Green Lake": {
         "dataset_match": "Green",
         "match_score": 1.0,
         "survey_records": 128,
@@ -21738,7 +22338,7 @@
         "source": "changes-um-zenodo",
         "dataset": "summ"
       },
-      "Lake Mitchell (Michigan)": {
+      "Lake Mitchell": {
         "dataset_match": "Mitchell",
         "match_score": 0.8,
         "survey_records": 99,
