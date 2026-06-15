@@ -1,0 +1,162 @@
+[
+  {
+    "county": "Cheboygan",
+    "waterbody": "Crooked River",
+    "kind": "river",
+    "id": "0454",
+    "year": 2025,
+    "name": "Crooked Lake",
+    "filename": "0454_2025_Crooked_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0454_2025_Crooked_Lake.pdf"
+  },
+  {
+    "county": "Huron",
+    "waterbody": "Muskegon River",
+    "kind": "river",
+    "id": "0448",
+    "year": 2025,
+    "name": "Muskegon Lake",
+    "filename": "0448_2025_Muskegon_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0448_2025_Muskegon_Lake.pdf"
+  },
+  {
+    "county": "Clinton",
+    "waterbody": "Trout Lake",
+    "kind": "lake",
+    "id": "0463",
+    "year": 2026,
+    "name": "Trout Lake",
+    "filename": "0463_2026_Trout_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0463_2026_Trout_Lake.pdf"
+  },
+  {
+    "county": "Manistee",
+    "waterbody": "Island Lake (T45N, R30W, S14)",
+    "kind": "lake",
+    "id": "0442",
+    "year": 2025,
+    "name": "Island Lake",
+    "filename": "0442_2025_Island_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0442_2025_Island_Lake.pdf"
+  },
+  {
+    "county": "Manistee",
+    "waterbody": "Silver Lake Basin",
+    "kind": "lake",
+    "id": "0200",
+    "year": 2012,
+    "name": "SilverLake",
+    "filename": "0200_2012_SilverLake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0200_2012_SilverLake.pdf"
+  },
+  {
+    "county": "Manistee",
+    "waterbody": "Lincoln River",
+    "kind": "river",
+    "id": "0433",
+    "year": 2024,
+    "name": "Lincoln Lake",
+    "filename": "0433_2024_Lincoln_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0433_2024_Lincoln_Lake.pdf"
+  },
+  {
+    "county": "Muskegon",
+    "waterbody": "Fish Creek",
+    "kind": "creek",
+    "id": "0443",
+    "year": 2025,
+    "name": "Fish Creek",
+    "filename": "0443_2025_Fish_Creek.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0443_2025_Fish_Creek.pdf"
+  },
+  {
+    "county": "Berrien",
+    "waterbody": "Round Lake",
+    "kind": "lake",
+    "id": "0444",
+    "year": 2025,
+    "name": "Round Lake",
+    "filename": "0444_2025_Round_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0444_2025_Round_Lake.pdf"
+  },
+  {
+    "county": "Grand Traverse",
+    "waterbody": "Platte River",
+    "kind": "river",
+    "id": "0456",
+    "year": 2026,
+    "name": "Platte Lake",
+    "filename": "0456_2026_Platte_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0456_2026_Platte_Lake.pdf"
+  },
+  {
+    "county": "Otsego",
+    "waterbody": "Trout River",
+    "kind": "river",
+    "id": "0463",
+    "year": 2026,
+    "name": "Trout Lake",
+    "filename": "0463_2026_Trout_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0463_2026_Trout_Lake.pdf"
+  },
+  {
+    "county": "St. Joseph",
+    "waterbody": "Lake Templene",
+    "kind": "lake",
+    "id": "0248",
+    "year": 2014,
+    "name": "LakeTemplene",
+    "filename": "0248_2014_LakeTemplene.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0248_2014_LakeTemplene.pdf"
+  },
+  {
+    "county": "Benzie",
+    "waterbody": "Platte Bay",
+    "kind": "bay",
+    "id": "0456",
+    "year": 2026,
+    "name": "Platte Lake",
+    "filename": "0456_2026_Platte_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0456_2026_Platte_Lake.pdf"
+  },
+  {
+    "county": "Leelanau",
+    "waterbody": "Platte Bay",
+    "kind": "bay",
+    "id": "0456",
+    "year": 2026,
+    "name": "Platte Lake",
+    "filename": "0456_2026_Platte_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0456_2026_Platte_Lake.pdf"
+  },
+  {
+    "county": "Mason",
+    "waterbody": "Lincoln River",
+    "kind": "river",
+    "id": "0433",
+    "year": 2024,
+    "name": "Lincoln Lake",
+    "filename": "0433_2024_Lincoln_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0433_2024_Lincoln_Lake.pdf"
+  },
+  {
+    "county": "Oakland",
+    "waterbody": "Rainbow Lake",
+    "kind": "lake",
+    "id": "0439",
+    "year": 2025,
+    "name": "Rainbow Lake",
+    "filename": "0439_2025_Rainbow_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0439_2025_Rainbow_Lake.pdf"
+  },
+  {
+    "county": "Roscommon",
+    "waterbody": "Muskegon River",
+    "kind": "river",
+    "id": "0448",
+    "year": 2025,
+    "name": "Muskegon Lake",
+    "filename": "0448_2025_Muskegon_Lake.pdf",
+    "url": "https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0448_2025_Muskegon_Lake.pdf"
+  }
+]

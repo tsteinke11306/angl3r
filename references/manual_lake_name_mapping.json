@@ -66,7 +66,8 @@
           "Yellow Bullhead",
           "Cisco"
         ],
-        "source": "Michigan DNR / USGS St. Clair\u2013Detroit River System surveys"
+        "source": "Michigan DNR / USGS St. Clair\u2013Detroit River System surveys",
+        "extras": []
       }
     },
     "Crawford": {
@@ -176,6 +177,120 @@
         "source": "Cass River Water Trail",
         "confidence": "medium",
         "note": "Cass River Water Trail states Rock bass, smallmouth bass, largemouth bass, bluegills, pumpkinseed sunfish, northern pike and catfish are very common; sturgeon and walleye are recovering species. Display names normalized to the angl3r species list. URL: https://cassriverwatertrail.org/explore/fishing"
+      }
+    },
+    "Berrien": {
+      "Mill Creek and Tributaries": {
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout",
+          "Chinook Salmon",
+          "Coho Salmon"
+        ],
+        "extras": [],
+        "source": "Michigan DNR Trout Trails / Status of the Fishery Resource PDF TT2015087",
+        "confidence": "high",
+        "note": "DNR Trout Trails PDF for Mill Creek Flaherty Park describes a Type 1 trout stream with stocked/wild Brown Trout, wild Steelhead (Rainbow Trout), and occasional Chinook/Coho Salmon moving in from the Paw Paw River. PDF: https://www.dnr.state.mi.us/publications/pdfs/ArcGISOnline/StoryMaps/fish_troutTrails/PDFs/TT2015087.pdf"
+      },
+      "Boyle Lake": {
+        "species": [
+          "Largemouth Bass",
+          "Black Crappie",
+          "Bluegill",
+          "Yellow Perch",
+          "Redear Sunfish"
+        ],
+        "extras": [],
+        "source": "Fishbrain (Berrien County, Michigan \u2014 named catch records)",
+        "confidence": "medium",
+        "note": "Fishbrain lists top species as Largemouth Bass, Black Crappie, Bluegill; logged catches also include Yellow Perch and Redear Sunfish. URL: https://fishbrain.com/fishing-waters/c93m5HwA/boyle-lake"
+      },
+      "Brush Lake": {
+        "species": [
+          "Largemouth Bass",
+          "Bluegill"
+        ],
+        "extras": [],
+        "source": "Fishbrain (Berrien County, Michigan \u2014 named catch records)",
+        "confidence": "medium",
+        "note": "Fishbrain lists top species as Bluegill and Largemouth Bass. URL: https://fishbrain.com/fishing-waters/eGH7Zbt_/brush-lake"
+      },
+      "Colvin Lake": {
+        "species": [
+          "Largemouth Bass"
+        ],
+        "extras": [],
+        "source": "Fishbrain (Berrien County, Michigan \u2014 named catch records)",
+        "confidence": "low",
+        "note": "Fishbrain only reports Largemouth Bass as the most popular species for Colvin Lake; no additional survey data found. URL: https://fishbrain.com/fishing-waters/YKXG95re/colvin-lake"
+      },
+      "Coveney Lake": {
+        "species": [
+          "Largemouth Bass",
+          "Bluegill",
+          "Black Crappie",
+          "Pumpkinseed",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "Generalized southwest Michigan warmwater lake assemblage",
+        "confidence": "low",
+        "note": "No waterbody-specific species source (DNR report, stocking record, or named catch database) was found for Coveney Lake. Species list inferred from typical Berrien County small-lake fish communities."
+      },
+      "Deer Creek": {
+        "species": [
+          "Largemouth Bass",
+          "Bluegill",
+          "Black Crappie",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "Generalized southwest Michigan warmwater creek assemblage",
+        "confidence": "low",
+        "note": "No waterbody-specific species source was found for Deer Creek (South Branch Galien River tributary). Nearby South Branch Galien River supports trout, but Deer Creek itself is unverified."
+      },
+      "Garwood Lake": {
+        "species": [
+          "Largemouth Bass",
+          "Black Crappie",
+          "Black Bullhead"
+        ],
+        "extras": [],
+        "source": "Fishbrain (Berrien County, Michigan \u2014 named catch records)",
+        "confidence": "medium",
+        "note": "Fishbrain lists top species as Largemouth Bass, Black Crappie, and Black Bullhead. URL: https://fishbrain.com/fishing-waters/oZruaQS7/garwood-lake"
+      },
+      "Half Moon Lake": {
+        "species": [
+          "Largemouth Bass",
+          "Bluegill",
+          "Black Crappie",
+          "Pumpkinseed",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "Generalized southwest Michigan warmwater lake assemblage",
+        "confidence": "low",
+        "note": "No waterbody-specific species source was found for Half Moon Lake (Berrien County). Online sources for other Michigan Half Moon Lakes are not applicable to this Berrien County waterbody."
+      },
+      "Harris Lake": {
+        "species": [
+          "Bluegill"
+        ],
+        "extras": [],
+        "source": "Fishbrain (Berrien County, Michigan \u2014 named catch records)",
+        "confidence": "medium",
+        "note": "Fishbrain lists Bluegill as the only reported top species for Harris Lake. URL: https://fishbrain.com/fishing-waters/sJtE58DU/harris-lake"
+      },
+      "Jarvis Lake": {
+        "species": [
+          "Largemouth Bass",
+          "Bluegill"
+        ],
+        "extras": [],
+        "source": "Fishbrain (Berrien County, Michigan \u2014 named catch records)",
+        "confidence": "medium",
+        "note": "Fishbrain lists top species as Largemouth Bass and Bluegill. URL: https://fishbrain.com/fishing-waters/CASruQ2D/jarvis-lake"
       }
     }
   }
