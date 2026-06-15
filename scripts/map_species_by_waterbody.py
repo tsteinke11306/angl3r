@@ -317,11 +317,12 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
 
     # Load manual name corrections
     manual_mapping = {}
+    manual_raw = {}
     manual_path = os.path.join(os.path.dirname(regs_json_path), '..', 'references', 'manual_lake_name_mapping.json')
     if os.path.exists(manual_path):
         with open(manual_path) as f:
-            raw = json.load(f)
-        for county, lakes in raw.items():
+            manual_raw = json.load(f)
+        for county, lakes in manual_raw.items():
             if county.startswith('_'):
                 continue
             for our_name, ds_name in lakes.items():
@@ -350,12 +351,14 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
         ds_by_county[county][(county, lake)] = data
 
     result = defaultdict(dict)
-    stats = {'matched': 0, 'unmatched': 0, 'no_species_data': 0, 'manual': 0, 'summ': 0, 'fishc': 0, 'grow': 0}
+    stats = {'matched': 0, 'unmatched': 0, 'no_species_data': 0, 'manual': 0, 'summ': 0, 'fishc': 0, 'grow': 0, 'override': 0}
+
+    species_overrides = manual_raw.get('_species_overrides', {})
 
     for wb in regs['waterbodies']:
         if target_county and wb['county'] != target_county:
             continue
-        if wb['kind'] not in ('lake', 'pond'):
+        if wb['kind'] not in ('lake', 'pond', 'river', 'creek', 'stream'):
             continue
 
         # Skip PDF parsing artifacts
@@ -375,6 +378,29 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
                 'extras': [],
                 'source': None,
                 'note': 'Not a real waterbody (PDF parsing artifact)'
+            }
+            stats['unmatched'] += 1
+            continue
+
+        # Manual species overrides take precedence
+        override = species_overrides.get(wb['county'], {}).get(wb['name'])
+        if override:
+            result[wb['county']][wb['name']] = {
+                'species': sorted(override.get('species', [])),
+                'extras': sorted(override.get('extras', [])),
+                'source': override.get('source', 'manual-override'),
+                'note': override.get('note', 'Species list curated from authoritative sources')
+            }
+            stats['matched'] += 1
+            stats['override'] += 1
+            continue
+
+        if wb['kind'] not in ('lake', 'pond'):
+            result[wb['county']][wb['name']] = {
+                'species': [],
+                'extras': [],
+                'source': None,
+                'note': 'No historical survey data available for this waterbody type'
             }
             stats['unmatched'] += 1
             continue

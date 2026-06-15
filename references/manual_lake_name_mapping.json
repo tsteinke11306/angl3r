@@ -28,5 +28,46 @@
   },
   "Roscommon": {
     "Higgins Lake": "Higgins"
+  },
+  "_species_overrides": {
+    "Wayne": {
+      "Detroit River": {
+        "species": [
+          "Walleye",
+          "Yellow Perch",
+          "White Bass",
+          "Smallmouth Bass",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Muskellunge",
+          "Lake Sturgeon",
+          "Common Carp",
+          "Freshwater Drum",
+          "Rock Bass",
+          "Bluegill",
+          "Pumpkinseed",
+          "Black Crappie",
+          "White Crappie",
+          "Sauger",
+          "Rainbow Trout",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Brown Trout",
+          "Lake Trout",
+          "Lake Whitefish",
+          "Round Whitefish",
+          "Rainbow Smelt",
+          "Longnose Gar",
+          "Spotted Gar",
+          "Bowfin",
+          "White Sucker",
+          "Brown Bullhead",
+          "Black Bullhead",
+          "Yellow Bullhead",
+          "Cisco"
+        ],
+        "source": "Michigan DNR / USGS St. Clair\u2013Detroit River System surveys"
+      }
+    }
   }
 }
