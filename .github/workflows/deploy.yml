@@ -62,6 +62,20 @@ jobs:
         run: |
           wget -q -O /tmp/summ_fishc_grow.zip "https://zenodo.org/api/records/15389937/files/CHANGES-UM/summ_fishc_grow-v1.0.0.zip/content"
 
+      - name: Cache DNR fish stocking data
+        id: cache-dnr-stocking
+        uses: actions/cache@v4
+        with:
+          path: species_research/dnr_stocking.csv
+          key: dnr-stocking-${{ github.run_id }}
+          restore-keys: dnr-stocking-
+
+      - name: Download DNR fish stocking data
+        if: steps.cache-dnr-stocking.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p species_research
+          wget -q -O species_research/dnr_stocking.csv "https://michigandnr.com/publications/PDFS/Fishing/FishStocking/FishStockingData.csv"
+
       - name: Map species by waterbody
         run: |
           python3 scripts/map_species_by_waterbody.py \
