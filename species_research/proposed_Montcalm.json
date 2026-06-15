@@ -1,0 +1,38 @@
+{
+  "Montcalm": {
+    "Flat River": {
+      "species": [
+        "Black Crappie",
+        "Bluegill",
+        "Bullhead (unspecified)",
+        "Common Carp",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "Yellow Perch"
+      ],
+      "source": "Safe Harbor Fishing / Fishbrain / Fox17 DNR electrofishing coverage",
+      "confidence": "medium",
+      "notes": "Safe Harbor Fishing lists bass, pike, walleye, panfish, catfish, bullhead, carp for the Flat River. Fishbrain catches and Fox17 DNR electrofishing confirm smallmouth. No dedicated DNR Status report found for the Flat River itself. URL: https://safeharborfishing.com/what-fish-are-in-the-flat-river",
+      "extras": [
+        "Channel Catfish"
+      ]
+    },
+    "Pine River (Chippewa River tributary)": {
+      "species": [
+        "Bluegill",
+        "Common Carp",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Smallmouth Bass",
+        "White Sucker"
+      ],
+      "source": "Michigan DNR Status of the Fishery Resource Report 2015-201, Alma Impoundment",
+      "confidence": "medium",
+      "notes": "DNR report documents Upper Pine River/Alma Impoundment species. This covers the downstream impoundment, same river system. URL: https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0268_2015_AlmaImpoundment.pdf"
+    }
+  }
+}

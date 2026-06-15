@@ -1,0 +1,8744 @@
+{
+  "Chippewa": {
+    "Pendills Creek": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "St. Marys River": [
+      "Atlantic Salmon",
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Lake Trout",
+      "Lake Whitefish",
+      "Rainbow Trout",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "High Banks Lake": [
+      "Atlantic Salmon",
+      "Brook Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Dukes Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "St. Marys River -Lake Nicolet": [
+      "Walleye"
+    ],
+    "St. Marys -Potagannissing Bay": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Waiska Bay, Lake Superior": [
+      "Walleye"
+    ],
+    "Naomikong Lake": [
+      "Brook Trout"
+    ],
+    "Naomikong Pond": [
+      "Brook Trout"
+    ],
+    "St. Marys River -Little Rapids": [
+      "Rainbow Trout"
+    ],
+    "Frenchman Lake": [
+      "Walleye"
+    ],
+    "Tahquamenon River": [
+      "Lake Trout",
+      "Walleye"
+    ],
+    "Caribou Lake": [
+      "Bluegill",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Lake Huron": [
+      "Lake Trout",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Pine River": [
+      "Brook Trout",
+      "Lake Whitefish"
+    ],
+    "Charlotte River": [
+      "Walleye"
+    ],
+    "Lake Superior": [
+      "Lake Trout",
+      "Walleye"
+    ],
+    "Rapson Creek": [
+      "Brook Trout"
+    ],
+    "Roxbury Pond East": [
+      "Black Crappie",
+      "Brook Trout"
+    ],
+    "Roxbury Pond, West": [
+      "Bluegill",
+      "Brook Trout",
+      "Largemouth Bass"
+    ],
+    "Brown Pond": [
+      "Walleye"
+    ],
+    "Lake George": [
+      "Walleye"
+    ],
+    "Waiska River": [
+      "Walleye"
+    ],
+    "Carp (Trout) Lake": [
+      "Walleye"
+    ],
+    "Kinross (Mcinnis) Lake": [
+      "Largemouth Bass",
+      "Northern Pike",
+      "Smallmouth Bass"
+    ],
+    "Andrus Lake": [
+      "Bluegill",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Smallmouth Bass"
+    ],
+    "Soldier Lake": [
+      "Bluegill",
+      "Largemouth Bass"
+    ],
+    "Trout Brook Pond": [
+      "Brook Trout"
+    ],
+    "Walker Lake": [
+      "Black Crappie",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Rainbow Trout"
+    ],
+    "Monocle Lake": [
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Albany Creek": [
+      "Brook Trout"
+    ],
+    "Seymour Creek": [
+      "Chinook Salmon",
+      "Coho Salmon"
+    ],
+    "Black Creek": [
+      "Lake Trout"
+    ],
+    "Shelldrake Dam Impoundment": [
+      "Largemouth Bass",
+      "Pumpkinseed",
+      "Rock Bass",
+      "Tiger Muskellunge",
+      "Yellow Perch"
+    ]
+  },
+  "Newaygo": {
+    "Fremont Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Brown Trout",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Muskegon River": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Bills Lake": [
+      "Rainbow Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Baptist Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Brooks Lake": [
+      "Channel Catfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Nichols Lake": [
+      "Walleye"
+    ],
+    "Pickerel Lake": [
+      "Walleye"
+    ],
+    "White River": [
+      "Bluegill",
+      "Brown Trout",
+      "Hybrid Sunfish",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Condon Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Hardy Dam Pond": [
+      "Channel Catfish",
+      "Muskellunge"
+    ],
+    "Sand Lake": [
+      "Channel Catfish"
+    ],
+    "Crystal Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Woodland (Crooked) (Brookings) Lake": [
+      "Walleye"
+    ],
+    "Martin Lake": [
+      "Walleye"
+    ],
+    "Tamarack Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Crockery Creek": [
+      "Brown Trout"
+    ],
+    "Little Muskegon River": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Webinguaw (Blue) Lake": [
+      "Channel Catfish"
+    ],
+    "Hess Lake": [
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Northern Pike",
+      "Yellow Perch"
+    ],
+    "Big S Br Pere Marquette River": [
+      "Brown Trout"
+    ],
+    "Robinson Lake": [
+      "Walleye"
+    ],
+    "Muskegon River - Croton Impoundment": [
+      "Bluegill",
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Little South Branch Pere Marquette River": [
+      "Brown Trout"
+    ],
+    "Little Croton Impoundment": [
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Ransom Lake": [
+      "Bluegill",
+      "Channel Catfish",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Smallmouth Bass"
+    ],
+    "Emerald Lake": [
+      "Walleye"
+    ],
+    "Brooks Creek": [
+      "Brown Trout"
+    ],
+    "First Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Diamond Lake": [
+      "Tiger Muskellunge"
+    ],
+    "Lorden Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Grandpa Lake": [
+      "Bluegill",
+      "Largemouth Bass"
+    ],
+    "Kenosha Lake": [
+      "Brook Trout"
+    ]
+  },
+  "Oceana": {
+    "Silver Lake": [
+      "Walleye"
+    ],
+    "Hart Lake": [
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "White River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "North Branch Pentwater River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Pentwater River": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Michigan": [
+      "Lake Trout"
+    ],
+    "School Section Lake": [
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Walleye"
+    ],
+    "Stony Lake Outlet": [
+      "Lake Trout"
+    ],
+    "Ruby Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Ruby Creek Rearing Pond": [
+      "Rainbow Trout"
+    ],
+    "Upper Silver Lake": [
+      "Largemouth Bass"
+    ]
+  },
+  "Mason": {
+    "Hamlin Lake": [
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Hackert (Crystal) Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Lake Michigan - Ludington Harbor": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Big Sable River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Big S Br Pere Marquette River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Pere Marquette River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Ford Lake": [
+      "Black Crappie",
+      "Hybrid Sunfish",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Lake Michigan": [
+      "Lake Trout"
+    ],
+    "North Branch Pentwater River": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "South Branch Lincoln River": [
+      "Brook Trout"
+    ],
+    "Weldon Creek": [
+      "Brook Trout"
+    ],
+    "Round Lake": [
+      "Walleye"
+    ],
+    "Long Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Gun Lake": [
+      "Walleye"
+    ],
+    "Swan Creek": [
+      "Brook Trout"
+    ],
+    "Bass Lake": [
+      "Tiger Muskellunge"
+    ]
+  },
+  "Manistee": {
+    "Portage Lake": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Walleye"
+    ],
+    "Betsie River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Manistee River": [
+      "Atlantic Salmon",
+      "Brown Trout",
+      "Channel Catfish",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Sturgeon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Bear Lake": [
+      "Walleye"
+    ],
+    "Little Manistee River": [
+      "Atlantic Salmon",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Tippy Dam Pond": [
+      "Channel Catfish",
+      "Walleye"
+    ],
+    "Lake Michigan": [
+      "Brown Trout",
+      "Lake Trout"
+    ],
+    "Lake Michigan - Manistee Harbor": [
+      "Brown Trout",
+      "Lake Trout"
+    ],
+    "Arcadia Lake": [
+      "Brown Trout"
+    ],
+    "Crystal Lake": [
+      "Hybrid Sunfish"
+    ],
+    "Pine Lake": [
+      "Brown Trout"
+    ]
+  },
+  "Montcalm": {
+    "Clifford Lake": [
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Crystal Lake": [
+      "Walleye"
+    ],
+    "Turk Lake": [
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Dickerson Lake": [
+      "Walleye"
+    ],
+    "Tamarack Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Fish Creek": [
+      "Bluegill",
+      "Brown Trout",
+      "Channel Catfish",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Prairie Creek": [
+      "Brown Trout"
+    ],
+    "Marl Lake": [
+      "Rainbow Trout"
+    ],
+    "Nevins Lake": [
+      "Rainbow Trout"
+    ],
+    "Townline Lake": [
+      "Channel Catfish",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Rock Lake": [
+      "Black Crappie",
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Montcalm": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Sanderson Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Yellow Perch"
+    ],
+    "Muskellunge Lake": [
+      "Walleye"
+    ],
+    "Little Whitefish Lake": [
+      "Channel Catfish",
+      "Walleye"
+    ],
+    "Whitefish Lake": [
+      "Walleye"
+    ],
+    "West Branch Fish Creek": [
+      "Brown Trout"
+    ],
+    "Rainbow Lake": [
+      "Channel Catfish",
+      "Redear Sunfish",
+      "Yellow Perch"
+    ],
+    "Derby Lake": [
+      "Rainbow Trout"
+    ],
+    "Pickerel Lake Drain": [
+      "Brown Trout"
+    ],
+    "Pine River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Half Moon Lake": [
+      "Rainbow Trout"
+    ],
+    "Bass (Newcomb) Lake": [
+      "Northern Pike"
+    ],
+    "Loon Lake": [
+      "Northern Pike"
+    ],
+    "Winfield (Townline) Lake": [
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Horseshoe Lake": [
+      "Walleye"
+    ],
+    "Wolf (Pine) Creek": [
+      "Brook Trout"
+    ],
+    "Handy Creek": [
+      "Brook Trout"
+    ],
+    "North Branch Pine River": [
+      "Brown Trout"
+    ],
+    "Tributary To Tamarack Creek": [
+      "Brown Trout"
+    ],
+    "Six Lakes Chain #1": [
+      "Walleye"
+    ],
+    "Six Lakes Chain #6": [
+      "Walleye"
+    ],
+    "Six Lakes Chain #4": [
+      "Walleye"
+    ],
+    "Six Lakes Chain #5": [
+      "Walleye"
+    ],
+    "Six Lakes Chain #2": [
+      "Walleye"
+    ],
+    "Six Lakes Chain #3": [
+      "Walleye"
+    ]
+  },
+  "Montmorency": {
+    "Foch Lakes": [
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Thunder Bay River": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Avalon Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Mccormick Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Clear Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Lake Geneva": [
+      "Bluegill",
+      "Hybrid Sunfish"
+    ],
+    "Wildfowl Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Hybrid Sunfish"
+    ],
+    "East Twin Lake": [
+      "Walleye"
+    ],
+    "Little Wolf Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Ess Lake": [
+      "Walleye"
+    ],
+    "Long Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "West Twin Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Lake Fifteen": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Crooked Lake": [
+      "Walleye"
+    ],
+    "Canada Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Avery Lake": [
+      "Walleye"
+    ],
+    "East Fish Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Fuller Creek Pond (Fuller Lake)": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Unnamed Lake (31N 02E 10)": [
+      "Redear Sunfish"
+    ],
+    "Hunt Creek - Upstream From Co. Rd. 612,": [
+      "Rainbow Trout"
+    ],
+    "Hillman Pond": [
+      "Walleye"
+    ],
+    "Sage Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Gaylanta Lake": [
+      "Northern Pike"
+    ],
+    "Gilchrist Creek": [
+      "Rainbow Trout"
+    ],
+    "Voyer Lake": [
+      "Walleye"
+    ],
+    "Ess Lake Rearing Pond": [
+      "Walleye"
+    ],
+    "Atlanta Pond": [
+      "Walleye"
+    ],
+    "Town Corner Lake": [
+      "Brown Trout"
+    ],
+    "Tunnicliff Rearing Pond": [
+      "Walleye"
+    ],
+    "Willicks Pond": [
+      "Walleye"
+    ]
+  },
+  "Branch": {
+    "Matteson Lake": [
+      "Bluegill",
+      "Channel Catfish",
+      "Golden Shiner",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Redear Sunfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Coldwater Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "East Long Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Archer Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Rose Lake (Lake Of The Woods)": [
+      "Rainbow Trout",
+      "Redear Sunfish",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Saint Joseph River": [
+      "Channel Catfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Cary Lake": [
+      "Rainbow Trout",
+      "Redear Sunfish"
+    ],
+    "Marble (Bennett) Lake": [
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Wright (Mud) Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Huyck Lake": [
+      "Black Crappie",
+      "Hybrid Sunfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Union Lake": [
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Redear Sunfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Lake Lavine": [
+      "Rainbow Trout"
+    ],
+    "Gilead Lake": [
+      "Rainbow Trout",
+      "Redear Sunfish"
+    ],
+    "Union Lake Pike Marsh": [
+      "Walleye"
+    ],
+    "Prairie River": [
+      "Brown Trout"
+    ],
+    "Oliverda (Clayton) (Kirby) Lake": [
+      "Redear Sunfish"
+    ],
+    "Little Rose Lake": [
+      "Hybrid Sunfish",
+      "Walleye"
+    ],
+    "Little Swan Creek": [
+      "Brown Trout"
+    ],
+    "Lake George": [
+      "Walleye"
+    ],
+    "Silver Lake": [
+      "Redear Sunfish"
+    ]
+  },
+  "Luce": {
+    "Camp Eight Lake": [
+      "Rainbow Trout",
+      "Smallmouth Bass"
+    ],
+    "Pratt Lake": [
+      "Bluegill",
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Tahquamenon River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Bullhead Lake": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Ward Lake": [
+      "Brook Trout"
+    ],
+    "Little Lake Harbor": [
+      "Walleye"
+    ],
+    "North Manistique (Round) Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Muskellunge",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Splake",
+      "Walleye"
+    ],
+    "Bodi Lake": [
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "Pike Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Muskallonge Lake": [
+      "Muskellunge",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Twin Lake": [
+      "Lake Trout",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Pretty Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Tank Lake": [
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Holland Lake": [
+      "Brook Trout"
+    ],
+    "Sid Lake": [
+      "Brook Trout"
+    ],
+    "Deer Lake": [
+      "Brook Trout"
+    ],
+    "Silver Creek Pond": [
+      "Brook Trout"
+    ],
+    "Moon Lake": [
+      "Brook Trout"
+    ],
+    "Syphon Lake": [
+      "Brook Trout"
+    ],
+    "Brockies Pond": [
+      "Brook Trout"
+    ],
+    "Two Hearted River": [
+      "Rainbow Trout"
+    ],
+    "Wolverine Lake": [
+      "Rainbow Trout"
+    ],
+    "Teaspoon Creek": [
+      "Brook Trout"
+    ],
+    "West Branch Teaspoon Creek": [
+      "Brook Trout"
+    ],
+    "Culhane Lake": [
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "Youngs Lake": [
+      "Brook Trout"
+    ],
+    "Beaverhouse Lake": [
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Peanut Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Splake"
+    ],
+    "Belle Lake 1": [
+      "Rainbow Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Perch Lake": [
+      "Lake Trout",
+      "Splake"
+    ],
+    "Dillingham Lake": [
+      "Brook Trout"
+    ],
+    "Spring Creek Trout Pond": [
+      "Brook Trout"
+    ],
+    "Manistique Lake": [
+      "Lake Sturgeon",
+      "Muskellunge",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Trout Lake": [
+      "Brook Trout"
+    ],
+    "Buckies Pond": [
+      "Brook Trout"
+    ],
+    "Bass Lake": [
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Blind Sucker Flooding": [
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "East Lake": [
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "Brush Lake": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Kaks Lake": [
+      "Largemouth Bass"
+    ],
+    "Homestead Lake": [
+      "Yellow Perch"
+    ],
+    "Third Creek Pond": [
+      "Brook Trout"
+    ],
+    "Benny Lake": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Lost Lake": [
+      "Brook Trout"
+    ],
+    "Old Headquarters Lake": [
+      "Northern Pike",
+      "Yellow Perch"
+    ],
+    "Deadmans Lake": [
+      "Largemouth Bass",
+      "Smallmouth Bass"
+    ],
+    "Little Two Hearted River": [
+      "Brook Trout"
+    ],
+    "Long Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Rainy Lake": [
+      "Golden Shiner",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Muskrat Lakes": [
+      "Bluegill",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Rainbow Trout"
+    ],
+    "Little Pike Lake": [
+      "Walleye"
+    ],
+    "Grass Lake Creek Beaver Pond (Grass Slough)": [
+      "Brook Trout"
+    ],
+    "Bennett Springs Lake": [
+      "Brook Trout"
+    ],
+    "Dollarville Flowage": [
+      "Largemouth Bass"
+    ]
+  },
+  "Eaton": {
+    "Saubee Lake": [
+      "Channel Catfish",
+      "Redear Sunfish"
+    ],
+    "Thornapple River": [
+      "Muskellunge"
+    ],
+    "Sebewa Creek": [
+      "Brown Trout"
+    ],
+    "Battle Creek": [
+      "Brown Trout"
+    ],
+    "Lake Interstate": [
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Redear Sunfish"
+    ],
+    "Lake Delta (Erickson Pond)": [
+      "Black Crappie",
+      "Bluegill",
+      "Brown Bullhead",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Pumpkinseed",
+      "Walleye"
+    ],
+    "Grand River": [
+      "Channel Catfish",
+      "Chinook Salmon",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Grand River (Eaton County)": [
+      "Bluegill",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Lacey Lake": [
+      "Black Crappie",
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Alliance": [
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Narrow Lake": [
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Sharp Park Pond": [
+      "Black Bullhead",
+      "Brown Bullhead"
+    ]
+  },
+  "Delta": {
+    "Escanaba River": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Ford River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Days River": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Sturgeon River": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Kilpecker Pond": [
+      "Brook Trout"
+    ],
+    "Wintergreen Lake": [
+      "Brook Trout"
+    ],
+    "Lake Michigan": [
+      "Bluegill",
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Hybrid Sunfish",
+      "Lake Sturgeon",
+      "Lake Trout",
+      "Largemouth Bass",
+      "Muskellunge",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Splake",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Norway Lake": [
+      "Brook Trout"
+    ],
+    "Haymeadow Creek": [
+      "Brook Trout"
+    ],
+    "West Branch Whitefish River": [
+      "Brook Trout",
+      "Lake Sturgeon",
+      "Rainbow Trout"
+    ],
+    "Lake Michigan - Green Bay": [
+      "Chinook Salmon"
+    ],
+    "East Branch Whitefish River": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Spring Lake": [
+      "Brook Trout"
+    ],
+    "Bear Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Corner Lake": [
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Camp Seven Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Splake",
+      "Walleye"
+    ],
+    "Gooseneck Lake": [
+      "Bluegill",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Dana Lake": [
+      "Black Crappie",
+      "Largemouth Bass",
+      "Muskellunge",
+      "Smallmouth Bass",
+      "Tiger Muskellunge"
+    ],
+    "Round Lake": [
+      "Bluegill",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Whitefish River": [
+      "Lake Sturgeon",
+      "Walleye"
+    ],
+    "Bark River": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Nebels Rearing Pond": [
+      "Walleye"
+    ],
+    "Skeels Lake": [
+      "Walleye"
+    ],
+    "Fishdam River": [
+      "Brook Trout",
+      "Walleye"
+    ],
+    "Carr Creek": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Section 1 Pond": [
+      "Brook Trout"
+    ],
+    "Hock Creek": [
+      "Brook Trout"
+    ],
+    "Tenmile Creek": [
+      "Brook Trout"
+    ],
+    "Garden Corners Borrow Pit": [
+      "Walleye"
+    ],
+    "North Branch Ogontz River": [
+      "Brook Trout"
+    ],
+    "Hunters Brook": [
+      "Brook Trout"
+    ],
+    "Lost Lake-South": [
+      "Brook Trout"
+    ],
+    "Portage Creek": [
+      "Brook Trout"
+    ],
+    "Square Lake": [
+      "Brook Trout",
+      "Walleye"
+    ],
+    "Lake Twentythree": [
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Waco Lake": [
+      "Smallmouth Bass"
+    ],
+    "Pole Creek Lake": [
+      "Largemouth Bass"
+    ],
+    "Zigmaul Pond": [
+      "Brook Trout"
+    ],
+    "No Name Creek (Gladstone)": [
+      "Brown Trout",
+      "Chinook Salmon"
+    ],
+    "Johnson Creek": [
+      "Brook Trout"
+    ],
+    "Eighteenmile Creek": [
+      "Brook Trout"
+    ],
+    "Days River Tributary": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Chippeny Creek": [
+      "Brook Trout"
+    ],
+    "Lyman Lake": [
+      "Tiger Muskellunge"
+    ],
+    "Carr Lake": [
+      "Brook Trout"
+    ]
+  },
+  "Marquette": {
+    "Escanaba River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Brocky Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Big Trout Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Sporley Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Splake"
+    ],
+    "Bass Lake (West)": [
+      "Rainbow Trout"
+    ],
+    "Little Shag Lake": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Strawberry Lake": [
+      "Brook Trout"
+    ],
+    "Just Lake": [
+      "Brook Trout"
+    ],
+    "Island Lake": [
+      "Brook Trout"
+    ],
+    "Moccasin Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Bass Lake (East)": [
+      "Largemouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Fish Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Grid 1529": [
+      "Brook Trout",
+      "Lake Trout"
+    ],
+    "Warner Creek": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Angeline": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Smelt",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Splake",
+      "Tiger Muskellunge"
+    ],
+    "Little Brocky Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Yellow Dog River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Teal Lake": [
+      "Lake Trout",
+      "Muskellunge",
+      "Walleye"
+    ],
+    "Bryan Creek": [
+      "Brook Trout"
+    ],
+    "Upper Dead River": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Lake Arfelin": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Carp River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Rainbow Trout"
+    ],
+    "Twin Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Chocolay River": [
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Swanzy Lake": [
+      "Brook Trout"
+    ],
+    "South Kidney Lake": [
+      "Brook Trout"
+    ],
+    "Lake Michigamme": [
+      "Brook Trout",
+      "Lake Trout",
+      "Muskellunge",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Splake",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Section 13 Lake": [
+      "Brook Trout"
+    ],
+    "Little Lake": [
+      "Brook Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Connors Creek": [
+      "Brook Trout"
+    ],
+    "Lake Superior": [
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Sundstrom (Hoist) Lake (Dead R Basin)": [
+      "Brook Trout",
+      "Brown Trout",
+      "Golden Shiner",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Independence": [
+      "Black Crappie",
+      "Bluegill",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Pike Lake": [
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "Tourist Park Basin": [
+      "Bluegill",
+      "Smallmouth Bass",
+      "Yellow Perch"
+    ],
+    "Bush Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Helen Lake": [
+      "Black Crappie",
+      "Yellow Perch"
+    ],
+    "Cranberry Lake": [
+      "Brook Trout"
+    ],
+    "Dead River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Partridge Creek": [
+      "Brook Trout"
+    ],
+    "Mehl Lake": [
+      "Walleye"
+    ],
+    "Silver Lake Basin": [
+      "Bluegill",
+      "Brook Trout",
+      "Lake Trout",
+      "Splake"
+    ],
+    "Lake Ann": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Trout Lake": [
+      "Rainbow Trout"
+    ],
+    "Howe Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Silver Lake": [
+      "Brook Trout"
+    ],
+    "Conway Lake": [
+      "Walleye"
+    ],
+    "Clear Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Squaw Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Perch Lake": [
+      "Brook Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Bed Spring Lake": [
+      "Brook Trout"
+    ],
+    "Goose Lake": [
+      "Walleye"
+    ],
+    "Johnson Lake": [
+      "Bluegill",
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Crooked Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Splake"
+    ],
+    "Ives Lake": [
+      "Rainbow Trout"
+    ],
+    "Keyhole Lake-East": [
+      "Brook Trout"
+    ],
+    "Boney Falls Basin": [
+      "Black Crappie",
+      "Bluegill",
+      "Brown Trout",
+      "Largemouth Bass",
+      "Yellow Perch"
+    ],
+    "Wolf Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Brook Trout",
+      "Largemouth Bass",
+      "Pumpkinseed",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Big Bass Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Log Lake": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Round Lake": [
+      "Brook Trout"
+    ],
+    "Spring Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Cecilia'S Pond": [
+      "Brook Trout"
+    ],
+    "Mulligan Creek": [
+      "Brook Trout"
+    ],
+    "Kipple Creek": [
+      "Brook Trout"
+    ],
+    "Second River": [
+      "Brook Trout"
+    ],
+    "North Pauls Lake": [
+      "Brook Trout"
+    ],
+    "South Pauls Lake": [
+      "Brook Trout"
+    ],
+    "North Rockingchair Lake": [
+      "Brook Trout"
+    ],
+    "South Rockingchair Lake": [
+      "Brook Trout"
+    ],
+    "Halfway Creek (Humboldt)": [
+      "Rainbow Trout"
+    ],
+    "Carp Creek": [
+      "Brook Trout"
+    ],
+    "Hunters Brook": [
+      "Brook Trout"
+    ],
+    "Iron River": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Michigamme River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Witch Lake": [
+      "Brook Trout",
+      "Lake Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Greenwood Reservoir": [
+      "Walleye"
+    ],
+    "Schweitzer Impoundment": [
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Morgan Creek Pond": [
+      "Brook Trout"
+    ],
+    "Cedar Lake": [
+      "Splake"
+    ],
+    "Lower Dead River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Peshekee River": [
+      "Walleye"
+    ],
+    "Forestville Basin": [
+      "Brown Trout",
+      "Splake"
+    ],
+    "Little Trout Lake": [
+      "Bluegill",
+      "Rainbow Trout"
+    ],
+    "Big West Branch Escanaba River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Big Shag Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Middle Branch Escanaba River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Trout Falls Creek": [
+      "Brook Trout"
+    ],
+    "Lake Sixteen": [
+      "Brook Trout"
+    ],
+    "Cherry Creek": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Clear Lake Creek": [
+      "Brook Trout"
+    ],
+    "Michigamme River Basin": [
+      "Walleye"
+    ],
+    "Haywire Lake": [
+      "Brook Trout"
+    ],
+    "North Branch Barnhardt Creek": [
+      "Brook Trout"
+    ],
+    "Section 7 Lake": [
+      "Brook Trout"
+    ],
+    "Harris Lake": [
+      "Bluegill",
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "East Branch Escanaba River": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Gold Mine Lake": [
+      "Largemouth Bass"
+    ],
+    "Chandler Brook": [
+      "Brook Trout"
+    ],
+    "Lake Vedder": [
+      "Smallmouth Bass"
+    ],
+    "Big Bear Lake": [
+      "Smallmouth Bass"
+    ],
+    "Barnhardt Creek": [
+      "Brook Trout"
+    ],
+    "Mcclure Basin": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Keyhole Lake-West": [
+      "Brook Trout"
+    ],
+    "Deer Lake Basin": [
+      "Walleye"
+    ],
+    "Sundog Lake": [
+      "Bluegill",
+      "Pumpkinseed",
+      "Yellow Perch"
+    ],
+    "Little Dead River": [
+      "Brook Trout"
+    ],
+    "Picket Lake": [
+      "Brook Trout"
+    ],
+    "Fifteen Creek": [
+      "Brook Trout"
+    ],
+    "Goose Lake Outlet": [
+      "Brook Trout"
+    ],
+    "Tributary To Trout Falls Creek": [
+      "Brook Trout"
+    ],
+    "Wild West Creek": [
+      "Brook Trout"
+    ],
+    "Little Huron River": [
+      "Brook Trout"
+    ],
+    "Hasseib Lake": [
+      "Brook Trout"
+    ],
+    "Spruce River": [
+      "Brook Trout"
+    ],
+    "Section 14 Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ]
+  },
+  "Benzie": {
+    "Betsie River": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Platte River": [
+      "Brown Trout",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Crystal Lake": [
+      "Atlantic Salmon",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Upper Herring Lake": [
+      "Walleye"
+    ],
+    "Lower Herring Lake": [
+      "Walleye"
+    ],
+    "Lake Michigan": [
+      "Brown Trout",
+      "Lake Trout"
+    ],
+    "Long Lake": [
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Smallmouth Bass",
+      "Yellow Perch"
+    ],
+    "Little Lime Lake": [
+      "Walleye"
+    ],
+    "Platte Lake": [
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Platte Hatchery Pond": [
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "North Branch Platte River": [
+      "Northern Pike"
+    ],
+    "Lake Ann": [
+      "Brown Trout"
+    ]
+  },
+  "Schoolcraft": {
+    "Manistique River": [
+      "Brown Trout",
+      "Channel Catfish",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Indian River (Above Indian Lake)": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Indian River": [
+      "Brown Trout"
+    ],
+    "Banana Lake": [
+      "Rainbow Trout"
+    ],
+    "Bear (19) Lake": [
+      "Rainbow Trout"
+    ],
+    "Manistique Quarry Lake": [
+      "Brook Trout",
+      "Hybrid Sunfish",
+      "Rainbow Trout"
+    ],
+    "Big Spring": [
+      "Brook Trout",
+      "Lake Trout"
+    ],
+    "Mckeever Lake": [
+      "Lake Trout",
+      "Muskellunge",
+      "Northern Pike"
+    ],
+    "Indian Lake": [
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Clear Lake": [
+      "Brook Trout",
+      "Lake Trout",
+      "Largemouth Bass",
+      "Rainbow Smelt",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Splake",
+      "Walleye"
+    ],
+    "Lost Lake": [
+      "Brook Trout"
+    ],
+    "Middle Branch Stutts Creek": [
+      "Brook Trout"
+    ],
+    "North Branch Stutts Creek": [
+      "Brook Trout"
+    ],
+    "Driggs River": [
+      "Brook Trout"
+    ],
+    "Neds Lake": [
+      "Brook Trout",
+      "Splake"
+    ],
+    "Twilight Lake": [
+      "Brook Trout",
+      "Splake"
+    ],
+    "Kings Pond": [
+      "Brook Trout"
+    ],
+    "Thunder Lake": [
+      "Walleye"
+    ],
+    "Petes Lake": [
+      "Bluegill",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Triangle (Martha) Lake": [
+      "Walleye"
+    ],
+    "Big Island Lake": [
+      "Muskellunge"
+    ],
+    "Lake Michigan": [
+      "Lake Trout"
+    ],
+    "Grid 0213": [
+      "Lake Trout"
+    ],
+    "Indian Lake Improv Assoc Rearing Pond (Gerometta'S)": [
+      "Walleye"
+    ],
+    "Boot Lake": [
+      "Largemouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Sand Lake": [
+      "Walleye"
+    ],
+    "Dutch Fred Lake": [
+      "Brook Trout",
+      "Smallmouth Bass",
+      "Splake"
+    ],
+    "Big Murphy Creek": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "South Branch Stutts Creek": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Island Lake": [
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Fox River": [
+      "Brook Trout"
+    ],
+    "Gemini Lakes": [
+      "Walleye"
+    ],
+    "Thompson Creek": [
+      "Brook Trout",
+      "Brown Trout",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Mcdonald Lake": [
+      "Walleye"
+    ],
+    "Cusino (Round) Lake": [
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "Ashford Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Largemouth Bass"
+    ],
+    "Ross Lake": [
+      "Largemouth Bass",
+      "Smallmouth Bass"
+    ],
+    "Gulliver Lake": [
+      "Walleye"
+    ],
+    "Steuben (North) Lake": [
+      "Walleye"
+    ],
+    "Dodge Lake": [
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Sunken Lake": [
+      "Largemouth Bass"
+    ],
+    "Bluegill Lake": [
+      "Brook Trout"
+    ],
+    "Little Bass Lake": [
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Colwell Lake": [
+      "Largemouth Bass"
+    ],
+    "Corner Lake": [
+      "Walleye"
+    ],
+    "Toms Lake": [
+      "Black Crappie",
+      "Largemouth Bass"
+    ],
+    "East Lake": [
+      "Golden Shiner",
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Rim Lake": [
+      "Brown Trout"
+    ],
+    "Mid Lake": [
+      "Brook Trout",
+      "Muskellunge"
+    ],
+    "Swan Lake": [
+      "Bluntnose Minnow",
+      "Brown Trout",
+      "Rainbow Trout",
+      "Smallmouth Bass"
+    ],
+    "Section Seven Lake": [
+      "Brook Trout"
+    ],
+    "Big Bass Lake": [
+      "Northern Pike"
+    ],
+    "Kimble Lake": [
+      "Black Crappie",
+      "Largemouth Bass"
+    ],
+    "Minerva Lake": [
+      "Northern Pike"
+    ],
+    "Muleshoe Lake, North": [
+      "Largemouth Bass"
+    ],
+    "Grassy Lake": [
+      "Muskellunge",
+      "Northern Pike"
+    ],
+    "Red Lake": [
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Hutt Lake": [
+      "Largemouth Bass"
+    ],
+    "Clear Creek Trout Pond": [
+      "Brook Trout"
+    ],
+    "Mcinnes Lake": [
+      "Northern Pike"
+    ]
+  },
+  "Alpena": {
+    "Thunder Bay River": [
+      "Atlantic Salmon",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Long Lake": [
+      "Bluegill",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Winyah": [
+      "Muskellunge",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Lake Huron": [
+      "Atlantic Salmon",
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Ninth Street (Alpena) Imp. (Lake Besser)": [
+      "Muskellunge",
+      "Walleye"
+    ],
+    "Northern Lake Huron": [
+      "Brown Trout"
+    ],
+    "Beaver Lake": [
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Paxton Quarry": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Golden Shiner",
+      "Hybrid Sunfish",
+      "Rainbow Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Upper South Branch Thunder Bay River": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Turtle Lake": [
+      "Bluegill",
+      "Yellow Perch"
+    ],
+    "Beaver Creek": [
+      "Rainbow Trout"
+    ],
+    "James Farm Rearing Pond": [
+      "Walleye"
+    ],
+    "Beaver Lake Pike Marsh": [
+      "Northern Pike"
+    ],
+    "Four Mile Impoundment": [
+      "Walleye"
+    ],
+    "Lower South Branch Thunder Bay River": [
+      "Walleye"
+    ]
+  },
+  "Crawford": {
+    "Simpson Lake": [
+      "Bluegill",
+      "Brook Trout",
+      "Brown Trout",
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Shupac Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Kneff Lake": [
+      "Rainbow Trout"
+    ],
+    "Bright Lake (Alexander Lakes)": [
+      "Hybrid Sunfish",
+      "Rainbow Trout"
+    ],
+    "Lake Margrethe": [
+      "Muskellunge",
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "East Branch Au Sable River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Jones Lake": [
+      "Walleye"
+    ],
+    "Higgins Lake": [
+      "Atlantic Salmon",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Big Creek Impoundment": [
+      "Walleye"
+    ],
+    "Howes Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Au Sable River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "South Branch Au Sable River": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "North Branch Au Sable River": [
+      "Brook Trout"
+    ],
+    "Glory Lake (Alexander Lakes)": [
+      "Hybrid Sunfish",
+      "Rainbow Trout"
+    ],
+    "Sand Hill Lake": [
+      "Brook Trout"
+    ],
+    "Bear (Hardgrove) Lake": [
+      "Hybrid Sunfish",
+      "Walleye"
+    ],
+    "Manistee River": [
+      "Brown Trout",
+      "Northern Pike",
+      "Rainbow Trout"
+    ],
+    "Duck Lake": [
+      "Hybrid Sunfish"
+    ],
+    "Hanson Hills Pond": [
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Pumpkinseed",
+      "Yellow Perch"
+    ],
+    "Dollar Lake": [
+      "Hybrid Sunfish"
+    ],
+    "Karen Lake": [
+      "Hybrid Sunfish"
+    ],
+    "Hartwick Lake": [
+      "Hybrid Sunfish"
+    ],
+    "Horseshoe Lake": [
+      "Rainbow Trout"
+    ],
+    "Clear Lake": [
+      "Brown Trout"
+    ],
+    "Grayling Mill Pond": [
+      "Rainbow Trout"
+    ],
+    "Wakeley Lake": [
+      "Yellow Perch"
+    ],
+    "Lake Margrethe Rearing Marsh": [
+      "Northern Pike"
+    ]
+  },
+  "Menominee": {
+    "Menominee River": [
+      "Brown Trout",
+      "Lake Sturgeon",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Lake Michigan": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Cedar River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Sturgeon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Lake Michigan - Green Bay": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "West Branch Cedar River": [
+      "Brook Trout"
+    ],
+    "Peterson Pond": [
+      "Walleye"
+    ],
+    "Hermansville Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Pumpkinseed",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Forty Seven Mile Creek": [
+      "Brook Trout"
+    ],
+    "Tenmile Creek": [
+      "Brook Trout"
+    ],
+    "Quarry Pond": [
+      "Rainbow Trout"
+    ],
+    "Chalk Hills Impoundment": [
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "Wilson Creek": [
+      "Brook Trout"
+    ],
+    "Shakey Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Degraves Creek": [
+      "Brook Trout"
+    ],
+    "Shakey River": [
+      "Brook Trout"
+    ],
+    "Devils Creek": [
+      "Brook Trout"
+    ],
+    "Crooked Creek": [
+      "Brook Trout"
+    ],
+    "Pemene Creek": [
+      "Brook Trout"
+    ]
+  },
+  "Oscoda": {
+    "Churchill Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Crater Lake": [
+      "Rainbow Trout"
+    ],
+    "Au Sable River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Au Sable River - Mio To Alcona Reach": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Loon Lake": [
+      "Rainbow Trout"
+    ],
+    "Tea Lake": [
+      "Black Crappie",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Mccollum Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Durkee Lake": [
+      "Rainbow Trout"
+    ],
+    "Dollar Lake": [
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Tote Road Lake": [
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Wolf Creek": [
+      "Brook Trout"
+    ],
+    "Gilchrist Creek": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Mack Lake": [
+      "Largemouth Bass",
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Mio Pond": [
+      "Brown Trout",
+      "Channel Catfish",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Big Ward Lake": [
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Island Lake": [
+      "Black Crappie",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Smith Lake": [
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Muskrat Lake": [
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Hughes Lake": [
+      "Bluegill"
+    ],
+    "Saddle Back Lake": [
+      "Bluegill"
+    ]
+  },
+  "Mackinac": {
+    "Carp River": [
+      "Atlantic Salmon",
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Whitefish",
+      "Rainbow Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Nunns Creek": [
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Whitefish",
+      "Walleye",
+      "White Sucker"
+    ],
+    "Millecoquins Pond": [
+      "Brook Trout"
+    ],
+    "Brevoort Lake": [
+      "Muskellunge",
+      "Walleye"
+    ],
+    "Manistique Lake": [
+      "Walleye"
+    ],
+    "Pine River": [
+      "Lake Whitefish",
+      "Walleye"
+    ],
+    "Castle Rock Pond": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Hiawatha Club Pond": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Millecoquins Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Lake Huron": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Lake Trout",
+      "Muskellunge",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Splake",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "South Manistique (Whitefish) Lake": [
+      "Muskellunge",
+      "Rainbow Trout",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Millecoquin River": [
+      "Brown Trout"
+    ],
+    "Brevoort River": [
+      "Rainbow Trout"
+    ],
+    "Lake Michigan": [
+      "Walleye"
+    ],
+    "Twin Lakes": [
+      "Walleye"
+    ],
+    "Thompson Lake": [
+      "Bluegill"
+    ],
+    "Northern Lake Huron": [
+      "Walleye"
+    ],
+    "Little Brevoort Lake": [
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "Milakokia Lake (Pike Lake)": [
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Mcalpine Pond": [
+      "Brook Trout",
+      "Largemouth Bass",
+      "Smallmouth Bass"
+    ],
+    "Fiborn Pond": [
+      "Brook Trout",
+      "Largemouth Bass",
+      "Smallmouth Bass"
+    ],
+    "Duel Lake": [
+      "Smallmouth Bass"
+    ],
+    "Bay City Lake": [
+      "Bluegill",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Smallmouth Bass"
+    ],
+    "Silver Creek": [
+      "Brook Trout"
+    ],
+    "South Branch Carp River": [
+      "Brook Trout"
+    ],
+    "Mcclouds Pond Rearing Pond": [
+      "Walleye"
+    ],
+    "Taylor Creek": [
+      "Brook Trout"
+    ],
+    "Gamble Lake": [
+      "Northern Pike"
+    ],
+    "Garnet Lake": [
+      "Black Crappie",
+      "Yellow Perch"
+    ],
+    "Steele Creek": [
+      "Brook Trout"
+    ],
+    "Edgerly Springs": [
+      "Brook Trout"
+    ]
+  },
+  "Alger": {
+    "Mirror Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Ackerman Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Au Train River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Sturgeon",
+      "Lake Trout"
+    ],
+    "Deer Lake": [
+      "Lake Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Irwin Lake": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Trueman Lake": [
+      "Brook Trout",
+      "Golden Shiner",
+      "Rainbow Trout"
+    ],
+    "Bette'S Pond": [
+      "Brook Trout"
+    ],
+    "Hike Lake": [
+      "Brook Trout"
+    ],
+    "Rock Lake": [
+      "Brook Trout"
+    ],
+    "Anna River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Fish Lake": [
+      "Walleye"
+    ],
+    "Sitka Lake": [
+      "Brook Trout"
+    ],
+    "West Johns Lake": [
+      "Brook Trout"
+    ],
+    "East Branch Whitefish River": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Violet (Grants) Lake": [
+      "Brook Trout"
+    ],
+    "Addis Lakes (Ponds)": [
+      "Brook Trout"
+    ],
+    "Cheryl'S Pond": [
+      "Brook Trout"
+    ],
+    "Kay'S Pond": [
+      "Brook Trout"
+    ],
+    "West Branch Whitefish River": [
+      "Brook Trout"
+    ],
+    "Lake Superior": [
+      "Brook Trout",
+      "Brown Trout",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Cox Pond": [
+      "Brook Trout"
+    ],
+    "Kingston Lake": [
+      "Largemouth Bass",
+      "Muskellunge",
+      "Smallmouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Skeels Lake": [
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Au Train Lake": [
+      "Largemouth Bass",
+      "Smallmouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Cook Lake": [
+      "Bluegill",
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Brians Pond": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Weber Lake": [
+      "Walleye"
+    ],
+    "Indian River": [
+      "Brown Trout"
+    ],
+    "Sawaski Pond": [
+      "Brook Trout"
+    ],
+    "Au Train Basin (Forest Lake)": [
+      "Common Shiner",
+      "Smallmouth Bass",
+      "Walleye",
+      "White Sucker",
+      "Yellow Perch"
+    ],
+    "Sixteenmile Lake": [
+      "Largemouth Bass",
+      "Tiger Muskellunge"
+    ],
+    "Moccasin Lake": [
+      "Bluegill",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Lavender Lake": [
+      "Smallmouth Bass"
+    ],
+    "Werners Creek": [
+      "Brook Trout"
+    ],
+    "Lake Stella": [
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "Sand Lake": [
+      "Walleye"
+    ],
+    "East Johns Lake": [
+      "Brook Trout"
+    ],
+    "Sucker River": [
+      "Brook Trout",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Valley Spur Pond": [
+      "Brook Trout"
+    ],
+    "Grand Sable Lake": [
+      "Lake Trout"
+    ],
+    "Hurricane River": [
+      "Brook Trout"
+    ],
+    "Upper Shoe Lake": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Mosquito River": [
+      "Brook Trout"
+    ],
+    "Seven Mile Creek": [
+      "Brook Trout"
+    ],
+    "Beaver Lake": [
+      "Walleye"
+    ],
+    "Juanita Lake": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Cole Creek Pond": [
+      "Brook Trout"
+    ],
+    "Porters Pond": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Cloverleaf Lake": [
+      "Northern Pike",
+      "Smallmouth Bass"
+    ],
+    "Harrison'S Pond": [
+      "Brook Trout"
+    ],
+    "Madison Spring": [
+      "Brook Trout"
+    ],
+    "Martin'S Spring": [
+      "Brook Trout"
+    ],
+    "Peterson'S Spring": [
+      "Brook Trout"
+    ],
+    "Island Lake": [
+      "Largemouth Bass"
+    ],
+    "Thornton Lake": [
+      "Largemouth Bass"
+    ],
+    "Legion (Pine) Lake": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Bernies Pond": [
+      "Brook Trout"
+    ],
+    "Triangle Lake": [
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Lost Lake": [
+      "Bluegill",
+      "Largemouth Bass"
+    ],
+    "Cherry Lake": [
+      "Largemouth Bass"
+    ],
+    "Kingston Pond": [
+      "Brook Trout"
+    ],
+    "Nawakwa Lake": [
+      "Walleye"
+    ],
+    "Musquito Pond": [
+      "Brook Trout"
+    ],
+    "Laughing Whitefish River": [
+      "Rainbow Trout"
+    ],
+    "Hovey Lake": [
+      "Largemouth Bass"
+    ],
+    "Perch Lake": [
+      "Walleye"
+    ],
+    "Camp R Creek": [
+      "Rainbow Trout"
+    ],
+    "Pickerel Lake": [
+      "Northern Pike"
+    ],
+    "Kettlehole Pond": [
+      "Brook Trout"
+    ],
+    "The Ponds": [
+      "Brook Trout"
+    ],
+    "Trappers Lake": [
+      "Largemouth Bass"
+    ],
+    "Bar Lake": [
+      "Walleye"
+    ],
+    "Little Indian River": [
+      "Brook Trout"
+    ]
+  },
+  "Iron": {
+    "Fortune Pond": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Madelyn Lake": [
+      "Brook Trout"
+    ],
+    "Skyline Lake": [
+      "Brook Trout"
+    ],
+    "Spree Lake": [
+      "Brook Trout"
+    ],
+    "Forest Lake": [
+      "Brook Trout"
+    ],
+    "Dead Mans Lake": [
+      "Brook Trout"
+    ],
+    "Timber Lake": [
+      "Brook Trout"
+    ],
+    "Deer Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Iron Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Emily": [
+      "Muskellunge",
+      "Walleye"
+    ],
+    "Lake Mary": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Lake Ottawa": [
+      "Brook Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Sainte Katheryn": [
+      "Walleye"
+    ],
+    "Lake Ellen": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Golden Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Lake Whitefish",
+      "Rainbow Smelt",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Splake"
+    ],
+    "Killdeer Lake": [
+      "Brook Trout"
+    ],
+    "Chicagon Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Muskellunge",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye",
+      "White Sucker"
+    ],
+    "Crystal Falls Impoundment": [
+      "Walleye"
+    ],
+    "Hagerman Lake": [
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Stager Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Norway Lake": [
+      "Brook Trout",
+      "Walleye"
+    ],
+    "Buck Lake": [
+      "Largemouth Bass",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Sunset Lake": [
+      "Golden Shiner",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Swan Lake": [
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Long Lake": [
+      "Brook Trout",
+      "Lake Trout",
+      "Rainbow Smelt",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Caspian Pond": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Maggie Lake (East)": [
+      "Bluegill",
+      "Largemouth Bass"
+    ],
+    "Perch Lake": [
+      "Black Crappie",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Hannah (Webb) Lake": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Camp Lake": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Fortune Lake, First": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Fortune Lake, Second": [
+      "Rainbow Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Indian Lake": [
+      "Walleye",
+      "White Sucker",
+      "Yellow Perch"
+    ],
+    "Runkle Lake": [
+      "Tiger Muskellunge",
+      "Walleye",
+      "White Sucker"
+    ],
+    "Smoky Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Muskellunge",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Bone Lake": [
+      "Walleye"
+    ],
+    "Gibson Lake": [
+      "Walleye"
+    ],
+    "Ice Lake": [
+      "Largemouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Jumbo River": [
+      "Brook Trout"
+    ],
+    "State Creek": [
+      "Brook Trout"
+    ],
+    "James Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Little Smoky (Trout) Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Brule River": [
+      "Brook Trout"
+    ],
+    "Fire Lake": [
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Mitchell Lake": [
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "Net River": [
+      "Walleye"
+    ],
+    "Snipe Lake": [
+      "Walleye"
+    ],
+    "Tamarack River": [
+      "Brook Trout"
+    ],
+    "Paint River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Glidden Lake": [
+      "Walleye"
+    ],
+    "Emerson Lake": [
+      "Walleye"
+    ],
+    "Winslow Lake": [
+      "Walleye"
+    ],
+    "South Branch Paint River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Tepee (Thirteen) Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Cable Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "East Paint Lake": [
+      "Walleye"
+    ],
+    "Wepco Rearing Pond": [
+      "Walleye"
+    ],
+    "Champion Borrow Pit": [
+      "Walleye"
+    ],
+    "Cummings Borrow Pit": [
+      "Walleye"
+    ],
+    "Brule Lake": [
+      "Walleye"
+    ],
+    "Stanley Lake": [
+      "Muskellunge",
+      "Walleye"
+    ],
+    "Railroad Lake": [
+      "Walleye"
+    ],
+    "Dawson Lake": [
+      "Northern Pike"
+    ],
+    "Tamarack Lake": [
+      "Walleye"
+    ],
+    "Fortune Lake, Fourth": [
+      "Brook Trout"
+    ],
+    "Michigamme Reservoir (Way Dam) (Corbett Lake)": [
+      "Bluegill",
+      "Yellow Perch"
+    ],
+    "Tributary To Ford River": [
+      "Brook Trout"
+    ],
+    "Deer River": [
+      "Brook Trout"
+    ],
+    "Hemlock River": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Camp 6 Creek Pond": [
+      "Brook Trout"
+    ],
+    "Chamberlain Lake": [
+      "Walleye"
+    ],
+    "North Branch Paint River": [
+      "Brook Trout"
+    ],
+    "Golden Creek": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Holmes Lake": [
+      "Bluegill",
+      "Largemouth Bass"
+    ],
+    "Defiance Creek": [
+      "Brook Trout"
+    ],
+    "Margeson Creek": [
+      "Brook Trout"
+    ],
+    "Cooks Run": [
+      "Brown Trout"
+    ],
+    "Fence River": [
+      "Brook Trout"
+    ]
+  },
+  "Gogebic": {
+    "Beatons Lake": [
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Moon Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Imp Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Splake"
+    ],
+    "Castle Lake": [
+      "Brook Trout"
+    ],
+    "Duck Lake": [
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Black River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon"
+    ],
+    "Cornelia Lake": [
+      "Brook Trout"
+    ],
+    "Redboat Lake": [
+      "Brook Trout"
+    ],
+    "Lake Superior": [
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Thousand Island Lake": [
+      "Lake Trout",
+      "Muskellunge",
+      "Walleye"
+    ],
+    "Powder Mill Creek": [
+      "Brook Trout"
+    ],
+    "Sunday Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Birch Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Little Carp River": [
+      "Brook Trout"
+    ],
+    "East Bay (Crooked) Lake": [
+      "Walleye"
+    ],
+    "Lindsley Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Montreal River": [
+      "Brown Trout"
+    ],
+    "Lac Vieux Desert": [
+      "Brook Trout",
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Presque Isle River Flooding": [
+      "Bluegill",
+      "Brook Trout",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Little Duck (Little Crystal) Lake": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Massie Park Pond": [
+      "Brook Trout"
+    ],
+    "Long Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Mcdonald Creek": [
+      "Brook Trout"
+    ],
+    "Ohman Creek": [
+      "Brown Trout"
+    ],
+    "Monitowibo Creek": [
+      "Brook Trout"
+    ],
+    "Cisco Lake": [
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Black River Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Mishike (Turtle) Lake": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Presque Isle River": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Finger Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Splake"
+    ],
+    "Tamarack River": [
+      "Brook Trout"
+    ],
+    "Dinner Lake": [
+      "Walleye"
+    ],
+    "Little Oxbow Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Marion Lake": [
+      "Bluegill",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Tamarack Creek": [
+      "Brook Trout"
+    ],
+    "Ormes Lake": [
+      "Splake",
+      "Walleye"
+    ],
+    "Plymouth Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Langford Lake": [
+      "Walleye"
+    ],
+    "Allen Lake": [
+      "Walleye"
+    ],
+    "Chaney Lake": [
+      "Walleye"
+    ],
+    "Middle Branch Ontonagon River": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Mastodon Lake": [
+      "Northern Pike"
+    ],
+    "Hilltop Lake": [
+      "Brook Trout"
+    ],
+    "Moraine Lake": [
+      "Muskellunge",
+      "Walleye"
+    ],
+    "Stateline Lake": [
+      "Walleye"
+    ],
+    "Gaylord Lake": [
+      "Walleye"
+    ],
+    "Jackson Creek": [
+      "Brook Trout"
+    ],
+    "Moosehead & Little Presque Isle Lake": [
+      "Muskellunge"
+    ],
+    "Mud Creek": [
+      "Brown Trout"
+    ],
+    "Dawn Lake": [
+      "Brook Trout"
+    ],
+    "Pomeroy Lake": [
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Gudegast (Mud) Lake": [
+      "Brown Trout"
+    ],
+    "Elbow Lake": [
+      "Walleye"
+    ],
+    "Bass Lake": [
+      "Muskellunge"
+    ],
+    "County Line Lake": [
+      "Rainbow Trout"
+    ],
+    "Grass Lake": [
+      "Brown Trout"
+    ],
+    "Lake Gogebic": [
+      "Walleye"
+    ]
+  },
+  "Houghton": {
+    "Emily Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Perrault": [
+      "Brook Trout"
+    ],
+    "Penegor Lake": [
+      "Brook Trout"
+    ],
+    "Portage Lake": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Otter Lake": [
+      "Smallmouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Lily Pond": [
+      "Lake Trout"
+    ],
+    "East Branch Ontonagon River": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Coles Creek": [
+      "Brook Trout"
+    ],
+    "Swedetown Creek": [
+      "Brook Trout"
+    ],
+    "Elm River": [
+      "Brook Trout"
+    ],
+    "Trap Rock River": [
+      "Brook Trout"
+    ],
+    "West Branch Sturgeon River": [
+      "Brook Trout"
+    ],
+    "West Branch Otter River": [
+      "Brook Trout"
+    ],
+    "Otter River": [
+      "Brook Trout"
+    ],
+    "North Branch Otter River": [
+      "Brook Trout"
+    ],
+    "Clear Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Swedetown Ponds": [
+      "Bluegill",
+      "Rainbow Trout"
+    ],
+    "Lake On Three": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Roland": [
+      "Brook Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Tiger Muskellunge"
+    ],
+    "Lake Superior - Keweenaw Bay": [
+      "Lake Trout",
+      "Walleye"
+    ],
+    "Lake Gerald": [
+      "Lake Trout",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Prickett Dam Backwater": [
+      "Walleye"
+    ],
+    "Sturgeon River": [
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Torch Lake": [
+      "Sauger",
+      "Walleye"
+    ],
+    "Smith Creek": [
+      "Brook Trout"
+    ],
+    "Lower Dam Lake": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Sidnaw Creek": [
+      "Brook Trout"
+    ],
+    "Beaver Creek": [
+      "Brook Trout"
+    ],
+    "Spargo Creek": [
+      "Brook Trout"
+    ],
+    "Stony Creek": [
+      "Brook Trout"
+    ],
+    "West Branch Sidnaw Creek": [
+      "Brook Trout"
+    ],
+    "Jumbo River": [
+      "Rainbow Trout"
+    ],
+    "Onion Creek": [
+      "Brook Trout"
+    ],
+    "Bob Lake": [
+      "Brook Trout",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Misery River": [
+      "Rainbow Trout"
+    ],
+    "Portage Canal": [
+      "Coho Salmon",
+      "Walleye"
+    ],
+    "Sandy Lake": [
+      "Walleye"
+    ],
+    "Pike Lake": [
+      "Bluegill",
+      "Golden Shiner",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Boston Pond": [
+      "Northern Pike"
+    ],
+    "Shane Creek": [
+      "Brook Trout"
+    ],
+    "Slave Creek": [
+      "Brook Trout"
+    ],
+    "Bass Lake": [
+      "Brook Trout"
+    ],
+    "Lake Superior": [
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Lovell Creek": [
+      "Brook Trout"
+    ],
+    "Irish Lake": [
+      "Largemouth Bass"
+    ],
+    "Crystal Lake": [
+      "Brown Trout"
+    ],
+    "Salmon Trout River": [
+      "Rainbow Trout"
+    ],
+    "Kunze Lake": [
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Rice Lake": [
+      "Tiger Muskellunge"
+    ],
+    "Elevenmile Lake": [
+      "Walleye"
+    ],
+    "Sixmile Lake": [
+      "Yellow Perch"
+    ],
+    "Hager Lake": [
+      "Rainbow Trout"
+    ],
+    "Lake Thirteen": [
+      "Bluegill"
+    ]
+  },
+  "Hillsdale": {
+    "Hemlock Lake": [
+      "Rainbow Trout",
+      "Redear Sunfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Long Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Carpenter Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Le Ann": [
+      "Black Crappie",
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Smallmouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Bear Lake": [
+      "Rainbow Trout",
+      "Redear Sunfish"
+    ],
+    "Bird Lake": [
+      "Rainbow Trout",
+      "Redear Sunfish"
+    ],
+    "St Joseph Of The Maumee": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Bel Air": [
+      "Black Crappie",
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lewis Emery Park Ponds": [
+      "Channel Catfish"
+    ],
+    "Lake Diane (Goforth Lake) (Hagaman Lake)": [
+      "Hybrid Sunfish",
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Mud Lake": [
+      "Hybrid Sunfish",
+      "Largemouth Bass"
+    ],
+    "Lake Somerset": [
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Redear Sunfish",
+      "Smallmouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Goose Lake": [
+      "Walleye"
+    ],
+    "Crystal Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Baw Beese Lake": [
+      "Redear Sunfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Lake Number Five": [
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Pumpkinseed",
+      "Redear Sunfish"
+    ],
+    "South Branch Kalamazoo River": [
+      "Brown Trout"
+    ],
+    "Hillsdale Rearing Pond # 2": [
+      "Walleye"
+    ],
+    "Cub Lake": [
+      "Black Crappie",
+      "Redear Sunfish"
+    ],
+    "Sand Creek": [
+      "Brown Trout"
+    ],
+    "Lime Lake": [
+      "Channel Catfish"
+    ]
+  },
+  "Otsego": {
+    "North Twin Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "South Twin Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "West Lost Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Bridge Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lost Lake": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Section Four Lake": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Pickerel Lake": [
+      "Rainbow Trout"
+    ],
+    "Big Chub Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Heart Lake": [
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Town Line Lake": [
+      "Walleye"
+    ],
+    "Lake Tecon": [
+      "Walleye"
+    ],
+    "Sturgeon River": [
+      "Lake Sturgeon",
+      "Rainbow Trout"
+    ],
+    "Big Bear Lake": [
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Big Bradford Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Opal Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Dixon Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Ford Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Caulkins Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Walleye"
+    ],
+    "Lake Twentyseven": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Big Lake": [
+      "Walleye"
+    ],
+    "Otsego Lake": [
+      "Lake Sturgeon",
+      "Muskellunge",
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Club Creek": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Storey Lake": [
+      "Rainbow Trout"
+    ],
+    "Otsego Lake Pike Marsh": [
+      "Northern Pike"
+    ],
+    "Little Bear Lake": [
+      "Black Crappie",
+      "Rainbow Trout",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Pigeon River": [
+      "Brook Trout",
+      "Lake Sturgeon"
+    ],
+    "Private Pond (Otsego Club)": [
+      "Rainbow Trout"
+    ],
+    "Private Pond - J&L Ranch": [
+      "Rainbow Trout"
+    ],
+    "Private Pond (Kevin Johnson)": [
+      "Rainbow Trout"
+    ],
+    "Private Ponds (Richard O'Rourke)": [
+      "Rainbow Trout"
+    ],
+    "Big Bear Lake Marsh": [
+      "Walleye"
+    ],
+    "Pencil Lake": [
+      "Northern Pike",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Douglas Lake": [
+      "Northern Pike"
+    ],
+    "Lake Elizabeth": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Martin Lake": [
+      "Northern Pike"
+    ],
+    "Dixon Lake Pond": [
+      "Walleye"
+    ]
+  },
+  "Presque Isle": {
+    "Ocqueoc River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Bear Den Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Esau": [
+      "Brown Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Swan River": [
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout"
+    ],
+    "Ocqueoc Lake": [
+      "Walleye"
+    ],
+    "Lake Huron - Rogers City": [
+      "Chinook Salmon"
+    ],
+    "Rainy Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Black Lake": [
+      "Walleye"
+    ],
+    "Lake Huron": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Long Lake": [
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Allans Lake (Lafarge Quarry)": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Trout Creek Pond": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Private Pond 35N03E33": [
+      "Hybrid Sunfish",
+      "Rainbow Trout"
+    ],
+    "Grand Lake": [
+      "Northern Pike",
+      "Tiger Muskellunge"
+    ],
+    "Shoepac Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Ferdelman": [
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Little Tomahawk Lake": [
+      "Brook Trout"
+    ],
+    "Grand Lake Pike Marsh": [
+      "Northern Pike"
+    ],
+    "Long Lake Pike Marsh": [
+      "Northern Pike"
+    ],
+    "Nagels Creek": [
+      "Chinook Salmon"
+    ]
+  },
+  "Alcona": {
+    "South Hoist Lake": [
+      "Hybrid Sunfish",
+      "Rainbow Trout"
+    ],
+    "Au Sable River": [
+      "Brown Trout",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Au Sable River - Mio To Alcona Reach": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Huron": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Jewell Lake": [
+      "Black Crappie",
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Brownlee Lake": [
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Yellow Perch"
+    ],
+    "Reid Lake": [
+      "Brown Trout",
+      "Hybrid Sunfish",
+      "Rainbow Trout"
+    ],
+    "Mill Creek Pond": [
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Rainbow Trout"
+    ],
+    "Cedar Lake": [
+      "Redear Sunfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Mcginn Creek": [
+      "Bluegill",
+      "Brook Trout",
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Vaughn Lake": [
+      "Walleye"
+    ],
+    "O'Brien Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Badger Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Bucks Pond": [
+      "Black Crappie",
+      "Largemouth Bass",
+      "Smallmouth Bass"
+    ],
+    "Alcona Dam Pond": [
+      "Walleye"
+    ],
+    "Bear Lake": [
+      "Bluegill",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lost Lake": [
+      "Black Crappie"
+    ],
+    "Deer Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Walleye"
+    ],
+    "Comstock Creek": [
+      "Largemouth Bass"
+    ],
+    "Black River": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Mill Creek": [
+      "Chinook Salmon",
+      "Rainbow Trout"
+    ],
+    "Hubbard Lake": [
+      "Brown Trout",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "West Branch Pine River": [
+      "Brook Trout"
+    ],
+    "Wild Cat Creek Pond": [
+      "Brook Trout"
+    ],
+    "Sprinkler Lake": [
+      "Rainbow Trout"
+    ],
+    "Crooked Lake": [
+      "Walleye"
+    ],
+    "Jewell Lake Pike Marsh": [
+      "Northern Pike"
+    ],
+    "Horseshoe Lake": [
+      "Hybrid Sunfish",
+      "Rainbow Trout"
+    ],
+    "North Hoist Lake": [
+      "Hybrid Sunfish",
+      "Largemouth Bass"
+    ],
+    "Hubbard Lake Rearing Pond": [
+      "Walleye"
+    ],
+    "Honawan Lake": [
+      "Bluegill"
+    ],
+    "Poplar Lake": [
+      "Bluegill"
+    ]
+  },
+  "Grand Traverse": {
+    "Sand Lake #1 (Titus)": [
+      "Rainbow Trout"
+    ],
+    "Duck Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Splake"
+    ],
+    "Green Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Splake"
+    ],
+    "Elk Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Boardman River": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Sturgeon",
+      "Rainbow Trout"
+    ],
+    "Fife Lake": [
+      "Walleye"
+    ],
+    "Silver Lake": [
+      "Walleye"
+    ],
+    "Lake Skegemog": [
+      "Muskellunge"
+    ],
+    "Kids Creek": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Kids Creek Pond": [
+      "Bluegill",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Lake Michigan - Grand Traverse Bay-West Arm": [
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Michigan": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Swainston Creek": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Sand Lake #2": [
+      "Brook Trout"
+    ],
+    "Spider Lake": [
+      "Northern Pike"
+    ],
+    "Arbutus Lake": [
+      "Northern Pike"
+    ],
+    "Walton Jct Sportsmens Club Pond": [
+      "Brown Trout"
+    ],
+    "Long Lake": [
+      "Walleye"
+    ],
+    "Rennie Lake": [
+      "Tiger Muskellunge"
+    ],
+    "Dollar Lake": [
+      "Hybrid Sunfish",
+      "Rainbow Trout"
+    ],
+    "Sand Lake #3": [
+      "Hybrid Sunfish"
+    ],
+    "Boardman Lake": [
+      "Walleye"
+    ],
+    "Arbutus Lake Marsh": [
+      "Northern Pike"
+    ]
+  },
+  "Charlevoix": {
+    "Boyne River": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Thumb (Louise) Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Jordan River": [
+      "Lake Whitefish",
+      "Rainbow Trout"
+    ],
+    "Medusa Creek": [
+      "Chinook Salmon",
+      "Coho Salmon"
+    ],
+    "Lake Geneserath": [
+      "Walleye"
+    ],
+    "Lake Charlevoix": [
+      "Atlantic Salmon",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Hoffman Lake": [
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Lake Michigan": [
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Grid 0314": [
+      "Lake Trout"
+    ],
+    "Boyne River Impoundment": [
+      "Bluegill",
+      "Brook Trout",
+      "Brown Trout",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Fox Lake": [
+      "Walleye"
+    ],
+    "Mirror Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Pine River": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Walloon Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Bear River": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Sixmile Lake": [
+      "Walleye"
+    ],
+    "Boyne Falls Pond": [
+      "Brook Trout"
+    ]
+  },
+  "Emmet": {
+    "Bear River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Michigan": [
+      "Atlantic Salmon",
+      "Brown Trout",
+      "Lake Trout",
+      "Lake Whitefish",
+      "Rainbow Trout"
+    ],
+    "Carp Lake (Paradise Lake)": [
+      "Walleye"
+    ],
+    "Grid 0519": [
+      "Brown Trout"
+    ],
+    "O'Neal Lake": [
+      "Channel Catfish",
+      "Hybrid Sunfish"
+    ],
+    "Spring Lake": [
+      "Hybrid Sunfish",
+      "Largemouth Bass"
+    ],
+    "Lime Kiln Pond": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Round Lake": [
+      "Walleye"
+    ],
+    "East Branch Maple River": [
+      "Brook Trout",
+      "Lake Sturgeon"
+    ],
+    "Maple River": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Pickerel Lake": [
+      "Walleye"
+    ],
+    "Crooked Lake": [
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Carp Lake River": [
+      "Rainbow Trout"
+    ],
+    "Four Lakes": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Silver Creek Pond": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Walloon Lake": [
+      "Walleye"
+    ]
+  },
+  "Wexford": {
+    "Manistee River": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Hodenpyl Dam Pond": [
+      "Channel Catfish",
+      "Walleye"
+    ],
+    "Lake Mitchell": [
+      "Bluegill",
+      "Pumpkinseed",
+      "Walleye"
+    ],
+    "Lake Cadillac": [
+      "Bluegill",
+      "Pumpkinseed",
+      "Walleye"
+    ],
+    "Lake Billings": [
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Slagle Creek": [
+      "Rainbow Trout"
+    ],
+    "Stone Ledge Lake": [
+      "Hybrid Sunfish"
+    ],
+    "Pine River": [
+      "Rainbow Trout"
+    ],
+    "Meauwataka Lake": [
+      "Rainbow Trout"
+    ],
+    "Pleasant Lake": [
+      "Walleye"
+    ],
+    "Soper Creek": [
+      "Brown Trout"
+    ],
+    "Burkett Creek": [
+      "Rainbow Trout"
+    ],
+    "Garlett Pond": [
+      "Rainbow Trout"
+    ]
+  },
+  "Kalkaska": {
+    "Manistee River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Twin Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Starvation Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Bear Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Blue Lake": [
+      "Brook Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "North Blue Lake": [
+      "Brook Trout",
+      "Lake Trout"
+    ],
+    "Manistee Lake": [
+      "Golden Shiner",
+      "Walleye"
+    ],
+    "Guernsey Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Cub Lake": [
+      "Walleye"
+    ],
+    "Pickerel Lake": [
+      "Walleye"
+    ],
+    "Rapid River": [
+      "Atlantic Salmon",
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Wellman Mill Pond": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Perch Lake": [
+      "Walleye"
+    ],
+    "Log Lake": [
+      "Rainbow Trout"
+    ],
+    "East Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Bass Lake": [
+      "Rainbow Trout"
+    ],
+    "Rainbow Lake": [
+      "Rainbow Trout"
+    ]
+  },
+  "Osceola": {
+    "Center Lake": [
+      "Bluegill",
+      "Brown Trout",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Rose Lake": [
+      "Walleye"
+    ],
+    "Muskegon River": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Middle Branch River": [
+      "Brown Trout"
+    ],
+    "Big Lake": [
+      "Black Crappie",
+      "Hybrid Sunfish",
+      "Walleye"
+    ],
+    "Rose Lake Outlet": [
+      "Hybrid Sunfish",
+      "Rainbow Trout"
+    ],
+    "Diamond Lake": [
+      "Largemouth Bass"
+    ],
+    "Coe Creek": [
+      "Brown Trout"
+    ],
+    "Wells Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Todd Lake": [
+      "Channel Catfish",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Mccoy Lake": [
+      "Channel Catfish",
+      "Walleye"
+    ],
+    "Sunrise Lake": [
+      "Rainbow Trout"
+    ],
+    "Hersey River": [
+      "Brown Trout"
+    ]
+  },
+  "Cheboygan": {
+    "Hemlock Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Weber Lake": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Twin Lake #1": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Silver Lake": [
+      "Rainbow Trout"
+    ],
+    "Sturgeon River": [
+      "Lake Sturgeon",
+      "Rainbow Trout"
+    ],
+    "Black River": [
+      "Lake Sturgeon",
+      "Muskellunge"
+    ],
+    "Mullett Lake": [
+      "Brown Trout",
+      "Lake Sturgeon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Burt Lake": [
+      "Atlantic Salmon",
+      "Lake Sturgeon",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Lake Huron - Cheboygan": [
+      "Lake Whitefish"
+    ],
+    "Little Sturgeon River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Cheboygan River": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Black Lake": [
+      "Lake Sturgeon",
+      "Walleye"
+    ],
+    "Douglas Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Long Lake": [
+      "Walleye"
+    ],
+    "Hasler Creek": [
+      "Rainbow Trout"
+    ],
+    "Lake Huron": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "West Branch Sturgeon River": [
+      "Lake Sturgeon"
+    ],
+    "Kleber Pond": [
+      "Lake Sturgeon",
+      "Walleye"
+    ],
+    "Tower Pond": [
+      "Lake Sturgeon"
+    ],
+    "Sarow Pond": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Private Ponds (Kevin Brado)": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Indian River": [
+      "Muskellunge"
+    ],
+    "Twin Lakes 2, 3, 4, 5": [
+      "Splake"
+    ],
+    "Cornwall Impoundment": [
+      "Tiger Muskellunge"
+    ],
+    "Roberts Lake": [
+      "Hybrid Sunfish"
+    ]
+  },
+  "Iosco": {
+    "East Br Au Gres River": [
+      "Brown Trout",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Au Sable River": [
+      "Atlantic Salmon",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Jose Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Round Lake": [
+      "Walleye"
+    ],
+    "Sand Lake": [
+      "Walleye"
+    ],
+    "Cooke Dam Pond": [
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Tawas River": [
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Loon Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Long Lake": [
+      "Black Crappie",
+      "Channel Catfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Cedar Lake": [
+      "Hybrid Sunfish",
+      "Redear Sunfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Chain Lakes": [
+      "Black Crappie",
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Van Etten Lake": [
+      "Chinook Salmon",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Five Channels Impoundment": [
+      "Walleye"
+    ],
+    "West Londo Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Yellow Perch"
+    ],
+    "Silver Creek": [
+      "Brook Trout"
+    ],
+    "Loud Dam Pond": [
+      "Muskellunge"
+    ],
+    "Foote Pond": [
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Lake Huron": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Van Etten River": [
+      "Chinook Salmon",
+      "Rainbow Trout"
+    ],
+    "Dead Creek": [
+      "Walleye"
+    ],
+    "Buck Creek Pond": [
+      "Brook Trout"
+    ],
+    "Floyd Lake": [
+      "Walleye"
+    ],
+    "Little Long Lake": [
+      "Largemouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Londo Lake": [
+      "Largemouth Bass"
+    ],
+    "Gray Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ]
+  },
+  "Ogemaw": {
+    "Rifle River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Peach Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Clear Lake": [
+      "Bluegill",
+      "Walleye"
+    ],
+    "Grousehaven Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Lake George": [
+      "Brown Trout",
+      "Hybrid Sunfish",
+      "Lake Trout",
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Rifle Lake": [
+      "Bluegill",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Ogemaw": [
+      "Black Crappie",
+      "Brook Trout",
+      "Channel Catfish",
+      "Golden Shiner",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Houghton Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Ogemaw Creek": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Sage Lake": [
+      "Hybrid Sunfish",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "George Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Grebe (Spring) Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Northern Pike"
+    ],
+    "Lodge (Loon) Lake": [
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Au Sable Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Island Lake": [
+      "Black Crappie",
+      "Hybrid Sunfish",
+      "Yellow Perch"
+    ],
+    "Elbow Lake": [
+      "Hybrid Sunfish"
+    ],
+    "Devoe Lake": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "West Branch Rifle River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Horseshoe Lake": [
+      "Bluegill",
+      "Rainbow Trout"
+    ],
+    "Stylus Lake": [
+      "Walleye"
+    ],
+    "Bush Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Tee Lake": [
+      "Northern Pike"
+    ],
+    "Hardwood Lake": [
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Klacking Creek": [
+      "Brown Trout"
+    ],
+    "Skidway Lake": [
+      "Northern Pike",
+      "Yellow Perch"
+    ],
+    "Silver Creek": [
+      "Brown Trout"
+    ],
+    "South Pond": [
+      "Hybrid Sunfish"
+    ],
+    "Scaup Lake": [
+      "Hybrid Sunfish"
+    ],
+    "Frost Lake": [
+      "Bluegill",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Henderson Lake": [
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "Elni Lake": [
+      "Rainbow Trout"
+    ],
+    "Au Sable Lake Pike Marsh": [
+      "Northern Pike"
+    ],
+    "Prior Creek": [
+      "Brook Trout"
+    ],
+    "Jewett Lake": [
+      "Walleye"
+    ]
+  },
+  "Barry": {
+    "Guernsey Lake": [
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Wall Lake": [
+      "Walleye"
+    ],
+    "Thornapple Lake": [
+      "Largemouth Bass",
+      "Muskellunge",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Middle Lake": [
+      "Walleye"
+    ],
+    "Long Lake": [
+      "Northern Pike",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Fine Lake": [
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Gun Lake": [
+      "Muskellunge",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Coldwater River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "High Bank Creek": [
+      "Brown Trout"
+    ],
+    "Algonquin Lake": [
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Hall Lake": [
+      "Brown Trout",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Glass Creek": [
+      "Brown Trout"
+    ],
+    "Fair Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Cedar Creek": [
+      "Brown Trout"
+    ],
+    "Barlow Lake": [
+      "Hybrid Sunfish",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Gull Lake": [
+      "Atlantic Salmon",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Smelt",
+      "Rainbow Trout"
+    ],
+    "Lower Crooked Lake": [
+      "Bluegill",
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "Jordan Lake": [
+      "Black Crappie"
+    ],
+    "Deep Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Sugarbush Lake": [
+      "Rainbow Trout"
+    ],
+    "Gun Lake #1 Rearing Pond": [
+      "Walleye"
+    ],
+    "Payne Lake": [
+      "Walleye"
+    ],
+    "Pleasant Lake": [
+      "Walleye"
+    ],
+    "Bristol Lake": [
+      "Walleye"
+    ],
+    "North Branch Cedar Creek": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Quaker Brook": [
+      "Brook Trout"
+    ],
+    "Dagget Lake": [
+      "Largemouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Cain Creek": [
+      "Brown Trout"
+    ],
+    "Fish Lake": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Little Thornapple River": [
+      "Brown Trout"
+    ],
+    "Messer Brook": [
+      "Brown Trout"
+    ],
+    "Carter Lake": [
+      "Northern Pike"
+    ],
+    "Pine Lake": [
+      "Northern Pike"
+    ],
+    "Pine Lake Pike Marsh - North": [
+      "Northern Pike"
+    ],
+    "Hill Creek": [
+      "Brown Trout"
+    ],
+    "Clear Lake": [
+      "Northern Pike",
+      "Tiger Muskellunge"
+    ],
+    "Thornapple River": [
+      "Walleye"
+    ],
+    "Long Lake Pike Marsh": [
+      "Northern Pike"
+    ],
+    "Upper Crooked Lake": [
+      "Tiger Muskellunge"
+    ]
+  },
+  "Saint Joseph": {
+    "Curtis Creek": [
+      "Brook Trout"
+    ],
+    "Palmer Lake": [
+      "Channel Catfish",
+      "Walleye"
+    ],
+    "Long Lake-Colon Twp": [
+      "Channel Catfish",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Sturgeon Lake": [
+      "Channel Catfish",
+      "Walleye"
+    ],
+    "Saint Joseph River": [
+      "Channel Catfish",
+      "Lake Trout",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Long Lake (Fabius Twp)": [
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "Clear Lake": [
+      "Hybrid Sunfish",
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Sand Lake": [
+      "Channel Catfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Klinger Lake": [
+      "Walleye"
+    ],
+    "Lake Templene": [
+      "Black Crappie",
+      "Hybrid Sunfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Fishers Lake": [
+      "Channel Catfish"
+    ],
+    "Corey Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Pleasant Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Sherman Mills Creek": [
+      "Brown Trout"
+    ],
+    "Prairie River": [
+      "Brown Trout"
+    ],
+    "Spring Creek": [
+      "Brown Trout"
+    ],
+    "Fish Lake": [
+      "Rainbow Trout"
+    ],
+    "Rocky River": [
+      "Brown Trout"
+    ],
+    "Little Swan Creek": [
+      "Brown Trout"
+    ]
+  },
+  "Roscommon": {
+    "Higgins Lake": [
+      "Atlantic Salmon",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Lake St. Helen": [
+      "Black Crappie",
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "The Cut": [
+      "Walleye"
+    ],
+    "West Branch Tittabawassee River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lake James": [
+      "Black Crappie",
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Walleye"
+    ],
+    "Robinson Creek": [
+      "Brown Trout"
+    ],
+    "South Branch Au Sable River": [
+      "Brown Trout"
+    ],
+    "Houghton Lake": [
+      "Walleye"
+    ],
+    "I-75 Rearing Pond # 1": [
+      "Walleye"
+    ],
+    "Houghton Lk Lake Assoc Pond N": [
+      "Walleye"
+    ],
+    "Dead Stream (Reedsburg) Flooding": [
+      "Walleye"
+    ],
+    "Ryan Lake": [
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Walleye"
+    ]
+  },
+  "Leelanau": {
+    "Glen Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "North Lake Leelanau": [
+      "Brown Trout",
+      "Lake Trout",
+      "Lake Whitefish",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Lake Michigan": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Lake Michigan - Grand Traverse Bay": [
+      "Lake Trout"
+    ],
+    "Lime Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Northport Creek": [
+      "Rainbow Trout"
+    ],
+    "Veronica Valley Pond": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Little Traverse Lake": [
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Pumpkinseed"
+    ],
+    "Clearbrook Creek": [
+      "Rainbow Trout"
+    ],
+    "Little Glen Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "South Lake Leelanau": [
+      "Bluegill",
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Solon Pond": [
+      "Brown Trout"
+    ],
+    "South Bar Lake": [
+      "Bluegill",
+      "Northern Pike"
+    ],
+    "Provemont Pond": [
+      "Brown Trout"
+    ],
+    "Davis Lake": [
+      "Rainbow Trout"
+    ]
+  },
+  "Antrim": {
+    "Elk River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Jordan River": [
+      "Chinook Salmon",
+      "Lake Whitefish",
+      "Rainbow Trout"
+    ],
+    "Intermediate Lake": [
+      "Walleye"
+    ],
+    "Torch Lake": [
+      "Atlantic Salmon",
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Sixmile Lake": [
+      "Walleye"
+    ],
+    "Lake Bellaire": [
+      "Brown Trout",
+      "Muskellunge",
+      "Splake",
+      "Walleye"
+    ],
+    "Lake Michigan": [
+      "Lake Trout"
+    ],
+    "Lake Michigan - Grand Traverse Bay": [
+      "Lake Trout"
+    ],
+    "Grid 0816": [
+      "Lake Trout"
+    ],
+    "Elk River Bypass": [
+      "Rainbow Trout"
+    ],
+    "Green Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Elk Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Grass Creek": [
+      "Rainbow Trout"
+    ],
+    "Bellaire Pond (Blair Lake)": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Private Pond 30N07W29": [
+      "Rainbow Trout"
+    ],
+    "Birch Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Lake Harold": [
+      "Bluegill",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Thayer Lake": [
+      "Walleye"
+    ]
+  },
+  "Missaukee": {
+    "Manistee River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Missaukee": [
+      "Walleye"
+    ],
+    "Lake Sapphire": [
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "Muskegon River": [
+      "Muskellunge",
+      "Walleye"
+    ],
+    "Manistee River (Middle)": [
+      "Brown Trout"
+    ],
+    "Morissy Creek": [
+      "Rainbow Trout"
+    ],
+    "Golden Creek": [
+      "Brook Trout"
+    ],
+    "Horseshoe Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Crooked Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ]
+  },
+  "Mecosta": {
+    "Muskegon River": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Tiger Muskellunge"
+    ],
+    "Little Muskegon River": [
+      "Black Crappie",
+      "Bluegill",
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Chippewa Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Diamond Lake": [
+      "Bluegill",
+      "Yellow Perch"
+    ],
+    "Hardy Dam Pond": [
+      "Muskellunge"
+    ],
+    "Lake Mecosta": [
+      "Walleye"
+    ],
+    "Round Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Blue Lake": [
+      "Walleye"
+    ],
+    "School Section Lake": [
+      "Walleye"
+    ],
+    "Pretty Lake": [
+      "Channel Catfish",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Horsehead Lake": [
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Mitchell Creek": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Morley Pond": [
+      "Bluegill",
+      "Hybrid Sunfish"
+    ],
+    "Rogers Dam Pond": [
+      "Hybrid Sunfish",
+      "Tiger Muskellunge"
+    ],
+    "Horsehead Lake Pike Marsh": [
+      "Northern Pike"
+    ]
+  },
+  "Allegan": {
+    "Kalamazoo River (Saugatuck)": [
+      "Brown Trout",
+      "Coho Salmon",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Selkirk Lake": [
+      "Walleye"
+    ],
+    "Monterey Lake": [
+      "Channel Catfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Osterhout Lake": [
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Outdoor Discovery Center Pond": [
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Yellow Perch"
+    ],
+    "Doster, Lake": [
+      "Yellow Perch"
+    ],
+    "Kalamazoo River": [
+      "Brown Trout",
+      "Channel Catfish",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Sturgeon",
+      "Lake Trout",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Rabbit River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Bear Creek": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Mann Creek": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Swan Creek": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Gun River": [
+      "Brown Trout"
+    ],
+    "Pine Creek": [
+      "Brown Trout"
+    ],
+    "Pike Lake": [
+      "Hybrid Sunfish",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Halfway Creek": [
+      "Brown Trout"
+    ],
+    "Wetheral Lake": [
+      "Largemouth Bass"
+    ],
+    "Gun Lake": [
+      "Walleye"
+    ],
+    "Lake Michigan": [
+      "Lake Trout"
+    ],
+    "Lake Sixteen": [
+      "Rainbow Trout"
+    ],
+    "Rankin Creek": [
+      "Brown Trout"
+    ],
+    "Hutchins Lake": [
+      "Northern Pike",
+      "Tiger Muskellunge"
+    ],
+    "Barber Creek": [
+      "Brown Trout"
+    ],
+    "Miller Creek": [
+      "Brook Trout"
+    ],
+    "Miner Lake": [
+      "Northern Pike"
+    ],
+    "Base Line Lake": [
+      "Northern Pike"
+    ],
+    "Duck Lake": [
+      "Northern Pike"
+    ],
+    "Hutchins Lake Pike Marsh": [
+      "Northern Pike"
+    ],
+    "Dumont Lake": [
+      "Tiger Muskellunge"
+    ],
+    "Green Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Littlejohn Lake": [
+      "Rainbow Trout"
+    ]
+  },
+  "Berrien": {
+    "Saint Joseph River": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Paw Paw River": [
+      "Coho Salmon",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Galien River": [
+      "Brown Trout",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Yellow Lake": [
+      "Hybrid Sunfish",
+      "Yellow Perch"
+    ],
+    "Saint Joseph River (Benton Harbor)": [
+      "Brown Trout",
+      "Chinook Salmon"
+    ],
+    "Sportsmen Club Rearing Pond": [
+      "Chinook Salmon",
+      "Rainbow Trout"
+    ],
+    "Brandywine Creek": [
+      "Brown Trout"
+    ],
+    "Dowagiac River": [
+      "Brown Trout"
+    ],
+    "Blue Creek": [
+      "Brown Trout"
+    ],
+    "Mill Creek": [
+      "Brown Trout"
+    ],
+    "Mccoy Creek": [
+      "Brown Trout"
+    ],
+    "South Branch Galien River": [
+      "Brown Trout",
+      "Coho Salmon",
+      "Walleye"
+    ],
+    "Singer Lake": [
+      "Rainbow Trout"
+    ],
+    "Little Paw Paw Lake": [
+      "Walleye"
+    ],
+    "Paw Paw Lake": [
+      "Walleye"
+    ],
+    "Hickory Creek": [
+      "Brown Trout"
+    ],
+    "Big Meadow Drain": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Lake Michigan": [
+      "Lake Trout"
+    ],
+    "Pine Lake": [
+      "Hybrid Sunfish",
+      "Largemouth Bass"
+    ],
+    "Pipestone Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Love Creek #1": [
+      "Brook Trout"
+    ],
+    "Mill Creek T3S Trib": [
+      "Brook Trout"
+    ],
+    "Lake Chapin": [
+      "Rainbow Trout",
+      "Tiger Muskellunge"
+    ],
+    "Farmers Creek": [
+      "Rainbow Trout"
+    ]
+  },
+  "Oakland": {
+    "Huron River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Maceday Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Lake Whitefish",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Pontiac Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Cass Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Redear Sunfish",
+      "Splake",
+      "Walleye"
+    ],
+    "Big Seven Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Big Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "White Lake": [
+      "Walleye"
+    ],
+    "Crescent Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Kearsley Creek": [
+      "Brown Trout"
+    ],
+    "Paint Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Clinton River": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Lakeville Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Lake Orion": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Long Lake": [
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Union Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Redear Sunfish",
+      "Splake",
+      "Walleye"
+    ],
+    "Tributary To Kearsley Creek": [
+      "Brown Trout"
+    ],
+    "Wolverine Lake": [
+      "Black Crappie",
+      "Golden Shiner",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Middle Straits Lake": [
+      "Black Crappie",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Redear Sunfish"
+    ],
+    "Voorheis Lake": [
+      "Walleye"
+    ],
+    "Deer Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Oxbow Lake": [
+      "Walleye"
+    ],
+    "Wildwood Lake": [
+      "Northern Pike"
+    ],
+    "Heron Lake": [
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Dickinson Lake": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Kent Lake": [
+      "Bluegill",
+      "Northern Pike",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Rouge River": [
+      "Bluegill",
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Smallmouth Bass"
+    ],
+    "Orchard Lake": [
+      "Brown Trout",
+      "Muskellunge",
+      "Rainbow Trout"
+    ],
+    "Commerce Lake": [
+      "Black Crappie",
+      "Golden Shiner",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Duck Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Tipsico Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Redear Sunfish",
+      "Tiger Muskellunge"
+    ],
+    "Upper River Rouge": [
+      "Rainbow Trout"
+    ],
+    "Lake Oakland": [
+      "Golden Shiner",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Indianwood Lake": [
+      "Walleye"
+    ],
+    "Duck Creek": [
+      "Brown Trout"
+    ],
+    "Charlick Lake": [
+      "Largemouth Bass"
+    ],
+    "No Name Lake": [
+      "Largemouth Bass"
+    ],
+    "Crooked Lake": [
+      "Northern Pike",
+      "Rainbow Trout"
+    ],
+    "Loon Lake": [
+      "Bluegill",
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Bald Eagle Lake": [
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Quarton Lake": [
+      "Channel Catfish",
+      "Largemouth Bass"
+    ],
+    "Thread Creek": [
+      "Brown Trout"
+    ],
+    "Kent Lake Pike Marsh": [
+      "Northern Pike"
+    ],
+    "Sugden Lake": [
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Yellow Perch"
+    ],
+    "Trout Creek": [
+      "Brown Trout"
+    ],
+    "Stony Creek": [
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Upper Proud Lake": [
+      "Rainbow Trout"
+    ],
+    "Camp Dearborn #6 Rearing Pond": [
+      "Walleye"
+    ],
+    "Lake Sixteen": [
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Crystal Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Upper Silver Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Cedar Island Lake": [
+      "Rainbow Trout"
+    ],
+    "Camp Dearborn #1 Rearing Pond": [
+      "Largemouth Bass"
+    ]
+  },
+  "Saint Clair": {
+    "Belle River": [
+      "Rainbow Trout"
+    ],
+    "Mill Creek": [
+      "Rainbow Trout",
+      "Smallmouth Bass"
+    ],
+    "40Th Street Pond (Port Huron Borrow Pit)": [
+      "Bluegill",
+      "Brown Trout",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Redear Sunfish"
+    ],
+    "Black River": [
+      "Brown Trout",
+      "Channel Catfish",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "St. Clair River": [
+      "Brown Trout",
+      "Lake Sturgeon"
+    ],
+    "Harson Pool #1": [
+      "Walleye"
+    ],
+    "Harson Pool #2": [
+      "Walleye"
+    ]
+  },
+  "Livingston": {
+    "Spring Mill Pond": [
+      "Brown Trout",
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Thompson (Howell) Lake": [
+      "Northern Pike"
+    ],
+    "Bennett Lake": [
+      "Black Crappie",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Shannon Lake": [
+      "Walleye"
+    ],
+    "Lake Chemung": [
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Woodland Lake": [
+      "Channel Catfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Tyrone Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Whitmore Lake": [
+      "Northern Pike",
+      "Redear Sunfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Zukey Lake": [
+      "Channel Catfish",
+      "Walleye"
+    ],
+    "Earl Lake": [
+      "Redear Sunfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Appleton Lake": [
+      "Rainbow Trout"
+    ],
+    "Sandy Bottom Lake": [
+      "Black Crappie",
+      "Redear Sunfish"
+    ],
+    "Hi-Land Lake": [
+      "Bluegill",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Yellow Perch"
+    ],
+    "Island Lake": [
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Strawberry Lake": [
+      "Walleye"
+    ],
+    "Dunham Lake": [
+      "Walleye"
+    ],
+    "Huron River": [
+      "Channel Catfish",
+      "Walleye"
+    ],
+    "Pines, Lake Of The": [
+      "Northern Pike"
+    ],
+    "Trout Lake": [
+      "Rainbow Trout"
+    ],
+    "Indian Lake": [
+      "Northern Pike"
+    ],
+    "Winans Lake": [
+      "Redear Sunfish"
+    ],
+    "Maxfield Lake": [
+      "Black Crappie",
+      "Hybrid Sunfish",
+      "Yellow Perch"
+    ],
+    "Base Line Lake": [
+      "Walleye"
+    ],
+    "East Crooked Lake": [
+      "Redear Sunfish"
+    ],
+    "Bishop (Walker) Lake": [
+      "Redear Sunfish"
+    ],
+    "Ore Lake": [
+      "Walleye"
+    ],
+    "Murray Lake": [
+      "Rainbow Trout"
+    ],
+    "Faussett Lake": [
+      "Tiger Muskellunge"
+    ],
+    "Lime (Chenango) Lake": [
+      "Rainbow Trout"
+    ],
+    "Cordley Lake": [
+      "Northern Pike",
+      "Walleye"
+    ]
+  },
+  "Ontonagon": {
+    "Mirror Lake": [
+      "Brook Trout",
+      "Splake"
+    ],
+    "Courtney Lake": [
+      "Brook Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Ontonagon River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Lake Sturgeon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Firesteel River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Clear Creek": [
+      "Brook Trout"
+    ],
+    "Trout Creek Pond": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Two Mile Creek": [
+      "Brook Trout"
+    ],
+    "Middle Branch Ontonagon River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Union River": [
+      "Brook Trout"
+    ],
+    "Victoria Reservoir": [
+      "Black Crappie",
+      "Walleye"
+    ],
+    "Lake Superior": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Bluff Creek": [
+      "Brook Trout"
+    ],
+    "Sucker Creek": [
+      "Brook Trout"
+    ],
+    "Michigan (Rockland) Pond": [
+      "Bluegill",
+      "Rainbow Trout"
+    ],
+    "Big Iron River": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Paulding Pond": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "House Creek": [
+      "Brook Trout"
+    ],
+    "Paulding Creek": [
+      "Brook Trout"
+    ],
+    "Bond Falls Flowage": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Baltimore River": [
+      "Brook Trout"
+    ],
+    "Cascade Creek": [
+      "Brook Trout"
+    ],
+    "Floodwood River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Calderwood Pond": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Johnson Lake": [
+      "Brook Trout"
+    ],
+    "Tanlund Lake": [
+      "Rainbow Trout"
+    ],
+    "Robbins Pond": [
+      "Brown Trout"
+    ],
+    "Deadman Lake": [
+      "Smallmouth Bass"
+    ],
+    "Union Springs Pond": [
+      "Brook Trout"
+    ],
+    "Amber Lake Pit": [
+      "Walleye"
+    ],
+    "Sudden Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Sixmile Lake": [
+      "Golden Shiner"
+    ],
+    "Lake Gogebic": [
+      "Walleye"
+    ]
+  },
+  "Cass": {
+    "Dewey Lake": [
+      "Black Crappie",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Barron Lake": [
+      "Black Crappie",
+      "Walleye"
+    ],
+    "Donnell Lake": [
+      "Channel Catfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Fish Lake": [
+      "Walleye"
+    ],
+    "Magician Lake": [
+      "Walleye"
+    ],
+    "Eagle Lake": [
+      "Black Crappie",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Brandywine Creek": [
+      "Brown Trout"
+    ],
+    "Dowagiac Creek": [
+      "Brown Trout"
+    ],
+    "Dowagiac River": [
+      "Brown Trout"
+    ],
+    "Birch Lake": [
+      "Rainbow Trout"
+    ],
+    "Harwood Lake": [
+      "Rainbow Trout"
+    ],
+    "Hemlock Lake": [
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Puterbaugh Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Diamond Lake": [
+      "Walleye"
+    ],
+    "Baldwins Lake": [
+      "Yellow Perch"
+    ],
+    "Long Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Indian Lake": [
+      "Bluegill",
+      "Walleye"
+    ],
+    "Cable Lake": [
+      "Walleye"
+    ],
+    "Juno (Christiana) Lake": [
+      "Walleye"
+    ],
+    "Shavehead Lake": [
+      "Rainbow Trout"
+    ],
+    "Rocky River": [
+      "Brown Trout"
+    ],
+    "Mckenzie Creek": [
+      "Brown Trout"
+    ],
+    "Peavine Creek": [
+      "Brown Trout"
+    ],
+    "Pokagon Creek": [
+      "Brown Trout"
+    ],
+    "Garver Lake": [
+      "Tiger Muskellunge"
+    ],
+    "Little Fish Lake": [
+      "Rainbow Trout"
+    ],
+    "Cook Lake": [
+      "Brown Trout"
+    ]
+  },
+  "Sanilac": {
+    "Croswell Impoundment": [
+      "Black Crappie",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Lake Huron": [
+      "Atlantic Salmon",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Black River": [
+      "Channel Catfish",
+      "Northern Pike",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Elk Creek": [
+      "Brown Trout",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ]
+  },
+  "Van Buren": {
+    "Paw Paw River": [
+      "Rainbow Trout"
+    ],
+    "Lake Brownwood": [
+      "Walleye"
+    ],
+    "Cedar Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Lake Of The Woods": [
+      "Walleye"
+    ],
+    "Black River (South Haven)": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "East Br Paw Paw River": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "South Branch Paw Paw River": [
+      "Brown Trout"
+    ],
+    "Brush Creek": [
+      "Brown Trout"
+    ],
+    "Pine Creek": [
+      "Brown Trout"
+    ],
+    "Shafer Lake": [
+      "Rainbow Trout"
+    ],
+    "Bankson Lake": [
+      "Black Crappie",
+      "Largemouth Bass",
+      "Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Gravel Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Round Lake": [
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "Lake Cora": [
+      "Walleye"
+    ],
+    "Maple Lake": [
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "Van Auken Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "School Section Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Wolf Lake": [
+      "Largemouth Bass",
+      "Muskellunge",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Tiger Muskellunge"
+    ],
+    "North Scott Lake": [
+      "Northern Pike"
+    ],
+    "Rush Lake": [
+      "Northern Pike"
+    ],
+    "Three Legged Lake": [
+      "Northern Pike",
+      "Tiger Muskellunge"
+    ],
+    "North Branch Paw Paw River": [
+      "Brown Trout"
+    ],
+    "Campbell Creek": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Lake Michigan": [
+      "Lake Trout"
+    ],
+    "Hayden (Almena) Creek": [
+      "Brown Trout"
+    ],
+    "Tributary To Mill Creek": [
+      "Brook Trout"
+    ],
+    "Baker Lake": [
+      "Bluegill"
+    ],
+    "Huzzy Lake": [
+      "Rainbow Trout"
+    ],
+    "Wolf Lake #12 Rearing Pond": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Fish Lake": [
+      "Northern Pike",
+      "Tiger Muskellunge"
+    ],
+    "Lake Fourteen": [
+      "Largemouth Bass",
+      "Northern Pike",
+      "Tiger Muskellunge"
+    ],
+    "Saddle Lake": [
+      "Northern Pike"
+    ]
+  },
+  "Lenawee": {
+    "Lake Hudson (Bear Lake)(Covell Lake)": [
+      "Channel Catfish",
+      "Muskellunge",
+      "Walleye"
+    ],
+    "Deep Lake": [
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Devils Lake": [
+      "Golden Shiner",
+      "Redear Sunfish",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Loch Erin": [
+      "Channel Catfish",
+      "Golden Shiner",
+      "Largemouth Bass",
+      "Muskellunge",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Allen Lake": [
+      "Rainbow Trout"
+    ],
+    "Evans Lake": [
+      "Redear Sunfish",
+      "Smallmouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Globe & Standish Mill Ponds": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Muskellunge",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "River Raisin": [
+      "Channel Catfish",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Wamplers Lake": [
+      "Redear Sunfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Sand Lake": [
+      "Northern Pike",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Round Lake": [
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Silver Lake": [
+      "Channel Catfish",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Posey Lake": [
+      "Walleye"
+    ],
+    "Madison Lake": [
+      "Walleye"
+    ],
+    "White Lake": [
+      "Walleye"
+    ]
+  },
+  "Ionia": {
+    "Sessions Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Brown Trout",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Prairie Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Bellamy Creek": [
+      "Brown Trout"
+    ],
+    "Lake Creek": [
+      "Brown Trout"
+    ],
+    "Duck Creek": [
+      "Brown Trout"
+    ],
+    "Grand River": [
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Fish Creek": [
+      "Chinook Salmon",
+      "Rainbow Trout"
+    ],
+    "Woodard Lake": [
+      "Walleye"
+    ],
+    "Grand River (Portland)": [
+      "Walleye"
+    ],
+    "Tyler (Bear) Creek": [
+      "Brown Trout"
+    ],
+    "Maple River": [
+      "Brown Trout",
+      "Channel Catfish"
+    ],
+    "Sebewa Creek": [
+      "Brown Trout"
+    ],
+    "Tupper Lake": [
+      "Walleye"
+    ],
+    "Morrison Lake": [
+      "Walleye"
+    ],
+    "Flat River": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Messer Brook": [
+      "Brown Trout"
+    ],
+    "Long Lake": [
+      "Channel Catfish"
+    ],
+    "Sebewa Creek Tributary": [
+      "Brown Trout"
+    ],
+    "Sessions Creek": [
+      "Brown Trout"
+    ],
+    "Looking Glass River": [
+      "Bluegill",
+      "Rainbow Trout"
+    ]
+  },
+  "Clinton": {
+    "Searles Lake": [
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Yellow Perch"
+    ],
+    "Big Clinton Lake": [
+      "Black Crappie",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Little Clinton Lake": [
+      "Largemouth Bass",
+      "Yellow Perch"
+    ],
+    "Clinton Trails Lake": [
+      "Black Crappie",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Yellow Perch"
+    ],
+    "Park Lake": [
+      "Channel Catfish",
+      "Northern Pike"
+    ],
+    "Lake Ovid": [
+      "Channel Catfish",
+      "Muskellunge",
+      "Redear Sunfish",
+      "Tiger Muskellunge"
+    ],
+    "Unnamed Lake": [
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Yellow Perch"
+    ],
+    "Alward Lake": [
+      "Walleye"
+    ],
+    "Maple River": [
+      "Channel Catfish",
+      "Walleye"
+    ],
+    "Looking Glass River": [
+      "Rainbow Trout"
+    ],
+    "Grand River": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Burke Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ]
+  },
+  "Calhoun": {
+    "Goguac Lake": [
+      "Walleye"
+    ],
+    "Dickinson Creek": [
+      "Brown Trout"
+    ],
+    "Rice Creek": [
+      "Brown Trout"
+    ],
+    "Nottawa River": [
+      "Brown Trout"
+    ],
+    "Duck Lake": [
+      "Redear Sunfish",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Kalamazoo River": [
+      "Channel Catfish",
+      "Northern Pike",
+      "Smallmouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "South Branch Rice Creek": [
+      "Brown Trout"
+    ],
+    "Nottawa Lake": [
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Walleye"
+    ],
+    "Battle Creek": [
+      "Channel Catfish"
+    ],
+    "Seven Mile Creek": [
+      "Brown Trout"
+    ],
+    "Lee Lake": [
+      "Hybrid Sunfish",
+      "Rainbow Trout",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Wabascon Lake": [
+      "Northern Pike"
+    ],
+    "Gordon (Wises) Lake": [
+      "Northern Pike"
+    ],
+    "Lake Of The Woods": [
+      "Northern Pike"
+    ],
+    "Bear Creek": [
+      "Brown Trout"
+    ],
+    "North Branch Rice Creek": [
+      "Brown Trout"
+    ],
+    "Marshall Impoundment": [
+      "Channel Catfish"
+    ],
+    "Brace Lakes": [
+      "Channel Catfish",
+      "Northern Pike",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Wilder Creek": [
+      "Brown Trout",
+      "Redear Sunfish"
+    ],
+    "Saint Joseph River": [
+      "Walleye"
+    ],
+    "Harper Creek": [
+      "Brown Trout"
+    ]
+  },
+  "Jackson": {
+    "Portage Lake": [
+      "Redear Sunfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Farwell Lake": [
+      "Rainbow Trout"
+    ],
+    "Swains Lake": [
+      "Rainbow Trout",
+      "Redear Sunfish"
+    ],
+    "Grand River": [
+      "Channel Catfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Lake Columbia": [
+      "Black Crappie",
+      "Hybrid Sunfish",
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Gilletts Lake": [
+      "Channel Catfish",
+      "Northern Pike",
+      "Redear Sunfish",
+      "Tiger Muskellunge"
+    ],
+    "Snyder Brook": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Clark Lake": [
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Mirror (Little Grand) Lake": [
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Round Lake": [
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Mackey Brook": [
+      "Brown Trout"
+    ],
+    "Vineyard Lake": [
+      "Northern Pike",
+      "Redear Sunfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Jackson Prison Pond": [
+      "Walleye"
+    ],
+    "South Branch Rice Creek": [
+      "Brown Trout"
+    ],
+    "Wolf Lake": [
+      "Walleye"
+    ],
+    "Pleasant Lake": [
+      "Redear Sunfish"
+    ],
+    "South Branch Kalamazoo River": [
+      "Brown Trout"
+    ],
+    "Grass Lake": [
+      "Redear Sunfish",
+      "Tiger Muskellunge"
+    ],
+    "Lime Lake, South": [
+      "Rainbow Trout",
+      "Redear Sunfish"
+    ],
+    "Center Lake": [
+      "Northern Pike",
+      "Tiger Muskellunge"
+    ],
+    "Crispell Lake": [
+      "Walleye"
+    ],
+    "Portage Creek Rearing Pond": [
+      "Rainbow Trout"
+    ],
+    "Trist Creek": [
+      "Brown Trout"
+    ],
+    "Clear Lake": [
+      "Redear Sunfish",
+      "Smallmouth Bass"
+    ],
+    "River Raisin": [
+      "Channel Catfish"
+    ],
+    "Cascade Pond": [
+      "Channel Catfish"
+    ],
+    "Pond Lily Lake": [
+      "Hybrid Sunfish"
+    ],
+    "Little Portage Lake": [
+      "Hybrid Sunfish"
+    ],
+    "Vandercook Lake": [
+      "Rainbow Trout"
+    ],
+    "North Branch Kalamazoo River": [
+      "Smallmouth Bass",
+      "Tiger Muskellunge"
+    ],
+    "Welch (Little Pleasant) Lake": [
+      "Black Crappie",
+      "Channel Catfish"
+    ],
+    "Sandstone Creek": [
+      "Brown Trout"
+    ],
+    "Norvell Lake": [
+      "Tiger Muskellunge"
+    ],
+    "Center Lake Pike Marsh": [
+      "Tiger Muskellunge"
+    ]
+  },
+  "Baraga": {
+    "Big Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Lake Superior - Keweenaw Bay": [
+      "Brook Trout",
+      "Lake Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Lake Superior": [
+      "Brook Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Falls River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Bishop Lake": [
+      "Brook Trout"
+    ],
+    "Otter River": [
+      "Brook Trout"
+    ],
+    "Perch River": [
+      "Brook Trout"
+    ],
+    "Silver River (51-31-18)": [
+      "Brook Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Menge (Backwater) Creek": [
+      "Brook Trout"
+    ],
+    "Daults Creek": [
+      "Brook Trout"
+    ],
+    "Denomie Creek": [
+      "Brook Trout"
+    ],
+    "Alberta Pond": [
+      "Brook Trout"
+    ],
+    "Roland Lake": [
+      "Brook Trout",
+      "Walleye"
+    ],
+    "Taylor Creek": [
+      "Brook Trout"
+    ],
+    "Roubillard Creek": [
+      "Brook Trout"
+    ],
+    "Ravine River": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Slate River": [
+      "Brook Trout",
+      "Walleye"
+    ],
+    "East Branch Huron River": [
+      "Rainbow Trout"
+    ],
+    "Ogemaw Creek": [
+      "Brook Trout"
+    ],
+    "Craig Lake": [
+      "Muskellunge",
+      "Yellow Perch"
+    ],
+    "Fence Lake": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "Parent Lake": [
+      "Bluegill",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Worm (Vermilac) Lake": [
+      "Walleye"
+    ],
+    "Rock River": [
+      "Brook Trout"
+    ],
+    "Linden Creek": [
+      "Brook Trout"
+    ],
+    "Sturgeon River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Sturgeon"
+    ],
+    "Tioga River": [
+      "Brook Trout"
+    ],
+    "King Lake": [
+      "Walleye"
+    ],
+    "Lake Superior - Huron Bay": [
+      "Brook Trout",
+      "Walleye"
+    ],
+    "Grid 1423": [
+      "Brook Trout",
+      "Lake Trout",
+      "Walleye"
+    ],
+    "Lake Alice": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Kelsey Creek": [
+      "Brook Trout",
+      "Lake Trout"
+    ],
+    "Black Creek": [
+      "Brook Trout"
+    ],
+    "Little Silver Creek": [
+      "Brook Trout"
+    ],
+    "Huron River": [
+      "Brook Trout",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Beaufort Lake": [
+      "Smallmouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Ruth Lake": [
+      "Northern Pike",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "West Branch Huron River": [
+      "Brook Trout"
+    ],
+    "Coon Lake": [
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "Little Lake": [
+      "Walleye"
+    ],
+    "Petticoat Lake": [
+      "Walleye"
+    ],
+    "Six Mile Creek Pond": [
+      "Brook Trout"
+    ],
+    "Cedar Lake": [
+      "Brook Trout"
+    ],
+    "St Johns Lake": [
+      "Walleye"
+    ],
+    "Little Summit Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Robillard Lake": [
+      "Walleye"
+    ],
+    "Curwood Lake": [
+      "Smallmouth Bass"
+    ],
+    "Lake Keewaydin": [
+      "Walleye"
+    ],
+    "Beaver Pond": [
+      "Bluegill",
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Yellow Perch"
+    ]
+  },
+  "Dickinson": {
+    "Carney Lake": [
+      "Walleye"
+    ],
+    "Lake Antoine": [
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "South Lake (Grov. Mine Pd. 4)": [
+      "Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Hamilton Lake": [
+      "Walleye"
+    ],
+    "Norway Lake": [
+      "Brook Trout",
+      "Walleye"
+    ],
+    "Island Lake (Grov. Mine Pd. 1)": [
+      "Black Crappie",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "West Lake (Grov. Mine Pd. 2A)": [
+      "Smallmouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Menominee River": [
+      "Lake Sturgeon",
+      "Walleye"
+    ],
+    "Moon Lake": [
+      "Yellow Perch"
+    ],
+    "Sawyer Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Badwater Lake, Little": [
+      "Rainbow Trout"
+    ],
+    "East Branch Sturgeon River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Hardwood Impoundment": [
+      "Largemouth Bass",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Bass Lake": [
+      "Brook Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Fitzgerald Creek": [
+      "Brook Trout"
+    ],
+    "Ford River": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Pine Creek": [
+      "Brook Trout"
+    ],
+    "Hanbury Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Lake 29": [
+      "Rainbow Trout"
+    ],
+    "Mary Lake": [
+      "Walleye"
+    ],
+    "Silver Lake": [
+      "Walleye"
+    ],
+    "Louise Lake": [
+      "Walleye"
+    ],
+    "Badwater Lake": [
+      "Walleye"
+    ],
+    "Gene'S Pond": [
+      "Black Crappie",
+      "Brook Trout",
+      "Largemouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Pickerel Lake": [
+      "Brook Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Sixmile Lake": [
+      "Walleye"
+    ],
+    "Edey Lake": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Lucas Rearing Pond": [
+      "Walleye"
+    ],
+    "Kimberly/Clark Pond": [
+      "Brook Trout"
+    ],
+    "Railroad Lake": [
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Big West Branch Escanaba River": [
+      "Brook Trout"
+    ],
+    "Skunk Creek": [
+      "Brook Trout"
+    ],
+    "Quarry Creek": [
+      "Brook Trout"
+    ],
+    "West Branch Sturgeon River": [
+      "Brook Trout"
+    ],
+    "North Branch Ford River": [
+      "Brook Trout"
+    ],
+    "Mcgregor Creek": [
+      "Brook Trout"
+    ],
+    "O'Neil Lake": [
+      "Brook Trout"
+    ],
+    "Schwartz Creek": [
+      "Brook Trout"
+    ],
+    "Browns (Robinette) Creek": [
+      "Brook Trout"
+    ],
+    "Schultz Creek": [
+      "Brook Trout"
+    ],
+    "August Creek": [
+      "Brook Trout"
+    ],
+    "Terchel Creek": [
+      "Brook Trout"
+    ],
+    "Camp Five Creek": [
+      "Brook Trout"
+    ],
+    "Crew Creek": [
+      "Brook Trout"
+    ],
+    "Fivemile Creek": [
+      "Brook Trout"
+    ],
+    "No Name Creek": [
+      "Brook Trout"
+    ],
+    "Finn Town Creek": [
+      "Brook Trout"
+    ],
+    "South Br E Br Sturgeon River": [
+      "Brook Trout"
+    ],
+    "Big Brook": [
+      "Brook Trout"
+    ],
+    "Warren Pond": [
+      "Walleye"
+    ]
+  },
+  "Keweenaw": {
+    "Lost Lake": [
+      "Brook Trout"
+    ],
+    "Tobacco River": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "No Name Pond": [
+      "Brook Trout"
+    ],
+    "Lake Superior": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Lac La Belle": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Lake Fanny Hooe": [
+      "Brook Trout",
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Splake",
+      "Walleye"
+    ],
+    "Lake Medora": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Gratiot": [
+      "Brook Trout",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Gratiot River": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Lake Manganese": [
+      "Brook Trout",
+      "Splake"
+    ],
+    "Eliza Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Big Betsy River": [
+      "Lake Trout"
+    ],
+    "Garden City Pond": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Bailey": [
+      "Tiger Muskellunge"
+    ],
+    "Montreal River": [
+      "Brown Trout"
+    ]
+  },
+  "Ingham": {
+    "Red Cedar River": [
+      "Brown Trout",
+      "Channel Catfish",
+      "Rainbow Trout"
+    ],
+    "Grand River": [
+      "Brown Trout",
+      "Channel Catfish",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Cedar Lake": [
+      "Black Crappie",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Grand River (Ingham County)": [
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass"
+    ],
+    "Grand River Park Pond": [
+      "Bluegill",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Moores Impoundment (Grand River)": [
+      "Walleye"
+    ],
+    "Columbia Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Lansing": [
+      "Channel Catfish",
+      "Tiger Muskellunge"
+    ],
+    "Valhalla Pond": [
+      "Largemouth Bass"
+    ]
+  },
+  "Lake": {
+    "Big Star Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Pere Marquette River": [
+      "Atlantic Salmon",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Harper Lake": [
+      "Brown Trout",
+      "Hybrid Sunfish",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Basford Lake": [
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "Twin Lakes": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Danaher Creek": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Wolf Lake": [
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Cool Lake": [
+      "Hybrid Sunfish",
+      "Yellow Perch"
+    ],
+    "Rainbow Lake": [
+      "Hybrid Sunfish",
+      "Yellow Perch"
+    ],
+    "Loon Lake": [
+      "Hybrid Sunfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Middle Branch Pere Marquette River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Little South Branch Pere Marquette River": [
+      "Brown Trout"
+    ],
+    "Little Manistee River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Upper Baldwin River": [
+      "Brook Trout"
+    ],
+    "Baldwin River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Sand Lake": [
+      "Rainbow Trout"
+    ],
+    "Lake Olga": [
+      "Northern Pike"
+    ]
+  },
+  "Genesee": {
+    "Lake Ponemah": [
+      "Walleye"
+    ],
+    "Lake Fenton": [
+      "Walleye"
+    ],
+    "Lobdell Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Flint River": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Sturgeon"
+    ],
+    "Thread Creek": [
+      "Bluegill",
+      "Brown Trout",
+      "Largemouth Bass"
+    ],
+    "Kearsley Creek": [
+      "Brown Trout"
+    ],
+    "Black Creek": [
+      "Black Crappie",
+      "Bluegill",
+      "Golden Shiner",
+      "Largemouth Bass"
+    ],
+    "Buell Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Mott Lake": [
+      "Tiger Muskellunge",
+      "Walleye",
+      "White Bass"
+    ],
+    "Holloway Reservoir": [
+      "Largemouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Shiawassee River": [
+      "Walleye"
+    ],
+    "Kearsley Reservoir": [
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Smallmouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Thread Lake": [
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Tiger Muskellunge"
+    ],
+    "Hasler Lake": [
+      "Rainbow Trout"
+    ]
+  },
+  "Wayne": {
+    "Lake Muskoday": [
+      "Black Crappie",
+      "Channel Catfish"
+    ],
+    "Huron River": [
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Belleville (Edison) Lake": [
+      "Channel Catfish",
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Upper River Rouge": [
+      "Rainbow Trout"
+    ],
+    "Rouge River, Lower": [
+      "Hybrid Sunfish"
+    ],
+    "Middle River Rouge": [
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Rainbow Trout"
+    ],
+    "Johnson Drain": [
+      "Brown Trout"
+    ],
+    "Detroit River": [
+      "Brown Trout",
+      "Coho Salmon",
+      "Lake Sturgeon",
+      "Rainbow Trout"
+    ],
+    "Newburgh Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Pumpkinseed",
+      "Walleye"
+    ],
+    "Rouge River": [
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Largemouth Bass"
+    ],
+    "Lake Okonoka-Belle Isle Ponds": [
+      "Black Bullhead",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Silver Creek": [
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Upper Rouge Creek": [
+      "Rainbow Trout"
+    ],
+    "Maybury Pond": [
+      "Bluegill",
+      "Largemouth Bass"
+    ]
+  },
+  "Saginaw": {
+    "Cass River": [
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Sturgeon",
+      "Walleye"
+    ],
+    "Shiawassee River": [
+      "Lake Sturgeon",
+      "Walleye"
+    ],
+    "Haithco Lake": [
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Redear Sunfish"
+    ],
+    "Tittabawassee River": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass"
+    ],
+    "Saginaw River": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "South Fork Bad River": [
+      "Northern Pike"
+    ],
+    "Little Potato Creek": [
+      "Northern Pike"
+    ],
+    "Big Potato Creek": [
+      "Northern Pike"
+    ],
+    "Bad River": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Beaver Creek": [
+      "Northern Pike"
+    ]
+  },
+  "Tuscola": {
+    "Murphy Lake": [
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Muskellunge",
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Harmon Lake": [
+      "Rainbow Trout"
+    ],
+    "Caro Impoundment": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Shay Lake": [
+      "Black Crappie",
+      "Channel Catfish",
+      "Hybrid Sunfish"
+    ],
+    "Lake Huron": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Saginaw Bay": [
+      "Walleye"
+    ],
+    "Wiscoggin Drain": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "South Branch White Creek": [
+      "Brown Trout"
+    ],
+    "Cass River": [
+      "Muskellunge",
+      "Walleye"
+    ]
+  },
+  "Lapeer": {
+    "Otter Lake": [
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Lake Lapeer": [
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Northern Pike",
+      "Redear Sunfish",
+      "Smallmouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Barnes Lake": [
+      "Black Crappie",
+      "Redear Sunfish",
+      "Smallmouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Metamora": [
+      "Black Crappie",
+      "Bluegill",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Nepessing": [
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Lake Minnewanna": [
+      "Northern Pike"
+    ],
+    "Fish Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Golden Shiner",
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Cedar Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Redear Sunfish"
+    ],
+    "Long Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Muskellunge",
+      "Northern Pike",
+      "Pumpkinseed"
+    ],
+    "Twin Lake": [
+      "Bluegill",
+      "Bluntnose Minnow",
+      "Channel Catfish",
+      "Golden Shiner",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Redear Sunfish"
+    ],
+    "Pleasant Lake": [
+      "Northern Pike",
+      "Yellow Perch"
+    ],
+    "Duperow Lake": [
+      "Brook Trout",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Redear Sunfish"
+    ],
+    "Hemmingway Lake": [
+      "Black Crappie",
+      "Channel Catfish",
+      "Smallmouth Bass",
+      "Yellow Perch"
+    ],
+    "Watts Lake": [
+      "Largemouth Bass",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Redear Sunfish"
+    ],
+    "Big Fish Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "South Branch Flint River": [
+      "Brown Trout"
+    ],
+    "Algoe Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Masons Flooding": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Flint River": [
+      "Walleye"
+    ],
+    "Holloway Reservoir": [
+      "Walleye"
+    ],
+    "Greens Flooding": [
+      "Bluegill",
+      "Largemouth Bass"
+    ],
+    "Hog Back Lake": [
+      "Bluegill",
+      "Largemouth Bass"
+    ],
+    "Davison Lake": [
+      "Rainbow Trout"
+    ]
+  },
+  "Clare": {
+    "Eight Point Lake": [
+      "Black Crappie",
+      "Largemouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Clam River": [
+      "Brown Trout"
+    ],
+    "Newton Creek": [
+      "Brown Trout"
+    ],
+    "South Branch Tobacco River": [
+      "Brown Trout"
+    ],
+    "Budd Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Largemouth Bass",
+      "Muskellunge",
+      "Redear Sunfish",
+      "Smallmouth Bass",
+      "Tiger Muskellunge",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Lake Thirteen": [
+      "Black Crappie",
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Redear Sunfish",
+      "Smallmouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Arnold Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Largemouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Bertha Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Redear Sunfish",
+      "Yellow Perch"
+    ],
+    "Muskegon River": [
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Townline Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Channel Catfish",
+      "Rainbow Trout",
+      "Redear Sunfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Long Lake": [
+      "Bluegill",
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Walleye"
+    ],
+    "Crooked Lake": [
+      "Hybrid Sunfish",
+      "Northern Pike"
+    ],
+    "Little Long Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Brown Trout",
+      "Hybrid Sunfish",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Big Cranberry Lake": [
+      "Black Crappie",
+      "Largemouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Big Mud Lake": [
+      "Northern Pike"
+    ],
+    "Sutherland Lake": [
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Lake Shamrock": [
+      "Walleye"
+    ],
+    "Silver Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lake George": [
+      "Bluegill",
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Five Lakes": [
+      "Northern Pike"
+    ],
+    "Spike Horn Creek": [
+      "Brook Trout"
+    ],
+    "Shingle Lake": [
+      "Bluegill",
+      "Walleye"
+    ],
+    "Lily Lake": [
+      "Bluegill",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Yellow Perch"
+    ],
+    "Surrey Lake": [
+      "Largemouth Bass"
+    ],
+    "North Branch Tobacco River": [
+      "Brown Trout"
+    ]
+  },
+  "Muskegon": {
+    "Big Blue Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Muskegon Lake": [
+      "Muskellunge",
+      "Walleye"
+    ],
+    "Muskegon Lake Outlet": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Crockery Creek": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout",
+      "Smallmouth Bass"
+    ],
+    "Crockery Creek Tributary": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "Rio Grande Creek": [
+      "Brown Trout"
+    ],
+    "Spring Lake": [
+      "Muskellunge"
+    ],
+    "Mona Lake": [
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "White Lake": [
+      "Muskellunge",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Muskegon River": [
+      "Muskellunge",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Wolf Lake": [
+      "Walleye"
+    ],
+    "Lake Michigan": [
+      "Lake Trout"
+    ],
+    "Half Moon Lake": [
+      "Rainbow Trout"
+    ],
+    "Middle Lake": [
+      "Hybrid Sunfish"
+    ],
+    "White Lake Channel": [
+      "Brown Trout",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Smith Drain": [
+      "Brook Trout",
+      "Brown Trout"
+    ],
+    "North Branch Crockery Creek": [
+      "Brown Trout"
+    ],
+    "Muskegon Rearing Pond": [
+      "Walleye"
+    ],
+    "Norris Creek": [
+      "Brown Trout"
+    ],
+    "Browns Pond (Sand Lake)": [
+      "Brook Trout",
+      "Rainbow Trout"
+    ],
+    "North Channel Muskegon River": [
+      "Chinook Salmon",
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Black Creek": [
+      "Brook Trout"
+    ],
+    "White River": [
+      "Rainbow Trout",
+      "Walleye",
+      "White Bass"
+    ],
+    "Ovidhall Lake Creek": [
+      "Brook Trout"
+    ],
+    "Fox Lake": [
+      "Northern Pike"
+    ]
+  },
+  "Ottawa": {
+    "Lake Macatawa": [
+      "Chinook Salmon",
+      "Lake Trout",
+      "Largemouth Bass",
+      "Muskellunge",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Grand River": [
+      "Bluegill",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Lake Trout",
+      "Muskellunge",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "North Branch Crockery Creek": [
+      "Brown Trout"
+    ],
+    "Grand River (Ottawa County)": [
+      "Brown Trout"
+    ],
+    "Grand River (Grand Haven Sga)": [
+      "Muskellunge"
+    ],
+    "Crockery Lake": [
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Pigeon River": [
+      "Brown Trout"
+    ],
+    "Macatawa River": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Lake Trout",
+      "Muskellunge",
+      "Rainbow Trout",
+      "Walleye",
+      "White Bass"
+    ],
+    "Lake Michigan": [
+      "Lake Trout"
+    ],
+    "Crockery Lake Outlet": [
+      "Brown Trout"
+    ],
+    "Bosch And Hulst Drain": [
+      "Chinook Salmon"
+    ],
+    "Fennessy Lake": [
+      "Bluegill",
+      "Largemouth Bass",
+      "Walleye"
+    ],
+    "Lake Macatawa Marsh": [
+      "Muskellunge"
+    ]
+  },
+  "Kent": {
+    "Coldwater River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Pratt Lake Creek": [
+      "Brown Trout"
+    ],
+    "Buck Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Rogue River": [
+      "Brown Trout",
+      "Coho Salmon",
+      "Rainbow Trout",
+      "Smallmouth Bass"
+    ],
+    "Tyler (Bear) Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Duck Creek": [
+      "Brown Trout"
+    ],
+    "Flat River": [
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Pratt Lake": [
+      "Black Crappie",
+      "Bluegill",
+      "Northern Pike",
+      "Pumpkinseed",
+      "Walleye"
+    ],
+    "Bostwick Lake": [
+      "Hybrid Sunfish",
+      "Walleye"
+    ],
+    "Campau Lake": [
+      "Channel Catfish",
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "Wabasis Lake": [
+      "Walleye"
+    ],
+    "Grand River": [
+      "Channel Catfish",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Blue Lake": [
+      "Hybrid Sunfish",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Private Pond": [
+      "Bluegill"
+    ],
+    "Lincoln Lake": [
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Reeds Lake": [
+      "Hybrid Sunfish",
+      "Walleye"
+    ],
+    "Murray Lake": [
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "Maston Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Whistlestop Park Pond": [
+      "Hybrid Sunfish",
+      "Yellow Perch"
+    ],
+    "Lime Lake": [
+      "Rainbow Trout"
+    ],
+    "Dean Lake": [
+      "Largemouth Bass",
+      "Tiger Muskellunge"
+    ],
+    "Thornapple River -Cascade": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Brower Lake": [
+      "Black Crappie",
+      "Walleye"
+    ],
+    "Veterans Facility Pond": [
+      "Black Bullhead",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Lamberton Creek": [
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Long Lake": [
+      "Walleye"
+    ],
+    "Versluis Lake": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Ada Township Park Pond": [
+      "Black Crappie",
+      "Bluegill",
+      "Pumpkinseed",
+      "Rainbow Trout",
+      "Yellow Bullhead"
+    ],
+    "Marjella (Clear) Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Sand Lake": [
+      "Walleye"
+    ],
+    "Cowan Lake": [
+      "Hybrid Sunfish"
+    ],
+    "Big Crooked Lake": [
+      "Walleye"
+    ],
+    "Bass Lake": [
+      "Walleye"
+    ],
+    "Comstock Park Pond": [
+      "Black Crappie",
+      "Bluegill",
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Battjes Pond": [
+      "Black Crappie",
+      "Bluegill",
+      "Brown Trout",
+      "Largemouth Bass",
+      "Rainbow Trout"
+    ],
+    "Silver Lake": [
+      "Walleye"
+    ],
+    "Dwight (Lydell) Pond": [
+      "Black Crappie",
+      "Bluegill"
+    ],
+    "John Ball Park Ponds": [
+      "Black Bullhead",
+      "Black Crappie",
+      "Bluegill",
+      "Pumpkinseed"
+    ],
+    "Big Pine Island Lake": [
+      "Walleye"
+    ],
+    "Cascade Impoundment": [
+      "Coho Salmon"
+    ],
+    "Richmond Park Pond": [
+      "Black Bullhead",
+      "Black Crappie",
+      "Bluegill",
+      "Pumpkinseed"
+    ],
+    "Quiggle (Dove) Lake": [
+      "Rainbow Trout"
+    ],
+    "Mill Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Little Pine Island Lake": [
+      "Walleye"
+    ],
+    "Strawberry Creek": [
+      "Brook Trout"
+    ],
+    "Cedar Creek": [
+      "Rainbow Trout"
+    ]
+  },
+  "Washtenaw": {
+    "Mill Creek": [
+      "Brown Trout"
+    ],
+    "Portage Lake": [
+      "Channel Catfish",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Geddes Pond": [
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Tiger Muskellunge"
+    ],
+    "Barton Pond": [
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Smallmouth Bass",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Cavanaugh Lake": [
+      "Hybrid Sunfish"
+    ],
+    "Johnson Drain": [
+      "Brown Trout"
+    ],
+    "Gorman Lake": [
+      "Bluegill",
+      "Largemouth Bass"
+    ],
+    "Ford Lake": [
+      "Bluegill",
+      "Channel Catfish",
+      "Northern Pike",
+      "Tiger Muskellunge",
+      "Walleye"
+    ],
+    "Pickerel Lake": [
+      "Rainbow Trout"
+    ],
+    "Argo Pond": [
+      "Channel Catfish"
+    ],
+    "Halfmoon Lake": [
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Joslin Lake": [
+      "Redear Sunfish"
+    ],
+    "South Lake": [
+      "Rainbow Trout",
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Paint Creek": [
+      "Brown Trout"
+    ],
+    "Silver Lake": [
+      "Redear Sunfish",
+      "Tiger Muskellunge"
+    ],
+    "Whitmore Lake": [
+      "Redear Sunfish",
+      "Tiger Muskellunge"
+    ],
+    "North Lake": [
+      "Redear Sunfish"
+    ],
+    "Fourmile Lake": [
+      "Northern Pike",
+      "Redear Sunfish"
+    ],
+    "Independence Lake": [
+      "Redear Sunfish"
+    ],
+    "Bruin Lake": [
+      "Redear Sunfish"
+    ],
+    "Mill Lake": [
+      "Redear Sunfish"
+    ],
+    "Sylvan Pond-Upper": [
+      "Rainbow Trout"
+    ],
+    "Arms Creek": [
+      "Brown Trout"
+    ],
+    "Saline Pond": [
+      "Black Crappie",
+      "Channel Catfish",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Rock Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Winnewana Impoundment": [
+      "Bluegill",
+      "Largemouth Bass"
+    ],
+    "Saline River": [
+      "Smallmouth Bass"
+    ],
+    "Blind Lake": [
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Sylvan Pond-Middle": [
+      "Rainbow Trout"
+    ],
+    "Superior Pond": [
+      "Tiger Muskellunge"
+    ],
+    "Papermill Pond": [
+      "Tiger Muskellunge"
+    ]
+  },
+  "Isabella": {
+    "Pine River": [
+      "Brook Trout",
+      "Brown Trout",
+      "Walleye"
+    ],
+    "Chippewa River": [
+      "Chinook Salmon",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Lake Isabella": [
+      "Redear Sunfish",
+      "Walleye"
+    ],
+    "Littlefield Lake": [
+      "Brown Trout",
+      "Lake Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Coldwater Lake": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Lake Of The Hills": [
+      "Black Crappie",
+      "Channel Catfish",
+      "Walleye"
+    ],
+    "Herrick Pond South": [
+      "Brown Trout",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Herrick Swimming Pond": [
+      "Largemouth Bass"
+    ],
+    "Herrick Pond North": [
+      "Bluegill",
+      "Largemouth Bass"
+    ],
+    "Weidman Pond": [
+      "Largemouth Bass",
+      "Northern Pike",
+      "Yellow Perch"
+    ],
+    "Halls Lake": [
+      "Channel Catfish",
+      "Northern Pike"
+    ],
+    "South Branch Pine River": [
+      "Brown Trout"
+    ],
+    "Johnson Creek": [
+      "Brook Trout"
+    ],
+    "Woodruff Lake": [
+      "Largemouth Bass"
+    ],
+    "North Branch Pine River": [
+      "Brook Trout"
+    ]
+  },
+  "Huron": {
+    "Lake Huron": [
+      "Brook Trout",
+      "Brown Trout",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Rainbow Trout",
+      "Splake",
+      "Walleye"
+    ],
+    "Pigeon River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Pinnebog River": [
+      "Northern Pike",
+      "Rainbow Trout",
+      "Splake"
+    ],
+    "Sebewaing River": [
+      "Walleye"
+    ],
+    "Rock Falls Creek": [
+      "Rainbow Trout"
+    ]
+  },
+  "Gladwin": {
+    "North Branch Cedar River": [
+      "Brown Trout"
+    ],
+    "Lake Lancer": [
+      "Walleye"
+    ],
+    "Wiggins Lake": [
+      "Bluegill",
+      "Channel Catfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Walleye",
+      "White Bass",
+      "Yellow Perch"
+    ],
+    "Pratt Lake": [
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Blue Lake": [
+      "Black Crappie",
+      "Hybrid Sunfish",
+      "Rainbow Trout",
+      "Yellow Perch"
+    ],
+    "Secord Lake": [
+      "Muskellunge",
+      "Northern Pike",
+      "Walleye",
+      "White Bass"
+    ],
+    "Hoister Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Smallwood Lake": [
+      "Muskellunge",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Wixom Lake": [
+      "Muskellunge",
+      "Walleye"
+    ],
+    "Ross Lake": [
+      "Muskellunge",
+      "Walleye",
+      "White Bass"
+    ],
+    "South Branch Tobacco River": [
+      "Brown Trout"
+    ],
+    "Elk Lake": [
+      "Yellow Perch"
+    ],
+    "Trout Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Lake Four": [
+      "Walleye"
+    ],
+    "Lake Lancelot": [
+      "Walleye"
+    ],
+    "House Lake": [
+      "Hybrid Sunfish",
+      "Largemouth Bass"
+    ],
+    "Cedar River": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Kerswill Lake": [
+      "Hybrid Sunfish",
+      "Walleye"
+    ]
+  },
+  "Macomb": {
+    "Clinton River": [
+      "Brown Trout",
+      "Chinook Salmon",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Stony Creek Lake": [
+      "Bluegill",
+      "Channel Catfish",
+      "Northern Pike",
+      "Walleye"
+    ],
+    "East Pond Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "North Branch Clinton River": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Stony Creek": [
+      "Brown Trout"
+    ],
+    "Salt River": [
+      "Walleye"
+    ]
+  },
+  "Kalamazoo": {
+    "Augusta Creek": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Portage Creek": [
+      "Brown Trout"
+    ],
+    "Sand Creek": [
+      "Brown Trout"
+    ],
+    "Little Paw Paw Lake": [
+      "Rainbow Trout"
+    ],
+    "Austin Lake": [
+      "Muskellunge",
+      "Northern Pike",
+      "Tiger Muskellunge"
+    ],
+    "Eagle Lake": [
+      "Muskellunge",
+      "Northern Pike"
+    ],
+    "Gull Lake": [
+      "Lake Trout",
+      "Rainbow Trout"
+    ],
+    "Morrow Lake": [
+      "Channel Catfish",
+      "Walleye"
+    ],
+    "Stony Lake": [
+      "Bluegill",
+      "Largemouth Bass",
+      "Yellow Perch"
+    ],
+    "Kalamazoo River": [
+      "Channel Catfish",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
+    "Ruppert Lake": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Kellogg Forest Pond": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Twin Lakes": [
+      "Channel Catfish"
+    ],
+    "Unnamed Tributary To Kalamazoo River": [
+      "Brown Trout"
+    ],
+    "Three Lakes-West Lake": [
+      "Rainbow Trout"
+    ],
+    "Three Lakes-Middle Lake": [
+      "Rainbow Trout"
+    ],
+    "Le Fevre Lake": [
+      "Rainbow Trout"
+    ],
+    "Allen Creek": [
+      "Brook Trout"
+    ],
+    "Indian Lake": [
+      "Walleye"
+    ],
+    "Hampton Lake": [
+      "Rainbow Trout"
+    ]
+  },
+  "Midland": {
+    "Tittabawassee River": [
+      "Coho Salmon",
+      "Lake Sturgeon",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Sanford Lake": [
+      "Bluegill",
+      "Channel Catfish",
+      "Muskellunge",
+      "Northern Pike",
+      "Pumpkinseed",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Mcv Pond": [
+      "Walleye"
+    ],
+    "Chippewa River": [
+      "Rainbow Trout"
+    ]
+  },
+  "Shiawassee": {
+    "Hopkins Lake": [
+      "Bluegill",
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Northern Pike",
+      "Redear Sunfish",
+      "Yellow Perch"
+    ],
+    "Shiawassee River": [
+      "Walleye"
+    ],
+    "Byron Mill Pond": [
+      "Walleye"
+    ]
+  },
+  "Gratiot": {
+    "Rainbow Lake": [
+      "Hybrid Sunfish",
+      "Largemouth Bass",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Alma Impoundment": [
+      "Channel Catfish"
+    ],
+    "Pine River": [
+      "Brown Trout",
+      "Rainbow Trout"
+    ],
+    "Maple River": [
+      "Channel Catfish",
+      "Walleye"
+    ],
+    "Grove Road Rearing Pond": [
+      "Walleye"
+    ]
+  },
+  "Monroe": {
+    "Plum Creek": [
+      "Largemouth Bass",
+      "Northern Pike",
+      "Walleye",
+      "Yellow Perch"
+    ],
+    "Stony Creek": [
+      "Rainbow Trout"
+    ],
+    "Swan Creek": [
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Otter Creek": [
+      "Largemouth Bass",
+      "Northern Pike"
+    ],
+    "Lake Erie": [
+      "Northern Pike"
+    ],
+    "River Raisin": [
+      "Walleye"
+    ]
+  },
+  "Arenac": {
+    "Whitney Drain": [
+      "Atlantic Salmon",
+      "Brown Trout",
+      "Coho Salmon",
+      "Rainbow Trout"
+    ],
+    "Au Gres River": [
+      "Chinook Salmon",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Forest Lake": [
+      "Hybrid Sunfish",
+      "Walleye"
+    ],
+    "Rifle River": [
+      "Brown Trout",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Saginaw Bay": [
+      "Walleye"
+    ],
+    "Pine River": [
+      "Walleye"
+    ],
+    "Lake Huron": [
+      "Brown Trout",
+      "Lake Trout",
+      "Northern Pike",
+      "Rainbow Trout",
+      "Walleye"
+    ],
+    "Au Gres Rearing Pond": [
+      "Walleye"
+    ]
+  },
+  "Bay": {
+    "Tobico Lagoon": [
+      "Hybrid Sunfish"
+    ],
+    "Lake Huron": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Pinconning River": [
+      "Walleye"
+    ],
+    "Kawkawlin River": [
+      "Northern Pike",
+      "Walleye"
+    ],
+    "Auburn Rearing Pond - East": [
+      "Walleye"
+    ]
+  }
+}

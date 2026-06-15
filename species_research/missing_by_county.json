@@ -1,0 +1,5928 @@
+{
+  "Alger": [
+    {
+      "name": "Bette\u2019s Pond",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Sable Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Sucker River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Sucker River"
+    },
+    {
+      "name": "Anna River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Anna River (Michigan)"
+    },
+    {
+      "name": "Au Train Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Au Train Bay"
+    },
+    {
+      "name": "Au Train River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Au Train River"
+    },
+    {
+      "name": "Blue Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Blue Lake (Michigan)"
+    },
+    {
+      "name": "Corner-Straits Chain of lakes",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Corner-Straits Chain of lakes"
+    },
+    {
+      "name": "Hurricane River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Hurricane River"
+    },
+    {
+      "name": "Indian River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Indian River (Manistique River tributary)"
+    },
+    {
+      "name": "Laughing Whitefish River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Laughing Whitefish River"
+    },
+    {
+      "name": "Little Indian River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Indian River (Michigan)"
+    },
+    {
+      "name": "Manistique River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Manistique River"
+    },
+    {
+      "name": "Miners River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Miners River"
+    },
+    {
+      "name": "Mosquito River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Mosquito River (Michigan)"
+    },
+    {
+      "name": "Ostrander Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Ostrander Lake (Michigan)"
+    },
+    {
+      "name": "Rock River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rock River (Lake Superior)"
+    },
+    {
+      "name": "Sand River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Sand River (Michigan)"
+    },
+    {
+      "name": "Sturgeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Sturgeon River (Delta County, Michigan)"
+    },
+    {
+      "name": "Toms Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Toms Lake"
+    },
+    {
+      "name": "West Branch Manistique River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "West Branch Manistique River"
+    },
+    {
+      "name": "Whitefish River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Whitefish River (Michigan)"
+    }
+  ],
+  "Allegan": [
+    {
+      "name": "Irwin Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Kay\u2019s Pond",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (Southwest Michigan)"
+    },
+    {
+      "name": "Buck Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Buck Creek (Kent County, Michigan)"
+    },
+    {
+      "name": "Goshorn Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Goshorn Lake"
+    },
+    {
+      "name": "Gun Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Gun Lake (Michigan)"
+    },
+    {
+      "name": "Gun River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Gun River"
+    },
+    {
+      "name": "Kalamazoo River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Kalamazoo River"
+    },
+    {
+      "name": "Lake Allegan",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Allegan"
+    },
+    {
+      "name": "Little Rabbit River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Rabbit River"
+    },
+    {
+      "name": "Macatawa River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Macatawa River"
+    },
+    {
+      "name": "Rabbit River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rabbit River (Michigan)"
+    }
+  ],
+  "Kalamazoo": [
+    {
+      "name": "North (Upper) Shoe Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Rock River Pond",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Little Paw Paw Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Black River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Gun River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Middle Branch Black River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Elk River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Elk River Bypass",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Grass River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Intermediate River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Jordan River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Duck Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Duck Lake (Kalamazoo County)"
+    },
+    {
+      "name": "Gull Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Gull Lake (Michigan)"
+    },
+    {
+      "name": "Kalamazoo River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Kalamazoo River"
+    },
+    {
+      "name": "Nottawa Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Nottawa Creek"
+    },
+    {
+      "name": "Portage River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Portage River (Kalamazoo\u2013St. Joseph counties)"
+    },
+    {
+      "name": "Rocky River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rocky River (Michigan)"
+    },
+    {
+      "name": "St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Joseph River (Lake Michigan)"
+    }
+  ],
+  "Bay": [
+    {
+      "name": "Betsie Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Crystal Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Saginaw River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Saginaw River"
+    },
+    {
+      "name": "Ravine River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Betsie River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Kawkawlin River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Kawkawlin River"
+    },
+    {
+      "name": "Pinconning River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pinconning River"
+    },
+    {
+      "name": "Saganing River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Saganing River"
+    },
+    {
+      "name": "Saginaw Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Saginaw Bay"
+    }
+  ],
+  "Barry": [
+    {
+      "name": "Birch Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Harwood Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Hemlock Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "South Branch Rice Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Nottawa Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Curtis Creek and Tributaries",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Coldwater River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Coldwater River (Western Michigan)"
+    },
+    {
+      "name": "Gun River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Gun River"
+    },
+    {
+      "name": "Little Thornapple River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Thornapple River (Coldwater River tributary)"
+    },
+    {
+      "name": "Thornapple River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Thornapple River"
+    }
+  ],
+  "Charlevoix": [
+    {
+      "name": "Lake Charlevoix (including Round",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Galien River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Bear River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Bear River (Michigan)"
+    },
+    {
+      "name": "Boyne River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Boyne River (Michigan)"
+    },
+    {
+      "name": "Elk River Chain of Lakes Watershed",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Elk River Chain of Lakes Watershed"
+    },
+    {
+      "name": "Grand Traverse Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand Traverse Bay"
+    },
+    {
+      "name": "Jordan River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Jordan River (Beaver Island)"
+    },
+    {
+      "name": "Jordan River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Jordan River (Michigan)"
+    },
+    {
+      "name": "Little Traverse Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Traverse Bay"
+    },
+    {
+      "name": "North Branch Boyne River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "North Branch Boyne River"
+    },
+    {
+      "name": "South Branch Boyne River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "South Branch Boyne River"
+    },
+    {
+      "name": "St. Clair Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Clair Lake (Michigan)"
+    },
+    {
+      "name": "Sturgeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Sturgeon River (Cheboygan County, Michigan)"
+    }
+  ],
+  "Lake": [
+    {
+      "name": "Naomikong Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Naomikong Pond",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Madelyn Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Big Glen Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "North Lake Leelanau",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pentwater Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Center Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Albany Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Carp River, Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Jordan River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Halfaday Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pendill\u2019s Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Pine River (Manistee River tributary)"
+    },
+    {
+      "name": "Days River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Escanaba River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Carp Lake River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Ford River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Maple River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Rapid River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Sturgeon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "North Branch Cedar River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pinnebog River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Crystal River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "West Branch Ontonagon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Baldwin River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Baldwin River (Michigan)"
+    },
+    {
+      "name": "Little Manistee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Manistee River"
+    },
+    {
+      "name": "Pere Marquette River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pere Marquette River"
+    }
+  ],
+  "Cheboygan": [
+    {
+      "name": "Bright Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Kneff Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Shupac Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Maple River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Maple River (Burt Lake)"
+    },
+    {
+      "name": "Au Sable River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Au Sable River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Au Sable River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Manistee River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (Cheboygan County)"
+    },
+    {
+      "name": "Canada Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Canada Creek (Michigan)"
+    },
+    {
+      "name": "Cheboygan River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Cheboygan River"
+    },
+    {
+      "name": "Crooked River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Crooked River (Michigan)"
+    },
+    {
+      "name": "Indian River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Indian River (Mullett Lake)"
+    },
+    {
+      "name": "Inland Waterway",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Inland Waterway (Michigan)"
+    },
+    {
+      "name": "Little Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Black River (Cheboygan County)"
+    },
+    {
+      "name": "Little Carp River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Carp River (Cheboygan County)"
+    },
+    {
+      "name": "Little Pigeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Pigeon River (Cheboygan County)"
+    },
+    {
+      "name": "Little Pigeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Pigeon River (Mullett Lake)"
+    },
+    {
+      "name": "Little Sturgeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Sturgeon River"
+    },
+    {
+      "name": "Pigeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pigeon River (Mullett Lake)"
+    },
+    {
+      "name": "Straits of Mackinac",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Straits of Mackinac"
+    },
+    {
+      "name": "Sturgeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Sturgeon River (Cheboygan County, Michigan)"
+    }
+  ],
+  "Delta": [
+    {
+      "name": "Bear Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Bark River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Bark River (Michigan)"
+    },
+    {
+      "name": "Big Bay de Noc",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Big Bay de Noc"
+    },
+    {
+      "name": "Big River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Big River (Michigan)"
+    },
+    {
+      "name": "Corner-Straits Chain of lakes",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Corner-Straits Chain of lakes"
+    },
+    {
+      "name": "Days River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Days River"
+    },
+    {
+      "name": "Escanaba River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Escanaba River"
+    },
+    {
+      "name": "Fishdam River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Fishdam River"
+    },
+    {
+      "name": "Ford River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Ford River (Michigan)"
+    },
+    {
+      "name": "Green Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Green Bay (Lake Michigan)"
+    },
+    {
+      "name": "Hugaboom Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Hugaboom Lake"
+    },
+    {
+      "name": "Little Bay de Noc",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Bay de Noc"
+    },
+    {
+      "name": "Little Fishdam River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Fishdam River"
+    },
+    {
+      "name": "Little River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little River (Big Bay de Noc)"
+    },
+    {
+      "name": "Manistique River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Manistique River"
+    },
+    {
+      "name": "Moss Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Moss Lake (Delta County, Michigan)"
+    },
+    {
+      "name": "Mowe Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Mowe Lake"
+    },
+    {
+      "name": "Ostrander Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Ostrander Lake (Michigan)"
+    },
+    {
+      "name": "Rapid River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rapid River (Delta County, Michigan)"
+    },
+    {
+      "name": "Round Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Round Lake (Alger and Delta Counties, Michigan)"
+    },
+    {
+      "name": "Stoner Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Stoner Lake"
+    },
+    {
+      "name": "Sturgeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Sturgeon River (Delta County, Michigan)"
+    },
+    {
+      "name": "Tacoosh River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tacoosh River"
+    },
+    {
+      "name": "Toms Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Toms Lake"
+    },
+    {
+      "name": "Whitefish River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Whitefish River (Michigan)"
+    }
+  ],
+  "Eaton": [
+    {
+      "name": "Carr Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Wintergreen Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Zigmaul Pond",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Walloon Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Sebewa Creek and Tributaries",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Bark River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Bear River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Battle Creek River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Battle Creek River"
+    },
+    {
+      "name": "Devils Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Devils Lake (Michigan)"
+    },
+    {
+      "name": "Grand River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand River (Michigan)"
+    },
+    {
+      "name": "Lake Delta",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Delta"
+    },
+    {
+      "name": "Lake Interstate",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Interstate"
+    },
+    {
+      "name": "Little Thornapple River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Thornapple River (Eaton County)"
+    },
+    {
+      "name": "Thornapple River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Thornapple River"
+    }
+  ],
+  "Ontonagon": [
+    {
+      "name": "Clear Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Penegor Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Perrault Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Maple Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Big Traverse River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Middle Branch Ontonagon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "East Branch Ontonagon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Omans Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Elm River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Union River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "West Branch Big Iron River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Baltimore River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Baltimore River"
+    },
+    {
+      "name": "Big Iron River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Big Iron River"
+    },
+    {
+      "name": "Carp River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Carp River (Gogebic\u2013Ontonagon counties)"
+    },
+    {
+      "name": "Choate Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Choate Creek"
+    },
+    {
+      "name": "Corpse Pond",
+      "kind": "pond",
+      "source": "wikipedia",
+      "wikipedia_title": "Corpse Pond"
+    },
+    {
+      "name": "Cranberry River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Cranberry River (Michigan)"
+    },
+    {
+      "name": "East Sleeping River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "East Sleeping River"
+    },
+    {
+      "name": "Firesteel River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Firesteel River (Michigan)"
+    },
+    {
+      "name": "Flintsteel River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Flintsteel River"
+    },
+    {
+      "name": "Floodwood River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Floodwood River (Michigan)"
+    },
+    {
+      "name": "Little Carp River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Carp River (Gogebic-Ontonagon counties)"
+    },
+    {
+      "name": "Little Iron River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Iron River"
+    },
+    {
+      "name": "Little Misery River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Misery River"
+    },
+    {
+      "name": "Maple Leaf Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Maple Leaf Creek"
+    },
+    {
+      "name": "Mineral River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Mineral River"
+    },
+    {
+      "name": "Misery Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Misery Bay (Michigan)"
+    },
+    {
+      "name": "Misery River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Misery River"
+    },
+    {
+      "name": "Ontonagon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Ontonagon River"
+    },
+    {
+      "name": "Potato River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Potato River (Michigan)"
+    },
+    {
+      "name": "Rapid River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rapid River (Ontonagon County, Michigan)"
+    },
+    {
+      "name": "West Sleeping River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "West Sleeping River"
+    }
+  ],
+  "Huron": [
+    {
+      "name": "Fortune Pond",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Golden Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Killdeer Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Bird Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pigeon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Pigeon River (Huron County, Michigan)"
+    },
+    {
+      "name": "Muskegon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Cass River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Cass River (Michigan)"
+    },
+    {
+      "name": "Little Pigeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Pigeon River (Huron County)"
+    },
+    {
+      "name": "New River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "New River (Michigan)"
+    },
+    {
+      "name": "Pinnebog River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pinnebog River"
+    },
+    {
+      "name": "Saginaw Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Saginaw Bay"
+    },
+    {
+      "name": "White River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "White River (Huron County, Michigan)"
+    }
+  ],
+  "Ionia": [
+    {
+      "name": "Spree Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Timber Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Prairie Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Cooks Run",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Paint River, South Branch",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Flat River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Flat River (Michigan)"
+    },
+    {
+      "name": "Grand River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand River (Michigan)"
+    },
+    {
+      "name": "Looking Glass River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Looking Glass River"
+    },
+    {
+      "name": "Maple River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Maple River (Grand River tributary)"
+    },
+    {
+      "name": "Thornapple River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Thornapple River"
+    }
+  ],
+  "Keweenaw": [
+    {
+      "name": "Lost Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pere Marquette River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pere Marquette River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Big Siskiwit River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Big Siskiwit River"
+    },
+    {
+      "name": "Eagle River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Eagle River (Michigan)"
+    },
+    {
+      "name": "Grand Traverse Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand Traverse Bay (Lake Superior)"
+    },
+    {
+      "name": "Gratiot River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Gratiot River"
+    },
+    {
+      "name": "Little Gratiot River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Gratiot River"
+    },
+    {
+      "name": "Little Siskiwit River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Siskiwit River"
+    },
+    {
+      "name": "Montreal River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Montreal River (Michigan)"
+    },
+    {
+      "name": "Silver River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Silver River (Keweenaw County)"
+    },
+    {
+      "name": "Siskiwit Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Siskiwit Lake (Isle Royale)"
+    },
+    {
+      "name": "Tobacco River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tobacco River (Keweenaw County, Michigan)"
+    },
+    {
+      "name": "Trap Rock River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Trap Rock River"
+    },
+    {
+      "name": "Traverse River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Traverse River"
+    }
+  ],
+  "Luce": [
+    {
+      "name": "Bullhead Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Little Whorl Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Milakokia River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Millecoquins River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Betsy Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Betsy Lake (Luce County, Michigan)"
+    },
+    {
+      "name": "Blind Sucker River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Blind Sucker River"
+    },
+    {
+      "name": "Carp River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Carp River (Luce County, Michigan)"
+    },
+    {
+      "name": "Little Two Hearted River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Two Hearted River"
+    },
+    {
+      "name": "Manistique River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Manistique River"
+    },
+    {
+      "name": "Shelldrake River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Shelldrake River"
+    },
+    {
+      "name": "Tahquamenon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tahquamenon River"
+    },
+    {
+      "name": "Two Hearted River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Two Hearted River"
+    }
+  ],
+  "Macomb": [
+    {
+      "name": "Moon Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pratt Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Belle River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Belle River (Michigan)"
+    },
+    {
+      "name": "Anchor Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Anchor Bay (Michigan)"
+    },
+    {
+      "name": "Clinton River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Clinton River (Michigan)"
+    },
+    {
+      "name": "Lake St. Clair",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake St. Clair"
+    },
+    {
+      "name": "Milk River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Milk River (Michigan)"
+    },
+    {
+      "name": "Salt River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Salt River (Michigan)"
+    },
+    {
+      "name": "St. Clair River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Clair River"
+    }
+  ],
+  "Clinton": [
+    {
+      "name": "Pretty Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Syphon Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Tank Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Trout Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "North Branch Clinton River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Grand River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand River (Michigan)"
+    },
+    {
+      "name": "Little Maple River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Maple River"
+    },
+    {
+      "name": "Looking Glass River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Looking Glass River"
+    },
+    {
+      "name": "Maple River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Maple River (Grand River tributary)"
+    },
+    {
+      "name": "Pine Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Pine Creek (Maple River tributary)"
+    }
+  ],
+  "Manistee": [
+    {
+      "name": "Arcadia Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": "Arcadia Lake (Michigan)"
+    },
+    {
+      "name": "Cranberry Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Forestville Basin",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Island Lake (T45N, R30W, S14)",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Just Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Lake Arfelin",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Little Brocky Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Little Shag Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Moccasin Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Perch Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Rockingchair Lake, North",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Rockingchair Lake, South",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Silver Lake Basin",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Slough Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "South Kidney Lake (T45N, R26W, S28)",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Sporley Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Strawberry Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Swanzy Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Duck Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Torch River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Shalda Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pere Marquette River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Blind Sucker River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Manistee River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Manistee River"
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Pine River (Manistee River tributary)"
+    },
+    {
+      "name": "Big Garlic River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Big Sable River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Big Huron River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Big South Branch Pere Marquette River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Carp River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Lincoln River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Chocolay River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Little Manistee River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Harlow Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Saginaw River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Tittabawassee River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pigeon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Bear Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Bear Creek (Michigan)"
+    },
+    {
+      "name": "Betsie River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Betsie River"
+    },
+    {
+      "name": "Lake Michigan",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Michigan"
+    }
+  ],
+  "Mecosta": [
+    {
+      "name": "Marl Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Chippewa River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Chippewa River (Michigan)"
+    },
+    {
+      "name": "Muskegon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Muskegon River"
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pine River (Chippewa River tributary)"
+    }
+  ],
+  "Newaygo": [
+    {
+      "name": "Stony Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Big South Branch Pere Marquette River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Little Muskegon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Little Muskegon River"
+    },
+    {
+      "name": "Firesteel River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Little Iron River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "North Branch White River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Middle Branch Ontonagon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Middle Branch Ontonagon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Misery River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pentwater River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Devils Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Devils Lake (Michigan)"
+    },
+    {
+      "name": "Muskegon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Muskegon River"
+    },
+    {
+      "name": "Pere Marquette River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pere Marquette River"
+    },
+    {
+      "name": "Rogue River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rogue River (Michigan)"
+    },
+    {
+      "name": "Rollway Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Rollway Lake"
+    },
+    {
+      "name": "White River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "White River (White Lake)"
+    }
+  ],
+  "Muskegon": [
+    {
+      "name": "Trout Creek Pond",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Fish Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Rogue River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Big Iron River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "East Branch Ontonagon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "East Sleeping River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Au Sable River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "North Branch Crockery Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Au Sable River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Sand Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Au Sable River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Duck Lake State Park",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Duck Lake State Park"
+    },
+    {
+      "name": "Lake Michigan",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Michigan"
+    },
+    {
+      "name": "Muskegon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Muskegon River"
+    },
+    {
+      "name": "White River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "White River (White Lake)"
+    }
+  ],
+  "Oscoda": [
+    {
+      "name": "Lake Macatawa",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pigeon Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Au Sable River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Crockery Creek Mainstream",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Au Sable River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Au Sable River (Michigan)"
+    },
+    {
+      "name": "Thunder Bay River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Thunder Bay River"
+    }
+  ],
+  "Schoolcraft": [
+    {
+      "name": "Shafer Lake",
+      "kind": "lake",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Black River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Brush Creek (except Reynolds Lake",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Dowagiac River (including Dowagiac",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pine Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "South Branch of the Black River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Corner-Straits Chain of lakes",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Corner-Straits Chain of lakes"
+    },
+    {
+      "name": "Creighton River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Creighton River"
+    },
+    {
+      "name": "Driggs River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Driggs River"
+    },
+    {
+      "name": "Fox River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Fox River (Michigan)"
+    },
+    {
+      "name": "Indian River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Indian River (Manistique River tributary)"
+    },
+    {
+      "name": "Kitch-iti-kipi",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Kitch-iti-kipi"
+    },
+    {
+      "name": "Lake Nineteen",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Nineteen"
+    },
+    {
+      "name": "Little Indian River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Indian River (Michigan)"
+    },
+    {
+      "name": "Manistique River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Manistique River"
+    },
+    {
+      "name": "Ostrander Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Ostrander Lake (Michigan)"
+    },
+    {
+      "name": "Toms Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Toms Lake"
+    },
+    {
+      "name": "Verdant Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Verdant Lake"
+    },
+    {
+      "name": "West Branch Manistique River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "West Branch Manistique River"
+    }
+  ],
+  "Alcona": [
+    {
+      "name": "Anna River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Au Train River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Hurricane River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Laughing Whitefish River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Miner\u2019s River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Au Sable River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Au Sable River (Michigan)"
+    },
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (Alcona County)"
+    },
+    {
+      "name": "Devils River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Devils River (Michigan)"
+    }
+  ],
+  "Alpena": [
+    {
+      "name": "Devils River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Devils River (Michigan)"
+    },
+    {
+      "name": "Long Lake Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Thunder Bay River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Thunder Bay River"
+    },
+    {
+      "name": "Devils Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Devils Lake (Michigan)"
+    },
+    {
+      "name": "Fletcher Pond",
+      "kind": "pond",
+      "source": "wikipedia",
+      "wikipedia_title": "Fletcher Pond"
+    },
+    {
+      "name": "Thunder Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Thunder Bay (Michigan)"
+    }
+  ],
+  "Arenac": [
+    {
+      "name": "Augusta Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "East Branch Au Gres River (Whitney",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Bassett Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Rifle River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Rifle River"
+    },
+    {
+      "name": "Coldwater River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Au Gres River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Au Gres River"
+    },
+    {
+      "name": "Saganing River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Saganing River"
+    },
+    {
+      "name": "Saginaw Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Saginaw Bay"
+    }
+  ],
+  "Baraga": [
+    {
+      "name": "Coldwater River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Turner Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Falls River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Falls River (Michigan)"
+    },
+    {
+      "name": "Huron Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Huron Bay"
+    },
+    {
+      "name": "Huron River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Huron River (northern Michigan)"
+    },
+    {
+      "name": "Keweenaw Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Keweenaw Bay"
+    },
+    {
+      "name": "L'Anse Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "L'Anse Bay"
+    },
+    {
+      "name": "Little Carp River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Carp River (Baraga County)"
+    },
+    {
+      "name": "Mitchigan River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Mitchigan River"
+    },
+    {
+      "name": "Murphy River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Murphy River"
+    },
+    {
+      "name": "Net River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Net River"
+    },
+    {
+      "name": "Perch River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Perch River"
+    },
+    {
+      "name": "Ravine River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Ravine River (Michigan)"
+    },
+    {
+      "name": "Rock River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rock River (Sturgeon River tributary)"
+    },
+    {
+      "name": "Silver River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Silver River (Baraga County)"
+    },
+    {
+      "name": "Silver River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Silver River (Baraga\u2013Houghton counties)"
+    },
+    {
+      "name": "Spurr River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Spurr River"
+    },
+    {
+      "name": "Sturgeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Sturgeon River (Houghton County, Michigan)"
+    },
+    {
+      "name": "Tioga River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tioga River (Michigan)"
+    },
+    {
+      "name": "Vermilac River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Vermilac River"
+    }
+  ],
+  "Berrien": [
+    {
+      "name": "Mill Creek and Tributaries",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Blue Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": "Blue Creek (Michigan)"
+    },
+    {
+      "name": "Dowagiac River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Dowagiac River"
+    },
+    {
+      "name": "Blue Jay Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Blue Jay Creek (Michigan)"
+    },
+    {
+      "name": "Boyle Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Boyle Lake"
+    },
+    {
+      "name": "Brandywine Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Brandywine Creek (St. Joseph River tributary)"
+    },
+    {
+      "name": "Brush Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Brush Lake (Berrien County, Michigan)"
+    },
+    {
+      "name": "Colvin Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Colvin Lake (Michigan)"
+    },
+    {
+      "name": "Coveney Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Coveney Lake"
+    },
+    {
+      "name": "Deer Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Deer Creek (South Branch Galien River tributary)"
+    },
+    {
+      "name": "Farmers Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Farmers Creek (Michigan)"
+    },
+    {
+      "name": "Galena River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Galena River (Indiana)"
+    },
+    {
+      "name": "Galien River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Galien River"
+    },
+    {
+      "name": "Garwood Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Garwood Lake"
+    },
+    {
+      "name": "Half Moon Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Half Moon Lake (Berrien County, Michigan)"
+    },
+    {
+      "name": "Harris Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Harris Lake (Berrien County, Michigan)"
+    },
+    {
+      "name": "Hickory Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Hickory Creek (St. Joseph River tributary)"
+    },
+    {
+      "name": "Jarvis Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Jarvis Lake"
+    },
+    {
+      "name": "Judy Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Judy Lake"
+    },
+    {
+      "name": "Klutes Lakes",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Klutes Lakes"
+    },
+    {
+      "name": "Lake Michigan",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Michigan"
+    },
+    {
+      "name": "Lemon Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Lemon Creek (St. Joseph River tributary)"
+    },
+    {
+      "name": "Little Indian Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Indian Lake (Berrien County, Michigan)"
+    },
+    {
+      "name": "Madron Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Madron Lake"
+    },
+    {
+      "name": "McCoy Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "McCoy Creek (Michigan)"
+    },
+    {
+      "name": "Mill Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Mill Creek (Paw Paw River tributary)"
+    },
+    {
+      "name": "Moon Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Moon Lake (Berrien County, Michigan)"
+    },
+    {
+      "name": "Murphy Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Murphy Lake (Berrien County, Michigan)"
+    },
+    {
+      "name": "Ox Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Ox Creek"
+    },
+    {
+      "name": "Paw Paw River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Paw Paw River"
+    },
+    {
+      "name": "Riggins Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Riggins Lake"
+    },
+    {
+      "name": "Round Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Round Lake (Berrien County, Michigan)"
+    },
+    {
+      "name": "Rowe Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Rowe Lake"
+    },
+    {
+      "name": "School Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "School Lake (Berrien County, Michigan)"
+    },
+    {
+      "name": "Sherwood Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Sherwood Lake (Berrien County, Michigan)"
+    },
+    {
+      "name": "Smith Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Smith Lake (Berrien County, Michigan)"
+    },
+    {
+      "name": "St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Joseph River (Lake Michigan)"
+    },
+    {
+      "name": "Weaver Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Weaver Lake (Michigan)"
+    },
+    {
+      "name": "Webster Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Webster Lake (Berrien County, Michigan)"
+    },
+    {
+      "name": "Yellow Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Yellow Creek (Michigan)"
+    },
+    {
+      "name": "Yellow Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Yellow Lake (Michigan)"
+    }
+  ],
+  "Chippewa": [
+    {
+      "name": "Manistee River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Whitefish River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "South Branch Au Sable River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "South Branch Au Sable River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Thunder Bay R.",
+      "kind": "bay",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Ashmun Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Ashmun Bay"
+    },
+    {
+      "name": "Carp River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Carp River (Mackinac County)"
+    },
+    {
+      "name": "Charlotte River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Charlotte River (Michigan)"
+    },
+    {
+      "name": "False Detour Channel",
+      "kind": "channel",
+      "source": "wikipedia",
+      "wikipedia_title": "False Detour Channel"
+    },
+    {
+      "name": "Gogomain River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Gogomain River"
+    },
+    {
+      "name": "Lake George",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake George (Michigan\u2013Ontario)"
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pine River (Mackinac County, Michigan)"
+    },
+    {
+      "name": "Potagannissing Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Potagannissing Bay"
+    },
+    {
+      "name": "Potagannissing River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Potagannissing River"
+    },
+    {
+      "name": "Shelldrake River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Shelldrake River"
+    },
+    {
+      "name": "St. Joseph Channel",
+      "kind": "channel",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Joseph Channel"
+    },
+    {
+      "name": "St. Marys River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Marys River (Michigan\u2013Ontario)"
+    },
+    {
+      "name": "Tahquamenon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tahquamenon River"
+    },
+    {
+      "name": "Waiska River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Waiska River"
+    },
+    {
+      "name": "Whitefish Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Whitefish Bay"
+    }
+  ],
+  "Gogebic": [
+    {
+      "name": "Boardman River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (Gogebic County)"
+    },
+    {
+      "name": "Carp River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Carp River (Gogebic\u2013Ontonagon counties)"
+    },
+    {
+      "name": "Fisher Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Fisher Lake (Michigan)"
+    },
+    {
+      "name": "Kinwamakwad (Long) Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Kinwamakwad (Long) Lake"
+    },
+    {
+      "name": "Little Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Black River (Gogebic County)"
+    },
+    {
+      "name": "Little Carp River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Carp River (Gogebic-Ontonagon counties)"
+    },
+    {
+      "name": "Little Presque Isle River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Presque Isle River"
+    },
+    {
+      "name": "Montreal River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Montreal River (Wisconsin\u2013Michigan)"
+    },
+    {
+      "name": "Ontonagon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Ontonagon River"
+    },
+    {
+      "name": "Oronto Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Oronto Bay"
+    },
+    {
+      "name": "Paint River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Paint River"
+    },
+    {
+      "name": "Pelton River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pelton River"
+    },
+    {
+      "name": "Peter and Paul Lakes",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Peter and Paul Lakes"
+    },
+    {
+      "name": "Presque Isle River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Presque Isle River"
+    },
+    {
+      "name": "Tamarack River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tamarack River (Michigan)"
+    }
+  ],
+  "Hillsdale": [
+    {
+      "name": "Big Carp River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "East Branch St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "East Branch St. Joseph River"
+    },
+    {
+      "name": "East Fork West Branch St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "East Fork West Branch St. Joseph River"
+    },
+    {
+      "name": "Goose Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Goose Creek (River Raisin)"
+    },
+    {
+      "name": "Grand River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand River (Michigan)"
+    },
+    {
+      "name": "Kalamazoo River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Kalamazoo River"
+    },
+    {
+      "name": "River Raisin",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "River Raisin"
+    },
+    {
+      "name": "South Branch Kalamazoo River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "South Branch Kalamazoo River"
+    },
+    {
+      "name": "St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Joseph River (Lake Michigan)"
+    },
+    {
+      "name": "St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Joseph River (Maumee River tributary)"
+    },
+    {
+      "name": "West Branch St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "West Branch St. Joseph River"
+    },
+    {
+      "name": "West Fork West Branch St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "West Fork West Branch St. Joseph River"
+    }
+  ],
+  "Houghton": [
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Elm River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Elm River (Michigan)"
+    },
+    {
+      "name": "Grand Traverse Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand Traverse Bay (Lake Superior)"
+    },
+    {
+      "name": "Graveraet River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Graveraet River"
+    },
+    {
+      "name": "Houghton-Douglass Falls",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Houghton-Douglass Falls"
+    },
+    {
+      "name": "Keweenaw Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Keweenaw Bay"
+    },
+    {
+      "name": "Keweenaw Waterway",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Keweenaw Waterway"
+    },
+    {
+      "name": "Little Elm River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Elm River"
+    },
+    {
+      "name": "Little Silver River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Silver River"
+    },
+    {
+      "name": "Little Traverse Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Traverse Bay (Lake Superior)"
+    },
+    {
+      "name": "Misery River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Misery River"
+    },
+    {
+      "name": "Ontonagon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Ontonagon River"
+    },
+    {
+      "name": "Otter River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Otter River (Michigan)"
+    },
+    {
+      "name": "Pike River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pike River (Michigan)"
+    },
+    {
+      "name": "Pilgrim River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pilgrim River"
+    },
+    {
+      "name": "Salmon Trout River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Salmon Trout River"
+    },
+    {
+      "name": "Silver River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Silver River (Baraga\u2013Houghton counties)"
+    },
+    {
+      "name": "Snake River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Snake River (Michigan)"
+    },
+    {
+      "name": "Sturgeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Sturgeon River (Houghton County, Michigan)"
+    },
+    {
+      "name": "Torch Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Torch Bay"
+    },
+    {
+      "name": "Trap Rock River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Trap Rock River"
+    },
+    {
+      "name": "Traverse River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Traverse River"
+    }
+  ],
+  "Presque Isle": [
+    {
+      "name": "Graveraet River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Bell River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Bell River (Michigan)"
+    },
+    {
+      "name": "Black Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Black Lake (Michigan)"
+    },
+    {
+      "name": "Black Mallard River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black Mallard River"
+    },
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (Cheboygan County)"
+    },
+    {
+      "name": "Canada Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Canada Creek (Michigan)"
+    },
+    {
+      "name": "Grand Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand Lake (Michigan)"
+    },
+    {
+      "name": "Hammond Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Hammond Bay"
+    },
+    {
+      "name": "Little Ocqueoc River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Ocqueoc River"
+    },
+    {
+      "name": "Little Rainy River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Rainy River"
+    },
+    {
+      "name": "Little Trout River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Trout River (Michigan)"
+    },
+    {
+      "name": "Ocqueoc River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Ocqueoc River"
+    },
+    {
+      "name": "Rainy River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rainy River (Michigan)"
+    },
+    {
+      "name": "Swan River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Swan River (Michigan)"
+    },
+    {
+      "name": "Trout River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Trout River (Michigan)"
+    }
+  ],
+  "Grand Traverse": [
+    {
+      "name": "Little Elm River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Otter River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pilgrim River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "East Branch Au Gres River (Whitney",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Salmon Trout River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "South Branch Elm River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Tawas River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Sturgeon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Van Etten Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Sturgeon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Arbutus Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Arbutus Lake (Michigan)"
+    },
+    {
+      "name": "Bass Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Bass Lake (Long Lake Township, Michigan)"
+    },
+    {
+      "name": "Betsie River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Betsie River"
+    },
+    {
+      "name": "Boardman Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Boardman Lake (Michigan)"
+    },
+    {
+      "name": "Boardman River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Boardman River"
+    },
+    {
+      "name": "Bowers Harbor",
+      "kind": "harbor",
+      "source": "wikipedia",
+      "wikipedia_title": "Bowers Harbor"
+    },
+    {
+      "name": "Cedar Hedge Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Cedar Hedge Lake"
+    },
+    {
+      "name": "Duck Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Duck Lake (Grand Traverse County, Michigan)"
+    },
+    {
+      "name": "Elk Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Elk Lake (Michigan)"
+    },
+    {
+      "name": "Elk River Chain of Lakes Watershed",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Elk River Chain of Lakes Watershed"
+    },
+    {
+      "name": "Fife Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Fife Lake (Michigan)"
+    },
+    {
+      "name": "Grand Traverse Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand Traverse Bay"
+    },
+    {
+      "name": "Green Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Green Lake (Grand Traverse County, Michigan)"
+    },
+    {
+      "name": "Kids Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Kids Creek"
+    },
+    {
+      "name": "Lake Dubonnet",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Dubonnet"
+    },
+    {
+      "name": "Lake Michigan",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Michigan"
+    },
+    {
+      "name": "Lake Skegemog",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Skegemog"
+    },
+    {
+      "name": "Long Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Long Lake (Grand Traverse County, Michigan)"
+    },
+    {
+      "name": "Platte River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Platte River (Michigan)"
+    },
+    {
+      "name": "Rennie Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Rennie Lake"
+    },
+    {
+      "name": "Silver Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Silver Lake (Grand Traverse County, Michigan)"
+    },
+    {
+      "name": "Spider Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Spider Lake (Grand Traverse County, Michigan)"
+    }
+  ],
+  "Iron": [
+    {
+      "name": "Trap Rock River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Little Huron River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Salmon-Trout River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pere Marquette River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Brule River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Brule River"
+    },
+    {
+      "name": "Deer River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Deer River (Michigan)"
+    },
+    {
+      "name": "Fence River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Fence River"
+    },
+    {
+      "name": "Iron River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Iron River (Menominee River tributary)"
+    },
+    {
+      "name": "Jumbo River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Jumbo River"
+    },
+    {
+      "name": "Menominee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Menominee River"
+    },
+    {
+      "name": "Michigamme River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Michigamme River"
+    },
+    {
+      "name": "Mitchigan River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Mitchigan River"
+    },
+    {
+      "name": "Ontonagon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Ontonagon River"
+    },
+    {
+      "name": "Paint River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Paint River"
+    },
+    {
+      "name": "Perch River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Perch River"
+    },
+    {
+      "name": "Tamarack River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tamarack River (Michigan)"
+    }
+  ],
+  "Iosco": [
+    {
+      "name": "Au Sable River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Au Gres River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Au Gres River"
+    },
+    {
+      "name": "Au Sable River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Au Sable River (Michigan)"
+    },
+    {
+      "name": "Iargo Springs",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Iargo Springs"
+    },
+    {
+      "name": "Saginaw Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Saginaw Bay"
+    },
+    {
+      "name": "Tawas River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tawas River"
+    }
+  ],
+  "Isabella": [
+    {
+      "name": "Chippewa River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Chippewa River (Michigan)"
+    },
+    {
+      "name": "Coldwater River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Coldwater River (Isabella County)"
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pine River (Chippewa River tributary)"
+    },
+    {
+      "name": "Salt River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Salt River (Michigan)"
+    },
+    {
+      "name": "Walker Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Walker Creek (Michigan)"
+    },
+    {
+      "name": "Weidman Millpond",
+      "kind": "pond",
+      "source": "wikipedia",
+      "wikipedia_title": "Weidman Millpond"
+    }
+  ],
+  "Jackson": [
+    {
+      "name": "Rapid River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Goose Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Goose Creek (River Raisin)"
+    },
+    {
+      "name": "Grand River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand River (Michigan)"
+    },
+    {
+      "name": "Kalamazoo River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Kalamazoo River"
+    },
+    {
+      "name": "Lake Columbia",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Columbia"
+    },
+    {
+      "name": "North Branch Kalamazoo River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "North Branch Kalamazoo River"
+    },
+    {
+      "name": "Portage River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Portage River (Jackson County, Michigan)"
+    },
+    {
+      "name": "River Raisin",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "River Raisin"
+    },
+    {
+      "name": "South Branch Kalamazoo River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "South Branch Kalamazoo River"
+    }
+  ],
+  "Kent": [
+    {
+      "name": "Portage Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Ball Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Silver Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Buck Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": "Buck Creek (Kent County, Michigan)"
+    },
+    {
+      "name": "Coldbrook Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Coldbrook Creek (Michigan)"
+    },
+    {
+      "name": "Coldwater River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Coldwater River (Western Michigan)"
+    },
+    {
+      "name": "Fisk Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Fisk Lake"
+    },
+    {
+      "name": "Flat River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Flat River (Michigan)"
+    },
+    {
+      "name": "Grand River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand River (Michigan)"
+    },
+    {
+      "name": "Lake Bella Vista",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Bella Vista (Michigan)"
+    },
+    {
+      "name": "Plaster Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Plaster Creek"
+    },
+    {
+      "name": "Rogue River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rogue River (Michigan)"
+    },
+    {
+      "name": "Stout Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Stout Creek"
+    },
+    {
+      "name": "Thornapple River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Thornapple River"
+    }
+  ],
+  "Kalkaska": [
+    {
+      "name": "Nash Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Rogue River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Boardman River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Boardman River"
+    },
+    {
+      "name": "Elk River Chain of Lakes Watershed",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Elk River Chain of Lakes Watershed"
+    },
+    {
+      "name": "Fife Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Fife Lake (Michigan)"
+    },
+    {
+      "name": "Lake Five",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Five (Michigan)"
+    },
+    {
+      "name": "Lake Skegemog",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Skegemog"
+    },
+    {
+      "name": "Little Rapid River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Rapid River (Michigan)"
+    },
+    {
+      "name": "Manistee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Manistee River"
+    },
+    {
+      "name": "Rapid River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rapid River (Kalkaska County, Michigan)"
+    },
+    {
+      "name": "Torch Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Torch Lake (Antrim County, Michigan)"
+    },
+    {
+      "name": "Torch River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Torch River (Michigan)"
+    }
+  ],
+  "Gratiot": [
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Pine River (Chippewa River tributary)"
+    },
+    {
+      "name": "Bad River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Bad River (Michigan)"
+    },
+    {
+      "name": "Maple River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Maple River (Grand River tributary)"
+    },
+    {
+      "name": "Pine Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Pine Creek (Maple River tributary)"
+    },
+    {
+      "name": "River Styx",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "River Styx (Gratiot County, Michigan)"
+    }
+  ],
+  "Lenawee": [
+    {
+      "name": "Two-Hearted River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Goose Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Goose Creek (River Raisin)"
+    },
+    {
+      "name": "River Raisin",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "River Raisin"
+    },
+    {
+      "name": "Tiffin River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tiffin River"
+    }
+  ],
+  "Livingston": [
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Brevoort River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Carp River Mainstream",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Huron River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Huron River"
+    },
+    {
+      "name": "Huron River chain of lakes",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Huron River chain of lakes"
+    },
+    {
+      "name": "Looking Glass River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Looking Glass River"
+    },
+    {
+      "name": "Red Cedar River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Red Cedar River (Michigan)"
+    },
+    {
+      "name": "Shiawassee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Shiawassee River"
+    }
+  ],
+  "Marquette": [
+    {
+      "name": "Bowens Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Big Garlic River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Big Garlic River"
+    },
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (Marquette County)"
+    },
+    {
+      "name": "Carp River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Carp River (Marquette County)"
+    },
+    {
+      "name": "Chocolay River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Chocolay River"
+    },
+    {
+      "name": "Dead River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Dead River (Michigan)"
+    },
+    {
+      "name": "Huron River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Huron River (northern Michigan)"
+    },
+    {
+      "name": "Iron River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Iron River (Marquette County, Michigan)"
+    },
+    {
+      "name": "Lake Bancroft",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Bancroft"
+    },
+    {
+      "name": "Lake Gribben",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Gribben"
+    },
+    {
+      "name": "Little Dead River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Dead River"
+    },
+    {
+      "name": "Little Garlic River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Garlic River"
+    },
+    {
+      "name": "Little Huron River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Huron River"
+    },
+    {
+      "name": "Michigamme River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Michigamme River"
+    },
+    {
+      "name": "Mitchigan River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Mitchigan River"
+    },
+    {
+      "name": "Partridge Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Partridge Creek (Michigan)"
+    },
+    {
+      "name": "Rapid River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rapid River (Delta County, Michigan)"
+    },
+    {
+      "name": "River Styx",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "River Styx (Marquette County, Michigan)"
+    },
+    {
+      "name": "Salmon Trout River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Salmon Trout River"
+    },
+    {
+      "name": "Sand River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Sand River (Michigan)"
+    },
+    {
+      "name": "Whitefish River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Whitefish River (Michigan)"
+    },
+    {
+      "name": "Yellow Dog River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Yellow Dog River"
+    }
+  ],
+  "Mason": [
+    {
+      "name": "Pere Marquette River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Pere Marquette River"
+    },
+    {
+      "name": "Big Sable River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Big Sable River"
+    },
+    {
+      "name": "Dockery Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Dockery Lake (Michigan)"
+    },
+    {
+      "name": "Lincoln River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Lincoln River"
+    },
+    {
+      "name": "Ludington Pumped Storage Power Plant",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Ludington Pumped Storage Power Plant"
+    },
+    {
+      "name": "Pleiness Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Pleiness Lake"
+    }
+  ],
+  "Menominee": [
+    {
+      "name": "Little Muskegon River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Prairie Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Tamarack Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Birch Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Birch Creek (Menominee County, Michigan)"
+    },
+    {
+      "name": "Cedar River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Cedar River (Menominee County, Michigan)"
+    },
+    {
+      "name": "Green Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Green Bay (Lake Michigan)"
+    },
+    {
+      "name": "Little Cedar River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Cedar River (Menominee River tributary)"
+    },
+    {
+      "name": "Menominee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Menominee River"
+    },
+    {
+      "name": "Walton River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Walton River"
+    }
+  ],
+  "Oakland": [
+    {
+      "name": "Huron River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": "Huron River"
+    },
+    {
+      "name": "Paint Creek",
+      "kind": "creek",
+      "source": "pdf",
+      "wikipedia_title": "Paint Creek (Oakland County, Michigan)"
+    },
+    {
+      "name": "Baldwin Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Baldwin Lake (Waterford Township, Michigan)"
+    },
+    {
+      "name": "Belle River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Belle River (Michigan)"
+    },
+    {
+      "name": "Clinton River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Clinton River (Michigan)"
+    },
+    {
+      "name": "Dark Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Dark Lake (Independence Township, Michigan)"
+    },
+    {
+      "name": "Dollar Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Dollar Lake (Independence Township, Michigan)"
+    },
+    {
+      "name": "Fiddle Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Fiddle Lake (Waterford Township, Michigan)"
+    },
+    {
+      "name": "Geneva Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Geneva Lake (Waterford Township, Michigan)"
+    },
+    {
+      "name": "Lake Goodrich",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Goodrich (Waterford Township, Michigan)"
+    },
+    {
+      "name": "Leggets Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Leggets Lake (Waterford Township, Michigan)"
+    },
+    {
+      "name": "Lester Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lester Lake (Waterford Township, Michigan)"
+    },
+    {
+      "name": "List of lakes of Oakland County, Michigan",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "List of lakes of Oakland County, Michigan"
+    },
+    {
+      "name": "Lotus Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lotus Lake (Michigan)"
+    },
+    {
+      "name": "Middle Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Middle Lake (Independence Township, Michigan)"
+    },
+    {
+      "name": "Otter Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Otter Lake (Waterford Township, Michigan)"
+    },
+    {
+      "name": "Parke Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Parke Lake (Independence Township, Michigan)"
+    },
+    {
+      "name": "Rainbow Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Rainbow Lake (Waterford Township, Michigan)"
+    },
+    {
+      "name": "River Rouge",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "River Rouge (Michigan)"
+    },
+    {
+      "name": "Shiawassee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Shiawassee River"
+    },
+    {
+      "name": "Swartz Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Swartz Creek"
+    },
+    {
+      "name": "Townsend Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Townsend Lake (Independence Township, Michigan)"
+    },
+    {
+      "name": "Trout Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Trout Creek (Michigan)"
+    },
+    {
+      "name": "Upper Bushman Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Upper Bushman Lake (Independence Township, Michigan)"
+    },
+    {
+      "name": "Upper Silver Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Upper Silver Lake (Waterford Township, Michigan)"
+    },
+    {
+      "name": "Van Norman Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Van Norman Lake (Michigan)"
+    },
+    {
+      "name": "Walled Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Walled Lake (Michigan)"
+    },
+    {
+      "name": "Walters Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Walters Lake (Independence Township, Michigan)"
+    },
+    {
+      "name": "Waterford Hill",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Waterford Hill (Michigan)"
+    },
+    {
+      "name": "Whipple Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Whipple Lake (Independence Township, Michigan)"
+    },
+    {
+      "name": "Williams Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Williams Lake (Michigan)"
+    },
+    {
+      "name": "Wormer Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Wormer Lake (Waterford Township, Michigan)"
+    }
+  ],
+  "Otsego": [
+    {
+      "name": "Ocqueoc River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Swan River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Trout River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Au Sable River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Au Sable River (Michigan)"
+    },
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (Cheboygan County)"
+    },
+    {
+      "name": "Boyne River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Boyne River (Michigan)"
+    },
+    {
+      "name": "Manistee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Manistee River"
+    },
+    {
+      "name": "Pigeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pigeon River (Mullett Lake)"
+    },
+    {
+      "name": "Sturgeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Sturgeon River (Cheboygan County, Michigan)"
+    }
+  ],
+  "St. Clair": [
+    {
+      "name": "South Branch Paw Paw River (a.k.a.",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Anchor Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Anchor Bay (Michigan)"
+    },
+    {
+      "name": "Belle River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Belle River (Michigan)"
+    },
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (St. Clair River tributary)"
+    },
+    {
+      "name": "Clinton River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Clinton River (Michigan)"
+    },
+    {
+      "name": "Lake St. Clair",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake St. Clair"
+    },
+    {
+      "name": "St. Clair River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Clair River"
+    }
+  ],
+  "St. Joseph": [
+    {
+      "name": "Huron River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Manistee River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "pdf",
+      "wikipedia_title": null
+    },
+    {
+      "name": "Corey Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Corey Lake"
+    },
+    {
+      "name": "Fawn River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Fawn River (Michigan)"
+    },
+    {
+      "name": "Fishers Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Fishers Lake (Michigan)"
+    },
+    {
+      "name": "Klinger Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Klinger Lake (Michigan)"
+    },
+    {
+      "name": "Lake Templene",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Templene"
+    },
+    {
+      "name": "Little Pleasant Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Pleasant Lake"
+    },
+    {
+      "name": "Nottawa Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Nottawa Creek"
+    },
+    {
+      "name": "Pleasant Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Pleasant Lake (St. Joseph County, Michigan)"
+    },
+    {
+      "name": "Portage Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Portage Lake (St. Joseph County, Michigan)"
+    },
+    {
+      "name": "Portage River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Portage River (Kalamazoo\u2013St. Joseph counties)"
+    },
+    {
+      "name": "Prairie River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Prairie River (Michigan)"
+    },
+    {
+      "name": "Rocky River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rocky River (Michigan)"
+    },
+    {
+      "name": "St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Joseph River (Lake Michigan)"
+    }
+  ],
+  "Antrim": [
+    {
+      "name": "Beals Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Beals Lake"
+    },
+    {
+      "name": "Boyne River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Boyne River (Michigan)"
+    },
+    {
+      "name": "Cedar River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Cedar River (Antrim County, Michigan)"
+    },
+    {
+      "name": "Dingman River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Dingman River"
+    },
+    {
+      "name": "Elk River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Elk River (Michigan)"
+    },
+    {
+      "name": "Elk River Chain of Lakes Watershed",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Elk River Chain of Lakes Watershed"
+    },
+    {
+      "name": "Gook Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Gook Creek"
+    },
+    {
+      "name": "Grand Traverse Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand Traverse Bay"
+    },
+    {
+      "name": "Grass River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Grass River (Michigan)"
+    },
+    {
+      "name": "Green River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Green River (Intermediate River tributary)"
+    },
+    {
+      "name": "Intermediate River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Intermediate River"
+    },
+    {
+      "name": "Jordan River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Jordan River (Michigan)"
+    },
+    {
+      "name": "Manistee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Manistee River"
+    },
+    {
+      "name": "South Branch Boyne River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "South Branch Boyne River"
+    },
+    {
+      "name": "Torch River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Torch River (Michigan)"
+    }
+  ],
+  "Benzie": [
+    {
+      "name": "Betsie River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Betsie River"
+    },
+    {
+      "name": "Little Betsie River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Betsie River"
+    },
+    {
+      "name": "Platte Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Platte Bay"
+    },
+    {
+      "name": "Platte River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Platte River (Michigan)"
+    }
+  ],
+  "Branch": [
+    {
+      "name": "Coldwater River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Coldwater River (Branch County)"
+    },
+    {
+      "name": "Fawn River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Fawn River (Michigan)"
+    },
+    {
+      "name": "Nottawa Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Nottawa Creek"
+    },
+    {
+      "name": "Prairie River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Prairie River (Michigan)"
+    },
+    {
+      "name": "Sauk River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Sauk River (Michigan)"
+    },
+    {
+      "name": "St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Joseph River (Lake Michigan)"
+    }
+  ],
+  "Calhoun": [
+    {
+      "name": "Battle Creek River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Battle Creek River"
+    },
+    {
+      "name": "Kalamazoo River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Kalamazoo River"
+    },
+    {
+      "name": "North Branch Kalamazoo River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "North Branch Kalamazoo River"
+    },
+    {
+      "name": "Nottawa Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Nottawa Creek"
+    },
+    {
+      "name": "South Branch Kalamazoo River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "South Branch Kalamazoo River"
+    },
+    {
+      "name": "St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Joseph River (Lake Michigan)"
+    },
+    {
+      "name": "Talmadge Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Talmadge Creek"
+    }
+  ],
+  "Cass": [
+    {
+      "name": "Brandywine Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Brandywine Creek (St. Joseph River tributary)"
+    },
+    {
+      "name": "Corey Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Corey Lake"
+    },
+    {
+      "name": "Dowagiac River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Dowagiac River"
+    },
+    {
+      "name": "Rocky River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rocky River (Michigan)"
+    },
+    {
+      "name": "St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Joseph River (Lake Michigan)"
+    }
+  ],
+  "Clare": [
+    {
+      "name": "Cedar River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Cedar River (Gladwin County, Michigan)"
+    },
+    {
+      "name": "Chippewa River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Chippewa River (Michigan)"
+    },
+    {
+      "name": "Clam River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Clam River (Michigan)"
+    },
+    {
+      "name": "Lost Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lost Lake (Clare County, Michigan)"
+    },
+    {
+      "name": "Muskegon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Muskegon River"
+    }
+  ],
+  "Crawford": [
+    {
+      "name": "Au Sable River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Au Sable River (Michigan)"
+    },
+    {
+      "name": "Manistee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Manistee River"
+    }
+  ],
+  "Dickinson": [
+    {
+      "name": "Fumee Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Fumee Lake"
+    },
+    {
+      "name": "Lake Antoine",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Antoine"
+    },
+    {
+      "name": "Menominee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Menominee River"
+    },
+    {
+      "name": "Michigamme River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Michigamme River"
+    }
+  ],
+  "Emmet": [
+    {
+      "name": "Bear River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Bear River (Michigan)"
+    },
+    {
+      "name": "Burt Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Burt Lake"
+    },
+    {
+      "name": "Carp Lake River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Carp Lake River"
+    },
+    {
+      "name": "Crooked Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Crooked Lake (Michigan)"
+    },
+    {
+      "name": "Crooked River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Crooked River (Michigan)"
+    },
+    {
+      "name": "French Farm Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "French Farm Lake"
+    },
+    {
+      "name": "Inland Waterway",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Inland Waterway (Michigan)"
+    },
+    {
+      "name": "Lake Paradise",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Paradise (Michigan)"
+    },
+    {
+      "name": "Little Traverse Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Traverse Bay"
+    },
+    {
+      "name": "Maple River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Maple River (Burt Lake)"
+    },
+    {
+      "name": "Round Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Round Lake (Emmet County, Michigan)"
+    },
+    {
+      "name": "Straits of Mackinac",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Straits of Mackinac"
+    },
+    {
+      "name": "Walloon Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Walloon Lake"
+    },
+    {
+      "name": "Wycamp Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Wycamp Lake"
+    }
+  ],
+  "Genesee": [
+    {
+      "name": "Flint River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Flint River (Michigan)"
+    },
+    {
+      "name": "Lake Fenton",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Fenton (Michigan)"
+    },
+    {
+      "name": "Misteguay Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Misteguay Creek"
+    },
+    {
+      "name": "Otter Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Otter Lake (Michigan)"
+    },
+    {
+      "name": "Shiawassee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Shiawassee River"
+    },
+    {
+      "name": "Swartz Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Swartz Creek"
+    }
+  ],
+  "Gladwin": [
+    {
+      "name": "Cedar River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Cedar River (Gladwin County, Michigan)"
+    },
+    {
+      "name": "Edenville Dam",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Edenville Dam"
+    },
+    {
+      "name": "Kawkawlin River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Kawkawlin River"
+    },
+    {
+      "name": "Little Cedar River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Cedar River (Tobacco River tributary)"
+    },
+    {
+      "name": "Little Molasses River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Molasses River"
+    },
+    {
+      "name": "Little Tobacco River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Tobacco River"
+    },
+    {
+      "name": "Molasses River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Molasses River"
+    },
+    {
+      "name": "South Branch Little Sugar River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "South Branch Little Sugar River"
+    },
+    {
+      "name": "Sugar River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Sugar River (Michigan)"
+    },
+    {
+      "name": "Tittabawassee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tittabawassee River"
+    },
+    {
+      "name": "Tobacco River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tobacco River (Tittabawassee River tributary)"
+    }
+  ],
+  "Ingham": [
+    {
+      "name": "Grand River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand River (Michigan)"
+    },
+    {
+      "name": "Lake Lansing Park North",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Lansing Park North"
+    },
+    {
+      "name": "Red Cedar River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Red Cedar River (Michigan)"
+    },
+    {
+      "name": "Sycamore Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Sycamore Creek (Michigan)"
+    }
+  ],
+  "Lapeer": [
+    {
+      "name": "Belle River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Belle River (Michigan)"
+    },
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (St. Clair River tributary)"
+    },
+    {
+      "name": "Clinton River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Clinton River (Michigan)"
+    },
+    {
+      "name": "Flint River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Flint River (Michigan)"
+    }
+  ],
+  "Leelanau": [
+    {
+      "name": "Crystal River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Crystal River (Michigan)"
+    },
+    {
+      "name": "Good Harbor Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Good Harbor Bay"
+    },
+    {
+      "name": "Grand Traverse Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand Traverse Bay"
+    },
+    {
+      "name": "Lake Leelanau",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Leelanau"
+    },
+    {
+      "name": "Lake Michigan",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake Michigan"
+    },
+    {
+      "name": "Leland River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Leland River"
+    },
+    {
+      "name": "Platte Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Platte Bay"
+    },
+    {
+      "name": "Sleeping Bear Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Sleeping Bear Bay"
+    },
+    {
+      "name": "South Bar Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "South Bar Lake"
+    }
+  ],
+  "Mackinac": [
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (Mackinac County)"
+    },
+    {
+      "name": "Carp River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Carp River (Mackinac County)"
+    },
+    {
+      "name": "Cataract River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Cataract River (Michigan)"
+    },
+    {
+      "name": "Cut River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Cut River (Mackinac County, Michigan)"
+    },
+    {
+      "name": "East Moran Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "East Moran Bay"
+    },
+    {
+      "name": "Hendrie River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Hendrie River"
+    },
+    {
+      "name": "Manistique River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Manistique River"
+    },
+    {
+      "name": "Moran River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Moran River"
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pine River (Mackinac County, Michigan)"
+    },
+    {
+      "name": "Round Island Channel",
+      "kind": "channel",
+      "source": "wikipedia",
+      "wikipedia_title": "Round Island Channel"
+    },
+    {
+      "name": "South Manistique Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "South Manistique Lake"
+    },
+    {
+      "name": "Straits of Mackinac",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Straits of Mackinac"
+    },
+    {
+      "name": "Upper Millecoquins River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Upper Millecoquins River"
+    }
+  ],
+  "Midland": [
+    {
+      "name": "Chippewa River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Chippewa River (Michigan)"
+    },
+    {
+      "name": "Kawkawlin River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Kawkawlin River"
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pine River (Chippewa River tributary)"
+    },
+    {
+      "name": "Salt River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Salt River (Michigan)"
+    },
+    {
+      "name": "Shiawassee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Shiawassee River"
+    },
+    {
+      "name": "Sturgeon Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Sturgeon Creek (Michigan)"
+    },
+    {
+      "name": "Tittabawassee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tittabawassee River"
+    },
+    {
+      "name": "Tobacco River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tobacco River (Tittabawassee River tributary)"
+    },
+    {
+      "name": "Wixom Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Wixom Lake"
+    }
+  ],
+  "Missaukee": [
+    {
+      "name": "Clam River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Clam River (Michigan)"
+    },
+    {
+      "name": "Dead Stream Flooding",
+      "kind": "stream",
+      "source": "wikipedia",
+      "wikipedia_title": "Dead Stream Flooding"
+    },
+    {
+      "name": "Manistee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Manistee River"
+    },
+    {
+      "name": "Muskegon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Muskegon River"
+    }
+  ],
+  "Monroe": [
+    {
+      "name": "Brest Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Brest Bay"
+    },
+    {
+      "name": "Huron River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Huron River"
+    },
+    {
+      "name": "Maumee Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Maumee Bay"
+    },
+    {
+      "name": "North River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "North River (Michigan)"
+    },
+    {
+      "name": "Ottawa River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Ottawa River (Lake Erie)"
+    },
+    {
+      "name": "Paint Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Paint Creek (Washtenaw County, Michigan)"
+    },
+    {
+      "name": "River Raisin",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "River Raisin"
+    },
+    {
+      "name": "Saline River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Saline River (Michigan)"
+    },
+    {
+      "name": "Sandy Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Sandy Creek (Michigan)"
+    }
+  ],
+  "Montcalm": [
+    {
+      "name": "Flat River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Flat River (Michigan)"
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pine River (Chippewa River tributary)"
+    }
+  ],
+  "Montmorency": [
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (Cheboygan County)"
+    },
+    {
+      "name": "Canada Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Canada Creek (Michigan)"
+    },
+    {
+      "name": "Fletcher Pond",
+      "kind": "pond",
+      "source": "wikipedia",
+      "wikipedia_title": "Fletcher Pond"
+    },
+    {
+      "name": "Thunder Bay River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Thunder Bay River"
+    }
+  ],
+  "Oceana": [
+    {
+      "name": "Pentwater River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pentwater River"
+    },
+    {
+      "name": "Pere Marquette River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pere Marquette River"
+    },
+    {
+      "name": "Ruby Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Ruby Creek (Michigan)"
+    },
+    {
+      "name": "White River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "White River (White Lake)"
+    }
+  ],
+  "Ogemaw": [
+    {
+      "name": "Au Gres River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Au Gres River"
+    },
+    {
+      "name": "Bixby Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Bixby Creek (Michigan)"
+    },
+    {
+      "name": "Rifle River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rifle River"
+    },
+    {
+      "name": "Tittabawassee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tittabawassee River"
+    }
+  ],
+  "Osceola": [
+    {
+      "name": "Hersey River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Hersey River"
+    },
+    {
+      "name": "Middle Branch River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Middle Branch River"
+    },
+    {
+      "name": "Muskegon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Muskegon River"
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pine River (Manistee River tributary)"
+    }
+  ],
+  "Ottawa": [
+    {
+      "name": "Bass River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Bass River (Michigan)"
+    },
+    {
+      "name": "Grand River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Grand River (Michigan)"
+    },
+    {
+      "name": "Macatawa River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Macatawa River"
+    },
+    {
+      "name": "Pigeon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pigeon River (Ottawa County, Michigan)"
+    }
+  ],
+  "Roscommon": [
+    {
+      "name": "Au Sable River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Au Sable River (Michigan)"
+    },
+    {
+      "name": "Backus Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Backus Creek"
+    },
+    {
+      "name": "Backus Creek Flooding",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Backus Creek Flooding"
+    },
+    {
+      "name": "Dead Stream Flooding",
+      "kind": "stream",
+      "source": "wikipedia",
+      "wikipedia_title": "Dead Stream Flooding"
+    },
+    {
+      "name": "Lake St. Helen",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake St. Helen"
+    },
+    {
+      "name": "Little Mud Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Little Mud Lake (Michigan)"
+    },
+    {
+      "name": "Marl Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Marl Lake"
+    },
+    {
+      "name": "Muskegon River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Muskegon River"
+    },
+    {
+      "name": "Sugar River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Sugar River (Michigan)"
+    },
+    {
+      "name": "The Cut",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "The Cut (Michigan)"
+    }
+  ],
+  "Saginaw": [
+    {
+      "name": "Bad River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Bad River (Michigan)"
+    },
+    {
+      "name": "Cass River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Cass River (Michigan)"
+    },
+    {
+      "name": "Flint River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Flint River (Michigan)"
+    },
+    {
+      "name": "Misteguay Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Misteguay Creek"
+    },
+    {
+      "name": "Saginaw River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Saginaw River"
+    },
+    {
+      "name": "Shiawassee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Shiawassee River"
+    },
+    {
+      "name": "Tittabawassee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Tittabawassee River"
+    }
+  ],
+  "Sanilac": [
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (St. Clair River tributary)"
+    },
+    {
+      "name": "Cass River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Cass River (Michigan)"
+    }
+  ],
+  "Shiawassee": [
+    {
+      "name": "Looking Glass River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Looking Glass River"
+    },
+    {
+      "name": "Maple River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Maple River (Grand River tributary)"
+    },
+    {
+      "name": "Misteguay Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Misteguay Creek"
+    },
+    {
+      "name": "Shiawassee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Shiawassee River"
+    }
+  ],
+  "Tuscola": [
+    {
+      "name": "Cass River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Cass River (Michigan)"
+    },
+    {
+      "name": "Saginaw Bay",
+      "kind": "bay",
+      "source": "wikipedia",
+      "wikipedia_title": "Saginaw Bay"
+    }
+  ],
+  "Van Buren": [
+    {
+      "name": "Bankson Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Bankson Lake"
+    },
+    {
+      "name": "Black River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Black River (Southwest Michigan)"
+    },
+    {
+      "name": "Dowagiac River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Dowagiac River"
+    },
+    {
+      "name": "Gravel Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Gravel Lake (Michigan)"
+    },
+    {
+      "name": "Mill Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Mill Creek (Paw Paw River tributary)"
+    },
+    {
+      "name": "Paw Paw River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Paw Paw River"
+    },
+    {
+      "name": "Rocky River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Rocky River (Michigan)"
+    },
+    {
+      "name": "St. Joseph River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "St. Joseph River (Lake Michigan)"
+    }
+  ],
+  "Washtenaw": [
+    {
+      "name": "Belleville Lake",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Belleville Lake"
+    },
+    {
+      "name": "Huron River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Huron River"
+    },
+    {
+      "name": "Huron River chain of lakes",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Huron River chain of lakes"
+    },
+    {
+      "name": "Malletts Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Malletts Creek"
+    },
+    {
+      "name": "Paint Creek",
+      "kind": "creek",
+      "source": "wikipedia",
+      "wikipedia_title": "Paint Creek (Washtenaw County, Michigan)"
+    },
+    {
+      "name": "River Raisin",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "River Raisin"
+    },
+    {
+      "name": "River Rouge",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "River Rouge (Michigan)"
+    },
+    {
+      "name": "Saline River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Saline River (Michigan)"
+    }
+  ],
+  "Wayne": [
+    {
+      "name": "Ecorse River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Ecorse River"
+    },
+    {
+      "name": "Huron River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Huron River"
+    },
+    {
+      "name": "Lake St. Clair",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Lake St. Clair"
+    },
+    {
+      "name": "Milk River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Milk River (Michigan)"
+    },
+    {
+      "name": "River Rouge",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "River Rouge (Michigan)"
+    }
+  ],
+  "Wexford": [
+    {
+      "name": "Clam Lake Canal",
+      "kind": "lake",
+      "source": "wikipedia",
+      "wikipedia_title": "Clam Lake Canal"
+    },
+    {
+      "name": "Clam River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Clam River (Michigan)"
+    },
+    {
+      "name": "Manistee River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Manistee River"
+    },
+    {
+      "name": "Pine River",
+      "kind": "river",
+      "source": "wikipedia",
+      "wikipedia_title": "Pine River (Manistee River tributary)"
+    }
+  ]
+}

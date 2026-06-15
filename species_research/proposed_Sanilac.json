@@ -1,0 +1,48 @@
+{
+  "Sanilac": {
+    "Black River": {
+      "species": [
+        "Bowfin",
+        "Brook Trout",
+        "Brown Trout",
+        "Chinook Salmon",
+        "Coho Salmon",
+        "Common Carp",
+        "Largemouth Bass",
+        "Lake Trout",
+        "Northern Pike",
+        "Rainbow Trout",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Walleye",
+        "White Crappie",
+        "Lake Whitefish",
+        "Yellow Perch"
+      ],
+      "source": "Fishbrain / onWater / local sources",
+      "confidence": "medium",
+      "notes": "Fishbrain logged catches list Channel Catfish, Walleye, Smallmouth Bass, Largemouth Bass, Rock Bass, White Crappie and Bowfin. onWater cites a 2013 fisheries survey documenting Brook Trout, Rainbow Trout, Chinook Salmon and Coho Salmon, plus salmon spawning runs. Local sources also note Brown Trout, Lake Trout, Common Carp, Northern Pike, Yellow Perch and Whitefish. URLs: https://fishbrain.com/fishing-waters/QqfXKnQf/black-river and https://www.onwaterapp.com/us/michigan/water/black-river-w7",
+      "extras": [
+        "Channel Catfish"
+      ]
+    },
+    "Cass River": {
+      "species": [
+        "Bluegill",
+        "Largemouth Bass",
+        "Northern Pike",
+        "Pumpkinseed",
+        "Rock Bass",
+        "Smallmouth Bass",
+        "Lake Sturgeon",
+        "Walleye"
+      ],
+      "source": "Cass River Water Trail",
+      "confidence": "medium",
+      "notes": "Cass River Water Trail states Rock bass, smallmouth bass, largemouth bass, bluegills, pumpkinseed sunfish, northern pike and catfish are very common; sturgeon and walleye are recovering species. Display names normalized to the angl3r species list. URL: https://cassriverwatertrail.org/explore/fishing",
+      "extras": [
+        "Channel Catfish"
+      ]
+    }
+  }
+}

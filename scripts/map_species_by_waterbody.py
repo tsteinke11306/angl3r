@@ -108,6 +108,56 @@ GROW_SPECIES_MAP = {
 DIRECTIONAL_WORDS = {'upper', 'lower', 'north', 'south', 'east', 'west',
                      'big', 'little', 'upperlower', 'northsouth', 'new', 'old'}
 
+# Aliases for species names in the Michigan DNR fish stocking CSV
+DNR_SPECIES_ALIASES = {
+    'rainbow trout': 'Rainbow Trout',
+    'brown trout': 'Brown Trout',
+    'brook trout': 'Brook Trout',
+    'lake trout': 'Lake Trout',
+    'chinook salmon': 'Chinook Salmon',
+    'coho salmon': 'Coho Salmon',
+    'atlantic salmon': 'Atlantic Salmon',
+    'pink salmon': 'Pink Salmon',
+    'walleye': 'Walleye',
+    'muskellunge': 'Muskellunge',
+    'tiger muskellunge': 'Tiger Muskellunge',
+    'northern pike': 'Northern Pike',
+    'splake': 'Splake',
+    'steelhead': 'Rainbow Trout',
+    'smallmouth bass': 'Smallmouth Bass',
+    'largemouth bass': 'Largemouth Bass',
+    'black crappie': 'Black Crappie',
+    'white crappie': 'White Crappie',
+    'bluegill': 'Bluegill',
+    'pumpkinseed': 'Pumpkinseed',
+    'yellow perch': 'Yellow Perch',
+    'white bass': 'White Bass',
+    'rock bass': 'Rock Bass',
+    'cisco': 'Cisco',
+    'lake sturgeon': 'Lake Sturgeon',
+    'channel catfish': 'Channel Catfish',
+    'common carp': 'Common Carp',
+    'white sucker': 'White Sucker',
+    'redhorse sucker': 'White Sucker',
+    'bowfin': 'Bowfin',
+    'longnose gar': 'Longnose Gar',
+    'spotted gar': 'Spotted Gar',
+    'brown bullhead': 'Brown Bullhead',
+    'black bullhead': 'Black Bullhead',
+    'yellow bullhead': 'Yellow Bullhead',
+    'lake whitefish': 'Lake Whitefish',
+    'round whitefish': 'Round Whitefish',
+    'rainbow smelt': 'Rainbow Smelt',
+    'green sunfish': 'Green Sunfish',
+    'redear sunfish': 'Redear Sunfish',
+    'hybrid sunfish': 'Hybrid Sunfish',
+    'warmouth': 'Warmouth',
+    'freshwater drum': 'Freshwater Drum',
+    'burbot': 'Burbot',
+    'sauger': 'Sauger',
+    'bullhead': 'Bullhead (unspecified)',
+}
+
 
 def normalize_name(name):
     name = name.strip().lower()
@@ -224,7 +274,46 @@ def load_grow_data(zip_path):
     return lake_species
 
 
-def merge_datasets(summ_data, fishc_data, grow_data):
+def load_dnr_stocking_data(csv_path):
+    """Load Michigan DNR fish stocking CSV (County_Name, Water_Body_Name, Species, ...)."""
+    lake_species = defaultdict(lambda: {
+        'species': set(),
+        'extras': set(),
+        'records': 0,
+        'years': set(),
+        'dataset': 'dnr-stocking',
+    })
+
+    with open(csv_path, encoding='utf-8-sig') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            county = row.get('County_Name', '').strip().title()
+            lake = row.get('Water_Body_Name', '').strip().title()
+            if not county or not lake:
+                continue
+            key = (county, lake)
+            lake_species[key]['records'] += 1
+            lake_species[key]['dataset'] = 'dnr-stocking'
+
+            raw_species = row.get('Species', '').strip().lower()
+            found = None
+            if raw_species in DNR_SPECIES_ALIASES:
+                found = DNR_SPECIES_ALIASES[raw_species]
+            else:
+                # Try direct match against SPECIES_NAME_MAP and GROW_SPECIES_MAP display names
+                for disp in set(SPECIES_NAME_MAP.values()) | set(GROW_SPECIES_MAP.values()):
+                    if disp.lower() == raw_species:
+                        found = disp
+                        break
+            if found:
+                lake_species[key]['species'].add(found)
+            else:
+                lake_species[key]['extras'].add(row.get('Species', '').strip())
+
+    return lake_species
+
+
+def merge_datasets(summ_data, fishc_data, grow_data, dnr_data=None):
     """Merge all three datasets, preferring SUMM > FISHc > GROW."""
     merged = {}
 
@@ -248,7 +337,7 @@ def merge_datasets(summ_data, fishc_data, grow_data):
             merged[key]['years'].update(data['years'])
             merged[key]['dataset'] = 'fishc'
 
-    # Overlay SUMM data (highest priority)
+    # Overlay SUMM data (highest priority among survey datasets)
     for key, data in summ_data.items():
         if key not in merged:
             merged[key] = dict(data)
@@ -260,6 +349,19 @@ def merge_datasets(summ_data, fishc_data, grow_data):
             merged[key]['records'] += data['records']
             merged[key]['years'].update(data['years'])
             merged[key]['dataset'] = 'summ'
+
+    # Overlay DNR stocking data (highest overall priority)
+    if dnr_data:
+        for key, data in dnr_data.items():
+            if key not in merged:
+                merged[key] = dict(data)
+                merged[key]['species'] = set(data['species'])
+                merged[key]['extras'] = set(data['extras'])
+            else:
+                merged[key]['species'].update(data['species'])
+                merged[key]['extras'].update(data['extras'])
+                merged[key]['records'] += data['records']
+                merged[key]['dataset'] = 'dnr-stocking'
 
     return merged
 
@@ -342,7 +444,15 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
     grow_data = load_grow_data(survey_zip_path)
     print(f"  GROW: {len(grow_data)} unique lakes")
 
-    merged_data = merge_datasets(summ_data, fishc_data, grow_data)
+    dnr_csv = os.path.join(os.path.dirname(regs_json_path), '..', 'species_research', 'dnr_stocking.csv')
+    dnr_data = None
+    if os.path.exists(dnr_csv):
+        dnr_data = load_dnr_stocking_data(dnr_csv)
+        print(f"  DNR stocking: {len(dnr_data)} unique waterbodies")
+    else:
+        print("  DNR stocking CSV not found, skipping")
+
+    merged_data = merge_datasets(summ_data, fishc_data, grow_data, dnr_data)
     print(f"  Combined: {len(merged_data)} unique lakes")
 
     # Pre-group by county
@@ -351,7 +461,7 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
         ds_by_county[county][(county, lake)] = data
 
     result = defaultdict(dict)
-    stats = {'matched': 0, 'unmatched': 0, 'no_species_data': 0, 'manual': 0, 'summ': 0, 'fishc': 0, 'grow': 0, 'override': 0}
+    stats = {'matched': 0, 'unmatched': 0, 'no_species_data': 0, 'manual': 0, 'summ': 0, 'fishc': 0, 'grow': 0, 'dnr-stocking': 0, 'override': 0}
 
     species_overrides = manual_raw.get('_species_overrides', {})
 
@@ -393,16 +503,6 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
             }
             stats['matched'] += 1
             stats['override'] += 1
-            continue
-
-        if wb['kind'] not in ('lake', 'pond'):
-            result[wb['county']][wb['name']] = {
-                'species': [],
-                'extras': [],
-                'source': None,
-                'note': 'No historical survey data available for this waterbody type'
-            }
-            stats['unmatched'] += 1
             continue
 
         ds_lakes_for_county = ds_by_county.get(wb['county'], {})

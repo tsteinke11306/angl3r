@@ -68,6 +68,115 @@
         ],
         "source": "Michigan DNR / USGS St. Clair\u2013Detroit River System surveys"
       }
+    },
+    "Crawford": {
+      "Au Sable River": {
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Lake Trout",
+          "Rainbow Trout",
+          "Splake"
+        ],
+        "extras": [],
+        "source": "Michigan DNR trout-stream classification / Michigan Fishing Guide",
+        "confidence": "high",
+        "note": "DNR classifies the Au Sable River in Crawford County as a Class I (self-sustaining wild trout) trout stream with ~69.1 miles of classified trout water. Verified species list from https://michiganfishing.guide/trout-streams/au-sable-river-crawford/ (data sourced from Michigan DNR Division of Fish and Wildlife). Wikipedia and DNR Trout Trails also confirm brown, brook and rainbow trout in the system."
+      },
+      "Manistee River": {
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout"
+        ],
+        "extras": [],
+        "source": "Michigan DNR Status of the Fishery Resource Report 2020-283 / Michigan DNR inland trout regulations",
+        "confidence": "high",
+        "note": "The Upper Manistee River flows through Crawford County (headwaters to Sharon, crossing Antrim/Otsego/Crawford/Kalkaska). DNR report 0345_2020_UpperManisteeRiver.pdf documents self-sustaining brook and brown trout populations and notes rainbow trout in tributaries; DNR trout regulations specifically regulate Brook, Brown and Rainbow Trout on the Manistee River (Crawford Co.) from Co. Rd. 612 to M-72 and from M-72 to CCC Bridge. Migratory salmon/steelhead are blocked by downstream dams and are not present in the Crawford County reach."
+      }
+    },
+    "Montcalm": {
+      "Flat River": {
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bullhead (unspecified)",
+          "Common Carp",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Walleye",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "Channel Catfish"
+        ],
+        "source": "Safe Harbor Fishing / Fishbrain / Fox17 DNR electrofishing coverage",
+        "confidence": "medium",
+        "note": "Safe Harbor Fishing lists bass, pike, walleye, panfish, catfish, bullhead, carp for the Flat River. Fishbrain catches and Fox17 DNR electrofishing confirm smallmouth. No dedicated DNR Status report found for the Flat River itself. URL: https://safeharborfishing.com/what-fish-are-in-the-flat-river"
+      },
+      "Pine River (Chippewa River tributary)": {
+        "species": [
+          "Bluegill",
+          "Common Carp",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Smallmouth Bass",
+          "White Sucker"
+        ],
+        "extras": [],
+        "source": "Michigan DNR Status of the Fishery Resource Report 2015-201, Alma Impoundment",
+        "confidence": "medium",
+        "note": "DNR report documents Upper Pine River/Alma Impoundment species. This covers the downstream impoundment, same river system. URL: https://www2.dnr.state.mi.us/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0268_2015_AlmaImpoundment.pdf"
+      }
+    },
+    "Sanilac": {
+      "Black River": {
+        "species": [
+          "Bowfin",
+          "Brook Trout",
+          "Brown Trout",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Common Carp",
+          "Largemouth Bass",
+          "Lake Trout",
+          "Northern Pike",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Walleye",
+          "White Crappie",
+          "Lake Whitefish",
+          "Yellow Perch"
+        ],
+        "extras": [
+          "Channel Catfish"
+        ],
+        "source": "Fishbrain / onWater / local sources",
+        "confidence": "medium",
+        "note": "Fishbrain logged catches list Channel Catfish, Walleye, Smallmouth Bass, Largemouth Bass, Rock Bass, White Crappie and Bowfin. onWater cites a 2013 fisheries survey documenting Brook Trout, Rainbow Trout, Chinook Salmon and Coho Salmon, plus salmon spawning runs. Local sources also note Brown Trout, Lake Trout, Common Carp, Northern Pike, Yellow Perch and Whitefish. URLs: https://fishbrain.com/fishing-waters/QqfXKnQf/black-river and https://www.onwaterapp.com/us/michigan/water/black-river-w7"
+      },
+      "Cass River": {
+        "species": [
+          "Bluegill",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Lake Sturgeon",
+          "Walleye"
+        ],
+        "extras": [
+          "Channel Catfish"
+        ],
+        "source": "Cass River Water Trail",
+        "confidence": "medium",
+        "note": "Cass River Water Trail states Rock bass, smallmouth bass, largemouth bass, bluegills, pumpkinseed sunfish, northern pike and catfish are very common; sturgeon and walleye are recovering species. Display names normalized to the angl3r species list. URL: https://cassriverwatertrail.org/explore/fishing"
+      }
     }
   }
 }
