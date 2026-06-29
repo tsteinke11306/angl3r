@@ -457,18 +457,18 @@ mark {
    Don't use :active here - it fires on county clicks too and causes a flash. */
 
 .map-svg-container {
-  width: 100%; height: 520px;
+  width: 100%; height: 70vh; min-height: 500px; max-height: 760px;
   display: flex; align-items: center; justify-content: center;
   transform-origin: center center;
   transition: transform 0.05s linear;
   will-change: transform;
 }
 .map-svg-container svg {
-  width: 100%; height: 100%; display: block; max-height: 520px;
+  width: 100%; height: 100%; display: block; max-height: 760px;
 }
 @media (max-width: 600px) {
-  .map-svg-container { height: 420px; }
-  .map-svg-container svg { max-height: 420px; }
+  .map-svg-container { height: 50vh; min-height: 360px; max-height: 500px; }
+  .map-svg-container svg { max-height: 500px; }
 }
 
 /* County path styling - inline fill set via JS for choropleth.
