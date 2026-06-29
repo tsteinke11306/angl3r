@@ -254,63 +254,172 @@ function renderSpeciesFilter(data: RegsData, selected: string | null): string {
 }
 
 /**
- * Build the map view: an inline SVG of Michigan counties with the
- * `data-has-data` and `data-empty` attributes set per the data.
- *
- * The SVG is imported as a raw string at the top of the file, so we can
- * just inject it here. The path elements have id="county-<name>" and
- * data-county="<Name>" already; we just add the data-* flags.
+ * Precompute county-level data for the map: waterbody counts, type codes,
+ * species lists, and exception status. This runs once when the map view
+ * is first rendered and is reused for tooltips, choropleth coloring, and
+ * the county summary panel.
  */
 
+interface CountyMapData {
+  waterbodyCount: number;
+  lakeCount: number;
+  streamCount: number;
+  hasExceptions: boolean;
+  typeCodes: string[];
+  waterbodies: { name: string; kind: string; type?: string; source: string }[];
+  speciesSet: string[];
+}
 
-function renderMapView(data: RegsData): string {
-  // Build a set of counties that have waterbodies (PDF trout/salmon OR
-  // Wikipedia named waters). Every county has the statewide species
-  // baseline, so all 83 are populated. The map's "named waterbodies" stat
-  // is the total count from the unified waterbodies array.
-  const countiesWithWaterbodies = new Set<string>();
-  for (const wb of data.waterbodies ?? []) {
-    countiesWithWaterbodies.add(wb.county);
+let countyMapDataCache: Map<string, CountyMapData> | null = null;
+
+function getCountyMapData(data: RegsData): Map<string, CountyMapData> {
+  if (countyMapDataCache) return countyMapDataCache;
+  const map = new Map<string, CountyMapData>();
+  const stats = data.counties?.stats ?? {};
+
+  // Initialize from county stats
+  for (const [county, s] of Object.entries(stats)) {
+    map.set(county, {
+      waterbodyCount: s.waterbodies ?? 0,
+      lakeCount: s.lakes ?? 0,
+      streamCount: s.streams ?? 0,
+      hasExceptions: s.has_exceptions ?? false,
+      typeCodes: [],
+      waterbodies: [],
+      speciesSet: [],
+    });
   }
 
-  // Annotate the SVG: mark each path as has-data or has-species.
-  // We wrap the whole thing in a <g id="map-zoomable"> so we can apply
-  // pan/zoom transforms later.
+  // Aggregate waterbody details
+  for (const wb of data.waterbodies ?? []) {
+    const entry = map.get(wb.county);
+    if (!entry) continue;
+    entry.waterbodies.push({
+      name: wb.name,
+      kind: wb.kind,
+      type: wb.type,
+      source: wb.source,
+    });
+    if (wb.type && wb.source === "pdf") {
+      if (!entry.typeCodes.includes(wb.type)) {
+        entry.typeCodes.push(wb.type);
+      }
+    }
+  }
+
+  // Aggregate species from survey data
+  const sbw = data.species_by_waterbody ?? {};
+  for (const [county, wbs] of Object.entries(sbw)) {
+    const entry = map.get(county);
+    if (!entry) continue;
+    const speciesSet = new Set<string>();
+    for (const wbData of Object.values(wbs)) {
+      for (const sp of wbData.species ?? []) {
+        speciesSet.add(sp);
+      }
+    }
+    entry.speciesSet = Array.from(speciesSet).sort();
+  }
+
+  countyMapDataCache = map;
+  return map;
+}
+
+/** Compute choropleth fill color based on waterbody count (0 to maxCount). */
+function choroplethFill(count: number, maxCount: number): string {
+  if (maxCount === 0 || count === 0) return "#d4e0ed";
+  const t = Math.min(1, count / maxCount);
+  // Interpolate from light blue (#cfe0f0) to deep blue (#1a5a9e)
+  const r = Math.round(207 + t * (26 - 207));
+  const g = Math.round(224 + t * (90 - 224));
+  const b = Math.round(240 + t * (158 - 240));
+  return `rgb(${r},${g},${b})`;
+}
+
+/**
+ * Build the map view: an inline SVG of Michigan counties with choropleth
+ * coloring by waterbody density, county labels, and rich data attributes.
+ */
+function renderMapView(data: RegsData): string {
+  const countyData = getCountyMapData(data);
+  const allCounties = data.counties?.order ?? Array.from(countyData.keys());
+  const maxWB = Math.max(...Array.from(countyData.values()).map((d) => d.waterbodyCount), 1);
+
+  // Count summary stats for the map stats bar
+  const totalWithExceptions = Array.from(countyData.values()).filter((d) => d.hasExceptions).length;
+  const totalWithPdfWaters = Array.from(countyData.values()).filter((d) => d.typeCodes.length > 0).length;
+  const richest = Array.from(countyData.entries()).sort((a, b) => b[1].waterbodyCount - a[1].waterbodyCount)[0];
+
+  // Annotate the SVG: add choropleth fill, data attributes, and labels
   let annotated = miCountiesSvg;
+
+  // Add data attributes and inline fill to each county path
   annotated = annotated.replace(
     /<path\s+([^>]*?)data-county="([^"]+)"([^>]*?)\/?>/g,
     (_match, before, county, after) => {
-      const has = countiesWithWaterbodies.has(county);
-      const flag = has ? ' data-has-data="true"' : ' data-has-species="true"';
-      return `<path ${before}data-county="${county}"${after}${flag}/>`;
+      const cd = countyData.get(county);
+      if (!cd) return `<path ${before}data-county="${county}"${after}/>`;
+      const fill = choroplethFill(cd.waterbodyCount, maxWB);
+      const excAttr = cd.hasExceptions ? ' data-has-exceptions="true"' : "";
+      return `<path ${before}data-county="${county}"${after} data-waterbody-count="${cd.waterbodyCount}"${excAttr} style="fill: ${fill};"/>`;
     }
   );
+
+  // Add county label text elements before the closing </g> tag.
+  // Labels are positioned at approximate centroids using path bounding boxes.
+  // Since we can't call getBBox during string construction, we add empty
+  // text elements with data-county attributes and position them in
+  // attachMapHandlers after the SVG is in the DOM.
+  const labelTexts = allCounties
+    .map((county) => {
+      const cd = countyData.get(county);
+      if (!cd || cd.waterbodyCount === 0) return "";
+      const shortName = county.length > 8 ? county.substring(0, 7) + "." : county;
+      return `<text data-county-label="${esc(county)}" class="map-county-label" x="0" y="0" text-anchor="middle" pointer-events="none">${esc(shortName)}</text>`;
+    })
+    .join("\n    ");
+
+  annotated = annotated.replace(/(\s*<\/g>\s*<\/svg>\s*)$/, `${labelTexts}\n$1`);
 
   return `
     <div class="map-view">
       <div class="map-view__header">
         <h2 class="map-view__title">Browse by county</h2>
         <p class="map-view__hint">
-          Click any county to see all ${data.waterbodies?.length ?? 0} named waterbodies. Hover for name. Scroll to zoom, drag to pan.
+          Click a county for detailed info. Hover for stats. Scroll to zoom, drag to pan.
         </p>
+      </div>
+      <div class="map-stats-bar">
+        <span class="map-stat"><strong>${allCounties.length}</strong> counties</span>
+        <span class="map-stat"><strong>${totalWithExceptions}</strong> with exceptions</span>
+        <span class="map-stat"><strong>${totalWithPdfWaters}</strong> with trout/salmon waters</span>
+        <span class="map-stat">Richest: <strong>${esc(richest?.[0] ?? "")}</strong> (${richest?.[1].waterbodyCount ?? 0})</span>
+      </div>
+      <div class="map-search">
+        <svg class="map-search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.3-4.3"/>
+        </svg>
+        <input type="search" id="map-search-input" class="map-search__input" placeholder="Filter counties by name..." autocomplete="off" />
       </div>
       <div class="map-zoomable" id="map-zoomable">
         <div class="map-svg-container" id="map-svg-container">${annotated}</div>
         <div class="map-tooltip" id="map-tooltip" aria-hidden="true" style="display: none;"></div>
         <div class="map-controls" id="map-controls" role="toolbar" aria-label="Map controls">
           <button type="button" class="map-control-btn" data-action="zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
-          <button type="button" class="map-control-btn" data-action="zoom-out" title="Zoom out" aria-label="Zoom out">−</button>
-          <button type="button" class="map-control-btn" data-action="reset" title="Reset zoom" aria-label="Reset zoom">⟲</button>
+          <button type="button" class="map-control-btn" data-action="zoom-out" title="Zoom out" aria-label="Zoom out">\u2212</button>
+          <button type="button" class="map-control-btn" data-action="reset" title="Reset zoom" aria-label="Reset zoom">\u27F2</button>
         </div>
       </div>
-      <div class="map-legend">
+      <div class="map-legend map-legend--gradient">
+        <div class="map-legend__gradient-bar">
+          <span class="map-legend__gradient-label">Few</span>
+          <div class="map-legend__gradient-fill"></div>
+          <span class="map-legend__gradient-label">Many waterbodies</span>
+        </div>
         <span class="map-legend__item">
-          <span class="map-legend__swatch map-legend__swatch--data"></span>
-          Has named waterbodies
-        </span>
-        <span class="map-legend__item">
-          <span class="map-legend__swatch map-legend__swatch--empty"></span>
-          Statewide species regs apply
+          <span class="map-legend__swatch map-legend__swatch--exceptions"></span>
+          Has species exceptions
         </span>
         <span class="map-legend__item">
           <span class="map-legend__swatch map-legend__swatch--selected"></span>
@@ -971,63 +1080,84 @@ function attachMapHandlers(data: RegsData) {
     });
   }
 
-  // ----- County click handler -----
-  // For each <path> with a data-county attribute, attach a click handler
+  // ----- Position county labels at path centroids -----
+  const labelTexts = container.querySelectorAll<SVGTextElement>("text[data-county-label]");
+  labelTexts.forEach((textEl) => {
+    const county = textEl.getAttribute("data-county-label");
+    if (!county) return;
+    const path = container.querySelector<SVGPathElement>(`path[data-county="${county}"]`);
+    if (!path) return;
+    try {
+      const bbox = path.getBBox();
+      textEl.setAttribute("x", String(bbox.x + bbox.width / 2));
+      textEl.setAttribute("y", String(bbox.y + bbox.height / 2 + 0.03));
+    } catch {
+      // getBBox may fail if SVG isn't rendered yet; skip silently
+    }
+  });
+
+  // ----- County search filter -----
+  const mapSearchInput = document.getElementById("map-search-input") as HTMLInputElement | null;
+  if (mapSearchInput) {
+    let mapSearchTimer: number | null = null;
+    mapSearchInput.addEventListener("input", () => {
+      if (mapSearchTimer) window.clearTimeout(mapSearchTimer);
+      mapSearchTimer = window.setTimeout(() => {
+        const q = mapSearchInput.value.trim().toLowerCase();
+        const allPaths = container.querySelectorAll<SVGPathElement>("path[data-county]");
+        const allLabels = container.querySelectorAll<SVGTextElement>("text[data-county-label]");
+        if (!q) {
+          // Reset: show all at full opacity
+          allPaths.forEach((p) => p.classList.remove("map-county--dim", "map-county--match"));
+          allLabels.forEach((l) => l.classList.remove("map-county-label--dim", "map-county-label--match"));
+          return;
+        }
+        const matched: string[] = [];
+        allPaths.forEach((p) => {
+          const c = p.getAttribute("data-county") ?? "";
+          if (c.toLowerCase().includes(q)) {
+            p.classList.add("map-county--match");
+            p.classList.remove("map-county--dim");
+            matched.push(c);
+          } else {
+            p.classList.add("map-county--dim");
+            p.classList.remove("map-county--match");
+          }
+        });
+        allLabels.forEach((l) => {
+          const c = l.getAttribute("data-county-label") ?? "";
+          if (c.toLowerCase().includes(q)) {
+            l.classList.add("map-county-label--match");
+            l.classList.remove("map-county-label--dim");
+          } else {
+            l.classList.add("map-county-label--dim");
+            l.classList.remove("map-county-label--match");
+          }
+        });
+        // Auto-select if exactly one match
+        if (matched.length === 1) {
+          showCountyOnMap(matched[0], data);
+        }
+      }, 120);
+    });
+  }
+
+  // ----- County click + hover handler -----
+  const countyDataMap = getCountyMapData(data);
   const paths = container.querySelectorAll<SVGPathElement>("path[data-county]");
   paths.forEach((path) => {
     const county = path.getAttribute("data-county")!;
+    const cd = countyDataMap.get(county);
 
-    // Add an accessible title for screen readers
-    const wbCount =
-      data.waterbodies?.filter((w) => w.county === county).length ?? 0;
-    const label = `${county} County — ${wbCount} waterbod${wbCount === 1 ? "y" : "ies"}`;
+    const wbCount = cd?.waterbodyCount ?? 0;
+    const label = `${county} County - ${wbCount} waterbod${wbCount === 1 ? "y" : "ies"}`;
     path.setAttribute("aria-label", label);
     path.setAttribute("role", "button");
     path.setAttribute("tabindex", "0");
 
     const onActivate = () => {
-      // Set a county filter (not a text query) and switch to the search
-      // view. The search view shows ONLY that county's waterbodies, so
-      // "Manistee" no longer matches the river too. The user can then
-      // click the river (or the county again) to see its details.
-      currentCountyFilter = county;
-      currentQuery = "";
-      selectedResult = null;
-      currentSpecies = null;
-      switchView("search", data);
-      // After the view switches, the search input is empty and the
-      // results list is empty. Populate it with this county's waterbodies.
-      const results = data.waterbodies?.filter((w) => w.county === county) ?? [];
-      const resultsContainer = document.getElementById("results-container");
-      if (resultsContainer) {
-        resultsContainer.innerHTML = renderResults(
-          // Convert waterbodies to Result shape (sort: PDF trout first)
-          results.map((w) => ({
-            kind: w.kind as "lake" | "river" | "stream" | "creek" | "pond" | "bay" | "harbor" | "channel",
-            name: w.name,
-            county: w.county,
-            source: w.source as "pdf" | "wikipedia",
-            type: w.type,
-            source_page: w.pdf_record?.source_page,
-            section: w.section,
-            closure: w.closure,
-            wikipedia_title: w.wikipedia_title,
-            matchDistance: 0,
-            matchedField: "name",
-          }))
-        );
-        attachResultHandlers(data);
-        if (results.length > 0) {
-          selectedResult = results[0] as unknown as Result;
-          updateDetailForSelected(data);
-        } else {
-          // Shouldn't happen (every county has waterbodies now) but
-          // handle gracefully.
-          showSpeciesPanelForCounty(county, data);
-        }
-      } else {
-        showSpeciesPanelForCounty(county, data);
-      }
+      // Stay on map view, show county summary in the detail panel
+      showCountyOnMap(county, data);
     };
 
     path.addEventListener("click", onActivate);
@@ -1038,28 +1168,40 @@ function attachMapHandlers(data: RegsData) {
       }
     });
 
-    // Tooltip handlers — show county name on hover
+    // Rich tooltip on hover - show county stats card
     path.addEventListener("mouseenter", (e) => {
       const tooltip = document.getElementById("map-tooltip");
-      if (!tooltip) return;
-      const county = path.getAttribute("data-county");
-      if (!county) return;
-      tooltip.textContent = county + " County";
+      if (!tooltip || !cd) return;
+      tooltip.innerHTML = `
+        <div class="map-tooltip__card">
+          <div class="map-tooltip__name">${esc(county)} County</div>
+          <div class="map-tooltip__stats">
+            <span>${cd.lakeCount} lakes</span>
+            <span>${cd.streamCount} streams</span>
+            <span>${cd.waterbodyCount} total</span>
+          </div>
+          <div class="map-tooltip__badges">
+            ${cd.hasExceptions ? '<span class="map-tooltip__badge map-tooltip__badge--exc">Has exceptions</span>' : '<span class="map-tooltip__badge map-tooltip__badge--no-exc">No exceptions</span>'}
+            ${cd.typeCodes.length > 0 ? `<span class="map-tooltip__badge map-tooltip__badge--type">Types: ${esc(cd.typeCodes.join(", "))}</span>` : ""}
+          </div>
+          ${cd.speciesSet.length > 0 ? `<div class="map-tooltip__species">${cd.speciesSet.length} species from surveys</div>` : ""}
+        </div>
+      `;
       tooltip.style.display = "block";
       tooltip.setAttribute("aria-hidden", "false");
-      // Position near cursor (will be updated on mousemove)
-      const rect = (e.target as SVGElement).getBoundingClientRect();
       const containerRect = (document.getElementById("map-zoomable") as HTMLElement).getBoundingClientRect();
-      tooltip.style.left = (rect.left - containerRect.left + rect.width / 2) + "px";
-      tooltip.style.top = (rect.top - containerRect.top - 28) + "px";
+      tooltip.style.left = (e.clientX - containerRect.left + 18) + "px";
+      tooltip.style.top = (e.clientY - containerRect.top - 10) + "px";
     });
     path.addEventListener("mousemove", (e) => {
       const tooltip = document.getElementById("map-tooltip");
       if (!tooltip || tooltip.style.display === "none") return;
       const containerRect = (document.getElementById("map-zoomable") as HTMLElement).getBoundingClientRect();
-      // Offset further right and up so it doesn't sit directly under cursor
-      tooltip.style.left = (e.clientX - containerRect.left + 18) + "px";
-      tooltip.style.top = (e.clientY - containerRect.top - 28) + "px";
+      // Position tooltip to the right of cursor, clamp to container
+      const tx = Math.min(e.clientX - containerRect.left + 18, containerRect.width - 220);
+      const ty = Math.max(e.clientY - containerRect.top - 10, 10);
+      tooltip.style.left = tx + "px";
+      tooltip.style.top = ty + "px";
     });
     path.addEventListener("mouseleave", () => {
       const tooltip = document.getElementById("map-tooltip");
@@ -1068,6 +1210,221 @@ function attachMapHandlers(data: RegsData) {
       tooltip.setAttribute("aria-hidden", "true");
     });
   });
+}
+
+/**
+ * Show a rich county summary panel in the detail container while staying
+ * on the map view. The panel includes stats, waterbody list, type codes,
+ * species found, and a button to switch to search view with the county filter.
+ */
+function showCountyOnMap(county: string, data: RegsData) {
+  // Highlight the selected county on the map
+  const container = document.getElementById("map-svg-container");
+  if (container) {
+    container.querySelectorAll<SVGPathElement>("path[data-county]").forEach((p) => {
+      p.removeAttribute("data-selected");
+    });
+    const selected = container.querySelector<SVGPathElement>(`path[data-county="${county}"]`);
+    if (selected) selected.setAttribute("data-selected", "true");
+  }
+
+  const detailContainer = document.getElementById("detail-container");
+  if (!detailContainer) return;
+  detailContainer.innerHTML = `<div class="detail">${renderCountySummary(county, data)}</div>`;
+  detailContainer.scrollTop = 0;
+
+  // Wire up the "Search all in county" button
+  const searchBtn = document.getElementById("county-search-btn");
+  if (searchBtn) {
+    searchBtn.addEventListener("click", () => {
+      currentCountyFilter = county;
+      currentQuery = "";
+      selectedResult = null;
+      currentSpecies = null;
+      switchView("search", data);
+      const results = data.waterbodies?.filter((w) => w.county === county) ?? [];
+      const resultsContainer = document.getElementById("results-container");
+      if (resultsContainer) {
+        resultsContainer.innerHTML = renderResults(
+          results.map((w) => ({
+            kind: w.kind as Result["kind"],
+            name: w.name,
+            county: w.county,
+            source: w.source as "pdf" | "wikipedia",
+            type: w.type,
+            source_page: w.pdf_record?.source_page,
+            section: w.section,
+            closure: w.closure,
+            wikipedia_title: w.wikipedia_title,
+            matchDistance: 0,
+            matchedField: "name" as const,
+          }))
+        );
+        attachResultHandlers(data);
+        if (results.length > 0) {
+          selectedResult = results[0] as unknown as Result;
+          updateDetailForSelected(data);
+        }
+      }
+    });
+  }
+
+  // Wire up waterbody links in the county summary
+  const wbLinks = detailContainer.querySelectorAll<HTMLElement>("[data-wb-link]");
+  wbLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      const name = link.dataset.wbLink!;
+      const kind = link.dataset.wbKind!;
+      // Switch to search view and select this waterbody
+      currentCountyFilter = county;
+      currentQuery = "";
+      selectedResult = null;
+      currentSpecies = null;
+      switchView("search", data);
+      const results = data.waterbodies?.filter((w) => w.county === county) ?? [];
+      const resultsContainer = document.getElementById("results-container");
+      if (resultsContainer) {
+        resultsContainer.innerHTML = renderResults(
+          results.map((w) => ({
+            kind: w.kind as Result["kind"],
+            name: w.name,
+            county: w.county,
+            source: w.source as "pdf" | "wikipedia",
+            type: w.type,
+            source_page: w.pdf_record?.source_page,
+            section: w.section,
+            closure: w.closure,
+            wikipedia_title: w.wikipedia_title,
+            matchDistance: 0,
+            matchedField: "name" as const,
+          }))
+        );
+        attachResultHandlers(data);
+        // Select the clicked waterbody
+        const target = results.find((w) => w.name === name && w.kind === kind);
+        if (target) {
+          selectedResult = {
+            kind: target.kind as Result["kind"],
+            name: target.name,
+            county: target.county,
+            source: target.source as "pdf" | "wikipedia",
+            type: target.type,
+            source_page: target.pdf_record?.source_page,
+            section: target.section,
+            closure: target.closure,
+            wikipedia_title: target.wikipedia_title,
+            matchDistance: 0,
+            matchedField: "name" as const,
+          };
+          updateDetailForSelected(data);
+        }
+      }
+    });
+  });
+}
+
+/**
+ * Render a rich county summary panel for the map view. Shows stats,
+ * waterbody list, type codes, species found, exceptions, and a search button.
+ */
+function renderCountySummary(county: string, data: RegsData): string {
+  const cd = getCountyMapData(data).get(county);
+  if (!cd) return renderDetailPlaceholder();
+
+  // Sort waterbodies: PDF first, then by kind, then alphabetically
+  const sortedWbs = [...cd.waterbodies].sort((a, b) => {
+    if (a.source !== b.source) return a.source === "pdf" ? -1 : 1;
+    if (a.kind !== b.kind) return a.kind.localeCompare(b.kind);
+    return a.name.localeCompare(b.name);
+  });
+
+  // Group waterbodies by kind
+  const byKind: Record<string, typeof sortedWbs> = {};
+  for (const wb of sortedWbs) {
+    if (!byKind[wb.kind]) byKind[wb.kind] = [];
+    byKind[wb.kind].push(wb);
+  }
+  const kindOrder = ["lake", "river", "stream", "creek", "pond", "bay", "harbor", "channel"];
+  const sortedKinds = Object.keys(byKind).sort((a, b) => {
+    const ai = kindOrder.indexOf(a);
+    const bi = kindOrder.indexOf(b);
+    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+  });
+
+  const exceptions = data.species?.county_exceptions?.[county] ?? null;
+
+  // Species chips
+  const speciesChipsHtml = cd.speciesSet.length > 0
+    ? cd.speciesSet.map((sp) => `<span class="badge badge--species">${esc(sp)}</span>`).join(" ")
+    : '<p class="detail__hint">No historical survey species data available for this county.</p>';
+
+  return `
+    <h2 class="detail__title">${esc(county)} County</h2>
+    <p class="detail__subtitle">Click any waterbody to view its regulations</p>
+
+    <div class="county-summary__stats">
+      <div class="county-stat">
+        <span class="county-stat__num">${cd.lakeCount}</span>
+        <span class="county-stat__label">Lakes</span>
+      </div>
+      <div class="county-stat">
+        <span class="county-stat__num">${cd.streamCount}</span>
+        <span class="county-stat__label">Streams</span>
+      </div>
+      <div class="county-stat">
+        <span class="county-stat__num">${cd.waterbodyCount}</span>
+        <span class="county-stat__label">Total</span>
+      </div>
+    </div>
+
+    <div class="detail__badges">
+      ${cd.hasExceptions ? '<span class="badge badge--warning">Has county-specific exceptions</span>' : '<span class="badge badge--wiki">No county exceptions</span>'}
+      ${cd.typeCodes.length > 0 ? `<span class="badge badge--pdf">Type codes: ${esc(cd.typeCodes.join(", "))}</span>` : ""}
+    </div>
+
+    ${exceptions ? `
+      <div class="detail__section">
+        <h3 class="detail__section-title">County-specific exceptions</h3>
+        <div class="detail__body detail__body--reg-text">${esc(exceptions).replace(/\n/g, "<br>")}</div>
+      </div>
+    ` : ""}
+
+    <div class="detail__section">
+      <h3 class="detail__section-title">Waterbodies (${sortedWbs.length})</h3>
+      ${sortedKinds.map((kind) => `
+        <div class="county-wb-group">
+          <div class="county-wb-group__header">${esc(capitalize(kind))}s (${byKind[kind].length})</div>
+          ${byKind[kind].map((wb) => `
+            <button class="county-wb-link" data-wb-link="${esc(wb.name)}" data-wb-kind="${esc(wb.kind)}">
+              <span class="county-wb-link__name">${esc(wb.name)}</span>
+              ${wb.type ? `<span class="county-wb-link__type">${esc(wb.type)}</span>` : ""}
+              ${wb.source === "pdf" ? '<span class="county-wb-link__src">PDF</span>' : '<span class="county-wb-link__src county-wb-link__src--wiki">Wiki</span>'}
+            </button>
+          `).join("")}
+        </div>
+      `).join("")}
+    </div>
+
+    <div class="detail__section">
+      <h3 class="detail__section-title">Species from surveys (${cd.speciesSet.length})</h3>
+      <div class="detail__species-chips">${speciesChipsHtml}</div>
+    </div>
+
+    <div class="county-summary__actions">
+      <button id="county-search-btn" class="county-search-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.3-4.3"/>
+        </svg>
+        Search all in ${esc(county)} County
+      </button>
+    </div>
+
+    <div class="detail__citation">
+      Source: <a href="https://michigan.gov/DNR" target="_blank" rel="noopener noreferrer">Michigan DNR 2026 Fishing Regulations</a>,
+      effective ${esc(data.source.effective)}.
+    </div>
+  `;
 }
 
 /**
@@ -1111,73 +1468,6 @@ function updateDetailForSelected(data: RegsData) {
   // header is immediately visible.
   detailContainer.scrollTop = 0;
 }
-
-/**
- * Render a detail panel for a county that has no named waterbodies. Shows
- * the statewide species regulations + any per-county exceptions we parsed.
- * This is what users see when they click a "light blue" county on the map
- * (one that doesn't have trout/salmon waters in the PDF).
- */
-function showSpeciesPanelForCounty(county: string, data: RegsData) {
-  const detailContainer = document.getElementById("detail-container");
-  if (!detailContainer) return;
-  detailContainer.innerHTML = `<div class="detail">${renderCountySpeciesPanel(county, data)}</div>`;
-  detailContainer.scrollTop = 0;
-}
-
-function renderCountySpeciesPanel(county: string, data: RegsData): string {
-  const species = data.species?.statewide ?? [];
-  const exceptions = data.species?.county_exceptions?.[county] ?? null;
-
-  return `
-    <h2 class="detail__title">${esc(county)} County</h2>
-    <p class="detail__subtitle">No named waterbodies in this PDF. Statewide species regulations apply.</p>
-
-    <div class="detail__section">
-      <h3 class="detail__section-title">Species regulations</h3>
-      <p class="detail__body">
-        Click any species below to see its statewide rules, or check the
-        county-specific exceptions at the bottom of this panel.
-      </p>
-      <div class="species-list">
-        ${species
-          .map(
-            (sp) => `
-          <div class="species-list__item">
-            <h4 class="species-list__name">${esc(sp.name)}</h4>
-            <dl class="species-list__regs">
-              <dt>Min size</dt><dd>${esc(sp.min_size)}</dd>
-              <dt>Daily limit</dt><dd>${esc(sp.daily_limit)}</dd>
-              <dt>Seasons</dt>
-              <dd>${sp.possession_seasons.map((s) => esc(s)).join("<br>")}</dd>
-              ${sp.notes ? `<dt>Notes</dt><dd>${esc(sp.notes)}</dd>` : ""}
-            </dl>
-          </div>
-        `
-          )
-          .join("")}
-      </div>
-    </div>
-
-    ${
-      exceptions
-        ? `<div class="detail__section">
-        <h3 class="detail__section-title">County-specific exceptions</h3>
-        <p class="detail__body">${esc(exceptions).replace(/\n/g, "<br>")}</p>
-      </div>`
-        : `<div class="detail__section">
-        <h3 class="detail__section-title">County-specific exceptions</h3>
-        <p class="detail__body--ocr">No specific exceptions are listed in the PDF for ${esc(county)} County. The statewide species rules above apply to all waters in this county.</p>
-      </div>`
-    }
-
-    <div class="detail__citation">
-      Source: <a href="https://michigan.gov/DNR" target="_blank" rel="noopener noreferrer">Michigan DNR 2026 Fishing Regulations</a>,
-      effective ${esc(data.source.effective)}.
-    </div>
-  `;
-}
-
 
 async function main() {
   const root = document.getElementById("app")!;
