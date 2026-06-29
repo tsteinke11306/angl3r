@@ -1012,21 +1012,27 @@ function attachMapHandlers(data: RegsData) {
   let panStartTx = 0;
   let panStartTy = 0;
   let panMoved = false; // track if the mouse actually moved during pan
+  let panOnCounty = false; // track if the pan started on a county
 
   if (zoomable) {
     zoomable.addEventListener("mousedown", (e: MouseEvent) => {
-      // Don't start a pan if the user clicked on a county path or label -
-      // those have their own click handlers.
+      // Always start panning - even on county paths. We'll distinguish
+      // click vs drag using panMoved: if the mouse moves >2px, it's a
+      // drag and we suppress the county click. If it doesn't move, it's
+      // a click and the county click handler runs.
       const clickTarget = e.target as Element;
-      if (clickTarget.closest("[data-county]")) return;
-      if (clickTarget.closest("text[data-county-label]")) return;
+      panOnCounty = !!clickTarget.closest("[data-county]");
       isPanning = true;
       panMoved = false;
       panStartX = e.clientX;
       panStartY = e.clientY;
       panStartTx = tx;
       panStartTy = ty;
-      zoomable.style.cursor = "grabbing";
+      if (panOnCounty) {
+        zoomable.style.cursor = "grabbing";
+      } else {
+        zoomable.style.cursor = "grabbing";
+      }
       e.preventDefault(); // prevent text selection flash
     });
 
@@ -1058,9 +1064,10 @@ function attachMapHandlers(data: RegsData) {
   if (zoomable) {
     zoomable.addEventListener("touchstart", (e: TouchEvent) => {
       if (e.touches.length !== 1) return;
-      const target = e.target as Element;
-      if (target.closest("[data-county]")) return;
+      // Allow panning even on county paths (same logic as mouse)
       touchActive = true;
+      panMoved = false;
+      panOnCounty = !!(e.target as Element).closest("[data-county]");
       touchStartX = e.touches[0].clientX;
       touchStartY = e.touches[0].clientY;
       touchStartTx = tx;
@@ -1069,8 +1076,11 @@ function attachMapHandlers(data: RegsData) {
 
     zoomable.addEventListener("touchmove", (e: TouchEvent) => {
       if (!touchActive || e.touches.length !== 1) return;
-      tx = touchStartTx + (e.touches[0].clientX - touchStartX);
-      ty = touchStartTy + (e.touches[0].clientY - touchStartY);
+      const dx = e.touches[0].clientX - touchStartX;
+      const dy = e.touches[0].clientY - touchStartY;
+      if (Math.abs(dx) > 2 || Math.abs(dy) > 2) panMoved = true;
+      tx = touchStartTx + dx;
+      ty = touchStartTy + dy;
       applyTransform();
     }, { passive: true });
 
