@@ -453,7 +453,8 @@ mark {
   touch-action: none;
   border: 1px solid var(--border-subtle);
 }
-.map-zoomable:active { cursor: grabbing; }
+/* Cursor is managed by JS (grabbing set on mousedown, cleared on mouseup).
+   Don't use :active here - it fires on county clicks too and causes a flash. */
 
 .map-svg-container {
   width: 100%; height: 520px;
@@ -470,27 +471,31 @@ mark {
   .map-svg-container svg { max-height: 420px; }
 }
 
-/* County path styling */
+/* County path styling - inline fill set via JS for choropleth.
+   Keep hover/selected transitions but avoid fill flash by not transitioning
+   fill on click (only on hover). */
 .map-svg-container svg path[data-county] {
-  fill: #c4d2e0;
   stroke: #ffffff;
   stroke-width: 0.012;
   cursor: pointer;
-  transition: fill 0.18s, stroke 0.18s, filter 0.18s;
+  transition: stroke 0.15s, filter 0.15s;
   vector-effect: non-scaling-stroke;
+  outline: none;
 }
 .map-svg-container svg path[data-county][data-has-data="true"] {
-  fill: #8fb3cf;
+  /* Legacy: kept for backward compat but fill is now set inline by JS */
 }
 .map-svg-container svg path[data-county]:hover {
-  fill: var(--accent);
-  filter: drop-shadow(0 0 4px var(--accent-glow));
+  /* Don't override fill (choropleth is inline). Use filter to highlight. */
+  filter: brightness(1.15) drop-shadow(0 0 4px var(--accent-glow));
+  stroke: var(--accent);
+  stroke-width: 0.02;
 }
 .map-svg-container svg path[data-county][data-selected="true"] {
-  fill: var(--accent);
+  /* Don't override fill. Use stroke + filter to show selection. */
   stroke: var(--sage);
-  stroke-width: 0.03;
-  filter: drop-shadow(0 0 6px var(--accent-glow));
+  stroke-width: 0.04;
+  filter: brightness(1.2) drop-shadow(0 0 6px var(--accent-glow));
 }
 .map-svg-container svg path[data-county]:focus-visible {
   stroke: var(--accent);

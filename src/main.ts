@@ -281,8 +281,8 @@ function getCountyMapData(data: RegsData): Map<string, CountyMapData> {
   for (const [county, s] of Object.entries(stats)) {
     map.set(county, {
       waterbodyCount: s.waterbodies ?? 0,
-      lakeCount: s.lakes ?? 0,
-      streamCount: s.streams ?? 0,
+      lakeCount: 0,  // recomputed from waterbodies below
+      streamCount: 0, // recomputed from waterbodies below
       hasExceptions: s.has_exceptions ?? false,
       typeCodes: [],
       waterbodies: [],
@@ -290,7 +290,8 @@ function getCountyMapData(data: RegsData): Map<string, CountyMapData> {
     });
   }
 
-  // Aggregate waterbody details
+  // Aggregate waterbody details - count actual lakes/streams from the
+  // unified waterbodies array (includes both PDF and Wikipedia sources).
   for (const wb of data.waterbodies ?? []) {
     const entry = map.get(wb.county);
     if (!entry) continue;
@@ -300,6 +301,12 @@ function getCountyMapData(data: RegsData): Map<string, CountyMapData> {
       type: wb.type,
       source: wb.source,
     });
+    // Count by kind: lakes, rivers/streams/creeks count as "streams"
+    if (wb.kind === "lake" || wb.kind === "pond") {
+      entry.lakeCount++;
+    } else if (wb.kind === "river" || wb.kind === "stream" || wb.kind === "creek" || wb.kind === "channel") {
+      entry.streamCount++;
+    }
     if (wb.type && wb.source === "pdf") {
       if (!entry.typeCodes.includes(wb.type)) {
         entry.typeCodes.push(wb.type);
@@ -980,19 +987,21 @@ function attachMapHandlers(data: RegsData) {
     setTransform(1, 0, 0);
   }
 
-  // Wheel zoom — zoom toward the cursor position
+  // Wheel zoom - zoom toward the cursor position
+  // Math: keep the point under the cursor visually fixed.
+  // p = cursor relative to element center. After scaling by k, the
+  // element grows by k. To keep p fixed: newTx = p - k * (p - tx).
   if (zoomable) {
     zoomable.addEventListener("wheel", (e: WheelEvent) => {
       e.preventDefault();
       const rect = target.getBoundingClientRect();
-      // Cursor position relative to the target's center
       const cx = e.clientX - rect.left - rect.width / 2;
       const cy = e.clientY - rect.top - rect.height / 2;
       const factor = e.deltaY < 0 ? 1.15 : 1 / 1.15;
       const newScale = Math.max(MIN_SCALE, Math.min(MAX_SCALE, scale * factor));
-      // Adjust translation so the cursor stays anchored to the same point
       const k = newScale / scale;
-      setTransform(newScale, cx - k * cx + tx, cy - k * cy + ty);
+      // Keep cursor point fixed: newTx = cx - k*(cx - tx)
+      setTransform(newScale, cx - k * (cx - tx), cy - k * (cy - ty));
     }, { passive: false });
   }
 
@@ -1002,25 +1011,32 @@ function attachMapHandlers(data: RegsData) {
   let panStartY = 0;
   let panStartTx = 0;
   let panStartTy = 0;
+  let panMoved = false; // track if the mouse actually moved during pan
 
   if (zoomable) {
     zoomable.addEventListener("mousedown", (e: MouseEvent) => {
-      // Don't start a pan if the user clicked on a county path or label —
+      // Don't start a pan if the user clicked on a county path or label -
       // those have their own click handlers.
-      const target = e.target as Element;
-      if (target.closest("[data-county]")) return;
+      const clickTarget = e.target as Element;
+      if (clickTarget.closest("[data-county]")) return;
+      if (clickTarget.closest("text[data-county-label]")) return;
       isPanning = true;
+      panMoved = false;
       panStartX = e.clientX;
       panStartY = e.clientY;
       panStartTx = tx;
       panStartTy = ty;
       zoomable.style.cursor = "grabbing";
+      e.preventDefault(); // prevent text selection flash
     });
 
     window.addEventListener("mousemove", (e: MouseEvent) => {
       if (!isPanning) return;
-      tx = panStartTx + (e.clientX - panStartX);
-      ty = panStartTy + (e.clientY - panStartY);
+      const dx = e.clientX - panStartX;
+      const dy = e.clientY - panStartY;
+      if (Math.abs(dx) > 2 || Math.abs(dy) > 2) panMoved = true;
+      tx = panStartTx + dx;
+      ty = panStartTy + dy;
       applyTransform();
     });
 
@@ -1061,19 +1077,23 @@ function attachMapHandlers(data: RegsData) {
     zoomable.addEventListener("touchend", () => { touchActive = false; });
   }
 
-  // Control buttons (+/-/reset)
+  // Control buttons (+/-/reset) - zoom toward center of current view
   const controls = document.getElementById("map-controls");
   if (controls) {
     controls.addEventListener("click", (e: MouseEvent) => {
       const btn = (e.target as HTMLElement).closest<HTMLElement>(".map-control-btn");
       if (!btn) return;
       const action = btn.dataset.action;
+      // Zoom toward center (0,0 in element-relative coords since transform
+      // origin is center)
+      const cx = 0;
+      const cy = 0;
       if (action === "zoom-in") {
-        const rect = target.getBoundingClientRect();
-        setTransform(scale * 1.4, tx + rect.width * 0.15, ty + rect.height * 0.15);
+        const k = 1.4;
+        setTransform(scale * k, cx - k * (cx - tx), cy - k * (cy - ty));
       } else if (action === "zoom-out") {
-        const rect = target.getBoundingClientRect();
-        setTransform(scale / 1.4, tx - rect.width * 0.1, ty - rect.height * 0.1);
+        const k = 1 / 1.4;
+        setTransform(scale * k, cx - k * (cx - tx), cy - k * (cy - ty));
       } else if (action === "reset") {
         resetTransform();
       }
@@ -1156,6 +1176,12 @@ function attachMapHandlers(data: RegsData) {
     path.setAttribute("tabindex", "0");
 
     const onActivate = () => {
+      // Suppress click if this was the end of a drag-pan (user dragged
+      // the map and happened to release over a county).
+      if (panMoved) {
+        panMoved = false;
+        return;
+      }
       // Stay on map view, show county summary in the detail panel
       showCountyOnMap(county, data);
     };
@@ -1177,7 +1203,7 @@ function attachMapHandlers(data: RegsData) {
           <div class="map-tooltip__name">${esc(county)} County</div>
           <div class="map-tooltip__stats">
             <span>${cd.lakeCount} lakes</span>
-            <span>${cd.streamCount} streams</span>
+            <span>${cd.streamCount} rivers/streams</span>
             <span>${cd.waterbodyCount} total</span>
           </div>
           <div class="map-tooltip__badges">
@@ -1369,7 +1395,7 @@ function renderCountySummary(county: string, data: RegsData): string {
       </div>
       <div class="county-stat">
         <span class="county-stat__num">${cd.streamCount}</span>
-        <span class="county-stat__label">Streams</span>
+        <span class="county-stat__label">Rivers/Streams</span>
       </div>
       <div class="county-stat">
         <span class="county-stat__num">${cd.waterbodyCount}</span>
