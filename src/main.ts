@@ -89,12 +89,50 @@ let currentCountyFilter: string | null = null;  // when set, results are scoped 
 // Render functions
 // ---------------------------------------------------------------------------
 
-function renderHeader(): string {
+function renderHeader(activeView: "search" | "map" = "search"): string {
   return `
-    <header class="site-header">
-      <div class="site-header__inner">
-        <img src="${brandLogoUrl}" alt="angl3r — Michigan fishing regulations" class="site-logo" />
-        <p class="site-tagline">Michigan fishing regulations — search by lake or stream</p>
+    <header class="header">
+      <div class="header__inner">
+        <div class="header__brand">
+          <img src="${brandLogoUrl}" alt="angl3r" class="header__logo" />
+          <span class="header__name">angl3r</span>
+        </div>
+        <nav class="header__nav" role="tablist">
+          <button
+            class="header__nav-btn ${activeView === "search" ? "is-active" : ""}"
+            role="tab"
+            id="tab-search"
+            data-view="search"
+            aria-selected="${activeView === "search"}"
+            aria-controls="view-container"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/>
+              <path d="m21 21-4.3-4.3"/>
+            </svg>
+            <span>Search</span>
+          </button>
+          <button
+            class="header__nav-btn ${activeView === "map" ? "is-active" : ""}"
+            role="tab"
+            id="tab-map"
+            data-view="map"
+            aria-selected="${activeView === "map"}"
+            aria-controls="view-container"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>Counties</span>
+          </button>
+        </nav>
+        <a class="header__link" href="https://github.com/tsteinke11306/angl3r" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.8 1.7 2.6 1.2.1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.7 18 5 18 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
       </div>
     </header>
   `;
@@ -103,12 +141,56 @@ function renderHeader(): string {
 function renderStats(data: RegsData): string {
   const wbCount = data.meta.waterbody_count ?? data.waterbodies?.length ?? 0;
   return `
-    <div class="stats">
-      <span><strong>${data.meta.lake_count}</strong> PDF trout/salmon lakes</span>
-      <span><strong>${data.meta.stream_count}</strong> PDF trout/salmon streams</span>
-      <span><strong>${wbCount}</strong> total named waterbodies</span>
-      <span><strong>${data.meta.county_count}</strong> counties</span>
-      <span>Source: <strong>${esc(data.source.title)}</strong> + Wikipedia</span>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-card__icon stat-card__icon--lake">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 18c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2"/>
+            <path d="M3 13c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2"/>
+          </svg>
+        </div>
+        <div class="stat-card__body">
+          <div class="stat-card__num">${data.meta.lake_count}</div>
+          <div class="stat-card__label">Trout/salmon lakes</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__icon stat-card__icon--stream">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 12c3-2 5-2 8 0s5 2 8 0 4-2 4-2"/>
+            <path d="M2 18c3-2 5-2 8 0s5 2 8 0 4-2 4-2"/>
+            <path d="M2 6c3-2 5-2 8 0s5 2 8 0 4-2 4-2"/>
+          </svg>
+        </div>
+        <div class="stat-card__body">
+          <div class="stat-card__num">${data.meta.stream_count}</div>
+          <div class="stat-card__label">Trout/salmon streams</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__icon stat-card__icon--total">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 22V2l12 4v16"/>
+            <path d="M6 12h12"/>
+          </svg>
+        </div>
+        <div class="stat-card__body">
+          <div class="stat-card__num">${wbCount.toLocaleString()}</div>
+          <div class="stat-card__label">Total waterbodies</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__icon stat-card__icon--county">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+        </div>
+        <div class="stat-card__body">
+          <div class="stat-card__num">${data.meta.county_count}</div>
+          <div class="stat-card__label">Counties covered</div>
+        </div>
+      </div>
     </div>
   `;
 }
@@ -132,46 +214,6 @@ function renderSearchBox(): string {
   `;
 }
 
-/**
- * View tabs let the user switch between the search interface and the
- * county map. Default is "search" (the original behavior). The map view
- * shows an interactive SVG of Michigan counties; clicking a county sets
- * the search filter to that county and switches back to the search view.
- */
-function renderViewTabs(active: "search" | "map"): string {
-  return `
-    <div class="view-tabs" role="tablist">
-      <button
-        class="view-tabs__btn"
-        role="tab"
-        id="tab-search"
-        data-view="search"
-        aria-selected="${active === "search"}"
-        aria-controls="view-container"
-      >
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="11" cy="11" r="8"/>
-          <path d="m21 21-4.3-4.3"/>
-        </svg>
-        Search
-      </button>
-      <button
-        class="view-tabs__btn"
-        role="tab"
-        id="tab-map"
-        data-view="map"
-        aria-selected="${active === "map"}"
-        aria-controls="view-container"
-      >
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-          <circle cx="12" cy="10" r="3"/>
-        </svg>
-        Browse by county
-      </button>
-    </div>
-  `;
-}
 
 /**
  * Render the species filter chips. Each species is a button that, when
@@ -184,16 +226,18 @@ function renderViewTabs(active: "search" | "map"): string {
 function renderSpeciesFilter(data: RegsData, selected: string | null): string {
   const species = data.species?.statewide ?? [];
   return `
-    <div class="species-filter" role="group" aria-label="Filter by species">
-      <button
-        class="species-chip ${selected === null ? "species-chip--active" : ""}"
-        data-species-id="__all"
-      >
-        All species
-      </button>
-      ${species
-        .map(
-          (sp) => `
+    <div class="species-filter-wrapper">
+      <div class="species-filter-label">Filter by species</div>
+      <div class="species-filter" role="group" aria-label="Filter by species">
+        <button
+          class="species-chip ${selected === null ? "species-chip--active" : ""}"
+          data-species-id="__all"
+        >
+          All species
+        </button>
+        ${species
+          .map(
+            (sp) => `
         <button
           class="species-chip ${selected === sp.id ? "species-chip--active" : ""}"
           data-species-id="${esc(sp.id)}"
@@ -202,8 +246,9 @@ function renderSpeciesFilter(data: RegsData, selected: string | null): string {
           ${esc(sp.name.replace(/\s*\(.*?\)\s*/g, ""))}
         </button>
       `
-        )
-        .join("")}
+          )
+          .join("")}
+      </div>
     </div>
   `;
 }
@@ -264,7 +309,7 @@ function renderMapView(data: RegsData): string {
           Has named waterbodies
         </span>
         <span class="map-legend__item">
-          <span class="map-legend__swatch" style="background: #c8d8e3;"></span>
+          <span class="map-legend__swatch map-legend__swatch--empty"></span>
           Statewide species regs apply
         </span>
         <span class="map-legend__item">
@@ -535,15 +580,24 @@ function renderDetailForResult(result: Result, data: RegsData): string {
 
 function renderFooter(): string {
   return `
-    <footer class="site-footer">
-      <p>
-        Built from the official <a href="https://michigan.gov/DNR" target="_blank" rel="noopener noreferrer">Michigan DNR 2026 Fishing Regulations</a>.
-        This site is a convenience lookup; always verify current rules with the DNR before fishing.
-      </p>
-      <p style="margin-top: 0.5rem;">
-        <a href="https://github.com/tsteinke11306/angl3r" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
-        · Data last updated ${new Date().toLocaleDateString()}.
-      </p>
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__left">
+          <p>
+            Built from the official <a href="https://michigan.gov/DNR" target="_blank" rel="noopener noreferrer">Michigan DNR 2026 Fishing Regulations</a>.
+            This site is a convenience lookup; always verify current rules with the DNR before fishing.
+          </p>
+        </div>
+        <div class="footer__right">
+          <a class="footer__source" href="https://github.com/tsteinke11306/angl3r" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+              <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.8 1.7 2.6 1.2.1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.7 18 5 18 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/>
+            </svg>
+            Source on GitHub
+          </a>
+          <p>Data last updated ${new Date().toLocaleDateString()}</p>
+        </div>
+      </div>
     </footer>
   `;
 }
@@ -600,11 +654,13 @@ function renderMapViewUI(data: RegsData): string {
 function switchView(target: "search" | "map", data: RegsData) {
   currentView = target;
 
-  // Update tab aria-selected
+  // Update nav button active states in the header
   const tabSearch = document.getElementById("tab-search")!;
   const tabMap = document.getElementById("tab-map")!;
   tabSearch.setAttribute("aria-selected", String(target === "search"));
   tabMap.setAttribute("aria-selected", String(target === "map"));
+  tabSearch.classList.toggle("is-active", target === "search");
+  tabMap.classList.toggle("is-active", target === "map");
 
   // Replace the view container's contents
   const container = document.getElementById("view-container")!;
@@ -1146,12 +1202,11 @@ async function main() {
   // Initial render: search view is default
   currentView = "search";
   root.innerHTML = `
-    ${renderHeader()}
+    ${renderHeader(currentView)}
     <main class="main">
+      ${renderStats(data)}
       <div class="layout">
         <div>
-          ${renderStats(data)}
-          ${renderViewTabs(currentView)}
           <div id="view-container">${renderSearchView(data)}</div>
         </div>
         <div id="detail-container">
