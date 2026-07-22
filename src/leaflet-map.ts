@@ -42,6 +42,35 @@ async function loadCountyGeoJson(): Promise<any> {
 let mapInstance: any = null;
 let countyLayer: any = null;
 let pinMarker: any = null;
+let waterbodyMarkerLayer: any = null; // Layer group for waterbody markers
+
+// Waterbody coordinates cache (name|county -> [lat, lon])
+let coordsCache: Record<string, [number, number]> | null = null;
+let coordsPromise: Promise<Record<string, [number, number]>> | null = null;
+
+async function loadWaterbodyCoords(): Promise<Record<string, [number, number]>> {
+  if (coordsCache) return coordsCache;
+  if (coordsPromise) return coordsPromise;
+  const base = import.meta.env.BASE_URL || "/";
+  coordsPromise = fetch(`${base}data/coords_by_waterbody.json`)
+    .then((r) => {
+      if (!r.ok) {
+        // File might not exist yet (geocoding in progress)
+        console.warn("coords_by_waterbody.json not available yet");
+        return {};
+      }
+      return r.json();
+    })
+    .then((json) => {
+      coordsCache = json as Record<string, [number, number]>;
+      return coordsCache;
+    })
+    .catch(() => {
+      console.warn("Failed to load waterbody coordinates");
+      return {};
+    });
+  return coordsPromise;
+}
 
 // County data cache (same structure as main.ts but for Leaflet)
 interface CountyMapData {
@@ -184,13 +213,23 @@ export function esc(s: string): string {
 export type CountySelectedCallback = (county: string, data: RegsData) => void;
 
 /**
+ * Callback type for when a specific waterbody marker is clicked.
+ */
+export type WaterbodySelectedCallback = (
+  name: string,
+  county: string,
+  data: RegsData
+) => void;
+
+/**
  * Initialize the Leaflet map in the given container element.
  * Must be called after the container is in the DOM.
  */
 export async function initLeafletMap(
   containerId: string,
   data: RegsData,
-  onCountySelected: CountySelectedCallback
+  onCountySelected: CountySelectedCallback,
+  onWaterbodySelected?: WaterbodySelectedCallback
 ): Promise<void> {
   const container = document.getElementById(containerId);
   if (!container) return;
@@ -379,6 +418,93 @@ export async function initLeafletMap(
   } catch {
     // If getBounds fails, default center/zoom is fine
   }
+
+  // Load and display waterbody markers (if coordinates are available)
+  try {
+    const coords = await loadWaterbodyCoords();
+    const coordEntries = Object.entries(coords);
+    if (coordEntries.length > 0) {
+      waterbodyMarkerLayer = L.layerGroup();
+
+      for (const wb of data.waterbodies ?? []) {
+        const key = `${wb.name}|${wb.county}`;
+        const coords = coordsCache?.[key];
+        if (!coords) continue;
+
+        const [lat, lon] = coords;
+        // Color by kind: lakes=blue, rivers=green, others=purple
+        const color =
+          wb.kind === "lake" || wb.kind === "pond"
+            ? "#2563eb"
+            : wb.kind === "river" || wb.kind === "stream" || wb.kind === "creek"
+            ? "#16a34a"
+            : "#7c3aed";
+
+        // Check if this waterbody has species data
+        const hasSpecies =
+          (data.species_by_waterbody?.[wb.county]?.[wb.name]?.species ?? [])
+            .length > 0;
+
+        const marker = L.circleMarker([lat, lon], {
+          radius: hasSpecies ? 6 : 4,
+          fillColor: color,
+          color: "#ffffff",
+          weight: 1,
+          opacity: 0.9,
+          fillOpacity: hasSpecies ? 0.8 : 0.5,
+        });
+
+        // Tooltip with waterbody name and info
+        const typeLabel = wb.type ? ` (Type ${wb.type})` : "";
+        const speciesInfo = hasSpecies
+          ? `<div style="font-size:0.6875rem;color:#5b8a5b;margin-top:0.15rem">Has species data</div>`
+          : "";
+        marker.bindTooltip(
+          `<div style="font-weight:600;font-size:0.8125rem">${esc(wb.name)}${typeLabel}</div>` +
+            `<div style="font-size:0.6875rem;color:#5a6c83">${esc(wb.county)} County</div>` +
+            speciesInfo,
+          {
+            className: "leaflet-waterbody-tooltip",
+            direction: "top",
+            offset: [0, -4],
+          }
+        );
+
+        // Click on marker shows waterbody in detail panel
+        marker.on("click", () => {
+          if (onWaterbodySelected) {
+            onWaterbodySelected(wb.name, wb.county, data);
+          }
+        });
+
+        waterbodyMarkerLayer.addLayer(marker);
+      }
+
+      // Add markers to map, but only show them at higher zoom levels
+      // (showing 700+ markers at state-wide zoom would be cluttered)
+      const markerLayer = waterbodyMarkerLayer;
+      markerLayer.addTo(mapInstance);
+
+      // Toggle marker visibility based on zoom level
+      function updateMarkerVisibility() {
+        if (!mapInstance) return;
+        const z = mapInstance.getZoom();
+        if (z >= 10) {
+          if (!mapInstance.hasLayer(markerLayer)) {
+            mapInstance.addLayer(markerLayer);
+          }
+        } else {
+          if (mapInstance.hasLayer(markerLayer)) {
+            mapInstance.removeLayer(markerLayer);
+          }
+        }
+      }
+      updateMarkerVisibility();
+      mapInstance.on("zoomend", updateMarkerVisibility);
+    }
+  } catch {
+    // Coordinates file not available yet - skip markers
+  }
 }
 
 /**
@@ -451,5 +577,6 @@ export function destroyLeafletMap(): void {
     mapInstance = null;
     countyLayer = null;
     pinMarker = null;
+    waterbodyMarkerLayer = null;
   }
 }

@@ -351,7 +351,7 @@ function renderMapView(data: RegsData): string {
       <div class="map-view__header">
         <h2 class="map-view__title">Satellite Map</h2>
         <p class="map-view__hint">
-          Click a county for regulations and species. Click anywhere to drop a pin and identify the county.
+          Click a county for regulations and species. Click anywhere to drop a pin. Zoom in to see waterbody markers.
         </p>
       </div>
       <div class="map-stats-bar">
@@ -909,9 +909,59 @@ function doSearch(data: RegsData): Result[] {
  */
 function attachMapHandlers(data: RegsData) {
   // Initialize the Leaflet map in the container
-  initLeafletMap("leaflet-map-container", data, (county: string, _data: RegsData) => {
-    showCountyOnMap(county, _data);
-  }).catch((err) => {
+  initLeafletMap(
+    "leaflet-map-container",
+    data,
+    (county: string, _data: RegsData) => {
+      showCountyOnMap(county, _data);
+    },
+    (name: string, county: string, _data: RegsData) => {
+      // Waterbody marker clicked - switch to search view and select it
+      currentCountyFilter = county;
+      currentQuery = "";
+      selectedResult = null;
+      currentSpecies = null;
+      switchView("search", _data);
+      const results = _data.waterbodies?.filter((w) => w.county === county) ?? [];
+      const resultsContainer = document.getElementById("results-container");
+      if (resultsContainer) {
+        resultsContainer.innerHTML = renderResults(
+          results.map((w) => ({
+            kind: w.kind as Result["kind"],
+            name: w.name,
+            county: w.county,
+            source: w.source as "pdf" | "wikipedia",
+            type: w.type,
+            source_page: w.pdf_record?.source_page,
+            section: w.section,
+            closure: w.closure,
+            wikipedia_title: w.wikipedia_title,
+            matchDistance: 0,
+            matchedField: "name" as const,
+          }))
+        );
+        attachResultHandlers(data);
+        // Select the clicked waterbody
+        const target = results.find((w) => w.name === name);
+        if (target) {
+          selectedResult = {
+            kind: target.kind as Result["kind"],
+            name: target.name,
+            county: target.county,
+            source: target.source as "pdf" | "wikipedia",
+            type: target.type,
+            source_page: target.pdf_record?.source_page,
+            section: target.section,
+            closure: target.closure,
+            wikipedia_title: target.wikipedia_title,
+            matchDistance: 0,
+            matchedField: "name" as const,
+          };
+          updateDetailForSelected(data);
+        }
+      }
+    }
+  ).catch((err) => {
     console.error("Failed to initialize Leaflet map:", err);
     const container = document.getElementById("leaflet-map-container");
     if (container) {
