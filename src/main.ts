@@ -12,15 +12,17 @@ import "./styles.css";
 import type { RegsData } from "./types";
 import { LAKE_TYPE_TITLES, STREAM_TYPE_TITLES } from "./types";
 import { search, groupByCounty, findExact, type Result } from "./search";
+import {
+  initLeafletMap,
+  filterCountiesOnMap,
+  zoomToCounty,
+  destroyLeafletMap,
+} from "./leaflet-map";
 
 // Vite rewrites these imports to fingerprinted URLs in the build, with the
 // correct base path. We use them as both <img src> and CSS url().
 import faviconUrl from "../public/logo.png";
 import brandLogoUrl from "../public/logo.png";
-// The county map SVG is loaded as a raw string so we can inline it into
-// the DOM and attach click handlers to each <path>. Using ?raw tells Vite
-// to ship the file contents as a string instead of as a fingerprinted URL.
-import miCountiesSvg from "../public/mi-counties.svg?raw";
 
 // ---------------------------------------------------------------------------
 // Data loading
@@ -124,7 +126,7 @@ function renderHeader(activeView: "search" | "map" = "search"): string {
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
               <circle cx="12" cy="10" r="3"/>
             </svg>
-            <span>Counties</span>
+            <span>Satellite Map</span>
           </button>
         </nav>
         <a class="header__link" href="https://github.com/tsteinke11306/angl3r" target="_blank" rel="noopener noreferrer">
@@ -332,68 +334,24 @@ function getCountyMapData(data: RegsData): Map<string, CountyMapData> {
   return map;
 }
 
-/** Compute choropleth fill color based on waterbody count (0 to maxCount). */
-function choroplethFill(count: number, maxCount: number): string {
-  if (maxCount === 0 || count === 0) return "#d4e0ed";
-  const t = Math.min(1, count / maxCount);
-  // Interpolate from light blue (#cfe0f0) to deep blue (#1a5a9e)
-  const r = Math.round(207 + t * (26 - 207));
-  const g = Math.round(224 + t * (90 - 224));
-  const b = Math.round(240 + t * (158 - 240));
-  return `rgb(${r},${g},${b})`;
-}
-
 /**
- * Build the map view: an inline SVG of Michigan counties with choropleth
- * coloring by waterbody density, county labels, and rich data attributes.
+ * Build the map view: a Leaflet satellite map with county GeoJSON overlay.
+ * The map container is initialized after the DOM is updated by
+ * attachMapHandlers -> initLeafletMap.
  */
 function renderMapView(data: RegsData): string {
   const countyData = getCountyMapData(data);
   const allCounties = data.counties?.order ?? Array.from(countyData.keys());
-  const maxWB = Math.max(...Array.from(countyData.values()).map((d) => d.waterbodyCount), 1);
-
-  // Count summary stats for the map stats bar
   const totalWithExceptions = Array.from(countyData.values()).filter((d) => d.hasExceptions).length;
   const totalWithPdfWaters = Array.from(countyData.values()).filter((d) => d.typeCodes.length > 0).length;
   const richest = Array.from(countyData.entries()).sort((a, b) => b[1].waterbodyCount - a[1].waterbodyCount)[0];
 
-  // Annotate the SVG: add choropleth fill, data attributes, and labels
-  let annotated = miCountiesSvg;
-
-  // Add data attributes and inline fill to each county path
-  annotated = annotated.replace(
-    /<path\s+([^>]*?)data-county="([^"]+)"([^>]*?)\/?>/g,
-    (_match, before, county, after) => {
-      const cd = countyData.get(county);
-      if (!cd) return `<path ${before}data-county="${county}"${after}/>`;
-      const fill = choroplethFill(cd.waterbodyCount, maxWB);
-      const excAttr = cd.hasExceptions ? ' data-has-exceptions="true"' : "";
-      return `<path ${before}data-county="${county}"${after} data-waterbody-count="${cd.waterbodyCount}"${excAttr} style="fill: ${fill};"/>`;
-    }
-  );
-
-  // Add county label text elements before the closing </g> tag.
-  // Labels are positioned at approximate centroids using path bounding boxes.
-  // Since we can't call getBBox during string construction, we add empty
-  // text elements with data-county attributes and position them in
-  // attachMapHandlers after the SVG is in the DOM.
-  const labelTexts = allCounties
-    .map((county) => {
-      const cd = countyData.get(county);
-      if (!cd || cd.waterbodyCount === 0) return "";
-      const shortName = county.length > 8 ? county.substring(0, 7) + "." : county;
-      return `<text data-county-label="${esc(county)}" class="map-county-label" x="0" y="0" text-anchor="middle" pointer-events="none">${esc(shortName)}</text>`;
-    })
-    .join("\n    ");
-
-  annotated = annotated.replace(/(\s*<\/g>\s*<\/svg>\s*)$/, `${labelTexts}\n$1`);
-
   return `
     <div class="map-view">
       <div class="map-view__header">
-        <h2 class="map-view__title">Browse by county</h2>
+        <h2 class="map-view__title">Satellite Map</h2>
         <p class="map-view__hint">
-          Click a county for detailed info. Hover for stats. Scroll to zoom, drag to pan.
+          Click a county for regulations and species. Click anywhere to drop a pin and identify the county.
         </p>
       </div>
       <div class="map-stats-bar">
@@ -407,17 +365,9 @@ function renderMapView(data: RegsData): string {
           <circle cx="11" cy="11" r="8"/>
           <path d="m21 21-4.3-4.3"/>
         </svg>
-        <input type="search" id="map-search-input" class="map-search__input" placeholder="Filter counties by name..." autocomplete="off" />
+        <input type="search" id="map-search-input" class="map-search__input" placeholder="Find a county on the map..." autocomplete="off" />
       </div>
-      <div class="map-zoomable" id="map-zoomable">
-        <div class="map-svg-container" id="map-svg-container">${annotated}</div>
-        <div class="map-tooltip" id="map-tooltip" aria-hidden="true" style="display: none;"></div>
-        <div class="map-controls" id="map-controls" role="toolbar" aria-label="Map controls">
-          <button type="button" class="map-control-btn" data-action="zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
-          <button type="button" class="map-control-btn" data-action="zoom-out" title="Zoom out" aria-label="Zoom out">\u2212</button>
-          <button type="button" class="map-control-btn" data-action="reset" title="Reset zoom" aria-label="Reset zoom">\u27F2</button>
-        </div>
-      </div>
+      <div id="leaflet-map-container" class="leaflet-map-container"></div>
       <div class="map-legend map-legend--gradient">
         <div class="map-legend__gradient-bar">
           <span class="map-legend__gradient-label">Few</span>
@@ -770,6 +720,11 @@ function renderMapViewUI(data: RegsData): string {
 function switchView(target: "search" | "map", data: RegsData) {
   currentView = target;
 
+  // Clean up Leaflet map when switching away from map view
+  if (target === "search") {
+    destroyLeafletMap();
+  }
+
   // Update nav button active states in the header
   const tabSearch = document.getElementById("tab-search")!;
   const tabMap = document.getElementById("tab-map")!;
@@ -949,303 +904,44 @@ function doSearch(data: RegsData): Result[] {
 }
 
 /**
- * Re-attach event handlers for the map view. Wires up the click handler
- * on each <path> element so clicking a county sets the search filter
- * to that county name and switches back to the search view.
+ * Initialize map handlers for the Leaflet satellite map view.
+ * Called after the map view HTML is in the DOM.
  */
 function attachMapHandlers(data: RegsData) {
-  const container = document.getElementById("map-svg-container");
-  if (!container) return;
-  const zoomable = document.getElementById("map-zoomable");
-
-  // ----- Pan/zoom -----
-  // We apply a CSS transform to a wrapper around the SVG. This is fast
-  // (GPU-accelerated) and lets us support wheel zoom + drag pan + buttons
-  // without a third-party library.
-  let scale = 1;
-  let tx = 0;
-  let ty = 0;
-  const MIN_SCALE = 1;
-  const MAX_SCALE = 8;
-
-  // The wrapper we transform. We use the .map-svg-container itself as
-  // the transform target (it's already positioned by CSS).
-  const target = container as HTMLElement;
-
-  function applyTransform() {
-    target.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
-  }
-
-  function setTransform(newScale: number, newTx: number, newTy: number) {
-    scale = Math.max(MIN_SCALE, Math.min(MAX_SCALE, newScale));
-    tx = newTx;
-    ty = newTy;
-    applyTransform();
-  }
-
-  function resetTransform() {
-    setTransform(1, 0, 0);
-  }
-
-  // Wheel zoom - zoom toward the cursor position
-  // Math: keep the point under the cursor visually fixed.
-  // p = cursor relative to element center. After scaling by k, the
-  // element grows by k. To keep p fixed: newTx = p - k * (p - tx).
-  if (zoomable) {
-    zoomable.addEventListener("wheel", (e: WheelEvent) => {
-      e.preventDefault();
-      const rect = target.getBoundingClientRect();
-      const cx = e.clientX - rect.left - rect.width / 2;
-      const cy = e.clientY - rect.top - rect.height / 2;
-      const factor = e.deltaY < 0 ? 1.15 : 1 / 1.15;
-      const newScale = Math.max(MIN_SCALE, Math.min(MAX_SCALE, scale * factor));
-      const k = newScale / scale;
-      // Keep cursor point fixed: newTx = cx - k*(cx - tx)
-      setTransform(newScale, cx - k * (cx - tx), cy - k * (cy - ty));
-    }, { passive: false });
-  }
-
-  // Drag-to-pan
-  let isPanning = false;
-  let panStartX = 0;
-  let panStartY = 0;
-  let panStartTx = 0;
-  let panStartTy = 0;
-  let panMoved = false; // track if the mouse actually moved during pan
-  let panOnCounty = false; // track if the pan started on a county
-
-  if (zoomable) {
-    zoomable.addEventListener("mousedown", (e: MouseEvent) => {
-      // Always start panning - even on county paths. We'll distinguish
-      // click vs drag using panMoved: if the mouse moves >2px, it's a
-      // drag and we suppress the county click. If it doesn't move, it's
-      // a click and the county click handler runs.
-      const clickTarget = e.target as Element;
-      panOnCounty = !!clickTarget.closest("[data-county]");
-      isPanning = true;
-      panMoved = false;
-      panStartX = e.clientX;
-      panStartY = e.clientY;
-      panStartTx = tx;
-      panStartTy = ty;
-      if (panOnCounty) {
-        zoomable.style.cursor = "grabbing";
-      } else {
-        zoomable.style.cursor = "grabbing";
-      }
-      e.preventDefault(); // prevent text selection flash
-    });
-
-    window.addEventListener("mousemove", (e: MouseEvent) => {
-      if (!isPanning) return;
-      const dx = e.clientX - panStartX;
-      const dy = e.clientY - panStartY;
-      if (Math.abs(dx) > 2 || Math.abs(dy) > 2) panMoved = true;
-      tx = panStartTx + dx;
-      ty = panStartTy + dy;
-      applyTransform();
-    });
-
-    window.addEventListener("mouseup", () => {
-      if (isPanning) {
-        isPanning = false;
-        if (zoomable) zoomable.style.cursor = "";
-      }
-    });
-  }
-
-  // Touch pan (single finger)
-  let touchStartX = 0;
-  let touchStartY = 0;
-  let touchStartTx = 0;
-  let touchStartTy = 0;
-  let touchActive = false;
-
-  if (zoomable) {
-    zoomable.addEventListener("touchstart", (e: TouchEvent) => {
-      if (e.touches.length !== 1) return;
-      // Allow panning even on county paths (same logic as mouse)
-      touchActive = true;
-      panMoved = false;
-      panOnCounty = !!(e.target as Element).closest("[data-county]");
-      touchStartX = e.touches[0].clientX;
-      touchStartY = e.touches[0].clientY;
-      touchStartTx = tx;
-      touchStartTy = ty;
-    }, { passive: true });
-
-    zoomable.addEventListener("touchmove", (e: TouchEvent) => {
-      if (!touchActive || e.touches.length !== 1) return;
-      const dx = e.touches[0].clientX - touchStartX;
-      const dy = e.touches[0].clientY - touchStartY;
-      if (Math.abs(dx) > 2 || Math.abs(dy) > 2) panMoved = true;
-      tx = touchStartTx + dx;
-      ty = touchStartTy + dy;
-      applyTransform();
-    }, { passive: true });
-
-    zoomable.addEventListener("touchend", () => { touchActive = false; });
-  }
-
-  // Control buttons (+/-/reset) - zoom toward center of current view
-  const controls = document.getElementById("map-controls");
-  if (controls) {
-    controls.addEventListener("click", (e: MouseEvent) => {
-      const btn = (e.target as HTMLElement).closest<HTMLElement>(".map-control-btn");
-      if (!btn) return;
-      const action = btn.dataset.action;
-      // Zoom toward center (0,0 in element-relative coords since transform
-      // origin is center)
-      const cx = 0;
-      const cy = 0;
-      if (action === "zoom-in") {
-        const k = 1.4;
-        setTransform(scale * k, cx - k * (cx - tx), cy - k * (cy - ty));
-      } else if (action === "zoom-out") {
-        const k = 1 / 1.4;
-        setTransform(scale * k, cx - k * (cx - tx), cy - k * (cy - ty));
-      } else if (action === "reset") {
-        resetTransform();
-      }
-    });
-  }
-
-  // ----- Position county labels at path centroids -----
-  const labelTexts = container.querySelectorAll<SVGTextElement>("text[data-county-label]");
-  labelTexts.forEach((textEl) => {
-    const county = textEl.getAttribute("data-county-label");
-    if (!county) return;
-    const path = container.querySelector<SVGPathElement>(`path[data-county="${county}"]`);
-    if (!path) return;
-    try {
-      const bbox = path.getBBox();
-      textEl.setAttribute("x", String(bbox.x + bbox.width / 2));
-      textEl.setAttribute("y", String(bbox.y + bbox.height / 2 + 0.03));
-    } catch {
-      // getBBox may fail if SVG isn't rendered yet; skip silently
+  // Initialize the Leaflet map in the container
+  initLeafletMap("leaflet-map-container", data, (county: string, _data: RegsData) => {
+    showCountyOnMap(county, _data);
+  }).catch((err) => {
+    console.error("Failed to initialize Leaflet map:", err);
+    const container = document.getElementById("leaflet-map-container");
+    if (container) {
+      container.innerHTML = '<div style="padding:2rem;text-align:center;color:#8b9bb3">Failed to load satellite map. Check your connection.</div>';
     }
   });
 
-  // ----- County search filter -----
+  // County search filter - uses Leaflet filter function
   const mapSearchInput = document.getElementById("map-search-input") as HTMLInputElement | null;
   if (mapSearchInput) {
     let mapSearchTimer: number | null = null;
     mapSearchInput.addEventListener("input", () => {
       if (mapSearchTimer) window.clearTimeout(mapSearchTimer);
       mapSearchTimer = window.setTimeout(() => {
-        const q = mapSearchInput.value.trim().toLowerCase();
-        const allPaths = container.querySelectorAll<SVGPathElement>("path[data-county]");
-        const allLabels = container.querySelectorAll<SVGTextElement>("text[data-county-label]");
-        if (!q) {
-          // Reset: show all at full opacity
-          allPaths.forEach((p) => p.classList.remove("map-county--dim", "map-county--match"));
-          allLabels.forEach((l) => l.classList.remove("map-county-label--dim", "map-county-label--match"));
-          return;
-        }
-        const matched: string[] = [];
-        allPaths.forEach((p) => {
-          const c = p.getAttribute("data-county") ?? "";
-          if (c.toLowerCase().includes(q)) {
-            p.classList.add("map-county--match");
-            p.classList.remove("map-county--dim");
-            matched.push(c);
-          } else {
-            p.classList.add("map-county--dim");
-            p.classList.remove("map-county--match");
+        const q = mapSearchInput.value.trim();
+        filterCountiesOnMap(q);
+        // If exact match, zoom to it
+        if (q.length > 0) {
+          const countyData = getCountyMapData(data);
+          const matches = Array.from(countyData.keys()).filter((c) =>
+            c.toLowerCase().includes(q.toLowerCase())
+          );
+          if (matches.length === 1) {
+            zoomToCounty(matches[0]);
+            showCountyOnMap(matches[0], data);
           }
-        });
-        allLabels.forEach((l) => {
-          const c = l.getAttribute("data-county-label") ?? "";
-          if (c.toLowerCase().includes(q)) {
-            l.classList.add("map-county-label--match");
-            l.classList.remove("map-county-label--dim");
-          } else {
-            l.classList.add("map-county-label--dim");
-            l.classList.remove("map-county-label--match");
-          }
-        });
-        // Auto-select if exactly one match
-        if (matched.length === 1) {
-          showCountyOnMap(matched[0], data);
         }
-      }, 120);
+      }, 200);
     });
   }
-
-  // ----- County click + hover handler -----
-  const countyDataMap = getCountyMapData(data);
-  const paths = container.querySelectorAll<SVGPathElement>("path[data-county]");
-  paths.forEach((path) => {
-    const county = path.getAttribute("data-county")!;
-    const cd = countyDataMap.get(county);
-
-    const wbCount = cd?.waterbodyCount ?? 0;
-    const label = `${county} County - ${wbCount} waterbod${wbCount === 1 ? "y" : "ies"}`;
-    path.setAttribute("aria-label", label);
-    path.setAttribute("role", "button");
-    path.setAttribute("tabindex", "0");
-
-    const onActivate = () => {
-      // Suppress click if this was the end of a drag-pan (user dragged
-      // the map and happened to release over a county).
-      if (panMoved) {
-        panMoved = false;
-        return;
-      }
-      // Stay on map view, show county summary in the detail panel
-      showCountyOnMap(county, data);
-    };
-
-    path.addEventListener("click", onActivate);
-    path.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" || e.key === " ") {
-        e.preventDefault();
-        onActivate();
-      }
-    });
-
-    // Rich tooltip on hover - show county stats card
-    path.addEventListener("mouseenter", (e) => {
-      const tooltip = document.getElementById("map-tooltip");
-      if (!tooltip || !cd) return;
-      tooltip.innerHTML = `
-        <div class="map-tooltip__card">
-          <div class="map-tooltip__name">${esc(county)} County</div>
-          <div class="map-tooltip__stats">
-            <span>${cd.lakeCount} lakes</span>
-            <span>${cd.streamCount} rivers/streams</span>
-            <span>${cd.waterbodyCount} total</span>
-          </div>
-          <div class="map-tooltip__badges">
-            ${cd.hasExceptions ? '<span class="map-tooltip__badge map-tooltip__badge--exc">Has exceptions</span>' : '<span class="map-tooltip__badge map-tooltip__badge--no-exc">No exceptions</span>'}
-            ${cd.typeCodes.length > 0 ? `<span class="map-tooltip__badge map-tooltip__badge--type">Types: ${esc(cd.typeCodes.join(", "))}</span>` : ""}
-          </div>
-          ${cd.speciesSet.length > 0 ? `<div class="map-tooltip__species">${cd.speciesSet.length} species from surveys</div>` : ""}
-        </div>
-      `;
-      tooltip.style.display = "block";
-      tooltip.setAttribute("aria-hidden", "false");
-      const containerRect = (document.getElementById("map-zoomable") as HTMLElement).getBoundingClientRect();
-      tooltip.style.left = (e.clientX - containerRect.left + 18) + "px";
-      tooltip.style.top = (e.clientY - containerRect.top - 10) + "px";
-    });
-    path.addEventListener("mousemove", (e) => {
-      const tooltip = document.getElementById("map-tooltip");
-      if (!tooltip || tooltip.style.display === "none") return;
-      const containerRect = (document.getElementById("map-zoomable") as HTMLElement).getBoundingClientRect();
-      // Position tooltip to the right of cursor, clamp to container
-      const tx = Math.min(e.clientX - containerRect.left + 18, containerRect.width - 220);
-      const ty = Math.max(e.clientY - containerRect.top - 10, 10);
-      tooltip.style.left = tx + "px";
-      tooltip.style.top = ty + "px";
-    });
-    path.addEventListener("mouseleave", () => {
-      const tooltip = document.getElementById("map-tooltip");
-      if (!tooltip) return;
-      tooltip.style.display = "none";
-      tooltip.setAttribute("aria-hidden", "true");
-    });
-  });
 }
 
 /**
@@ -1254,15 +950,9 @@ function attachMapHandlers(data: RegsData) {
  * species found, and a button to switch to search view with the county filter.
  */
 function showCountyOnMap(county: string, data: RegsData) {
-  // Highlight the selected county on the map
-  const container = document.getElementById("map-svg-container");
-  if (container) {
-    container.querySelectorAll<SVGPathElement>("path[data-county]").forEach((p) => {
-      p.removeAttribute("data-selected");
-    });
-    const selected = container.querySelector<SVGPathElement>(`path[data-county="${county}"]`);
-    if (selected) selected.setAttribute("data-selected", "true");
-  }
+  // For Leaflet, highlighting is handled by the GeoJSON layer click handler.
+  // We just need to show the county summary panel.
+  // (ZoomToCounty is called from the search filter, not here.)
 
   const detailContainer = document.getElementById("detail-container");
   if (!detailContainer) return;

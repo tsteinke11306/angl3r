@@ -14970,10 +14970,20 @@
         "dataset": "dnr-stocking"
       },
       "Manistique River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Smallmouth Bass",
+          "Steelhead",
+          "Chinook Salmon",
+          "Northern Pike",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "medium",
+        "note": "Species shared across 5 counties"
       },
       "Miners River": {
         "dataset_match": "Miners",
@@ -15112,10 +15122,19 @@
         "dataset": "summ"
       },
       "Sturgeon River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Smallmouth Bass",
+          "Chinook Salmon",
+          "Coho Salmon"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 9 counties"
       },
       "Toms Lake": {
         "species": [],
@@ -15150,16 +15169,60 @@
         "note": "No historical survey data available"
       },
       "Kay\u2019s Pond": {
-        "species": [],
+        "species": [
+          "Blacknose Shiner",
+          "Bluegill",
+          "Brook Stickleback",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Bullhead",
+          "Central Mudminnow",
+          "Common Carp",
+          "Common Shiner",
+          "Darter",
+          "Golden Shiner",
+          "Iowa Darter",
+          "Johnny Darter",
+          "Largemouth Bass",
+          "Logperch",
+          "Mudminnow",
+          "Mudpuppy",
+          "Muskellunge",
+          "Northern Pike",
+          "Northern Redbelly Dace",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Shiner",
+          "Sucker",
+          "Tiger Muskellunge",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0381_2021_KaksLake.pdf",
+        "match_score": 0.75
       },
       "Black River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Lake Trout",
+          "Splake",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Muskellunge",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 17 counties"
       },
       "Buck Creek": {
         "dataset_match": "Duck",
@@ -15353,10 +15416,19 @@
         "note": "No historical survey data available"
       },
       "Jordan River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Mottled Sculpin"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 4 counties"
       },
       "Austin Lake": {
         "dataset_match": "Austin",
@@ -15452,10 +15524,23 @@
         "note": "No historical survey data available"
       },
       "St. Joseph River": {
-        "species": [],
+        "species": [
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Brown Trout",
+          "Walleye",
+          "Smallmouth Bass",
+          "White Sucker",
+          "Channel Catfish",
+          "Northern Pike",
+          "Largemouth Bass",
+          "Common Carp"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 8 counties"
       }
     },
     "Antrim": {
@@ -15646,10 +15731,22 @@
         "dataset": "summ"
       },
       "Beals Lake": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Bullhead",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Shiner",
+          "Warmouth",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0015_1991_BelasLake.pdf",
+        "match_score": 0.8
       },
       "Benway Lake": {
         "dataset_match": "Benway",
@@ -16071,10 +16168,21 @@
         "dataset": "summ"
       },
       "Manistee River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 10 counties"
       },
       "Scotts Lake": {
         "dataset_match": "Scotts",
@@ -16283,16 +16391,89 @@
     },
     "Bay": {
       "Betsie Lake": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Burbot",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Common Carp",
+          "Gar",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Mudpuppy",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Redhorse",
+          "Rock Bass",
+          "Round Whitefish",
+          "Sauger",
+          "Sea Lamprey",
+          "Shorthead Redhorse",
+          "Smallmouth Bass",
+          "Steelhead",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Whitefish",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0157_2009_BetsieLake.pdf",
+        "match_score": 1.0
       },
       "Crystal Lake": {
-        "species": [],
+        "species": [
+          "Banded Killifish",
+          "Black Crappie",
+          "Blacknose Shiner",
+          "Bluegill",
+          "Bowfin",
+          "Brook Silverside",
+          "Brown Bullhead",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Shiner",
+          "Darter",
+          "Gar",
+          "Golden Shiner",
+          "Hybrid Sunfish",
+          "Iowa Darter",
+          "Johnny Darter",
+          "Killifish",
+          "Lake Trout",
+          "Lake Whitefish",
+          "Largemouth Bass",
+          "Least Darter",
+          "Logperch",
+          "Longnose Gar",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Smelt",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Spotted Gar",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "White Sucker",
+          "Whitefish",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0400_2022_CrystalLake.pdf",
+        "match_score": 1.0
       },
       "Saginaw River": {
         "species": [],
@@ -16444,10 +16625,39 @@
         "dataset": "summ"
       },
       "Birch Lake": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brown Bullhead",
+          "Bullhead",
+          "Central Mudminnow",
+          "Common Carp",
+          "Common Shiner",
+          "Emerald Shiner",
+          "Gar",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Mudminnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Sand Shiner",
+          "Shiner",
+          "Smallmouth Bass",
+          "Steelhead",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0390_2022_BirchLake.pdf",
+        "match_score": 1.0
       },
       "Harwood Lake": {
         "species": [],
@@ -16807,10 +17017,19 @@
         "note": "No historical survey data available"
       },
       "Sturgeon River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Smallmouth Bass",
+          "Chinook Salmon",
+          "Coho Salmon"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 9 counties"
       },
       "Walloon Lake": {
         "dataset_match": "Walloon",
@@ -16865,10 +17084,22 @@
     },
     "Lake": {
       "Naomikong Lake": {
-        "species": [],
+        "species": [
+          "Brook Stickleback",
+          "Brook Trout",
+          "Central Mudminnow",
+          "Creek Chub",
+          "Fathead",
+          "Fathead Minnow",
+          "Minnow",
+          "Mudminnow",
+          "Northern Redbelly Dace",
+          "Shiner"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0131_2008_NaomikongLake.pdf",
+        "match_score": 1.0
       },
       "Naomikong Pond": {
         "species": [],
@@ -16889,10 +17120,47 @@
         "note": "No historical survey data available"
       },
       "North Lake Leelanau": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Burbot",
+          "Cisco",
+          "Common Shiner",
+          "Creek Chub",
+          "Darter",
+          "Gar",
+          "Hybrid Sunfish",
+          "Iowa Darter",
+          "Johnny Darter",
+          "Lake Herring",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Logperch",
+          "Longnose Gar",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Sand Shiner",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0292_2016_SouthLakeLeelanau.pdf",
+        "match_score": 0.88
       },
       "Pentwater Lake": {
         "species": [],
@@ -16919,10 +17187,19 @@
         "note": "No historical survey data available"
       },
       "Jordan River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Mottled Sculpin"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 4 counties"
       },
       "Halfaday Creek": {
         "species": [],
@@ -16937,10 +17214,22 @@
         "note": "No historical survey data available"
       },
       "Pine River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye",
+          "Yellow Perch",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 14 counties"
       },
       "Days River": {
         "species": [],
@@ -16983,22 +17272,47 @@
         "dataset": "dnr-stocking"
       },
       "Maple River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Northern Pike"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 7 counties"
       },
       "Rapid River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Splake",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "medium",
+        "note": "Species shared across 6 counties"
       },
       "Sturgeon River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Smallmouth Bass",
+          "Chinook Salmon",
+          "Coho Salmon"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 9 counties"
       },
       "North Branch Cedar River": {
         "species": [],
@@ -17080,28 +17394,73 @@
         "note": "No historical survey data available"
       },
       "Shupac Lake": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Brook Trout",
+          "Brown Trout",
+          "Bullhead",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Sucker",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0124_2007_ShoepacLake.pdf",
+        "match_score": 0.77
       },
       "Maple River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Northern Pike"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 7 counties"
       },
       "Au Sable River Mainstream": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout",
+          "Brook Trout",
+          "Steelhead",
+          "Smallmouth Bass",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Lake Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 4 counties"
       },
       "Manistee River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 10 counties"
       },
       "Black Lake": {
         "dataset_match": "Black",
@@ -17541,10 +17900,16 @@
         "dataset": "fishc"
       },
       "Pigeon River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout",
+          "Brook Trout",
+          "Steelhead"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 5 counties"
       },
       "Straits of Mackinac": {
         "species": [],
@@ -17564,6 +17929,48 @@
         "extras": [],
         "source": "changes-um-zenodo",
         "dataset": "dnr-stocking"
+      },
+      "Tower Pond (from dam to M-68)                 E      Kneff Lake": {
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Bullhead",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Sucker",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0217_2012_TowerPond.pdf",
+        "match_score": 0
+      },
+      "Silver Lake                                   B      Bright Lake": {
+        "species": [
+          "Bluegill",
+          "Green Sunfish",
+          "Killifish",
+          "Lake Trout",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sturgeon",
+          "Sucker",
+          "Walleye",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0200_2012_SilverLake.pdf",
+        "match_score": 0
       }
     },
     "Chippewa": {
@@ -17596,10 +18003,21 @@
         "dataset": "summ"
       },
       "Manistee River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 10 counties"
       },
       "Whitefish River": {
         "species": [],
@@ -17908,16 +18326,64 @@
         "note": "No historical survey data available"
       },
       "Manistique River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Smallmouth Bass",
+          "Steelhead",
+          "Chinook Salmon",
+          "Northern Pike",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "medium",
+        "note": "Species shared across 5 counties"
       },
       "Moss Lake": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Blackside Darter",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Carp",
+          "Common Shiner",
+          "Creek Chub",
+          "Darter",
+          "Golden Redhorse",
+          "Golden Shiner",
+          "Green Sunfish",
+          "Johnny Darter",
+          "Killifish",
+          "Largemouth Bass",
+          "Minnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Redhorse",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Spottail Shiner",
+          "Steelhead",
+          "Sucker",
+          "Walleye",
+          "White Bass",
+          "White Crappie",
+          "White Sucker",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0331_2019_RossImpoundment.pdf",
+        "match_score": 0.75
       },
       "Mowe Lake": {
         "species": [],
@@ -17932,10 +18398,19 @@
         "note": "No historical survey data available"
       },
       "Rapid River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Splake",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "medium",
+        "note": "Species shared across 6 counties"
       },
       "Round Lake": {
         "dataset_match": "Round Lake",
@@ -18219,10 +18694,22 @@
         "dataset": "dnr-stocking"
       },
       "Carp River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Steelhead",
+          "Pink Salmon",
+          "Coho Salmon",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye",
+          "Common Carp",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 7 counties"
       },
       "Clark Lake": {
         "dataset_match": "Clark",
@@ -18263,10 +18750,46 @@
         "dataset": "grow"
       },
       "Fisher Lake": {
-        "species": [],
+        "species": [
+          "Banded Killifish",
+          "Black Crappie",
+          "Blacknose Shiner",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brook Silverside",
+          "Brown Trout",
+          "Bullhead",
+          "Channel Catfish",
+          "Cisco",
+          "Common Shiner",
+          "Darter",
+          "Gar",
+          "Golden Shiner",
+          "Grass Pickerel",
+          "Green Sunfish",
+          "Johnny Darter",
+          "Killifish",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Mudminnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Smelt",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Sand Shiner",
+          "Shiner",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0070_2000_FishLake.pdf",
+        "match_score": 0.67
       },
       "Kinwamakwad (Long) Lake": {
         "species": [],
@@ -18528,10 +19051,25 @@
         "note": "No historical survey data available"
       },
       "Black River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Lake Trout",
+          "Splake",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Muskellunge",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 17 counties"
       },
       "East Branch St. Joseph River": {
         "species": [],
@@ -18558,10 +19096,32 @@
         "dataset": "dnr-stocking"
       },
       "Grand River": {
-        "species": [],
+        "species": [
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Smallmouth Bass",
+          "Walleye",
+          "Brown Trout",
+          "Lake Trout",
+          "Northern Pike",
+          "Channel Catfish",
+          "Flathead Catfish",
+          "Common Carp",
+          "Muskellunge",
+          "Longnose Gar",
+          "Bowfin",
+          "Yellow Perch",
+          "Bluegill",
+          "Rock Bass",
+          "White Sucker",
+          "Gizzard Shad",
+          "Redhorse Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 8 counties"
       },
       "Kalamazoo River": {
         "dataset_match": "South Branch Kalamazoo River",
@@ -18576,10 +19136,22 @@
         "dataset": "dnr-stocking"
       },
       "River Raisin": {
-        "species": [],
+        "species": [
+          "Walleye",
+          "Smallmouth Bass",
+          "Channel Catfish",
+          "Northern Pike",
+          "Yellow Perch",
+          "Crappie",
+          "Largemouth Bass",
+          "Bluegill",
+          "Common Carp",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "medium",
+        "note": "Species shared across 5 counties"
       },
       "South Branch Kalamazoo River": {
         "dataset_match": "South Branch Kalamazoo River",
@@ -18594,10 +19166,23 @@
         "dataset": "dnr-stocking"
       },
       "St. Joseph River": {
-        "species": [],
+        "species": [
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Brown Trout",
+          "Walleye",
+          "Smallmouth Bass",
+          "White Sucker",
+          "Channel Catfish",
+          "Northern Pike",
+          "Largemouth Bass",
+          "Common Carp"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 8 counties"
       },
       "West Branch St. Joseph River": {
         "species": [],
@@ -18907,10 +19492,19 @@
         "note": "No historical survey data available"
       },
       "Rapid River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Splake",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "medium",
+        "note": "Species shared across 6 counties"
       },
       "West Sleeping River": {
         "species": [],
@@ -19048,10 +19642,20 @@
         "note": "No historical survey data available"
       },
       "Pere Marquette River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Northern Pike",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 7 counties"
       },
       "Brule Lake": {
         "dataset_match": "Brule",
@@ -19387,10 +19991,62 @@
         "note": "No historical survey data available"
       },
       "Golden Lake": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Blacknose Shiner",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Burbot",
+          "Central Mudminnow",
+          "Channel Catfish",
+          "Chinook Salmon",
+          "Cisco",
+          "Coho Salmon",
+          "Common Shiner",
+          "Darter",
+          "Emerald Shiner",
+          "Gar",
+          "Green Sunfish",
+          "Hornyhead Chub",
+          "Iowa Darter",
+          "Johnny Darter",
+          "Lake Herring",
+          "Lake Trout",
+          "Lake Whitefish",
+          "Largemouth Bass",
+          "Logperch",
+          "Longnose Gar",
+          "Minnow",
+          "Mudminnow",
+          "Mudpuppy",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Smelt",
+          "Rainbow Trout",
+          "Redhorse",
+          "Rock Bass",
+          "Sand Shiner",
+          "Shiner",
+          "Silver Redhorse",
+          "Smallmouth Bass",
+          "Splake",
+          "Spottail Shiner",
+          "Steelhead",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Whitefish",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0173_2010_GlenLake.pdf",
+        "match_score": 0.8
       },
       "Killdeer Lake": {
         "species": [],
@@ -19418,10 +20074,26 @@
         "dataset": "dnr-stocking"
       },
       "Muskegon River": {
-        "species": [],
+        "species": [
+          "Walleye",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Muskellunge",
+          "White Sucker",
+          "Common Carp",
+          "Rock Bass",
+          "Yellow Perch",
+          "Redhorse Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 8 counties"
       },
       "Cass River": {
         "species": [],
@@ -19604,10 +20276,19 @@
         "dataset": "summ"
       },
       "Rapid River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Splake",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "medium",
+        "note": "Species shared across 6 counties"
       },
       "Clark Lake": {
         "dataset_match": "Clark",
@@ -19844,10 +20525,20 @@
         "dataset": "dnr-stocking"
       },
       "Pere Marquette River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Northern Pike",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 7 counties"
       },
       "Big Siskiwit River": {
         "species": [],
@@ -20167,6 +20858,33 @@
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
+      },
+      "Devils Lake (Michigan)": {
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Bullhead",
+          "Gar",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Redear Sunfish",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Sucker",
+          "Tiger Muskellunge",
+          "Walleye",
+          "Warmouth",
+          "White Bass",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0042_1993_DevilsLake.pdf",
+        "match_score": 0
       }
     },
     "Luce": {
@@ -20199,10 +20917,33 @@
         "dataset": "summ"
       },
       "Little Whorl Lake": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brown Bullhead",
+          "Bullhead",
+          "Creek Chub",
+          "Fathead",
+          "Fathead Minnow",
+          "Largemouth Bass",
+          "Minnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Sucker",
+          "Tiger Muskellunge",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0287_2017_LittleWolfLake.pdf",
+        "match_score": 0.86
       },
       "Milakokia River": {
         "species": [],
@@ -20444,16 +21185,75 @@
     },
     "Macomb": {
       "Moon Lake": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Blacknose Shiner",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Channel Catfish",
+          "Cisco",
+          "Common Carp",
+          "Darter",
+          "Gar",
+          "Hybrid Sunfish",
+          "Iowa Darter",
+          "Johnny Darter",
+          "Lake Herring",
+          "Largemouth Bass",
+          "Logperch",
+          "Longnose Gar",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Sand Shiner",
+          "Shiner",
+          "Smallmouth Bass",
+          "Walleye",
+          "Warmouth",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0188_2011_LoonLake.pdf",
+        "match_score": 0.75
       },
       "Pratt Lake": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brook Silverside",
+          "Brown Bullhead",
+          "Bullhead",
+          "Darter",
+          "Fathead",
+          "Fathead Minnow",
+          "Golden Shiner",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Iowa Darter",
+          "Largemouth Bass",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Shiner",
+          "Sucker",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0402_2022_PrattLake.pdf",
+        "match_score": 1.0
       },
       "Belle River": {
         "species": [],
@@ -20509,10 +21309,36 @@
     },
     "Clinton": {
       "Pretty Lake": {
-        "species": [],
+        "species": [
+          "Blacknose Shiner",
+          "Bluegill",
+          "Brook Trout",
+          "Brown Trout",
+          "Central Mudminnow",
+          "Common Shiner",
+          "Darter",
+          "Golden Shiner",
+          "Iowa Darter",
+          "Johnny Darter",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Mudminnow",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Splake",
+          "Steelhead",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0372_2021_PrettyLake.pdf",
+        "match_score": 1.0
       },
       "Syphon Lake": {
         "species": [],
@@ -20521,16 +21347,53 @@
         "note": "No historical survey data available"
       },
       "Tank Lake": {
-        "species": [],
+        "species": [
+          "Brook Stickleback",
+          "Brook Trout",
+          "Common Shiner",
+          "Fathead",
+          "Fathead Minnow",
+          "Largemouth Bass",
+          "Minnow",
+          "Northern Redbelly Dace",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Shiner",
+          "Splake",
+          "Sucker",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0145_2009_TankLake.pdf",
+        "match_score": 1.0
       },
       "Trout Lake": {
-        "species": [],
+        "species": [
+          "Bluegill",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Common Shiner",
+          "Green Sunfish",
+          "Largemouth Bass",
+          "Minnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Shiner",
+          "Sucker",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0463_2026_Trout_Lake.pdf",
+        "match_score": 1.0
       },
       "North Branch Clinton River": {
         "species": [],
@@ -20670,10 +21533,34 @@
         "note": "No historical survey data available"
       },
       "Island Lake (T45N, R30W, S14)": {
-        "species": [],
+        "species": [
+          "Banded Killifish",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brown Trout",
+          "Bullhead",
+          "Darter",
+          "Iowa Darter",
+          "Killifish",
+          "Largemouth Bass",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Sand Shiner",
+          "Shiner",
+          "Smallmouth Bass",
+          "Splake",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0442_2025_Island_Lake.pdf",
+        "match_score": 1.0
       },
       "Just Lake": {
         "species": [],
@@ -20682,10 +21569,24 @@
         "note": "No historical survey data available"
       },
       "Lake Arfelin": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Brook Trout",
+          "Brown Trout",
+          "Lake Trout",
+          "Muskellunge",
+          "Northern Pike",
+          "Rainbow Smelt",
+          "Rainbow Trout",
+          "Splake",
+          "Tiger Muskellunge",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0404_2023_LakeAngeline.pdf",
+        "match_score": 0.78
       },
       "Little Brocky Lake": {
         "species": [],
@@ -20694,10 +21595,30 @@
         "note": "No historical survey data available"
       },
       "Little Shag Lake": {
-        "species": [],
+        "species": [
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brown Trout",
+          "Darter",
+          "Green Sunfish",
+          "Iowa Darter",
+          "Largemouth Bass",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Splake",
+          "Steelhead",
+          "Sucker",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0129_2008_LittleShagLake.pdf",
+        "match_score": 1.0
       },
       "Moccasin Lake": {
         "species": [],
@@ -20706,10 +21627,38 @@
         "note": "No historical survey data available"
       },
       "Perch Lake": {
-        "species": [],
+        "species": [
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brook Stickleback",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Creek Chub",
+          "Golden Shiner",
+          "Hybrid Sunfish",
+          "Lake Trout",
+          "Minnow",
+          "Northern Pike",
+          "Pearl Dace",
+          "Pumpkinseed",
+          "Rainbow Smelt",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Splake",
+          "Steelhead",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0332_2019_PerchLake.pdf",
+        "match_score": 1.0
       },
       "Rockingchair Lake, North": {
         "species": [],
@@ -20724,10 +21673,31 @@
         "note": "No historical survey data available"
       },
       "Silver Lake Basin": {
-        "species": [],
+        "species": [
+          "American Brook Lamprey",
+          "Blacknose Dace",
+          "Bluegill",
+          "Brook Lamprey",
+          "Brook Trout",
+          "Brown Trout",
+          "Bullhead",
+          "Central Mudminnow",
+          "Creek Chub",
+          "Grass Pickerel",
+          "Green Sunfish",
+          "Hogsucker",
+          "Largemouth Bass",
+          "Mottled Sculpin",
+          "Mudminnow",
+          "Northern Hogsucker",
+          "Smallmouth Bass",
+          "Sucker",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0033_1993_SilverCreek.pdf",
+        "match_score": 0.6
       },
       "Slough Lake": {
         "species": [],
@@ -20742,10 +21712,26 @@
         "note": "No historical survey data available"
       },
       "Sporley Lake": {
-        "species": [],
+        "species": [
+          "Bluntnose Minnow",
+          "Brook Trout",
+          "Brown Trout",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Minnow",
+          "Northern Redbelly Dace",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Smallmouth Bass",
+          "Splake",
+          "Sucker",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0170_2010_SporleyLake.pdf",
+        "match_score": 1.0
       },
       "Strawberry Lake": {
         "species": [],
@@ -20778,10 +21764,20 @@
         "note": "No historical survey data available"
       },
       "Pere Marquette River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Northern Pike",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 7 counties"
       },
       "Blind Sucker River": {
         "species": [],
@@ -20891,10 +21887,22 @@
         "note": "No historical survey data available"
       },
       "Carp River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Steelhead",
+          "Pink Salmon",
+          "Coho Salmon",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye",
+          "Common Carp",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 7 counties"
       },
       "Lincoln River": {
         "species": [],
@@ -20936,16 +21944,35 @@
         "note": "No historical survey data available"
       },
       "Tittabawassee River": {
-        "species": [],
+        "species": [
+          "Smallmouth Bass",
+          "Walleye",
+          "Channel Catfish",
+          "Flathead Catfish",
+          "Muskellunge",
+          "Common Carp",
+          "Rock Bass",
+          "Freshwater Drum",
+          "Lake Sturgeon",
+          "Largemouth Bass",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 5 counties"
       },
       "Pigeon River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout",
+          "Brook Trout",
+          "Steelhead"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 5 counties"
       },
       "Bear Creek": {
         "dataset_match": "Bear",
@@ -21464,10 +22491,19 @@
         "dataset": "dnr-stocking"
       },
       "Rapid River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Splake",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "medium",
+        "note": "Species shared across 6 counties"
       },
       "River Styx": {
         "species": [],
@@ -21629,10 +22665,22 @@
         "dataset": "dnr-stocking"
       },
       "Pine River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye",
+          "Yellow Perch",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 14 counties"
       },
       "Townline Lake": {
         "dataset_match": "Townline",
@@ -21937,10 +22985,41 @@
         "dataset": "summ"
       },
       "Fiddle Lake": {
-        "species": [],
+        "species": [
+          "Banded Killifish",
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brook Silverside",
+          "Brown Bullhead",
+          "Bullhead",
+          "Gar",
+          "Golden Shiner",
+          "Grass Pickerel",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Killifish",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "White Sucker",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0417_2023_MiddleLake.pdf",
+        "match_score": 0.83
       },
       "Geneva Lake": {
         "species": [],
@@ -22363,10 +23442,44 @@
         "dataset": "fishc"
       },
       "Rainbow Lake": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brook Silverside",
+          "Brown Bullhead",
+          "Bullhead",
+          "Central Mudminnow",
+          "Channel Catfish",
+          "Common Carp",
+          "Common Shiner",
+          "Golden Shiner",
+          "Grass Pickerel",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Largemouth Bass",
+          "Mudminnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Redear Sunfish",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Spotfin Shiner",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "White Sucker",
+          "Whitefish",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0439_2025_Rainbow_Lake.pdf",
+        "match_score": 1.0
       },
       "River Rouge": {
         "dataset_match": "Upper River Rouge",
@@ -22417,10 +23530,22 @@
         "dataset": "grow"
       },
       "Shiawassee River": {
-        "species": [],
+        "species": [
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye",
+          "Bluegill",
+          "Quillback",
+          "White Sucker",
+          "Channel Catfish",
+          "Common Carp",
+          "Largemouth Bass",
+          "Rock Bass"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 6 counties"
       },
       "Silver Lake": {
         "dataset_match": "Silverlittle",
@@ -22582,10 +23707,22 @@
         "note": "No historical survey data available"
       },
       "Walled Lake": {
-        "species": [],
+        "species": [
+          "Blacknose Shiner",
+          "Bluegill",
+          "Central Mudminnow",
+          "Creek Chub",
+          "Green Sunfish",
+          "Largemouth Bass",
+          "Mudminnow",
+          "Pumpkinseed",
+          "Shiner",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0291_2016_WalledLake.pdf",
+        "match_score": 1.0
       },
       "Walnut Lake": {
         "dataset_match": "Walnut",
@@ -22755,14 +23892,119 @@
         "extras": [],
         "source": null,
         "note": "No historical survey data available"
+      },
+      "Rainbow Lake (Waterford Township, Michigan)": {
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brown Bullhead",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Carp",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Redear Sunfish",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "Whitefish",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0439_2025_Rainbow_Lake.pdf",
+        "match_score": 0
+      },
+      "Walled Lake (Michigan)": {
+        "species": [
+          "Bluegill",
+          "Green Sunfish",
+          "Largemouth Bass",
+          "Pumpkinseed",
+          "Shiner",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0291_2016_WalledLake.pdf",
+        "match_score": 0
+      },
+      "Middle Lake (Independence Township, Michigan)": {
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brown Bullhead",
+          "Bullhead",
+          "Gar",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Killifish",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0417_2023_MiddleLake.pdf",
+        "match_score": 0
       }
     },
     "Newaygo": {
       "Stony Lake": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Blacknose Dace",
+          "Bluegill",
+          "Brook Stickleback",
+          "Brook Trout",
+          "Brown Trout",
+          "Central Mudminnow",
+          "Channel Catfish",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Common Shiner",
+          "Largemouth Bass",
+          "Mottled Sculpin",
+          "Mudminnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Sea Lamprey",
+          "Shiner",
+          "Slimy Sculpin",
+          "Smallmouth Bass",
+          "Steelhead",
+          "Sucker",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0367_2021_StonyCreek.pdf",
+        "match_score": 1.0
       },
       "Big South Branch Pere Marquette River": {
         "dataset_match": "Little South Branch Pere Marquette River",
@@ -22982,10 +24224,21 @@
         "note": "No historical survey data available"
       },
       "Au Sable River Mainstream": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout",
+          "Brook Trout",
+          "Steelhead",
+          "Smallmouth Bass",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Lake Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 4 counties"
       },
       "North Branch Crockery Creek": {
         "dataset_match": "North Branch Crockery Creek",
@@ -23307,10 +24560,21 @@
         "note": "No historical survey data available"
       },
       "Au Sable River Mainstream": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout",
+          "Brook Trout",
+          "Steelhead",
+          "Smallmouth Bass",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Lake Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 4 counties"
       },
       "Crockery Creek Mainstream": {
         "species": [],
@@ -23485,16 +24749,42 @@
         "note": "No historical survey data available"
       },
       "Au Sable River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout",
+          "Brook Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Smallmouth Bass",
+          "Walleye",
+          "Lake Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 6 counties"
       },
       "Black River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Lake Trout",
+          "Splake",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Muskellunge",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 17 counties"
       },
       "Boyne River": {
         "species": [],
@@ -23534,10 +24824,21 @@
         "dataset": "fishc"
       },
       "Manistee River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 10 counties"
       },
       "Otsego Lake": {
         "dataset_match": "Otsego",
@@ -23683,10 +24984,21 @@
         "dataset": "summ"
       },
       "Au Sable River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout",
+          "Brook Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Smallmouth Bass",
+          "Walleye",
+          "Lake Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 6 counties"
       },
       "Backus Creek": {
         "dataset_match": "Backus",
@@ -23867,10 +25179,42 @@
         "dataset": "dnr-stocking"
       },
       "Little Mud Lake": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brown Bullhead",
+          "Bullhead",
+          "Common Shiner",
+          "Creek Chub",
+          "Darter",
+          "Fathead",
+          "Fathead Minnow",
+          "Golden Shiner",
+          "Iowa Darter",
+          "Johnny Darter",
+          "Largemouth Bass",
+          "Minnow",
+          "Mottled Sculpin",
+          "Northern Pike",
+          "Northern Redbelly Dace",
+          "Pearl Dace",
+          "Pumpkinseed",
+          "Rainbow Smelt",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Sauger",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0204_2012_LittleLake.pdf",
+        "match_score": 0.67
       },
       "Marl Lake": {
         "species": [],
@@ -23879,10 +25223,26 @@
         "note": "No historical survey data available"
       },
       "Muskegon River": {
-        "species": [],
+        "species": [
+          "Walleye",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Muskellunge",
+          "White Sucker",
+          "Common Carp",
+          "Rock Bass",
+          "Yellow Perch",
+          "Redhorse Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 8 counties"
       },
       "Sugar River": {
         "species": [],
@@ -23905,10 +25265,26 @@
     },
     "Schoolcraft": {
       "Shafer Lake": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Hybrid Sunfish",
+          "Largemouth Bass",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Steelhead",
+          "Warmouth",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0187_2011_ShaferLake.pdf",
+        "match_score": 1.0
       },
       "Bear (Nineteen) Lake": {
         "dataset_match": "Bear",
@@ -24156,10 +25532,40 @@
         "note": "No historical survey data available"
       },
       "Lake Nineteen": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brown Trout",
+          "Bullhead",
+          "Cisco",
+          "Common Shiner",
+          "Darter",
+          "Green Sunfish",
+          "Iowa Darter",
+          "Johnny Darter",
+          "Largemouth Bass",
+          "Minnow",
+          "Mottled Sculpin",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Smelt",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Steelhead",
+          "Sturgeon",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0412_2023_LakeFifteen.pdf",
+        "match_score": 0.78
       },
       "Little Indian River": {
         "dataset_match": "Indian",
@@ -24364,10 +25770,31 @@
         "note": "No historical survey data available"
       },
       "Fletcher Pond": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brook Trout",
+          "Brown Trout",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Carp",
+          "Golden Shiner",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0135_2008_FletcherPond.pdf",
+        "match_score": 1.0
       }
     },
     "Arenac": {
@@ -24404,10 +25831,19 @@
         "dataset": "dnr-stocking"
       },
       "Coldwater River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout",
+          "Brook Trout",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Common Carp",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "medium",
+        "note": "Species shared across 6 counties"
       },
       "Au Gres River": {
         "dataset_match": "Au Gres River",
@@ -24432,10 +25868,19 @@
     },
     "Baraga": {
       "Coldwater River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout",
+          "Brook Trout",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Common Carp",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "medium",
+        "note": "Species shared across 6 counties"
       },
       "Turner Creek": {
         "species": [],
@@ -24974,16 +26419,69 @@
         "dataset": "dnr-stocking"
       },
       "Moon Lake": {
-        "species": [],
+        "species": [
+          "Banded Killifish",
+          "Black Crappie",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brown Bullhead",
+          "Bullhead",
+          "Cisco",
+          "Darter",
+          "Golden Shiner",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Johnny Darter",
+          "Killifish",
+          "Largemouth Bass",
+          "Logperch",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Smelt",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0198_2012_LoonLake.pdf",
+        "match_score": 0.75
       },
       "Murphy Lake": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Brown Bullhead",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Carp",
+          "Fathead",
+          "Fathead Minnow",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Largemouth Bass",
+          "Minnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "White Sucker",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0127_2008_MurphyLake.pdf",
+        "match_score": 1.0
       },
       "Ox Creek": {
         "species": [],
@@ -25035,22 +26533,132 @@
         "dataset": "dnr-stocking"
       },
       "Riggins Lake": {
-        "species": [],
+        "species": [
+          "Atlantic Salmon",
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brook Stickleback",
+          "Brook Trout",
+          "Brown Trout",
+          "Bullhead",
+          "Cisco",
+          "Common Carp",
+          "Common Shiner",
+          "Darter",
+          "Emerald Shiner",
+          "Gar",
+          "Golden Shiner",
+          "Green Sunfish",
+          "Johnny Darter",
+          "Lake Herring",
+          "Lake Trout",
+          "Lake Whitefish",
+          "Largemouth Bass",
+          "Minnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Smelt",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Sand Shiner",
+          "Shiner",
+          "Smallmouth Bass",
+          "Splake",
+          "Spotfin Shiner",
+          "Spottail Shiner",
+          "Sturgeon",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Whitefish",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0382_2021_HigginsLake.pdf",
+        "match_score": 0.86
       },
       "Round Lake": {
-        "species": [],
+        "species": [
+          "Banded Killifish",
+          "Blacknose Shiner",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brown Bullhead",
+          "Bullhead",
+          "Central Mudminnow",
+          "Common Shiner",
+          "Darter",
+          "Gar",
+          "Hybrid Sunfish",
+          "Johnny Darter",
+          "Killifish",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Mudminnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Sand Shiner",
+          "Shiner",
+          "Smallmouth Bass",
+          "Spottail Shiner",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0444_2025_Round_Lake.pdf",
+        "match_score": 1.0
       },
       "Rowe Lake": {
-        "species": [],
+        "species": [
+          "Banded Killifish",
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brown Bullhead",
+          "Bullhead",
+          "Common Carp",
+          "Common Shiner",
+          "Darter",
+          "Golden Shiner",
+          "Hybrid Sunfish",
+          "Iowa Darter",
+          "Killifish",
+          "Lake Whitefish",
+          "Largemouth Bass",
+          "Minnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Sand Shiner",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Whitefish",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0318_2018_RoseLake.pdf",
+        "match_score": 0.75
       },
       "School Lake": {
         "species": [],
@@ -25091,10 +26699,38 @@
         "dataset": "summ"
       },
       "Smith Lake": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Blacknose Dace",
+          "Bluegill",
+          "Brook Stickleback",
+          "Brook Trout",
+          "Brown Trout",
+          "Bullhead",
+          "Central Mudminnow",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Creek Chub",
+          "Darter",
+          "Green Sunfish",
+          "Johnny Darter",
+          "Largemouth Bass",
+          "Mottled Sculpin",
+          "Mudminnow",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Sea Lamprey",
+          "Shiner",
+          "Steelhead",
+          "Sucker",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0373_2021_SmithCreek.pdf",
+        "match_score": 1.0
       },
       "South Clear Lake": {
         "dataset_match": "Clear",
@@ -25133,16 +26769,66 @@
         "dataset": "dnr-stocking"
       },
       "Weaver Lake": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brown Bullhead",
+          "Bullhead",
+          "Central Mudminnow",
+          "Channel Catfish",
+          "Cisco",
+          "Darter",
+          "Green Sunfish",
+          "Iowa Darter",
+          "Lake Herring",
+          "Largemouth Bass",
+          "Minnow",
+          "Mudminnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Smelt",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Sand Shiner",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Tiger Muskellunge",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0180_2010_BeaverLake.pdf",
+        "match_score": 0.83
       },
       "Webster Lake": {
-        "species": [],
+        "species": [
+          "Bluegill",
+          "Brook Trout",
+          "Brown Trout",
+          "Emerald Shiner",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Largemouth Bass",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sturgeon",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0213_2012_WeberLake.pdf",
+        "match_score": 0.83
       },
       "Yellow Creek": {
         "dataset_match": "Yellow Lake",
@@ -25169,14 +26855,79 @@
         "extras": [],
         "source": "changes-um-zenodo",
         "dataset": "dnr-stocking"
+      },
+      "Murphy Lake (Berrien County, Michigan)": {
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Brown Bullhead",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Carp",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Largemouth Bass",
+          "Minnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0127_2008_MurphyLake.pdf",
+        "match_score": 0
+      },
+      "Half Moon Lake (Berrien County, Michigan)": {
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Chinook Salmon",
+          "Gar",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Redear Sunfish",
+          "Rock Bass",
+          "Walleye",
+          "Warmouth",
+          "White Bass",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0026_1992_HalfmoonLake.pdf",
+        "match_score": 0
       }
     },
     "Houghton": {
       "Black River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Lake Trout",
+          "Splake",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Muskellunge",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 17 counties"
       },
       "Elm River": {
         "dataset_match": "Elm River",
@@ -25654,10 +27405,22 @@
         "note": "No historical survey data available"
       },
       "Pine River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye",
+          "Yellow Perch",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 14 counties"
       },
       "Tawas River": {
         "species": [],
@@ -25666,10 +27429,19 @@
         "note": "No historical survey data available"
       },
       "Sturgeon River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Smallmouth Bass",
+          "Chinook Salmon",
+          "Coho Salmon"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 9 counties"
       },
       "Van Etten Creek": {
         "species": [],
@@ -25690,10 +27462,31 @@
         "dataset": "dnr-stocking"
       },
       "Bass Lake": {
-        "species": [],
+        "species": [
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brown Bullhead",
+          "Bullhead",
+          "Darter",
+          "Fathead",
+          "Fathead Minnow",
+          "Johnny Darter",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Splake",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0143_2009_BassLake.pdf",
+        "match_score": 1.0
       },
       "Betsie River": {
         "species": [],
@@ -25734,10 +27527,44 @@
         "dataset": "dnr-stocking"
       },
       "Cedar Hedge Lake": {
-        "species": [],
+        "species": [
+          "Banded Killifish",
+          "Black Crappie",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brook Silverside",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Bullhead",
+          "Cisco",
+          "Common Shiner",
+          "Darter",
+          "Gar",
+          "Green Sunfish",
+          "Iowa Darter",
+          "Killifish",
+          "Lake Herring",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Logperch",
+          "Longnose Gar",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0330_2019_CedarHedgeLake.pdf",
+        "match_score": 1.0
       },
       "Duck Lake": {
         "dataset_match": "Duck Lake",
@@ -25903,10 +27730,21 @@
     },
     "Iosco": {
       "Au Sable River Mainstream": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Rainbow Trout",
+          "Brook Trout",
+          "Steelhead",
+          "Smallmouth Bass",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Lake Trout"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 4 counties"
       },
       "Au Gres River": {
         "species": [],
@@ -25935,10 +27773,26 @@
         "dataset": "dnr-stocking"
       },
       "Iargo Springs": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Lake Sturgeon",
+          "Lake Trout",
+          "Minnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Rainbow Trout",
+          "Steelhead",
+          "Sturgeon",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0413_2023_BigSpring.pdf",
+        "match_score": 0.76
       },
       "Tawas Lake": {
         "dataset_match": "Tawas",
@@ -26153,10 +28007,30 @@
         "dataset": "dnr-stocking"
       },
       "Fisk Lake": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Central Mudminnow",
+          "Common Shiner",
+          "Largemouth Bass",
+          "Mudminnow",
+          "Northern Pike",
+          "Northern Redbelly Dace",
+          "Pearl Dace",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Shiner",
+          "Slimy Sculpin",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0174_2010_FishLake.pdf",
+        "match_score": 0.75
       },
       "Flat River": {
         "dataset_match": "Flat River",
@@ -26394,10 +28268,25 @@
         "note": "No historical survey data available"
       },
       "Fife Lake": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Brown Bullhead",
+          "Bullhead",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0083_2003_FifeLake.pdf",
+        "match_score": 1.0
       },
       "Lake Five": {
         "species": [],
@@ -26596,10 +28485,25 @@
     },
     "Livingston": {
       "Black River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Lake Trout",
+          "Splake",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Muskellunge",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 17 counties"
       },
       "Brevoort River": {
         "species": [],
@@ -26645,10 +28549,22 @@
         "note": "No historical survey data available"
       },
       "Shiawassee River": {
-        "species": [],
+        "species": [
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye",
+          "Bluegill",
+          "Quillback",
+          "White Sucker",
+          "Channel Catfish",
+          "Common Carp",
+          "Largemouth Bass",
+          "Rock Bass"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 6 counties"
       },
       "Strawberry Lake": {
         "dataset_match": "Strawberry",
@@ -26976,10 +28892,25 @@
         "note": "No historical survey data available"
       },
       "Black River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Lake Trout",
+          "Splake",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Muskellunge",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 17 counties"
       },
       "Clinton River": {
         "species": [],
@@ -27002,28 +28933,83 @@
     },
     "St. Joseph": {
       "Huron River": {
-        "species": [],
+        "species": [
+          "Smallmouth Bass",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Bluegill",
+          "Channel Catfish",
+          "Common Carp",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "White Sucker",
+          "Rock Bass",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 8 counties"
       },
       "Manistee River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 10 counties"
       },
       "Pine River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye",
+          "Yellow Perch",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 14 counties"
       },
       "Corey Lake": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Brook Trout",
+          "Brown Trout",
+          "Golden Shiner",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0386_2022_CourtneyLake.pdf",
+        "match_score": 0.77
       },
       "Fawn River": {
         "species": [],
@@ -27038,16 +29024,84 @@
         "note": "No historical survey data available"
       },
       "Klinger Lake": {
-        "species": [],
+        "species": [
+          "Banded Killifish",
+          "Black Crappie",
+          "Blacknose Shiner",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brook Silverside",
+          "Common Carp",
+          "Gar",
+          "Golden Redhorse",
+          "Golden Shiner",
+          "Killifish",
+          "Lake Herring",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Mudpuppy",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Redear Sunfish",
+          "Redhorse",
+          "Rock Bass",
+          "Sand Shiner",
+          "Shiner",
+          "Smallmouth Bass",
+          "Splake",
+          "Walleye",
+          "Warmouth",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0121_2007_KlingerLake.pdf",
+        "match_score": 1.0
       },
       "Lake Templene": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brook Silverside",
+          "Brown Bullhead",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Carp",
+          "Darter",
+          "Gar",
+          "Golden Redhorse",
+          "Golden Shiner",
+          "Greater Redhorse",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Johnny Darter",
+          "Largemouth Bass",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Darter",
+          "Redear Sunfish",
+          "Redhorse",
+          "Rock Bass",
+          "Shiner",
+          "Spotted Gar",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "White Sucker",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0248_2014_LakeTemplene.pdf",
+        "match_score": 1.0
       },
       "Little Pleasant Lake": {
         "species": [],
@@ -27062,16 +29116,106 @@
         "note": "No historical survey data available"
       },
       "Pleasant Lake": {
-        "species": [],
+        "species": [
+          "Banded Killifish",
+          "Black Crappie",
+          "Blacknose Shiner",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Brown Bullhead",
+          "Bullhead",
+          "Central Mudminnow",
+          "Cisco",
+          "Darter",
+          "Gar",
+          "Golden Shiner",
+          "Grass Pickerel",
+          "Hybrid Sunfish",
+          "Iowa Darter",
+          "Killifish",
+          "Lake Herring",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Mudminnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Sand Shiner",
+          "Shiner",
+          "Smallmouth Bass",
+          "Spotfin Shiner",
+          "Spottail Shiner",
+          "Spotted Gar",
+          "Walleye",
+          "Warmouth",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0272_2015_PleasantLake.pdf",
+        "match_score": 1.0
       },
       "Portage Lake": {
-        "species": [],
+        "species": [
+          "Banded Killifish",
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brook Silverside",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Burbot",
+          "Channel Catfish",
+          "Chinook Salmon",
+          "Cisco",
+          "Coho Salmon",
+          "Common Carp",
+          "Darter",
+          "Freshwater Drum",
+          "Gar",
+          "Golden Redhorse",
+          "Greater Redhorse",
+          "Johnny Darter",
+          "Killifish",
+          "Lake Trout",
+          "Lake Whitefish",
+          "Largemouth Bass",
+          "Logperch",
+          "Longnose Gar",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Quillback",
+          "Rainbow Smelt",
+          "Rainbow Trout",
+          "Redhorse",
+          "Rock Bass",
+          "Round Whitefish",
+          "Sand Shiner",
+          "Sauger",
+          "Shiner",
+          "Shorthead Redhorse",
+          "Silver Redhorse",
+          "Smallmouth Bass",
+          "Spotfin Shiner",
+          "Spottail Shiner",
+          "Steelhead",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Whitefish",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0159_2009_PortageLake.pdf",
+        "match_score": 1.0
       },
       "Portage River": {
         "species": [],
@@ -27092,10 +29236,126 @@
         "note": "No historical survey data available"
       },
       "St. Joseph River": {
-        "species": [],
+        "species": [
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Brown Trout",
+          "Walleye",
+          "Smallmouth Bass",
+          "White Sucker",
+          "Channel Catfish",
+          "Northern Pike",
+          "Largemouth Bass",
+          "Common Carp"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 8 counties"
+      },
+      "Klinger Lake (Michigan)": {
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Common Carp",
+          "Gar",
+          "Killifish",
+          "Lake Herring",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Redear Sunfish",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Splake",
+          "Walleye",
+          "Warmouth",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0121_2007_KlingerLake.pdf",
+        "match_score": 0
+      },
+      "Portage Lake (St. Joseph County, Michigan)": {
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Channel Catfish",
+          "Chinook Salmon",
+          "Cisco",
+          "Coho Salmon",
+          "Common Carp",
+          "Darter",
+          "Freshwater Drum",
+          "Gar",
+          "Killifish",
+          "Lake Trout",
+          "Lake Whitefish",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Smelt",
+          "Rainbow Trout",
+          "Rock Bass",
+          "Round Whitefish",
+          "Sauger",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "Whitefish",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0159_2009_PortageLake.pdf",
+        "match_score": 0
+      },
+      "Pleasant Lake (St. Joseph County, Michigan)": {
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bullhead",
+          "Channel Catfish",
+          "Darter",
+          "Gar",
+          "Green Sunfish",
+          "Killifish",
+          "Lake Herring",
+          "Largemouth Bass",
+          "Longnose Gar",
+          "Minnow",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Shiner",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "Whitefish",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
+        "extras": [],
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0073_2001_PleasantLake.pdf",
+        "match_score": 0
       }
     },
     "Benzie": {
@@ -27484,10 +29744,25 @@
         "dataset": "dnr-stocking"
       },
       "Corey Lake": {
-        "species": [],
+        "species": [
+          "Bluegill",
+          "Cisco",
+          "Killifish",
+          "Lake Herring",
+          "Lake Trout",
+          "Largemouth Bass",
+          "Minnow",
+          "Northern Pike",
+          "Rainbow Trout",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0056_1997_CoreyLake.pdf",
+        "match_score": 1.0
       },
       "Dowagiac River": {
         "dataset_match": "Dowagiac Creek",
@@ -27532,10 +29807,23 @@
         "dataset": "dnr-stocking"
       },
       "St. Joseph River": {
-        "species": [],
+        "species": [
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Brown Trout",
+          "Walleye",
+          "Smallmouth Bass",
+          "White Sucker",
+          "Channel Catfish",
+          "Northern Pike",
+          "Largemouth Bass",
+          "Common Carp"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 8 counties"
       }
     },
     "Clare": {
@@ -27673,10 +29961,34 @@
         "dataset": "summ"
       },
       "Lost Lake": {
-        "species": [],
+        "species": [
+          "Bluegill",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Darter",
+          "Fathead",
+          "Fathead Minnow",
+          "Golden Shiner",
+          "Iowa Darter",
+          "Largemouth Bass",
+          "Longnose Sucker",
+          "Minnow",
+          "Northern Pike",
+          "Northern Redbelly Dace",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Shiner",
+          "Splake",
+          "Sucker",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0394_2022_LostLake.pdf",
+        "match_score": 1.0
       },
       "Muskegon River": {
         "dataset_match": "Muskegon River",
@@ -27790,10 +30102,57 @@
         "dataset": "dnr-stocking"
       },
       "Burt Lake": {
-        "species": [],
+        "species": [
+          "Atlantic Salmon",
+          "Black Bullhead",
+          "Black Crappie",
+          "Blacknose Dace",
+          "Bluegill",
+          "Bluntnose Minnow",
+          "Bowfin",
+          "Brook Trout",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Burbot",
+          "Cisco",
+          "Common Carp",
+          "Common Shiner",
+          "Darter",
+          "Gar",
+          "Green Sunfish",
+          "Johnny Darter",
+          "Lake Herring",
+          "Lake Sturgeon",
+          "Lake Trout",
+          "Lake Whitefish",
+          "Largemouth Bass",
+          "Logperch",
+          "Longnose Gar",
+          "Minnow",
+          "Muskellunge",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rainbow Trout",
+          "Redhorse",
+          "Rock Bass",
+          "Sand Shiner",
+          "Sea Lamprey",
+          "Shiner",
+          "Silver Redhorse",
+          "Smallmouth Bass",
+          "Spottail Shiner",
+          "Sturgeon",
+          "Sucker",
+          "Walleye",
+          "White Sucker",
+          "Whitefish",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0308_2018_BurtLake.pdf",
+        "match_score": 1.0
       },
       "Carp Lake River": {
         "dataset_match": "Carp Lake River",
@@ -27936,10 +30295,38 @@
         "note": "No historical survey data available"
       },
       "Otter Lake": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Brown Bullhead",
+          "Brown Trout",
+          "Bullhead",
+          "Central Mudminnow",
+          "Channel Catfish",
+          "Common Carp",
+          "Golden Shiner",
+          "Grass Pickerel",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Largemouth Bass",
+          "Mudminnow",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Shiner",
+          "Splake",
+          "Sucker",
+          "Walleye",
+          "Warmouth",
+          "White Sucker",
+          "Yellow Bullhead",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0264_2014_OtterLake.pdf",
+        "match_score": 1.0
       },
       "Shiawassee River": {
         "dataset_match": "Shiawassee River",
@@ -28063,10 +30450,23 @@
         "note": "No historical survey data available"
       },
       "Tittabawassee River": {
-        "species": [],
+        "species": [
+          "Smallmouth Bass",
+          "Walleye",
+          "Channel Catfish",
+          "Flathead Catfish",
+          "Muskellunge",
+          "Common Carp",
+          "Rock Bass",
+          "Freshwater Drum",
+          "Lake Sturgeon",
+          "Largemouth Bass",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 5 counties"
       },
       "Tobacco River": {
         "species": [],
@@ -28190,10 +30590,25 @@
         "note": "No historical survey data available"
       },
       "Black River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Lake Trout",
+          "Splake",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Muskellunge",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 17 counties"
       },
       "Clinton River": {
         "species": [],
@@ -28358,10 +30773,25 @@
     },
     "Mackinac": {
       "Black River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Lake Trout",
+          "Splake",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Muskellunge",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 17 counties"
       },
       "Carp River": {
         "dataset_match": "Carp",
@@ -28554,10 +30984,22 @@
         "note": "No historical survey data available"
       },
       "Pine River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye",
+          "Yellow Perch",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 14 counties"
       },
       "Salt River": {
         "species": [],
@@ -28774,10 +31216,24 @@
     },
     "Monroe": {
       "Huron River": {
-        "species": [],
+        "species": [
+          "Smallmouth Bass",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Bluegill",
+          "Channel Catfish",
+          "Common Carp",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "White Sucker",
+          "Rock Bass",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 8 counties"
       },
       "North River": {
         "species": [],
@@ -28909,10 +31365,25 @@
     },
     "Montmorency": {
       "Black River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Lake Trout",
+          "Splake",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Walleye",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Muskellunge",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 17 counties"
       },
       "Canada Creek": {
         "dataset_match": "Canada Creek",
@@ -28928,10 +31399,29 @@
         "dataset": "dnr-stocking"
       },
       "Fletcher Pond": {
-        "species": [],
+        "species": [
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brook Trout",
+          "Brown Trout",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Carp",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Sucker",
+          "Walleye",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0135_2008_FletcherPond.pdf",
+        "match_score": 0
       },
       "Long Lake": {
         "dataset_match": "Long",
@@ -28999,10 +31489,20 @@
         "dataset": "dnr-stocking"
       },
       "Pere Marquette River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Northern Pike",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 7 counties"
       },
       "Ruby Creek": {
         "dataset_match": "Ruby Creek",
@@ -29058,10 +31558,23 @@
         "dataset": "dnr-stocking"
       },
       "Tittabawassee River": {
-        "species": [],
+        "species": [
+          "Smallmouth Bass",
+          "Walleye",
+          "Channel Catfish",
+          "Flathead Catfish",
+          "Muskellunge",
+          "Common Carp",
+          "Rock Bass",
+          "Freshwater Drum",
+          "Lake Sturgeon",
+          "Largemouth Bass",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 5 counties"
       }
     },
     "Osceola": {
@@ -29105,10 +31618,22 @@
         "dataset": "dnr-stocking"
       },
       "Pine River": {
-        "species": [],
+        "species": [
+          "Brown Trout",
+          "Brook Trout",
+          "Rainbow Trout",
+          "Smallmouth Bass",
+          "Northern Pike",
+          "Walleye",
+          "Yellow Perch",
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 14 counties"
       }
     },
     "Ottawa": {
@@ -29468,10 +31993,17 @@
         "note": "No historical survey data available"
       },
       "Maple River": {
-        "species": [],
+        "species": [
+          "Brook Trout",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "Northern Pike"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 7 counties"
       },
       "Misteguay Creek": {
         "species": [],
@@ -29611,18 +32143,65 @@
         "note": "No historical survey data available"
       },
       "St. Joseph River": {
-        "species": [],
+        "species": [
+          "Steelhead",
+          "Chinook Salmon",
+          "Coho Salmon",
+          "Brown Trout",
+          "Walleye",
+          "Smallmouth Bass",
+          "White Sucker",
+          "Channel Catfish",
+          "Northern Pike",
+          "Largemouth Bass",
+          "Common Carp"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 8 counties"
       }
     },
     "Washtenaw": {
       "Belleville Lake": {
-        "species": [],
+        "species": [
+          "Black Bullhead",
+          "Black Crappie",
+          "Bluegill",
+          "Bowfin",
+          "Brook Silverside",
+          "Brown Bullhead",
+          "Bullhead",
+          "Channel Catfish",
+          "Common Carp",
+          "Emerald Shiner",
+          "Gar",
+          "Golden Shiner",
+          "Green Sunfish",
+          "Hybrid Sunfish",
+          "Largemouth Bass",
+          "Logperch",
+          "Longnose Gar",
+          "Minnow",
+          "Muskellunge",
+          "Pumpkinseed",
+          "Rock Bass",
+          "Shiner",
+          "Smallmouth Bass",
+          "Spotfin Shiner",
+          "Spottail Shiner",
+          "Sucker",
+          "Tiger Muskellunge",
+          "Walleye",
+          "White Bass",
+          "White Crappie",
+          "White Sucker",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "dnr-status-fishery-pdf",
+        "pdf_file": "0224_2013_BellevilleLake.pdf",
+        "match_score": 1.0
       },
       "Ford Lake": {
         "dataset_match": "Ford",
@@ -29699,10 +32278,24 @@
         "dataset": "summ"
       },
       "Huron River": {
-        "species": [],
+        "species": [
+          "Smallmouth Bass",
+          "Largemouth Bass",
+          "Northern Pike",
+          "Bluegill",
+          "Channel Catfish",
+          "Common Carp",
+          "Brown Trout",
+          "Rainbow Trout",
+          "Steelhead",
+          "White Sucker",
+          "Rock Bass",
+          "Yellow Perch"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "high",
+        "note": "Species shared across 8 counties"
       },
       "Huron River chain of lakes": {
         "species": [],
@@ -29729,10 +32322,22 @@
         "dataset": "dnr-stocking"
       },
       "River Raisin": {
-        "species": [],
+        "species": [
+          "Walleye",
+          "Smallmouth Bass",
+          "Channel Catfish",
+          "Northern Pike",
+          "Yellow Perch",
+          "Crappie",
+          "Largemouth Bass",
+          "Bluegill",
+          "Common Carp",
+          "White Sucker"
+        ],
         "extras": [],
-        "source": null,
-        "note": "No historical survey data available"
+        "source": "river-research",
+        "confidence": "medium",
+        "note": "Species shared across 5 counties"
       },
       "River Rouge": {
         "species": [],

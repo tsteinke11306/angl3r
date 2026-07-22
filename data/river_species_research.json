@@ -1,0 +1,134 @@
+{
+  "Muskegon River": {
+    "species": ["Walleye", "Smallmouth Bass", "Northern Pike", "Brown Trout", "Rainbow Trout", "Steelhead", "Chinook Salmon", "Coho Salmon", "Muskellunge", "White Sucker", "Common Carp", "Rock Bass", "Yellow Perch", "Redhorse Sucker"],
+    "source": "https://www.michigandnr.com/publications/pdfs/ArcGISOnline/StoryMaps/fish_troutTrails/PDFs/TT2016037.pdf; https://muskegonlake.org/wp-content/uploads/2025/08/0448_2025_Muskegon_Lake.pdf; https://fredwaaratu.org/fishing/muskegon-river/",
+    "confidence": "high",
+    "counties": ["Clare", "Huron", "Mecosta", "Missaukee", "Muskegon", "Newaygo", "Osceola", "Roscommon"]
+  },
+  "Au Sable River": {
+    "species": ["Brown Trout", "Rainbow Trout", "Brook Trout", "Steelhead", "Chinook Salmon", "Coho Salmon", "Smallmouth Bass", "Walleye", "Lake Trout"],
+    "source": "https://www.dnr.state.mi.us/publications/pdfs/ArcGISOnline/StoryMaps/fish_troutTrails/PDFs/TT2017079.pdf; https://michigan-streamside.com/au-sable-river-michigan/; https://americanflyfishing.com/au-sable-river-mi/; https://www.fws.gov/rivers/river/ausable; https://www.oldausable.com/dnr-statewide-fishing-reports",
+    "confidence": "high",
+    "counties": ["Alcona", "Crawford", "Iosco", "Oscoda", "Otsego", "Roscommon"]
+  },
+  "Au Sable River Mainstream": {
+    "species": ["Brown Trout", "Rainbow Trout", "Brook Trout", "Steelhead", "Smallmouth Bass", "Chinook Salmon", "Coho Salmon", "Walleye", "Lake Trout"],
+    "source": "https://oscoda.com/project/ausable-river/; https://shorelinescout.com/michigan/oscoda/au-sable-river/; https://www.edtu.org/au-sable-river-michigan; https://www.bigcreektownship.com/index.php/recreation/au-sable-river",
+    "confidence": "high",
+    "counties": ["Cheboygan", "Iosco", "Muskegon", "Oscoda"]
+  },
+  "Pere Marquette River": {
+    "species": ["Brown Trout", "Brook Trout", "Rainbow Trout", "Steelhead", "Chinook Salmon", "Coho Salmon", "Northern Pike", "White Sucker"],
+    "source": "https://westmichiganguides.com/fishing-pere-marquette-river; https://rivers.gov/river/pere-marquette; https://www.michigandnr.com/publications/pdfs/DNRFishLibrary/TechnicalReports/TR73-23.pdf",
+    "confidence": "high",
+    "counties": ["Iron", "Keweenaw", "Lake", "Manistee", "Mason", "Newaygo", "Oceana"]
+  },
+  "Manistee River": {
+    "species": ["Brown Trout", "Brook Trout", "Rainbow Trout", "Steelhead", "Chinook Salmon", "Coho Salmon", "Smallmouth Bass", "Northern Pike", "Walleye"],
+    "source": "https://www2.dnr.state.mi.us/publications/pdfs/arcgisonline/storymaps/fish_troutTrails/PDFs/TT2016056.pdf; https://www.bestfishinginamerica.com/michigan-manistee-river-fishing.html; https://www.visitmanisteecounty.com/winter-fishing-in-manistee; https://www.michigan.gov/dnr/managing-resources/fisheries/hatcheries/little-manistee-river-weir",
+    "confidence": "high",
+    "counties": ["Antrim", "Cheboygan", "Chippewa", "Crawford", "Kalkaska", "Manistee", "Missaukee", "Otsego", "St. Joseph", "Wexford"]
+  },
+  "Grand River": {
+    "species": ["Steelhead", "Chinook Salmon", "Coho Salmon", "Smallmouth Bass", "Walleye", "Brown Trout", "Lake Trout", "Northern Pike", "Channel Catfish", "Flathead Catfish", "Common Carp", "Muskellunge", "Longnose Gar", "Bowfin", "Yellow Perch", "Bluegill", "Rock Bass", "White Sucker", "Gizzard Shad", "Redhorse Sucker"],
+    "source": "https://www.experiencegr.com/things-to-do/outdoors-and-sports/fishing/; https://www.canr.msu.edu/uploads/files/Greening/MI_Sea_Grant/Fishes_of_the_Grand_River_Checklist.pdf; https://www.onxmaps.com/fish/spots/j064j7kkr615/grand-river; https://www.gettingbitguideservice.com/grandriver; https://westmichiganfishingguide.com/river/grand-river/",
+    "confidence": "high",
+    "counties": ["Clinton", "Eaton", "Hillsdale", "Ingham", "Ionia", "Jackson", "Kent", "Ottawa"]
+  },
+  "Huron River": {
+    "species": ["Smallmouth Bass", "Largemouth Bass", "Northern Pike", "Bluegill", "Channel Catfish", "Common Carp", "Brown Trout", "Rainbow Trout", "Steelhead", "White Sucker", "Rock Bass", "Yellow Perch"],
+    "source": "https://fishingreports.orvis.com/midwest/michigan/huron-river; https://michoutdoors.com/waters-we-fish/huron-river/; https://www.michigan.gov/dnr/about/newsroom/releases/2026/03/30/mature-trout-stocked-in-huron-river-spring-mill-pond; https://diyflyfishing.com/huron-river-michigan/; https://www2.dnr.state.mi.us/publications/pdfs/arcgisonline/storymaps/fish_troutTrails/PDFs/TT2016011.pdf",
+    "confidence": "high",
+    "counties": ["Baraga", "Livingston", "Marquette", "Monroe", "Oakland", "St. Joseph", "Washtenaw", "Wayne"]
+  },
+  "St. Joseph River": {
+    "species": ["Steelhead", "Chinook Salmon", "Coho Salmon", "Brown Trout", "Walleye", "Smallmouth Bass", "White Sucker", "Channel Catfish", "Northern Pike", "Largemouth Bass", "Common Carp"],
+    "source": "https://www.michigandnr.com/publications/pdfs/DNRFishLibrary/FisheriesReports/FR021.pdf; https://www2.dnr.state.mi.us/Publications/PDFS/ArcGISOnline/StoryMaps/fish_troutTrails/PDFs/TT2015112.pdf; https://www.michigandnr.com/publications/pdfs/ArcGISOnline/StoryMaps/fish_troutTrails/PDFs/TT2015116.pdf",
+    "confidence": "high",
+    "counties": ["Berrien", "Branch", "Calhoun", "Cass", "Hillsdale", "Kalamazoo", "St. Joseph", "Van Buren"]
+  },
+  "Black River": {
+    "species": ["Brook Trout", "Brown Trout", "Rainbow Trout", "Lake Trout", "Splake", "Steelhead", "Chinook Salmon", "Coho Salmon", "Walleye", "Smallmouth Bass", "Northern Pike", "Muskellunge", "White Sucker"],
+    "source": "https://www.michiganfishing.guide/trout-streams/black-river-cheboygan/; https://www.michigandnr.com/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0120_2007_BlackRiver.pdf; https://www.onwaterapp.com/water/black-river-e47dd; https://www.upperblack.org/index.php/homepage/ubrc-access-navigation-tool",
+    "confidence": "high",
+    "counties": ["Alcona", "Allegan", "Cheboygan", "Chippewa", "Gogebic", "Hillsdale", "Houghton", "Lapeer", "Livingston", "Mackinac", "Marquette", "Montmorency", "Otsego", "Presque Isle", "Sanilac", "St. Clair", "Van Buren"]
+  },
+  "Pine River": {
+    "species": ["Brown Trout", "Brook Trout", "Rainbow Trout", "Smallmouth Bass", "Northern Pike", "Walleye", "Yellow Perch", "Steelhead", "Chinook Salmon", "Coho Salmon"],
+    "source": "https://www.thepineriver.com/post/trout-fishing-on-the-pine-river; https://hawkinsoutfitters.com/pine-river-the-best-kept-secret-in-northern-michigan-trout-water/; https://www.theanglersdestination.com/fly-fishing-michigan; https://rivers.gov/river/pine; https://www.uptravel.com/outdoors-recreation/on-the-water/fishing/dnr-fishing-report/",
+    "confidence": "high",
+    "counties": ["Chippewa", "Grand Traverse", "Gratiot", "Isabella", "Lake", "Luce", "Mackinac", "Manistee", "Mecosta", "Midland", "Montcalm", "Osceola", "St. Joseph", "Wexford"]
+  },
+  "Sturgeon River": {
+    "species": ["Brook Trout", "Brown Trout", "Rainbow Trout", "Steelhead", "Smallmouth Bass", "Chinook Salmon", "Coho Salmon"],
+    "source": "https://www.dnr.state.mi.us/publications/pdfs/ArcGISOnline/StoryMaps/fish_troutTrails/PDFs/TT2015124.pdf; https://diyflyfishing.com/sturgeon-river-michigan/; https://www.visitcharlevoix.com/SturgeonRiver/; https://rivers.gov/river/sturgeon-hiawatha; https://www.michiganfishing.guide/guides/upper-peninsula-fishing-guide/",
+    "confidence": "high",
+    "counties": ["Alger", "Baraga", "Charlevoix", "Cheboygan", "Delta", "Grand Traverse", "Houghton", "Lake", "Otsego"]
+  },
+  "Tittabawassee River": {
+    "species": ["Smallmouth Bass", "Walleye", "Channel Catfish", "Flathead Catfish", "Muskellunge", "Common Carp", "Rock Bass", "Freshwater Drum", "Lake Sturgeon", "Largemouth Bass", "Yellow Perch"],
+    "source": "https://www.four-lakes-taskforce-mi.com/uploads/1/2/3/1/123199575/tittabawassee_fish_monitoring_after_the_2020_dam_failures.pdf; https://www.michigansthumb.com/insider/article/Steve-Griffin-Tittabawassee-fishery-hasn-t-16529315.php; https://www.ourmidland.com/sports/article/Sanford-Lake-Tittabawassee-River-other-areas-8357613.php; https://www.oldausable.com/dnr-statewide-fishing-reports",
+    "confidence": "high",
+    "counties": ["Gladwin", "Manistee", "Midland", "Ogemaw", "Saginaw"]
+  },
+  "Shiawassee River": {
+    "species": ["Smallmouth Bass", "Northern Pike", "Walleye", "Bluegill", "Quillback", "White Sucker", "Channel Catfish", "Common Carp", "Largemouth Bass", "Rock Bass"],
+    "source": "https://www.michigandnr.com/publications/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0286_2016_ShiawasseeRiver.pdf; https://www.onwaterapp.com/water/shiawassee-river",
+    "confidence": "high",
+    "counties": ["Genesee", "Livingston", "Midland", "Oakland", "Saginaw", "Shiawassee"]
+  },
+  "Maple River": {
+    "species": ["Brook Trout", "Brown Trout", "Rainbow Trout", "Steelhead", "Northern Pike"],
+    "source": "https://www.dnr.state.mi.us/publications/pdfs/ArcGISOnline/StoryMaps/fish_troutTrails/PDFs/TT2015081.pdf; https://diyflyfishing.com/maple-river-michigan/; https://www.michigandnr.com/PUBLICATIONS/pdfs/DNRFishLibrary/StatusoftheFisheryResourceReports/0244_2014_MapleRiver.pdf; https://watershedcouncil.org/waterbody/maple-river-2/",
+    "confidence": "high",
+    "counties": ["Cheboygan", "Clinton", "Emmet", "Gratiot", "Ionia", "Lake", "Shiawassee"]
+  },
+  "Carp River": {
+    "species": ["Brook Trout", "Brown Trout", "Steelhead", "Pink Salmon", "Coho Salmon", "Smallmouth Bass", "Northern Pike", "Walleye", "Common Carp", "White Sucker"],
+    "source": "https://diyflyfishing.com/carp-river-michigan/; https://www.theanglersdestination.com/fly-fishing-michigan; https://rivers.gov/river/carp; https://www2.dnr.state.mi.us/Publications/PDFS/ArcGISOnline/StoryMaps/fish_troutTrails/PDFs/TT2017103.pdf",
+    "confidence": "high",
+    "counties": ["Chippewa", "Gogebic", "Luce", "Mackinac", "Manistee", "Marquette", "Ontonagon"]
+  },
+  "Coldwater River": {
+    "species": ["Brown Trout", "Rainbow Trout", "Brook Trout", "Smallmouth Bass", "Northern Pike", "Common Carp", "White Sucker"],
+    "source": "https://freeportmichigan.org/fishing-the-coldwater-river/; https://diyflyfishing.com/coldwater-river-michigan/; https://www.michigan.org/property/coldwater-river-park",
+    "confidence": "medium",
+    "counties": ["Arenac", "Baraga", "Barry", "Branch", "Isabella", "Kent"]
+  },
+  "Rapid River": {
+    "species": ["Brook Trout", "Brown Trout", "Rainbow Trout", "Steelhead", "Splake", "Walleye", "Yellow Perch"],
+    "source": "https://snoflo.org/fishing/michigan/rapid-river; https://www.uptravel.com/outdoors-recreation/on-the-water/fishing/dnr-fishing-report/; https://bridgemi.com/michigan-environment-watch/dnr-announces-fishing-regulations-michigans-2022-season/",
+    "confidence": "medium",
+    "counties": ["Delta", "Jackson", "Kalkaska", "Lake", "Marquette", "Ontonagon"]
+  },
+  "Jordan River": {
+    "species": ["Brook Trout", "Brown Trout", "Rainbow Trout", "Steelhead", "Chinook Salmon", "Coho Salmon", "Mottled Sculpin"],
+    "source": "https://www.dnr.state.mi.us/publications/pdfs/ArcGISOnline/StoryMaps/fish_troutTrails/PDFs/TT2015049.pdf; https://www.rivercare.org/project/jordan-river/spanning-the-headwaters/; https://www.michigandnr.com/publications/pdfs/DNRFishLibrary/TechnicalReports/TR73-15.pdf; https://truenorthtrout.com/2024/07/jordan-river/",
+    "confidence": "high",
+    "counties": ["Antrim", "Charlevoix", "Kalamazoo", "Lake"]
+  },
+  "Pigeon River": {
+    "species": ["Brown Trout", "Rainbow Trout", "Brook Trout", "Steelhead"],
+    "source": "https://pigeonriverdiscoverycenter.org/fishing/; https://www.dnr.state.mi.us/publications/pdfs/ArcGISOnline/StoryMaps/fish_troutTrails/PDFs/TT2015102.pdf; https://www2.dnr.state.mi.us/Publications/PDFS/ArcGISOnline/StoryMaps/fish_troutTrails/PDFs/TT2015099.pdf",
+    "confidence": "high",
+    "counties": ["Cheboygan", "Huron", "Manistee", "Otsego", "Ottawa"]
+  },
+  "Kalamazoo River": {
+    "species": ["Smallmouth Bass", "Walleye", "Northern Pike", "Channel Catfish", "Flathead Catfish", "Steelhead", "Chinook Salmon", "Coho Salmon", "Common Carp", "Largemouth Bass", "Rock Bass", "Bluegill", "Yellow Perch"],
+    "source": "https://www.michigan.gov/dnr/education/michigan-species/fish-species",
+    "confidence": "medium",
+    "counties": ["Allegan", "Calhoun", "Hillsdale", "Jackson", "Kalamazoo"]
+  },
+  "Manistique River": {
+    "species": ["Brook Trout", "Brown Trout", "Smallmouth Bass", "Steelhead", "Chinook Salmon", "Northern Pike", "Walleye", "Yellow Perch"],
+    "source": "https://www.michiganfishing.guide/guides/upper-peninsula-fishing-guide/; https://rivers.gov/river/sturgeon-hiawatha",
+    "confidence": "medium",
+    "counties": ["Alger", "Delta", "Luce", "Mackinac", "Schoolcraft"]
+  },
+  "River Raisin": {
+    "species": ["Walleye", "Smallmouth Bass", "Channel Catfish", "Northern Pike", "Yellow Perch", "Crappie", "Largemouth Bass", "Bluegill", "Common Carp", "White Sucker"],
+    "source": "https://www.oldausable.com/dnr-statewide-fishing-reports",
+    "confidence": "medium",
+    "counties": ["Hillsdale", "Jackson", "Lenawee", "Monroe", "Washtenaw"]
+  }
+}
