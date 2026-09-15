@@ -34,6 +34,10 @@ import brandLogoUrl from "../public/logo.png";
 let DATA: RegsData | null = null;
 let DATA_PROMISE: Promise<RegsData> | null = null;
 
+// Cached count of waterbodies for the intro empty state (set once data
+// loads; falls back to a round figure if data is unavailable).
+let WATERBODY_COUNT_LABEL = "1,150+";
+
 async function loadData(): Promise<RegsData> {
   if (DATA) return DATA;
   if (DATA_PROMISE) return DATA_PROMISE;
@@ -47,6 +51,7 @@ async function loadData(): Promise<RegsData> {
     })
     .then((json) => {
       DATA = json as RegsData;
+      WATERBODY_COUNT_LABEL = DATA.meta?.waterbody_count?.toLocaleString("en-US") ?? WATERBODY_COUNT_LABEL;
       return DATA;
     });
   return DATA_PROMISE;
@@ -389,6 +394,25 @@ function renderMapView(data: RegsData): string {
 
 function renderResults(results: Result[]): string {
   if (results.length === 0) {
+    // An empty query with no filters is not "no matches" — it's the
+    // starting state. Show an intro instead of an error.
+    if (!currentQuery && !currentSpecies && !currentCountyFilter) {
+      return `
+        <div class="results results__intro">
+          <div class="results__intro-icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>
+              <path d="M8 11h6M11 8v6"/>
+            </svg>
+          </div>
+          <div class="results__intro-title">Search ${WATERBODY_COUNT_LABEL} Michigan lakes and streams</div>
+          <div class="results__intro-text">
+            Regulations come from the official DNR digest. Try a lake like
+            <strong>Higgins</strong> or <strong>Houghton</strong>, a river like
+            <strong>Au Sable</strong>, or a county like <strong>Grand Traverse</strong>.
+          </div>
+        </div>`;
+    }
     return `<div class="results"><div class="results__empty">No matches. Try a different name or check the spelling.</div></div>`;
   }
   const groups = groupByCounty(results);
@@ -784,8 +808,9 @@ function attachSearchHandlers(data: RegsData) {
       selectedResult = countyWBs[0] as unknown as Result;
       updateDetailForSelected(data);
     }
-  } else if (currentQuery) {
-    // Otherwise, run the current query if any
+  } else if (currentQuery || currentSpecies !== null) {
+    // Run the current query if any; with an empty query and a species
+    // chip active, doSearch returns all waters with that species.
     const results = doSearch(data);
     resultsContainer.innerHTML = renderResults(results);
     attachResultHandlers(data);
@@ -893,13 +918,13 @@ function attachSearchHandlers(data: RegsData) {
  * county-specific exceptions for the selected species.
  */
 function doSearch(data: RegsData): Result[] {
-  const results = search(currentQuery, data, 50);
+  // With a query, species filtering stays a detail-panel hint (the regs
+  // baseline applies to nearly every water). With an empty query, the
+  // species chip becomes the actual filter and lists matching waters.
+  const results = search(currentQuery, data, 50, currentQuery.trim() ? null : currentSpecies);
   if (currentSpecies === null) {
     return results;
   }
-  // If a specific species is selected, we still return all matching
-  // waterbodies (the regs apply to most of them via the statewide baseline).
-  // The species filter is primarily a UI hint for the detail panel.
   return results;
 }
 

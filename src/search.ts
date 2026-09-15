@@ -39,9 +39,22 @@ export interface Result {
  * the result list when there's a tie, so the most useful results surface
  * first.
  */
-export function search(query: string, data: RegsData, limit = 50): Result[] {
+export function search(
+  query: string,
+  data: RegsData,
+  limit = 50,
+  speciesFilter: string | null = null,
+): Result[] {
   const q = query.trim().toLowerCase();
-  if (!q) return [];
+  if (!q && speciesFilter === null) return [];
+
+  // Empty query + species filter: list every waterbody whose confirmed
+  // species include the selection. Without this, picking a species with
+  // an empty search box showed "No matches", which read as an error
+  // rather than a filter.
+  if (!q && speciesFilter !== null) {
+    return searchBySpecies(speciesFilter, data, limit);
+  }
 
   const tokens = q.split(/\s+/).filter(Boolean);
 
@@ -86,6 +99,95 @@ export function search(query: string, data: RegsData, limit = 50): Result[] {
   });
 
   return results.slice(0, limit);
+}
+
+/**
+ * List waterbodies whose confirmed species include the selected species
+ * filter (species chip clicked with an empty search box). Matching is
+ * keyword-based because statewide species names differ slightly from the
+ * survey names in species_by_waterbody ("Sunfishes" vs "Bluegill").
+ * "all-others" selects waters that have confirmed species data but where
+ * none of the named species categories matched.
+ */
+function searchBySpecies(speciesId: string, data: RegsData, limit: number): Result[] {
+  const sbw = data.species_by_waterbody ?? {};
+  const sp = data.species?.statewide?.find((s) => s.id === speciesId);
+  const keywords = speciesKeywords(sp?.name ?? speciesId);
+  const isAllOthers = speciesId === "all-others";
+
+  const out: Result[] = [];
+  for (const wb of data.waterbodies ?? []) {
+    const list = sbw[wb.county]?.[wb.name]?.species ?? [];
+    if (list.length === 0) continue;
+    const hit = isAllOthers
+      ? !hasNamedCategory(list)
+      : list.some((s) => {
+          const ls = s.toLowerCase();
+          return keywords.some((k) => ls.includes(k));
+        });
+    if (hit) {
+      out.push(toResult(wb));
+    }
+  }
+  out.sort((a, b) => a.county.localeCompare(b.county) || a.name.localeCompare(b.name));
+  return out.slice(0, limit);
+}
+
+/**
+ * Keywords that identify a species category within confirmed survey
+ * species names. Category names are the statewide chip labels, lowered.
+ * e.g. the "Sunfishes" chip must match "Bluegill", "Pumpkinseed", etc.
+ */
+function speciesKeywords(speciesName: string): string[] {
+  const key = speciesName.toLowerCase();
+  if (key.includes("sunfish")) {
+    return ["bluegill", "pumpkinseed", "rock bass", "sunfish", "crappie", "warmouth", "redear"];
+  }
+  if (key.includes("muskellunge")) return ["muskellunge", "muskie"];
+  if (key.includes("cisco") || key.includes("whitefish")) return ["cisco", "whitefish"];
+  if (key.includes("burbot") || key.includes("eelpout")) return ["burbot", "eelpout"];
+  if (key.includes("perch")) return ["perch"];
+  if (key.includes("catfish")) return [key.split(" ")[0] + " catfish"];
+  // Fallback: first significant word ("Walleye" -> "walleye",
+  // "Northern Pike" -> "northern")
+  const first = key.split(/[\s,(]+/)[0];
+  return first.length >= 4 ? [first] : [key];
+}
+
+/**
+ * True when the confirmed species list contains any of the named
+ * statewide categories (i.e. NOT only "other" species like bullheads,
+ * carp, suckers, minnows, etc.).
+ */
+function hasNamedCategory(species: string[]): boolean {
+  const namedPatterns = [
+    "largemouth", "smallmouth", "walleye", "saugeye", "northern pike",
+    "flathead", "channel catfish", "muskellunge", "muskie", "yellow perch",
+    "perch", "bluegill", "pumpkinseed", "rock bass", "sunfish", "crappie",
+    "warmouth", "redear", "white bass", "cisco", "whitefish", "smelt",
+    "burbot", "eelpout",
+  ];
+  return species.some((s) => {
+    const ls = s.toLowerCase();
+    return namedPatterns.some((p) => ls.includes(p));
+  });
+}
+
+/** Convert a waterbody record into a plain search Result. */
+function toResult(wb: Waterbody): Result {
+  return {
+    kind: wb.kind as Result["kind"],
+    name: wb.name,
+    county: wb.county,
+    source: wb.source as "pdf" | "wikipedia",
+    type: wb.type,
+    source_page: wb.pdf_record?.source_page,
+    section: wb.section,
+    closure: wb.closure,
+    wikipedia_title: wb.wikipedia_title,
+    matchDistance: 0,
+    matchedField: "name" as const,
+  };
 }
 
 interface Score {

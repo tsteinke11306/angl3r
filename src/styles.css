@@ -355,6 +355,19 @@ body::before {
   padding: 2.5rem 1rem; text-align: center;
   color: var(--text-muted); font-size: 0.9375rem;
 }
+.results__intro {
+  padding: 2.75rem 1.25rem; text-align: center;
+  color: var(--text-muted);
+  display: flex; flex-direction: column; align-items: center; gap: 0.75rem;
+}
+.results__intro-icon { color: var(--accent); opacity: 0.75; }
+.results__intro-title {
+  font-size: 1.0625rem; font-weight: 650; color: var(--text-primary);
+}
+.results__intro-text {
+  font-size: 0.9375rem; line-height: 1.55; max-width: 26rem;
+}
+.results__intro-text strong { color: var(--text-secondary); font-weight: 600; }
 .results__group-header {
   padding: 0.625rem 1rem;
   font-size: 0.6875rem; font-weight: 700;
