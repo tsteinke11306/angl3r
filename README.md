@@ -12,9 +12,9 @@ reports. The site is rebuilt automatically when the PDF is updated.
 
 🌐 **Live site:** https://tsteinke11306.github.io/angl3r/
 
-**At a glance:** 1,158 named waterbodies across all 83 Michigan counties,
+**At a glance:** 1,154 named waterbodies across all 83 Michigan counties,
 14 fish species with statewide regulations, per-county exceptions for
-45 counties, and historical species data for ~71% of waterbodies.
+45 counties, and historical species data for ~61% of waterbodies.
 
 ## How it works
 
@@ -44,7 +44,7 @@ sudo apt-get install -y poppler-utils
 # Optional: use a virtual environment instead of --break-system-packages
 python3 -m venv .venv
 source .venv/bin/activate
-pip install pdfminer.six pypdf fuzzywuzzy python-Levenshtein
+pip install pdfminer.six pypdf rapidfuzz
 
 # Install JS deps
 npm ci
@@ -55,7 +55,8 @@ export REGS_YEAR=2026
 # Parse the PDF (outputs to data/regs.json)
 python3 scripts/parse_pdf.py
 
-# Map historical species data into regs.json
+# Map historical species data into regs.json (needs the CHANGES-UM zip
+# and species_research/dnr_stocking.csv, both fetched by CI on demand)
 python3 scripts/map_species_by_waterbody.py \
   --regs data/regs.json \
   --survey-zip /path/to/summ_fishc_grow-v1.0.0.zip \
@@ -63,6 +64,9 @@ python3 scripts/map_species_by_waterbody.py \
 
 # Copy the generated data into public/ for the dev server
 cp data/regs.json public/data/regs.json
+
+# Validate data integrity (names, counties, species, coords, meta counts)
+python3 scripts/validate_data.py
 
 # Run the dev server (with hot reload)
 npm run dev
@@ -75,13 +79,13 @@ The site combines several sources:
 
 | Source | What it gives | Count | License |
 |---|---|---|---|
-| [DNR 2026 PDF](https://www.michigan.gov/dnr/things-to-do/fishing) | Trout/salmon waterbodies, Type A–F & 1–4 regs, species tables, county exceptions | 292 waterbodies, 14 species, 45 counties with exceptions | Public domain (state govt) |
-| [Wikipedia category tree](https://en.wikipedia.org/wiki/Category:Bodies_of_water_of_Michigan_by_county) | Named waterbodies (lakes, rivers, creeks, ponds, bays, etc.) per county | 866 waterbodies | CC BY-SA 4.0 |
-| [CHANGES-UM historical surveys](https://doi.org/10.5281/zenodo.15389937) | Fish species presence from 78 years of DNR surveys | ~44% of lake/pond records | CC BY 4.0 |
+| [DNR 2026 PDF](https://www.michigan.gov/dnr/things-to-do/fishing) | Trout/salmon waterbodies, Type A–F & 1–4 regs, species tables, county exceptions | 285 waterbodies, 14 species, 45 counties with exceptions | Public domain (state govt) |
+| [Wikipedia category tree](https://en.wikipedia.org/wiki/Category:Bodies_of_water_of_Michigan_by_county) | Named waterbodies (lakes, rivers, creeks, ponds, bays, etc.) per county | 869 waterbodies | CC BY-SA 4.0 |
+| [CHANGES-UM historical surveys](https://doi.org/10.5281/zenodo.15389937) | Fish species presence from 78 years of DNR surveys | ~61% of all waterbodies | CC BY 4.0 |
 | DNR Fish Stocking CSV | Stocked species by waterbody (1979–2026) | 46 additional lakes + 490 river segments | Public domain (state govt) |
 | DNR Status of the Fishery reports | Biologist survey species lists | 18 additional lakes | Public domain (state govt) |
 
-**Total: 1,158 named waterbodies across all 83 Michigan counties.**
+**Total: 1,154 named waterbodies across all 83 Michigan counties.**
 
 Wikipedia provides the broader list of named waterbodies; the PDF provides
 the actual regulations. PDF-sourced entries get a Type regulation section +
@@ -92,8 +96,9 @@ and sorted to the top.
 
 ### Known limitations
 
-- **~90% recall** on the PDF trout listings (104 lakes, 188 streams). The
-  remaining ~10% are usually on pages where multiple counties share a row.
+- **~90% recall** on the PDF trout listings (104 lakes, 181 stream
+  sections). The remaining ~10% are usually on pages where multiple
+  counties share a row.
 - **Stream section descriptions** can have minor cross-contamination
   between adjacent entries due to the 2-column PDF layout. The (name,
   county, type) tuple is always correct; only the section description
@@ -101,7 +106,7 @@ and sorted to the top.
 - **45 of 83 counties have species-specific exceptions parsed.** The
   other 38 counties genuinely aren't listed in the PDF's County
   Exceptions section — the statewide species rules apply to them.
-- **Historical species coverage is ~71%** of waterbodies. Small or
+- **Historical species coverage is ~61%** of waterbodies. Small or
   under-surveyed lakes may show "No historical survey data available."
   The DNR fish stocking database remains the authoritative source for
   recently stocked waters.
@@ -116,6 +121,7 @@ angl3r/
 ├── data/
 │   ├── 2026-Michigan-Fishing-Regulations.pdf     # the source PDF
 │   ├── wikipedia_waterbodies.json                # the Wikipedia crawl output
+│   ├── coords_by_waterbody.json                  # geocoded marker positions
 │   └── regs.json                                 # generated, parsed data
 ├── public/
 │   ├── data/regs.json                            # copy consumed by the site
@@ -127,10 +133,12 @@ angl3r/
 │   ├── parse_pdf.py                              # PDF + Wikipedia → JSON
 │   ├── map_species_by_waterbody.py               # CHANGES-UM → species_by_waterbody
 │   ├── scrape_status_fishery_pdfs.py             # DNR Status Fishery reports scraper
-│   └── update_docs.py                            # Re-extract regulation docs from PDF
+│   ├── update_docs.py                            # Re-extract regulation docs from PDF
+│   └── validate_data.py                          # data integrity checks
 ├── src/
 │   ├── main.ts                                   # app entry
 │   ├── search.ts                                 # search/match logic
+│   ├── leaflet-map.ts                            # satellite map
 │   ├── types.ts                                  # TypeScript types
 │   └── styles.css                                # all styles
 ├── index.html
