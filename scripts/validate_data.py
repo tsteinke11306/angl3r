@@ -203,15 +203,12 @@ def main() -> int:
 
     # (h) meta counts match actual lengths
     meta = regs.get("meta") or {}
+    # lake/stream counts are the PDF-derived registry lengths (d['lakes'] /
+    # d['streams'] records with type regs), not a re-classification of
+    # waterbodies[].kind (which the site renders via counties.stats).
     expected = {
-        "lake_count": sum(
-            1 for w in waterbodies
-            if w.get("source") == "pdf" and w.get("kind") == "lake"
-        ),
-        "stream_count": sum(
-            1 for w in waterbodies
-            if w.get("source") == "pdf" and w.get("kind") == "river"
-        ),
+        "lake_count": len(regs.get("lakes") or []),
+        "stream_count": len(regs.get("streams") or []),
         "waterbody_count": len(waterbodies),
         "county_count": len(counties),
     }
