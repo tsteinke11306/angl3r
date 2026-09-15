@@ -50,11 +50,6 @@ jobs:
         run: |
           python3 scripts/parse_pdf.py
 
-      - name: Validate data
-        if: hashFiles(format('data/{0}-Michigan-Fishing-Regulations.pdf', env.REGS_YEAR)) != ''
-        run: |
-          python3 scripts/validate_data.py
-
       - name: Cache CHANGES-UM dataset
         id: cache-changes-um
         uses: actions/cache@v4
@@ -89,6 +84,10 @@ jobs:
             --inject
           cp data/regs.json public/data/regs.json
           cp data/coords_by_waterbody.json public/data/coords_by_waterbody.json
+
+      - name: Validate data
+        run: |
+          python3 scripts/validate_data.py
 
       - name: Install npm dependencies
         run: npm ci
