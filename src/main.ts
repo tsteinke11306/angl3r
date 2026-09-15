@@ -389,6 +389,12 @@ function renderMapView(data: RegsData): string {
 
 function renderResults(results: Result[]): string {
   if (results.length === 0) {
+    // An empty query with no filters is the starting state, not a failed
+    // search. Match the detail panel's placeholder tone; keep the explicit
+    // "no matches" message for actual typed queries.
+    if (!currentQuery && !currentSpecies && !currentCountyFilter) {
+      return `<div class="results"><div class="results__empty">Search for a lake or stream to see matching waterbodies.</div></div>`;
+    }
     return `<div class="results"><div class="results__empty">No matches. Try a different name or check the spelling.</div></div>`;
   }
   const groups = groupByCounty(results);
