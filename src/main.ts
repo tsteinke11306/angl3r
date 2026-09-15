@@ -21,8 +21,8 @@ import {
 
 // Vite rewrites these imports to fingerprinted URLs in the build, with the
 // correct base path. We use them as both <img src> and CSS url().
-import faviconUrl from "../public/logo.png";
-import brandLogoUrl from "../public/logo.png";
+import faviconUrl from "../public/favicon-32x32.png";
+import brandLogoUrl from "../public/logo-256.png";
 
 // ---------------------------------------------------------------------------
 // Data loading
@@ -394,8 +394,9 @@ function renderMapView(data: RegsData): string {
 
 function renderResults(results: Result[]): string {
   if (results.length === 0) {
-    // An empty query with no filters is not "no matches" — it's the
-    // starting state. Show an intro instead of an error.
+    // An empty query with no filters is the starting state, not a failed
+    // search. Show the intro panel; keep the explicit "no matches"
+    // message for actual typed queries that return nothing.
     if (!currentQuery && !currentSpecies && !currentCountyFilter) {
       return `
         <div class="results results__intro">

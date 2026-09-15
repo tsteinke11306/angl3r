@@ -36,7 +36,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: npm
 
       - name: Install Python tools
@@ -83,6 +83,11 @@ jobs:
             --survey-zip /tmp/summ_fishc_grow.zip \
             --inject
           cp data/regs.json public/data/regs.json
+          cp data/coords_by_waterbody.json public/data/coords_by_waterbody.json
+
+      - name: Validate data
+        run: |
+          python3 scripts/validate_data.py
 
       - name: Install npm dependencies
         run: npm ci

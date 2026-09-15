@@ -452,6 +452,38 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
     else:
         print("  DNR stocking CSV not found, skipping")
 
+    # Committed backfill sources: DNR Status of the Fishery report scrapes
+    # and curated river species research. Keyed (county -> waterbody name).
+    backfill_by_county = defaultdict(dict)
+    base_dir = os.path.dirname(regs_json_path)
+    for fname in ('status_fishery_species.json', 'river_species_research.json'):
+        fpath = os.path.join(base_dir, fname)
+        if not os.path.exists(fpath):
+            print(f"  Backfill source not found, skipping: {fname}")
+            continue
+        with open(fpath) as f:
+            src = json.load(f)
+        n = 0
+        if fname == 'status_fishery_species.json':
+            # county -> waterbody -> record
+            for county, wbs in src.items():
+                for name, rec in wbs.items():
+                    if isinstance(rec, dict) and rec.get('species'):
+                        backfill_by_county[county][name] = rec
+                        n += 1
+        else:
+            # river name -> {species, source}; one list applies to every
+            # county segment of that river (rivers span counties)
+            for river, rec in src.items():
+                if isinstance(rec, dict) and rec.get('species'):
+                    entry = dict(rec)
+                    entry.setdefault('note', 'River species from curated research')
+                    for wb in regs['waterbodies']:
+                        if wb['name'] == river and wb['kind'] in ('river', 'creek', 'stream'):
+                            backfill_by_county[wb['county']][river] = entry
+                            n += 1
+        print(f"  Backfill {fname}: {n} waterbody entries")
+
     merged_data = merge_datasets(summ_data, fishc_data, grow_data, dnr_data)
     print(f"  Combined: {len(merged_data)} unique lakes")
 
@@ -461,7 +493,7 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
         ds_by_county[county][(county, lake)] = data
 
     result = defaultdict(dict)
-    stats = {'matched': 0, 'unmatched': 0, 'no_species_data': 0, 'manual': 0, 'summ': 0, 'fishc': 0, 'grow': 0, 'dnr-stocking': 0, 'override': 0}
+    stats = {'matched': 0, 'unmatched': 0, 'no_species_data': 0, 'manual': 0, 'summ': 0, 'fishc': 0, 'grow': 0, 'dnr-stocking': 0, 'override': 0, 'backfill': 0}
 
     species_overrides = manual_raw.get('_species_overrides', {})
 
@@ -506,6 +538,22 @@ def build_species_by_waterbody(regs_json_path, survey_zip_path, target_county=No
             continue
 
         ds_lakes_for_county = ds_by_county.get(wb['county'], {})
+
+        # Backfill sources committed in the repo (DNR Status of the Fishery
+        # reports + curated river research). These must participate in every
+        # regen or CI silently drops the species data they provide.
+        backfill = backfill_by_county.get(wb['county'], {}).get(wb['name'])
+        if backfill:
+            result[wb['county']][wb['name']] = {
+                'species': sorted(backfill.get('species', [])),
+                'extras': sorted(backfill.get('extras', [])),
+                'source': backfill.get('source') or 'dnr-backfill',
+                'note': backfill.get('note', 'From committed DNR backfill sources'),
+                **({'dataset': backfill['dataset']} if backfill.get('dataset') else {}),
+            }
+            stats['matched'] += 1
+            stats['backfill'] += 1
+            continue
 
         manual_ds_name = manual_mapping.get((wb['county'], wb['name']))
         if manual_ds_name:
@@ -589,6 +637,7 @@ def main():
     print(f"    From FISHc: {stats['fishc']}")
     print(f"    From GROW: {stats['grow']}")
     print(f"    From manual mapping: {stats['manual']}")
+    print(f"    From backfill sources: {stats['backfill']}")
     print(f"  Waterbodies unmatched: {stats['unmatched']}")
     print(f"  Matched but no species data: {stats['no_species_data']}")
 
