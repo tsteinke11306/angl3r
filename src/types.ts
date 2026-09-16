@@ -127,7 +127,7 @@ export interface RegsData {
 export interface Waterbody {
   name: string;
   county: string;
-  source: "pdf" | "wikipedia";
+  source: "pdf" | "wikipedia" | "nhd";
   kind: "lake" | "river" | "stream" | "creek" | "pond" | "bay" | "harbor" | "channel";
   /** Type code for PDF entries (A-F, 1-4, GR, BTRA, SC). */
   type?: string;

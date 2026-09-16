@@ -8,8 +8,8 @@ export interface Result {
   kind: "lake" | "river" | "stream" | "creek" | "pond" | "bay" | "harbor" | "channel";
   name: string;
   county: string;
-  /** "pdf" = trout/salmon water with specific regs, "wikipedia" = named body, general regs apply */
-  source: "pdf" | "wikipedia";
+  /** "pdf" = trout/salmon water with specific regs, "wikipedia" = named body, general regs apply, "nhd" = USGS inventory name only */
+  source: "pdf" | "wikipedia" | "nhd";
   /** For PDF entries: the Type code (A-F, 1-4, GR, BTRA, SC). For Wikipedia: undefined. */
   type?: string;
   /** PDF source page. Undefined for Wikipedia. */

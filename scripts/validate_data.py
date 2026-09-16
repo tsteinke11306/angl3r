@@ -189,9 +189,12 @@ def main() -> int:
         )
 
     # (g) data/ vs public/data/ byte-identical
+    nhd_path = REPO_ROOT / "data" / "nhd_waterbodies.json"
+    pub_nhd_path = REPO_ROOT / "public" / "data" / "nhd_waterbodies.json"
     for src, dst in (
         (regs_path, pub_regs_path),
         (coords_path, pub_coords_path),
+        (nhd_path, pub_nhd_path),
     ):
         check(src.exists(), f"(g) missing {src}")
         check(dst.exists(), f"(g) missing {dst}")

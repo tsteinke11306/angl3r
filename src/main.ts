@@ -38,6 +38,45 @@ let DATA_PROMISE: Promise<RegsData> | null = null;
 // loads; falls back to a round figure if data is unavailable).
 let WATERBODY_COUNT_LABEL = "1,150+";
 
+// ---------------------------------------------------------------------------
+// NHD inventory (lazy): ~12k extra named waters (USGS NHD). Loaded on first
+// search so first paint stays fast; merged into result lists transparently.
+// ---------------------------------------------------------------------------
+interface NhdRecord {
+  name: string;
+  county: string;
+  kind: "lake" | "river" | "creek";
+  lat?: number;
+  lon?: number;
+  note: string;
+}
+let NHD: NhdRecord[] | null = null;
+let NHD_PROMISE: Promise<NhdRecord[]> | null = null;
+
+function loadNhd(): Promise<NhdRecord[]> {
+  if (NHD) return Promise.resolve(NHD);
+  if (NHD_PROMISE) return NHD_PROMISE;
+  const base = import.meta.env.BASE_URL || "/";
+  // Plain JSON fetch: GitHub Pages compresses it on the wire (~250KB gz).
+  NHD_PROMISE = fetch(`${base}data/nhd_waterbodies.json`)
+    .then(async (r) => {
+      if (!r.ok) return [];
+      return (await r.json() as { waterbodies: NhdRecord[] }).waterbodies;
+    })
+    .then((wbs) => {
+      NHD = wbs;
+      // Update the intro count now that the full inventory is known.
+      WATERBODY_COUNT_LABEL = (1154 + wbs.length).toLocaleString("en-US");
+      return wbs;
+    })
+    .catch(() => {
+      console.warn("nhd_waterbodies inventory unavailable");
+      NHD = [];
+      return NHD;
+    });
+  return NHD_PROMISE;
+}
+
 async function loadData(): Promise<RegsData> {
   if (DATA) return DATA;
   if (DATA_PROMISE) return DATA_PROMISE;
@@ -461,9 +500,47 @@ function renderDetailPlaceholder(): string {
   `;
 }
 
+/** Detail panel for NHD-only waters: name/kind/county + honest note that
+ * only statewide regulations apply and no survey data exists. */
+function renderNhdDetail(result: Result): string {
+  const rec = NHD?.find((r) => r.name === result.name && r.county === result.county);
+  const coords =
+    rec?.lat != null && rec?.lon != null
+      ? `<div class="detail__section">
+           <h3 class="detail__section-title">Location</h3>
+           <p class="detail__body">${rec.lat.toFixed(4)}, ${rec.lon.toFixed(4)} —
+             <a href="https://www.google.com/maps/search/?api=1&query=${rec.lat},${rec.lon}" target="_blank" rel="noopener">open in maps</a>
+           </p>
+         </div>`
+      : "";
+  const sizeLine =
+    rec && (rec as NhdRecord & { area_sqkm?: number; length_km?: number }).area_sqkm
+      ? `<p class="detail__hint">Watershed area ${(rec as NhdRecord & { area_sqkm: number }).area_sqkm.toFixed(2)} sq km</p>`
+      : rec && (rec as NhdRecord & { length_km?: number }).length_km
+        ? `<p class="detail__hint">Total length ${(rec as NhdRecord & { length_km: number }).length_km.toFixed(1)} km</p>`
+        : "";
+  return `
+    <h2 class="detail__title">${esc(result.name)}</h2>
+    <p class="detail__subtitle">${esc(result.county)} County · ${esc(capitalize(result.kind))}</p>
+    <div class="detail__badges">
+      <span class="badge">USGS NHD entry</span>
+    </div>
+    <div class="detail__section">
+      <h3 class="detail__section-title">Regulation designation</h3>
+      <p class="detail__body">This water is in the USGS National Hydrography Dataset but is not listed in the 2026 Michigan inland trout/salmon regulations, so it does not have a specific Type code. The statewide species rules (below) apply to all waters in ${esc(result.county)} County unless a county-specific exception is listed.</p>
+    </div>
+    ${sizeLine}
+    ${coords}
+  `;
+}
+
 function renderDetailForResult(result: Result, data: RegsData): string {
   const record = findExact(data, result.kind, result.name, result.county);
-  if (!record) return renderDetailPlaceholder();
+  if (!record) {
+    // NHD-only water: not in regs.json
+    if (result.source === "nhd") return renderNhdDetail(result);
+    return renderDetailPlaceholder();
+  }
 
   const isPdf = record.source === "pdf";
   const typeCode = record.type;
@@ -597,13 +674,25 @@ function renderDetailForResult(result: Result, data: RegsData): string {
     const extrasHtml = wbSpecies.extras?.length
       ? `<p class="detail__hint">Also noted: ${esc(wbSpecies.extras.join("; "))}</p>`
       : "";
+    // Source caption: survey metadata exists only for CHANGES-UM entries;
+    // other sources get an honest one-line provenance note instead.
+    const src = String(wbSpecies.source ?? "");
+    let provenance: string;
+    if (wbSpecies.survey_records != null) {
+      provenance = `From ${wbSpecies.survey_records} historical DNR survey(s) (${(wbSpecies.survey_years ?? []).slice(0, 3).join(", ")}${(wbSpecies.survey_years?.length || 0) > 3 ? "…" : ""}).`;
+    } else if (src.includes("stocking")) {
+      provenance = "From DNR fish stocking records (stocked species).";
+    } else if (src.includes("status") || src.includes("fishery")) {
+      provenance = "From DNR Status of the Fishery survey reports.";
+    } else if (src.startsWith("http")) {
+      provenance = "From DNR river survey research.";
+    } else {
+      provenance = "From DNR survey data.";
+    }
     speciesByWaterbodySection = `
       <div class="detail__section">
         <h3 class="detail__section-title">Species found here</h3>
-        <p class="detail__hint">
-          From ${wbSpecies.survey_records} historical DNR survey(s)
-          (${wbSpecies.survey_years?.slice(0, 3).join(", ")}${(wbSpecies.survey_years?.length || 0) > 3 ? "…" : ""}).
-        </p>
+        <p class="detail__hint">${esc(provenance)}</p>
         <div class="detail__species-chips">${speciesChips}</div>
         ${extrasHtml}
       </div>
@@ -851,7 +940,7 @@ function attachSearchHandlers(data: RegsData) {
         attachSearchHandlers(data);
         return;
       }
-      const results = doSearch(data);
+      const results = mergeNhdResults(doSearch(data));
       resultsContainer.innerHTML = renderResults(results);
       attachResultHandlers(data);
       // Auto-select the first result if nothing is selected
@@ -860,6 +949,17 @@ function attachSearchHandlers(data: RegsData) {
         updateDetailForSelected(data);
       } else if (selectedResult) {
         updateDetailForSelected(data);
+      }
+      // If the NHD inventory is still loading, re-run this search when it
+      // lands so inventory matches appear without needing another keystroke.
+      if (!NHD) {
+        void loadNhd().then(() => {
+          if (currentQuery === searchInput.value) {
+            const rerun = mergeNhdResults(doSearch(data));
+            resultsContainer.innerHTML = renderResults(rerun);
+            attachResultHandlers(data);
+          }
+        });
       }
     }, 80);
   });
@@ -912,21 +1012,50 @@ function attachSearchHandlers(data: RegsData) {
 }
 
 /**
- * Wrapper around search() that also factors in the species filter.
- * Currently, the species filter doesn't change WHICH waterbodies appear
- * (the warmwater baseline applies everywhere), but it could be used to
- * restrict to trout/salmon only, or to surface only waterbodies with
- * county-specific exceptions for the selected species.
+ * Wrapper around search() that also factors in the species filter AND
+ * merges in NHD inventory matches (lazily loaded).
  */
 function doSearch(data: RegsData): Result[] {
   // With a query, species filtering stays a detail-panel hint (the regs
   // baseline applies to nearly every water). With an empty query, the
   // species chip becomes the actual filter and lists matching waters.
+  // NHD results are merged separately once the inventory has loaded.
   const results = search(currentQuery, data, 50, currentQuery.trim() ? null : currentSpecies);
   if (currentSpecies === null) {
     return results;
   }
   return results;
+}
+
+/** Merge NHD inventory matches (name-prefix/substring) into results.
+ * NHD entries rank below site entries: they have names but no regs data. */
+function mergeNhdResults(base: Result[]): Result[] {
+  if (!NHD || NHD.length === 0) return base;
+  const q = currentQuery.trim().toLowerCase();
+  if (!q) return base;
+  // Skip the merge when the base list is already saturated — the user
+  // is still narrowing a common term.
+  if (base.length >= 50) return base;
+  const baseSet = new Set(base.map((r) => `${r.name}|${r.county}`));
+  const extras: Result[] = [];
+  for (const rec of NHD) {
+    const ln = rec.name.toLowerCase();
+    if (ln.includes(q) && !baseSet.has(`${rec.name}|${rec.county}`)) {
+      baseSet.add(`${rec.name}|${rec.county}`);
+      extras.push({
+        kind: rec.kind,
+        name: rec.name,
+        county: rec.county,
+        source: "nhd",
+        matchDistance: 5,
+        matchedField: "name",
+      });
+      if (base.length + extras.length >= 50) break;
+    }
+  }
+  return base.length + extras.length > 0
+    ? [...base, ...extras.sort((a, b) => a.name.localeCompare(b.name))]
+    : base;
 }
 
 /**
@@ -1290,6 +1419,10 @@ async function main() {
   // placeholder href; we update it now that the JS bundle has loaded.
   const favicon = document.getElementById("favicon") as HTMLLinkElement | null;
   if (favicon) favicon.href = faviconUrl;
+
+  // Kick off the NHD inventory fetch in the background — it only affects
+  // searches for waters not in the regs dataset.
+  void loadNhd();
 
   // Initial render: search view is default
   currentView = "search";

@@ -5,16 +5,20 @@ lake name, stream section, or county. Regulations come from the official
 [DNR 2026 Fishing Regulations](https://www.michigan.gov/dnr/things-to-do/fishing)
 PDF; the broader waterbody list comes from
 [Wikipedia's category tree](https://en.wikipedia.org/wiki/Category:Bodies_of_water_of_Michigan_by_county)
-(CC BY-SA 4.0). Historical fish survey data comes from the
+(CC BY-SA 4.0) plus the complete named-waters inventory from the
+[USGS National Hydrography Dataset](https://www.usgs.gov/national-hydrography/access-national-hydrography-products)
+(public domain, ~12k additional lakes/streams, lazily loaded). Historical fish
+survey data comes from the
 [CHANGES-UM dataset](https://doi.org/10.5281/zenodo.15389937) (CC BY 4.0),
 supplemented by the DNR fish stocking database and Status of the Fishery
 reports. The site is rebuilt automatically when the PDF is updated.
 
 🌐 **Live site:** https://tsteinke11306.github.io/angl3r/
 
-**At a glance:** 1,154 named waterbodies across all 83 Michigan counties,
-14 fish species with statewide regulations, per-county exceptions for
-45 counties, and historical species data for ~61% of waterbodies.
+**At a glance:** 1,154 regulation-backed waterbodies plus ~12,200 NHD-named
+waters across all 83 Michigan counties, 14 fish species with statewide
+regulations, per-county exceptions for 45 counties, and historical species
+data for ~61% of regulation-backed waterbodies.
 
 ## How it works
 
