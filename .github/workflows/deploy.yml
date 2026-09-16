@@ -72,9 +72,12 @@ jobs:
 
       - name: Download DNR fish stocking data
         if: steps.cache-dnr-stocking.outputs.cache-hit != 'true'
+        timeout-minutes: 5
         run: |
           mkdir -p species_research
-          wget -q -O species_research/dnr_stocking.csv "https://michigandnr.com/publications/PDFS/Fishing/FishStocking/FishStockingData.csv"
+          wget -q --timeout=60 --tries=3 --waitretry=5 \
+            -O species_research/dnr_stocking.csv \
+            "https://michigandnr.com/publications/PDFS/Fishing/FishStocking/FishStockingData.csv"
 
       - name: Map species by waterbody
         run: |
